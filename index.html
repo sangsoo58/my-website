@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Global Energy Optimization Lab</title>
+<style>
+
+body{
+font-family: Arial, Helvetica, sans-serif;
+margin:0;
+background:#f4f6f8;
+color:#222;
+}
+
+header{
+background:linear-gradient(120deg,#0a3d62,#1e5f8a);
+color:white;
+padding:100px 20px;
+text-align:center;
+}
+
+header h1{
+font-size:46px;
+margin-bottom:10px;
+}
+
+header p{
+font-size:20px;
+opacity:0.95;
+max-width:800px;
+margin:auto;
+}
+
+.hero-badges{
+margin-top:25px;
+font-size:14px;
+opacity:0.9;
+}
+
+nav{
+background:#0f2f44;
+position:sticky;
+top:0;
+text-align:center;
+padding:15px;
+z-index:1000;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+nav a{
+color:white;
+margin:0 16px;
+text-decoration:none;
+font-weight:bold;
+font-size:14px;
+}
+
+nav a:hover{opacity:0.7}
+
+/* Toggle Switch Styles */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 30px;
+  margin-left: 20px;
+}
+
+.switch input { opacity: 0; width: 0; height: 0; }
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: #1e88e5;
+  transition: .4s;
+  border-radius: 34px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 22px; width: 22px;
+  left: 4px; bottom: 4px;
+  background-color: white;
+  transition: .4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider { background-color: #444; }
+input:checked + .slider:before { transform: translateX(30px); }
+
+.lang-label {
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 8px;
+}
+
+.container{
+max-width:1150px;
+margin:auto;
+padding:70px 20px;
+}
+
+h2{
+color:#0a3d62;
+margin-bottom:20px;
+font-size:30px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:25px;
+}
+
+.card{
+background:white;
+padding:28px;
+border-radius:10px;
+box-shadow:0 6px 16px rgba(0,0,0,0.08);
+}
+
+.card h3{
+margin-top:0;
+color:#0a3d62;
+}
+
+.about{
+display:flex;
+flex-wrap:wrap;
+gap:40px;
+align-items:center;
+}
+
+.about img{
+width:210px;
+border-radius:10px;
+}
+
+.about-text{flex:1}
+
+.stats{
+background:#0a3d62;
+color:white;
+padding:70px 20px;
+}
+
+.stats-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+text-align:center;
+gap:30px;
+}
+
+.stat-number{
+font-size:42px;
+font-weight:bold;
+}
+
+.highlight{
+background:#eef4f8;
+padding:60px 20px;
+}
+
+.case{
+background:white;
+padding:22px;
+border-left:5px solid #1e88e5;
+border-radius:6px;
+}
+
+.cta{
+background:linear-gradient(120deg,#0a3d62,#1e5f8a);
+color:white;
+text-align:center;
+padding:80px 20px;
+}
+
+button{
+background:#1e88e5;
+border:none;
+color:white;
+padding:14px 28px;
+border-radius:6px;
+font-size:16px;
+cursor:pointer;
+margin-top:20px;
+}
+
+button:hover{opacity:0.9}
+
+footer{
+background:#0f2f44;
+color:white;
+padding:40px 20px;
+text-align:center;
+}
+
+/* Hide Korean by default */
+.ko { display: none; }
+
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="en">
+        <h1>Global Energy Optimization Lab</h1>
+        <p>Global Expert in AI-Based Energy Optimization, Smart Building Operation, Industrial Energy Efficiency, and Advanced Energy Analytics</p>
+        <div class="hero-badges">Mechanical Engineering PhD | 25+ Years Energy Consulting | Energy AI Specialist | Multiple Energy Optimization Patents</div>
+    </div>
+    <div class="ko">
+        <h1>글로벌 에너지 최적화 연구소</h1>
+        <p>AI 기반 에너지 최적화, 스마트 빌딩 운영, 산업 에너지 효율 및 고급 에너지 분석 분야의 글로벌 전문가</p>
+        <div class="hero-badges">공학박사(기계공학) | 25년 이상의 에너지 컨설팅 경력 | 에너지 AI 전문가 | 다수의 에너지 최적화 특허 보유</div>
+    </div>
+    <button onclick="scrollToContact()"><span class="en">Request Consulting</span><span class="ko">컨설팅 문의하기</span></button>
+</header>
+
+<nav>
+    <a href="#about"><span class="en">About</span><span class="ko">소개</span></a>
+    <a href="#services"><span class="en">Services</span><span class="ko">서비스</span></a>
+    <a href="#training"><span class="en">Training</span><span class="ko">교육</span></a>
+    <a href="#technology"><span class="en">Technology</span><span class="ko">기술</span></a>
+    <a href="#cases"><span class="en">Case Studies</span><span class="ko">성과 사례</span></a>
+    <a href="#contact"><span class="en">Contact</span><span class="ko">연락처</span></a>
+    
+    <label class="switch">
+        <input type="checkbox" id="langToggle" onchange="toggleLanguage()">
+        <span class="slider"></span>
+    </label>
+    <span class="lang-label" id="langIndicator">EN</span>
+</nav>
+
+<section class="container" id="about">
+    <h2 class="en">About the Expert</h2>
+    <h2 class="ko">전문가 소개</h2>
+    <div class="about">
+        <img src="photo.jpg" alt="Dr. Sangsoo" />
+        <div class="about-text">
+            <div class="en">
+                <p>Mechanical Engineering PhD and former CEO of an Energy Efficiency Consulting company with over 25 years of professional experience.</p>
+                <p>Specialist in industrial energy optimization, smart building operation, district heating systems, and AI-based energy analytics.</p>
+                <p>Combining deep engineering knowledge with modern Artificial Intelligence technologies including Machine Learning, Deep Learning, Python-based energy data analysis, and advanced engineering simulation and optimization using MATLAB.</p>
+                <p>Professional Certifications:</p>
+                <ul>
+                    <li>Industrial Safety Engineer</li>
+                    <li>Information Processing Engineer</li>
+                    <li>Big Data Analysis Engineer</li>
+                </ul>
+            </div>
+            <div class="ko">
+                <p>기계공학 박사이자 25년 이상의 전문 경력을 가진 에너지 효율 컨설팅 기업의 전 대표입니다.</p>
+                <p>산업 에너지 최적화, 스마트 빌딩 운영, 지역 난방 시스템 및 AI 기반 에너지 분석 전문가입니다.</p>
+                <p>머신러닝, 딥러닝, Python 기반 에너지 데이터 분석, MATLAB을 이용한 고급 공학 시뮬레이션 및 최적화를 포함한 현대 인공지능 기술과 깊은 공학적 지식을 결합합니다.</p>
+                <p>보유 자격증:</p>
+                <ul>
+                    <li>산업안전기사</li>
+                    <li>정보처리기사</li>
+                    <li>빅데이터분석기사</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="stats">
+    <div class="stats-grid">
+        <div>
+            <div class="stat-number">25+</div>
+            <p><span class="en">Years Experience</span><span class="ko">업력 (년)</span></p>
+        </div>
+        <div>
+            <div class="stat-number">10+</div>
+            <p><span class="en">Energy Patents</span><span class="ko">에너지 기술 특허</span></p>
+        </div>
+        <div>
+            <div class="stat-number">100+</div>
+            <p><span class="en">Consulting Projects</span><span class="ko">컨설팅 프로젝트</span></p>
+        </div>
+        <div>
+            <div class="stat-number">AI</div>
+            <p><span class="en">Energy Algorithms</span><span class="ko">에너지 최적화 알고리즘</span></p>
+        </div>
+    </div>
+</section>
+
+<section class="container" id="services">
+    <h2 class="en">Consulting Services</h2>
+    <h2 class="ko">컨설팅 서비스</h2>
+    <div class="grid">
+        <div class="card">
+            <h3 class="en">AI Energy Optimization</h3><h3 class="ko">AI 에너지 최적화</h3>
+            <p class="en">Machine learning prediction and optimization of building and industrial energy systems.</p>
+            <p class="ko">빌딩 및 산업 에너지 시스템의 머신러닝 예측 및 최적화.</p>
+        </div>
+        <div class="card">
+            <h3 class="en">Industrial Energy Efficiency</h3><h3 class="ko">산업 에너지 효율</h3>
+            <p class="en">Optimization of compressors, boilers, refrigeration systems and utilities.</p>
+            <p class="ko">컴프레서, 보일러, 냉동 시스템 및 유틸리티 최적화.</p>
+        </div>
+        <div class="card">
+            <h3 class="en">Smart Building Operation</h3><h3 class="ko">스마트 빌딩 운영</h3>
+            <p class="en">AI-driven HVAC control strategies using weather forecasting and load prediction.</p>
+            <p class="ko">기상 예보 및 부하 예측을 활용한 AI 기반 HVAC 제어 전략.</p>
+        </div>
+        <div class="card">
+            <h3 class="en">Data Center Energy</h3><h3 class="ko">데이터 센터 컨설팅</h3>
+            <p class="en">Energy diagnostics using virtual models and system simulation.</p>
+            <p class="ko">가상 모델 및 시스템 시뮬레이션을 활용한 에너지 진단.</p>
+        </div>
+        <div class="card">
+            <h3 class="en">Energy Data Analytics</h3><h3 class="ko">에너지 데이터 분석</h3>
+            <p class="en">Big data analysis using Python, machine learning, and energy system modeling.</p>
+            <p class="ko">Python, 머신러닝 및 에너지 시스템 모델링을 활용한 빅데이터 분석.</p>
+        </div>
+        <div class="card">
+            <h3 class="en">MATLAB Energy Modeling</h3><h3 class="ko">MATLAB 에너지 모델링</h3>
+            <p class="en">Advanced modeling, simulation, and optimization of energy systems using MATLAB.</p>
+            <p class="ko">MATLAB을 이용한 에너지 시스템의 고도화된 모델링, 시뮬레이션 및 최적화.</p>
+        </div>
+    </div>
+</section>
+
+<section class="container" id="training">
+    <h2 class="en">Professional Training Programs</h2>
+    <h2 class="ko">전문가 교육 프로그램</h2>
+    <div class="grid">
+        <div class="card">
+            <h3 class="en">AI for Energy Engineers</h3><h3 class="ko">에너지 엔지니어용 AI</h3>
+            <p class="en">Machine learning and data analytics applied to building and industrial energy systems.</p>
+            <p class="ko">빌딩 및 산업 에너지 시스템에 적용되는 머신러닝 및 데이터 분석.</p>
+        </div>
+        <div class="card">
+            <h3 class="en">Python for Energy Data</h3><h3 class="ko">에너지 데이터용 Python</h3>
+            <p class="en">Energy data processing and analysis using NumPy, Pandas and machine learning.</p>
+            <p class="ko">NumPy, Pandas 및 머신러닝을 활용한 에너지 데이터 분석 교육.</p>
+        </div>
+    </div>
+</section>
+
+<section class="container" id="technology">
+    <h2 class="en">Technology & Patents</h2>
+    <h2 class="ko">기술 및 특허</h2>
+    <ul class="en">
+        <li>Compressed Air System Energy Optimization</li>
+        <li>Refrigeration System Smart Operation</li>
+        <li>Boiler Energy Optimization</li>
+        <li>Real-Time Building Energy Diagnosis</li>
+        <li>Virtual Model Data Center Energy Diagnosis</li>
+        <li>District Heating Smart Supply Temperature Control</li>
+    </ul>
+    <ul class="ko">
+        <li>압축 공기 시스템 에너지 최적화</li>
+        <li>냉동 시스템 스마트 운전</li>
+        <li>보일러 에너지 최적화</li>
+        <li>실시간 빌딩 에너지 진단</li>
+        <li>가상 모델 기반 데이터 센터 에너지 진단</li>
+        <li>지역 난방 스마트 공급 온도 제어</li>
+    </ul>
+</section>
+
+<section class="highlight" id="cases">
+    <div class="container">
+        <h2 class="en">Example Consulting Impact</h2>
+        <h2 class="ko">주요 컨설팅 성과</h2>
+        <div class="grid">
+            <div class="case">
+                <strong class="en">Industrial Plant Optimization</strong><strong class="ko">산업 플랜트 에너지 최적화</strong>
+                <p class="en">Energy consumption reduction through system operation optimization.</p>
+                <p class="ko">시스템 운전 최적화를 통한 에너지 소비 절감.</p>
+            </div>
+            <div class="case">
+                <strong class="en">Smart Building HVAC</strong><strong class="ko">스마트 빌딩 HVAC 최적화</strong>
+                <p class="en">Energy reduction using predictive HVAC control strategies.</p>
+                <p class="ko">예측 기반 HVAC 제어 전략을 통한 에너지 절감.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="cta">
+    <h2 class="en">Looking for Energy Savings or AI Energy Solutions?</h2>
+    <h2 class="ko">에너지 절감 또는 AI 에너지 솔루션이 필요하십니까?</h2>
+    <p class="en">Consulting, training, and collaboration opportunities are welcome.</p>
+    <p class="ko">컨설팅, 교육 및 협업 문의를 환영합니다.</p>
+    <button onclick="scrollToContact()"><span class="en">Contact Now</span><span class="ko">지금 문의하기</span></button>
+</section>
+
+<section class="container" id="contact">
+    <h2 class="en">Contact</h2><h2 class="ko">문의처</h2>
+    <p>Email: sangsoo58@gmail.com</p>
+    <p class="en">International consulting inquiries welcome.</p>
+    <p class="ko">해외 컨설팅 문의 환영합니다.</p>
+</section>
+
+<footer>
+    <p>© 2026 Global Energy Optimization Lab</p>
+</footer>
+
+<script>
+function scrollToContact(){
+    document.getElementById("contact").scrollIntoView({behavior:"smooth"});
+}
+
+function toggleLanguage() {
+    const isKorean = document.getElementById('langToggle').checked;
+    const enElements = document.querySelectorAll('.en');
+    const koElements = document.querySelectorAll('.ko');
+    const label = document.getElementById('langIndicator');
+
+    if (isKorean) {
+        enElements.forEach(el => el.style.display = 'none');
+        koElements.forEach(el => el.style.display = 'block');
+        // Handle spans inside buttons/nav
+        document.querySelectorAll('span.ko').forEach(el => el.style.display = 'inline');
+        label.innerText = "KO";
+    } else {
+        enElements.forEach(el => el.style.display = 'block');
+        koElements.forEach(el => el.style.display = 'none');
+        document.querySelectorAll('span.en').forEach(el => el.style.display = 'inline');
+        label.innerText = "EN";
+    }
+}
+</script>
+
+</body>
+</html>
