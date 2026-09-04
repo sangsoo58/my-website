@@ -942,4 +942,103 @@ window.ENERGY_CASES = [
   }
 
 
+
+  ,{
+    id: "district-heating-smart-operation",
+    status: "published",
+    company: "국내 대형 공동주택 A단지",
+    category: "지역난방 · 공동주택 난방",
+    energyType: "열에너지",
+    equipment: "지역난방 열교환·공급수온 제어 · 거래용/세대 난방 계량",
+    title: "HDD Baseline 기반 지역난방 스마트 운전 최적화 및 절감성과 검증",
+    short: "고정운전과 스마트운전의 월별·시간대별 열사용 패턴을 외기온도와 난방도수일(HDD)로 보정하고, 공급수온을 부하에 따라 조정한 뒤 거래용 계량기 기준 절감성과를 Baseline과 비교 검증한 대형 공동주택 사례입니다.",
+    potential: "133 Gcal · 약 6.1%",
+    potentialLabel: "3개월 HDD 보정 절감실적",
+    verificationStatus: "보고서의 수정 Baseline 기준 · 12월 6.6%, 1월 4.9%, 2월 7.0% 절감",
+    tags: ["지역난방", "공동주택", "HDD", "공급수온", "Smart Control", "M&V"],
+    period: "과거 다년 난방데이터 기반 · 스마트운전 2021.12~2022.02 성과분석",
+    problem: [
+      "고정 공급수온 중심의 난방운전은 외기온도와 시간대별 실제 난방부하 변화를 충분히 반영하지 못해 불필요한 열공급 가능성이 있음",
+      "겨울철 월별 열사용량은 기상조건 차이에 크게 영향을 받기 때문에 개선 전·후 Gcal의 단순 비교가 아니라 HDD를 이용한 기상보정 Baseline이 필요",
+      "스마트 운전 후 거래용 계량기 열사용량의 감소가 세대 난방서비스 저하 때문인지 공급측 운전효율 개선 때문인지 확인하기 위해 세대 난방 계량과 거래용 계량을 함께 비교할 필요",
+      "하루 시간대별 열사용 패턴과 외기온도 변화에 맞춰 공급수온을 조정하고, HDD 부하구간별로 운전성과가 일관되게 나타나는지 검토할 필요"
+    ],
+    dataUsed: [
+      "과거 다년간 월별 거래용 열사용량(Gcal)과 난방도수일(HDD)",
+      "12월·1월·2월의 24시간대별 열사용량 및 외기온도 패턴",
+      "일별 HDD를 Low·Middle·High 구간으로 분류한 시간대별 열사용 패턴",
+      "5분 단위 외기온도와 공급수온의 Constant·Outdoor Air Reset·Smart Control 비교 데이터",
+      "세대 난방 소비열량과 거래용 계량기 열량의 스마트 운전 전·후 비교 데이터"
+    ],
+    detailMode: "diagnostic",
+    modelSectionTitle: "HDD Baseline 및 스마트 난방 제어 성과검증",
+    baselineModels: [
+      {
+        name: "거래용 계량기 수정 Baseline",
+        formula: "Qbase(Gcal) = 1.1958 × HDD + 45.761",
+        method: "과거 난방기간의 월별 HDD와 열사용량 상관관계를 이용해 스마트 운전기간의 정상 열사용량을 추정",
+        performance: "R² = 0.996 · CV = 0.0271 · 보고서의 '당초' 식이 아닌 '수정' Baseline을 공개 성과평가 기준으로 적용"
+      },
+      {
+        name: "세대 난방 소비 Baseline",
+        formula: "Qhouse(Gcal) ≈ 0.8301 × HDD − 41.878",
+        method: "세대 난방 소비열량과 HDD의 월별 상관관계를 별도로 구성하여 거래용 계량기 절감과 함께 비교",
+        performance: "R² ≈ 0.9937 · 세대측 난방소비와 공급측 거래열량의 변화를 분리해 검토하는 보조 검증지표"
+      },
+      {
+        name: "외기온도 연동 공급수온 Smart Control",
+        formula: "Ts = f(Tout, 시간대, 난방부하)",
+        method: "고정 공급수온과 단순 외기보상 제어 대신 5분 단위 외기조건 및 부하변화에 따라 공급수온을 가변 운전",
+        performance: "보고서의 5분 데이터에서 Constant·Outdoor Air Reset·Smart Control의 공급수온 제어패턴을 비교"
+      },
+      {
+        name: "시간대·HDD 구간별 패턴 분석",
+        formula: "HDD Low 6~13 · Middle 14~21 · High 22~30",
+        method: "월평균만 보지 않고 시간대 Part1~Part5와 HDD 부하구간별 열사용 패턴을 과거연도와 스마트운전 기간 사이에서 비교",
+        performance: "특정 시간대에서 스마트 운전 후 열사용 감소 패턴을 확인하고, 기상강도별 운전특성 차이를 함께 검토"
+      }
+    ],
+    opportunityTitle: "스마트 난방 운전 3개월 M&V 결과",
+    diagnosticHeaders: ["검증 구간", "HDD Baseline", "실제 열사용량", "절감성과"],
+    scenarios: [
+      {
+        name: "12월 스마트 운전",
+        baseline: "699 Gcal",
+        target: "653 Gcal",
+        saving: "46 Gcal · 6.6%",
+        note: "수정 HDD Baseline 기준 스마트 운전 첫 달의 거래용 계량기 열사용량 비교"
+      },
+      {
+        name: "1월 스마트 운전",
+        baseline: "799 Gcal",
+        target: "760 Gcal",
+        saving: "39 Gcal · 4.9%",
+        note: "동절기 HDD를 보정한 정상사용량 대비 실제 거래용 열사용량 절감"
+      },
+      {
+        name: "2월 스마트 운전",
+        baseline: "687 Gcal",
+        target: "639 Gcal",
+        saving: "48 Gcal · 7.0%",
+        note: "기상조건이 달라진 2월에도 수정 Baseline 대비 절감효과를 정량 검증"
+      },
+      {
+        name: "3개월 누적",
+        baseline: "2,185 Gcal",
+        target: "2,052 Gcal",
+        saving: "133 Gcal · 약 6.1%",
+        note: "12월·1월·2월의 수정 Baseline과 실제 사용량을 합산한 공개용 산술 집계"
+      },
+      {
+        name: "세대 난방 vs 거래용 계량 교차검증",
+        baseline: "세대 난방소비와 거래용 열사용량을 각각 HDD 기준으로 비교",
+        target: "스마트 운전 전·후 두 계량계층의 증감 패턴을 함께 확인",
+        saving: "M&V 신뢰도 보강",
+        note: "난방서비스와 공급측 열사용 변화를 분리해 해석하기 위한 보조 검증 절차"
+      }
+    ],
+    verification: "본 공개사례의 12월·1월·2월 절감성과는 보고서 내 '연도별 월별 소비 열량, 난방 도수일 비교(수정)'에 제시된 최종 Baseline 식(Qbase = 1.1958×HDD + 45.761)을 기준으로 정리했습니다. 보고서에는 앞선 '당초' Baseline과 후반부 일부 비교표에 이전 수치가 함께 남아 있으므로, 홈페이지에서는 수정본 수치를 우선 적용했습니다. 3개월 누적 133Gcal 및 약 6.1%는 월별 수정 Baseline 699·799·687Gcal과 실적 653·760·639Gcal을 합산한 값입니다. 실제 장기 성과평가 시에는 HDD 외에 입주율·급탕·민원·설정온도·설비운전 변경 등 영향요인을 함께 검토하는 것이 바람직합니다.",
+    sourceNote: "2022 지역난방 공동주택 스마트 운전 3개월 에너지절감 실적 분석자료 기반 · 고객사명·단지명·지역명·기계실 식별정보 비식별 처리"
+  }
+
 ];
