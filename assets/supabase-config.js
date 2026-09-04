@@ -9,6 +9,6 @@
  *       service_role / secret key는 절대 넣지 마십시오.
  */
 window.ENERGY_SUPABASE_CONFIG = {
-  url: 'https://YOUR_PROJECT_REF.supabase.co',
-  key: 'YOUR_SUPABASE_PUBLISHABLE_KEY'
+  url: 'https://sdwwuvxtmxkrezoapucv.supabase.co',
+  key: 'Ysb_publishable_EqdqkZlErOPomFqbXkBYEw_WnwhjUBu'
 };
