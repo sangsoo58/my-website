@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
-Sitemap: https://energy-ai-optimization.com/sitemap.xml
+Sitemap: https://www.energy-ai-optimization.com/sitemap.xml
