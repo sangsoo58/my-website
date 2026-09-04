@@ -1868,4 +1868,121 @@ window.ENERGY_CASES = [
     sourceNote: "국내 철강 제조시설의 용해로 에너지절감·조업현황 분석 및 운전최적화 보고서 기반 · 고객사명·사업장명·내부 라인번호·용해로 번호·제품코드 비식별 처리"
   }
 
+
+  ,{
+    id: "nonferrous-copper-utility-baseline-optimization",
+    status: "published",
+    company: "국내 비철금속(구리) 제조 B사",
+    category: "비철금속 · 구리 제조 · Utility & M&V",
+    energyType: "전기",
+    equipment: "생산설비 · 공조기 · 공기압축기 · 냉동기 · 기타 Utility",
+    title: "비철금속(구리) 제조공장 Utility 8% 절감목표·Baseline·M&V 설계",
+    short: "3개년 월별 생산전력과 공조·압축공기·냉동기·기타 Utility 전력을 분리 분석하고, Low Delta T·압축기 Loading/Unloading·에너지성능 Benchmark를 근거로 8% 절감목표를 설정한 뒤 생산전력 연동 월별 Factor로 절감량을 평가하도록 설계한 사례입니다.",
+    potential: "8% 절감 목표",
+    potentialLabel: "Utility 운전최적화 사업 목표",
+    verificationStatus: "제한된 데이터 환경에서 냉동기·압축공기·공조/기타 Utility의 8~10% 절감잠재량을 검토해 8% 목표 설정 · 실제 성과는 월별 Factor Baseline으로 M&V",
+    tags: ["비철금속", "구리", "Utility", "공조기", "공기압축기", "냉동기", "Low Delta T", "Baseline", "M&V", "8% 절감"],
+    period: "2016~2019년 월별 검침정보 · 2018년 압축기 Loading/Unloading · 계절별 냉동기 운전자료",
+    problem: [
+      "생산설비 전력은 3개년 동안 상대적으로 큰 변화가 없지만 지원 Utility 전력은 증가하여 생산량 변화와 Utility 비효율을 분리할 필요",
+      "월단위 데이터만으로는 냉동기·펌프의 정확한 에너지성능과 수요-공급 Balance를 정밀하게 분석하는 데 한계가 있어 목표설정 근거와 사후 M&V 기준을 분리해 설계할 필요",
+      "냉수 입·출구온도차가 4월 3.8℃, 7월 3.1℃, 10월 3.4℃로 설계사양 8℃에 크게 미달하는 Low Delta T 현상이 확인되어 냉동기 플랜트 운전개선 여지가 존재",
+      "공기압축기의 Unloading 전력소비 비율이 약 11%로 분석되어 운전조합·부하율·압력 및 Unloading 손실 개선 가능성이 존재",
+      "지원설비 전력은 동절기보다 하절기에 증가하므로 계절성을 반영한 월별 Baseline 없이는 절감량을 공정하게 평가하기 어려움"
+    ],
+    dataUsed: [
+      "Utility 설비사양 및 가동정보",
+      "모니터링 운전데이터",
+      "2016~2019년 월별 검침정보",
+      "전기 단선도",
+      "계절별 일별 냉동기 냉수 입·출구온도 기록",
+      "2018년 월별 공기압축기 Loading/Unloading 데이터",
+      "2016~2018년 생산설비·공조기·공기압축기·냉동기·기타 Utility 월별 전력사용량"
+    ],
+    modelSectionTitle: "8% 절감목표 설정 근거와 생산전력 연동 M&V 기준",
+    baselineModels: [
+      {
+        name: "Low Delta T 기반 냉동기 절감잠재량",
+        formula: "ΔT = 냉수 환수온도 − 냉수 공급온도",
+        method: "계절별 냉수 입·출구온도차를 설계 ΔT와 비교하여 과유량·저ΔT 운전 및 냉동기시스템 개선여부 판단",
+        performance: "실측 평균 ΔT: 4월 3.8℃ · 7월 3.1℃ · 10월 3.4℃ / 설계사양 8℃"
+      },
+      {
+        name: "냉동기 에너지성능 Benchmark",
+        formula: "Chiller UPI = kWh / RT",
+        method: "정확한 개별 소비전력 원단위가 없는 조건에서 기존 고객사 냉동기 성능분포와 현장 최적화 경험을 이용해 잠재량 범위를 검토",
+        performance: "대상 냉동기 UPI를 약 0.60~0.64 kWh/RT 수준으로 추정 · 저온냉동기 Benchmark 평균 약 0.646 · 절감잠재량 약 8~10% 예상"
+      },
+      {
+        name: "공기압축기 운전성능",
+        formula: "Compressed Air UPI = kWh / Nm³",
+        method: "압축기별 Loading/Unloading 운전자료와 기존 고객사 에너지성능 분포를 이용해 운전개선 잠재량 검토",
+        performance: "Unloading 전력소비 비율 약 11% · 고압공기압축기 Benchmark 평균 UPI 약 0.117 · 절감잠재량 약 8~10% 예상"
+      },
+      {
+        name: "월별 Utility Factor",
+        formula: "Factor(m) = [기준년 총전력(m) − 기준년 생산전력(m)] / 기준년 생산전력(m)",
+        method: "월별 생산공정 전력을 활동량 Proxy로 사용하고 Utility·기타 전력을 생산전력 대비 비율로 정규화",
+        performance: "연간 종합 Factor: 2016년 2.80 · 2017년 2.62 · 2018년 2.92 · 3년 평균 2.78"
+      },
+      {
+        name: "월별 절감량 M&V",
+        formula: "Saving(m) = 당월 생산전력(m) × 기준 Factor(m) − [당월 총전력(m) − 당월 생산전력(m)]",
+        method: "당월 생산활동 수준을 보정한 예상 Utility 전력과 실제 Utility 전력의 차이를 절감량으로 평가",
+        performance: "최근 1년 월별 Factor 또는 3개년 월별 평균 Factor를 계약 Baseline으로 사전 합의해 적용"
+      },
+      {
+        name: "2018년 Utility 전력 구조",
+        formula: "Utility Share = 설비별 Utility 전력 / 총 전력",
+        method: "공조기·압축공기·냉동기·기타 Utility의 연간 사용량을 비교해 우선관리 대상을 선정",
+        performance: "공조기 9,920,170kWh · 압축공기 2,241,097kWh · 냉동기 6,379,070kWh · 기타 Utility 13,969,977kWh"
+      }
+    ],
+    scenarios: [
+      {
+        name: "사업 절감목표",
+        baseline: "제한된 월단위 데이터 + 계절별 냉동기 온도 + 압축기 Loading/Unloading 자료",
+        target: "냉동기·압축공기·공조기·기타 Utility 운전최적화",
+        saving: "8% 절감 목표",
+        note: "각 주요 Utility에서 약 8~10%의 절감잠재량을 예상하되 데이터 한계를 고려하여 사업 목표를 8%로 설정"
+      },
+      {
+        name: "냉동기 Low Delta T 개선",
+        baseline: "실측 ΔT 3.1~3.8℃ / 설계 8℃",
+        target: "수요측 유량·밸브·펌프·냉동기 운전 Balance를 개선하여 Low Delta T 완화",
+        saving: "냉동기 시스템 약 5~10% 개선 경험 · 대상 잠재량 약 8~10% 예상",
+        note: "5~10%는 기존 현장 최적화 경험, 8~10%는 대상설비 성능을 평균 수준으로 가정한 보고서의 잠재량 판단"
+      },
+      {
+        name: "공기압축기 운전최적화",
+        baseline: "Unloading 전력소비 비율 약 11%",
+        target: "수요에 맞는 가동대수·Loading/Unloading·토출압력 최적화",
+        saving: "약 8~10% 절감잠재량 예상",
+        note: "제한된 정보와 기존 고객사 성능분포를 이용한 잠재량 판단이며 적용 후 실측 검증 필요"
+      },
+      {
+        name: "공조기·기타 Utility 최적화",
+        baseline: "생산전력 대비 지원설비 전력이 증가하고 하절기 Factor가 높음",
+        target: "생산부하와 계절조건에 연동한 공조·기타 Utility 운전",
+        saving: "냉동기·공기압축기와 유사한 수준의 개선잠재량 검토",
+        note: "개별 설비 정밀 절감량은 5~10분 데이터 확보 후 산정"
+      },
+      {
+        name: "최근 1년 Factor 기준 M&V",
+        baseline: "2018년 월별 Factor",
+        target: "최근 운전상태를 반영한 월별 Baseline으로 개선 후 절감량 평가",
+        saving: "월별 생산전력 보정 절감량",
+        note: "보고서에서는 최근 1년 실적 반영이 현실적이라는 의견을 제시"
+      },
+      {
+        name: "3개년 평균 Factor 기준 M&V",
+        baseline: "2016~2018년 월별 평균 Factor",
+        target: "특정 연도의 이상상태 영향을 완화한 장기 평균 Baseline 적용",
+        saving: "3개년 평균 기준 월별 절감량",
+        note: "절감배분 계약에서는 어느 Factor를 사용할지 사전에 고객과 합의 필요"
+      }
+    ],
+    verification: "사업 절감목표 8%는 정밀 실측에 의해 확정된 절감잠재량이 아니라 제한된 데이터 조건에서 설정한 목표값입니다. 근거는 ① 냉동기 냉수 ΔT가 설계 8℃보다 크게 낮은 3.1~3.8℃로 Low Delta T가 확인된 점, ② 기존 현장경험에서 Low Delta T 개선으로 냉동기시스템 약 5~10%의 절감효과를 확인한 점, ③ 대상 냉동기 성능이 평균 또는 평균보다 약간 우수한 수준으로 추정되며 약 8~10%의 개선여지가 있다고 판단한 점, ④ 공기압축기 Unloading 전력비율 약 11%와 Benchmark를 고려해 약 8~10% 잠재량을 판단한 점입니다. 실제 절감성과는 생산전력 연동 월별 Factor Baseline을 사전 합의하고 개선 후 실적을 적용해 M&V해야 합니다. 정밀 잠재량 분석을 위해서는 냉동기·펌프 소비전력, 냉수/냉각수 입출구온도, 밸브개도에 대한 계절별 1주일 이상의 5~10분 단위 데이터 확보가 필요합니다.",
+    sourceNote: "국내 비철금속(구리) 제조시설의 3개년 전력분석, Utility 절감량 산정방식 및 8% 절감목표 산정근거 자료 기반 · 고객사명·공장명·내부 생산공정명·설비 식별정보 비식별 처리"
+  }
 ];
