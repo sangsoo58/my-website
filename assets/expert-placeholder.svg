@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 920" role="img" aria-label="전문가 사진 자리 표시자">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#eaf4f1"/><stop offset="1" stop-color="#cadfd9"/></linearGradient>
+  </defs>
+  <rect width="800" height="920" fill="url(#bg)"/>
+  <circle cx="400" cy="310" r="135" fill="#8bb9ad" opacity=".55"/>
+  <path d="M160 870c25-205 120-320 240-320s215 115 240 320" fill="#8bb9ad" opacity=".55"/>
+  <rect x="245" y="770" width="310" height="72" rx="36" fill="#0f6b5a" opacity=".92"/>
+  <text x="400" y="816" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#fff">EXPERT PHOTO</text>
+</svg>
