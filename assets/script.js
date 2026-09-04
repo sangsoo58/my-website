@@ -21,7 +21,6 @@
       toggle.setAttribute('aria-expanded', String(open));
       toggle.setAttribute('aria-label', open ? '메뉴 닫기' : '메뉴 열기');
     });
-
     nav.querySelectorAll('a').forEach((link) => {
       link.addEventListener('click', () => {
         nav.classList.remove('open');
@@ -47,9 +46,16 @@
 
   const params = new URLSearchParams(window.location.search);
   if (status && params.get('sent') === '1') {
-    status.textContent = '상담 요청이 접수되었습니다. 확인 후 연락드리겠습니다.';
+    if (params.get('mail') === '0') {
+      status.textContent = '상담 요청이 정상 접수·저장되었습니다. 이메일 알림은 지연될 수 있으나 관리자 상담목록에서 확인할 수 있습니다.';
+    } else {
+      status.textContent = '상담 요청이 정상 접수되었습니다. 확인 후 연락드리겠습니다.';
+    }
   } else if (status && params.get('sent') === '0') {
-    status.textContent = '전송 중 문제가 발생했습니다. 이메일 또는 전화로 문의해 주세요.';
+    const reason = params.get('reason');
+    status.textContent = reason === 'storage'
+      ? '상담 저장 중 문제가 발생했습니다. 이메일 또는 전화로 문의해 주세요.'
+      : '입력 내용을 확인한 후 다시 제출해 주세요.';
   }
 
   if (form) {
