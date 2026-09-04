@@ -2444,4 +2444,131 @@ window.ENERGY_CASES = [
     sourceNote: "국내 대형 부생가스 발전소의 주요 보조기기 운전최적화 시스템 구축 제안자료 기반 · 고객사명·지역명·발전호기 번호 등 식별정보 비식별 처리"
   }
 
+
+  ,{
+    id: "semiconductor-display-multisite-upi-optimization",
+    status: "published",
+    company: "국내 반도체·디스플레이 제조 F사",
+    category: "반도체·디스플레이 · Multi-site Utility · UPI Benchmark",
+    energyType: "전기",
+    equipment: "저온냉동기 · 고온냉동기 · 냉수펌프 · CDA 공기압축기",
+    title: "4개 생산시설 냉동기·공기압축기 UPI Benchmark 및 가동대수 최적화",
+    short: "4개 반도체·디스플레이 생산시설의 저온·고온 냉동기와 공기압축기 Utility를 계절별로 비교하여 UPI, 시스템 부하율, 가동대수와 필요대수, 냉수 헤더 By-Pass 밸브 운전상태를 분석하고 전력비 절감잠재량을 추정한 Multi-site Benchmarking 사례입니다.",
+    potential: "약 41.02억원/년 · 약 3.9%",
+    potentialLabel: "보고서 기준 Utility 종합 절감잠재량 추정",
+    verificationStatus: "2016년 에너지비용 및 계절별 UPI Benchmark 기반 추정 · 개선 완료 후 확정 절감실적이 아님",
+    tags: ["반도체", "디스플레이", "Multi-site", "냉동기", "공기압축기", "CDA", "UPI", "가동대수", "By-Pass", "Benchmark"],
+    period: "2016년 연간 에너지비용 및 계절별 운전데이터 분석 · 2018.1 보고",
+    problem: [
+      "4개 생산시설에 동일 계열 Utility가 운영되지만 생산시설·계절별 UPI와 운전패턴 편차가 존재하여 Best Performance Benchmark 기반 관리가 필요",
+      "저온·고온 냉동기에서 실제 가동대수가 부하 기반 필요대수보다 많은 구간이 존재해 과다 가동대수에 따른 펌프·냉동기 보조전력 증가 가능성",
+      "일부 생산시설의 냉수 헤더 By-Pass 밸브가 높은 개도율로 운전되어 불필요 유량순환 및 펌프동력 증가 가능성",
+      "CDA 공기압축기에서도 생산시설별 UPI와 유량기준 부하율, 실제 가동대수와 필요대수 차이가 확인되어 운전조합 최적화 필요",
+      "절감기회를 설비교체 중심이 아니라 생산시설 간 동일 조건 성능비교와 계절별 Best UPI Benchmark를 이용해 우선 발굴할 필요"
+    ],
+    dataUsed: [
+      "4개 생산시설의 계절별 저온냉동기 에너지비용",
+      "4개 생산시설의 계절별 고온냉동기 에너지비용",
+      "4개 생산시설의 계절별 CDA 공기압축기 에너지비용",
+      "냉동기 및 냉수펌프 UPI(kWh/RT)",
+      "공기압축기시스템 UPI(kWh/m³)",
+      "냉동기 시스템 부하율",
+      "공기압축기 유량기준·동력기준 부하율",
+      "실제 가동대수와 부하 기반 필요대수",
+      "냉수 헤더 By-Pass 밸브 개도율"
+    ],
+    modelSectionTitle: "4개 생산시설 Utility Benchmark 및 절감잠재량 산정 기준",
+    baselineModels: [
+      {
+        name: "저온냉동기 시스템 UPI",
+        formula: "LT UPI = (냉동기 + 냉수펌프 소비전력) / 냉동부하(RT)",
+        method: "4개 생산시설의 봄·여름·가을·겨울 UPI를 비교해 우수 운전수준과 개선대상을 선정",
+        performance: "전체 연평균 약 0.59kWh/RT · 절감잠재 UPI 약 0.03 · 개선율 약 4.8%"
+      },
+      {
+        name: "고온냉동기 시스템 UPI",
+        formula: "HT UPI = (냉동기 + 냉수펌프 소비전력) / 냉동부하(RT)",
+        method: "시설 및 계절별 UPI와 부하율을 비교해 냉동기·펌프 통합효율을 평가",
+        performance: "전체 연평균 약 0.47kWh/RT · 절감잠재 UPI 약 0.01 · 개선율 약 1.6%"
+      },
+      {
+        name: "CDA 공기압축기 UPI",
+        formula: "CDA UPI = 공기압축기시스템 소비전력(kWh) / 압축공기 생산량(m³)",
+        method: "4개 생산시설의 계절별 CDA 생산원단위를 비교하고 Best UPI 수준을 Benchmark로 활용",
+        performance: "전체 연평균 약 0.119kWh/m³ · 절감잠재 UPI 약 0.006 · 개선율 약 4.7%"
+      },
+      {
+        name: "냉동기 필요대수",
+        formula: "Required Chillers = Cooling Load / Available Unit Capacity",
+        method: "실제 냉동기 가동대수와 부하 기반 필요대수를 계절별로 비교",
+        performance: "저온냉동기 4개 시설 합계 연평균 초과 가동대수 약 2.9대 · 고온냉동기 약 1.7대"
+      },
+      {
+        name: "CDA 필요대수",
+        formula: "Required Compressors = Air Demand / Available Compressor Capacity",
+        method: "실제 가동대수와 압축공기 수요 기반 필요대수의 차이를 비교",
+        performance: "4개 생산시설 합계 연평균 가동 53.9대 vs 필요 46.6대 · 초과 약 7.3대"
+      },
+      {
+        name: "냉수 By-Pass 관리",
+        formula: "By-Pass Loss ∝ By-Pass Flow × Pump Head",
+        method: "생산시설별 계절 평균 냉수 헤더 By-Pass 밸브 개도율을 비교해 불필요 순환유량 가능성을 평가",
+        performance: "일부 저온계통 연평균 약 64%, 37% · 고온계통 약 20~43% 수준의 높은 개도구간 확인"
+      }
+    ],
+    scenarios: [
+      {
+        name: "저온냉동기 UPI Benchmark",
+        baseline: "전체 연평균 UPI 약 0.59kWh/RT",
+        target: "동일 계절·유사부하의 우수 생산시설 UPI를 Benchmark로 적용",
+        saving: "약 5.65억원/년 추정",
+        note: "보고서상 LT 전체 UPI 개선율 약 4.8% 기준"
+      },
+      {
+        name: "고온냉동기 UPI Benchmark",
+        baseline: "전체 연평균 UPI 약 0.47kWh/RT",
+        target: "냉동기·냉수펌프 통합 UPI를 우수 수준으로 개선",
+        saving: "약 4.30억원/년 추정",
+        note: "보고서상 HT 전체 UPI 개선율 약 1.6% 기준"
+      },
+      {
+        name: "CDA 공기압축기 UPI Benchmark",
+        baseline: "전체 연평균 UPI 약 0.119kWh/m³",
+        target: "시설·계절별 우수 UPI와 가동조합을 기준으로 운전최적화",
+        saving: "약 31.07억원/년 추정",
+        note: "보고서상 CDA 전체 UPI 개선율 약 4.7% 기준"
+      },
+      {
+        name: "냉동기 가동대수 최적화",
+        baseline: "저온계통 합계 초과 약 2.9대 · 고온계통 약 1.7대",
+        target: "부하에 따라 실제 가동대수를 필요대수 수준으로 조정",
+        saving: "냉동기·냉수펌프 불필요 병렬운전 저감",
+        note: "최소유량·N+1·공정안정성 조건을 확인한 후 적용"
+      },
+      {
+        name: "냉수 헤더 By-Pass 최소화",
+        baseline: "일부 생산시설에서 높은 By-Pass 개도율 지속",
+        target: "최소유량 조건을 만족하면서 By-Pass 유량을 최소화",
+        saving: "냉수펌프 동력 및 불필요 순환손실 저감",
+        note: "밸브개도율 자체가 곧 절감률을 의미하지 않으며 실제 유량 확인 필요"
+      },
+      {
+        name: "CDA 가동대수 최적화",
+        baseline: "4개 시설 합계 연평균 가동 53.9대 · 필요 46.6대",
+        target: "수요량·압력·개별기기 성능을 반영한 필요대수 운전",
+        saving: "평균 약 7.3대 초과운전 구간 개선 잠재",
+        note: "공정 압력품질과 Reserve 조건을 유지하는 범위에서 적용"
+      },
+      {
+        name: "Utility 종합 절감잠재량",
+        baseline: "2016년 분석대상 Utility 비용 약 1,044.96억원/년",
+        target: "LT·HT 냉동기 및 CDA UPI Benchmark + 운전대수·By-Pass 최적화",
+        saving: "약 41.02억원/년 · 약 3.9%",
+        note: "5.65 + 4.30 + 31.07억원의 보고서 추정치 합산값이며 확정 실적이 아님"
+      }
+    ],
+    verification: "본 사례의 연간 약 41.02억원 및 약 3.9%는 2016년 에너지비용과 시설·계절별 UPI Benchmark를 이용한 절감잠재량 추정입니다. 실제 절감성과가 확정된 값은 아닙니다. 개선 실행 시에는 생산량·냉동부하·압축공기 수요·외기조건·공정품질 조건을 반영한 Baseline을 설정하고, 가동대수·By-Pass·운전조합 변경 전후의 동일 조건 UPI와 에너지사용량을 비교하여 M&V해야 합니다.",
+    sourceNote: "국내 반도체·디스플레이 제조시설 4개 생산거점의 냉동기·공기압축기 UPI 및 운전패턴 분석자료 기반 · 고객사명·생산시설 코드 등 식별정보 비식별 처리"
+  }
+
 ];
