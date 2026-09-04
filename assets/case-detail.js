@@ -27,7 +27,30 @@
 
   document.title = `${item.company} 에너지 절감 사례 | 글로벌 에너지 최적화 연구소`;
 
-  const list = (items) => `<ul>${items.map((value) => `<li>${escapeHtml(value)}</li>`).join('')}</ul>`;
+  const list = (items = []) => `<ul>${items.map((value) => `<li>${escapeHtml(value)}</li>`).join('')}</ul>`;
+  const hasPhases = Array.isArray(item.phases) && item.phases.length > 0;
+  const modelNo = hasPhases ? '04' : '03';
+  const opportunityNo = hasPhases ? '05' : '04';
+
+  const phasesHtml = hasPhases ? `
+    <section class="case-detail-section phase-section">
+      <p class="eyebrow">03 · TWO-YEAR PROGRAM</p>
+      <h2>1차년도와 2차년도 수행내용</h2>
+      <p class="phase-intro">동일 고객사에 대해 수행한 2개년 프로젝트의 목적과 성과를 구분해 공개합니다. 1차년도 정량 절감성과와 2차년도 시스템 확대·표준화 성과를 혼동하지 않도록 분리했습니다.</p>
+      <div class="phase-grid">
+        ${item.phases.map((phase) => `
+          <article class="phase-card">
+            <div class="phase-card-head">
+              <span class="phase-year">${escapeHtml(phase.year)}</span>
+              <small>${escapeHtml(phase.period)}</small>
+            </div>
+            <h3>${escapeHtml(phase.focus)}</h3>
+            <p>${escapeHtml(phase.summary)}</p>
+            ${list(phase.results)}
+            <div class="phase-outcome"><strong>핵심 결과</strong><span>${escapeHtml(phase.outcome)}</span></div>
+          </article>`).join('')}
+      </div>
+    </section>` : '';
 
   root.innerHTML = `
     <section class="case-detail-hero">
@@ -67,9 +90,11 @@
       </div>
     </section>
 
+    ${phasesHtml}
+
     <section class="case-detail-section">
-      <p class="eyebrow">03 · BASELINE / MODEL</p>
-      <h2>Baseline 및 예측모델</h2>
+      <p class="eyebrow">${modelNo} · BASELINE / MODEL</p>
+      <h2>${escapeHtml(item.modelSectionTitle || 'Baseline 및 예측모델')}</h2>
       <div class="model-grid">
         ${item.baselineModels.map((model) => `
           <article class="model-card">
@@ -84,7 +109,7 @@
     </section>
 
     <section class="case-detail-section">
-      <p class="eyebrow">04 · ${item.detailMode === 'diagnostic' ? 'DIAGNOSTIC FINDINGS' : 'SAVING OPPORTUNITY'}</p>
+      <p class="eyebrow">${opportunityNo} · ${item.detailMode === 'diagnostic' ? 'DIAGNOSTIC FINDINGS' : 'SAVING OPPORTUNITY'}</p>
       <h2>${escapeHtml(item.opportunityTitle || '1차 절감 잠재량 시나리오')}</h2>
       <div class="scenario-table-wrap">
         <table class="scenario-table">
