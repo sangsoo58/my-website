@@ -9,9 +9,9 @@
  */
 window.ENERGY_CASES = [
   {
-    id: "daesung-metal",
+    id: "manufacturing-case-a",
     status: "published",
-    company: "대성금속",
+    company: "국내 제조 A사",
     category: "열처리 · M&V",
     energyType: "전기",
     equipment: "열처리로#3 · 템퍼로#1",
@@ -62,9 +62,9 @@ window.ENERGY_CASES = [
     sourceNote: "에스코프로 실증사이트 MES·EMS 분석 및 M&V Plan 기반"
   },
   {
-    id: "hanseong",
+    id: "manufacturing-case-b",
     status: "published",
-    company: "한성",
+    company: "국내 제조 B사",
     category: "열처리 · Baseline",
     energyType: "전기",
     equipment: "ACF#3 · 템퍼로#1 · 템퍼로#2",
@@ -111,12 +111,12 @@ window.ENERGY_CASES = [
       }
     ],
     verification: "E5 동일품목·134kg 기준으로 설비대기, 품질재작업, 목표온도와 가열 Profile을 동일하게 맞춘 뒤 M&V를 수행합니다. 템퍼로#2는 모델 오차가 상대적으로 커 예외일·운전조건 검토를 강화합니다.",
-    sourceNote: "에스코프로 한성 MES·EMS 분석 및 M&V Plan 기반"
+    sourceNote: "에스코프로 국내 제조 B사 MES·EMS 분석 및 M&V Plan 기반"
   },
   {
-    id: "bucheon-casting",
+    id: "manufacturing-case-c",
     status: "published",
-    company: "부천주물",
+    company: "국내 제조 C사",
     category: "주조 · 원단위",
     energyType: "전기",
     equipment: "주조공정",
@@ -151,12 +151,12 @@ window.ENERGY_CASES = [
       }
     ],
     verification: "동일 재질·용해 Charge·Mold 조건에서 투입량, 양품중량, 불량량과 전력량을 동시에 계측해 회수율 개선 효과를 검증합니다. 생산톤수 확대와 대기·저부하 축소 효과는 별도로 정량화합니다.",
-    sourceNote: "에스코프로 부천주물 MES·EMS 분석 및 절감잠재량 보고서 기반"
+    sourceNote: "에스코프로 국내 제조 C사 MES·EMS 분석 및 절감잠재량 보고서 기반"
   },
   {
-    id: "konec",
+    id: "manufacturing-case-d",
     status: "published",
-    company: "코넥",
+    company: "국내 제조 D사",
     category: "용해 · 주조 · M&V",
     energyType: "가스 · 전기",
     equipment: "용해로#2 · 용해로#4 · 주조기#8",
@@ -217,12 +217,12 @@ window.ENERGY_CASES = [
       }
     ],
     verification: "용해로#2·#4는 동일 운전조건에서 출탕량 Q2→Q3 확대 시 원단위 변화를 검증하고 출탕온도·대기시간을 함께 기록합니다. 주조기#8은 동일 제품·Recipe에서 Batch 크기만 비교합니다.",
-    sourceNote: "에스코프로 코넥 M&V Plan 및 수정 Baseline 절감잠재량 보고서 기반"
+    sourceNote: "에스코프로 국내 제조 D사 M&V Plan 및 수정 Baseline 절감잠재량 보고서 기반"
   },
   {
-    id: "fronttech",
+    id: "manufacturing-case-e",
     status: "published",
-    company: "프론텍",
+    company: "국내 제조 E사",
     category: "Former · 데이터분석",
     energyType: "전기",
     equipment: "FM공정 · 공기압축기",
@@ -263,7 +263,7 @@ window.ENERGY_CASES = [
       }
     ],
     verification: "동일 LINE·동일 제품 Mix에서 비가동시간과 생산중량만 변화시켜 비교하고, LINE별 차이는 층화하여 검증합니다. 공기압축기는 유량 기준 Baseline을 별도로 적용합니다.",
-    sourceNote: "에스코프로 프론텍 MES·EMS Baseline 분석 및 최종 절감잠재량 보고서 기반"
+    sourceNote: "에스코프로 국내 제조 E사 MES·EMS Baseline 분석 및 최종 절감잠재량 보고서 기반"
   }
 
   ,{
