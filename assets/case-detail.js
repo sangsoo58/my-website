@@ -31,6 +31,9 @@
   const hasPhases = Array.isArray(item.phases) && item.phases.length > 0;
   const modelNo = hasPhases ? '04' : '03';
   const opportunityNo = hasPhases ? '05' : '04';
+  const diagnosticHeaders = Array.isArray(item.diagnosticHeaders)
+    ? item.diagnosticHeaders
+    : ['진단 항목', '현황 / 기준', '개선 방향', '분석 결과'];
 
   const phasesHtml = hasPhases ? `
     <section class="case-detail-section phase-section">
@@ -115,7 +118,7 @@
         <table class="scenario-table">
           <thead><tr>${
             (item.detailMode === 'diagnostic'
-              ? (item.diagnosticHeaders || ['분석 항목', '현황', '분석 포인트', '핵심 지표'])
+              ? diagnosticHeaders
               : ['개선 시나리오', 'Baseline', '목표', '1차 잠재량'])
               .map((label) => `<th>${escapeHtml(label)}</th>`).join('')
           }</tr></thead>
