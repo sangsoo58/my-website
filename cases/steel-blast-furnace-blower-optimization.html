@@ -11,13 +11,17 @@
   <link rel="stylesheet" href="../assets/styles.css" />
   <title>일관제철소 고로 대형송풍기 에너지 최적화 사례 | 글로벌 에너지 최적화 연구소</title>
 </head>
-<body class="case-page detail-page" data-case-id="steel-blast-furnace-blower-optimization">
+<body class="case-page detail-page">
   <a class="skip-link" href="#main">본문 바로가기</a>
+
   <header class="site-header scrolled">
     <div class="header-inner container">
       <a class="brand" href="../" aria-label="글로벌 에너지 최적화 연구소 홈">
         <span class="brand-mark" aria-hidden="true">EO</span>
-        <span class="brand-copy"><strong>글로벌 에너지 최적화 연구소</strong><small>Global Energy Optimization Lab</small></span>
+        <span class="brand-copy">
+          <strong>글로벌 에너지 최적화 연구소</strong>
+          <small>GLOBAL ENERGY OPTIMIZATION LAB</small>
+        </span>
       </a>
       <nav class="primary-nav archive-nav" aria-label="주 메뉴">
         <a href="../#services">에너지 절감 컨설팅</a>
@@ -31,7 +35,214 @@
   </header>
 
   <main id="main" class="case-detail-main">
-    <div class="container" id="case-detail-root"></div>
+    <div class="container">
+
+      <section class="case-detail-hero">
+        <div class="case-detail-breadcrumb">
+          <a href="../">홈</a><span>›</span><a href="./">절감 사례</a><span>›</span>
+          <strong>국내 대형 일관제철 B사</strong>
+        </div>
+
+        <div class="case-detail-hero-grid">
+          <div>
+            <p class="eyebrow">철강 · 고로공장 · 대형 송풍설비 · 전기</p>
+            <h1>일관제철소 고로 대형송풍기 전력원단위·송풍압력·IGV 운전최적화</h1>
+            <p class="case-detail-lead">
+              고로별·송풍기별 계절 운전데이터를 이용해 소비동력, 송풍량, 공급압력,
+              부하율, IGV 개도율, 덕트 압력손실과 송풍 에너지원단위를 비교하여
+              고효율 운전조건과 압력 최적화 대상을 도출한 사례입니다.
+            </p>
+            <div class="case-detail-tags">
+              <span>철강</span><span>일관제철</span><span>고로</span><span>송풍기</span>
+              <span>IGV</span><span>압력최적화</span><span>원단위</span>
+            </div>
+          </div>
+
+          <aside class="case-summary-panel">
+            <span class="case-state live">실제 수행 사례</span>
+            <small>송풍기별 연평균 에너지원단위 범위</small>
+            <strong>0.075~0.081 kWh/Nm³</strong>
+            <dl>
+              <div><dt>고객사</dt><dd>국내 대형 일관제철 B사</dd></div>
+              <div><dt>대상 설비</dt><dd>고로용 대형 송풍기 · IGV · 송풍덕트 · 흡입필터</dd></div>
+              <div><dt>분석기간</dt><dd>2018년 1·4·7·10월 계절대표 운전데이터 및 흡입필터 장기 데이터</dd></div>
+              <div><dt>에너지원</dt><dd>전기</dd></div>
+            </dl>
+            <p>
+              운전데이터 기반 성능진단 사례 · 송풍기별 원단위 최대 약 8.2% 편차 ·
+              확정 절감실적/절감률은 보고서에 제시되지 않음
+            </p>
+          </aside>
+        </div>
+      </section>
+
+      <section class="case-detail-section two-col">
+        <div>
+          <p class="eyebrow">01 · CHALLENGE</p>
+          <h2>현장에서 확인한 주요 과제</h2>
+          <ul>
+            <li>고로 송풍설비의 연간 전력비가 약 1,450억원 규모로 매우 커 작은 원단위 개선도 큰 경제적 효과로 연결될 수 있음</li>
+            <li>송풍량의 계절변화는 크지 않지만 하절기 소비동력과 송풍 에너지원단위가 상승해 외기조건 및 운전조건에 따른 효율변화 관리가 필요</li>
+            <li>고로별·송풍기별 공급압력과 에너지원단위 편차가 존재하여 고로 요구압력과 송풍기 운전점의 적정성 검토가 필요</li>
+            <li>일부 송풍기는 평균 부하율이 높은데도 IGV 개도값이 매우 낮거나 음(-)의 값으로 나타나 제어상태·계측값·운전로직 검토가 필요</li>
+            <li>흡입필터 차압과 송풍 에너지원단위의 뚜렷한 상관관계는 확인되지 않아 단순 필터차압만으로 효율개선 우선순위를 판단하기 어려움</li>
+          </ul>
+        </div>
+
+        <div>
+          <p class="eyebrow">02 · DATA</p>
+          <h2>분석에 사용한 데이터</h2>
+          <ul>
+            <li>고로별 월간·연간 전력사용량(MWh) 및 전력비</li>
+            <li>고로별·송풍기별 소비동력(MW)</li>
+            <li>송풍량(Nm³/min)</li>
+            <li>송풍 에너지원단위(kWh/Nm³)</li>
+            <li>송풍기 부하율과 IGV 개도율</li>
+            <li>송풍기 공급압력과 고로측 압력</li>
+            <li>송풍덕트 압력손실</li>
+            <li>외기온도 및 흡입필터 차압</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="case-detail-section">
+        <p class="eyebrow">03 · BASELINE / MODEL</p>
+        <h2>고로 송풍설비 성능지표 및 운전최적화 진단 기준</h2>
+
+        <div class="model-grid">
+          <article class="model-card">
+            <span>송풍 에너지원단위</span>
+            <code>Blower UPI = 소비전력(kWh) / 송풍량(Nm³)</code>
+            <dl>
+              <div><dt>방법</dt><dd>고로별·송풍기별·계절별 송풍량과 전력사용량을 동일 시간축에서 비교하여 압송효율을 평가</dd></div>
+              <div><dt>성능·해석</dt><dd>전체 연평균 약 0.078 kWh/Nm³ · 고로별 및 개별 송풍기 약 0.075~0.081</dd></div>
+            </dl>
+          </article>
+
+          <article class="model-card">
+            <span>계절별 전력·원단위</span>
+            <code>Seasonal Performance = f(Ambient Temperature, Power, Flow)</code>
+            <dl>
+              <div><dt>방법</dt><dd>1월·4월·7월·10월 대표 운전데이터를 이용해 계절에 따른 소비동력과 원단위 변화를 분석</dd></div>
+              <div><dt>성능·해석</dt><dd>평균 소비동력 약 33.1MW/고로 · 하절기 약 34.8MW · 하절기 원단위가 동절기보다 약 7.2% 높음</dd></div>
+            </dl>
+          </article>
+
+          <article class="model-card">
+            <span>송풍압력 적정성</span>
+            <code>Pressure Margin = Blower Discharge Pressure − Furnace-side Pressure</code>
+            <dl>
+              <div><dt>방법</dt><dd>송풍기 토출압력과 고로측 압력을 비교해 덕트 압력손실과 필요 이상 압력운전 여부를 검토</dd></div>
+              <div><dt>성능·해석</dt><dd>평균 송풍압력 약 4.3kg/cm² · 일부 고로 약 4.5kg/cm²로 낮은 그룹 약 4.0kg/cm²보다 약 11% 높음</dd></div>
+            </dl>
+          </article>
+
+          <article class="model-card">
+            <span>덕트 압력손실</span>
+            <code>ΔP = 송풍기 공급압력 − 고로측 압력</code>
+            <dl>
+              <div><dt>방법</dt><dd>고로별 송풍덕트의 압력손실을 계절별로 비교하여 배관·밸브·운전조건 차이를 분석</dd></div>
+              <div><dt>성능·해석</dt><dd>연평균 약 0.13kg/cm² · 가장 낮은 고로 약 0.09kg/cm²</dd></div>
+            </dl>
+          </article>
+
+          <article class="model-card">
+            <span>부하율·IGV 운전상태</span>
+            <code>Blower Control = f(Load Ratio, IGV Opening, Flow, Pressure)</code>
+            <dl>
+              <div><dt>방법</dt><dd>송풍기 부하율과 IGV 개도율을 함께 비교하여 제어상태와 운전점의 적정성을 진단</dd></div>
+              <div><dt>성능·해석</dt><dd>전체 평균 부하율 약 91% · 평균 IGV 약 20%이나 일부 송풍기에서 매우 낮거나 음(-)의 개도값 확인</dd></div>
+            </dl>
+          </article>
+
+          <article class="model-card">
+            <span>흡입필터 차압 영향</span>
+            <code>UPI = f(Intake Filter ΔP)</code>
+            <dl>
+              <div><dt>방법</dt><dd>장기 필터 차압과 송풍 에너지원단위의 상관관계를 비교</dd></div>
+              <div><dt>성능·해석</dt><dd>분석자료에서는 흡입필터 차압과 송풍 에너지원단위 간 뚜렷한 상관관계가 확인되지 않음</dd></div>
+            </dl>
+          </article>
+        </div>
+      </section>
+
+      <section class="case-detail-section">
+        <p class="eyebrow">04 · DIAGNOSTIC FINDINGS</p>
+        <h2>주요 진단결과 및 개선방향</h2>
+
+        <div class="scenario-table-wrap">
+          <table class="scenario-table">
+            <thead>
+              <tr>
+                <th>진단 항목</th>
+                <th>현황 / 기준</th>
+                <th>개선 방향</th>
+                <th>분석 결과</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>고효율 송풍기 운전조합 검토</strong><span>8.2%는 설비간 성능편차이며 그대로 절감률을 의미하지 않음</span></td>
+                <td>송풍기별 연평균 UPI 약 0.075~0.081 kWh/Nm³</td>
+                <td>고로 요구 풍량·압력을 만족하는 범위에서 원단위 우수 송풍기의 운전조건과 열위 송풍기의 원인을 비교</td>
+                <td class="saving-cell">원단위 최대 약 8.2% 성능편차</td>
+              </tr>
+              <tr>
+                <td><strong>고로 송풍압력 하향 검토</strong><span>고압 운전 고로의 송풍압력을 하향할 수 있는 방안 검토</span></td>
+                <td>일부 고로 공급압력 약 4.5kg/cm²</td>
+                <td>고로측 필요압력·안전·조업조건을 만족하는 범위에서 불필요 압력여유 최소화</td>
+                <td class="saving-cell">압축동력 저감 잠재량</td>
+              </tr>
+              <tr>
+                <td><strong>IGV·제어상태 정합성 검토</strong><span>계측오류 여부와 실제 제어상태를 현장 확인한 후 개선안 확정</span></td>
+                <td>평균 부하율 약 91% 대비 일부 송풍기의 IGV 개도값이 매우 낮거나 음(-)</td>
+                <td>IGV 신호·제어로직·운전점 정합성 확인 후 효율적인 풍량·압력 제어</td>
+                <td class="saving-cell">불필요 제어손실 및 비효율 운전구간 저감</td>
+              </tr>
+              <tr>
+                <td><strong>하절기 효율저하 관리</strong><span>하절기 원단위는 동절기 대비 약 7.2% 높은 수준</span></td>
+                <td>1월 평균 UPI 약 0.075 → 7월 약 0.081 kWh/Nm³</td>
+                <td>외기온도·흡입조건·냉각조건과 송풍기 운전점을 함께 분석</td>
+                <td class="saving-cell">계절성 원단위 상승분 저감 잠재량</td>
+              </tr>
+              <tr>
+                <td><strong>흡입필터 개선 우선순위 재평가</strong><span>필터 차압과 원단위의 직접 상관관계는 확인되지 않음</span></td>
+                <td>흡입필터 차압 증가를 효율저하 요인으로 가정 가능</td>
+                <td>차압-원단위 상관성 확인 후 실제 영향이 큰 압력·IGV·운전점 개선을 우선 검토</td>
+                <td class="saving-cell">데이터 기반 정비·투자 우선순위 결정</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="verification-box">
+          <strong>검증 조건</strong>
+          <p>
+            본 사례는 2018년 계절별 운전데이터를 이용한 고로 및 송풍기 성능진단 자료이며,
+            개선 실행 후 확정된 절감량·절감률·절감금액은 보고서에 제시되어 있지 않습니다.
+            따라서 송풍기별 최대 약 8.2%의 에너지원단위 편차와 하절기 원단위 상승,
+            공급압력·덕트 압력손실·IGV의 차이를 절감기회로 제시하되 이를 확정 절감률로 표현하지 않습니다.
+            실제 개선 시에는 고로 생산조건, 요구 풍량·압력, 외기온도와 송풍기 운전조합을 반영한
+            Baseline을 구축하고 압력 Set Point 또는 운전방법 변경 전·후를 M&amp;V해야 합니다.
+          </p>
+        </div>
+
+        <p class="source-note">
+          자료 기준: 국내 대형 일관제철소 고로공장의 대형 송풍설비 운전데이터 분석자료 기반 ·
+          고객사명·제철소명·지역명·고로/송풍기 호기번호·제작사명 비식별 처리
+        </p>
+      </section>
+
+      <section class="case-detail-cta">
+        <div>
+          <p class="eyebrow light">APPLY TO YOUR SITE</p>
+          <h2>우리 사업장의 대형 송풍설비에도 같은 방식으로 적용할 수 있을까요?</h2>
+          <p>송풍량·전력·압력·IGV·외기조건 데이터가 있다면 송풍설비의 원단위와 운전최적화 가능성을 검토할 수 있습니다.</p>
+        </div>
+        <a class="button button-submit" href="../#contact">에너지 절감 상담 요청하기</a>
+      </section>
+
+    </div>
   </main>
 
   <footer class="site-footer compact-footer">
@@ -41,8 +252,7 @@
     </div>
   </footer>
 
-  <script src="../data/cases-data.js"></script>
-  <script src="../assets/case-detail.js"></script>
+  <!-- 상세 본문은 HTML에 직접 포함되어 있으므로 cases-data.js / case-detail.js에 의존하지 않습니다. -->
   <script src="../assets/script.js" defer></script>
 </body>
 </html>
