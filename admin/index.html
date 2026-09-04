@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex,nofollow,noarchive" />
+  <meta name="theme-color" content="#0d2233" />
+  <title>상담관리 | 글로벌 에너지 최적화 연구소</title>
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="../assets/admin.css" />
+</head>
+<body>
+  <header class="admin-header">
+    <div class="admin-container admin-header-inner">
+      <a class="admin-brand" href="../">
+        <span>EO</span>
+        <strong>에너지 절감 상담관리</strong>
+      </a>
+      <nav>
+        <a href="../" target="_blank" rel="noopener">홈페이지</a>
+        <button id="refresh-button" class="header-button" type="button" hidden>새로고침</button>
+        <button id="logout-button" class="header-button" type="button" hidden>로그아웃</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="admin-main">
+    <div class="admin-container">
+      <section id="loading-panel" class="auth-card">
+        <p class="admin-eyebrow">ENERGY AI ADMIN</p>
+        <h1>상담관리 시스템</h1>
+        <p>Supabase 연결 상태를 확인하고 있습니다.</p>
+      </section>
+
+      <section id="config-panel" class="auth-card" hidden>
+        <p class="admin-eyebrow">SETUP REQUIRED</p>
+        <h1>Supabase 설정이 필요합니다.</h1>
+        <p><code>assets/supabase-config.js</code>에 Project URL과 Publishable key를 입력한 뒤 다시 접속해 주세요.</p>
+      </section>
+
+      <section id="login-panel" class="auth-card" hidden>
+        <p class="admin-eyebrow">ADMIN LOGIN</p>
+        <h1>관리자 로그인</h1>
+        <p>Supabase에 등록한 관리자 계정으로 로그인합니다.</p>
+        <form id="login-form" class="admin-form">
+          <label>이메일
+            <input type="email" name="email" required autocomplete="username" placeholder="admin@example.com" />
+          </label>
+          <label>비밀번호
+            <input type="password" name="password" required autocomplete="current-password" />
+          </label>
+          <button class="admin-button primary" type="submit">로그인</button>
+          <div id="login-message" class="admin-alert" hidden></div>
+        </form>
+      </section>
+
+      <section id="denied-panel" class="auth-card" hidden>
+        <p class="admin-eyebrow">ACCESS DENIED</p>
+        <h1>관리자 권한이 없습니다.</h1>
+        <p>로그인은 성공했지만 <code>admin_users</code>에 등록된 관리자 계정이 아닙니다.</p>
+        <button id="denied-logout-button" class="admin-button secondary" type="button">로그아웃</button>
+      </section>
+
+      <section id="dashboard-panel" hidden>
+        <div class="admin-page-head">
+          <div>
+            <p class="admin-eyebrow">CONSULTATION CRM</p>
+            <h1>에너지 절감 상담 현황</h1>
+            <p id="session-label">고객 상담접수 내용을 조회하고 진행상태와 관리자 메모를 관리합니다.</p>
+          </div>
+          <button id="export-button" class="admin-button ghost" type="button">CSV 내려받기</button>
+        </div>
+
+        <div id="dashboard-message" class="admin-alert" hidden></div>
+
+        <div class="stat-grid" id="stats-grid">
+          <button class="stat-card active" data-status="전체" type="button"><small>전체</small><strong id="stat-total">0</strong></button>
+          <button class="stat-card" data-status="신규" type="button"><small>신규</small><strong id="stat-new">0</strong></button>
+          <button class="stat-card" data-status="확인중" type="button"><small>확인중</small><strong id="stat-checking">0</strong></button>
+          <button class="stat-card" data-status="상담중" type="button"><small>상담중</small><strong id="stat-consulting">0</strong></button>
+          <button class="stat-card" data-status="완료" type="button"><small>완료</small><strong id="stat-done">0</strong></button>
+          <button class="stat-card" data-status="보류" type="button"><small>보류</small><strong id="stat-hold">0</strong></button>
+        </div>
+
+        <div class="filter-bar">
+          <input id="search-input" type="search" placeholder="회사명, 담당자, 이메일, 업종, 내용 검색" />
+          <select id="status-filter" aria-label="상태 필터">
+            <option value="전체">전체 상태</option>
+            <option value="신규">신규</option>
+            <option value="확인중">확인중</option>
+            <option value="상담중">상담중</option>
+            <option value="완료">완료</option>
+            <option value="보류">보류</option>
+          </select>
+          <button id="filter-reset" class="admin-button ghost" type="button">필터 초기화</button>
+        </div>
+
+        <section class="table-card">
+          <div class="table-meta">
+            <strong id="result-count">0건</strong>
+            <span>최근 접수순</span>
+          </div>
+          <div class="table-scroll">
+            <table class="admin-table">
+              <thead>
+                <tr>
+                  <th>접수일</th>
+                  <th>회사명</th>
+                  <th>담당자</th>
+                  <th>상담분야</th>
+                  <th>상태</th>
+                  <th>최종수정</th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody id="consultation-body"></tbody>
+            </table>
+          </div>
+        </section>
+      </section>
+    </div>
+  </main>
+
+  <dialog id="detail-dialog" class="admin-dialog">
+    <form method="dialog" class="dialog-shell" id="detail-form">
+      <div class="dialog-head">
+        <div>
+          <p class="admin-eyebrow">CONSULTATION DETAIL</p>
+          <h2 id="detail-company">상담 상세</h2>
+        </div>
+        <button class="dialog-close" value="cancel" aria-label="닫기">×</button>
+      </div>
+
+      <div class="detail-grid">
+        <section class="detail-card compact-card">
+          <h3>고객 정보</h3>
+          <dl class="detail-list">
+            <div><dt>접수일</dt><dd id="detail-created"></dd></div>
+            <div><dt>담당자</dt><dd id="detail-name"></dd></div>
+            <div><dt>이메일</dt><dd id="detail-email"></dd></div>
+            <div><dt>연락처</dt><dd id="detail-phone"></dd></div>
+            <div><dt>업종 / 공정</dt><dd id="detail-industry"></dd></div>
+            <div><dt>상담 분야</dt><dd id="detail-topic"></dd></div>
+          </dl>
+        </section>
+
+        <section class="detail-card compact-card">
+          <h3>문의 내용</h3>
+          <div class="message-box" id="detail-message"></div>
+        </section>
+      </div>
+
+      <section class="detail-card manage-card compact-card">
+        <h3>상담 관리</h3>
+        <div class="manage-form">
+          <label>상태
+            <select id="detail-status">
+              <option value="신규">신규</option>
+              <option value="확인중">확인중</option>
+              <option value="상담중">상담중</option>
+              <option value="완료">완료</option>
+              <option value="보류">보류</option>
+            </select>
+          </label>
+          <label>관리자 메모
+            <textarea id="detail-note" rows="7" maxlength="5000" placeholder="통화내용, 자료요청, 다음 조치 등을 기록해 주세요."></textarea>
+          </label>
+          <div class="manage-actions">
+            <button id="delete-button" class="admin-button danger" type="button">상담 삭제</button>
+            <div class="right-actions">
+              <button class="admin-button ghost" value="cancel">닫기</button>
+              <button id="save-button" class="admin-button primary" type="button">변경사항 저장</button>
+            </div>
+          </div>
+          <div id="detail-message-box" class="admin-alert" hidden></div>
+        </div>
+      </section>
+    </form>
+  </dialog>
+
+  <footer class="admin-footer">
+    <div class="admin-container">© 2026 Global Energy Optimization Lab · 관리자 전용</div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="../assets/supabase-config.js"></script>
+  <script src="../assets/supabase-client.js"></script>
+  <script src="../assets/admin.js" defer></script>
+</body>
+</html>
