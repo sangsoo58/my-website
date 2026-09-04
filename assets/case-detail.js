@@ -84,11 +84,16 @@
     </section>
 
     <section class="case-detail-section">
-      <p class="eyebrow">04 · SAVING OPPORTUNITY</p>
-      <h2>1차 절감 잠재량 시나리오</h2>
+      <p class="eyebrow">04 · ${item.detailMode === 'diagnostic' ? 'DIAGNOSTIC FINDINGS' : 'SAVING OPPORTUNITY'}</p>
+      <h2>${escapeHtml(item.opportunityTitle || '1차 절감 잠재량 시나리오')}</h2>
       <div class="scenario-table-wrap">
         <table class="scenario-table">
-          <thead><tr><th>개선 시나리오</th><th>Baseline</th><th>목표</th><th>1차 잠재량</th></tr></thead>
+          <thead><tr>${
+            (item.detailMode === 'diagnostic'
+              ? (item.diagnosticHeaders || ['분석 항목', '현황', '분석 포인트', '핵심 지표'])
+              : ['개선 시나리오', 'Baseline', '목표', '1차 잠재량'])
+              .map((label) => `<th>${escapeHtml(label)}</th>`).join('')
+          }</tr></thead>
           <tbody>
             ${item.scenarios.map((scenario) => `
               <tr>
