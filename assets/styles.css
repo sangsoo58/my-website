@@ -424,3 +424,4 @@ h3 { font-size: 22px; }
   .case-detail-hero h1 { font-size: 38px; }
   .case-detail-cta { padding: 28px; }
 }
+.form-status.success{color:#0f725e}.form-status.error{color:#a33b3b}.button-submit:disabled{opacity:.65;cursor:not-allowed}
