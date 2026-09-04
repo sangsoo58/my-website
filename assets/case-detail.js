@@ -139,9 +139,9 @@
 
     <section class="case-detail-cta">
       <div>
-        <p class="eyebrow light">APPLY TO YOUR FACTORY</p>
-        <h2>우리 공장 데이터에도 같은 방식으로 적용할 수 있을까요?</h2>
-        <p>생산량·가동시간·에너지사용량 등 기본 자료가 있다면 현재 설비의 Baseline과 절감 가능성을 함께 검토할 수 있습니다.</p>
+        <p class="eyebrow light">APPLY TO YOUR SITE</p>
+        <h2>우리 사업장·시설 데이터에도 같은 방식으로 적용할 수 있을까요?</h2>
+        <p>에너지사용량과 주요 영향인자 데이터가 있다면 현재 설비·시스템의 Baseline과 절감 가능성을 함께 검토할 수 있습니다.</p>
       </div>
       <a class="button button-submit" href="../#contact">에너지 절감 상담 요청하기</a>
     </section>`;
