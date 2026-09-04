@@ -10,5 +10,5 @@
  */
 window.ENERGY_SUPABASE_CONFIG = {
   url: 'https://sdwwuvxtmxkrezoapucv.supabase.co',
-  key: 'Ysb_publishable_EqdqkZlErOPomFqbXkBYEw_WnwhjUBu'
+  key: 'sb_publishable_EqdqkZlErOPomFqbXkBYEw_WnwhjUBu'
 };
