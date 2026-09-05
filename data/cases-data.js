@@ -2837,4 +2837,131 @@ window.ENERGY_CASES = [
     sourceNote: "국내 대형 업무용 건물의 LEED-EB 인증 대응 ASHRAE Level II 에너지진단 보고서 기반 · 실제 고객사명·건물명·지역·개인명 등 식별정보 비식별 처리"
   }
 
+
+  ,{
+    id: "large-new-building-leed-energy-modeling",
+    status: "published",
+    company: "국내 대형 신축 복합건물 B사",
+    category: "대형건물 · 신축 · LEED · Energy Modeling",
+    energyType: "전기 · 도시가스 · 지역열",
+    equipment: "건물외피 · 조명 · AHU/VAV · FCU · 흡수식냉동기 · 펌프 · 냉각탑 · 급탕 · 승강설비",
+    title: "신축 대형 복합건물 LEED Performance Rating 에너지모델링",
+    short: "업무·호텔·부대시설로 구성된 대형 신축 복합건물을 대상으로 eQUEST 에너지모델을 구축하고, ASHRAE 90.1-2004 Appendix G Performance Rating Method에 따라 Proposed Design과 4방위 Baseline Design을 시간별로 시뮬레이션하여 LEED 에너지성능을 평가한 사례입니다.",
+    potential: "에너지비용 약 4% 개선",
+    potentialLabel: "ASHRAE 90.1-2004 Performance Rating Method 기준",
+    verificationStatus: "Proposed 연간 에너지비용 약 $3.574M vs Baseline 약 $3.721M · 비용 기준 약 4% 개선. Site Energy는 지역열 냉방 적용 영향으로 Baseline 대비 약 36.3% 증가하므로 '에너지사용량 4% 절감'으로 해석하면 안 됨",
+    tags: ["대형건물", "신축건물", "LEED", "Energy Modeling", "eQUEST", "ASHRAE 90.1", "Appendix G", "Performance Rating", "Baseline", "Simulation"],
+    period: "신축설계 단계 LEED Performance Rating 에너지모델링 · 2014년",
+    problem: [
+      "LEED Energy & Atmosphere 성능평가를 위해 실제 설계안(Proposed Design)의 연간 에너지비용을 ASHRAE 90.1-2004 기준 Baseline Building과 동일한 조건에서 비교할 필요",
+      "업무시설·호텔·부대시설이 혼재하고 운영시간·재실·조명·장비부하·HVAC 시스템이 서로 달라 용도별 Schedule과 Internal Load를 상세 모델링할 필요",
+      "설계안은 지역열을 이용한 난방·흡수식 냉방, 고효율 외피·조명·팬을 적용하므로 단순 Site Energy 비교가 아니라 에너지원별 요금과 Peak Demand까지 반영한 Performance Rating이 필요",
+      "Baseline Building은 ASHRAE Appendix G의 외피·창면적·HVAC System Type·설비효율·Sizing·4방위 회전 규칙을 일관되게 적용해야 함",
+      "모델 결과의 신뢰성을 위해 입력자료 검증, 부하 미충족시간·경고·Plant Load·Peak Demand·End-use 보고서 검토가 필요"
+    ],
+    dataUsed: [
+      "건축도면 기반 외피 구성·U-factor·창면적비·유리 SHGC",
+      "공간별 용도·재실밀도·환기량·운영 Schedule",
+      "공간별 조명밀도(LPD) 및 Plug/Process Load",
+      "AHU·FCU 시스템 형식·풍량·팬효율·팬동력",
+      "냉난방 Plant 구성·냉동기 COP·펌프제어·냉각탑",
+      "급탕·승강기·외부조명·주차장 Fan 등 보조부하",
+      "전기·도시가스·지역열 Utility Rate",
+      "해당 지역 TRY 시간별 기상데이터",
+      "eQUEST Verification / ES-D / PS-E / BEPS / PS-B / PS-D 결과"
+    ],
+    modelSectionTitle: "LEED 에너지모델 목적·절차·방법 및 Performance Rating 체계",
+    baselineModels: [
+      {
+        name: "모델 목적",
+        formula: "LEED Performance = Proposed Building Performance vs Baseline Building Performance",
+        method: "실제 설계안이 ASHRAE 90.1-2004 기준건물 대비 어느 정도의 연간 에너지비용 개선을 달성하는지 평가하고 LEED EA 성능평가 자료를 작성",
+        performance: "에너지비용 개선율 = (Baseline Cost − Proposed Cost) / Baseline Cost × 100"
+      },
+      {
+        name: "Proposed Design Model",
+        formula: "Actual Design Inputs + Actual Schedules + Actual HVAC/Plant + Utility Rates",
+        method: "설계도서와 제조사 사양을 기반으로 외피·조명·내부부하·AHU/FCU·흡수식냉동기·펌프·냉각탑·지역열 시스템을 eQUEST에 구현",
+        performance: "설계안의 연간 에너지사용량·비용·Peak Demand·End-use를 시간별 TRY 기상으로 계산"
+      },
+      {
+        name: "Baseline Design Model",
+        formula: "ASHRAE 90.1-2004 Appendix G",
+        method: "창면적비·외피·LPD·HVAC System Type·설비효율·Fan Power·Plant 효율·Sizing을 Appendix G 요구사항으로 치환",
+        performance: "업무시설은 System 7 VAV w/Reheat, 호텔은 System 2 PTHP 등 기준시스템 적용"
+      },
+      {
+        name: "Baseline 4방위 회전",
+        formula: "Baseline Performance = Average(Cost_0°, Cost_90°, Cost_180°, Cost_270°)",
+        method: "기준건물을 0°·90°·180°·270°로 회전하여 각 방향의 연간 에너지비용을 시뮬레이션하고 평균값을 Baseline으로 확정",
+        performance: "창 SHGC와 방향별 일사 영향을 Appendix G 방식으로 반영"
+      },
+      {
+        name: "Sizing & Fan Power",
+        formula: "Cooling Sizing 1.15 × / Heating Sizing 1.25 × + Appendix G Fan Power",
+        method: "Baseline은 Sizing Run으로 공급풍량을 산정하고 ASHRAE G3.1.2.9에 따라 Brake Horsepower와 Fan Power를 계산",
+        performance: "Baseline 설계용량과 팬동력을 Proposed와 독립적으로 산정"
+      },
+      {
+        name: "결과 검증",
+        formula: "Input Verification → Annual Simulation → End-use / Plant / Peak Review",
+        method: "Proposed 입력 후 Verification Report를 검토하고 불일치 시 입력값을 수정한 뒤 연간 시뮬레이션 수행. ES-D·PS-E·BEPS·PS-B·PS-D 보고서를 상호검증",
+        performance: "난방/냉방 부하 미충족시간 0시간 수준으로 모델 수렴 및 성능결과 검토"
+      }
+    ],
+    scenarios: [
+      {
+        name: "고효율 조명설계",
+        baseline: "업무·호텔 주요공간 Baseline LPD 약 1.1 W/ft²",
+        target: "설계 LPD를 업무 약 0.6, 호텔 객실 약 0.45 W/ft² 수준으로 적용",
+        saving: "Interior Lighting Energy 약 40.1% 감소",
+        note: "Proposed 약 2.78GWh/년 vs Baseline 약 4.64GWh/년"
+      },
+      {
+        name: "고성능 외피",
+        baseline: "ASHRAE 90.1-2004 최소 요구수준의 외피·창 성능",
+        target: "설계안의 낮은 U-factor와 SHGC를 반영",
+        saving: "난방부하 및 외피 열손실 저감",
+        note: "Proposed 외피 성능이 난방기간의 비용성능 개선에 기여"
+      },
+      {
+        name: "AHU 팬효율 개선",
+        baseline: "Baseline Fan Power 약 772.86kW",
+        target: "설계안 Fan Power 약 495.88kW 및 고효율 공급/환기 팬 적용",
+        saving: "Interior Fan Energy 약 5.9% 감소",
+        note: "Peak Demand 또한 Baseline 대비 낮아지는 방향"
+      },
+      {
+        name: "지역열 기반 냉방·난방",
+        baseline: "전기식 원심냉동기 중심 Baseline Plant",
+        target: "지역열과 단효용 흡수식냉동기를 적용하여 전력 Peak Demand와 요금부담 저감",
+        saving: "전기 Space Cooling 약 94.8% 감소 및 전력 Peak 저감",
+        note: "대신 Purchased Heat 사용이 크게 증가하므로 Site Energy는 증가"
+      },
+      {
+        name: "Performance Rating 종합",
+        baseline: "연간 에너지비용 약 $3,721,107",
+        target: "Proposed Design 연간 에너지비용 약 $3,574,096",
+        saving: "에너지비용 약 4.0% 개선",
+        note: "LEED Performance Rating의 핵심 결과"
+      },
+      {
+        name: "Site Energy 해석",
+        baseline: "Baseline 약 102,348 MBtu/년",
+        target: "Proposed 약 139,539 MBtu/년",
+        saving: "Site Energy 기준 약 -36.3%",
+        note: "Proposed가 약 36.3% 더 큼. 흡수식냉동기의 Purchased Heat 사용 영향이며 비용 4% 개선과 구분해 해석"
+      },
+      {
+        name: "Process Energy 요건",
+        baseline: "Baseline Building Energy Cost",
+        target: "Process Energy Cost 비중 약 25.27%",
+        saving: "LEED EAc1 Process Energy 요구사항 충족",
+        note: "Plug/Process Load는 Baseline과 Proposed에 동일하게 적용"
+      }
+    ],
+    verification: "본 사례는 실제 건물의 운영 후 절감량을 측정한 M&V 사례가 아니라 신축설계 단계의 LEED Performance Rating 에너지모델링입니다. Proposed Design과 ASHRAE 90.1-2004 Appendix G Baseline을 동일 TRY 기상과 Utility Rate 조건에서 시간별로 시뮬레이션하고, 4개 Baseline 방향의 평균 연간 에너지비용을 기준으로 성능개선율을 산정했습니다. 보고서 결과는 에너지비용 약 4% 개선이지만 Proposed Site Energy는 지역열 기반 흡수식 냉방의 영향으로 Baseline보다 약 36.3% 많습니다. 따라서 공개 사례에서도 '에너지사용량 4% 절감'이 아니라 'Performance Rating 에너지비용 약 4% 개선'으로 구분해 표시합니다.",
+    sourceNote: "국내 대형 신축 초고층 복합건물의 LEED 인증 대응 eQUEST Performance Rating Method 에너지모델 보고서 기반 · 실제 프로젝트명·고객명·건물명·주소·지역 등 식별정보 비식별 처리"
+  }
+
 ];
