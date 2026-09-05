@@ -3618,4 +3618,117 @@ window.ENERGY_CASES = [
     sourceNote: "국내 섬유 제조공장의 대형 공기압축기 시스템 에너지절감 사업 제안자료 기반 · 실제 고객사명과 개별 설비 식별정보는 비식별 처리"
   }
 
+
+  ,{
+    id: "semiconductor-utility-bigdata-operation-optimization",
+    status: "published",
+    company: "국내 반도체 제조 G사",
+    category: "반도체공정 · Utility · 냉동기 · 공기압축기",
+    energyType: "전기 · 냉수 · 압축공기",
+    equipment: "냉동기시스템 · 공기압축기시스템 · 펌프/보조설비",
+    title: "반도체공장 Big-data 기반 Utility 운전최적화",
+    short: "기존 Utility 운전수준이 높은 대형 반도체 제조공장을 대상으로 냉동기와 공기압축기의 수요·공급 밸런스, 운전밸런스, 유량·온도·압력·밸브 개도율, 가동대수와 설비별 성능을 데이터로 분석하여 추가적인 에너지성능 개선기회를 도출한 컨설팅 제안 사례입니다.",
+    potential: "전체 약 4.5% 예상",
+    potentialLabel: "2개 생산거점 Utility 합산 제안단계 절감잠재량",
+    verificationStatus: "보고서의 절감률과 절감액은 현장자료를 이용한 사전 가능성 분석 결과이며 실제 실행 후 검증된 절감실적이 아님",
+    tags: ["반도체", "Utility", "Big Data", "냉동기", "공기압축기", "UPOS", "가동대수", "설정값", "운전밸런스", "M&V"],
+    period: "Utility 운전최적화 사업제안 · 2019년",
+    problem: [
+      "대상 사업장의 Utility 운전성능이 이미 높은 수준이고 일반적인 절감활동이 상당 부분 시행되어 있어 기존 방식만으로 추가 개선여지가 제한적",
+      "냉동기·공기압축기의 에너지효율을 개별설비 기준이 아니라 Utility 수요·공급과 시스템 운전밸런스 관점에서 재분석할 필요",
+      "유량·온도·압력·밸브 개도율·가동대수와 개별설비 효율 등 다변량 운전정보를 연계하여 최적 설정값과 설비조합을 찾을 필요",
+      "성능우위 설비 우선운전, 성능열위 설비의 유지보수·성능개선, 시스템 에너지손실 최소화를 데이터에 기반해 체계적으로 수행할 필요",
+      "복수 생산거점의 사업성을 함께 분석하여 절감효과와 구축비용을 고려한 단계별 추진전략을 수립할 필요"
+    ],
+    dataUsed: [
+      "냉동기시스템 연간 에너지비용 및 운전자료",
+      "공기압축기시스템 연간 에너지비용 및 운전자료",
+      "Utility 수요·공급량과 부하율",
+      "유량·온도·압력·밸브 개도율 등 주요 설정값",
+      "설비별 가동대수 및 개별 효율",
+      "설비 제어로직 및 운전패턴",
+      "성능우위/열위 설비의 운전·유지보수 정보",
+      "생산거점별 예상 절감효과 및 사업성 비교자료"
+    ],
+    modelSectionTitle: "반도체 Utility 운전최적화의 목적·절차·방법",
+    baselineModels: [
+      {
+        name: "컨설팅 목적",
+        formula: "Additional Saving = Data-driven Optimization beyond Conventional Operation",
+        method: "일반적인 운전개선이 이미 적용된 고성능 Utility에 대해 Big-data 분석으로 추가적인 절감기회를 탐색",
+        performance: "전체 분석대상 Utility 기준 약 4.5% 절감잠재량 제안"
+      },
+      {
+        name: "수요·공급 밸런스",
+        formula: "Utility Supply ≈ Process Demand + Minimum Operating Margin",
+        method: "생산공정의 냉수·압축공기 수요와 실제 설비 공급량을 비교해 과잉공급과 불필요 운전여유를 분석",
+        performance: "가동대수·부하율·설비조합 최적화의 기초"
+      },
+      {
+        name: "시스템 운전밸런스",
+        formula: "System Efficiency = f(Unit Efficiency, Load Sharing, Set-points, Control Logic)",
+        method: "개별설비의 효율뿐 아니라 복수 설비의 부하분담과 제어상태를 함께 분석",
+        performance: "고효율 설비 우선운전과 저효율 설비 개선기회 도출"
+      },
+      {
+        name: "설정값 최적화",
+        formula: "Optimal Set-point = min(Energy) subject to Process Requirements",
+        method: "유량·온도·압력·밸브 개도율 등 주요 운전 설정값을 공정요구조건 범위 내에서 최적화",
+        performance: "시스템 에너지손실 및 불필요 부하 최소화"
+      },
+      {
+        name: "운전최적화 구축",
+        formula: "Field Data → Validation → UPOS → Real-time Diagnosis → Continuous Optimization",
+        method: "현장실사·계측기 검교정·추가계측·데이터연계 후 모니터링/분석환경을 구축하고 실시간 성능진단·운전최적화를 수행",
+        performance: "일회성 분석이 아니라 지속적인 데이터 기반 성능개선 체계"
+      }
+    ],
+    scenarios: [
+      {
+        name: "전체 Utility Portfolio",
+        baseline: "2개 생산거점의 냉동기·공기압축기 Utility",
+        target: "수요공급·운전밸런스·설정값·제어·가동대수 통합 최적화",
+        saving: "약 4.5% · 약 6.34억원/년 예상",
+        note: "연간 에너지비용 약 140.4억원 규모에 대한 제안단계 분석 결과"
+      },
+      {
+        name: "우선 추진 생산거점",
+        baseline: "냉동기 + 공기압축기 연간 Utility 비용 약 107.8억원",
+        target: "사업성이 높은 생산거점을 우선 적용하여 성과를 확인",
+        saving: "약 4.4% · 약 4.76억원/년 예상",
+        note: "보고서에서는 에너지소비 규모와 사업성을 고려해 우선 추진 대상으로 선정"
+      },
+      {
+        name: "우선거점 냉동기시스템",
+        baseline: "냉동기 연간 에너지비용 약 67.7억원",
+        target: "가동대수·성능우위 설비·부하율·설정값 최적화",
+        saving: "약 3.0% · 약 2.06억원/년 예상",
+        note: "제안단계 추정치"
+      },
+      {
+        name: "우선거점 공기압축기시스템",
+        baseline: "공기압축기 연간 에너지비용 약 40.0억원",
+        target: "수요공급밸런스·압력/유량 설정·가동대수·제어로직 최적화",
+        saving: "약 6.7% · 약 2.70억원/년 예상",
+        note: "제안단계 추정치"
+      },
+      {
+        name: "보조 생산거점 Utility",
+        baseline: "냉동기 2계통 + 공기압축기",
+        target: "우선거점 성과확인 후 경제적 방식으로 확대 적용",
+        saving: "약 4.8% · 약 1.58억원/년 예상",
+        note: "보고서에서는 독립 구축비 대비 절감효과를 고려해 단계적 적용을 제안"
+      },
+      {
+        name: "지속 성능관리",
+        baseline: "일반적인 운전개선 활동 중심",
+        target: "실시간 성능진단·가동대수 최적화·고효율설비 우선운전·문제점 발굴",
+        saving: "추가 절감 + 성능 유지",
+        note: "설비 개보수·교체 이후에도 데이터 분석 플랫폼을 지속 활용하는 구조"
+      }
+    ],
+    verification: "보고서의 약 4.5%, 약 6.34억원/년 및 우선거점 약 4.4%, 약 4.76억원/년은 사전 데이터 분석에 기반한 예상 절감잠재량입니다. 실제 실행 후에는 냉동수요·압축공기수요, 생산부하, 외기조건, 가동대수 등 주요 영향인자를 반영한 Baseline과 실제 Utility 사용량을 비교하여 M&V해야 합니다. 특히 냉동기와 공기압축기는 생산량과 부하변동의 영향을 크게 받으므로 단순 전력량 전후비교만으로 절감성과를 확정하면 안 됩니다.",
+    sourceNote: "국내 대형 반도체 제조공장의 냉동기·공기압축기 Utility 운전최적화 사업제안 자료 기반 · 실제 고객사명·생산거점 번호 및 계약조건 등 식별/민감정보 비식별 처리"
+  }
+
 ];
