@@ -1,47 +1,84 @@
-<!doctype html>
-<html lang="ko">
+<!DOCTYPE html>
+
+<html class="no-js" lang="ko">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#0b1f33" />
-  <meta name="description" content="국내 제조 F사의 사출·압출 공정과 냉각기·공조기·공기압축기 등 유틸리티 전력 소비구조 및 1분 단위 운전패턴 분석 사례입니다." />
-  <link rel="canonical" href="https://www.energy-ai-optimization.com/cases/injection-extrusion-utility.html" />
-  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml" />
-  <link rel="stylesheet" href="../assets/styles.css" />
-  <title>사출·압출 공정 및 유틸리티 전력분석 사례 | 글로벌 에너지 최적화 연구소</title>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#0b1f33" name="theme-color"/>
+<meta content="사출기·압출기와 냉각기, 공조기, 공기압축기 등 주요 설비를 개별 계측하여 공정별·용도별 전력 소비구성비와 1분 단위 부하패턴을 비교하고 우선 개선대상을 도출한 사례입니다." name="description"/>
+<meta content="strict-origin-when-cross-origin" name="referrer"/>
+<meta content="article" property="og:type"/>
+<meta content="ko_KR" property="og:locale"/>
+<meta content="사출·압출 공정과 유틸리티의 전력 소비구조 및 1분 단위 운전패턴 분석" property="og:title"/>
+<meta content="사출기·압출기와 냉각기, 공조기, 공기압축기 등 주요 설비를 개별 계측하여 공정별·용도별 전력 소비구성비와 1분 단위 부하패턴을 비교하고 우선 개선대상을 도출한 사례입니다." property="og:description"/>
+<meta content="https://www.energy-ai-optimization.com/cases/injection-extrusion-utility.html" property="og:url"/>
+<link href="https://www.energy-ai-optimization.com/cases/injection-extrusion-utility.html" rel="canonical"/>
+<link href="../assets/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="../assets/styles.css" rel="stylesheet"/>
+<title>사출·압출 공정과 유틸리티의 전력 소비구조 및 1분 단위 운전패턴 분석 | 글로벌 에너지 최적화 연구소</title>
+<script>document.documentElement.classList.remove('no-js');document.documentElement.classList.add('js');</script>
 </head>
-<body class="case-page detail-page" data-case-id="injection-extrusion-utility">
-  <a class="skip-link" href="#main">본문 바로가기</a>
-  <header class="site-header scrolled">
-    <div class="header-inner container">
-      <a class="brand" href="../" aria-label="글로벌 에너지 최적화 연구소 홈">
-        <span class="brand-mark" aria-hidden="true">EO</span>
-        <span class="brand-copy"><strong>글로벌 에너지 최적화 연구소</strong><small>Global Energy Optimization Lab</small></span>
-      </a>
-      <nav class="primary-nav archive-nav" aria-label="주 메뉴">
-        <a href="../#services">공장 에너지 절감</a>
-        <a href="../#mv">Baseline &amp; M&amp;V</a>
-        <a class="active" href="./">절감 사례</a>
-        <a href="../#insight">Energy Insight</a>
-        <a href="../#expert">전문가 소개</a>
-        <a class="nav-cta" href="../#contact">에너지 절감 상담</a>
-      </nav>
-    </div>
-  </header>
-
-  <main id="main" class="case-detail-main">
-    <div class="container" id="case-detail-root"></div>
-  </main>
-
-  <footer class="site-footer compact-footer">
-    <div class="container footer-bottom">
-      <span>© <span id="year">2026</span> Global Energy Optimization Lab. All rights reserved.</span>
-      <a href="./">CASE LIST ↑</a>
-    </div>
-  </footer>
-
-  <script src="../data/cases-data.js"></script>
-  <script src="../assets/case-detail.js"></script>
-  <script src="../assets/script.js" defer></script>
+<body class="case-page detail-page">
+<a class="skip-link" href="#main">본문 바로가기</a>
+<header class="site-header scrolled">
+<div class="header-inner container">
+<a aria-label="글로벌 에너지 최적화 연구소 홈" class="brand" href="../">
+<span aria-hidden="true" class="brand-mark">EO</span>
+<span class="brand-copy"><strong>글로벌 에너지 최적화 연구소</strong><small>GLOBAL ENERGY OPTIMIZATION LAB</small></span>
+</a>
+<button aria-controls="primary-nav" aria-expanded="false" aria-label="메뉴 열기" class="nav-toggle" type="button"><span></span><span></span><span></span></button>
+<nav aria-label="주 메뉴" class="primary-nav archive-nav" id="primary-nav">
+<a href="../#services">에너지 절감 컨설팅</a><a href="../#mv">Baseline &amp; M&amp;V</a><a class="active" href="../cases/">절감 사례</a><a href="../insights/">Energy Insight</a><a href="../#expert">전문가 소개</a>
+<a class="nav-cta" href="../#contact">에너지 절감 상담</a>
+</nav>
+</div>
+</header>
+<main class="case-detail-main" id="main">
+<div class="container">
+<section class="case-detail-hero">
+<div class="case-detail-breadcrumb"><a href="../">홈</a><span>›</span><a href="./">절감 사례</a><span>›</span><strong>국내 제조 F사</strong></div>
+<div class="case-detail-hero-grid">
+<div><p class="eyebrow">사출·압출 · Utility · 전기</p><h1>사출·압출 공정과 유틸리티의 전력 소비구조 및 1분 단위 운전패턴 분석</h1><p class="case-detail-lead">사출기·압출기와 냉각기, 공조기, 공기압축기 등 주요 설비를 개별 계측하여 공정별·용도별 전력 소비구성비와 1분 단위 부하패턴을 비교하고 우선 개선대상을 도출한 사례입니다.</p><div class="case-detail-tags"><span>사출기</span><span>압출기</span><span>냉각기</span><span>공조기</span><span>공기압축기</span><span>1분전력</span></div></div>
+<aside class="case-summary-panel"><span class="case-state live">검증 사례</span><small>전년 동월 대비 5월 전력사용 증가</small><strong>+55%</strong>
+<dl><div><dt>고객</dt><dd>국내 제조 F사</dd></div><div><dt>대상 설비</dt><dd>사출기 · 압출기 · 전용 냉각기 · 공조기 · 공기압축기</dd></div><div><dt>분석기간</dt><dd>2020~2022 전력 이력 비교 · 2022년 5~6월 상세 계측</dd></div><div><dt>에너지원</dt><dd>전기</dd></div></dl>
+<p>전력 소비구조·운전패턴 진단 사례 · 본 보고서에는 확정 절감량/절감액 산정 없음</p>
+</aside>
+</div>
+</section>
+<section class="case-detail-section two-col"><div><p class="eyebrow">01 · CHALLENGE</p><h2>현장에서 확인한 주요 과제</h2><ul><li>2022년 5월 공장 전력사용량이 221,940kWh로 전년 동월 142,704kWh 대비 약 55% 증가하여 증가 원인 분해가 필요</li><li>사출·압출 생산설비뿐 아니라 전용 냉각기, 공조·냉난방, 공기압축기 등 유틸리티 부하가 전체 전력에서 큰 비중을 차지하여 공정과 유틸리티를 함께 분석할 필요</li><li>설비별 운전·정지·대기구간의 전력 패턴이 상이하여 월간 총량만으로는 불필요한 기저부하와 운전연동 문제를 확인하기 어려움</li></ul></div><div><p class="eyebrow">02 · DATA</p><h2>분석에 사용한 데이터</h2><ul><li>2020~2021 월별 전력사용량, Peak 전력 및 역률</li><li>2022년 5월 공장 전체 전력사용량과 평균부하</li><li>사출기 6대, 압출기 9대 및 NC 설비의 개별 전력 계측</li><li>사출·압출 전용 냉각기, 1층·3층 공조기, 공기압축기, 집진기 등 유틸리티별 전력 계측</li><li>주요 설비의 1분 단위 및 24시간 소비동력 패턴</li></ul></div></section>
+<section class="case-detail-section"><p class="eyebrow">03 · BASELINE / MODEL</p><h2>Baseline 및 예측모델</h2><div class="model-grid"><article class="model-card"><span>공장 전체 전력현황</span><code>2022년 5월 = 221,940kWh · 평균부하 ≈ 298kW</code>
+<dl><div><dt>방법</dt><dd>월간 총량 및 시간대별 부하패턴 분석</dd></div><div><dt>성능·해석</dt><dd>전년 동월 142,704kWh 대비 약 55% 증가</dd></div></dl></article><article class="model-card"><span>공정별 소비구성비</span><code>사출 19.8% · 압출 24.5% · 공조/냉난방 27.1% · 압축공기 9.7%</code>
+<dl><div><dt>방법</dt><dd>공정별 평균 소비동력 합산</dd></div><div><dt>성능·해석</dt><dd>NC 2.0% · 집진기 4.3% · 사무실/조명/기타 12.7%</dd></div></dl></article><article class="model-card"><span>용도별 소비구성비</span><code>사출기 14.8% · 압출기 20.5% · 냉각기 8.9% · 공조기 27.1%</code>
+<dl><div><dt>방법</dt><dd>설비 용도별 평균 소비동력 합산</dd></div><div><dt>성능·해석</dt><dd>공기압축기 9.7% · NC 2.0% · 집진기 4.3% · 기타 12.7%</dd></div></dl></article><article class="model-card"><span>설비별 1분 패턴</span><code>P(t) = 설비별 1분 평균 소비동력</code>
+<dl><div><dt>방법</dt><dd>운전·정지·대기구간의 부하변동 비교</dd></div><div><dt>성능·해석</dt><dd>사출기·압출기·냉각기·공조기·공기압축기의 개별 운전특성과 기저부하를 비교할 수 있는 계측 기반 확보</dd></div></dl></article></div></section>
+<section class="case-detail-section"><p class="eyebrow">04 · DIAGNOSTIC FINDINGS</p><h2>전력 소비구조 분석과 우선 검토 대상</h2>
+<div class="scenario-table-wrap"><table class="scenario-table"><thead><tr><th>분석 항목</th><th>평균 소비동력</th><th>분석 포인트</th><th>구성비</th></tr></thead><tbody><tr>
+<td><strong>사출 공정</strong><span>사출기 자체 전력뿐 아니라 전용 냉각기의 운전상태를 함께 검토해야 공정 에너지 원인을 정확히 분리할 수 있음</span></td>
+<td>59.1 kW</td><td>사출기 6대 + 전용 냉각기 운전연동 및 대기부하 비교</td><td class="saving-cell">19.8%</td>
+</tr><tr>
+<td><strong>압출 공정</strong><span>설비별 부하패턴과 비가동 구간의 기저전력 차이를 이용해 운전대기 및 보조설비 연동 개선 가능성을 검토</span></td>
+<td>73.0 kW</td><td>압출기 9대 + 압출기용/OIL 냉각기 개별 패턴 비교</td><td class="saving-cell">24.5%</td>
+</tr><tr>
+<td><strong>공조 및 냉난방</strong><span>공장 내 최대 단일 소비영역으로 나타나 생산스케줄과 연동한 운전시간·설정조건 최적화의 우선 검토대상</span></td>
+<td>80.8 kW</td><td>1층·3층 공조기와 실외기 세트의 시간대별 부하 및 운전스케줄 검토</td><td class="saving-cell">27.1%</td>
+</tr><tr>
+<td><strong>공기압축기</strong><span>두 압축기의 소비동력 패턴을 비교하여 운전대수 및 부하분담 최적화 가능성을 검토</span></td>
+<td>28.9 kW</td><td>신형·구형 압축기의 동시운전, 부하/무부하 패턴 및 수요 대응 비교</td><td class="saving-cell">9.7%</td>
+</tr><tr>
+<td><strong>냉각기</strong><span>생산설비 정지 또는 저부하 시 냉각기 운전연동 여부를 점검하여 불필요한 보조부하를 찾는 기반 데이터로 활용</span></td>
+<td>26.7 kW</td><td>사출·압출 설비 가동상태와 냉각기 소비동력의 동시 비교</td><td class="saving-cell">8.9%</td>
+</tr></tbody></table></div>
+<div class="verification-box"><strong>검증 조건</strong><p>본 자료는 전력 소비구조와 1분 단위 운전패턴을 분석하여 우선 개선대상을 도출한 진단 단계의 결과입니다. 보고서에는 특정 개선조치의 확정 절감량이나 절감액이 제시되어 있지 않으므로, 실제 절감성과는 후속 운전개선 또는 설비개선 시행 전·후 동일 생산조건에서 별도 M&amp;V로 산정해야 합니다.</p></div><p class="source-note">자료 기준: 에스코프로 2022 전력소비패턴 및 에너지소비구성비 분석 보고서 기반 · 고객사명·사업장명 비식별 처리</p>
+</section>
+<section class="case-detail-cta"><div><p class="eyebrow light">APPLY TO YOUR SITE</p><h2>우리 사업장·시설 데이터에도 같은 방식으로 적용할 수 있을까요?</h2><p>에너지사용량과 주요 영향인자 데이터가 있다면 현재 설비·시스템의 Baseline과 절감 가능성을 함께 검토할 수 있습니다.</p></div><a class="button button-submit" href="../#contact">에너지 절감 상담 요청하기</a></section>
+</div>
+</main>
+<footer class="site-footer compact-footer">
+<div class="container footer-bottom">
+<span>© <span id="year">2026</span> Global Energy Optimization Lab. All rights reserved.</span>
+<span class="footer-mini-links"><a href="../privacy.html">개인정보처리방침</a><a href="./">CASE LIST ↑</a></span>
+</div>
+</footer>
+<script defer="" src="../assets/script.js"></script>
 </body>
 </html>

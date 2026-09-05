@@ -1,48 +1,81 @@
-<!doctype html>
-<html lang="ko">
+<!DOCTYPE html>
+
+<html class="no-js" lang="ko">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#0b1f33" />
-  <meta name="description" content="국내 글래스 제조 A사의 소형·대형 소결로 전력성능과 UPI를 분석하고 성능우위 소결로 우선가동 시나리오의 절감 잠재량을 평가한 에너지 최적화 사례입니다." />
-  <meta name="keywords" content="글래스 에너지 절감, 소결로 에너지 절감, 소결로 운전 최적화, UPI 개선, 전력원단위, 소결로 우선가동, 에너지 시뮬레이션" />
-  <link rel="canonical" href="https://www.energy-ai-optimization.com/cases/glass-sintering-furnace-optimization.html" />
-  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml" />
-  <link rel="stylesheet" href="../assets/styles.css" />
-  <title>글래스 소결로 UPI·운전시나리오 최적화 사례 | 글로벌 에너지 최적화 연구소</title>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#0b1f33" name="theme-color"/>
+<meta content="약 11개월의 소결로 운전데이터를 동일 소결프로파일 기준으로 정규화해 로별 소결당 전력소비량과 UPI를 비교하고, 성능우위 소결로를 우선 가동했을 때의 전력 절감 잠재량을 시뮬레이션한 사례입니다." name="description"/>
+<meta content="strict-origin-when-cross-origin" name="referrer"/>
+<meta content="article" property="og:type"/>
+<meta content="ko_KR" property="og:locale"/>
+<meta content="소결로별 전력성능 분석과 성능우위 우선가동 시나리오 최적화" property="og:title"/>
+<meta content="약 11개월의 소결로 운전데이터를 동일 소결프로파일 기준으로 정규화해 로별 소결당 전력소비량과 UPI를 비교하고, 성능우위 소결로를 우선 가동했을 때의 전력 절감 잠재량을 시뮬레이션한 사례입니다." property="og:description"/>
+<meta content="https://www.energy-ai-optimization.com/cases/glass-sintering-furnace-optimization.html" property="og:url"/>
+<link href="https://www.energy-ai-optimization.com/cases/glass-sintering-furnace-optimization.html" rel="canonical"/>
+<link href="../assets/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="../assets/styles.css" rel="stylesheet"/>
+<title>소결로별 전력성능 분석과 성능우위 우선가동 시나리오 최적화 | 글로벌 에너지 최적화 연구소</title>
+<script>document.documentElement.classList.remove('no-js');document.documentElement.classList.add('js');</script>
 </head>
-<body class="case-page detail-page" data-case-id="glass-sintering-furnace-optimization">
-  <a class="skip-link" href="#main">본문 바로가기</a>
-  <header class="site-header scrolled">
-    <div class="header-inner container">
-      <a class="brand" href="../" aria-label="글로벌 에너지 최적화 연구소 홈">
-        <span class="brand-mark" aria-hidden="true">EO</span>
-        <span class="brand-copy"><strong>글로벌 에너지 최적화 연구소</strong><small>Global Energy Optimization Lab</small></span>
-      </a>
-      <nav class="primary-nav archive-nav" aria-label="주 메뉴">
-        <a href="../#services">에너지 절감 컨설팅</a>
-        <a href="../#mv">Baseline &amp; M&amp;V</a>
-        <a class="active" href="./">절감 사례</a>
-        <a href="../#insight">Energy Insight</a>
-        <a href="../#expert">전문가 소개</a>
-        <a class="nav-cta" href="../#contact">에너지 절감 상담</a>
-      </nav>
-    </div>
-  </header>
-
-  <main id="main" class="case-detail-main">
-    <div class="container" id="case-detail-root"></div>
-  </main>
-
-  <footer class="site-footer compact-footer">
-    <div class="container footer-bottom">
-      <span>© <span id="year">2026</span> Global Energy Optimization Lab. All rights reserved.</span>
-      <a href="./">CASE LIST ↑</a>
-    </div>
-  </footer>
-
-  <script src="../data/cases-data.js"></script>
-  <script src="../assets/case-detail.js"></script>
-  <script src="../assets/script.js" defer></script>
+<body class="case-page detail-page">
+<a class="skip-link" href="#main">본문 바로가기</a>
+<header class="site-header scrolled">
+<div class="header-inner container">
+<a aria-label="글로벌 에너지 최적화 연구소 홈" class="brand" href="../">
+<span aria-hidden="true" class="brand-mark">EO</span>
+<span class="brand-copy"><strong>글로벌 에너지 최적화 연구소</strong><small>GLOBAL ENERGY OPTIMIZATION LAB</small></span>
+</a>
+<button aria-controls="primary-nav" aria-expanded="false" aria-label="메뉴 열기" class="nav-toggle" type="button"><span></span><span></span><span></span></button>
+<nav aria-label="주 메뉴" class="primary-nav archive-nav" id="primary-nav">
+<a href="../#services">에너지 절감 컨설팅</a><a href="../#mv">Baseline &amp; M&amp;V</a><a class="active" href="../cases/">절감 사례</a><a href="../insights/">Energy Insight</a><a href="../#expert">전문가 소개</a>
+<a class="nav-cta" href="../#contact">에너지 절감 상담</a>
+</nav>
+</div>
+</header>
+<main class="case-detail-main" id="main">
+<div class="container">
+<section class="case-detail-hero">
+<div class="case-detail-breadcrumb"><a href="../">홈</a><span>›</span><a href="./">절감 사례</a><span>›</span><strong>국내 글래스 제조 A사</strong></div>
+<div class="case-detail-hero-grid">
+<div><p class="eyebrow">글래스 제조 · 소결로 · 전기</p><h1>소결로별 전력성능 분석과 성능우위 우선가동 시나리오 최적화</h1><p class="case-detail-lead">약 11개월의 소결로 운전데이터를 동일 소결프로파일 기준으로 정규화해 로별 소결당 전력소비량과 UPI를 비교하고, 성능우위 소결로를 우선 가동했을 때의 전력 절감 잠재량을 시뮬레이션한 사례입니다.</p><div class="case-detail-tags"><span>글래스</span><span>소결로</span><span>UPI</span><span>운전시나리오</span><span>전력원단위</span><span>우선가동</span></div></div>
+<aside class="case-summary-panel"><span class="case-state live">진단·제안 사례</span><small>소형·대형 소결로 종합 전력 절감률 추정</small><strong>3.1%</strong>
+<dl><div><dt>고객</dt><dd>국내 글래스 제조 A사</dd></div><div><dt>대상 설비</dt><dd>소형·대형 소결로</dd></div><div><dt>분석기간</dt><dd>2018.09 ~ 2019.07 운전데이터 · 2019.09 분석</dd></div><div><dt>에너지원</dt><dd>전기</dd></div></dl>
+<p>운전 시나리오 시뮬레이션 기반 추정 · 이상적 우선가동 조건 · 실제 절감성과는 후속 M&amp;V 필요</p>
+</aside>
+</div>
+</section>
+<section class="case-detail-section two-col"><div><p class="eyebrow">01 · CHALLENGE</p><h2>현장에서 확인한 주요 과제</h2><ul><li>소결로 에너지성능지표 UPI(kWh/kg)를 낮추기 위해 소결시간, 적재율, 양품률, 설비 자체 성능 중 단기간 적용 가능한 운전 우선순위 개선이 필요</li><li>동일한 소결조건에서도 소결로별 소결당 전력소비량 차이가 존재하여 성능우위·열위 설비를 객관적으로 구분할 필요</li><li>제품·프로파일 차이로 인한 전력소비량 편차를 배제한 뒤 실제 설비 성능만 비교할 수 있는 분석 기준이 필요</li><li>설비 개조 없이 생산 스케줄과 가동 우선순위를 변경했을 때의 절감 잠재량을 사전에 정량화할 필요</li></ul></div><div><p class="eyebrow">02 · DATA</p><h2>분석에 사용한 데이터</h2><ul><li>324일간의 소결로 운전데이터와 전력소비량, 소결시간, 로입중량 및 적재율</li><li>비정상 전력량·적재율을 제외한 소형로 118건, 대형로 733건의 유효 운전데이터</li><li>소형로 주요 151h·154h 프로파일과 대형로 주요 110h·112h·114h 프로파일</li><li>소결로별 소결당 전력소비량(kWh/건), 로입중량(kg/건), UPI(kWh/kg)</li></ul></div></section>
+<section class="case-detail-section"><p class="eyebrow">03 · BASELINE / MODEL</p><h2>소결로 성능순위 및 운전 시나리오 분석</h2><div class="model-grid"><article class="model-card"><span>에너지성능지표</span><code>UPI = 전력소비량(kWh) / 로입중량(kg)</code>
+<dl><div><dt>방법</dt><dd>소결로의 단위 중량당 전력소비 수준을 비교하는 핵심 성능지표로 활용</dd></div><div><dt>성능·해석</dt><dd>소형·대형 소결로의 개선 전·후 시나리오에서 UPI 변화율과 전력 절감률을 함께 평가</dd></div></dl></article><article class="model-card"><span>동일 프로파일 성능비교</span><code>Performance Rank = 평균 소결당 전력소비량(kWh/건)</code>
+<dl><div><dt>방법</dt><dd>프로파일 차이의 영향을 제거하기 위해 최대빈도 소결시간 구간만 추출한 후 로별 전력소비량 비교</dd></div><div><dt>성능·해석</dt><dd>분석자료에서는 동일 주요 프로파일 내 로입중량과 소결당 전력소비량의 뚜렷한 상관관계가 확인되지 않아 로별 전력소비량을 성능순위 기준으로 적용</dd></div></dl></article><article class="model-card"><span>우선가동 시나리오</span><code>Scenario = Σ(우선가동 로의 평균 kWh/건 × 배정 소결건수)</code>
+<dl><div><dt>방법</dt><dd>평균 소결시간·로입중량·적재율을 동일하게 두고 가동 대상 소결로의 우선순위만 변경</dd></div><div><dt>성능·해석</dt><dd>소형로와 대형로를 별도 분석한 뒤 실제 전력소비량과 시나리오 전력소비량을 비교</dd></div></dl></article><article class="model-card"><span>연간 절감 잠재량 환산</span><code>Annual Saving = 연간 대상 전력사용량 × 시뮬레이션 절감률</code>
+<dl><div><dt>방법</dt><dd>소형·대형 소결로 연간 전력사용량에 종합 절감률 3.1% 적용</dd></div><div><dt>성능·해석</dt><dd>연간 약 248,494kWh, 최대 약 2,683만원/년 절감 가능성 추정 · 이상적 스케줄 조건이므로 실제 절감액은 더 낮을 수 있음</dd></div></dl></article></div></section>
+<section class="case-detail-section"><p class="eyebrow">04 · SAVING OPPORTUNITY</p><h2>1차 절감 잠재량 시나리오</h2>
+<div class="scenario-table-wrap"><table class="scenario-table"><thead><tr><th>개선 시나리오</th><th>Baseline</th><th>목표</th><th>1차 잠재량</th></tr></thead><tbody><tr>
+<td><strong>소형 소결로 · 성능우위 우선가동</strong><span>주요 동일 프로파일 데이터를 기준으로 성능상위 소결로의 가동횟수를 우선 배정한 시뮬레이션</span></td>
+<td>286,527 kWh · UPI 27.99 kWh/kg</td><td>264,191 kWh · UPI 25.81 kWh/kg</td><td class="saving-cell">7.8% 추정</td>
+</tr><tr>
+<td><strong>대형 소결로 · 성능우위 우선가동</strong><span>주요 동일 프로파일 내 로별 소결당 전력소비량 순위에 따라 우선가동 스케줄을 적용</span></td>
+<td>2,983,691 kWh · UPI 11.59 kWh/kg</td><td>2,904,881 kWh · UPI 11.28 kWh/kg</td><td class="saving-cell">2.6% 추정</td>
+</tr><tr>
+<td><strong>소형 + 대형 · 유효데이터 종합</strong><span>유효데이터·동일프로파일 기준 절감량 101,145kWh, 분석기간 전력단가 기준 약 1,092만원 절감예상</span></td>
+<td>3,270,218 kWh · UPI 12.22 kWh/kg</td><td>3,169,073 kWh · UPI 11.84 kWh/kg</td><td class="saving-cell">3.1% 추정</td>
+</tr><tr>
+<td><strong>연간 운전으로 확대 환산</strong><span>종합 절감률 3.1% 적용 시 연간 최대 약 2,683만원 절감 가능성 추정. 실제 운전제약을 반영하면 절감액은 축소될 수 있음</span></td>
+<td>소형·대형 연간 전력사용량 약 8,015,930 kWh</td><td>성능우위 설비 중심의 이상적 생산 스케줄</td><td class="saving-cell">약 248,494 kWh/년</td>
+</tr></tbody></table></div>
+<div class="verification-box"><strong>검증 조건</strong><p>본 사례의 절감률과 연간 절감액은 실제 개선 후 계측 실적이 아니라 과거 운전데이터를 이용한 우선가동 시나리오의 추정 결과입니다. 실제 적용 시에는 생산계획, 제품별 소결프로파일, 설비 가용성 및 품질조건을 반영해 운전 우선순위를 운영하고, 적용 전·후 동일 조건의 전력소비량과 UPI를 비교하는 M&amp;V가 필요합니다.</p></div><p class="source-note">자료 기준: 2019 소결로 운전 시나리오 변경 효과 분석 보고서 기반 · 고객사명·브랜드·사업장명·개별 설비번호 비식별 처리</p>
+</section>
+<section class="case-detail-cta"><div><p class="eyebrow light">APPLY TO YOUR SITE</p><h2>우리 사업장·시설 데이터에도 같은 방식으로 적용할 수 있을까요?</h2><p>에너지사용량과 주요 영향인자 데이터가 있다면 현재 설비·시스템의 Baseline과 절감 가능성을 함께 검토할 수 있습니다.</p></div><a class="button button-submit" href="../#contact">에너지 절감 상담 요청하기</a></section>
+</div>
+</main>
+<footer class="site-footer compact-footer">
+<div class="container footer-bottom">
+<span>© <span id="year">2026</span> Global Energy Optimization Lab. All rights reserved.</span>
+<span class="footer-mini-links"><a href="../privacy.html">개인정보처리방침</a><a href="./">CASE LIST ↑</a></span>
+</div>
+</footer>
+<script defer="" src="../assets/script.js"></script>
 </body>
 </html>

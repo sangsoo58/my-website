@@ -1,7 +1,7 @@
 User-agent: *
 Allow: /
 Disallow: /admin/
-Disallow: /supabase/
+Disallow: /data/
 Disallow: /docs/
 
 Sitemap: https://www.energy-ai-optimization.com/sitemap.xml

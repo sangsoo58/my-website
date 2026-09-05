@@ -1,48 +1,85 @@
-<!doctype html>
-<html lang="ko">
+<!DOCTYPE html>
+
+<html class="no-js" lang="ko">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#0b1f33" />
-  <meta name="description" content="국내 철강 제조 A사의 전기 용해로를 대상으로 전력원단위, 원료예열, 조업시간, 생산량과 부대설비를 분석하여 557→530kWh/ton, 약 5%의 전력절감 목표를 수립한 컨설팅 사례입니다." />
-  <meta name="keywords" content="철강업종 컨설팅, 철강 에너지 절감, 용해로 에너지 절감, 용해로 전력원단위, 전기로 운전최적화, 원료 예열, 용해시간 단축, 집진기 에너지 절감" />
-  <link rel="canonical" href="https://www.energy-ai-optimization.com/cases/steel-melting-furnace-operation-optimization.html" />
-  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml" />
-  <link rel="stylesheet" href="../assets/styles.css" />
-  <title>철강 용해로 에너지·운전최적화 사례 | 글로벌 에너지 최적화 연구소</title>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#0b1f33" name="theme-color"/>
+<meta content="용해로 Charge별 전력원단위와 원료 예열, 용해·대기·출탕시간, Charge 생산량 및 일일 생산량의 상관관계를 분석하고, 원료예열 확대와 조업시간 단축·생산계획 최적화를 통해 전력원단위 개선목표를 수립한 사례입니다." name="description"/>
+<meta content="strict-origin-when-cross-origin" name="referrer"/>
+<meta content="article" property="og:type"/>
+<meta content="ko_KR" property="og:locale"/>
+<meta content="철강 용해로 전력원단위·예열·조업시간·생산량 통합 운전최적화" property="og:title"/>
+<meta content="용해로 Charge별 전력원단위와 원료 예열, 용해·대기·출탕시간, Charge 생산량 및 일일 생산량의 상관관계를 분석하고, 원료예열 확대와 조업시간 단축·생산계획 최적화를 통해 전력원단위 개선목표를 수립한 사례입니다." property="og:description"/>
+<meta content="https://www.energy-ai-optimization.com/cases/steel-melting-furnace-operation-optimization.html" property="og:url"/>
+<link href="https://www.energy-ai-optimization.com/cases/steel-melting-furnace-operation-optimization.html" rel="canonical"/>
+<link href="../assets/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="../assets/styles.css" rel="stylesheet"/>
+<title>철강 용해로 전력원단위·예열·조업시간·생산량 통합 운전최적화 | 글로벌 에너지 최적화 연구소</title>
+<script>document.documentElement.classList.remove('no-js');document.documentElement.classList.add('js');</script>
 </head>
-<body class="case-page detail-page" data-case-id="steel-melting-furnace-operation-optimization">
-  <a class="skip-link" href="#main">본문 바로가기</a>
-  <header class="site-header scrolled">
-    <div class="header-inner container">
-      <a class="brand" href="../" aria-label="글로벌 에너지 최적화 연구소 홈">
-        <span class="brand-mark" aria-hidden="true">EO</span>
-        <span class="brand-copy"><strong>글로벌 에너지 최적화 연구소</strong><small>Global Energy Optimization Lab</small></span>
-      </a>
-      <nav class="primary-nav archive-nav" aria-label="주 메뉴">
-        <a href="../#services">에너지 절감 컨설팅</a>
-        <a href="../#mv">Baseline &amp; M&amp;V</a>
-        <a class="active" href="./">절감 사례</a>
-        <a href="../#insight">Energy Insight</a>
-        <a href="../#expert">전문가 소개</a>
-        <a class="nav-cta" href="../#contact">에너지 절감 상담</a>
-      </nav>
-    </div>
-  </header>
-
-  <main id="main" class="case-detail-main">
-    <div class="container" id="case-detail-root"></div>
-  </main>
-
-  <footer class="site-footer compact-footer">
-    <div class="container footer-bottom">
-      <span>© <span id="year">2026</span> Global Energy Optimization Lab. All rights reserved.</span>
-      <a href="./">CASE LIST ↑</a>
-    </div>
-  </footer>
-
-  <script src="../data/cases-data.js"></script>
-  <script src="../assets/case-detail.js"></script>
-  <script src="../assets/script.js" defer></script>
+<body class="case-page detail-page">
+<a class="skip-link" href="#main">본문 바로가기</a>
+<header class="site-header scrolled">
+<div class="header-inner container">
+<a aria-label="글로벌 에너지 최적화 연구소 홈" class="brand" href="../">
+<span aria-hidden="true" class="brand-mark">EO</span>
+<span class="brand-copy"><strong>글로벌 에너지 최적화 연구소</strong><small>GLOBAL ENERGY OPTIMIZATION LAB</small></span>
+</a>
+<button aria-controls="primary-nav" aria-expanded="false" aria-label="메뉴 열기" class="nav-toggle" type="button"><span></span><span></span><span></span></button>
+<nav aria-label="주 메뉴" class="primary-nav archive-nav" id="primary-nav">
+<a href="../#services">에너지 절감 컨설팅</a><a href="../#mv">Baseline &amp; M&amp;V</a><a class="active" href="../cases/">절감 사례</a><a href="../insights/">Energy Insight</a><a href="../#expert">전문가 소개</a>
+<a class="nav-cta" href="../#contact">에너지 절감 상담</a>
+</nav>
+</div>
+</header>
+<main class="case-detail-main" id="main">
+<div class="container">
+<section class="case-detail-hero">
+<div class="case-detail-breadcrumb"><a href="../">홈</a><span>›</span><a href="./">절감 사례</a><span>›</span><strong>국내 철강 제조 A사</strong></div>
+<div class="case-detail-hero-grid">
+<div><p class="eyebrow">철강 · 용해공정 · 운전최적화 · 전기</p><h1>철강 용해로 전력원단위·예열·조업시간·생산량 통합 운전최적화</h1><p class="case-detail-lead">용해로 Charge별 전력원단위와 원료 예열, 용해·대기·출탕시간, Charge 생산량 및 일일 생산량의 상관관계를 분석하고, 원료예열 확대와 조업시간 단축·생산계획 최적화를 통해 전력원단위 개선목표를 수립한 사례입니다.</p><div class="case-detail-tags"><span>철강</span><span>용해로</span><span>전력원단위</span><span>원료예열</span><span>조업시간</span><span>생산량</span><span>냉각수</span><span>집진</span></div></div>
+<aside class="case-summary-panel"><span class="case-state live">진단·제안 사례</span><small>1단계 전력원단위 개선 목표</small><strong>557 → 530 kWh/ton · 약 5%</strong>
+<dl><div><dt>고객</dt><dd>국내 철강 제조 A사</dd></div><div><dt>대상 설비</dt><dd>전기 용해로 · 원료 예열장치 · 냉각수펌프 · 집진시스템</dd></div><div><dt>분석기간</dt><dd>2021년 1~9월 운전데이터 및 조업일지 연계 분석</dd></div><div><dt>에너지원</dt><dd>전기</dd></div></dl>
+<p>운전최적화 목표 · 소비전력 약 5% 절감 목표 · 개선 후 확정 실적 아님 · 성과 M&amp;V 필요</p>
+</aside>
+</div>
+</section>
+<section class="case-detail-section two-col"><div><p class="eyebrow">01 · CHALLENGE</p><h2>현장에서 확인한 주요 과제</h2><ul><li>용해로 시스템 데이터와 조업일지의 데이터가 분리되어 있어 전력원단위에 영향을 주는 복합적인 조업인자를 통합 분석할 필요</li><li>원료 예열장치 가동회수가 Charge별로 0~2회로 편차가 있고, 예열회수가 많을수록 전력원단위가 개선되는 상관관계가 확인됨</li><li>평균 조업시간이 약 150분/Charge로 용해시간과 대기·출탕시간 단축을 통한 전력절감 여지가 존재</li><li>Charge 생산량 및 일일 생산량이 낮은 구간에서 전력원단위가 불리해 일정 수준 이상의 생산량 유지가 필요</li><li>냉각수펌프의 가변속제어와 집진시스템 차압·Hood 흡입압력도 용해로 부대설비의 추가 최적화 대상으로 분석됨</li></ul></div><div><p class="eyebrow">02 · DATA</p><h2>분석에 사용한 데이터</h2><ul><li>용해로 시스템 전력 및 운전데이터</li><li>Charge별 조업일지와 제품·생산량 데이터</li><li>전력원단위(kWh/ton)</li><li>원료 예열장치 Charge별 가동회수</li><li>용해시간·대기시간·출탕시간 및 총 조업시간</li><li>Charge 생산량 및 일일 생산량</li><li>냉각수펌프 운전상태와 집진기 차압·Hood 흡입압력</li></ul></div></section>
+<section class="case-detail-section"><p class="eyebrow">03 · BASELINE / MODEL</p><h2>용해공정 전력원단위와 조업인자 최적화 기준</h2><div class="model-grid"><article class="model-card"><span>용해로 전력원단위</span><code>Energy Intensity = 용해로 전력사용량(kWh) / 생산량(ton)</code>
+<dl><div><dt>방법</dt><dd>Charge별 전력사용량과 생산량을 매칭하여 용해로·작업조건·제품별 원단위를 비교</dd></div><div><dt>성능·해석</dt><dd>전체 Charge 단순분석 평균 약 559 kWh/ton. 이상구간을 제외한 운전분석에서는 종합 평균 약 535 kWh/ton</dd></div></dl></article><article class="model-card"><span>원료 예열과 전력원단위</span><code>Preheating ↑ → Energy Intensity ↓</code>
+<dl><div><dt>방법</dt><dd>일일 예열 Charge수와 전력원단위의 상관관계를 분석해 예열장치 활용기준을 도출</dd></div><div><dt>성능·해석</dt><dd>일일 예열 Charge수가 약 25회 이상인 구간에서 전력원단위가 상대적으로 우수</dd></div></dl></article><article class="model-card"><span>조업시간과 전력원단위</span><code>Operating Time ↑ → Energy Intensity ↑</code>
+<dl><div><dt>방법</dt><dd>용해시간과 대기·출탕시간을 구분하여 총 조업시간과 전력원단위의 관계를 분석</dd></div><div><dt>성능·해석</dt><dd>현황 약 150분/Charge → 목표 약 110분/Charge</dd></div></dl></article><article class="model-card"><span>생산량과 전력원단위</span><code>Production Throughput ↑ → Energy Intensity ↓</code>
+<dl><div><dt>방법</dt><dd>Charge별 생산량 및 일일 총 생산량과 kWh/ton을 비교해 효율이 유리한 생산수준을 도출</dd></div><div><dt>성능·해석</dt><dd>Charge 생산량 10ton 이상, 일일 생산량 300ton 이상을 운전목표로 제시</dd></div></dl></article><article class="model-card"><span>부대설비 진단</span><code>Auxiliary Loss = Cooling + Dust Collection</code>
+<dl><div><dt>방법</dt><dd>냉각수펌프 가변속 운전과 집진기 차압·Hood 흡입압력의 적정성을 검토</dd></div><div><dt>성능·해석</dt><dd>집진기 차압 약 241mmAq로 보고서 기준 100~150mmAq보다 높아 정밀진단 및 개선 검토</dd></div></dl></article></div></section>
+<section class="case-detail-section"><p class="eyebrow">04 · SAVING OPPORTUNITY</p><h2>1차 절감 잠재량 시나리오</h2>
+<div class="scenario-table-wrap"><table class="scenario-table"><thead><tr><th>개선 시나리오</th><th>Baseline</th><th>목표</th><th>1차 잠재량</th></tr></thead><tbody><tr>
+<td><strong>원료 예열장치 가동률 증대</strong><span>일일 예열 Charge수가 약 25회 이상인 구간의 원단위가 상대적으로 우수한 분석결과를 활용</span></td>
+<td>예열장치 0~2회/Charge</td><td>기준 약 3ton/Charge 수준의 예열 활용 및 설비상태 개선</td><td class="saving-cell">전력원단위 개선</td>
+</tr><tr>
+<td><strong>조업시간 단축</strong><span>공정 안정성과 품질을 유지하는 범위에서 용해와 비생산 시간을 단계적으로 축소</span></td>
+<td>총 약 150분/Charge · 용해 약 81분 · 대기/출탕 약 69분</td><td>총 약 110분/Charge · 용해 60~70분 · 대기/출탕 30~40분</td><td class="saving-cell">대기손실·용해 전력 저감</td>
+</tr><tr>
+<td><strong>생산량 최적화</strong><span>일일 생산량이 약 300ton 이상인 구간에서 전력원단위가 상대적으로 유리</span></td>
+<td>약 9~11ton/Charge, 일일 생산량 변동</td><td>10ton/Charge 이상 · 일일 300ton 이상</td><td class="saving-cell">kWh/ton 개선</td>
+</tr><tr>
+<td><strong>냉각수·집진시스템 최적화</strong><span>집진시스템은 연계 설비까지 포함한 정밀진단을 후속과제로 제시</span></td>
+<td>냉각수펌프 가변속제어 및 높은 집진기 차압</td><td>냉각수 VFD 운전점 최적화 + 집진기 차압·Hood 흡입압력 정밀진단</td><td class="saving-cell">부대전력 및 불필요 압력손실 저감</td>
+</tr><tr>
+<td><strong>1단계 용해로 운전최적화</strong><span>보고서 최종 종합의견의 1단계 목표. 개선 실행 후 성과를 확인하도록 제시된 목표값이며 확정 실적은 아님</span></td>
+<td>전력원단위 기준 약 557 kWh/ton</td><td>원료예열·조업시간·생산량·부대설비 운전을 통합 최적화</td><td class="saving-cell">530 kWh/ton · 소비전력 약 5% 절감 목표</td>
+</tr></tbody></table></div>
+<div class="verification-box"><strong>검증 조건</strong><p>보고서에는 전체 Charge 분석에서 전력원단위 평균 약 559kWh/ton이 제시되고, 이상 원단위 구간을 제외한 세부 운전분석에서는 평균 약 535kWh/ton이 제시됩니다. 최종 종합의견의 1단계 운전최적화 목표는 557→530kWh/ton, 소비전력 약 5% 절감입니다. 따라서 공개 페이지에서는 이 값들을 동일한 의미의 Baseline으로 혼합하지 않고, 559는 전체 관측 평균, 535는 필터링된 운전분석 평균, 557→530은 프로젝트의 1단계 목표로 구분합니다. 실제 절감성과는 생산량, 제품, 용해온도, 잔탕, 운전자·설비조건 등을 보정하여 M&amp;V로 확정해야 합니다.</p></div><p class="source-note">자료 기준: 국내 철강 제조시설의 용해로 에너지절감·조업현황 분석 및 운전최적화 보고서 기반 · 고객사명·사업장명·내부 라인번호·용해로 번호·제품코드 비식별 처리</p>
+</section>
+<section class="case-detail-cta"><div><p class="eyebrow light">APPLY TO YOUR SITE</p><h2>우리 사업장·시설 데이터에도 같은 방식으로 적용할 수 있을까요?</h2><p>에너지사용량과 주요 영향인자 데이터가 있다면 현재 설비·시스템의 Baseline과 절감 가능성을 함께 검토할 수 있습니다.</p></div><a class="button button-submit" href="../#contact">에너지 절감 상담 요청하기</a></section>
+</div>
+</main>
+<footer class="site-footer compact-footer">
+<div class="container footer-bottom">
+<span>© <span id="year">2026</span> Global Energy Optimization Lab. All rights reserved.</span>
+<span class="footer-mini-links"><a href="../privacy.html">개인정보처리방침</a><a href="./">CASE LIST ↑</a></span>
+</div>
+</footer>
+<script defer="" src="../assets/script.js"></script>
 </body>
 </html>

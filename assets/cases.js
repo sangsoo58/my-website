@@ -12,7 +12,7 @@
     <article class="case-card live-case-card reveal visible">
       <div class="case-top">
         <span>${escapeHtml(item.category)}</span>
-        <span class="case-state live">실제 수행 사례</span>
+        <span class="case-state live">컨설팅 사례</span>
       </div>
       <div class="case-kpi">
         <small>${escapeHtml(item.potentialLabel)}</small>

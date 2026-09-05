@@ -1,16 +1,17 @@
-<!doctype html>
-<html lang="ko">
+<!DOCTYPE html>
+
+<html class="no-js" lang="ko">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#0b1f33" />
-  <meta name="description" content="국내 대형건물의 난방·냉방·환기·조명·급탕·운송·Process 에너지를 수요측/공급측으로 구조화하고, 설비용량·사용시간·기기효율·운전효율을 BEMS 관리변수로 정의한 건물에너지 진단·관리모델 사례입니다." />
-  <meta name="keywords" content="건물에너지절감컨설팅, 대형건물 에너지진단, BEMS 컨설팅, BEMS 설계, 건물 에너지관리, End-use 분석, 건물 운영효율, 냉난방 에너지 절감, 조명 에너지 절감" />
-  <link rel="canonical" href="https://www.energy-ai-optimization.com/cases/large-building-bems-energy-management-audit.html" />
-  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml" />
-  <link rel="stylesheet" href="../assets/styles.css" />
-  <title>대형건물 BEMS 기반 에너지진단·관리모델 사례 | 글로벌 에너지 최적화 연구소</title>
-  <style id="detail-critical-visibility">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#0b1f33" name="theme-color"/>
+<meta content="국내 대형건물의 난방·냉방·환기·조명·급탕·운송·Process 에너지를 수요측/공급측으로 구조화하고, 설비용량·사용시간·기기효율·운전효율을 BEMS 관리변수로 정의한 건물에너지 진단·관리모델 사례입니다." name="description"/>
+<meta content="건물에너지절감컨설팅, 대형건물 에너지진단, BEMS 컨설팅, BEMS 설계, 건물 에너지관리, End-use 분석, 건물 운영효율, 냉난방 에너지 절감, 조명 에너지 절감" name="keywords"/>
+<link href="https://www.energy-ai-optimization.com/cases/large-building-bems-energy-management-audit.html" rel="canonical"/>
+<link href="../assets/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="../assets/styles.css" rel="stylesheet"/>
+<title>대형건물 BEMS 기반 에너지진단·관리모델 사례 | 글로벌 에너지 최적화 연구소</title>
+<style id="detail-critical-visibility">
     .case-detail-main, .case-detail-main .container, .case-detail-hero,
     .case-detail-hero-grid, .case-detail-section, .case-detail-cta,
     .model-grid, .model-card, .scenario-table-wrap, .verification-box {
@@ -21,339 +22,320 @@
       display: block !important;
     }
   </style>
-</head>
+<meta content="strict-origin-when-cross-origin" name="referrer"/><script>document.documentElement.classList.remove('no-js');document.documentElement.classList.add('js');</script></head>
 <body class="case-page detail-page">
-  <a class="skip-link" href="#main">본문 바로가기</a>
-
-  <header class="site-header scrolled">
-    <div class="header-inner container">
-      <a class="brand" href="../" aria-label="글로벌 에너지 최적화 연구소 홈">
-        <span class="brand-mark" aria-hidden="true">EO</span>
-        <span class="brand-copy">
-          <strong>글로벌 에너지 최적화 연구소</strong>
-          <small>GLOBAL ENERGY OPTIMIZATION LAB</small>
-        </span>
-      </a>
-      <nav class="primary-nav archive-nav" aria-label="주 메뉴">
-        <a href="../#services">에너지 절감 컨설팅</a>
-        <a href="../#mv">Baseline &amp; M&amp;V</a>
-        <a class="active" href="./">절감 사례</a>
-        <a href="../#insight">Energy Insight</a>
-        <a href="../#expert">전문가 소개</a>
-        <a class="nav-cta" href="../#contact">에너지 절감 상담</a>
-      </nav>
-    </div>
-  </header>
-
-  <main id="main" class="case-detail-main">
-    <div class="container">
-
-      <section class="case-detail-hero">
-        <div class="case-detail-breadcrumb">
-          <a href="../">홈</a><span>›</span><a href="./">절감 사례</a><span>›</span>
-          <strong>국내 대형건물 C사</strong>
-        </div>
-
-        <div class="case-detail-hero-grid">
-          <div>
-            <p class="eyebrow">BUILDING ENERGY · BEMS · END-USE · OPERATION MANAGEMENT</p>
-            <h1>대형건물 BEMS 기반 에너지진단·관리모델 설계</h1>
-            <p class="case-detail-lead">
+<a class="skip-link" href="#main">본문 바로가기</a>
+<header class="site-header scrolled">
+<div class="header-inner container">
+<a aria-label="글로벌 에너지 최적화 연구소 홈" class="brand" href="../">
+<span aria-hidden="true" class="brand-mark">EO</span>
+<span class="brand-copy">
+<strong>글로벌 에너지 최적화 연구소</strong>
+<small>GLOBAL ENERGY OPTIMIZATION LAB</small>
+</span>
+</a>
+<button aria-controls="primary-nav" aria-expanded="false" aria-label="메뉴 열기" class="nav-toggle" type="button"><span></span><span></span><span></span></button><nav aria-label="주 메뉴" class="primary-nav archive-nav" id="primary-nav">
+<a href="../#services">에너지 절감 컨설팅</a>
+<a href="../#mv">Baseline &amp; M&amp;V</a>
+<a class="active" href="./">절감 사례</a>
+<a href="../#insight">Energy Insight</a>
+<a href="../#expert">전문가 소개</a>
+<a class="nav-cta" href="../#contact">에너지 절감 상담</a>
+</nav>
+</div>
+</header>
+<main class="case-detail-main" id="main">
+<div class="container">
+<section class="case-detail-hero">
+<div class="case-detail-breadcrumb">
+<a href="../">홈</a><span>›</span><a href="./">절감 사례</a><span>›</span>
+<strong>국내 대형건물 C사</strong>
+</div>
+<div class="case-detail-hero-grid">
+<div>
+<p class="eyebrow">BUILDING ENERGY · BEMS · END-USE · OPERATION MANAGEMENT</p>
+<h1>대형건물 BEMS 기반 에너지진단·관리모델 설계</h1>
+<p class="case-detail-lead">
               건물 에너지를 난방·냉방·환기·조명·급탕·운송·사무/Process 등 수요측 End-use와
               전기·열에너지 공급측으로 나누고, 각 설비의 용량·사용시간·기기효율·운전효율을
               관리변수로 정의하여 BEMS/BPOS 기반의 에너지진단 및 지속관리 체계를 설계한 사례입니다.
             </p>
-            <div class="case-detail-tags">
-              <span>대형건물</span><span>BEMS</span><span>BPOS</span>
-              <span>에너지진단</span><span>End-use</span>
-              <span>사용시간</span><span>기기효율</span><span>운전효율</span>
-            </div>
-          </div>
-
-          <aside class="case-summary-panel">
-            <span class="case-state live">진단·관리모델 사례</span>
-            <small>자료의 핵심 성과</small>
-            <strong>건물에너지 관리 프레임워크 설계</strong>
-            <dl>
-              <div><dt>고객사</dt><dd>국내 대형건물 C사</dd></div>
-              <div><dt>범위</dt><dd>난방·냉방·환기·조명·콘센트·운송·급탕·Process</dd></div>
-              <div><dt>핵심변수</dt><dd>용량 · 사용시간 · 기기효율 · 운전효율</dd></div>
-              <div><dt>정량성과</dt><dd>원 자료에 절감률·절감액 미제시</dd></div>
-            </dl>
-            <p>
+<div class="case-detail-tags">
+<span>대형건물</span><span>BEMS</span><span>BPOS</span>
+<span>에너지진단</span><span>End-use</span>
+<span>사용시간</span><span>기기효율</span><span>운전효율</span>
+</div>
+</div>
+<aside class="case-summary-panel">
+<span class="case-state live">진단·관리모델 사례</span>
+<small>자료의 핵심 성과</small>
+<strong>건물에너지 관리 프레임워크 설계</strong>
+<dl>
+<div><dt>고객사</dt><dd>국내 대형건물 C사</dd></div>
+<div><dt>범위</dt><dd>난방·냉방·환기·조명·콘센트·운송·급탕·Process</dd></div>
+<div><dt>핵심변수</dt><dd>용량 · 사용시간 · 기기효율 · 운전효율</dd></div>
+<div><dt>정량성과</dt><dd>원 자료에 절감률·절감액 미제시</dd></div>
+</dl>
+<p>
               본 사례는 특정 건물의 절감실적이 아니라,
               BEMS/BPOS 설계 시 어떤 항목을 진단·관리해야 하는지를 정리한 프레임워크입니다.
             </p>
-          </aside>
-        </div>
-      </section>
-
-      <section class="case-detail-section">
-        <p class="eyebrow">01 · MODEL PURPOSE</p>
-        <h2>모델 목적 — 건물 에너지사용을 관리 가능한 구조로 바꾸기</h2>
-        <div class="verification-box">
-          <strong>수요측 End-use와 공급측 에너지를 연결</strong>
-          <p>
+</aside>
+</div>
+</section>
+<section class="case-detail-section">
+<p class="eyebrow">01 · MODEL PURPOSE</p>
+<h2>모델 목적 — 건물 에너지사용을 관리 가능한 구조로 바꾸기</h2>
+<div class="verification-box">
+<strong>수요측 End-use와 공급측 에너지를 연결</strong>
+<p>
             건물 운영에 필요한 에너지를 난방·냉방·환기·조명·급탕·운송·사무용기기 등
             최종 사용목적별로 구분하고, 이를 전기 및 열·연료 공급에너지와 연결합니다.
             이후 각 소비기기의 에너지사용에 영향을 주는 용량·사용시간·효율을 관리변수로 정의하여
             단순 계측이 아니라 실제 에너지절감 행동으로 이어지는 BEMS/BPOS 관리체계를 만드는 것이 목적입니다.
           </p>
-        </div>
-      </section>
-
-      <section class="case-detail-section">
-        <p class="eyebrow">02 · ENERGY STRUCTURE</p>
-        <h2>건물 에너지 구성요소를 수요측과 공급측으로 분류</h2>
-        <div class="scenario-table-wrap">
-          <table class="scenario-table">
-            <thead>
-              <tr>
-                <th>구분</th>
-                <th>에너지 영역</th>
-                <th>주요 내용</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td><strong>수요측</strong></td>
-                <td>난방 · 냉방 · 환기</td>
-                <td>실내환경 유지에 필요한 HVAC 에너지</td>
-              </tr>
-              <tr>
-                <td><strong>수요측</strong></td>
-                <td>조명 · 사무용기기</td>
-                <td>조명등, 전열기구, 컴퓨터 등 전기부하</td>
-              </tr>
-              <tr>
-                <td><strong>수요측</strong></td>
-                <td>급탕 · 취사 · Process</td>
-                <td>급탕·조리·생산/지원공정 등 열·전기 사용</td>
-              </tr>
-              <tr>
-                <td><strong>수요측</strong></td>
-                <td>운송</td>
-                <td>엘리베이터 등 수직운송 에너지</td>
-              </tr>
-              <tr>
-                <td><strong>공급측</strong></td>
-                <td>전기에너지</td>
-                <td>계통전기 및 기타 전력공급원</td>
-              </tr>
-              <tr>
-                <td><strong>공급측</strong></td>
-                <td>열·연료에너지</td>
-                <td>LNG·LPG·유류·기타 연료/열원</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <section class="case-detail-section">
-        <p class="eyebrow">03 · CORE ENERGY MODEL</p>
-        <h2>에너지소비를 용량·시간·효율로 분해</h2>
-
-        <div class="model-grid">
-          <article class="model-card">
-            <span>기본관점</span>
-            <strong>에너지소비량 ≈ 용량 × 사용시간 ÷ 효율</strong>
-            <p>설비용량과 사용시간이 커질수록 소비량이 증가하고 효율이 높을수록 소비량이 감소하는 구조</p>
-          </article>
-          <article class="model-card">
-            <span>절감방향 1</span>
-            <strong>필요 용량 최소화</strong>
-            <p>부하에 비해 과대용량·과다가동이 없는지 점검</p>
-          </article>
-          <article class="model-card">
-            <span>절감방향 2</span>
-            <strong>사용시간 단축</strong>
-            <p>비재실·비운영 시간의 불필요 운전 제거</p>
-          </article>
-          <article class="model-card">
-            <span>절감방향 3</span>
-            <strong>기기·운전효율 향상</strong>
-            <p>설비 고유효율과 실제 운전효율을 구분해 관리</p>
-          </article>
-        </div>
-
-        <div class="verification-box">
-          <strong>관리의 중요성</strong>
-          <p>
+</div>
+</section>
+<section class="case-detail-section">
+<p class="eyebrow">02 · ENERGY STRUCTURE</p>
+<h2>건물 에너지 구성요소를 수요측과 공급측으로 분류</h2>
+<div class="scenario-table-wrap">
+<table class="scenario-table">
+<thead>
+<tr>
+<th>구분</th>
+<th>에너지 영역</th>
+<th>주요 내용</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>수요측</strong></td>
+<td>난방 · 냉방 · 환기</td>
+<td>실내환경 유지에 필요한 HVAC 에너지</td>
+</tr>
+<tr>
+<td><strong>수요측</strong></td>
+<td>조명 · 사무용기기</td>
+<td>조명등, 전열기구, 컴퓨터 등 전기부하</td>
+</tr>
+<tr>
+<td><strong>수요측</strong></td>
+<td>급탕 · 취사 · Process</td>
+<td>급탕·조리·생산/지원공정 등 열·전기 사용</td>
+</tr>
+<tr>
+<td><strong>수요측</strong></td>
+<td>운송</td>
+<td>엘리베이터 등 수직운송 에너지</td>
+</tr>
+<tr>
+<td><strong>공급측</strong></td>
+<td>전기에너지</td>
+<td>계통전기 및 기타 전력공급원</td>
+</tr>
+<tr>
+<td><strong>공급측</strong></td>
+<td>열·연료에너지</td>
+<td>LNG·LPG·유류·기타 연료/열원</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section class="case-detail-section">
+<p class="eyebrow">03 · CORE ENERGY MODEL</p>
+<h2>에너지소비를 용량·시간·효율로 분해</h2>
+<div class="model-grid">
+<article class="model-card">
+<span>기본관점</span>
+<strong>에너지소비량 ≈ 용량 × 사용시간 ÷ 효율</strong>
+<p>설비용량과 사용시간이 커질수록 소비량이 증가하고 효율이 높을수록 소비량이 감소하는 구조</p>
+</article>
+<article class="model-card">
+<span>절감방향 1</span>
+<strong>필요 용량 최소화</strong>
+<p>부하에 비해 과대용량·과다가동이 없는지 점검</p>
+</article>
+<article class="model-card">
+<span>절감방향 2</span>
+<strong>사용시간 단축</strong>
+<p>비재실·비운영 시간의 불필요 운전 제거</p>
+</article>
+<article class="model-card">
+<span>절감방향 3</span>
+<strong>기기·운전효율 향상</strong>
+<p>설비 고유효율과 실제 운전효율을 구분해 관리</p>
+</article>
+</div>
+<div class="verification-box">
+<strong>관리의 중요성</strong>
+<p>
             원 자료는 에너지절감에서 단순 기기효율 개선보다 지속적인 운영·관리의 중요성을 매우 크게 강조합니다.
             공개 사례에서는 해당 5%/95% 표현을 검증된 보편적 수치로 사용하지 않고,
             “설비효율과 함께 운영관리가 핵심”이라는 보고서의 관점으로만 반영했습니다.
           </p>
-        </div>
-      </section>
-
-      <section class="case-detail-section">
-        <p class="eyebrow">04 · DIAGNOSTIC PROCESS</p>
-        <h2>진단 절차 — End-use에서 설비·관리변수까지 단계적으로 연결</h2>
-        <div class="scenario-table-wrap">
-          <table class="scenario-table">
-            <thead>
-              <tr>
-                <th>단계</th>
-                <th>수행내용</th>
-                <th>BEMS/BPOS 반영</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td><strong>1. End-use 분류</strong></td>
-                <td>난방·냉방·환기·조명·콘센트·운송·급탕·Process 구분</td>
-                <td>분석 메뉴와 에너지사용 구조 정의</td>
-              </tr>
-              <tr>
-                <td><strong>2. 소비기기 Mapping</strong></td>
-                <td>펌프·보일러·냉동기·냉각탑·Fan·조명·엘리베이터 등을 End-use와 연결</td>
-                <td>설비별 계측·진단 대상 정의</td>
-              </tr>
-              <tr>
-                <td><strong>3. 영향인자 정의</strong></td>
-                <td>용량·사용시간·기기효율·운전효율을 설비별 관리변수로 설정</td>
-                <td>KPI·Trend·경보 기준 구성</td>
-              </tr>
-              <tr>
-                <td><strong>4. 운전상태 분석</strong></td>
-                <td>불필요 가동·과대운전·저효율 운전여부 확인</td>
-                <td>운전가이드 및 절감 착안사항 도출</td>
-              </tr>
-              <tr>
-                <td><strong>5. 개선 및 관리</strong></td>
-                <td>용량·시간·효율 개선 후 지속적인 운전상태 확인</td>
-                <td>성과관리와 반복 최적화</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <section class="case-detail-section">
-        <p class="eyebrow">05 · DIAGNOSTIC METHOD</p>
-        <h2>진단 방법 — 설비별로 무엇을 관리할 것인가</h2>
-        <div class="scenario-table-wrap">
-          <table class="scenario-table">
-            <thead>
-              <tr>
-                <th>에너지 영역</th>
-                <th>주요 소비기기</th>
-                <th>핵심 관리항목</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td><strong>난방</strong></td>
-                <td>펌프 · 보일러</td>
-                <td>사용시간 · 기기효율 · 운전효율</td>
-              </tr>
-              <tr>
-                <td><strong>냉방</strong></td>
-                <td>펌프 · 냉동기 · 냉각탑</td>
-                <td>사용시간 · 기기효율 · 운전효율</td>
-              </tr>
-              <tr>
-                <td><strong>환기</strong></td>
-                <td>Fan</td>
-                <td>사용시간 · 기기효율 · 운전효율</td>
-              </tr>
-              <tr>
-                <td><strong>조명</strong></td>
-                <td>조명등</td>
-                <td>사용시간 · 기기효율 · 운전효율</td>
-              </tr>
-              <tr>
-                <td><strong>콘센트</strong></td>
-                <td>전열기구</td>
-                <td>사용시간 · 기기효율 · 운전효율</td>
-              </tr>
-              <tr>
-                <td><strong>운송</strong></td>
-                <td>엘리베이터</td>
-                <td>용량 · 사용시간 · 기기효율 · 운전효율</td>
-              </tr>
-              <tr>
-                <td><strong>급탕</strong></td>
-                <td>보일러</td>
-                <td>용량 · 사용시간 · 기기효율 · 운전효율</td>
-              </tr>
-              <tr>
-                <td><strong>Process</strong></td>
-                <td>생산/지원기계</td>
-                <td>용량 · 사용시간 · 기기효율 · 운전효율</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <section class="case-detail-section">
-        <p class="eyebrow">06 · BEMS DESIGN POINTS</p>
-        <h2>BEMS는 사용량 표시가 아니라 운전관리를 지원해야 함</h2>
-
-        <div class="model-grid">
-          <article class="model-card">
-            <span>용량</span>
-            <strong>Capacity</strong>
-            <p>부하 대비 설비용량과 실제 가동용량이 적정한지 확인</p>
-          </article>
-          <article class="model-card">
-            <span>시간</span>
-            <strong>Operating Time</strong>
-            <p>비재실·비운영 시간의 불필요 운전을 찾는 핵심 관리변수</p>
-          </article>
-          <article class="model-card">
-            <span>기기효율</span>
-            <strong>Equipment Efficiency</strong>
-            <p>설비 고유성능 저하와 고효율 설비 적용 필요성을 판단</p>
-          </article>
-          <article class="model-card">
-            <span>운전효율</span>
-            <strong>Operating Efficiency</strong>
-            <p>Set-point·가동대수·제어로직 등 실제 운전상태의 효율을 관리</p>
-          </article>
-        </div>
-
-        <div class="verification-box">
-          <strong>권장 시스템 구조</strong>
-          <p>
+</div>
+</section>
+<section class="case-detail-section">
+<p class="eyebrow">04 · DIAGNOSTIC PROCESS</p>
+<h2>진단 절차 — End-use에서 설비·관리변수까지 단계적으로 연결</h2>
+<div class="scenario-table-wrap">
+<table class="scenario-table">
+<thead>
+<tr>
+<th>단계</th>
+<th>수행내용</th>
+<th>BEMS/BPOS 반영</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>1. End-use 분류</strong></td>
+<td>난방·냉방·환기·조명·콘센트·운송·급탕·Process 구분</td>
+<td>분석 메뉴와 에너지사용 구조 정의</td>
+</tr>
+<tr>
+<td><strong>2. 소비기기 Mapping</strong></td>
+<td>펌프·보일러·냉동기·냉각탑·Fan·조명·엘리베이터 등을 End-use와 연결</td>
+<td>설비별 계측·진단 대상 정의</td>
+</tr>
+<tr>
+<td><strong>3. 영향인자 정의</strong></td>
+<td>용량·사용시간·기기효율·운전효율을 설비별 관리변수로 설정</td>
+<td>KPI·Trend·경보 기준 구성</td>
+</tr>
+<tr>
+<td><strong>4. 운전상태 분석</strong></td>
+<td>불필요 가동·과대운전·저효율 운전여부 확인</td>
+<td>운전가이드 및 절감 착안사항 도출</td>
+</tr>
+<tr>
+<td><strong>5. 개선 및 관리</strong></td>
+<td>용량·시간·효율 개선 후 지속적인 운전상태 확인</td>
+<td>성과관리와 반복 최적화</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section class="case-detail-section">
+<p class="eyebrow">05 · DIAGNOSTIC METHOD</p>
+<h2>진단 방법 — 설비별로 무엇을 관리할 것인가</h2>
+<div class="scenario-table-wrap">
+<table class="scenario-table">
+<thead>
+<tr>
+<th>에너지 영역</th>
+<th>주요 소비기기</th>
+<th>핵심 관리항목</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>난방</strong></td>
+<td>펌프 · 보일러</td>
+<td>사용시간 · 기기효율 · 운전효율</td>
+</tr>
+<tr>
+<td><strong>냉방</strong></td>
+<td>펌프 · 냉동기 · 냉각탑</td>
+<td>사용시간 · 기기효율 · 운전효율</td>
+</tr>
+<tr>
+<td><strong>환기</strong></td>
+<td>Fan</td>
+<td>사용시간 · 기기효율 · 운전효율</td>
+</tr>
+<tr>
+<td><strong>조명</strong></td>
+<td>조명등</td>
+<td>사용시간 · 기기효율 · 운전효율</td>
+</tr>
+<tr>
+<td><strong>콘센트</strong></td>
+<td>전열기구</td>
+<td>사용시간 · 기기효율 · 운전효율</td>
+</tr>
+<tr>
+<td><strong>운송</strong></td>
+<td>엘리베이터</td>
+<td>용량 · 사용시간 · 기기효율 · 운전효율</td>
+</tr>
+<tr>
+<td><strong>급탕</strong></td>
+<td>보일러</td>
+<td>용량 · 사용시간 · 기기효율 · 운전효율</td>
+</tr>
+<tr>
+<td><strong>Process</strong></td>
+<td>생산/지원기계</td>
+<td>용량 · 사용시간 · 기기효율 · 운전효율</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section class="case-detail-section">
+<p class="eyebrow">06 · BEMS DESIGN POINTS</p>
+<h2>BEMS는 사용량 표시가 아니라 운전관리를 지원해야 함</h2>
+<div class="model-grid">
+<article class="model-card">
+<span>용량</span>
+<strong>Capacity</strong>
+<p>부하 대비 설비용량과 실제 가동용량이 적정한지 확인</p>
+</article>
+<article class="model-card">
+<span>시간</span>
+<strong>Operating Time</strong>
+<p>비재실·비운영 시간의 불필요 운전을 찾는 핵심 관리변수</p>
+</article>
+<article class="model-card">
+<span>기기효율</span>
+<strong>Equipment Efficiency</strong>
+<p>설비 고유성능 저하와 고효율 설비 적용 필요성을 판단</p>
+</article>
+<article class="model-card">
+<span>운전효율</span>
+<strong>Operating Efficiency</strong>
+<p>Set-point·가동대수·제어로직 등 실제 운전상태의 효율을 관리</p>
+</article>
+</div>
+<div class="verification-box">
+<strong>권장 시스템 구조</strong>
+<p>
             End-use → 소비기기 → 관리변수 → KPI/Trend → 경보/운전가이드의 구조로 설계하면
             BEMS가 단순 계측시스템을 넘어 에너지절감 의사결정을 지원하는 관리시스템으로 작동할 수 있습니다.
           </p>
-        </div>
-      </section>
-
-      <section class="case-detail-section">
-        <p class="eyebrow">07 · PERFORMANCE VERIFICATION</p>
-        <h2>성과검증 방향</h2>
-        <div class="verification-box">
-          <strong>원 자료에는 정량 절감성과가 제시되지 않음</strong>
-          <p>
+</div>
+</section>
+<section class="case-detail-section">
+<p class="eyebrow">07 · PERFORMANCE VERIFICATION</p>
+<h2>성과검증 방향</h2>
+<div class="verification-box">
+<strong>원 자료에는 정량 절감성과가 제시되지 않음</strong>
+<p>
             실제 현장 적용 시에는 각 End-use별 전력·열 사용량, 사용시간, 부하, 설비효율을
             개선 전 Baseline으로 확보하고, Schedule·재실·외기조건 등 주요 영향인자를 확인한 후
             개선 전후 동일조건 에너지사용량을 비교하는 방식으로 성과를 검증하는 것이 적절합니다.
           </p>
-        </div>
-      </section>
-
-      <section class="case-detail-cta">
-        <div>
-          <p class="eyebrow light">BUILDING ENERGY MANAGEMENT · BEMS</p>
-          <h2>건물에너지 절감은 “얼마나 썼는가”보다 “왜 썼는가”를 관리해야 합니다.</h2>
-          <p>설비별 에너지사용량·운전시간·부하·효율 데이터가 있다면 End-use 기반 진단과 BEMS 관리체계를 설계할 수 있습니다.</p>
-        </div>
-        <a class="button button-submit" href="../#contact">건물에너지 절감 컨설팅 상담하기</a>
-      </section>
-
-    </div>
-  </main>
-
-  <footer class="site-footer compact-footer">
-    <div class="container footer-bottom">
-      <span>© <span id="year">2026</span> Global Energy Optimization Lab. All rights reserved.</span>
-      <a href="./">CASE LIST ↑</a>
-    </div>
-  </footer>
-</body>
+</div>
+</section>
+<section class="case-detail-cta">
+<div>
+<p class="eyebrow light">BUILDING ENERGY MANAGEMENT · BEMS</p>
+<h2>건물에너지 절감은 “얼마나 썼는가”보다 “왜 썼는가”를 관리해야 합니다.</h2>
+<p>설비별 에너지사용량·운전시간·부하·효율 데이터가 있다면 End-use 기반 진단과 BEMS 관리체계를 설계할 수 있습니다.</p>
+</div>
+<a class="button button-submit" href="../#contact">건물에너지 절감 컨설팅 상담하기</a>
+</section>
+</div>
+</main>
+<footer class="site-footer compact-footer">
+<div class="container footer-bottom">
+<span>© <span id="year">2026</span> Global Energy Optimization Lab. All rights reserved.</span>
+<a href="../privacy.html">개인정보처리방침</a><a href="./">CASE LIST ↑</a>
+</div>
+</footer>
+<script defer="" src="../assets/script.js"></script></body>
 </html>

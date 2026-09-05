@@ -1,48 +1,84 @@
-<!doctype html>
-<html lang="ko">
+<!DOCTYPE html>
+
+<html class="no-js" lang="ko">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#0b1f33" />
-  <meta name="description" content="국내 대형 하수처리시설 A의 유입 인버터 펌프 교체 전·후 처리유량과 소비동력을 분석하고, UPI(kWh/m³)로 펌프 에너지효율 개선효과를 검증한 사례입니다." />
-  <meta name="keywords" content="하수처리장 에너지 절감, 하수처리장 컨설팅, 유입펌프 에너지 절감, 인버터 펌프, 펌프 UPI, 펌프 M&V, 펌프 교체 효과, 하수처리장 전력 절감" />
-  <link rel="canonical" href="https://www.energy-ai-optimization.com/cases/wastewater-inlet-pump-efficiency.html" />
-  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml" />
-  <link rel="stylesheet" href="../assets/styles.css" />
-  <title>대형 하수처리장 유입펌프 UPI·M&amp;V 사례 | 글로벌 에너지 최적화 연구소</title>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#0b1f33" name="theme-color"/>
+<meta content="유입펌프 교체 전·후의 탱크 수위별 PLC 운전조건, 하수 처리유량과 소비동력을 비교해 처리능력은 유지하면서 유량당 전력사용량(UPI)이 개선되는지를 5분 운전데이터와 월·최대유량일 기준으로 검증한 사례입니다." name="description"/>
+<meta content="strict-origin-when-cross-origin" name="referrer"/>
+<meta content="article" property="og:type"/>
+<meta content="ko_KR" property="og:locale"/>
+<meta content="대형 하수처리장 유입펌프 교체 전·후 유량대비 전력효율 검증" property="og:title"/>
+<meta content="유입펌프 교체 전·후의 탱크 수위별 PLC 운전조건, 하수 처리유량과 소비동력을 비교해 처리능력은 유지하면서 유량당 전력사용량(UPI)이 개선되는지를 5분 운전데이터와 월·최대유량일 기준으로 검증한 사례입니다." property="og:description"/>
+<meta content="https://www.energy-ai-optimization.com/cases/wastewater-inlet-pump-efficiency.html" property="og:url"/>
+<link href="https://www.energy-ai-optimization.com/cases/wastewater-inlet-pump-efficiency.html" rel="canonical"/>
+<link href="../assets/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="../assets/styles.css" rel="stylesheet"/>
+<title>대형 하수처리장 유입펌프 교체 전·후 유량대비 전력효율 검증 | 글로벌 에너지 최적화 연구소</title>
+<script>document.documentElement.classList.remove('no-js');document.documentElement.classList.add('js');</script>
 </head>
-<body class="case-page detail-page" data-case-id="wastewater-inlet-pump-efficiency">
-  <a class="skip-link" href="#main">본문 바로가기</a>
-  <header class="site-header scrolled">
-    <div class="header-inner container">
-      <a class="brand" href="../" aria-label="글로벌 에너지 최적화 연구소 홈">
-        <span class="brand-mark" aria-hidden="true">EO</span>
-        <span class="brand-copy"><strong>글로벌 에너지 최적화 연구소</strong><small>Global Energy Optimization Lab</small></span>
-      </a>
-      <nav class="primary-nav archive-nav" aria-label="주 메뉴">
-        <a href="../#services">에너지 절감 컨설팅</a>
-        <a href="../#mv">Baseline &amp; M&amp;V</a>
-        <a class="active" href="./">절감 사례</a>
-        <a href="../#insight">Energy Insight</a>
-        <a href="../#expert">전문가 소개</a>
-        <a class="nav-cta" href="../#contact">에너지 절감 상담</a>
-      </nav>
-    </div>
-  </header>
-
-  <main id="main" class="case-detail-main">
-    <div class="container" id="case-detail-root"></div>
-  </main>
-
-  <footer class="site-footer compact-footer">
-    <div class="container footer-bottom">
-      <span>© <span id="year">2026</span> Global Energy Optimization Lab. All rights reserved.</span>
-      <a href="./">CASE LIST ↑</a>
-    </div>
-  </footer>
-
-  <script src="../data/cases-data.js"></script>
-  <script src="../assets/case-detail.js"></script>
-  <script src="../assets/script.js" defer></script>
+<body class="case-page detail-page">
+<a class="skip-link" href="#main">본문 바로가기</a>
+<header class="site-header scrolled">
+<div class="header-inner container">
+<a aria-label="글로벌 에너지 최적화 연구소 홈" class="brand" href="../">
+<span aria-hidden="true" class="brand-mark">EO</span>
+<span class="brand-copy"><strong>글로벌 에너지 최적화 연구소</strong><small>GLOBAL ENERGY OPTIMIZATION LAB</small></span>
+</a>
+<button aria-controls="primary-nav" aria-expanded="false" aria-label="메뉴 열기" class="nav-toggle" type="button"><span></span><span></span><span></span></button>
+<nav aria-label="주 메뉴" class="primary-nav archive-nav" id="primary-nav">
+<a href="../#services">에너지 절감 컨설팅</a><a href="../#mv">Baseline &amp; M&amp;V</a><a class="active" href="../cases/">절감 사례</a><a href="../insights/">Energy Insight</a><a href="../#expert">전문가 소개</a>
+<a class="nav-cta" href="../#contact">에너지 절감 상담</a>
+</nav>
+</div>
+</header>
+<main class="case-detail-main" id="main">
+<div class="container">
+<section class="case-detail-hero">
+<div class="case-detail-breadcrumb"><a href="../">홈</a><span>›</span><a href="./">절감 사례</a><span>›</span><strong>국내 대형 하수처리시설 A</strong></div>
+<div class="case-detail-hero-grid">
+<div><p class="eyebrow">하수처리장 · 유입펌프 · 전기</p><h1>대형 하수처리장 유입펌프 교체 전·후 유량대비 전력효율 검증</h1><p class="case-detail-lead">유입펌프 교체 전·후의 탱크 수위별 PLC 운전조건, 하수 처리유량과 소비동력을 비교해 처리능력은 유지하면서 유량당 전력사용량(UPI)이 개선되는지를 5분 운전데이터와 월·최대유량일 기준으로 검증한 사례입니다.</p><div class="case-detail-tags"><span>하수처리장</span><span>유입펌프</span><span>인버터펌프</span><span>UPI</span><span>M&amp;V</span><span>5분데이터</span></div></div>
+<aside class="case-summary-panel"><span class="case-state live">검증 사례</span><small>유량당 펌프 전력원단위 개선</small><strong>6.8% · 8.9%</strong>
+<dl><div><dt>고객</dt><dd>국내 대형 하수처리시설 A</dd></div><div><dt>대상 설비</dt><dd>유입 인버터 펌프 · 주펌프 · 보조펌프 · PLC 자동운전</dd></div><div><dt>분석기간</dt><dd>2017년 교체 전·후 데이터 분석 · 2018년 성능 비교 보고</dd></div><div><dt>에너지원</dt><dd>전기</dd></div></dl>
+<p>펌프 교체 전·후 운전데이터 비교 실적 · 월평균 6.8%, 최대유량일 8.9% 개선</p>
+</aside>
+</div>
+</section>
+<section class="case-detail-section two-col"><div><p class="eyebrow">01 · CHALLENGE</p><h2>현장에서 확인한 주요 과제</h2><ul><li>대형 하수처리시설의 유입펌프를 고효율 인버터 펌프로 교체한 뒤 실제 처리유량을 유지하면서 전력절감이 발생했는지 정량적으로 확인할 필요</li><li>하수 유입량은 시간대·일자·강우 및 저수조 수위에 따라 크게 변동하므로 단순 전력사용량 비교만으로는 펌프 교체 효과를 판단하기 어려움</li><li>펌프 교체 전·후에도 PLC 자동운전의 수위별 가동대수와 펌프 조합이 동일하므로, 동일 수위·양정 및 유량 수준에서 소비동력을 비교하는 M&amp;V가 필요</li><li>최대유입 조건뿐 아니라 월 단위의 유량-전력 상관관계와 UPI(kWh/m³)를 함께 비교해 실제 운영효율 개선 여부를 검증할 필요</li></ul></div><div><p class="eyebrow">02 · DATA</p><h2>분석에 사용한 데이터</h2><ul><li>유입펌프장 저수조 수위별 PLC 자동운전 조건과 가동 펌프 조합</li><li>펌프 교체 전·후 탱크 수위별 하수 처리유량(m³/h)과 펌프 소비동력(kW)</li><li>교체 전·후 각각 1개월의 하수 유입총량(m³) 및 펌프 총 소비전력량(kWh)</li><li>최대 유입량을 기록한 대표일의 5분 단위 하수 유입량·펌프 소비동력 패턴</li><li>유량당 펌프 에너지 원단위 UPI(kWh/m³) 및 유입량-소비동력 상관관계</li></ul></div></section>
+<section class="case-detail-section"><p class="eyebrow">03 · BASELINE / MODEL</p><h2>펌프 교체 전·후 성능검증 지표</h2><div class="model-grid"><article class="model-card"><span>유량당 전력원단위(UPI)</span><code>UPI = 펌프 소비전력량(kWh) / 하수 처리유량(m³)</code>
+<dl><div><dt>방법</dt><dd>유입량 변동을 보정하기 위해 단순 총전력 비교 대신 처리유량 1m³당 소비전력으로 교체 전·후 효율을 비교</dd></div><div><dt>성능·해석</dt><dd>월평균 UPI 0.076 → 0.071kWh/m³로 약 6.8% 개선, 최대유량일 기준 0.078 → 0.071kWh/m³로 약 8.9% 개선</dd></div></dl></article><article class="model-card"><span>동일 PLC 운전조건 비교</span><code>같은 저수조 수위 → 같은 가동대수·펌프 조합</code>
+<dl><div><dt>방법</dt><dd>수위별 자동운전 조건이 교체 전·후 동일한 것을 확인하고 각 수위/양정 조건에서 처리유량과 소비동력을 비교</dd></div><div><dt>성능·해석</dt><dd>각 수위에서 하수 처리유량에는 큰 차이가 없으나 저·중유량 운전구간의 소비동력은 교체 후 감소</dd></div></dl></article><article class="model-card"><span>최대 처리능력 확인</span><code>Qmax,before ≈ 5,277m³/h · Qmax,after ≈ 5,149m³/h</code>
+<dl><div><dt>방법</dt><dd>교체 전·후 최대 유입 대표일에서 동일하게 3대 운전 조건의 최대 처리유량 비교</dd></div><div><dt>성능·해석</dt><dd>최대 처리유량에 큰 차이가 없어 펌프 교체 후에도 요구 처리능력이 유지되는 것으로 분석</dd></div></dl></article><article class="model-card"><span>유량-소비동력 상관분석</span><code>P = f(Q, 운전대수, 수위·양정)</code>
+<dl><div><dt>방법</dt><dd>5분 데이터와 월 데이터를 산점도로 비교해 동일·유사 유량에서 교체 후 소비동력이 상대적으로 낮아졌는지 확인</dd></div><div><dt>성능·해석</dt><dd>보고서의 최대유량일 및 월 데이터 분석 모두에서 공급 유량 대비 펌프 소비동력이 교체 후 상대적으로 감소하는 경향을 확인</dd></div></dl></article></div></section>
+<section class="case-detail-section"><p class="eyebrow">04 · DIAGNOSTIC FINDINGS</p><h2>펌프 교체 전·후 에너지성능 검증 결과</h2>
+<div class="scenario-table-wrap"><table class="scenario-table"><thead><tr><th>검증 항목</th><th>교체 전</th><th>교체 후</th><th>개선 결과</th></tr></thead><tbody><tr>
+<td><strong>월평균 유량당 전력원단위</strong><span>교체 전·후 각각 1개월의 하수 유입총량과 펌프 총 소비전력량을 이용한 보고서 UPI 비교</span></td>
+<td>0.076 kWh/m³</td><td>0.071 kWh/m³</td><td class="saving-cell">6.8% 개선</td>
+</tr><tr>
+<td><strong>최대유량 대표일 UPI</strong><span>교체 전·후 최대 유입량을 기록한 대표일을 비교하여 고유량 운전에서도 효율개선을 확인</span></td>
+<td>0.078 kWh/m³</td><td>0.071 kWh/m³</td><td class="saving-cell">8.9% 개선</td>
+</tr><tr>
+<td><strong>월평균 펌프 소비동력</strong><span>월별 평균 유입량 자체가 달라 절감률 산정에는 UPI를 우선 적용하고, 평균전력은 운전패턴 변화 참고지표로 사용</span></td>
+<td>211 kW</td><td>167 kW</td><td class="saving-cell">소비동력 감소</td>
+</tr><tr>
+<td><strong>최대 처리유량</strong><span>교체 전·후 최대 처리유량의 차이가 크지 않아 효율개선과 함께 처리성능이 유지되는지를 확인</span></td>
+<td>약 5,277 m³/h</td><td>약 5,149 m³/h</td><td class="saving-cell">처리능력 유지</td>
+</tr><tr>
+<td><strong>저수조 수위별 소비동력</strong><span>특히 1대 인버터 펌프 운전 등 저유량 조건에서 교체 후 소비동력 감소폭이 크게 관찰됨</span></td>
+<td>수위별 동일 PLC 자동운전</td><td>유사 처리유량에서 인버터 펌프 소비동력 감소</td><td class="saving-cell">저·중유량 구간 개선</td>
+</tr></tbody></table></div>
+<div class="verification-box"><strong>검증 조건</strong><p>본 사례는 펌프 교체 전·후의 단순 총전력량이 아니라 하수 처리유량을 보정한 UPI(kWh/m³)를 핵심 성과지표로 사용했습니다. 또한 저수조 수위별 PLC 운전 로직이 동일하고 최대 처리유량에 큰 차이가 없는지를 먼저 확인한 뒤, 동일·유사 유량에서 펌프 소비동력이 낮아졌는지를 월 데이터와 5분 대표일 데이터로 교차 검증했습니다. 강우·유입수 변동 등 외부조건이 큰 하수처리장은 향후 장기 M&amp;V 시 유량, 수위·양정, 가동대수 등을 함께 보정하는 것이 바람직합니다.</p></div><p class="source-note">자료 기준: 2018 대형 하수처리장 유입펌프 교체 전·후 유량 및 소비동력 비교 보고서 기반 · 고객사명·시설명·지역정보 비식별 처리</p>
+</section>
+<section class="case-detail-cta"><div><p class="eyebrow light">APPLY TO YOUR SITE</p><h2>우리 사업장·시설 데이터에도 같은 방식으로 적용할 수 있을까요?</h2><p>에너지사용량과 주요 영향인자 데이터가 있다면 현재 설비·시스템의 Baseline과 절감 가능성을 함께 검토할 수 있습니다.</p></div><a class="button button-submit" href="../#contact">에너지 절감 상담 요청하기</a></section>
+</div>
+</main>
+<footer class="site-footer compact-footer">
+<div class="container footer-bottom">
+<span>© <span id="year">2026</span> Global Energy Optimization Lab. All rights reserved.</span>
+<span class="footer-mini-links"><a href="../privacy.html">개인정보처리방침</a><a href="./">CASE LIST ↑</a></span>
+</div>
+</footer>
+<script defer="" src="../assets/script.js"></script>
 </body>
 </html>

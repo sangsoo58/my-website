@@ -1,29 +1,70 @@
-<!doctype html>
-<html lang="ko">
+<!DOCTYPE html>
+
+<html class="no-js" lang="ko">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#0b1f33" />
-  <!-- 신규 사례 공개 시 아래 title/description/canonical을 해당 사례에 맞게 수정 -->
-  <meta name="description" content="국내 제조 E사의 FM공정 비가동시간 축소와 생산중량 확대를 통한 에너지 원단위 1차 절감 잠재량 분석 사례" />
-  <link rel="canonical" href="https://www.energy-ai-optimization.com/cases/manufacturing-case-e.html" />
-  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml" />
-  <link rel="stylesheet" href="../assets/styles.css" />
-  <title>국내 제조 E사 FM공정 에너지 절감 사례 | 글로벌 에너지 최적화 연구소</title>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#0b1f33" name="theme-color"/>
+<meta content="Former의 비가동시간·생산중량과 전력사용량 관계를 회귀모델로 분석하고, 대기·정지시간 축소와 LOT 생산량 확대의 절감 잠재량을 평가한 사례입니다." name="description"/>
+<meta content="strict-origin-when-cross-origin" name="referrer"/>
+<meta content="article" property="og:type"/>
+<meta content="ko_KR" property="og:locale"/>
+<meta content="FM공정 비가동시간 축소와 LOT 생산중량 확대를 통한 원단위 개선" property="og:title"/>
+<meta content="Former의 비가동시간·생산중량과 전력사용량 관계를 회귀모델로 분석하고, 대기·정지시간 축소와 LOT 생산량 확대의 절감 잠재량을 평가한 사례입니다." property="og:description"/>
+<meta content="https://www.energy-ai-optimization.com/cases/manufacturing-case-e.html" property="og:url"/>
+<link href="https://www.energy-ai-optimization.com/cases/manufacturing-case-e.html" rel="canonical"/>
+<link href="../assets/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="../assets/styles.css" rel="stylesheet"/>
+<title>FM공정 비가동시간 축소와 LOT 생산중량 확대를 통한 원단위 개선 | 글로벌 에너지 최적화 연구소</title>
+<script>document.documentElement.classList.remove('no-js');document.documentElement.classList.add('js');</script>
 </head>
-<!-- manufacturing-case-e를 cases-data.js의 id와 동일하게 수정 -->
-<body class="case-page detail-page" data-case-id="manufacturing-case-e">
-  <a class="skip-link" href="#main">본문 바로가기</a>
-  <header class="site-header scrolled">
-    <div class="header-inner container">
-      <a class="brand" href="../"><span class="brand-mark">EO</span><span class="brand-copy"><strong>글로벌 에너지 최적화 연구소</strong><small>Global Energy Optimization Lab</small></span></a>
-      <nav class="primary-nav archive-nav"><a href="../#services">공장 에너지 절감</a><a href="../#mv">Baseline &amp; M&amp;V</a><a class="active" href="./">절감 사례</a><a class="nav-cta" href="../#contact">에너지 절감 상담</a></nav>
-    </div>
-  </header>
-  <main id="main" class="case-detail-main"><div class="container" id="case-detail-root"></div></main>
-  <footer class="site-footer compact-footer"><div class="container footer-bottom"><span>© <span id="year">2026</span> Global Energy Optimization Lab. All rights reserved.</span><a href="./">CASE LIST ↑</a></div></footer>
-  <script src="../data/cases-data.js"></script>
-  <script src="../assets/case-detail.js"></script>
-  <script src="../assets/script.js" defer></script>
+<body class="case-page detail-page">
+<a class="skip-link" href="#main">본문 바로가기</a>
+<header class="site-header scrolled">
+<div class="header-inner container">
+<a aria-label="글로벌 에너지 최적화 연구소 홈" class="brand" href="../">
+<span aria-hidden="true" class="brand-mark">EO</span>
+<span class="brand-copy"><strong>글로벌 에너지 최적화 연구소</strong><small>GLOBAL ENERGY OPTIMIZATION LAB</small></span>
+</a>
+<button aria-controls="primary-nav" aria-expanded="false" aria-label="메뉴 열기" class="nav-toggle" type="button"><span></span><span></span><span></span></button>
+<nav aria-label="주 메뉴" class="primary-nav archive-nav" id="primary-nav">
+<a href="../#services">에너지 절감 컨설팅</a><a href="../#mv">Baseline &amp; M&amp;V</a><a class="active" href="../cases/">절감 사례</a><a href="../insights/">Energy Insight</a><a href="../#expert">전문가 소개</a>
+<a class="nav-cta" href="../#contact">에너지 절감 상담</a>
+</nav>
+</div>
+</header>
+<main class="case-detail-main" id="main">
+<div class="container">
+<section class="case-detail-hero">
+<div class="case-detail-breadcrumb"><a href="../">홈</a><span>›</span><a href="./">절감 사례</a><span>›</span><strong>국내 제조 E사</strong></div>
+<div class="case-detail-hero-grid">
+<div><p class="eyebrow">Former · 데이터분석 · 전기</p><h1>FM공정 비가동시간 축소와 LOT 생산중량 확대를 통한 원단위 개선</h1><p class="case-detail-lead">Former의 비가동시간·생산중량과 전력사용량 관계를 회귀모델로 분석하고, 대기·정지시간 축소와 LOT 생산량 확대의 절감 잠재량을 평가한 사례입니다.</p><div class="case-detail-tags"><span>Former</span><span>비가동시간</span><span>생산중량</span><span>공기압축기</span><span>Baseline</span></div></div>
+<aside class="case-summary-panel"><span class="case-state live">진단·제안 사례</span><small>FM공정 1차 절감 잠재량</small><strong>5.4%</strong>
+<dl><div><dt>고객</dt><dd>국내 제조 E사</dd></div><div><dt>대상 설비</dt><dd>FM공정 · 공기압축기</dd></div><div><dt>분석기간</dt><dd>2026.06.16 ~ 2026.08.26</dd></div><div><dt>에너지원</dt><dd>전기</dd></div></dl>
+<p>데이터 기반 시나리오 추정 · M&amp;V 실증 후 확정</p>
+</aside>
+</div>
+</section>
+<section class="case-detail-section two-col"><div><p class="eyebrow">01 · CHALLENGE</p><h2>현장에서 확인한 주요 과제</h2><ul><li>LINE별 에너지 원단위 편차와 설비조건·작업자 운전방식·제품 Mix 차이 분석 필요</li><li>시간가동률 향상을 위한 대기·정지시간 감축 가능성 검토</li><li>LOT/BATCH 생산중량 확대를 통한 단위 생산량당 전력사용 감소 가능성 검토</li></ul></div><div><p class="eyebrow">02 · DATA</p><h2>분석에 사용한 데이터</h2><ul><li>Former 가동·비가동·부하시간 및 생산중량</li><li>Former 전기소비량</li><li>공기압축기 유량 및 전력량</li></ul></div></section>
+<section class="case-detail-section"><p class="eyebrow">03 · BASELINE / MODEL</p><h2>Baseline 및 예측모델</h2><div class="model-grid"><article class="model-card"><span>FM공정</span><code>E = 6.8726 + 0.1167 × 비가동시간 + 0.1909 × 생산중량</code>
+<dl><div><dt>방법</dt><dd>회귀 Baseline</dd></div><div><dt>성능·해석</dt><dd>R² 0.96 · 일별 Baseline−Actual 방식으로 월간 절감량 산정</dd></div></dl></article><article class="model-card"><span>공기압축기</span><code>E = 0.1074 × 유량 + 164.9166</code>
+<dl><div><dt>방법</dt><dd>유량 기반 Baseline</dd></div><div><dt>성능·해석</dt><dd>R² 0.95 · 유량과 전력량 상관계수 0.983</dd></div></dl></article></div></section>
+<section class="case-detail-section"><p class="eyebrow">04 · SAVING OPPORTUNITY</p><h2>1차 절감 잠재량 시나리오</h2>
+<div class="scenario-table-wrap"><table class="scenario-table"><thead><tr><th>개선 시나리오</th><th>Baseline</th><th>목표</th><th>1차 잠재량</th></tr></thead><tbody><tr>
+<td><strong>FM공정 · 비가동시간 축소 + LOT 생산중량 확대</strong><span>비가동시간은 Q1 수준, 생산중량은 Q3 수준을 목표로 적용</span></td>
+<td>510min/day · 2,778kg/day · 0.215kWh/kg</td><td>410min/day · 4,100kg/day · 0.204kWh/kg</td><td class="saving-cell">5.4%</td>
+</tr></tbody></table></div>
+<div class="verification-box"><strong>검증 조건</strong><p>동일 LINE·동일 제품 Mix에서 비가동시간과 생산중량만 변화시켜 비교하고, LINE별 차이는 층화하여 검증합니다. 공기압축기는 유량 기준 Baseline을 별도로 적용합니다.</p></div><p class="source-note">자료 기준: 에스코프로 국내 제조 E사 MES·EMS Baseline 분석 및 최종 절감잠재량 보고서 기반</p>
+</section>
+<section class="case-detail-cta"><div><p class="eyebrow light">APPLY TO YOUR SITE</p><h2>우리 사업장·시설 데이터에도 같은 방식으로 적용할 수 있을까요?</h2><p>에너지사용량과 주요 영향인자 데이터가 있다면 현재 설비·시스템의 Baseline과 절감 가능성을 함께 검토할 수 있습니다.</p></div><a class="button button-submit" href="../#contact">에너지 절감 상담 요청하기</a></section>
+</div>
+</main>
+<footer class="site-footer compact-footer">
+<div class="container footer-bottom">
+<span>© <span id="year">2026</span> Global Energy Optimization Lab. All rights reserved.</span>
+<span class="footer-mini-links"><a href="../privacy.html">개인정보처리방침</a><a href="./">CASE LIST ↑</a></span>
+</div>
+</footer>
+<script defer="" src="../assets/script.js"></script>
 </body>
 </html>

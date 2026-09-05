@@ -66,7 +66,7 @@
           <div class="case-detail-tags">${item.tags.map((tag) => `<span>${escapeHtml(tag)}</span>`).join('')}</div>
         </div>
         <aside class="case-summary-panel">
-          <span class="case-state live">실제 수행 사례</span>
+          <span class="case-state live">컨설팅 사례</span>
           <small>${escapeHtml(item.potentialLabel)}</small>
           <strong>${escapeHtml(item.potential)}</strong>
           <dl>

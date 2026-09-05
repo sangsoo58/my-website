@@ -1,48 +1,84 @@
-<!doctype html>
-<html lang="ko">
+<!DOCTYPE html>
+
+<html class="no-js" lang="ko">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#0b1f33" />
-  <meta name="description" content="국내 데이터센터 운영 A사의 PUE·냉방설비 데이터 분석, 고효율 EC Fan, 외기냉방, 냉각탑·펌프·냉동기 에너지성능 개선 컨설팅 사례입니다." />
-  <meta name="keywords" content="데이터센터 에너지 절감, IDC 에너지 컨설팅, PUE 개선, EC Fan, 외기냉방, 냉각탑 최적화, 냉동기 COP, 데이터센터 냉방" />
-  <link rel="canonical" href="https://www.energy-ai-optimization.com/cases/data-center-energy-performance.html" />
-  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml" />
-  <link rel="stylesheet" href="../assets/styles.css" />
-  <title>데이터센터 PUE·냉방설비 에너지성능 개선 사례 | 글로벌 에너지 최적화 연구소</title>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#0b1f33" name="theme-color"/>
+<meta content="다수 데이터센터의 계측데이터와 층별 PUE를 통합 분석하여 냉방기 운영 이상과 성능열위 설비를 찾고, 고효율 EC Fan 교체·외기냉방·냉각탑 설정온도 최적화의 절감효과와 투자경제성을 검토한 사례입니다." name="description"/>
+<meta content="strict-origin-when-cross-origin" name="referrer"/>
+<meta content="article" property="og:type"/>
+<meta content="ko_KR" property="og:locale"/>
+<meta content="다중 IDC 센터의 PUE·냉방설비 데이터 분석과 EC Fan·외기냉방 최적화" property="og:title"/>
+<meta content="다수 데이터센터의 계측데이터와 층별 PUE를 통합 분석하여 냉방기 운영 이상과 성능열위 설비를 찾고, 고효율 EC Fan 교체·외기냉방·냉각탑 설정온도 최적화의 절감효과와 투자경제성을 검토한 사례입니다." property="og:description"/>
+<meta content="https://www.energy-ai-optimization.com/cases/data-center-energy-performance.html" property="og:url"/>
+<link href="https://www.energy-ai-optimization.com/cases/data-center-energy-performance.html" rel="canonical"/>
+<link href="../assets/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="../assets/styles.css" rel="stylesheet"/>
+<title>다중 IDC 센터의 PUE·냉방설비 데이터 분석과 EC Fan·외기냉방 최적화 | 글로벌 에너지 최적화 연구소</title>
+<script>document.documentElement.classList.remove('no-js');document.documentElement.classList.add('js');</script>
 </head>
-<body class="case-page detail-page" data-case-id="data-center-energy-performance">
-  <a class="skip-link" href="#main">본문 바로가기</a>
-  <header class="site-header scrolled">
-    <div class="header-inner container">
-      <a class="brand" href="../" aria-label="글로벌 에너지 최적화 연구소 홈">
-        <span class="brand-mark" aria-hidden="true">EO</span>
-        <span class="brand-copy"><strong>글로벌 에너지 최적화 연구소</strong><small>Global Energy Optimization Lab</small></span>
-      </a>
-      <nav class="primary-nav archive-nav" aria-label="주 메뉴">
-        <a href="../#services">에너지 절감 컨설팅</a>
-        <a href="../#mv">Baseline &amp; M&amp;V</a>
-        <a class="active" href="./">절감 사례</a>
-        <a href="../#insight">Energy Insight</a>
-        <a href="../#expert">전문가 소개</a>
-        <a class="nav-cta" href="../#contact">에너지 절감 상담</a>
-      </nav>
-    </div>
-  </header>
-
-  <main id="main" class="case-detail-main">
-    <div class="container" id="case-detail-root"></div>
-  </main>
-
-  <footer class="site-footer compact-footer">
-    <div class="container footer-bottom">
-      <span>© <span id="year">2026</span> Global Energy Optimization Lab. All rights reserved.</span>
-      <a href="./">CASE LIST ↑</a>
-    </div>
-  </footer>
-
-  <script src="../data/cases-data.js"></script>
-  <script src="../assets/case-detail.js"></script>
-  <script src="../assets/script.js" defer></script>
+<body class="case-page detail-page">
+<a class="skip-link" href="#main">본문 바로가기</a>
+<header class="site-header scrolled">
+<div class="header-inner container">
+<a aria-label="글로벌 에너지 최적화 연구소 홈" class="brand" href="../">
+<span aria-hidden="true" class="brand-mark">EO</span>
+<span class="brand-copy"><strong>글로벌 에너지 최적화 연구소</strong><small>GLOBAL ENERGY OPTIMIZATION LAB</small></span>
+</a>
+<button aria-controls="primary-nav" aria-expanded="false" aria-label="메뉴 열기" class="nav-toggle" type="button"><span></span><span></span><span></span></button>
+<nav aria-label="주 메뉴" class="primary-nav archive-nav" id="primary-nav">
+<a href="../#services">에너지 절감 컨설팅</a><a href="../#mv">Baseline &amp; M&amp;V</a><a class="active" href="../cases/">절감 사례</a><a href="../insights/">Energy Insight</a><a href="../#expert">전문가 소개</a>
+<a class="nav-cta" href="../#contact">에너지 절감 상담</a>
+</nav>
+</div>
+</header>
+<main class="case-detail-main" id="main">
+<div class="container">
+<section class="case-detail-hero">
+<div class="case-detail-breadcrumb"><a href="../">홈</a><span>›</span><a href="./">절감 사례</a><span>›</span><strong>국내 데이터센터 운영 A사</strong></div>
+<div class="case-detail-hero-grid">
+<div><p class="eyebrow">데이터센터 · PUE · 냉방 · 전기</p><h1>다중 IDC 센터의 PUE·냉방설비 데이터 분석과 EC Fan·외기냉방 최적화</h1><p class="case-detail-lead">다수 데이터센터의 계측데이터와 층별 PUE를 통합 분석하여 냉방기 운영 이상과 성능열위 설비를 찾고, 고효율 EC Fan 교체·외기냉방·냉각탑 설정온도 최적화의 절감효과와 투자경제성을 검토한 사례입니다.</p><div class="case-detail-tags"><span>데이터센터</span><span>IDC</span><span>PUE</span><span>EC Fan</span><span>외기냉방</span><span>냉각탑</span><span>COP</span></div></div>
+<aside class="case-summary-panel"><span class="case-state live">검증 사례</span><small>EC Fan 시범사업 팬 소비동력 절감 실증</small><strong>63.5%</strong>
+<dl><div><dt>고객</dt><dd>국내 데이터센터 운영 A사</dd></div><div><dt>대상 설비</dt><dd>냉방기 급기팬 · 외기냉방 · 냉각탑 · 냉각수/냉수펌프 · 냉동기</dd></div><div><dt>분석기간</dt><dd>2017년 에너지성능 개선 컨설팅 중간 단계</dd></div><div><dt>에너지원</dt><dd>전기</dd></div></dl>
+<p>시범사업 실증값 · 확대 적용 절감액·투자회수기간은 2017년 중간보고 당시 추정</p>
+</aside>
+</div>
+</section>
+<section class="case-detail-section two-col"><div><p class="eyebrow">01 · CHALLENGE</p><h2>현장에서 확인한 주요 과제</h2><ul><li>다수 센터의 계측데이터 정합성 수준이 서로 달라 데이터 교정과 신뢰도 확보가 선행되어야 했음</li><li>층별 PUE 분석에서 특정 전산실 PUE가 1.848로 센터 평균 1.576보다 높게 나타나 냉방 운영의 이상 원인 분석이 필요</li><li>일부 냉방기가 냉각 없이 팬만 가동되는 운전상태가 확인되어 불필요한 팬 전력과 PUE 상승 가능성이 존재</li><li>냉방기 급기팬, 냉각탑, 냉각수·냉수펌프, 냉동기와 외기냉방의 성능 및 운전방법을 센터별·계절별로 최적화할 필요</li></ul></div><div><p class="eyebrow">02 · DATA</p><h2>분석에 사용한 데이터</h2><ul><li>다수 IDC 센터의 전력·냉방설비 계측데이터 및 데이터 정합성 점검 결과</li><li>층별 PUE와 냉방소비지수, 전산실별 운전상태</li><li>냉방기 급기팬 시범 교체 전·후 소비동력 데이터</li><li>냉각탑 설정온도, 냉각수·냉수펌프, 냉동기 및 지원시설 운전데이터</li><li>통합 에너지 성능관리 플랫폼을 활용한 주간 단위 운전데이터 분석 결과</li></ul></div></section>
+<section class="case-detail-section"><p class="eyebrow">03 · BASELINE / MODEL</p><h2>Baseline 및 예측모델</h2><div class="model-grid"><article class="model-card"><span>고효율 EC Fan 시범사업</span><code>Fan Saving = (Pbefore − Pafter) / Pbefore × 100</code>
+<dl><div><dt>방법</dt><dd>2개 센터 냉방기 급기팬 교체 전·후 소비동력 비교</dd></div><div><dt>성능·해석</dt><dd>팬 소비동력 63.5% 절감 효과를 시범사업에서 확인</dd></div></dl></article><article class="model-card"><span>EC Fan 확대 적용안</span><code>성능열위 냉방기 약 400대 × 개선효과</code>
+<dl><div><dt>방법</dt><dd>주요 4개 센터의 성능열위 급기팬 확대 교체 시나리오</dd></div><div><dt>성능·해석</dt><dd>팬 소비동력 약 55% 절감 예상 · 연간 약 11억원 절감 · 소요예산 약 22억원 · 단순 투자회수기간 약 2년</dd></div></dl></article><article class="model-card"><span>외기냉방 확대안</span><code>연간 절감액 = 외기냉방 분담률 확대에 따른 냉방전력 감소</code>
+<dl><div><dt>방법</dt><dd>최적 외기냉방 도입방안 및 투자경제성 분석</dd></div><div><dt>성능·해석</dt><dd>연간 약 4.26억원 절감 가능 추정 · 소요예산 약 17.57억원 · 단순 투자회수기간 약 4.13년</dd></div></dl></article><article class="model-card"><span>PUE 이상구간 진단</span><code>PUE = Total Facility Energy / IT Equipment Energy</code>
+<dl><div><dt>방법</dt><dd>센터·층·전산실 수준의 PUE 벤치마킹과 냉방기 운전상태 연계 분석</dd></div><div><dt>성능·해석</dt><dd>특정 전산실 PUE 1.848 vs 센터 평균 1.576 · 팬 단독 가동 냉방기가 주요 원인으로 분석</dd></div></dl></article></div></section>
+<section class="case-detail-section"><p class="eyebrow">04 · SAVING OPPORTUNITY</p><h2>1차 절감 잠재량 시나리오</h2>
+<div class="scenario-table-wrap"><table class="scenario-table"><thead><tr><th>개선 시나리오</th><th>Baseline</th><th>목표</th><th>1차 잠재량</th></tr></thead><tbody><tr>
+<td><strong>냉방기 급기팬 EC Fan 시범 교체</strong><span>2개 센터 시범사업에서 팬 소비동력 절감효과를 확인</span></td>
+<td>기존 급기팬 운전</td><td>고효율 EC Fan 교체</td><td class="saving-cell">63.5% 실증</td>
+</tr><tr>
+<td><strong>성능열위 급기팬 확대 교체</strong><span>팬 소비동력 약 55% 절감 예상 · 투자 약 22억원 · 단순 회수기간 약 2년</span></td>
+<td>주요 센터의 성능열위 냉방기 약 400대</td><td>고효율 EC Fan 확대 적용</td><td class="saving-cell">약 11억원/년 추정</td>
+</tr><tr>
+<td><strong>외기냉방 분담률 확대</strong><span>투자 약 17.57억원 · 단순 회수기간 약 4.13년으로 중간보고에서 분석</span></td>
+<td>기존 기계냉방 중심 운전</td><td>외기조건에 따른 외기냉방 최적 확대</td><td class="saving-cell">약 4.26억원/년 추정</td>
+</tr><tr>
+<td><strong>팬 단독 가동 냉방기 운영 최적화</strong><span>층별 PUE 이상구간을 설비 운전상태와 연결하여 개선대상 냉방기를 선별</span></td>
+<td>일부 냉방기에서 팬만 상시 가동</td><td>운영 적정성 확인 후 불필요 팬 운전 중지</td><td class="saving-cell">PUE 개선 대상</td>
+</tr><tr>
+<td><strong>냉각탑 설정온도 및 냉방설비 성능 최적화</strong><span>냉각탑·냉각수펌프·냉수펌프·냉동기 COP 및 지원시설을 단계적으로 진단·개선하는 계획 수립</span></td>
+<td>센터별·계절별 설정조건 및 성능편차</td><td>외기조건별 최적 설정온도와 운전방법</td><td class="saving-cell">후속 검증</td>
+</tr></tbody></table></div>
+<div class="verification-box"><strong>검증 조건</strong><p>시범 EC Fan 교체는 교체 전·후 팬 소비동력으로 절감효과를 확인했습니다. 확대 적용안과 외기냉방 경제성은 2017년 중간보고 당시의 대상 수량·예산·운전조건을 기준으로 한 추정값입니다. 후속 개선은 계측데이터 정합성을 확보한 뒤 PUE·냉방소비지수·설비별 소비전력과 운전조건을 함께 비교하여 절감효과를 검증하도록 계획했습니다.</p></div><p class="source-note">자료 기준: 에스코프로 2017 IDC 에너지성능 개선 컨설팅 중간보고 기반 · 고객사명·센터명·내부 플랫폼명 비식별 처리</p>
+</section>
+<section class="case-detail-cta"><div><p class="eyebrow light">APPLY TO YOUR SITE</p><h2>우리 사업장·시설 데이터에도 같은 방식으로 적용할 수 있을까요?</h2><p>에너지사용량과 주요 영향인자 데이터가 있다면 현재 설비·시스템의 Baseline과 절감 가능성을 함께 검토할 수 있습니다.</p></div><a class="button button-submit" href="../#contact">에너지 절감 상담 요청하기</a></section>
+</div>
+</main>
+<footer class="site-footer compact-footer">
+<div class="container footer-bottom">
+<span>© <span id="year">2026</span> Global Energy Optimization Lab. All rights reserved.</span>
+<span class="footer-mini-links"><a href="../privacy.html">개인정보처리방침</a><a href="./">CASE LIST ↑</a></span>
+</div>
+</footer>
+<script defer="" src="../assets/script.js"></script>
 </body>
 </html>
