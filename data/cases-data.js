@@ -4099,4 +4099,122 @@ window.ENERGY_CASES = [
     sourceNote: "국내 대형 화학 제조공장의 2018년 저압·고압 공기압축기 운전데이터 분석 및 에너지절감 제안자료 기반 · 실제 고객사명·로고·제조사 및 개별 설비 식별정보는 비식별 처리"
   }
 
+
+  ,{
+    id: "supertall-building-bems-bpos-operation-optimization",
+    status: "published",
+    company: "국내 초고층 복합건물 H사",
+    category: "초고층 건물 · BEMS · BPOS · Continuous Commissioning",
+    energyType: "전기 · 연료 · 열 · 용수",
+    equipment: "냉동기 · 냉각탑 · 보일러 · 펌프 · 열교환기 · 공조기 · FCU · 급배기팬",
+    title: "초고층 복합건물 BEMS 데이터 기반 BPOS 운전최적화",
+    short: "초고층 복합건물의 기존 BEMS 데이터를 활용하여 부하계산 검토, 계측데이터 정합성 검증, 주요 열원·공조설비 데이터분석, BPOS 구축, 계절별 운전최적화와 교육·사후관리까지 연계하는 Continuous Commissioning 방식의 에너지성능 개선 제안 사례입니다.",
+    potential: "연간 3~10% 목표",
+    potentialLabel: "제안단계 에너지절감 목표 · 지속적 최적화에 따른 추가 절감 가능",
+    verificationStatus: "제안서의 3~10%는 실행 전 기대효과이며 실제 개선 후 검증된 절감실적이 아님",
+    tags: ["초고층건물", "BEMS", "BPOS", "Continuous Commissioning", "HVAC", "실시간진단", "가동대수", "제어진단", "계절별최적화", "M&V"],
+    period: "운전최적화 사업제안 · 2017년",
+    problem: [
+      "설계 당시의 안전율, 설치·시운전 및 제어조건, 유지관리 상태 때문에 실제 운전이 설계 의도와 달라질 수 있어 준공 후 지속적인 성능확인이 필요",
+      "초고층·대형 복합건물은 냉동기·냉각탑·보일러·펌프·공조기·FCU·팬 등 수천 대 규모의 설비가 연계되어 단순 BEMS 모니터링만으로 최적운전을 유지하기 어려움",
+      "BEMS 데이터의 전력계·온도센서·유량계 정합성이 확보되지 않으면 효율·부하율·상관관계 분석과 운전가이드의 신뢰성이 저하될 수 있음",
+      "계절과 수요 변화에 따라 최적 가동대수·설정값·제어조건이 달라지므로 일회성 진단보다 Continuous Commissioning 체계가 필요",
+      "데이터분석 결과를 실제 관리자 운전행동으로 연결하고 사업 종료 후에도 자체적으로 성능개선을 지속할 수 있는 시스템·인력·지식 기반이 필요"
+    ],
+    dataUsed: [
+      "기존 BEMS 전력·연료·용수·일기·에너지소비 정보",
+      "냉동기·냉각탑·보일러·펌프·공조기·팬·에어컨·FCU 등 주요 설비 운전데이터",
+      "전력소비량·입출구온도·유량 등 성능계산 데이터",
+      "건물 설계정보·설비사양·Zone별 면적 및 냉난방 부하자료",
+      "1월·4월·7월·10월 대표기간의 5~15분 단위 BEMS 저장데이터",
+      "설비별 소비량·효율·부하율 추세 및 주요 인자간 상관관계",
+      "최적운전 시나리오 및 실시간 운전가이드 비교데이터"
+    ],
+    modelSectionTitle: "진단 목적·방법·절차 및 BPOS 운전최적화 체계",
+    baselineModels: [
+      {
+        name: "진단 목적",
+        formula: "Continuous Optimization = BEMS Data + Performance Diagnosis + Operating Guide",
+        method: "설계·설비·계측·운전데이터를 연결해 현재 운전성능을 진단하고 수요·계절 변화에 대응하는 최적운전 체계를 구축",
+        performance: "일회성 절감이 아니라 지속적인 건물 성능개선을 목표"
+      },
+      {
+        name: "부하·설계조건 검토",
+        formula: "Actual Demand vs. Design Capacity",
+        method: "건물 및 구조체 설계조건, Zone별 냉난방부하, 열원설비 사양과 설계성능을 검토",
+        performance: "실제 수요와 설치용량·설계성능 사이의 차이를 운전최적화 기초자료로 활용"
+      },
+      {
+        name: "계측데이터 정합성",
+        formula: "Reliable Diagnosis = Valid Metering Data",
+        method: "이상데이터 탐색, 검교정 장비와 실측 비교, 계산식 보정 및 필요 시 계측기 교정·교체",
+        performance: "전력계·온도센서·유량계 데이터의 신뢰성 확보"
+      },
+      {
+        name: "BEMS 데이터 분석",
+        formula: "Performance = f(Energy, Temperature, Flow, Load, Control)",
+        method: "대표 계절의 5~15분 데이터를 이용해 소비량·효율·부하율 추세와 주요 인자간 상관관계를 분석",
+        performance: "BPOS 설계와 최적화 시나리오 작성에 반영"
+      },
+      {
+        name: "실시간 진단",
+        formula: "Diagnosis = Energy + Demand + Performance + Control + Running Units",
+        method: "에너지진단·수요진단·성능진단·제어진단·가동대수진단을 통해 현재 운전상태를 실시간 평가",
+        performance: "실시간 운전가이드 및 경보/평가 제공"
+      },
+      {
+        name: "지속 최적화",
+        formula: "Data Analysis → Issue → Action → Execution → Verification → Update",
+        method: "데이터분석, 문제점 확인, 개선방안 수립, 실행, 결과확인을 반복하여 최적운전 시나리오를 지속 개선",
+        performance: "Continuous Commissioning 구현"
+      }
+    ],
+    scenarios: [
+      {
+        name: "부하계산 및 설비 DB",
+        baseline: "설계조건·설비사양과 실제 수요가 분리 관리",
+        target: "Zone별 냉난방부하와 열원설비 사양·설계성능을 통합 DB화",
+        saving: "과대용량·저부하 운전 개선 기반",
+        note: "BPOS 구축 후 실제 수요에 따른 소비패턴과 비교"
+      },
+      {
+        name: "계측데이터 정합성",
+        baseline: "BEMS 계측값을 그대로 활용",
+        target: "이상데이터 확인 → 실측비교 → 계산식 보정 → 필요 시 센서 교정/교체",
+        saving: "진단·운전가이드 신뢰성 향상",
+        note: "기존 BEMS 데이터를 활용하는 것이 원칙이지만 데이터 품질 확보는 별도 수행"
+      },
+      {
+        name: "BPOS 구축",
+        baseline: "BEMS 중심 모니터링",
+        target: "건물설계·운영정보 + BEMS 계측정보 + 최적운전시나리오를 통합",
+        saving: "실시간 에너지·수요·성능·제어·가동대수 진단",
+        note: "운전자/관리자에게 실시간 운전가이드 제공"
+      },
+      {
+        name: "계절별 운전최적화",
+        baseline: "고정 또는 경험 중심 운전조건",
+        target: "계절·수요·설비환경 변화에 따른 최적 시나리오 지속 개선",
+        saving: "연간 3~10% 절감 목표",
+        note: "제안서 기대효과이며 실행 후 검증된 실적이 아님"
+      },
+      {
+        name: "24개월 추진체계",
+        baseline: "일회성 진단",
+        target: "기반구축 12개월 + 운전최적화 12개월",
+        saving: "지속적 성능개선 체계 구축",
+        note: "부하검토·DB·정합성·데이터분석·BPOS 구축 후 12개월간 계절별 최적화"
+      },
+      {
+        name: "교육 및 사후관리",
+        baseline: "외부전문가 중심 개선",
+        target: "운영인력 교육·개선과정 공유·지식축적 + 사업 종료 후 1년 계절별 사후관리",
+        saving: "절감효과의 지속성 확보",
+        note: "시스템·조직/인력·지식/기술의 3축 기반"
+      }
+    ],
+    verification: "본 제안서의 연간 3~10% 절감은 사업 실행 전 기대효과이며 특정 절감량·절감액이 확정된 결과는 아닙니다. 실제 성과는 건물 사용률, 외기조건, 재실, 영업시간, 냉난방부하 등 주요 영향조건을 반영해 기준기간과 개선기간의 에너지사용량을 비교하고, BPOS의 실시간 진단결과와 함께 M&V해야 합니다. 또한 기존 BEMS 데이터를 활용하되 정합성 검증 과정에서 이상 계측값이 확인되면 보정·교정·교체가 필요할 수 있습니다.",
+    sourceNote: "국내 초고층 복합건물의 BEMS 기반 BPOS 운전최적화 사업제안 자료를 바탕으로 재구성 · 실제 고객명·건물명·로고·층수·면적·구역명·개인명 등 식별정보 비식별 처리"
+  }
+
 ];
