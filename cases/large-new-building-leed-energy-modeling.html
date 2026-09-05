@@ -1,0 +1,438 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0b1f33" />
+  <meta name="description" content="국내 대형 신축 복합건물을 대상으로 eQUEST와 ASHRAE 90.1-2004 Appendix G Performance Rating Method를 적용하여 Proposed Design과 4방위 Baseline Building의 연간 에너지비용·Peak Demand·End-use 성능을 비교한 LEED 에너지모델링 사례입니다." />
+  <meta name="keywords" content="건물에너지절감컨설팅, 신축건물 에너지모델링, LEED Energy Modeling, eQUEST, ASHRAE 90.1 Appendix G, Performance Rating Method, Baseline Building, Proposed Design, 건물 에너지 시뮬레이션, LEED EAc1" />
+  <link rel="canonical" href="https://www.energy-ai-optimization.com/cases/large-new-building-leed-energy-modeling.html" />
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="../assets/styles.css" />
+  <title>신축 대형건물 LEED 에너지모델링 사례 | 글로벌 에너지 최적화 연구소</title>
+</head>
+<body class="case-page detail-page">
+  <a class="skip-link" href="#main">본문 바로가기</a>
+
+  <header class="site-header scrolled">
+    <div class="header-inner container">
+      <a class="brand" href="../" aria-label="글로벌 에너지 최적화 연구소 홈">
+        <span class="brand-mark" aria-hidden="true">EO</span>
+        <span class="brand-copy">
+          <strong>글로벌 에너지 최적화 연구소</strong>
+          <small>GLOBAL ENERGY OPTIMIZATION LAB</small>
+        </span>
+      </a>
+      <nav class="primary-nav archive-nav" aria-label="주 메뉴">
+        <a href="../#services">에너지 절감 컨설팅</a>
+        <a href="../#mv">Baseline &amp; M&amp;V</a>
+        <a class="active" href="./">절감 사례</a>
+        <a href="../#insight">Energy Insight</a>
+        <a href="../#expert">전문가 소개</a>
+        <a class="nav-cta" href="../#contact">에너지 절감 상담</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="case-detail-main">
+    <div class="container">
+
+      <section class="case-detail-hero">
+        <div class="case-detail-breadcrumb">
+          <a href="../">홈</a><span>›</span><a href="./">절감 사례</a><span>›</span>
+          <strong>국내 대형 신축 복합건물 B사</strong>
+        </div>
+
+        <div class="case-detail-hero-grid">
+          <div>
+            <p class="eyebrow">NEW BUILDING · LEED · eQUEST · ASHRAE 90.1 APPENDIX G</p>
+            <h1>신축 대형 복합건물 LEED Performance Rating 에너지모델링</h1>
+            <p class="case-detail-lead">
+              업무·호텔·부대시설로 구성된 대형 신축 복합건물을 대상으로
+              eQUEST 에너지모델을 구축하고, ASHRAE 90.1-2004 Appendix G
+              Performance Rating Method에 따라 Proposed Design과 Baseline Building을
+              시간별로 시뮬레이션하여 LEED 에너지성능을 평가한 사례입니다.
+            </p>
+            <div class="case-detail-tags">
+              <span>신축건물</span><span>LEED</span><span>eQUEST</span>
+              <span>ASHRAE 90.1</span><span>Appendix G</span>
+              <span>Performance Rating</span><span>Baseline</span><span>Simulation</span>
+            </div>
+          </div>
+
+          <aside class="case-summary-panel">
+            <span class="case-state live">LEED 에너지모델링 사례</span>
+            <small>Performance Rating Method 결과</small>
+            <strong>에너지비용 약 4% 개선</strong>
+            <dl>
+              <div><dt>고객사</dt><dd>국내 대형 신축 복합건물 B사</dd></div>
+              <div><dt>모델</dt><dd>eQUEST 3-64 · 시간별 TRY 기상</dd></div>
+              <div><dt>기준</dt><dd>ASHRAE 90.1-2004 Appendix G</dd></div>
+              <div><dt>평가</dt><dd>Proposed Design vs 4방위 Baseline 평균</dd></div>
+            </dl>
+            <p>
+              중요한 점은 <b>에너지비용이 약 4% 개선</b>된 것이며,
+              Site Energy는 지역열 냉방 적용 영향으로 Baseline보다 약 36.3% 많다는 것입니다.
+            </p>
+          </aside>
+        </div>
+      </section>
+
+      <section class="case-detail-section">
+        <p class="eyebrow">01 · MODEL PURPOSE</p>
+        <h2>모델 목적 — 신축 설계안의 LEED 에너지성능 정량평가</h2>
+        <div class="verification-box">
+          <strong>Proposed Design과 ASHRAE Baseline을 동일한 기준으로 비교</strong>
+          <p>
+            설계도서에 반영된 건물외피·조명·HVAC·Plant·운영조건을 Proposed Design 모델로 구현하고,
+            ASHRAE 90.1-2004 Appendix G에서 규정한 Baseline Building을 별도로 생성하여
+            연간 에너지비용과 Peak Demand를 비교합니다. 이를 통해 LEED Energy &amp; Atmosphere
+            성능평가에 필요한 Percentage Improvement를 산정하는 것이 모델의 핵심 목적입니다.
+          </p>
+        </div>
+      </section>
+
+      <section class="case-detail-section">
+        <p class="eyebrow">02 · MODELING PROCESS</p>
+        <h2>모델링 절차</h2>
+        <div class="scenario-table-wrap">
+          <table class="scenario-table">
+            <thead>
+              <tr>
+                <th>단계</th>
+                <th>수행내용</th>
+                <th>검토 포인트</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>1. 자료수집</strong></td>
+                <td>건축·기계·전기 설계도서, 설비사양, Schedule, Utility Rate, 시간별 TRY 기상자료 수집</td>
+                <td>외피·조명·내부부하·HVAC·Plant·운영조건 누락 여부</td>
+              </tr>
+              <tr>
+                <td><strong>2. Proposed Model</strong></td>
+                <td>실제 설계안의 외피·조명·AHU/FCU·지역열·흡수식냉동기·펌프·냉각탑 등을 eQUEST에 구현</td>
+                <td>설계도서와 모델 입력값 일치 여부</td>
+              </tr>
+              <tr>
+                <td><strong>3. 입력 검증</strong></td>
+                <td>eQUEST Verification Report를 검토하고 불일치·누락·Warning 원인을 수정</td>
+                <td>부하 미충족시간, 설비용량, Schedule, 에너지원</td>
+              </tr>
+              <tr>
+                <td><strong>4. Baseline Model</strong></td>
+                <td>Appendix G에 따라 창면적비·외피·LPD·HVAC System Type·설비효율·Fan Power를 기준값으로 치환</td>
+                <td>Proposed와 동일한 기능·재실·Process Load 유지</td>
+              </tr>
+              <tr>
+                <td><strong>5. Sizing Run</strong></td>
+                <td>냉방 1.15배·난방 1.25배 Sizing 조건으로 Baseline 풍량·용량 산정</td>
+                <td>Appendix G Fan Power 및 Plant Capacity 계산</td>
+              </tr>
+              <tr>
+                <td><strong>6. 4방위 회전</strong></td>
+                <td>Baseline을 0°·90°·180°·270° 회전하여 각각 연간 시뮬레이션</td>
+                <td>방향별 일사·SHGC 영향 반영</td>
+              </tr>
+              <tr>
+                <td><strong>7. 결과 검증</strong></td>
+                <td>ES-D·PS-E·BEPS·PS-B·PS-D로 비용·End-use·Peak·Plant Load를 교차검토</td>
+                <td>연간 에너지비용 및 Peak Demand의 일관성</td>
+              </tr>
+              <tr>
+                <td><strong>8. LEED Rating</strong></td>
+                <td>4개 Baseline 결과 평균과 Proposed 결과를 비교해 Percentage Improvement 계산</td>
+                <td>LEED 제출용 Performance Rating 결과 작성</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="case-detail-section">
+        <p class="eyebrow">03 · MODELING METHOD</p>
+        <h2>모델 방법 — ASHRAE Appendix G 규칙을 입력값으로 변환</h2>
+
+        <div class="model-grid">
+          <article class="model-card">
+            <span>Simulation Engine</span>
+            <strong>eQUEST 3-64</strong>
+            <p>시간별 TRY 기상데이터를 이용한 연간 동적 에너지 시뮬레이션</p>
+          </article>
+          <article class="model-card">
+            <span>Climate</span>
+            <strong>Climate Zone 4A</strong>
+            <p>Proposed와 Baseline에 동일한 시간별 기상조건 적용</p>
+          </article>
+          <article class="model-card">
+            <span>Baseline Envelope</span>
+            <strong>WWR 40%</strong>
+            <p>창을 4방위에 균등 분배하고 ASHRAE 최소 외피성능 적용</p>
+          </article>
+          <article class="model-card">
+            <span>4 Orientations</span>
+            <strong>0° · 90° · 180° · 270°</strong>
+            <p>4개 Baseline 연간 비용의 평균을 최종 Baseline Performance로 사용</p>
+          </article>
+        </div>
+
+        <div class="scenario-table-wrap">
+          <table class="scenario-table">
+            <thead>
+              <tr>
+                <th>모델 요소</th>
+                <th>Proposed Design</th>
+                <th>Baseline Design</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>외피</strong></td>
+                <td>실제 설계 U-factor·SHGC·창면적비</td>
+                <td>ASHRAE 90.1 최소성능 · 창면적비 40%</td>
+              </tr>
+              <tr>
+                <td><strong>조명</strong></td>
+                <td>실제 공간별 LPD</td>
+                <td>ASHRAE Space-by-Space LPD</td>
+              </tr>
+              <tr>
+                <td><strong>업무시설 HVAC</strong></td>
+                <td>VAV + Reheat 및 4-Pipe FCU</td>
+                <td>System 7 · VAV with Reheat</td>
+              </tr>
+              <tr>
+                <td><strong>호텔 HVAC</strong></td>
+                <td>4-Pipe FCU</td>
+                <td>System 2 · PTHP</td>
+              </tr>
+              <tr>
+                <td><strong>냉방 Plant</strong></td>
+                <td>지역열 사용 단효용 흡수식냉동기 · COP 0.73</td>
+                <td>수냉식 전기 원심냉동기 · COP 6.1</td>
+              </tr>
+              <tr>
+                <td><strong>내부부하/Process</strong></td>
+                <td>실제 설계값</td>
+                <td>Proposed와 동일하게 유지</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="case-detail-section">
+        <p class="eyebrow">04 · KEY DESIGN MEASURES</p>
+        <h2>모델에서 확인된 주요 에너지비용 개선요인</h2>
+
+        <div class="scenario-table-wrap">
+          <table class="scenario-table">
+            <thead>
+              <tr>
+                <th>설계요소</th>
+                <th>Baseline 대비 특성</th>
+                <th>시뮬레이션 결과</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>고효율 조명</strong></td>
+                <td>업무공간 약 0.6 W/ft², 호텔객실 약 0.45 W/ft²</td>
+                <td class="saving-cell">Interior Lighting Energy 약 40.1% 감소</td>
+              </tr>
+              <tr>
+                <td><strong>고성능 외피</strong></td>
+                <td>ASHRAE 최소기준보다 낮은 U-factor·SHGC</td>
+                <td class="saving-cell">난방부하와 열손실 감소</td>
+              </tr>
+              <tr>
+                <td><strong>고효율 AHU Fan</strong></td>
+                <td>Proposed Fan Power 약 495.88kW vs Baseline 약 772.86kW</td>
+                <td class="saving-cell">Interior Fan Energy 약 5.9% 감소</td>
+              </tr>
+              <tr>
+                <td><strong>지역열 기반 냉방</strong></td>
+                <td>흡수식냉동기로 전기 Peak를 지역열로 전환</td>
+                <td class="saving-cell">전기 Space Cooling 약 94.8% 감소</td>
+              </tr>
+              <tr>
+                <td><strong>Peak Demand 관리</strong></td>
+                <td>전력 Peak가 큰 냉방부하를 지역열로 전환</td>
+                <td class="saving-cell">연간 전력비 및 Demand Charge 개선</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="case-detail-section">
+        <p class="eyebrow">05 · PERFORMANCE RATING RESULT</p>
+        <h2>LEED Performance Rating 결과</h2>
+
+        <div class="model-grid">
+          <article class="model-card">
+            <span>Proposed Energy Cost</span>
+            <strong>약 $3.574M/년</strong>
+            <p>전기 + 도시가스 + 지역열</p>
+          </article>
+          <article class="model-card">
+            <span>Baseline Energy Cost</span>
+            <strong>약 $3.721M/년</strong>
+            <p>4개 방향 Baseline 시뮬레이션 평균</p>
+          </article>
+          <article class="model-card">
+            <span>Cost Improvement</span>
+            <strong>약 4.0%</strong>
+            <p>LEED Performance Rating Method 기준</p>
+          </article>
+          <article class="model-card">
+            <span>Process Energy Cost</span>
+            <strong>약 25.27%</strong>
+            <p>Baseline Energy Cost 대비 Process Energy 비중</p>
+          </article>
+        </div>
+
+        <div class="verification-box">
+          <strong>중요: 비용 4% 개선 ≠ Site Energy 4% 절감</strong>
+          <p>
+            Proposed Building의 연간 Site Energy는 약 139,539 MBtu,
+            Baseline은 약 102,348 MBtu로 Proposed가 약 36.3% 더 큽니다.
+            이는 설계안이 전기식 냉동 대신 지역열 기반 흡수식냉동을 적용하면서
+            Purchased Heat 사용량이 크게 증가하기 때문입니다.
+            따라서 본 사례의 핵심 성과는 <b>LEED Performance Rating 기준 연간 에너지비용 약 4% 개선</b>이며,
+            에너지사용량 자체가 4% 줄었다고 해석해서는 안 됩니다.
+          </p>
+        </div>
+      </section>
+
+      <section class="case-detail-section">
+        <p class="eyebrow">06 · END-USE COMPARISON</p>
+        <h2>Proposed vs Baseline 주요 End-use 비교</h2>
+
+        <div class="scenario-table-wrap">
+          <table class="scenario-table">
+            <thead>
+              <tr>
+                <th>End-use</th>
+                <th>Proposed</th>
+                <th>Baseline</th>
+                <th>차이</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Interior Lighting</strong></td>
+                <td>약 2.78 GWh/년</td>
+                <td>약 4.64 GWh/년</td>
+                <td class="saving-cell">약 40.1% 감소</td>
+              </tr>
+              <tr>
+                <td><strong>Space Heating · Purchased Heat</strong></td>
+                <td>약 14,339 MBtu/년</td>
+                <td>약 17,725 MBtu/년</td>
+                <td class="saving-cell">약 19.1% 감소</td>
+              </tr>
+              <tr>
+                <td><strong>Space Cooling · Electricity</strong></td>
+                <td>약 0.12 GWh/년</td>
+                <td>약 2.29 GWh/년</td>
+                <td class="saving-cell">약 94.8% 감소</td>
+              </tr>
+              <tr>
+                <td><strong>Interior Fans</strong></td>
+                <td>약 3.07 GWh/년</td>
+                <td>약 3.27 GWh/년</td>
+                <td class="saving-cell">약 5.9% 감소</td>
+              </tr>
+              <tr>
+                <td><strong>Pumps</strong></td>
+                <td>약 2.36 GWh/년</td>
+                <td>약 1.16 GWh/년</td>
+                <td>약 103% 증가</td>
+              </tr>
+              <tr>
+                <td><strong>Heat Rejection</strong></td>
+                <td>약 0.286 GWh/년</td>
+                <td>약 0.163 GWh/년</td>
+                <td>약 76% 증가</td>
+              </tr>
+              <tr>
+                <td><strong>Space Cooling · Purchased Heat</strong></td>
+                <td>약 56,494 MBtu/년</td>
+                <td>해당 없음</td>
+                <td>지역열 냉방 적용에 따른 증가</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="case-detail-section">
+        <p class="eyebrow">07 · QUALITY ASSURANCE</p>
+        <h2>에너지모델 품질관리 방법</h2>
+        <div class="model-grid">
+          <article class="model-card">
+            <span>Verification</span>
+            <strong>Input Cross-check</strong>
+            <p>설계도서와 eQUEST 입력값의 일치 여부 반복 확인</p>
+          </article>
+          <article class="model-card">
+            <span>Load Unmet</span>
+            <strong>0 Hours</strong>
+            <p>Proposed/Baseline의 난방·냉방 부하 미충족시간 검토</p>
+          </article>
+          <article class="model-card">
+            <span>Plant Review</span>
+            <strong>PS-D</strong>
+            <p>연간 Plant Load가 정상적으로 충족되는지 확인</p>
+          </article>
+          <article class="model-card">
+            <span>End-use / Peak</span>
+            <strong>BEPS · PS-B · ES-D</strong>
+            <p>End-use, Peak Demand, Utility Cost를 상호 비교</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="case-detail-section">
+        <p class="eyebrow">08 · INTERPRETATION</p>
+        <h2>신축건물 에너지모델은 “한 숫자”보다 설계 의사결정을 보여주는 도구</h2>
+        <div class="verification-box">
+          <strong>모델 결과의 활용</strong>
+          <p>
+            에너지모델은 LEED 점수 산정뿐 아니라 외피·조명·HVAC·냉동방식·Fan Power·Utility Rate가
+            건물 전체 비용과 Peak Demand에 어떤 영향을 주는지 비교하는 설계 의사결정 도구입니다.
+            특히 서로 다른 에너지원이 적용될 때에는 Site Energy, Source/Cost Performance,
+            Peak Demand의 방향이 서로 다를 수 있으므로 결과를 End-use와 에너지원별로 함께 해석해야 합니다.
+          </p>
+        </div>
+        <p class="source-note">
+          자료 기준: 국내 대형 신축 복합건물의 LEED 인증 대응 Performance Rating Method 에너지모델 보고서 ·
+          실제 프로젝트명·고객명·건물명·주소·지역 등 식별정보 비식별 처리
+        </p>
+      </section>
+
+      <section class="case-detail-cta">
+        <div>
+          <p class="eyebrow light">NEW BUILDING ENERGY MODELING · LEED · eQUEST</p>
+          <h2>신축 설계단계에서 에너지모델을 활용하면 설비투자 전에 성능을 비교할 수 있습니다.</h2>
+          <p>건축·기계·전기 설계도서와 운영조건이 있다면 ASHRAE Appendix G Baseline과 Proposed Design을 비교하여 LEED 성능과 설계대안을 정량평가할 수 있습니다.</p>
+        </div>
+        <a class="button button-submit" href="../#contact">건물 에너지모델링 상담하기</a>
+      </section>
+
+    </div>
+  </main>
+
+  <footer class="site-footer compact-footer">
+    <div class="container footer-bottom">
+      <span>© <span id="year">2026</span> Global Energy Optimization Lab. All rights reserved.</span>
+      <a href="./">CASE LIST ↑</a>
+    </div>
+  </footer>
+
+  <!-- 상세본문은 정적 HTML로 직접 포함하여 case-detail.js 로드 실패 영향을 받지 않습니다. -->
+  <script src="../assets/script.js" defer></script>
+</body>
+</html>
