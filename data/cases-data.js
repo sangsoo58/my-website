@@ -2696,4 +2696,145 @@ window.ENERGY_CASES = [
     sourceNote: "국내 대형 전장품·전자부품 제조공장의 Utility 운전최적화 시스템 구축 제안자료 기반 · 고객사명·사업장명·내부 Utility 구역명·설비번호 비식별 처리"
   }
 
+
+  ,{
+    id: "large-building-leed-ashrae-energy-audit",
+    status: "published",
+    company: "국내 대형 업무용 건물 A사",
+    category: "대형건물 · LEED · ASHRAE Level II 에너지진단",
+    energyType: "전기 · 도시가스",
+    equipment: "BEMS · 냉동기 · 냉각탑 · AHU/VAV · 보일러 · 열교환기 · 급탕 · 조명",
+    title: "LEED-EB 인증 대응 ASHRAE Level II 대형건물 에너지진단",
+    short: "LEED-EB EA Credit 2.1 요구사항 대응을 목적으로 ASHRAE Level II 절차에 따라 사전조사·Walk-through·BEMS 데이터 검증·기상보정·End-use 분석·설비 성능진단·REEM 도출·경제성 및 M&V·실행계획을 수립한 대형 업무용 건물 에너지진단 사례입니다.",
+    potential: "연간 에너지 7.9% 절감 목표",
+    potentialLabel: "9개 Recommended Energy Efficiency Measures 전체 이행 시",
+    verificationStatus: "2010년을 Baseline으로 한 진단·절감계획 단계의 예상성과 · 전기 864,772kWh/년 및 도시가스 51,215Nm³/년 절감목표",
+    tags: ["대형건물", "건물에너지", "LEED", "ASHRAE Level II", "BEMS", "EUI", "HDD", "CDD", "냉동기", "AHU", "보일러", "조명", "M&V"],
+    period: "ASHRAE Level II 현장진단 및 분석 · 2011년",
+    problem: [
+      "LEED-EB EA Credit 2.1 요구사항을 충족하면서 건물의 주요 에너지사용 시스템을 체계적으로 이해하고 에너지성능 최적화 대안과 실행계획을 수립할 필요",
+      "전체 Utility 사용량만으로는 냉방·난방·AHU·조명·Plug Load·급탕·기계설비 등 End-use별 절감기회를 구분하기 어려움",
+      "BEMS의 15분 간격 운전·에너지 데이터가 실제 센서값과 일치하는지 검증하고, 설정값·제어로직·비재실시간 운전상태까지 확인할 필요",
+      "기상조건 변화가 냉난방 에너지에 미치는 영향을 분리하기 위해 HDD·CDD와 에너지사용량의 상관관계를 정량적으로 분석할 필요",
+      "운전개선형 무투자 조치와 설비투자형 조치를 구분하고 절감량·투자비·회수기간·실행시점까지 연계한 이행계획이 필요"
+    ],
+    dataUsed: [
+      "3개년 월별 전기·도시가스·용수 사용량",
+      "3개년 외기 건구온도 및 HDD·CDD",
+      "BEMS 15분 간격 전력·가스 및 설비 운전데이터",
+      "건물 물리특성·용도·재실인원·운영시간·HVAC 제어정보",
+      "냉동기 COP·부하율·냉수유량 및 냉각탑 운전정보",
+      "AHU 공급/환기/외기온도·풍량·팬동력·댐퍼개도",
+      "보일러 가스소비량·증기생산량·부하율",
+      "급탕·열교환기 공급/환수온도 및 순환펌프 운전상태",
+      "조명·Plug Load·24시간 운전부하의 시간대별 전력패턴"
+    ],
+    modelSectionTitle: "ASHRAE Level II 진단 절차·분석방법·성과산정 체계",
+    baselineModels: [
+      {
+        name: "진단 목적",
+        formula: "LEED-EB EA Credit 2.1 대응 + Energy Performance Optimization Plan",
+        method: "주요 에너지사용 시스템의 운전특성을 체계적으로 이해하고 에너지성능 최적화 대안과 절감 실행계획을 개발",
+        performance: "LEED Existing Buildings 인증 대응을 위한 ASHRAE Level II 에너지진단"
+      },
+      {
+        name: "진단 절차",
+        formula: "Preliminary Audit → Walk-through → Data Validation → Analysis → REEM → M&V → Implementation",
+        method: "ASHRAE 상업용 건물 에너지진단 절차와 LEED O&M Reference Guide를 검토하고 사전조사·현장진단·데이터분석·대안도출·실행계획으로 진행",
+        performance: "3개년 Utility·기상데이터 + BEMS + 현장측정 + 관리자 인터뷰·도면 검토"
+      },
+      {
+        name: "기상보정 분석",
+        formula: "Heating: LNG = f(HDD), Cooling Electricity = f(CDD)",
+        method: "월별 Degree Day와 냉난방 에너지사용량의 회귀관계를 분석해 기상영향과 독립부하를 구분",
+        performance: "HDD–LNG R² ≈ 0.866 · CDD–Cooling Electricity R² ≈ 0.986"
+      },
+      {
+        name: "EUI Benchmark",
+        formula: "EUI = Annual Building Energy / Gross Floor Area",
+        method: "건물 EUI를 유사 기후대 CBECS 업무용 건물 Benchmark와 비교해 상대적 에너지성능을 평가",
+        performance: "2010 EUI 약 70.2 kBtu/ft²·yr → 목표 약 65.0 kBtu/ft²·yr"
+      },
+      {
+        name: "End-use 분석",
+        formula: "Total Energy = Cooling + Heating + AHU + Lighting + Plug + DHW + Mechanical + Others",
+        method: "BEMS 계측과 운영자료를 이용해 연간 에너지를 End-use별로 분해하고 시간·일·월·계절 패턴을 비교",
+        performance: "절감아이디어를 전체 사용량이 아닌 시스템·용도 단위로 도출"
+      },
+      {
+        name: "설비 성능진단",
+        formula: "Chiller COP / Boiler kg-steam per Nm³ / Fan Law / Set-point & Schedule",
+        method: "냉동기 Part-load COP, 냉각탑 제어, 보일러 성능, AHU 풍량·공급온도·Economizer, 급탕/열교환기 설정값과 비재실 운전을 분석",
+        performance: "BEMS 데이터와 이동형 계측기로 센서 정합성 및 실제 운전상태를 교차검증"
+      }
+    ],
+    scenarios: [
+      {
+        name: "AHU 공급공기온도 Set-point 최적화",
+        baseline: "냉방모드 공급공기온도 약 16~16.5℃",
+        target: "약 13℃ 수준으로 조정하여 동일 냉방부하에서 풍량·팬동력을 저감",
+        saving: "212,353kWh/년 추정",
+        note: "Fan Law와 2010년 월별 AHU 팬 전력 이력 기반 계산"
+      },
+      {
+        name: "Air-side Economizer Limit 최적화",
+        baseline: "Economizer 온도 Limit 약 20.5℃",
+        target: "약 16℃로 낮춰 과도한 외기풍량에 따른 AHU 팬에너지와 기계냉방을 종합 최적화",
+        saving: "6,891kWh/년 추정",
+        note: "가을철 AHU 팬에너지·냉동기 COP와 외기조건을 함께 고려"
+      },
+      {
+        name: "저부하용 냉동기 용량 최적화",
+        baseline: "대형 냉동기를 봄·가을 및 주말 저부하에서도 운전",
+        target: "저부하 대응용 소형 냉동기를 추가해 Part-load COP를 향상",
+        saving: "119,774kWh/년 추정",
+        note: "연간 냉동부하·COP·가동시간 패턴 분석 기반"
+      },
+      {
+        name: "Warm-up / Cool-down 운전시간 단축",
+        baseline: "AHU·냉동기 조기 기동으로 목표 실내조건 도달 후 여유시간 발생",
+        target: "계절별 목표도달시간을 반영해 기동시간을 약 0.5~1.25시간 단축",
+        saving: "43,600kWh/년 추정",
+        note: "AHU 및 냉동기 기동전력·운전시간 이력 기반"
+      },
+      {
+        name: "조명 고효율화",
+        baseline: "일부 형광등 및 고전력 조명 사용",
+        target: "일부 구역 LED 교체 및 32W 램프를 28W로 교체",
+        saving: "239,349kWh/년 추정",
+        note: "LED 152,583kWh/년 + 32W→28W 86,766kWh/년"
+      },
+      {
+        name: "야간 Base-load 저감",
+        baseline: "자정 이후에도 일부 조명·급수기·Fitness 설비 등 불필요 부하 지속",
+        target: "필요성이 없는 설비와 조명을 자정 이후 정지",
+        saving: "172,463kWh/년 추정",
+        note: "시간대별 Base-load 분석으로 정지 가능 부하를 선별"
+      },
+      {
+        name: "보일러 가동대수·부하율 최적화",
+        baseline: "평균 부하율 약 19.9%, 시스템 성능 약 10.51kg-steam/Nm³",
+        target: "필요 가동대수 운전으로 평균 부하율 약 34.5%, 성능 약 11.46kg-steam/Nm³ 수준",
+        saving: "51,215Nm³/년 도시가스 절감 추정",
+        note: "증기생산량 대비 가스소비 성능지표와 실제 필요대수 비교"
+      },
+      {
+        name: "화장실 점유센서 적용",
+        baseline: "재실 여부와 무관하게 화장실 조명 장시간 운전",
+        target: "출입/점유센서를 적용하여 비재실시간 조명전력 저감",
+        saving: "70,343kWh/년 추정",
+        note: "연간 사용시간 및 조명부하 기반"
+      },
+      {
+        name: "9개 REEM 종합",
+        baseline: "2010년을 Baseline으로 설정",
+        target: "운전개선 + 제어 Set-point + 고효율 조명 + 냉동기 + 센서 등 단계별 이행",
+        saving: "전기 864,772kWh/년 + 가스 51,215Nm³/년",
+        note: "연간 비용절감 약 $148,944 · 2010년 에너지비용 대비 약 10.4% · 전 에너지 기준 최종 약 7.9% 절감목표"
+      }
+    ],
+    verification: "본 사례는 ASHRAE Level II 진단 단계의 절감계획입니다. 보고서는 2010년을 Baseline으로 하고, BEMS 15분 데이터와 이동형 계측을 이용해 데이터 신뢰성을 확인한 뒤 HDD/CDD 회귀, End-use별 이력, 설비 COP·부하율·운전시간·Set-point를 이용해 각 REEM별 절감량을 산정했습니다. 실행 후에는 변경 전후의 운전조건과 기상·재실·냉난방부하를 확인하고, BEMS 또는 보조계측으로 팬·냉동기·보일러·조명 등 해당 End-use의 실제 사용량을 추적하여 산정치와 비교하는 방식의 M&V가 필요합니다.",
+    sourceNote: "국내 대형 업무용 건물의 LEED-EB 인증 대응 ASHRAE Level II 에너지진단 보고서 기반 · 실제 고객사명·건물명·지역·개인명 등 식별정보 비식별 처리"
+  }
+
 ];
