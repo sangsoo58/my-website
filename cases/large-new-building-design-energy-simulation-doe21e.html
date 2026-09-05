@@ -1,0 +1,460 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0b1f33" />
+  <meta name="description" content="국내 대형 신축 복합건물의 건축·설비 설계조건, 외피, 내부부하, 운영스케줄과 HVAC/Plant를 DOE-2.1E에 반영하여 8760시간 에너지수요, 1차에너지, End-use, 월별 냉난방부하와 CO2를 예측한 설계검토 사례입니다." />
+  <meta name="keywords" content="건물에너지절감컨설팅, 신축건물 설계검토, 건물 에너지 시뮬레이션, DOE-2.1E, TRY 기상데이터, 신축건물 에너지수요 예측, 1차에너지 분석, CO2 예측, 건물 End-use 분석" />
+  <link rel="canonical" href="https://www.energy-ai-optimization.com/cases/large-new-building-design-energy-simulation-doe21e.html" />
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="../assets/styles.css" />
+  <title>신축 대형건물 DOE-2.1E 설계검토 에너지 시뮬레이션 사례 | 글로벌 에너지 최적화 연구소</title>
+  <style id="detail-critical-visibility">
+    .case-detail-main, .case-detail-main .container, .case-detail-hero,
+    .case-detail-hero-grid, .case-detail-section, .case-detail-cta,
+    .model-grid, .model-card, .scenario-table-wrap, .verification-box {
+      visibility: visible !important;
+      opacity: 1 !important;
+    }
+    .case-detail-main, .case-detail-hero, .case-detail-section {
+      display: block !important;
+    }
+  </style>
+</head>
+<body class="case-page detail-page">
+  <a class="skip-link" href="#main">본문 바로가기</a>
+
+  <header class="site-header scrolled">
+    <div class="header-inner container">
+      <a class="brand" href="../" aria-label="글로벌 에너지 최적화 연구소 홈">
+        <span class="brand-mark" aria-hidden="true">EO</span>
+        <span class="brand-copy">
+          <strong>글로벌 에너지 최적화 연구소</strong>
+          <small>GLOBAL ENERGY OPTIMIZATION LAB</small>
+        </span>
+      </a>
+      <nav class="primary-nav archive-nav" aria-label="주 메뉴">
+        <a href="../#services">에너지 절감 컨설팅</a>
+        <a href="../#mv">Baseline &amp; M&amp;V</a>
+        <a class="active" href="./">절감 사례</a>
+        <a href="../#insight">Energy Insight</a>
+        <a href="../#expert">전문가 소개</a>
+        <a class="nav-cta" href="../#contact">에너지 절감 상담</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="case-detail-main">
+    <div class="container">
+
+      <section class="case-detail-hero">
+        <div class="case-detail-breadcrumb">
+          <a href="../">홈</a><span>›</span><a href="./">절감 사례</a><span>›</span>
+          <strong>국내 대형 신축 복합건물 D사</strong>
+        </div>
+
+        <div class="case-detail-hero-grid">
+          <div>
+            <p class="eyebrow">NEW BUILDING · DESIGN REVIEW · DOE-2.1E · HOURLY SIMULATION</p>
+            <h1>신축 대형 복합건물 DOE-2.1E 설계검토 에너지 시뮬레이션</h1>
+            <p class="case-detail-lead">
+              건축·기계 설계도서의 외피, 내부부하, 재실·조명·콘센트·공조·냉난방·급탕 스케줄과
+              HVAC/Plant 구성을 DOE-2.1E에 반영하여 8760시간 에너지 시뮬레이션을 수행하고,
+              에너지원·용도·시설별 수요와 월별 냉난방 패턴, 1차에너지 및 CO₂를 예측한
+              신축 설계검토 사례입니다.
+            </p>
+            <div class="case-detail-tags">
+              <span>신축건물</span><span>설계검토</span><span>DOE-2.1E</span>
+              <span>8760시간</span><span>TRY</span><span>1차에너지</span>
+              <span>End-use</span><span>CO₂</span>
+            </div>
+          </div>
+
+          <aside class="case-summary-panel">
+            <span class="case-state live">설계단계 Simulation 사례</span>
+            <small>결과의 성격</small>
+            <strong>연간 에너지수요·성능 예측</strong>
+            <dl>
+              <div><dt>고객</dt><dd>국내 대형 신축 복합건물 D사</dd></div>
+              <div><dt>모델</dt><dd>DOE-2.1E · 8760시간 TRY 기상</dd></div>
+              <div><dt>용도</dt><dd>업무·판매·호텔·주거·문화 복합시설</dd></div>
+              <div><dt>절감실적</dt><dd>원 보고서에 개선 전·후 절감률 미제시</dd></div>
+            </dl>
+            <p>
+              공개 페이지에서는 단일 설계안의 에너지수요 예측값을
+              실제 절감성과처럼 표현하지 않습니다.
+            </p>
+          </aside>
+        </div>
+      </section>
+
+      <section class="case-detail-section">
+        <p class="eyebrow">01 · MODEL PURPOSE</p>
+        <h2>모델 목적 — 시공 전에 설계안의 에너지성능을 수치로 확인</h2>
+        <div class="verification-box">
+          <strong>건축·설비 설계를 연간 에너지수요로 변환</strong>
+          <p>
+            신축건물의 외피, 내부발열, 사용시간, 냉난방 설정온도, 공조방식과 Plant 조건을
+            시간별 에너지모델로 변환하여 연간 전기·가스 수요와 냉난방부하를 예측합니다.
+            이를 에너지원·End-use·시설별로 분해함으로써 설계단계에서 어떤 영역을 우선 검토해야 하는지
+            판단하고, 향후 대안설계 비교와 설비용량 검토의 기준을 만드는 것이 모델의 목적입니다.
+          </p>
+        </div>
+      </section>
+
+      <section class="case-detail-section">
+        <p class="eyebrow">02 · MODELING PROCESS</p>
+        <h2>모델링 절차</h2>
+        <div class="scenario-table-wrap">
+          <table class="scenario-table">
+            <thead>
+              <tr>
+                <th>단계</th>
+                <th>주요 입력·분석</th>
+                <th>설계검토 목적</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>1. 건물규모·외피</strong></td>
+                <td>연면적·공조면적·외벽·창면적과 외벽/창/지붕 U-value 입력</td>
+                <td>외피 열손실·일사부하와 냉난방부하 반영</td>
+              </tr>
+              <tr>
+                <td><strong>2. 기상조건</strong></td>
+                <td>8760시간 TRY 건구·습구온도, 일사량, 풍속</td>
+                <td>계절·시간별 실제 냉난방부하 패턴 재현</td>
+              </tr>
+              <tr>
+                <td><strong>3. 내부부하</strong></td>
+                <td>재실밀도·인체발열·조명·기기부하·외기량·급탕부하</td>
+                <td>시설용도별 Internal Load 정의</td>
+              </tr>
+              <tr>
+                <td><strong>4. 운영 Schedule</strong></td>
+                <td>재실·조명·콘센트·AHU/Fan·냉난방·냉동기·보일러·급탕 스케줄</td>
+                <td>시간별 사용패턴과 Peak/Off-hour 부하 반영</td>
+              </tr>
+              <tr>
+                <td><strong>5. HVAC/Plant</strong></td>
+                <td>시설별 공조방식과 집단에너지 냉온수·전기 공급조건</td>
+                <td>시스템 효율과 에너지원 변환 반영</td>
+              </tr>
+              <tr>
+                <td><strong>6. 연간 Simulation</strong></td>
+                <td>DOE-2.1E 시간별 계산</td>
+                <td>연간·월별 에너지와 냉난방 요구량 예측</td>
+              </tr>
+              <tr>
+                <td><strong>7. 성능분석</strong></td>
+                <td>Utility·End-use·시설별·1차에너지·CO₂ 분석</td>
+                <td>설계개선 우선영역 및 향후 대안비교 기준 도출</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="case-detail-section">
+        <p class="eyebrow">03 · MODELING METHOD</p>
+        <h2>모델 방법 — DOE-2.1E + 8760시간 운영·기상조건</h2>
+
+        <div class="model-grid">
+          <article class="model-card">
+            <span>Simulation</span>
+            <strong>DOE-2.1E</strong>
+            <p>건물 에너지성능을 시간별로 계산하는 시뮬레이션 프로그램</p>
+          </article>
+          <article class="model-card">
+            <span>Weather</span>
+            <strong>8,760 h TRY</strong>
+            <p>건구·습구온도, 일사량, 풍속을 포함한 해당 지역 표준기상자료</p>
+          </article>
+          <article class="model-card">
+            <span>Design Basis</span>
+            <strong>설계도서 + 에너지절약 가이드</strong>
+            <p>건축계획도서, 국내 설계 가이드라인 및 DOE 입력조건 활용</p>
+          </article>
+          <article class="model-card">
+            <span>Output</span>
+            <strong>Energy · Load · Primary · CO₂</strong>
+            <p>최종에너지, 냉난방 요구량, 1차에너지 및 배출량 분석</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="case-detail-section">
+        <p class="eyebrow">04 · DESIGN INPUT REVIEW</p>
+        <h2>설계검토 시 핵심 입력 착안사항</h2>
+
+        <div class="scenario-table-wrap">
+          <table class="scenario-table">
+            <thead>
+              <tr>
+                <th>설계요소</th>
+                <th>모델링 항목</th>
+                <th>검토 포인트</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>외피</strong></td>
+                <td>외벽·창·지붕 U-value와 창면적</td>
+                <td>냉난방부하·일사부하와 외피성능의 적정성</td>
+              </tr>
+              <tr>
+                <td><strong>시설용도</strong></td>
+                <td>업무·판매·호텔·주거·문화</td>
+                <td>용도별 재실·운영시간 차이를 별도 모델링</td>
+              </tr>
+              <tr>
+                <td><strong>조명/콘센트</strong></td>
+                <td>W/m²와 시간대별 Schedule</td>
+                <td>연간 전력과 내부발열에 동시에 미치는 영향</td>
+              </tr>
+              <tr>
+                <td><strong>환기</strong></td>
+                <td>외기량·AHU/Fan 스케줄</td>
+                <td>환기전력과 외기 냉난방부하의 동시 영향</td>
+              </tr>
+              <tr>
+                <td><strong>냉난방 설정</strong></td>
+                <td>Heating/Cooling Set-point</td>
+                <td>실내환경 기준과 에너지수요의 Trade-off</td>
+              </tr>
+              <tr>
+                <td><strong>급탕</strong></td>
+                <td>시설용도별 시간·월별 급탕부하</td>
+                <td>호텔·주거 등 급탕 다소비 시설의 열원용량 검토</td>
+              </tr>
+              <tr>
+                <td><strong>Plant</strong></td>
+                <td>냉동기·보일러·집단에너지 공급조건</td>
+                <td>Peak Load와 연간 수요를 모두 고려한 용량·운전계획</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="case-detail-section">
+        <p class="eyebrow">05 · ANNUAL ENERGY RESULT</p>
+        <h2>연간 에너지원 및 1차에너지 예측</h2>
+
+        <div class="model-grid">
+          <article class="model-card">
+            <span>소요에너지</span>
+            <strong>약 85,122 MWh/년</strong>
+            <p>신축 설계안의 연간 최종에너지 수요예측</p>
+          </article>
+          <article class="model-card">
+            <span>전기</span>
+            <strong>약 43,634 MWh/년</strong>
+            <p>조명·환기·콘센트 및 전기설비 등</p>
+          </article>
+          <article class="model-card">
+            <span>도시가스</span>
+            <strong>약 41,488 MWh/년</strong>
+            <p>난방·급탕 등 열수요 반영</p>
+          </article>
+          <article class="model-card">
+            <span>1차에너지</span>
+            <strong>약 161,692 MWh/년</strong>
+            <p>전기 약 74% · 가스 약 26% 구성</p>
+          </article>
+        </div>
+
+        <div class="verification-box">
+          <strong>해석</strong>
+          <p>
+            위 수치는 개선을 통해 절감된 에너지가 아니라 설계조건에 따라 모델이 예측한
+            연간 에너지수요입니다. 설계대안의 우열을 판단하려면 동일한 기상·운영조건에서
+            외피·조명·급탕·HVAC/Plant 대안을 각각 다시 시뮬레이션해야 합니다.
+          </p>
+        </div>
+      </section>
+
+      <section class="case-detail-section">
+        <p class="eyebrow">06 · END-USE PRIORITY</p>
+        <h2>1차에너지 기준 다소비 용도 분석</h2>
+
+        <div class="scenario-table-wrap">
+          <table class="scenario-table">
+            <thead>
+              <tr>
+                <th>End-use</th>
+                <th>1차에너지</th>
+                <th>구성비</th>
+                <th>설계검토 착안사항</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>조명</strong></td>
+                <td>약 74,136 MWh/년</td>
+                <td class="saving-cell">약 46%</td>
+                <td>LPD·고효율조명·점등 Schedule 우선검토</td>
+              </tr>
+              <tr>
+                <td><strong>급탕</strong></td>
+                <td>약 27,168 MWh/년</td>
+                <td class="saving-cell">약 17%</td>
+                <td>호텔·주거 급탕수요·열원효율·운전시간 검토</td>
+              </tr>
+              <tr>
+                <td><strong>콘센트</strong></td>
+                <td>약 19,607 MWh/년</td>
+                <td>약 12%</td>
+                <td>Plug Load 밀도와 운영 Schedule 검토</td>
+              </tr>
+              <tr>
+                <td><strong>난방</strong></td>
+                <td>약 14,935 MWh/년</td>
+                <td>약 9%</td>
+                <td>외피·설정온도·열원효율 검토</td>
+              </tr>
+              <tr>
+                <td><strong>냉방</strong></td>
+                <td>약 14,659 MWh/년</td>
+                <td>약 9%</td>
+                <td>냉동기·외기부하·운영 Schedule 검토</td>
+              </tr>
+              <tr>
+                <td><strong>환기</strong></td>
+                <td>약 11,187 MWh/년</td>
+                <td>약 7%</td>
+                <td>팬효율·외기량·재실연동 제어 검토</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="case-detail-section">
+        <p class="eyebrow">07 · LOAD PATTERN</p>
+        <h2>월별 냉난방 요구량으로 Plant 설계조건 검토</h2>
+
+        <div class="model-grid">
+          <article class="model-card">
+            <span>연간 난방 요구량</span>
+            <strong>약 9,710 MWh/년</strong>
+            <p>동절기 집중 · 1월 약 2,697MWh로 최대</p>
+          </article>
+          <article class="model-card">
+            <span>연간 냉방 요구량</span>
+            <strong>약 34,630 MWh/년</strong>
+            <p>하절기 집중 · 7월 약 4,844MWh로 최대</p>
+          </article>
+          <article class="model-card">
+            <span>냉방/난방 특성</span>
+            <strong>냉방 요구량이 더 큼</strong>
+            <p>냉방 Plant와 배관·열원계획의 중요성을 시사</p>
+          </article>
+          <article class="model-card">
+            <span>활용</span>
+            <strong>Peak + Annual 검토</strong>
+            <p>설비용량뿐 아니라 계절별 부분부하 운전전략까지 확인</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="case-detail-section">
+        <p class="eyebrow">08 · FACILITY BENCHMARK</p>
+        <h2>복합시설별 에너지수요 비중</h2>
+        <div class="scenario-table-wrap">
+          <table class="scenario-table">
+            <thead>
+              <tr>
+                <th>시설군</th>
+                <th>1차에너지 구성비</th>
+                <th>주요 설계검토 포인트</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>판매시설</strong></td>
+                <td class="saving-cell">약 28%</td>
+                <td>조명·냉방·환기 운영시간과 상업시설 Peak 관리</td>
+              </tr>
+              <tr>
+                <td><strong>업무시설</strong></td>
+                <td>약 18%</td>
+                <td>조명·콘센트·냉방과 주중 Schedule</td>
+              </tr>
+              <tr>
+                <td><strong>호텔군</strong></td>
+                <td>각 약 16%</td>
+                <td>급탕·조명·24시간/장시간 운영부하</td>
+              </tr>
+              <tr>
+                <td><strong>주거시설</strong></td>
+                <td>약 11%</td>
+                <td>난방·급탕·콘센트와 장시간 거주부하</td>
+              </tr>
+              <tr>
+                <td><strong>문화시설</strong></td>
+                <td>약 10%</td>
+                <td>조명·냉방·환기 및 행사 Schedule</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="case-detail-section">
+        <p class="eyebrow">09 · CARBON PERFORMANCE</p>
+        <h2>연간 CO₂ 발생량 예측</h2>
+        <div class="model-grid">
+          <article class="model-card">
+            <span>총 CO₂</span>
+            <strong>약 37,454 ton-CO₂/년</strong>
+            <p>시뮬레이션 에너지원별 사용량을 기준으로 한 설계단계 배출예측</p>
+          </article>
+          <article class="model-card">
+            <span>활용</span>
+            <strong>대안설계 비교</strong>
+            <p>고효율 외피·조명·열원·운영 Schedule 대안별 CO₂ 변화를 함께 검토</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="case-detail-section">
+        <p class="eyebrow">10 · DESIGN REVIEW METHOD</p>
+        <h2>시뮬레이션을 설계검토에 활용하는 방법</h2>
+        <div class="verification-box">
+          <strong>한 번 계산하고 끝나는 모델이 아니라 설계대안 비교 도구</strong>
+          <p>
+            기본설계 모델을 기준으로 외피 U-value, 창면적, 조명밀도, 급탕조건,
+            재실·공조 Schedule, 냉난방 Set-point, HVAC/Plant 구성 등을 하나씩 변경하여
+            동일한 8760시간 기상조건에서 재시뮬레이션하면 각 설계대안의 연간 에너지,
+            1차에너지, Peak Load와 CO₂ 영향을 정량 비교할 수 있습니다.
+          </p>
+        </div>
+
+        <p class="source-note">
+          자료 기준: 국내 대형 신축 초고층 복합건물의 DOE-2.1E 에너지 시뮬레이션 결과보고 ·
+          실제 프로젝트명·건물명·정확한 층수·지역 등 재식별 가능 정보 비식별 처리
+        </p>
+      </section>
+
+      <section class="case-detail-cta">
+        <div>
+          <p class="eyebrow light">NEW BUILDING DESIGN REVIEW · ENERGY SIMULATION</p>
+          <h2>신축건물은 설계단계에서 에너지비용과 설비용량을 바꾸는 것이 가장 효율적입니다.</h2>
+          <p>건축·기계 설계도서와 운영가정이 있다면 외피·조명·급탕·HVAC/Plant 대안을 시간별 시뮬레이션으로 비교할 수 있습니다.</p>
+        </div>
+        <a class="button button-submit" href="../#contact">신축건물 에너지 설계검토 상담하기</a>
+      </section>
+
+    </div>
+  </main>
+
+  <footer class="site-footer compact-footer">
+    <div class="container footer-bottom">
+      <span>© <span id="year">2026</span> Global Energy Optimization Lab. All rights reserved.</span>
+      <a href="./">CASE LIST ↑</a>
+    </div>
+  </footer>
+</body>
+</html>
