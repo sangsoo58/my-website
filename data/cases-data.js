@@ -3859,4 +3859,123 @@ window.ENERGY_CASES = [
     sourceNote: "국내 데이터센터 운영사의 다중 IDC 에너지성능개선 사업제안 자료 기반 · 실제 고객사명·센터명·개인명·조직정보·세부 계약/예산정보는 비식별 처리"
   }
 
+
+  ,{
+    id: "large-existing-building-online-energy-diagnosis",
+    status: "published",
+    company: "국내 대형 업무용 건물 G사",
+    category: "대형건물 · 온라인 에너지진단 · 운영최적화",
+    energyType: "전기 · 가스/열",
+    equipment: "건물전체 Utility · 냉난방 · 조명/콘센트 · 기저부하",
+    title: "기존 대형건물 온라인 에너지진단·운영스케줄 최적화",
+    short: "현장방문 없이 건물 전체 전기·가스/열 사용량을 기반으로 에너지소비 패턴을 자동 분석하고, 전문가 해석을 더해 유사건물 Benchmark, 냉난방·조명/콘센트·기저부하 성능, 시간대별 운전패턴과 계약전력을 진단하여 운전개선 중심의 절감잠재량을 산정한 온라인 진단 사례입니다.",
+    potential: "약 13% 예상",
+    potentialLabel: "온라인진단 보고서 기준 · 272,226kWh/년 + 약 44.65백만원/년",
+    verificationStatus: "현장 방문 없이 건물 전체 Utility 사용데이터만으로 산정한 사전 온라인진단 잠재량이며, 현장 관리자 협의·운전조건 확인 후 조정될 수 있음",
+    tags: ["대형건물", "온라인진단", "Energy Benchmark", "운영스케줄", "기저부하", "조명", "냉난방", "계약전력", "원격진단", "M&V"],
+    period: "온라인 에너지진단 보고 · 2015년",
+    problem: [
+      "대형 업무용 건물의 전체 에너지비용이 유사건물 대비 높은지, 어느 End-use와 시간대에서 개선여지가 발생하는지를 현장방문 전에 신속하게 파악할 필요",
+      "월별 총사용량만으로는 냉난방·조명/콘센트·기저부하의 운전패턴과 불필요한 조기기동·지연종료를 확인하기 어려움",
+      "계약전력과 실제 요금적용전력/Peak 수준의 차이를 분석하여 고정성 전력비 절감 가능성을 검토할 필요",
+      "전기와 가스/열 사용량을 유사건물 Benchmark와 비교하여 1차에너지·면적당 소비량·비용 수준을 객관적으로 평가할 필요",
+      "온라인 분석 결과를 바탕으로 현장관리자와 추가 협의할 우선 개선항목을 선별하는 사전진단 체계가 필요"
+    ],
+    dataUsed: [
+      "건물 전체 전기 사용량 및 전력요금 데이터",
+      "건물 전체 가스/열 사용량 및 비용 데이터",
+      "월별·요일별·시간대별 전력소비 패턴",
+      "계약전력·요금적용전력·Peak 전력",
+      "건물 연면적 및 공조면적 등 기본정보",
+      "유사건물 면적당 1차에너지·전기·연료·에너지비용 Benchmark",
+      "냉난방·조명/콘센트·기저부하 추정 소비량과 피크",
+      "월요일·주중·토요일·공휴일별 운전시간 패턴"
+    ],
+    modelSectionTitle: "온라인진단의 목적·방법·절차",
+    baselineModels: [
+      {
+        name: "진단 목적",
+        formula: "Online Audit = Utility Data + Automated Pattern Analysis + Expert Review",
+        method: "현장방문 전 건물 전체 전기·가스/열 데이터를 이용해 에너지소비 특성과 운전개선 가능성을 신속히 진단",
+        performance: "현장관리자 협의가 필요한 우선 개선항목과 예상 절감잠재량 도출"
+      },
+      {
+        name: "유사건물 Benchmark",
+        formula: "Performance Gap = Building Intensity − Peer Building Intensity",
+        method: "면적당 1차에너지·전기·연료·비용과 피크를 유사건물과 비교",
+        performance: "대상건물 면적당 1차에너지 소비는 유사건물 대비 약 7% 높은 수준으로 보고"
+      },
+      {
+        name: "End-use 패턴분석",
+        formula: "Total Electric Load ≈ Heating/Cooling + Lighting/Plug + Base Load",
+        method: "전체 전력패턴을 냉난방, 조명·콘센트, 기저부하 관점으로 분해하여 월·요일·시간대별 특성을 분석",
+        performance: "조기기동·지연종료·비업무시간 기저부하와 같은 운전개선 포인트를 식별"
+      },
+      {
+        name: "운영스케줄 진단",
+        formula: "Saving = Existing Operating Hours − Recommended Operating Hours",
+        method: "월요일·주중·토요일·공휴일별 냉난방 및 조명 운전시간을 비교하고 시작/종료시각을 조정",
+        performance: "냉난방 73,710kWh/년 · 조명 110,916kWh/년 절감잠재량 제시"
+      },
+      {
+        name: "기저부하 진단",
+        formula: "Base-load Saving = Existing Base Load − Target Base Load",
+        method: "비업무시간에 지속되는 전력의 밀도와 kW 수준을 분석하여 상시부하를 감축",
+        performance: "기저부하 87,600kWh/년 절감잠재량 제시"
+      },
+      {
+        name: "전력요금 진단",
+        formula: "Demand Charge Saving = (Current Billing Demand − Target Billing Demand) × Demand Rate",
+        method: "계약전력·요금적용전력·Peak를 비교하여 적정 계약/요금적용전력을 검토",
+        performance: "요금적용전력 60kW 조정 기준 약 6,000천원/년 절감잠재량 제시"
+      }
+    ],
+    scenarios: [
+      {
+        name: "온라인진단 종합 잠재량",
+        baseline: "기존 Utility 사용 및 운영스케줄",
+        target: "계약전력 + 냉난방 + 조명 + 기저부하 운전개선",
+        saving: "272,226kWh/년 + 44,650천원/년",
+        note: "보고서 요약 기준 약 13% 절감잠재량 · 실행 전 사전진단 예상치"
+      },
+      {
+        name: "계약전력 / 요금적용전력 조정",
+        baseline: "계약전력 1,800kW · 요금적용전력 480kW",
+        target: "계약전력 1,600kW · 요금적용전력 420kW",
+        saving: "60kW · 6,000천원/년",
+        note: "기본요금 단가 8,320원/kW를 적용한 보고서 산정"
+      },
+      {
+        name: "냉·난방 운영스케줄",
+        baseline: "평일 및 휴일의 기존 조기기동·지연종료 패턴",
+        target: "시작시간 1시간 후행, 종료시간 1시간 선행 등 운전시간 조정",
+        saving: "73,710kWh/년 · 10,460천원/년",
+        note: "건물 이용조건과 쾌적성을 확인한 후 현장협의를 통해 최종 Schedule 조정 필요"
+      },
+      {
+        name: "조명 운영스케줄",
+        baseline: "기존 점등시간",
+        target: "점등 1시간 후행 · 소등 1시간 선행 중심의 스케줄 조정",
+        saving: "110,916kWh/년 · 15,750천원/년",
+        note: "보고서의 온라인진단 계산값"
+      },
+      {
+        name: "기저부하 운영최적화",
+        baseline: "기저부하 약 110kW · 밀도 약 5.9W/m²",
+        target: "기저부하 약 100kW · 밀도 약 5.4W/m²",
+        saving: "87,600kWh/년 · 12,440천원/년",
+        note: "상시운전 설비·대기전력·비업무시간 부하의 현장확인 필요"
+      },
+      {
+        name: "유사건물 Benchmark",
+        baseline: "대상건물 면적당 1차에너지 약 1,101MJ/m²·yr",
+        target: "유사건물 약 1,021MJ/m²·yr 수준과 비교",
+        saving: "약 7% 성능 Gap",
+        note: "직접 절감률이 아니라 유사건물 대비 성능차를 나타내는 진단지표"
+      }
+    ],
+    verification: "본 사례는 현장방문 없이 건물 전체 전기·가스/열 사용량을 기반으로 수행한 온라인 사전진단입니다. 보고서 자체도 온라인진단 결과는 현장관리자와의 대면 협의 과정에서 절감항목과 세부내용이 조정될 수 있음을 명시합니다. 따라서 272,226kWh/년, 44,650천원/년, 약 13%는 실행 전 잠재량으로 보아야 하며, 실행 후에는 실제 운전시간·외기조건·재실·냉난방부하 등을 반영해 기준사용량과 실제사용량을 비교하여 M&V하는 것이 적절합니다.",
+    sourceNote: "국내 기존 대형 업무용 건물의 온라인 에너지진단 보고서 기반 · 실제 건물명·주소·관리자 개인정보·협력사명 등 식별정보 비식별 처리"
+  }
+
 ];
