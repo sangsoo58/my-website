@@ -1,0 +1,382 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0b1f33" />
+  <meta name="description" content="초고층 복합건물의 기존 BEMS 데이터를 기반으로 부하검토, 계측데이터 정합성, 성능분석, BPOS 구축, 실시간 운전가이드와 계절별 Continuous Commissioning을 제안한 건물에너지절감 컨설팅 사례입니다." />
+  <meta name="keywords" content="건물에너지절감컨설팅, 초고층 건물 에너지절감, BEMS 진단, BPOS, Building Performance Optimization System, Continuous Commissioning, 건물 운전최적화, 냉동기 최적화, 공조기 최적화, 실시간 에너지진단, 건물 M&V" />
+  <link rel="canonical" href="https://www.energy-ai-optimization.com/cases/supertall-building-bems-bpos-operation-optimization.html" />
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="../assets/styles.css" />
+  <title>초고층 복합건물 BEMS 데이터 기반 BPOS 운전최적화 | 글로벌 에너지 최적화 연구소</title>
+  <style id="detail-critical-visibility">
+    .case-detail-main, .case-detail-main .container, .case-detail-hero,
+    .case-detail-hero-grid, .case-detail-section, .case-detail-cta,
+    .model-grid, .model-card, .scenario-table-wrap, .verification-box {
+      visibility: visible !important;
+      opacity: 1 !important;
+    }
+    .case-detail-main, .case-detail-hero, .case-detail-section {
+      display: block !important;
+    }
+  </style>
+</head>
+<body class="case-page detail-page">
+  <a class="skip-link" href="#main">본문 바로가기</a>
+
+  <header class="site-header scrolled">
+    <div class="header-inner container">
+      <a class="brand" href="../" aria-label="글로벌 에너지 최적화 연구소 홈">
+        <span class="brand-mark" aria-hidden="true">EO</span>
+        <span class="brand-copy">
+          <strong>글로벌 에너지 최적화 연구소</strong>
+          <small>GLOBAL ENERGY OPTIMIZATION LAB</small>
+        </span>
+      </a>
+      <nav class="primary-nav archive-nav" aria-label="주 메뉴">
+        <a href="../#services">에너지 절감 컨설팅</a>
+        <a href="../#mv">Baseline &amp; M&amp;V</a>
+        <a class="active" href="./">절감 사례</a>
+        <a href="../#insight">Energy Insight</a>
+        <a href="../#expert">전문가 소개</a>
+        <a class="nav-cta" href="../#contact">에너지 절감 상담</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="case-detail-main">
+    <div class="container">
+
+      <section class="case-detail-hero">
+        <div class="case-detail-breadcrumb">
+          <a href="../">홈</a><span>›</span><a href="./">절감 사례</a><span>›</span>
+          <strong>국내 초고층 복합건물 H사</strong>
+        </div>
+
+        <div class="case-detail-hero-grid">
+          <div>
+            <p class="eyebrow">SUPERTALL BUILDING · BEMS · BPOS · CONTINUOUS COMMISSIONING</p>
+            <h1>초고층 복합건물 BEMS 데이터 기반 BPOS 운전최적화</h1>
+            <p class="case-detail-lead">
+              초고층 복합건물의 기존 BEMS 데이터를 활용하여 설계·부하조건과 실제 운전상태를 비교하고,
+              계측데이터 정합성 검증, 주요 열원·공조설비 성능분석, BPOS 구축,
+              실시간 운전가이드와 계절별 운전최적화를 연계하는 Continuous Commissioning 제안 사례입니다.
+            </p>
+            <div class="case-detail-tags">
+              <span>초고층건물</span><span>BEMS</span><span>BPOS</span>
+              <span>Continuous Commissioning</span><span>HVAC</span><span>실시간진단</span>
+              <span>가동대수</span><span>제어진단</span><span>M&amp;V</span>
+            </div>
+          </div>
+
+          <aside class="case-summary-panel">
+            <span class="case-state live">BEMS 진단 후 운전최적화 제안</span>
+            <small>제안서 기대효과</small>
+            <strong>연간 3~10% 절감 목표</strong>
+            <dl>
+              <div><dt>고객</dt><dd>국내 초고층 복합건물 H사</dd></div>
+              <div><dt>대상</dt><dd>열원 · 공조 · 펌프 · 팬 등 HVAC</dd></div>
+              <div><dt>구축</dt><dd>기존 BEMS 데이터 + BPOS</dd></div>
+              <div><dt>추진</dt><dd>기반구축 12개월 + 최적화 12개월</dd></div>
+            </dl>
+            <p>
+              3~10%는 제안단계 기대효과이며 실제 실행 후 확정된 절감실적은 아닙니다.
+            </p>
+          </aside>
+        </div>
+      </section>
+
+      <section class="case-detail-section">
+        <p class="eyebrow">01 · DIAGNOSIS PURPOSE</p>
+        <h2>진단 목적 — BEMS를 “보는 시스템”에서 “최적 운전을 만드는 시스템”으로 확장</h2>
+        <div class="verification-box">
+          <strong>설계값과 실제 수요·운전상태 사이의 Gap을 지속적으로 관리</strong>
+          <p>
+            대형 건물은 설계 안전율, 설치·시운전 상태, 제어기능, 설비정비와 실제 수요변화로 인해
+            설계 당시 의도와 다른 상태로 운전될 수 있습니다. 본 제안은 기존 BEMS 데이터를 활용하여
+            실제 설비의 수요·성능·제어·가동대수를 진단하고, 최적운전 조건을 관리자에게 실시간으로 제공해
+            일회성 개선이 아닌 지속적인 성능개선을 구현하는 것을 목표로 합니다.
+          </p>
+        </div>
+      </section>
+
+      <section class="case-detail-section">
+        <p class="eyebrow">02 · TARGET SYSTEM</p>
+        <h2>초고층 복합건물의 대규모 열원·공조설비를 통합 분석</h2>
+        <div class="scenario-table-wrap">
+          <table class="scenario-table">
+            <thead>
+              <tr>
+                <th>설비군</th>
+                <th>주요 분석대상</th>
+                <th>진단 관점</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td><strong>열원</strong></td><td>냉동기 · 냉각탑 · 보일러 · 열교환기</td><td>효율·부하율·운전조합·설정조건</td></tr>
+              <tr><td><strong>수배관</strong></td><td>냉수·냉각수·온수·급탕 등 펌프</td><td>유량·가동대수·제어상태·부분부하</td></tr>
+              <tr><td><strong>공조</strong></td><td>공조기 · FCU · 급기팬 · 배기팬 · 에어컨</td><td>수요·스케줄·제어·운전효율</td></tr>
+              <tr><td><strong>BEMS</strong></td><td>전력 · 연료 · 용수 · 일기 · 온도 · 유량</td><td>데이터 정합성·추세·상관관계·성능지표</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="source-note">
+          실제 건물명, 층수, 연면적, 구역명과 상세 설비수량은 고객 비식별을 위해 공개하지 않았습니다.
+        </p>
+      </section>
+
+      <section class="case-detail-section">
+        <p class="eyebrow">03 · DIAGNOSIS METHOD</p>
+        <h2>진단 방법 — 설계검토 + 계측 정합성 + BEMS 데이터분석 + 실시간 성능진단</h2>
+        <div class="scenario-table-wrap">
+          <table class="scenario-table">
+            <thead>
+              <tr>
+                <th>분석영역</th>
+                <th>수행방법</th>
+                <th>목적</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>설계·부하 검토</strong></td>
+                <td>건물·구조체 설계조건, Zone별 면적과 냉난방부하, 열원설비 설계성능 비교</td>
+                <td>설계용량과 실제 수요의 차이 파악</td>
+              </tr>
+              <tr>
+                <td><strong>계측 정합성</strong></td>
+                <td>이상데이터 분석, 검교정 장비 실측비교, 계산식 보정, 필요 시 계측기 교정·교체</td>
+                <td>성능계산의 신뢰도 확보</td>
+              </tr>
+              <tr>
+                <td><strong>BEMS 데이터분석</strong></td>
+                <td>대표 계절 1주일의 5~15분 데이터로 소비량·효율·부하율과 인자간 상관관계 분석</td>
+                <td>최적화 시나리오 작성</td>
+              </tr>
+              <tr>
+                <td><strong>BPOS 실시간 진단</strong></td>
+                <td>에너지·수요·성능·제어·가동대수 진단 및 실시간 운전가이드</td>
+                <td>현재 운전상태와 최적 시나리오 비교</td>
+              </tr>
+              <tr>
+                <td><strong>계절별 최적화</strong></td>
+                <td>수요·외기·설비환경 변화에 따라 가동대수·설정값·운전시나리오 지속 개선</td>
+                <td>Continuous Commissioning 구현</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="case-detail-section">
+        <p class="eyebrow">04 · DIAGNOSIS PROCESS</p>
+        <h2>진단 및 컨설팅 절차</h2>
+        <div class="scenario-table-wrap">
+          <table class="scenario-table">
+            <thead>
+              <tr>
+                <th>단계</th>
+                <th>수행내용</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td><strong>1. 부하계산 검토</strong></td><td>설계조건·Zone별 냉난방부하·열원설비 설계성능 검토</td></tr>
+              <tr><td><strong>2. 설비사양 DB</strong></td><td>냉동기·냉각탑·보일러·펌프·공조기·팬 등 주요 설비사양 DB 구축</td></tr>
+              <tr><td><strong>3. 데이터 정합성</strong></td><td>전력계·온도센서·유량계 이상데이터 확인과 교정·보정</td></tr>
+              <tr><td><strong>4. BEMS 데이터분석</strong></td><td>전력·입출구온도·유량 데이터를 이용한 소비량·효율·부하율·상관관계 분석</td></tr>
+              <tr><td><strong>5. BPOS 구축</strong></td><td>모니터링맵, 최적화 시나리오, 프로그램 설치·시운전 및 운전가이드 구성</td></tr>
+              <tr><td><strong>6. 운전최적화</strong></td><td>실시간 진단과 계절별 가동대수·제어·운전조건 최적화</td></tr>
+              <tr><td><strong>7. 교육·사후관리</strong></td><td>운영자 활용교육, 개선과정 공유, 사업 종료 후 계절별 사후관리</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="case-detail-section">
+        <p class="eyebrow">05 · DATA QUALITY</p>
+        <h2>기존 BEMS 활용의 핵심은 “데이터가 맞는가”부터 확인하는 것</h2>
+        <div class="verification-box">
+          <strong>추가 계측을 최소화하되, 정합성 문제가 있으면 교정·보정</strong>
+          <p>
+            제안은 기존 BEMS 저장데이터를 최대한 활용하는 방식입니다.
+            다만 전력계·온도센서·유량계의 이상값이 확인되면 검교정된 장비와의 실측 비교,
+            계산식 보정, 필요 시 계측기 교정 또는 교체를 수행한 후 분석에 사용하도록 구성되어 있습니다.
+          </p>
+        </div>
+      </section>
+
+      <section class="case-detail-section">
+        <p class="eyebrow">06 · BEMS DATA ANALYSIS</p>
+        <h2>계절을 대표하는 고해상도 데이터를 이용한 성능분석</h2>
+        <div class="model-grid">
+          <article class="model-card">
+            <span>Representative Seasons</span>
+            <strong>1 · 4 · 7 · 10월</strong>
+            <p>겨울·봄·여름·가을의 대표 운전상태 확보</p>
+          </article>
+          <article class="model-card">
+            <span>Data Window</span>
+            <strong>각 1주일</strong>
+            <p>대표기간의 상세 운전패턴 분석</p>
+          </article>
+          <article class="model-card">
+            <span>Sampling</span>
+            <strong>5~15분</strong>
+            <p>BEMS 저장데이터 기준</p>
+          </article>
+          <article class="model-card">
+            <span>Analysis</span>
+            <strong>Trend + Correlation</strong>
+            <p>소비량·효율·부하율과 주요 인자의 관계 분석</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="case-detail-section">
+        <p class="eyebrow">07 · BPOS</p>
+        <h2>BPOS — Building Performance Optimization System</h2>
+        <div class="scenario-table-wrap">
+          <table class="scenario-table">
+            <thead>
+              <tr>
+                <th>기능</th>
+                <th>주요 내용</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td><strong>에너지진단</strong></td><td>건물·장소·설비별 현재 에너지사용 상태 평가</td></tr>
+              <tr><td><strong>수요진단</strong></td><td>Schedule과 실제 운전상태를 비교하여 불필요 운전 확인</td></tr>
+              <tr><td><strong>성능진단</strong></td><td>개별기기의 효율상태와 에너지성능 평가</td></tr>
+              <tr><td><strong>제어진단</strong></td><td>제어상태와 최적 제어조건의 차이 진단</td></tr>
+              <tr><td><strong>가동대수진단</strong></td><td>현재 가동대수와 부하에 적합한 최적 가동대수 비교</td></tr>
+              <tr><td><strong>조회·분석</strong></td><td>Trend·상관관계·평가·통계 분석</td></tr>
+              <tr><td><strong>실시간 운전가이드</strong></td><td>실제 운전데이터와 최적운전 시나리오를 비교해 관리자에게 가이드 제공</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="case-detail-section">
+        <p class="eyebrow">08 · CONTINUOUS COMMISSIONING</p>
+        <h2>실시간 운전가이드 + 시나리오 개선의 이중 구조</h2>
+        <div class="scenario-table-wrap">
+          <table class="scenario-table">
+            <thead>
+              <tr>
+                <th>구분</th>
+                <th>운영방식</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>실시간 최적화</strong></td>
+                <td>에너지·수요·성능·제어·가동대수를 실시간 진단하여 현재 운전에 대한 가이드를 제공</td>
+              </tr>
+              <tr>
+                <td><strong>시나리오 최적화</strong></td>
+                <td>데이터분석 → 문제점 확인 → 개선방안 → 실행 → 결과확인을 반복해 최적운전 시나리오 자체를 갱신</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="verification-box">
+          <strong>핵심은 “한 번 맞춘 설정값”이 아니라 변화에 따라 계속 다시 최적화하는 것</strong>
+          <p>
+            계절, 이용률, 외기조건, 설비상태가 변하면 최적 운전조건도 달라집니다.
+            따라서 BPOS는 현재 운전을 실시간 진단하는 기능과,
+            분석결과를 바탕으로 최적 시나리오를 지속 개선하는 기능을 함께 사용하도록 제안되었습니다.
+          </p>
+        </div>
+      </section>
+
+      <section class="case-detail-section">
+        <p class="eyebrow">09 · IMPLEMENTATION PLAN</p>
+        <h2>24개월 구축·최적화 + 운영역량 이전</h2>
+        <div class="model-grid">
+          <article class="model-card">
+            <span>Foundation</span>
+            <strong>12개월</strong>
+            <p>부하·DB·정합성·데이터분석·BPOS 구축</p>
+          </article>
+          <article class="model-card">
+            <span>Optimization</span>
+            <strong>12개월</strong>
+            <p>계절별 운전최적화 및 성능개선</p>
+          </article>
+          <article class="model-card">
+            <span>Aftercare</span>
+            <strong>1년</strong>
+            <p>사업 종료 후 계절별 사후관리 제안</p>
+          </article>
+          <article class="model-card">
+            <span>Capability</span>
+            <strong>System + People + Knowledge</strong>
+            <p>운영조직의 자체 지속개선 역량 확보</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="case-detail-section">
+        <p class="eyebrow">10 · EXPECTED EFFECT</p>
+        <h2>제안단계 기대효과</h2>
+        <div class="verification-box">
+          <strong>연간 3~10% 에너지 절감 목표 + 지속적 최적화에 따른 추가 절감</strong>
+          <p>
+            제안서에서는 BPOS 기반의 운전최적화를 통해 연간 3~10% 에너지절감과,
+            이후 지속적인 최적화 활동에 따른 추가 절감을 기대효과로 제시합니다.
+            이는 실행 전 사업목표이며 특정 연간 절감량이나 비용절감 실적이 제시된 자료는 아닙니다.
+          </p>
+        </div>
+        <div class="scenario-table-wrap">
+          <table class="scenario-table">
+            <thead>
+              <tr><th>부대효과</th><th>내용</th></tr>
+            </thead>
+            <tbody>
+              <tr><td><strong>지속 에너지관리</strong></td><td>일회성 진단이 아닌 실시간/계절별 성능개선 체계</td></tr>
+              <tr><td><strong>M&amp;V 활용</strong></td><td>ESCO 및 에너지절감사업의 성과확인 도구로 활용 가능</td></tr>
+              <tr><td><strong>설비 수명</strong></td><td>저효율·비정상 운전의 조기발견을 통한 설비관리 지원</td></tr>
+              <tr><td><strong>운영부담</strong></td><td>실시간 진단과 운전가이드를 통한 관리업무 지원</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="case-detail-section">
+        <p class="eyebrow">11 · M&amp;V</p>
+        <h2>3~10% 목표는 실행 후 Baseline 기반으로 검증</h2>
+        <div class="verification-box">
+          <strong>건물의 사용조건 변화와 절감효과를 분리해서 평가</strong>
+          <p>
+            초고층 복합건물의 에너지사용은 외기온도, 재실·이용률, 영업시간, 냉난방부하와 운영조건에 따라 크게 달라집니다.
+            따라서 개선 전후 사용량만 비교하지 않고 주요 영향인자를 반영한 Baseline을 구축한 뒤,
+            개선기간 실제 사용량과 비교하여 절감성과를 검증하는 것이 적절합니다.
+          </p>
+        </div>
+        <p class="source-note">
+          자료 기준: 국내 초고층 복합건물의 BEMS 기반 BPOS 운전최적화 사업제안 ·
+          실제 고객명·건물명·로고·층수·면적·구역명·개인명은 비식별 처리
+        </p>
+      </section>
+
+      <section class="case-detail-cta">
+        <div>
+          <p class="eyebrow light">BEMS DATA · BPOS · CONTINUOUS COMMISSIONING</p>
+          <h2>BEMS 데이터가 쌓이고 있다면, 다음 단계는 실시간 성능진단과 운전최적화입니다.</h2>
+          <p>설계·부하·계측·실시간 운전정보를 연결하면 냉동기·보일러·펌프·공조기의 수요·성능·제어·가동대수를 지속적으로 최적화할 수 있습니다.</p>
+        </div>
+        <a class="button button-submit" href="../#contact">건물 BEMS 운전최적화 상담하기</a>
+      </section>
+
+    </div>
+  </main>
+
+  <footer class="site-footer compact-footer">
+    <div class="container footer-bottom">
+      <span>© <span id="year">2026</span> Global Energy Optimization Lab. All rights reserved.</span>
+      <a href="./">CASE LIST ↑</a>
+    </div>
+  </footer>
+</body>
+</html>
