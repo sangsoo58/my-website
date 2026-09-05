@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0b1f33" />
+  <meta name="description" content="AI를 공장 에너지절감에 적용할 때 데이터 정합성, Baseline 예측, 이상탐지, 가동대수·Set Point 최적화, M&V까지 어떤 순서로 적용해야 하는지 등록된 Utility·BEMS 사례를 바탕으로 설명합니다." />
+  <meta name="keywords" content="Energy AI, 공장 에너지 AI, 에너지 예측, 운전최적화 AI, 이상탐지, Baseline 예측, 냉동기 최적화, 공기압축기 최적화, BEMS AI" />
+  <link rel="canonical" href="https://www.energy-ai-optimization.com/insights/energy-ai-practical-optimization.html" />
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="../assets/styles.css" />
+  <title>AI는 공장 에너지 절감에 어떻게 활용할 수 있을까? | Energy Insight</title>
+  <style>.formula-box{margin:24px 0;padding:24px;border-radius:16px;background:#0b1f33;color:#fff;text-align:center;font-size:20px;font-weight:800}.article-links{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}</style>
+</head>
+<body class="case-page detail-page">
+  <a class="skip-link" href="#main">본문 바로가기</a>
+  <header class="site-header scrolled">
+    <div class="header-inner container">
+      <a class="brand" href="../" aria-label="글로벌 에너지 최적화 연구소 홈">
+        <span class="brand-mark" aria-hidden="true">EO</span>
+        <span class="brand-copy">
+          <strong>글로벌 에너지 최적화 연구소</strong>
+          <small>GLOBAL ENERGY OPTIMIZATION LAB</small>
+        </span>
+      </a>
+      <nav class="primary-nav archive-nav" aria-label="주 메뉴">
+        <a href="../#services">에너지 절감 컨설팅</a>
+        <a href="../#mv">Baseline &amp; M&amp;V</a>
+        <a href="../cases/">절감 사례</a>
+        <a class="active" href="./">Energy Insight</a>
+        <a href="../#expert">전문가 소개</a>
+        <a class="nav-cta" href="../#contact">에너지 절감 상담</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main" class="case-detail-main">
+    <div class="container">
+      <section class="case-detail-hero">
+        <div class="case-detail-breadcrumb"><a href="../">홈</a><span>›</span><a href="./">Energy Insight</a><span>›</span><strong>Energy AI</strong></div>
+        <div class="case-detail-hero-grid">
+          <div>
+            <p class="eyebrow">ENERGY AI · PREDICTION · ANOMALY · OPTIMIZATION</p>
+            <h1>AI는 공장 에너지 절감에 어떻게 활용할 수 있을까?</h1>
+            <p class="case-detail-lead">에너지 분야에서 AI의 목적은 AI를 쓰는 것이 아닙니다. 정상사용량을 더 정확히 예측하고, 비정상 운전을 빨리 찾고, 여러 설비·Set Point 중 에너지 사용이 적은 운전조건을 선택하도록 지원하는 것이 실제 목적입니다.</p>
+            <div class="case-detail-tags"><span>Energy AI</span><span>Prediction</span><span>Anomaly Detection</span><span>Optimization</span><span>M&amp;V</span></div>
+          </div>
+          <aside class="case-summary-panel"><span class="case-state live">CASE-BASED INSIGHT</span><small>AI 적용 순서</small><strong>Data → Baseline → Diagnosis → Optimization → M&amp;V</strong><p>데이터 품질과 물리적 KPI가 먼저이고 AI는 그 위에 올라갑니다.</p></aside>
+        </div>
+      </section>
+
+      <section class="case-detail-section">
+        <p class="eyebrow">01 · FIRST PRINCIPLE</p>
+        <h2>AI보다 먼저 필요한 것은 정확한 계측과 설명 가능한 KPI입니다.</h2>
+        <p>초고층 BEMS/BPOS 사례는 전력계·온도센서·유량계의 정합성을 먼저 검증하고, 이상데이터가 있으면 실측 비교·계산식 보정·교정 또는 교체 후 분석하도록 설계되어 있습니다. AI도 동일합니다. 잘못된 센서값을 학습하면 더 정교하게 틀린 판단을 할 뿐입니다.</p>
+        <div class="article-links"><a class="button button-ghost" href="../cases/supertall-building-bems-bpos-operation-optimization.html">BEMS/BPOS 사례 보기</a></div>
+      </section>
+
+      <section class="case-detail-section">
+        <p class="eyebrow">02 · USE 1</p>
+        <h2>예측: 정상 에너지사용량을 계산하는 Baseline 모델</h2>
+        <div class="formula-box">Expected Energy = f(Production, Load, Weather, Operating Conditions)</div>
+        <p>등록 사례의 회귀 Baseline과 HDD Baseline은 AI/머신러닝 적용의 가장 실용적인 출발점입니다. 복잡한 모델을 쓰기 전에 생산중량, 부하, 기상, 가동시간으로 정상사용량을 설명할 수 있는지 확인합니다. 설명력이 부족할 때 비선형 모델이나 머신러닝을 검토할 수 있습니다.</p>
+      </section>
+
+      <section class="case-detail-section">
+        <p class="eyebrow">03 · USE 2</p>
+        <h2>이상탐지: 평소와 다른 에너지 사용을 자동으로 찾기</h2>
+        <div class="scenario-table-wrap"><table class="scenario-table">
+          <thead><tr><th>관측값</th><th>정상기준</th><th>이상 가능성</th></tr></thead>
+          <tbody>
+            <tr><td>공기압축기 UPI 급상승</td><td>유사 유량·압력의 정상 UPI</td><td>BOV 개방, Unloading, 압력과다, 설비성능 저하</td></tr>
+            <tr><td>냉동기 COP 하락</td><td>유사 RT·외기조건의 정상 COP</td><td>저효율 호기, 냉각수조건, 부분부하 운전</td></tr>
+            <tr><td>BEMS 센서 급변</td><td>물리 범위·인접 센서·과거패턴</td><td>센서오류·계측 정합성 문제</td></tr>
+            <tr><td>전력 Baseline 초과</td><td>예측사용량 + 허용오차</td><td>비정상 운전·대기시간·설비 이상</td></tr>
+          </tbody>
+        </table></div>
+      </section>
+
+      <section class="case-detail-section">
+        <p class="eyebrow">04 · USE 3</p>
+        <h2>최적화: 어떤 설비를 몇 대, 어떤 Set Point로 운전할 것인가?</h2>
+        <div class="verification-box">
+          <strong>등록 사례: 반도체 Utility Big-data 운전최적화</strong>
+          <p>냉동기와 공기압축기의 수요·공급 Balance, 가동대수, 유량·온도·압력·밸브개도, 설비별 효율과 제어로직을 함께 분석해 2개 생산거점 전체 약 4.5%의 절감잠재량을 제안했습니다. 이런 문제는 AI/최적화가 잘 맞는 영역입니다. 공정 요구조건을 제약조건으로 두고 가능한 운전조합 중 예상 에너지가 가장 낮은 조합을 찾는 방식입니다.</p>
+        </div>
+        <div class="article-links"><a class="button button-ghost" href="../cases/semiconductor-utility-bigdata-operation-optimization.html">반도체 Big-data 사례 보기</a></div>
+      </section>
+
+      <section class="case-detail-section">
+        <p class="eyebrow">05 · USE 4</p>
+        <h2>설비 Dispatch: 고효율 설비를 우선 운전하되 제약조건을 지킵니다.</h2>
+        <p>냉동기 사례에서는 호기별 COP, 월별 필요대수, 냉수 출구온도와 펌프조건을 분석해 고효율 냉동기 우선가동 + 계절별 대수 + Set Point 시나리오를 만들었습니다. AI를 적용한다면 과거 운전데이터로 각 호기의 성능을 예측하고 N+1, 최소유량, 공정 안정성 같은 제약을 만족하는 최적 설비조합을 추천하는 형태가 됩니다.</p>
+        <div class="article-links"><a class="button button-ghost" href="../cases/semiconductor-chiller-plant-optimization.html">반도체 냉동기 사례 보기</a></div>
+      </section>
+
+      <section class="case-detail-section">
+        <p class="eyebrow">06 · WHAT AI SHOULD NOT DO</p>
+        <h2>AI가 절감률을 자동으로 만들어 주는 것은 아닙니다.</h2>
+        <div class="scenario-table-wrap"><table class="scenario-table"><tbody>
+          <tr><td><strong>잘못된 접근</strong></td><td>개선 전후 전력만 넣고 AI가 절감률을 계산하도록 함</td></tr>
+          <tr><td><strong>필요한 접근</strong></td><td>생산량·부하·기상·압력 등 영향인자를 반영한 Baseline과 실제사용량을 비교</td></tr>
+          <tr><td><strong>잘못된 접근</strong></td><td>예측 정확도가 높은 Black-box 모델만 선택</td></tr>
+          <tr><td><strong>필요한 접근</strong></td><td>운전자가 설명하고 실행할 수 있는 변수와 안전/품질 제약을 함께 반영</td></tr>
+        </tbody></table></div>
+      </section>
+
+      <section class="case-detail-section">
+        <p class="eyebrow">07 · PRACTICAL ROADMAP</p>
+        <h2>공장 Energy AI의 현실적인 6단계</h2>
+        <div class="scenario-table-wrap"><table class="scenario-table"><tbody>
+          <tr><td><strong>1. Data Quality</strong></td><td>MES/EMS/BEMS 정합성·센서 신뢰도 확인</td></tr>
+          <tr><td><strong>2. KPI</strong></td><td>kWh/kg, UPI, COP, PUE 등 물리 KPI 정의</td></tr>
+          <tr><td><strong>3. Baseline</strong></td><td>정상 에너지사용량 예측모델 구축</td></tr>
+          <tr><td><strong>4. Diagnosis</strong></td><td>예측잔차·성능지표로 이상운전 탐지</td></tr>
+          <tr><td><strong>5. Optimization</strong></td><td>가동대수·Set Point·운전순서 추천</td></tr>
+          <tr><td><strong>6. M&amp;V</strong></td><td>실제 적용 후 절감성과를 Baseline으로 검증</td></tr>
+        </tbody></table></div>
+      </section>
+
+      <section class="case-detail-cta">
+        <div><p class="eyebrow light">AI IS A TOOL, NOT THE GOAL</p><h2>AI의 가치는 예측 정확도보다 실제 운전조건을 더 잘 선택하게 하는 것에서 나옵니다.</h2><p>가장 먼저 작은 Baseline·진단 모델부터 시작하고 현장 실행성과가 확인되면 최적화 모델로 확장하는 접근이 현실적입니다.</p></div>
+        <a class="button button-submit" href="../#contact">Energy AI 상담하기</a>
+      </section>
+    </div>
+  </main>
+  <footer class="site-footer compact-footer">
+    <div class="container footer-bottom">
+      <span>© 2026 Global Energy Optimization Lab. All rights reserved.</span>
+      <a href="./">INSIGHT LIST ↑</a>
+    </div>
+  </footer>
+</body>
+</html>

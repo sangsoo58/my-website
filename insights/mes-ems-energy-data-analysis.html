@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0b1f33" />
+  <meta name="description" content="MES 생산정보와 EMS 에너지정보를 시간·설비·LOT 기준으로 연결하여 공정별 에너지원단위, 가동대수, 비가동시간과 절감기회를 찾는 데이터 분석 방법을 실제 제조 Utility 사례에서 정리합니다." />
+  <meta name="keywords" content="MES EMS 데이터 분석, 공장 에너지 데이터, 에너지원단위, UPI, 생산량 전력 분석, 공정별 에너지 분석, Utility 데이터 분석" />
+  <link rel="canonical" href="https://www.energy-ai-optimization.com/insights/mes-ems-energy-data-analysis.html" />
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="../assets/styles.css" />
+  <title>MES와 EMS 데이터를 이용한 공장 에너지 분석 | Energy Insight</title>
+  <style>.formula-box{margin:24px 0;padding:24px;border-radius:16px;background:#0b1f33;color:#fff;text-align:center;font-size:20px;font-weight:800}.article-links{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}</style>
+</head>
+<body class="case-page detail-page">
+  <a class="skip-link" href="#main">본문 바로가기</a>
+  <header class="site-header scrolled">
+    <div class="header-inner container">
+      <a class="brand" href="../" aria-label="글로벌 에너지 최적화 연구소 홈">
+        <span class="brand-mark" aria-hidden="true">EO</span>
+        <span class="brand-copy">
+          <strong>글로벌 에너지 최적화 연구소</strong>
+          <small>GLOBAL ENERGY OPTIMIZATION LAB</small>
+        </span>
+      </a>
+      <nav class="primary-nav archive-nav" aria-label="주 메뉴">
+        <a href="../#services">에너지 절감 컨설팅</a>
+        <a href="../#mv">Baseline &amp; M&amp;V</a>
+        <a href="../cases/">절감 사례</a>
+        <a class="active" href="./">Energy Insight</a>
+        <a href="../#expert">전문가 소개</a>
+        <a class="nav-cta" href="../#contact">에너지 절감 상담</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main" class="case-detail-main">
+    <div class="container">
+      <section class="case-detail-hero">
+        <div class="case-detail-breadcrumb"><a href="../">홈</a><span>›</span><a href="./">Energy Insight</a><span>›</span><strong>Energy Data</strong></div>
+        <div class="case-detail-hero-grid">
+          <div>
+            <p class="eyebrow">ENERGY DATA · MES × EMS</p>
+            <h1>MES와 EMS 데이터를 이용한 공장 에너지 분석</h1>
+            <p class="case-detail-lead">에너지 절감기회는 전력 그래프만 봐서는 잘 보이지 않습니다. “무엇을 얼마나 생산했는가”와 “그때 얼마의 에너지를 사용했는가”를 같은 시간축에서 연결해야 공정의 정상 범위, 고소비 조건과 운전개선 포인트를 찾을 수 있습니다.</p>
+            <div class="case-detail-tags"><span>MES</span><span>EMS</span><span>FEMS</span><span>Energy Data</span><span>UPI</span><span>Data Alignment</span></div>
+          </div>
+          <aside class="case-summary-panel"><span class="case-state live">CASE-BASED INSIGHT</span><small>핵심</small><strong>생산정보와 에너지정보를 같은 행(Row)으로 만든다</strong><p>그 다음에야 원단위·회귀모델·운전시나리오를 신뢰할 수 있습니다.</p></aside>
+        </div>
+      </section>
+
+      <section class="case-detail-section">
+        <p class="eyebrow">01 · WHY JOIN DATA</p>
+        <h2>EMS는 “얼마나 썼는지”, MES는 “왜 썼는지”를 설명합니다.</h2>
+        <div class="scenario-table-wrap"><table class="scenario-table">
+          <thead><tr><th>데이터</th><th>대표 항목</th><th>분석 역할</th></tr></thead>
+          <tbody>
+            <tr><td><strong>MES</strong></td><td>생산량, 생산중량, LOT, 품목, Recipe, 양품/불량, 가동·비가동시간</td><td>에너지 수요의 생산 원인 설명</td></tr>
+            <tr><td><strong>EMS/FEMS</strong></td><td>전력, 가스, 유량, 압력, 온도, 설비별 소비량</td><td>실제 에너지 소비와 설비상태 측정</td></tr>
+            <tr><td><strong>BEMS/Utility</strong></td><td>COP, 냉방부하, 공급유량, 가동대수, 밸브개도</td><td>보조설비·Utility 운전효율 설명</td></tr>
+          </tbody>
+        </table></div>
+      </section>
+
+      <section class="case-detail-section">
+        <p class="eyebrow">02 · DATA MODEL</p>
+        <h2>먼저 분석용 일/시간/LOT 단위 테이블을 만듭니다.</h2>
+        <div class="formula-box">분석 Row = 생산조건 + 운전조건 + 에너지사용량 + 품질/환경조건</div>
+        <div class="scenario-table-wrap"><table class="scenario-table">
+          <thead><tr><th>생산일</th><th>LINE</th><th>생산중량</th><th>가동시간</th><th>비가동시간</th><th>전력</th><th>원단위</th></tr></thead>
+          <tbody>
+            <tr><td>Day 1</td><td>A</td><td>kg</td><td>min</td><td>min</td><td>kWh</td><td>kWh/kg</td></tr>
+            <tr><td>Day 2</td><td>A</td><td>kg</td><td>min</td><td>min</td><td>kWh</td><td>kWh/kg</td></tr>
+            <tr><td>Day 3</td><td>B</td><td>kg</td><td>min</td><td>min</td><td>kWh</td><td>kWh/kg</td></tr>
+          </tbody>
+        </table></div>
+        <p>실제 공개 제조사례에서는 생산중량·생산수량·소요시간·비가동시간과 설비별 전력량을 일별로 정합하고 Noise와 영향점을 검토한 뒤 Baseline을 구축했습니다. 중요한 것은 데이터가 많다는 점보다 생산조건과 에너지계측의 시간경계가 일치하는지입니다.</p>
+      </section>
+
+      <section class="case-detail-section">
+        <p class="eyebrow">03 · KPI</p>
+        <h2>설비별로 물리적으로 의미 있는 KPI를 선택합니다.</h2>
+        <div class="model-grid">
+          <article class="model-card"><span>Production</span><strong>kWh/kg</strong><p>생산중량당 전력</p></article>
+          <article class="model-card"><span>CDA</span><strong>kWh/m³</strong><p>압축공기 생산 UPI</p></article>
+          <article class="model-card"><span>Chiller</span><strong>kWh/RT · COP</strong><p>냉동기 성능</p></article>
+          <article class="model-card"><span>Data Center</span><strong>PUE</strong><p>IT부하 대비 전체 시설전력</p></article>
+        </div>
+      </section>
+
+      <section class="case-detail-section">
+        <p class="eyebrow">04 · CASE: SEMICONDUCTOR UTILITY</p>
+        <h2>1분 데이터까지 내려가면 평균값 뒤의 손실이 보입니다.</h2>
+        <div class="verification-box">
+          <strong>등록 사례: 반도체 냉동·공조·압축공기 통합 Utility</strong>
+          <p>이 사례에서는 냉동부하(RT), 소비동력, COP/UPI, 가동대수와 펌프·냉각탑 운전을 함께 분석했습니다. 공기압축기는 1분 단위 유량·전력·압력·Loading/Unloading을 연결해 평균 시스템 손실율 약 3.1%, 순간 최대 31.7%까지 올라가는 구간을 확인했습니다. 공정설비를 제외한 Utility에서는 2018년 사용량 기준 약 444,832kWh/년·4.3%의 절감잠재량이 제시되었습니다.</p>
+        </div>
+        <div class="article-links"><a class="button button-ghost" href="../cases/semiconductor-integrated-utility-optimization.html">반도체 Utility 사례 보기</a></div>
+      </section>
+
+      <section class="case-detail-section">
+        <p class="eyebrow">05 · CASE: COMPRESSED AIR</p>
+        <h2>가동대수는 몇 대 켰는가가 아니라 수요와 함께 봐야 합니다.</h2>
+        <div class="verification-box">
+          <strong>등록 사례: 섬유공장 대형 공기압축기</strong>
+          <p>현장측정 평균 실제 가동대수는 4.0대였지만 압축공기 수요기준 필요대수는 평균 약 3.2대로 분석되었습니다. 동시에 전력 3,503kW, 공급유량 25,882Nm³/h, UPI 약 0.135kWh/Nm³를 함께 봄으로써 단순 대수감축이 아니라 수요를 만족하면서 시스템 UPI를 낮추는 조합을 목표로 설정할 수 있습니다.</p>
+        </div>
+        <div class="article-links"><a class="button button-ghost" href="../cases/textile-compressed-air-utility-optimization.html">섬유공장 Utility 사례 보기</a></div>
+      </section>
+
+      <section class="case-detail-section">
+        <p class="eyebrow">06 · ANALYSIS ORDER</p>
+        <h2>현장에서 효과적인 분석 순서</h2>
+        <div class="scenario-table-wrap"><table class="scenario-table"><tbody>
+          <tr><td><strong>1. 정합</strong></td><td>MES/EMS Timestamp·설비코드·LINE·LOT 기준 통합</td></tr>
+          <tr><td><strong>2. 품질</strong></td><td>결측·센서이상·정지일·비정상 생산일을 분리</td></tr>
+          <tr><td><strong>3. KPI</strong></td><td>kWh/kg, kWh/m³, kWh/RT, COP 등 물리 KPI 산출</td></tr>
+          <tr><td><strong>4. 패턴</strong></td><td>생산량·부하·시간대·가동대수별 분포와 상관관계 분석</td></tr>
+          <tr><td><strong>5. Baseline</strong></td><td>정상조건의 기대 에너지사용량 모델 구축</td></tr>
+          <tr><td><strong>6. Scenario</strong></td><td>비가동시간, 가동대수, Set Point, 고효율설비 우선운전 등을 평가</td></tr>
+          <tr><td><strong>7. M&amp;V</strong></td><td>실행 전후 조건을 보정해 실제 절감성과 검증</td></tr>
+        </tbody></table></div>
+      </section>
+
+      <section class="case-detail-cta">
+        <div><p class="eyebrow light">MES × EMS → ENERGY ACTION</p><h2>좋은 분석은 그래프를 많이 만드는 것이 아니라, 운전자가 바꿀 수 있는 변수를 찾는 것입니다.</h2><p>생산량·가동대수·압력·온도·비가동시간처럼 실제 조정 가능한 변수까지 연결해야 절감 시나리오가 됩니다.</p></div>
+        <a class="button button-submit" href="../#contact">MES·EMS 분석 상담하기</a>
+      </section>
+    </div>
+  </main>
+  <footer class="site-footer compact-footer">
+    <div class="container footer-bottom">
+      <span>© 2026 Global Energy Optimization Lab. All rights reserved.</span>
+      <a href="./">INSIGHT LIST ↑</a>
+    </div>
+  </footer>
+</body>
+</html>

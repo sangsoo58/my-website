@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0b1f33" />
+  <meta name="description" content="생산량·기상·부하가 다른 기간의 에너지사용량을 단순 비교하면 왜 절감성과가 왜곡되는지, 지역난방 HDD Baseline과 Utility UPI 사례를 이용해 Baseline과 M&V의 실무 원리를 설명합니다." />
+  <meta name="keywords" content="Energy Baseline, M&V, 에너지 절감량 산정, HDD Baseline, 생산량 보정, UPI, 공장 에너지 절감성과" />
+  <link rel="canonical" href="https://www.energy-ai-optimization.com/insights/baseline-mv-normalization.html" />
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="../assets/styles.css" />
+  <title>공장 에너지 Baseline이 필요한 이유 | Energy Insight</title>
+  <style>
+    .insight-callout{margin:28px 0;padding:24px;border-radius:18px;background:#f4f8f7;border:1px solid #dbe4e8}
+    .insight-callout strong{display:block;margin-bottom:8px;color:#0f6b5a}
+    .formula-box{margin:24px 0;padding:24px;border-radius:16px;background:#0b1f33;color:#fff;text-align:center;font-size:20px;font-weight:800}
+    .article-links{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
+  </style>
+</head>
+<body class="case-page detail-page">
+  <a class="skip-link" href="#main">본문 바로가기</a>
+  <header class="site-header scrolled">
+    <div class="header-inner container">
+      <a class="brand" href="../" aria-label="글로벌 에너지 최적화 연구소 홈">
+        <span class="brand-mark" aria-hidden="true">EO</span>
+        <span class="brand-copy">
+          <strong>글로벌 에너지 최적화 연구소</strong>
+          <small>GLOBAL ENERGY OPTIMIZATION LAB</small>
+        </span>
+      </a>
+      <nav class="primary-nav archive-nav" aria-label="주 메뉴">
+        <a href="../#services">에너지 절감 컨설팅</a>
+        <a href="../#mv">Baseline &amp; M&amp;V</a>
+        <a href="../cases/">절감 사례</a>
+        <a class="active" href="./">Energy Insight</a>
+        <a href="../#expert">전문가 소개</a>
+        <a class="nav-cta" href="../#contact">에너지 절감 상담</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main" class="case-detail-main">
+    <div class="container">
+      <section class="case-detail-hero">
+        <div class="case-detail-breadcrumb"><a href="../">홈</a><span>›</span><a href="./">Energy Insight</a><span>›</span><strong>Baseline &amp; M&amp;V</strong></div>
+        <div class="case-detail-hero-grid">
+          <div>
+            <p class="eyebrow">BASELINE &amp; M&amp;V</p>
+            <h1>공장 에너지 Baseline이 필요한 이유</h1>
+            <p class="case-detail-lead">“개선 전보다 전기를 덜 썼으니 절감했다”는 판단은 생산량, 기상, 부하가 달라지면 쉽게 틀릴 수 있습니다. Baseline은 개선이 없었다면 같은 조건에서 사용했을 정상 에너지량을 추정하고 실제 사용량과 비교해 절감성과를 분리하는 기준입니다.</p>
+            <div class="case-detail-tags"><span>Baseline</span><span>M&amp;V</span><span>생산량 보정</span><span>HDD</span><span>UPI</span></div>
+          </div>
+          <aside class="case-summary-panel">
+            <span class="case-state live">CASE-BASED INSIGHT</span>
+            <small>핵심 원칙</small><strong>같은 조건으로 비교한다</strong>
+            <p>Baseline은 절감설비 자체보다 비교조건을 어떻게 정상화하느냐가 핵심입니다.</p>
+          </aside>
+        </div>
+      </section>
+
+      <section class="case-detail-section">
+        <p class="eyebrow">01 · THE PROBLEM</p>
+        <h2>에너지사용량은 생산량과 환경조건에 따라 움직입니다.</h2>
+        <p>공장에서는 생산중량·생산수량·가동시간·제품 Mix가 달라지고, 건물과 지역난방에서는 외기온도와 난방부하가 달라집니다. 따라서 개선 전 100MWh, 개선 후 90MWh라는 숫자만으로 10% 절감이라고 결론내리면 생산량 감소나 따뜻한 겨울의 효과를 절감성과로 잘못 포함할 수 있습니다.</p>
+        <div class="formula-box">Energy Saving = Adjusted Baseline − Actual Energy</div>
+        <p>Adjusted Baseline은 개선기간의 생산량·기상·부하조건을 넣어 계산한 “개선이 없었을 경우의 예상사용량”입니다.</p>
+      </section>
+
+      <section class="case-detail-section">
+        <p class="eyebrow">02 · CASE 1</p>
+        <h2>기상조건이 다르면 HDD로 난방부하를 보정합니다.</h2>
+        <div class="verification-box">
+          <strong>등록 사례: 대형 공동주택 지역난방 스마트 운전</strong>
+          <p>공개 사례에서는 월별 난방도수일(HDD)과 열사용량의 관계로 <b>Qbase = 1.1958 × HDD + 45.761</b>의 수정 Baseline을 구성했습니다. 모델 적합도는 R² 0.996이었고, 스마트 운전 3개월 동안 Baseline 2,185Gcal 대비 실제 2,052Gcal, 즉 133Gcal·약 6.1%의 절감성과를 기상보정 후 검증했습니다.</p>
+        </div>
+        <div class="article-links"><a class="button button-ghost" href="../cases/district-heating-smart-operation.html">지역난방 M&amp;V 사례 보기</a></div>
+      </section>
+
+      <section class="case-detail-section">
+        <p class="eyebrow">03 · CASE 2</p>
+        <h2>생산량·유량이 다르면 원단위로 먼저 비교합니다.</h2>
+        <p>공기압축기, 펌프, 냉동기처럼 생산 Utility는 공급량이 많아질수록 전력도 증가합니다. 따라서 전력량 자체보다 “같은 공급량을 만드는 데 얼마의 에너지가 필요한가”를 보는 UPI가 유용합니다.</p>
+        <div class="model-grid">
+          <article class="model-card"><span>Compressed Air</span><strong>kWh / Nm³</strong><p>압축공기 생산량을 보정한 전력 원단위</p></article>
+          <article class="model-card"><span>Chiller</span><strong>kWh / RT</strong><p>냉방부하를 보정한 냉동기 원단위</p></article>
+          <article class="model-card"><span>Production</span><strong>kWh / kg</strong><p>생산중량을 보정한 공정 에너지 원단위</p></article>
+          <article class="model-card"><span>Pump</span><strong>kWh / m³</strong><p>처리·송수유량을 보정한 펌프 원단위</p></article>
+        </div>
+        <div class="insight-callout"><strong>주의</strong>원단위만으로 모든 M&amp;V가 끝나는 것은 아닙니다. 압력, 양정, 외기온도, 제품 Mix처럼 원단위에 영향을 주는 변수가 크다면 다중회귀 Baseline이나 층화가 필요합니다.</div>
+      </section>
+
+      <section class="case-detail-section">
+        <p class="eyebrow">04 · PRACTICAL BASELINE</p>
+        <h2>공장 Baseline은 어떤 변수를 넣어야 할까요?</h2>
+        <div class="scenario-table-wrap">
+          <table class="scenario-table">
+            <thead><tr><th>공정/설비</th><th>대표 영향인자</th><th>Baseline 예시</th></tr></thead>
+            <tbody>
+              <tr><td><strong>열처리·Former</strong></td><td>생산중량, 소요시간, 비가동시간, LINE</td><td>E = f(kg, time, idle)</td></tr>
+              <tr><td><strong>공기압축기</strong></td><td>공급유량, 압력, 가동대수</td><td>E = f(Nm³, pressure)</td></tr>
+              <tr><td><strong>냉동기</strong></td><td>냉방부하(RT), 외기/냉각수조건, 가동대수</td><td>E = f(RT, weather)</td></tr>
+              <tr><td><strong>지역난방</strong></td><td>HDD, 시간대, 입주/급탕조건</td><td>Q = f(HDD)</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="case-detail-section">
+        <p class="eyebrow">05 · M&amp;V WORKFLOW</p>
+        <h2>절감성과를 검증하는 5단계</h2>
+        <div class="scenario-table-wrap">
+          <table class="scenario-table"><tbody>
+            <tr><td><strong>1. Boundary</strong></td><td>어떤 설비·공정의 에너지를 평가할지 경계를 정의</td></tr>
+            <tr><td><strong>2. Driver</strong></td><td>생산량·유량·기상·가동시간 등 주요 영향인자 선정</td></tr>
+            <tr><td><strong>3. Baseline</strong></td><td>개선 전 정상 데이터로 예상사용량 모델 구축</td></tr>
+            <tr><td><strong>4. Adjustment</strong></td><td>개선기간 조건을 Baseline에 넣어 정상사용량 계산</td></tr>
+            <tr><td><strong>5. Verification</strong></td><td>Baseline − Actual로 절감량을 산정하고 이상일을 검토</td></tr>
+          </tbody></table>
+        </div>
+      </section>
+
+      <section class="case-detail-cta">
+        <div><p class="eyebrow light">FROM CASE TO METHOD</p><h2>절감량을 크게 보이는 모델보다, 설명 가능하고 반복 검증 가능한 Baseline이 중요합니다.</h2><p>생산조건과 계측데이터를 확인한 뒤 모델을 선택해야 실제 M&amp;V에서 사용할 수 있습니다.</p></div>
+        <a class="button button-submit" href="../#contact">Baseline·M&amp;V 상담하기</a>
+      </section>
+    </div>
+  </main>
+  <footer class="site-footer compact-footer">
+    <div class="container footer-bottom">
+      <span>© 2026 Global Energy Optimization Lab. All rights reserved.</span>
+      <a href="./">INSIGHT LIST ↑</a>
+    </div>
+  </footer>
+</body>
+</html>
