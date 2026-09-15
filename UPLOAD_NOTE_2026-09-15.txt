@@ -1,0 +1,13 @@
+기준본: 04_my-website(ebbok추가)(2026-09-14).zip
+
+보존 사항
+- ebook/ 전체 보존
+- index.html 전자책 읽기 메뉴 및 CTA 보존
+
+추가/수정 사항
+- index.html: 신규 실제 장기데이터 Case를 대표 Case 첫 번째 카드로 추가, 대표 7개/전체 41개로 수정
+- cases/index.html: 신규 Case 첫 번째 추가, 공개 사례 41건으로 수정
+- cases/building-load-pattern-analysis.html 추가
+- assets/cases/building-load-pattern-analysis/ 실제 그래프 6종 추가
+- data/cases-data.js: 신규 Case 객체 추가
+- sitemap.xml: 신규 Case URL 추가

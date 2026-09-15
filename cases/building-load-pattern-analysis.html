@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0b1f33" />
+  <meta name="description" content="1년간 35,136개의 15분 전력데이터를 월별·요일별·시간대별로 분석하여 건물의 기저부하, 냉난방 추정부하, Peak와 운전개선 우선순위를 도출한 실제 데이터 기반 사례입니다." />
+  <meta name="keywords" content="건물 에너지 절감, 15분 전력데이터, 전력패턴 분석, 기저부하, HVAC 최적화, Peak 관리, 건물 에너지 진단" />
+  <link rel="canonical" href="https://www.energy-ai-optimization.com/cases/building-load-pattern-analysis.html" />
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="../assets/styles.css" />
+  <title>15분 전력데이터 기반 건물 에너지 패턴 분석 사례 | 글로벌 에너지 최적화 연구소</title>
+  <style>
+    /* This page intentionally inherits the site's existing Header/Footer/color system
+       from ../assets/styles.css. Only case-specific content layout is added here. */
+    .building-case { padding: 150px 0 84px; background:#f5f8fb; }
+    .bc-shell { max-width:1180px; margin:0 auto; }
+    .bc-hero { background:#0b1f33; color:#fff; border-radius:28px; padding:64px; overflow:hidden; position:relative; }
+    .bc-hero:after { content:""; position:absolute; width:380px; height:380px; border-radius:50%; right:-150px; top:-170px; background:rgba(57,190,166,.13); }
+    .bc-eyebrow { margin:0 0 18px; font-size:.78rem; font-weight:800; letter-spacing:.14em; color:#7ee0cd; }
+    .bc-hero h1 { position:relative; z-index:1; margin:0; max-width:900px; font-size:clamp(2.1rem,4.6vw,4.2rem); line-height:1.12; letter-spacing:-.045em; color:#fff; }
+    .bc-hero .lead { position:relative; z-index:1; max-width:820px; margin:24px 0 0; color:#cbd8e5; font-size:1.08rem; line-height:1.8; }
+    .bc-tags { position:relative; z-index:1; display:flex; flex-wrap:wrap; gap:9px; margin-top:28px; }
+    .bc-tags span { border:1px solid rgba(255,255,255,.2); border-radius:999px; padding:8px 12px; font-size:.82rem; color:#e9f2f7; }
+
+    .bc-proof { display:grid; grid-template-columns:1.2fr 1fr 1fr; gap:1px; margin:18px 0 18px; background:#dce5ed; border:1px solid #dce5ed; border-radius:18px; overflow:hidden; }
+    .bc-proof > div { background:#fff; padding:22px; }
+    .bc-proof .proof-label { display:block; color:#159b83; font-size:.72rem; font-weight:900; letter-spacing:.1em; margin-bottom:7px; }
+    .bc-proof strong { display:block; color:#0b1f33; font-size:1.12rem; }
+    .bc-proof small { display:block; margin-top:5px; color:#718096; line-height:1.5; }
+
+    .bc-kpis { display:grid; grid-template-columns:repeat(5,1fr); gap:14px; margin:18px 0 54px; }
+    .bc-kpi { background:#fff; border:1px solid #dce5ed; border-radius:18px; padding:22px 18px; box-shadow:0 8px 28px rgba(11,31,51,.05); }
+    .bc-kpi small { display:block; color:#718096; font-size:.75rem; margin-bottom:8px; }
+    .bc-kpi strong { display:block; color:#0b1f33; font-size:1.45rem; letter-spacing:-.03em; }
+    .bc-kpi em { display:block; color:#7b8794; font-style:normal; font-size:.72rem; margin-top:5px; }
+    .bc-section { margin:58px 0; }
+    .bc-section-head { max-width:790px; margin-bottom:24px; }
+    .bc-section-head .num { color:#159b83; font-size:.78rem; font-weight:900; letter-spacing:.12em; }
+    .bc-section-head h2 { margin:8px 0 12px; color:#0b1f33; font-size:clamp(1.65rem,3vw,2.45rem); letter-spacing:-.035em; }
+    .bc-section-head p { margin:0; color:#5f6f7f; line-height:1.8; }
+    .bc-grid3 { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; }
+    .bc-card { background:#fff; border:1px solid #dce5ed; border-radius:20px; padding:24px; }
+    .bc-card b { display:block; color:#0b1f33; margin-bottom:9px; font-size:1.02rem; }
+    .bc-card p { margin:0; color:#657585; line-height:1.7; font-size:.92rem; }
+    .bc-process { display:grid; grid-template-columns:repeat(6,1fr); gap:10px; }
+    .bc-step { background:#fff; border:1px solid #dce5ed; border-radius:16px; padding:18px 14px; min-height:125px; }
+    .bc-step span { color:#159b83; font-weight:900; font-size:.75rem; }
+    .bc-step b { display:block; margin:10px 0 5px; color:#0b1f33; font-size:.9rem; }
+    .bc-step small { color:#7a8896; line-height:1.5; }
+    .bc-figure { margin:24px 0 34px; background:#fff; border:1px solid #dce5ed; border-radius:22px; overflow:hidden; box-shadow:0 10px 30px rgba(11,31,51,.05); }
+    .bc-figure img { display:block; width:100%; height:auto; background:#fff; }
+    .bc-caption { padding:18px 22px 22px; border-top:1px solid #edf1f5; }
+    .bc-caption strong { display:block; color:#0b1f33; margin-bottom:7px; }
+    .bc-caption p { margin:0; color:#637383; line-height:1.7; font-size:.9rem; }
+    .bc-insight { margin-top:14px; padding:17px 18px; border-radius:14px; background:#edf8f5; border-left:4px solid #159b83; color:#244b47; line-height:1.7; font-size:.9rem; }
+    .bc-findings { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; }
+    .bc-finding { background:#0b1f33; color:#fff; border-radius:20px; padding:26px; }
+    .bc-finding .label { color:#7ee0cd; font-size:.75rem; font-weight:900; letter-spacing:.08em; }
+    .bc-finding h3 { margin:10px 0 12px; color:#fff; font-size:1.15rem; }
+    .bc-finding p { margin:0; color:#cbd8e5; line-height:1.7; font-size:.9rem; }
+    .bc-note { background:#fff8e8; border:1px solid #f0dfad; border-radius:18px; padding:22px; color:#66551f; line-height:1.75; font-size:.9rem; }
+    .bc-cta { margin-top:64px; padding:42px; border-radius:24px; background:#eaf5f2; display:flex; align-items:center; justify-content:space-between; gap:24px; }
+    .bc-cta h2 { margin:0 0 8px; color:#0b1f33; font-size:1.7rem; }
+    .bc-cta p { margin:0; color:#5c6d79; }
+    .bc-cta a { flex:0 0 auto; display:inline-flex; align-items:center; justify-content:center; min-height:48px; padding:0 22px; border-radius:999px; background:#0b1f33; color:#fff; text-decoration:none; font-weight:800; }
+    @media(max-width:900px){
+      .building-case{padding-top:110px}.bc-hero{padding:38px 26px}.bc-kpis{grid-template-columns:repeat(2,1fr)}
+      .bc-proof{grid-template-columns:1fr}.bc-grid3,.bc-findings{grid-template-columns:1fr}.bc-process{grid-template-columns:repeat(2,1fr)}
+      .bc-cta{display:block}.bc-cta a{margin-top:20px}.bc-shell{padding:0 18px}
+    }
+    @media(max-width:520px){.bc-kpis{grid-template-columns:1fr}.bc-process{grid-template-columns:1fr}}
+  </style>
+</head>
+<body class="case-page detail-page" data-case-id="building-load-pattern-analysis">
+  <a class="skip-link" href="#main">본문 바로가기</a>
+
+  <header class="site-header scrolled">
+    <div class="header-inner container">
+      <a class="brand" href="../" aria-label="글로벌 에너지 최적화 연구소 홈">
+        <span class="brand-mark" aria-hidden="true">EO</span>
+        <span class="brand-copy"><strong>글로벌 에너지 최적화 연구소</strong><small>Global Energy Optimization Lab</small></span>
+      </a>
+      <nav class="primary-nav archive-nav" aria-label="주 메뉴">
+        <a href="../#services">에너지 절감 컨설팅</a>
+        <a href="../#mv">Baseline &amp; M&amp;V</a>
+        <a class="active" href="./">절감 사례</a>
+        <a href="../#insight">Energy Insight</a>
+        <a href="../#expert">전문가 소개</a>
+        <a class="nav-cta" href="../#contact">에너지 절감 상담</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="building-case">
+    <div class="bc-shell">
+      <section class="bc-hero">
+        <p class="bc-eyebrow">ACTUAL DATA CASE · 12 MONTHS · 35,136 POINTS</p>
+        <h1>15분 전력데이터로 찾아낸<br>건물의 시간대별 에너지 소비구조</h1>
+        <p class="lead"><strong>2023.11~2024.10, 1년간 실제 계측한 35,136개의 15분 전력데이터</strong>를 월별·요일별·시간대별로 재구성하고, 기저부하와 냉난방 추정부하를 분리하여 심야·휴일·동절기 운전과 Peak 관리의 개선 우선순위를 찾았습니다.</p>
+        <div class="bc-tags"><span>✓ 실제 계측데이터</span><span>12개월 연속 분석</span><span>35,136 Points</span><span>15분 간격</span><span>4 Day Types</span></div>
+      </section>
+
+
+      <section class="bc-proof" aria-label="실제 장기 데이터 분석 근거">
+        <div><span class="proof-label">ACTUAL METERED DATA</span><strong>시뮬레이션이 아닌 실제 계측 데이터</strong><small>건물 전체 전력계에서 수집된 실측 시계열을 분석했습니다.</small></div>
+        <div><span class="proof-label">LONG-TERM</span><strong>365일 연속 분석</strong><small>2023.11.01 ~ 2024.10.31</small></div>
+        <div><span class="proof-label">HIGH RESOLUTION</span><strong>15분 × 35,136개</strong><small>일별 96-point Load Profile</small></div>
+      </section>
+
+      <section class="bc-kpis" aria-label="핵심 분석지표">
+        <div class="bc-kpi"><small>ANALYSIS DATA</small><strong>35,136</strong><em>15분 데이터 포인트</em></div>
+        <div class="bc-kpi"><small>ANNUAL ENERGY</small><strong>2,655.8 MWh</strong><em>실제 계측값 적산</em></div>
+        <div class="bc-kpi"><small>AVERAGE DEMAND</small><strong>302.3 kW</strong><em>연간 평균전력</em></div>
+        <div class="bc-kpi"><small>MAX DEMAND</small><strong>768.2 kW</strong><em>2024-01-09 10:30</em></div>
+        <div class="bc-kpi"><small>P97.5</small><strong>525.6 kW</strong><em>Peak 관리기준 후보</em></div>
+      </section>
+
+      <section class="bc-section">
+        <div class="bc-section-head"><span class="num">01 · PROBLEM</span><h2>총사용량보다 중요한 것은<br>언제, 왜 사용하는가입니다.</h2><p>월간 전력요금만으로는 심야 상시부하, 휴일 운전, 냉난방 기동·정지시간과 Peak 발생 원인을 구분하기 어렵습니다.</p></div>
+        <div class="bc-grid3">
+          <article class="bc-card"><b>심야·비업무시간</b><p>업무가 끝난 뒤에도 유지되는 전력부하가 필수부하인지 불필요한 상시운전인지 확인합니다.</p></article>
+          <article class="bc-card"><b>계절·냉난방</b><p>월별 부하곡선의 변화를 통해 냉난방 영향이 집중되는 계절과 시간대를 찾습니다.</p></article>
+          <article class="bc-card"><b>Peak Demand</b><p>연간 최대수요와 상위 부하구간을 분리해 수요관리 대상 시간대를 확인합니다.</p></article>
+        </div>
+      </section>
+
+      <section class="bc-section">
+        <div class="bc-section-head"><span class="num">02 · METHOD</span><h2>35,136개 데이터를 6단계로 재구성했습니다.</h2></div>
+        <div class="bc-process">
+          <div class="bc-step"><span>STEP 01</span><b>Data QA</b><small>15분 데이터 정합성 확인</small></div>
+          <div class="bc-step"><span>STEP 02</span><b>96-point/day</b><small>일별 부하곡선 생성</small></div>
+          <div class="bc-step"><span>STEP 03</span><b>Day Type</b><small>월·주중·토·휴일 분류</small></div>
+          <div class="bc-step"><span>STEP 04</span><b>Load Profile</b><small>시간대별 대표패턴 분석</small></div>
+          <div class="bc-step"><span>STEP 05</span><b>Segregation</b><small>Base·Light·HVAC 추정</small></div>
+          <div class="bc-step"><span>STEP 06</span><b>Opportunity</b><small>운전개선 우선순위 도출</small></div>
+        </div>
+      </section>
+
+      <section class="bc-section">
+        <div class="bc-section-head"><span class="num">03 · ACTUAL DATA</span><h2>실제 1년 데이터에서 보이는 부하 패턴</h2><p>아래 그래프는 업로드된 실제 건물 전력데이터를 사용해 산출했습니다.</p></div>
+
+        <figure class="bc-figure">
+          <img src="../assets/cases/building-load-pattern-analysis/01_annual_15min_load_profile.png" alt="연간 15분 전력 부하 프로파일" loading="lazy">
+          <figcaption class="bc-caption"><strong>연간 15분 Load Profile</strong><p>연중 부하변동과 최대수요 발생구간을 동시에 확인합니다.</p><div class="bc-insight"><b>DATA INSIGHT</b> · 최대전력은 768.2kW, 연간 97.5 percentile은 525.6kW로 분석되었습니다. 상위 부하시간의 주요 설비를 확인하면 Peak 제어기준을 구체화할 수 있습니다.</div></figcaption>
+        </figure>
+
+        <figure class="bc-figure">
+          <img src="../assets/cases/building-load-pattern-analysis/02_monthly_energy.png" alt="월별 전력사용량" loading="lazy">
+          <figcaption class="bc-caption"><strong>월별 전력사용량</strong><p>계절별 총사용량을 비교하면 동절기의 높은 전력소비가 뚜렷하게 나타납니다.</p><div class="bc-insight"><b>DATA INSIGHT</b> · 2024년 1월 약 340.6MWh로 분석기간 중 가장 높았고, 6월과 9월은 각각 약 149.6MWh 수준으로 낮았습니다.</div></figcaption>
+        </figure>
+
+        <figure class="bc-figure">
+          <img src="../assets/cases/building-load-pattern-analysis/03_daytype_hourly_profile.png" alt="요일유형별 평균 시간대 전력 패턴" loading="lazy">
+          <figcaption class="bc-caption"><strong>Day Type × 시간대 패턴</strong><p>월요일, 주중, 토요일, 휴일을 분리하여 업무일과 비업무일의 부하 차이를 확인합니다.</p><div class="bc-insight"><b>DATA INSIGHT</b> · 주중 00~05시 평균부하는 약 273kW, 09~17시는 약 319kW로 심야부하가 주간 업무시간 대비 높은 수준입니다. 단, 실제 24시간 운영시설인지 확인한 뒤 낭비 여부를 판단해야 합니다.</div></figcaption>
+        </figure>
+
+        <figure class="bc-figure">
+          <img src="../assets/cases/building-load-pattern-analysis/04_estimated_base_load.png" alt="15분 패턴 기반 기저부하 추정" loading="lazy">
+          <figcaption class="bc-caption"><strong>Base Load 추정</strong><p>요일유형별 대표 저부하 패턴에서 공통적으로 유지되는 부하를 기저부하 후보로 분리합니다.</p></figcaption>
+        </figure>
+
+        <figure class="bc-figure">
+          <img src="../assets/cases/building-load-pattern-analysis/05_monthly_enduse_estimate.png" alt="월별 용도별 추정 전력사용량" loading="lazy">
+          <figcaption class="bc-caption"><strong>월별 용도별 부하분리</strong><p>건물 전체 전력을 기저부하, 조명·콘센트 추정부하, 냉난방 추정부하로 재구성했습니다.</p><div class="bc-insight"><b>ANALYTICS</b> · 연간 추정비중은 기저부하 약 61.3%, 냉난방 약 35.8%, 조명·콘센트 약 2.9%입니다. 이는 서브미터 실측값이 아니라 패턴 기반 추정치입니다.</div></figcaption>
+        </figure>
+
+        <figure class="bc-figure">
+          <img src="../assets/cases/building-load-pattern-analysis/06_monthly_hvac_share.png" alt="월별 냉난방 추정부하 비중" loading="lazy">
+          <figcaption class="bc-caption"><strong>냉난방 추정부하의 계절성</strong><p>냉난방 영향이 어느 계절에 집중되는지 월별 비중으로 비교합니다.</p><div class="bc-insight"><b>DATA INSIGHT</b> · 냉난방 추정부하 비중은 1월 57.4%, 12월 52.6%, 2월 53.0%로 높고 6월 8.5%, 9월 7.8%로 낮아 동절기 운전 최적화가 우선 검토대상으로 나타났습니다.</div></figcaption>
+        </figure>
+      </section>
+
+      <section class="bc-section">
+        <div class="bc-section-head"><span class="num">04 · OPPORTUNITY</span><h2>분석결과를 운전개선 과제로 연결합니다.</h2></div>
+        <div class="bc-findings">
+          <article class="bc-finding"><span class="label">PRIORITY 01</span><h3>심야 기저부하</h3><p>24시간 필수부하와 비필수 상시부하를 구분하고 정지 가능한 설비의 운전스케줄을 재설정합니다.</p></article>
+          <article class="bc-finding"><span class="label">PRIORITY 02</span><h3>동절기 HVAC</h3><p>기동·정지시간, 설정온도, 외기조건과 재실시간을 연결해 동절기 냉난방 운전을 최적화합니다.</p></article>
+          <article class="bc-finding"><span class="label">PRIORITY 03</span><h3>Peak 관리</h3><p>525.6kW 이상 상위 부하시간을 중심으로 주요 설비를 확인하고 순차기동·수요제어 기준을 수립합니다.</p></article>
+        </div>
+      </section>
+
+      <aside class="bc-note"><strong>분석 결과 해석 시 주의사항</strong><br>연간 사용량, 평균전력, 최대전력과 시간대별 패턴은 실제 계측 데이터에서 산출했습니다. 반면 기저부하·조명/콘센트·냉난방 부하는 별도 서브미터 계측값이 아니라 15분 부하패턴을 이용한 추정치입니다. 실제 절감량은 건물 용도, 운영시간, 재실, 외기조건 및 HVAC 운전정보를 추가 확인하고 개선 전후 M&amp;V를 통해 확정해야 합니다.</aside>
+
+      <section class="bc-cta">
+        <div><h2>우리 건물의 15분 전력데이터에도 같은 분석을 적용할 수 있습니다.</h2><p>전력데이터에서 개선 우선순위를 찾고, 실행 후에는 Baseline과 M&amp;V로 절감효과를 검증합니다.</p></div>
+        <a href="../#contact">에너지 절감 상담</a>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer compact-footer">
+    <div class="container footer-bottom">
+      <span>© <span id="year">2026</span> Global Energy Optimization Lab. All rights reserved.</span>
+      <a href="./">CASE LIST ↑</a>
+    </div>
+  </footer>
+  <script src="../assets/script.js" defer></script>
+</body>
+</html>
