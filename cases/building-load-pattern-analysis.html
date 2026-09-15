@@ -96,15 +96,15 @@
     <div class="bc-shell">
       <section class="bc-hero">
         <p class="bc-eyebrow">ACTUAL DATA CASE · 12 MONTHS · 35,136 POINTS</p>
-        <h1>15분 전력데이터로 찾아낸<br>건물의 시간대별 에너지 소비구조</h1>
-        <p class="lead"><strong>2023.11~2024.10, 1년간 실제 계측한 35,136개의 15분 전력데이터</strong>를 월별·요일별·시간대별로 재구성하고, 기저부하와 냉난방 추정부하를 분리하여 심야·휴일·동절기 운전과 Peak 관리의 개선 우선순위를 찾았습니다.</p>
+        <h1>15분 전력데이터로 찾아낸<br>대형 사찰의 시간대별 에너지 소비구조</h1>
+        <p class="lead"><strong>2023.11~2024.10, 1년간 실제 계측한 35,136개의 15분 전력데이터</strong>를 분석한 사례입니다. 분석 대상은 <strong>여러 동의 건물로 구성된 대형 사찰 시설</strong>로, 일반 업무용 건물과 달리 휴일에도 이용과 운영이 이어지고 새벽 시간대에도 특유의 전력소비가 나타납니다. 이러한 건물 용도를 함께 고려하여 월별·요일별·시간대별 패턴과 개선 우선순위를 해석했습니다.</p>
         <div class="bc-tags"><span>✓ 실제 계측데이터</span><span>12개월 연속 분석</span><span>35,136 Points</span><span>15분 간격</span><span>4 Day Types</span></div>
       </section>
 
 
       <section class="bc-proof" aria-label="실제 장기 데이터 분석 근거">
         <div><span class="proof-label">ACTUAL METERED DATA</span><strong>시뮬레이션이 아닌 실제 계측 데이터</strong><small>건물 전체 전력계에서 수집된 실측 시계열을 분석했습니다.</small></div>
-        <div><span class="proof-label">LONG-TERM</span><strong>365일 연속 분석</strong><small>2023.11.01 ~ 2024.10.31</small></div>
+        <div><span class="proof-label">LONG-TERM</span><strong>366일 연속 분석</strong><small>2023.11.01 ~ 2024.10.31</small></div>
         <div><span class="proof-label">HIGH RESOLUTION</span><strong>15분 × 35,136개</strong><small>일별 96-point Load Profile</small></div>
       </section>
 
@@ -117,10 +117,10 @@
       </section>
 
       <section class="bc-section">
-        <div class="bc-section-head"><span class="num">01 · PROBLEM</span><h2>총사용량보다 중요한 것은<br>언제, 왜 사용하는가입니다.</h2><p>월간 전력요금만으로는 심야 상시부하, 휴일 운전, 냉난방 기동·정지시간과 Peak 발생 원인을 구분하기 어렵습니다.</p></div>
+        <div class="bc-section-head"><span class="num">01 · FACILITY &amp; PROBLEM</span><h2>전력패턴은 건물의 용도와<br>운영 특성을 함께 봐야 합니다.</h2><p>분석 대상은 여러 건물이 함께 운영되는 대형 사찰 시설입니다. 따라서 휴일 전력소비가 일반 업무용 건물보다 높고, 새벽 약 4시 전후에도 사찰 운영 특성에 따른 부하가 나타납니다. 단순히 ‘휴일·새벽 사용량이 높다’는 이유만으로 낭비로 판단하지 않고, 시설의 실제 이용시간과 필수부하를 구분하는 것이 핵심입니다.</p></div>
         <div class="bc-grid3">
-          <article class="bc-card"><b>심야·비업무시간</b><p>업무가 끝난 뒤에도 유지되는 전력부하가 필수부하인지 불필요한 상시운전인지 확인합니다.</p></article>
-          <article class="bc-card"><b>계절·냉난방</b><p>월별 부하곡선의 변화를 통해 냉난방 영향이 집중되는 계절과 시간대를 찾습니다.</p></article>
+          <article class="bc-card"><b>새벽 시간대 부하</b><p>새벽 약 4시 전후의 전력소비는 사찰의 이른 운영시간과 여러 동의 설비가 영향을 줄 수 있으므로, 일반 건물의 심야부하와 동일하게 해석하지 않습니다.</p></article>
+          <article class="bc-card"><b>휴일 운영 특성</b><p>사찰은 토요일·일요일·공휴일에도 방문과 시설운영이 지속될 수 있어 휴일 사용량이 높은 것 자체를 이상부하로 보지 않고 운영일정과 함께 분석합니다.</p></article>
           <article class="bc-card"><b>Peak Demand</b><p>연간 최대수요와 상위 부하구간을 분리해 수요관리 대상 시간대를 확인합니다.</p></article>
         </div>
       </section>
@@ -152,7 +152,7 @@
 
         <figure class="bc-figure">
           <img src="../assets/cases/building-load-pattern-analysis/03_daytype_hourly_profile.png" alt="요일유형별 평균 시간대 전력 패턴" loading="lazy">
-          <figcaption class="bc-caption"><strong>Day Type × 시간대 패턴</strong><p>월요일, 주중, 토요일, 휴일을 분리하여 업무일과 비업무일의 부하 차이를 확인합니다.</p><div class="bc-insight"><b>DATA INSIGHT</b> · 주중 00~05시 평균부하는 약 273kW, 09~17시는 약 319kW로 심야부하가 주간 업무시간 대비 높은 수준입니다. 단, 실제 24시간 운영시설인지 확인한 뒤 낭비 여부를 판단해야 합니다.</div></figcaption>
+          <figcaption class="bc-caption"><strong>Day Type × 시간대 패턴</strong><p>월요일, 주중, 토요일, 휴일을 분리하여 사찰의 운영일정과 시간대별 부하 특성을 비교합니다.</p><div class="bc-insight"><b>DATA INSIGHT</b> · 이 시설은 일반 업무용 건물과 달리 휴일에도 전력소비가 유지되며 새벽 약 4시 전후에도 특징적인 부하가 나타납니다. 이는 여러 건물로 구성된 대형 사찰의 이용·운영 특성과 관련된 패턴으로 해석해야 하며, 절감대상은 이 정상 운영부하를 제외한 불필요한 상시운전에서 찾아야 합니다.</div></figcaption>
         </figure>
 
         <figure class="bc-figure">
@@ -174,13 +174,13 @@
       <section class="bc-section">
         <div class="bc-section-head"><span class="num">04 · OPPORTUNITY</span><h2>분석결과를 운전개선 과제로 연결합니다.</h2></div>
         <div class="bc-findings">
-          <article class="bc-finding"><span class="label">PRIORITY 01</span><h3>심야 기저부하</h3><p>24시간 필수부하와 비필수 상시부하를 구분하고 정지 가능한 설비의 운전스케줄을 재설정합니다.</p></article>
-          <article class="bc-finding"><span class="label">PRIORITY 02</span><h3>동절기 HVAC</h3><p>기동·정지시간, 설정온도, 외기조건과 재실시간을 연결해 동절기 냉난방 운전을 최적화합니다.</p></article>
-          <article class="bc-finding"><span class="label">PRIORITY 03</span><h3>Peak 관리</h3><p>525.6kW 이상 상위 부하시간을 중심으로 주요 설비를 확인하고 순차기동·수요제어 기준을 수립합니다.</p></article>
+          <article class="bc-finding"><span class="label">PRIORITY 01</span><h3>새벽 필수부하와 상시부하 분리</h3><p>새벽 약 4시 전후의 사찰 고유 운영부하는 정상부하로 우선 구분하고, 각 건물별로 실제 사용하지 않는 시간에도 계속 운전되는 냉난방·펌프·환기·조명 등의 비필수 상시부하를 찾아 운전스케줄을 조정합니다.</p></article>
+          <article class="bc-finding"><span class="label">PRIORITY 02</span><h3>건물별·요일별 운영스케줄</h3><p>여러 동의 건물이 동일한 시간표로 운전될 필요가 있는지 확인하고, 평일·휴일 및 새벽 이용시간을 반영해 건물별 냉난방·환기·조명 운전시간을 세분화합니다.</p></article>
+          <article class="bc-finding"><span class="label">PRIORITY 03</span><h3>동절기 HVAC · Peak 관리</h3><p>동절기 냉난방 부하와 525.6kW 이상 상위 부하시간을 함께 확인하여 여러 건물의 동시기동을 줄이고, 순차기동·설정온도·수요제어 기준을 수립합니다.</p></article>
         </div>
       </section>
 
-      <aside class="bc-note"><strong>분석 결과 해석 시 주의사항</strong><br>연간 사용량, 평균전력, 최대전력과 시간대별 패턴은 실제 계측 데이터에서 산출했습니다. 반면 기저부하·조명/콘센트·냉난방 부하는 별도 서브미터 계측값이 아니라 15분 부하패턴을 이용한 추정치입니다. 실제 절감량은 건물 용도, 운영시간, 재실, 외기조건 및 HVAC 운전정보를 추가 확인하고 개선 전후 M&amp;V를 통해 확정해야 합니다.</aside>
+      <aside class="bc-note"><strong>분석 결과 해석 시 주의사항</strong><br>연간 사용량, 평균전력, 최대전력과 시간대별 패턴은 실제 계측 데이터에서 산출했습니다. 반면 기저부하·조명/콘센트·냉난방 부하는 별도 서브미터 계측값이 아니라 15분 부하패턴을 이용한 추정치입니다. 본 사례는 대형 사찰이라는 시설 용도와 휴일·새벽 운영 특성을 반영하여 해석했습니다. 실제 절감량은 각 건물의 용도, 행사·방문 일정, 운영시간, 재실, 외기조건 및 HVAC 운전정보를 추가 확인하고 개선 전후 M&amp;V를 통해 확정해야 합니다.</aside>
 
       <section class="bc-cta">
         <div><h2>우리 건물의 15분 전력데이터에도 같은 분석을 적용할 수 있습니다.</h2><p>전력데이터에서 개선 우선순위를 찾고, 실행 후에는 Baseline과 M&amp;V로 절감효과를 검증합니다.</p></div>
