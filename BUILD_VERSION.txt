@@ -1,10 +1,3 @@
-ENERGY-AI-OPTIMIZATION FINAL WEBSITE BUILD
-Version: BUILDING_SUSTAINABLE_DESIGN_v7
-Date: 2026-09-17
-Public cases: 46 (Industrial 28 / Building 18)
-
-VISIBLE CHECKPOINTS
-- /cases/ hero: 산업 에너지 최적화와 친환경건축·건물에너지 설계를 연결합니다.
-- /cases/ building card: 친환경건축 · 건물에너지 성능설계 18 CASES
-- Home building card: 친환경건축 · 건물에너지 성능설계
-- CASE 43-46: DEEP DIVE series
+BUILDING_SUSTAINABLE_DESIGN_v8
+2026-09-17
+CASE Library navigation font/readability update

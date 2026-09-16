@@ -470,3 +470,27 @@ h3 { font-size: 22px; }
 /* V5 Building Energy & Sustainable Design enhancement */
 .design-application-box{margin:34px 0;padding:28px;border:1px solid #cfe2df;border-radius:22px;background:linear-gradient(135deg,#f4fbf9 0%,#f8fafc 100%)}
 .design-application-box .design-kicker{font-size:12px;font-weight:800;letter-spacing:.12em;color:#087c70;margin:0 0 8px}.design-application-box h2{margin:0 0 10px;font-size:clamp(24px,3vw,34px);line-height:1.25}.design-application-box>p{font-size:16px;line-height:1.8;color:#536577}.design-steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:20px}.design-step{background:#fff;border:1px solid #dbe8e6;border-radius:16px;padding:18px}.design-step b{display:block;color:#0b1f33;font-size:15px;margin-bottom:8px}.design-step p{margin:0;font-size:14px;line-height:1.7;color:#526476}.design-use-note{margin-top:18px;padding-top:16px;border-top:1px solid #d4e5e2;font-size:13px;color:#66788a}.building-audience-banner{margin:0 0 28px;padding:20px 22px;border-radius:18px;background:#0b1f33;color:#fff}.building-audience-banner small{display:block;color:#62dfcb;font-weight:800;letter-spacing:.1em;margin-bottom:6px}.building-audience-banner strong{font-size:20px}.building-audience-banner p{margin:8px 0 0;color:#d8e4ee;line-height:1.7}.sector-intro-card.building small{color:#087c70}.building-knowledge-note{font-size:14px;color:#607184;margin-top:10px}@media(max-width:800px){.design-steps{grid-template-columns:1fr}.design-application-box{padding:22px 18px}}
+
+/* v8 — CASE Library navigation readability */
+.archive-toolbar { margin-bottom: 32px; }
+.archive-toolbar > div { gap: 7px; }
+.archive-toolbar strong { font-size: 25px; line-height: 1.3; }
+.archive-toolbar > div > span { font-size: 15px; line-height: 1.55; }
+.archive-toolbar .text-link { font-size: 16px; font-weight: 800; }
+.case-browser-toolbar { margin-bottom: 30px; }
+.sector-filter { gap: 10px; margin-bottom: 19px; }
+.sector-filter button { padding: 11px 17px; font-size: 15px; line-height: 1.25; }
+.case-search-toolbar { gap: 14px; margin-bottom: 28px; }
+.case-search-toolbar label { gap: 9px; }
+.case-search-toolbar label span { font-size: 15px; letter-spacing: .04em; }
+.case-search-toolbar input { min-height: 52px; padding: 0 16px; font-size: 16px; border-radius: 14px; }
+.case-search-toolbar .button { min-height: 52px; padding: 0 22px; font-size: 15px; font-weight: 800; }
+.case-filter-result { min-width: 56px; padding-bottom: 15px; font-size: 16px; }
+@media(max-width:640px){
+  .archive-toolbar strong{font-size:23px}
+  .archive-toolbar>div>span{font-size:14px}
+  .sector-filter button{font-size:14px;padding:10px 14px}
+  .case-search-toolbar label span{font-size:14px}
+  .case-search-toolbar input{font-size:16px}
+  .case-filter-result{font-size:15px}
+}
