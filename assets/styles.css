@@ -494,3 +494,17 @@ h3 { font-size: 22px; }
   .case-search-toolbar input{font-size:16px}
   .case-filter-result{font-size:15px}
 }
+
+/* v9 — CASE Library compact navigation font refinement only */
+.archive-toolbar strong { font-size: 27px; }
+.archive-toolbar strong [data-case-count] { font-size: 17px; }
+.archive-toolbar > div > span { font-size: 16px; }
+.sector-filter button { font-size: 16px; padding: 12px 18px; }
+.case-search-toolbar label span { font-size: 16px; }
+@media(max-width:640px){
+  .archive-toolbar strong{font-size:25px}
+  .archive-toolbar strong [data-case-count]{font-size:16px}
+  .archive-toolbar>div>span{font-size:15px}
+  .sector-filter button{font-size:15px;padding:11px 15px}
+  .case-search-toolbar label span{font-size:15px}
+}
