@@ -1,0 +1,31 @@
+홈페이지 업데이트 패키지 - 2026-09-16
+
+반영 내용
+1) 새 메뉴: "저서 온라인 열람" (/book/)
+   - 교보문고 POD 최종 내지 159페이지 웹 열람용
+   - 원본 PDF 미포함 / 다운로드 버튼 없음
+   - 우클릭·드래그·Ctrl+S·Ctrl+P·Ctrl+U 억제, 인쇄 CSS 차단
+   - 페이지 단위 WebP 로딩
+   - 화면 캡처/개발자도구 저장까지 100% 차단하는 것은 웹 기술상 불가능함
+2) 기존 "전자책 읽기" 메뉴 삭제
+   - 기존 /ebook/ 폴더는 GitHub 저장소/웹서버에서 반드시 직접 삭제
+3) CASE 37 태양광 사례 업데이트
+   - /cases/solar-radiation-installation-optimization.html
+   - 8,760시간 Solar Radiation / Solar Resource 분석
+   - PV 발전량·설비용량·경제성은 후속 모델로 구분
+
+권장 메뉴명: 저서 온라인 열람
+
+GitHub Desktop 업로드
+1. my-website 저장소 열기
+2. 기존 ebook 폴더 삭제
+3. ZIP을 별도 폴더에 해제
+4. 해제한 파일을 저장소 루트에 폴더 구조 그대로 덮어쓰기
+5. .git 폴더는 건드리지 않음
+6. Changes에서 ebook 삭제, book 신규, HTML/CSS/sitemap/CASE37 변경 확인
+7. Commit: Add online book reader and update CASE 37
+8. Push origin
+9. /book/ 및 /cases/solar-radiation-installation-optimization.html 확인
+10. /ebook/이 더 이상 열리지 않는지 확인
+
+중요: 실제 인쇄/POD PDF를 public_html 또는 Git 저장소에 올리지 마십시오.
