@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="560" viewBox="0 0 1400 560">
+<rect width="1400" height="560" fill="#f7fafc"/><text x="70" y="72" font-family="Arial,sans-serif" font-size="34" font-weight="700" fill="#0b1f33">Hourly Solar Radiation Simulation — Analysis Flow</text>
+<text x="70" y="112" font-family="Arial,sans-serif" font-size="19" fill="#607284">Solar Resource → installation-condition comparison → downstream PV model input</text>
+<g font-family="Arial,sans-serif">
+<g fill="#fff" stroke="#d6e1ea" stroke-width="2">
+<rect x="70" y="190" rx="18" width="210" height="150"/><rect x="330" y="190" rx="18" width="210" height="150"/><rect x="590" y="190" rx="18" width="210" height="150"/><rect x="850" y="190" rx="18" width="210" height="150"/><rect x="1110" y="190" rx="18" width="220" height="150"/>
+</g>
+<g fill="#159b83" font-size="16" font-weight="700"><text x="95" y="225">STEP 01</text><text x="355" y="225">STEP 02</text><text x="615" y="225">STEP 03</text><text x="875" y="225">STEP 04</text><text x="1135" y="225">STEP 05</text></g>
+<g fill="#0b1f33" font-size="22" font-weight="700"><text x="95" y="265">Site / Weather</text><text x="355" y="265">Solar Geometry</text><text x="615" y="265">Irradiance Split</text><text x="875" y="265">Tilt / Azimuth</text><text x="1135" y="265">Aggregation</text></g>
+<g fill="#657585" font-size="16"><text x="95" y="298">Location &amp; hourly data</text><text x="355" y="298">Declination · hour angle</text><text x="615" y="298">Beam · diffuse</text><text x="875" y="298">Plane-of-array gain</text><text x="1135" y="298">Hourly → annual</text></g>
+<g fill="#159b83" font-size="34"><text x="290" y="280">→</text><text x="550" y="280">→</text><text x="810" y="280">→</text><text x="1070" y="280">→</text></g>
+<rect x="250" y="410" rx="18" width="900" height="85" fill="#eaf5f2"/><text x="290" y="448" font-size="19" font-weight="700" fill="#0b1f33">Decision output</text><text x="290" y="478" font-size="17" fill="#49645f">Compare annual Solar Resource by slope / azimuth / available surface. PV generation and economics are separate downstream models.</text>
+</g></svg>

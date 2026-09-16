@@ -1,0 +1,18 @@
+CASE 44~46 홈페이지 반영본
+
+기준: CASE 43이 정상 동작하던 통합본을 기준으로 작성
+신규 페이지:
+- cases/building-energy-performance-evaluation.html (CASE 44)
+- cases/ashrae-baseline-proposed-performance.html (CASE 45)
+- cases/plant-partload-operation-optimization.html (CASE 46)
+
+함께 수정:
+- cases/index.html : CASE 44~46 카드 추가, 공개 사례 46건으로 정리
+- index.html : CASE 44~46 연결 링크 추가
+- cases/doe2-parametric-building-simulation.html : RELATED CASES 연결 추가
+
+중요:
+- 기존 assets/styles.css, 공통 CSS/JS 경로는 변경하지 않음
+- CASE 45의 7.6%/9.0%는 설계단계 Simulation 예측값으로 표시
+- CASE 46은 원자료에서 최종 절감량/절감률이 확인되지 않아 방법론 중심으로 표시
+- 1판 도서 41 CASE는 변경하지 않음

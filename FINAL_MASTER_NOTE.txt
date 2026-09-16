@@ -1,0 +1,15 @@
+Energy AI Optimization 홈페이지 최종 Master
+기준일: 2026-09-16
+
+포함:
+- 저서 온라인 열람 /book/ (159페이지 WebP)
+- CASE 37 태양광 Solar Radiation Simulation 화면교정 완료
+- 기존 홈페이지 사례/Insight/전문가/상담 구조
+- sitemap 및 사이트 공통 파일
+
+제외:
+- 기존 /ebook/ 폴더
+- 교보문고 제출용 원본 PDF
+- 임시 업로드 안내 파일
+
+이 ZIP을 2026-09-16 기준 홈페이지 최종 보관본으로 사용합니다.

@@ -4218,32 +4218,71 @@ window.ENERGY_CASES = [
   }
 
   ,{
+    id: "solar-radiation-installation-optimization",
+    status: "published",
+    detailMode: "simulation",
+    company: "CASE 37 · 태양광 설계 분석",
+    category: "태양광 · Solar Simulation",
+    energyType: "태양에너지",
+    equipment: "Solar Resource · 경사면 · 방위 · Roof/Wall",
+    title: "시간단위 Solar Radiation Simulation을 이용한 태양광 설치조건 최적화",
+    short: "지역별 Solar Weather Data와 태양기하 계산을 결합해 8,760시간 수평면·경사면 일사량을 구성하고 경사각·방위·설치면별 Solar Resource를 비교하는 MATLAB 기반 설계 분석 사례입니다.",
+    potential: "8,760시간",
+    potentialLabel: "시간단위 Solar Resource Simulation",
+    verificationStatus: "Solar Radiation·설치면 Solar Gain 분석 · PV 발전량·설비용량·경제성은 후속 모델",
+    tags: ["MATLAB","Solar Radiation","8760시간","경사각","방위각","Solar Resource"],
+    period: "365일 × 24시간 시뮬레이션",
+    problem: [
+      "태양광 설비용량과 경제성을 검토하기 전에 Site에서 이용 가능한 Solar Resource를 시간·계절별로 정량화할 필요",
+      "수평면 기상·일사자료를 실제 경사면과 방위조건의 일사량으로 변환할 필요",
+      "경사각의 수학적 최적값과 실제 지붕·벽체 설치 가능조건을 구분해 비교할 필요"
+    ],
+    dataUsed: [
+      "지역별 Solar Weather Data",
+      "365일 × 24시간 = 8,760시간",
+      "수평면 총일사량 및 Beam 자료 또는 수평면 총일사량",
+      "위도·경도·표준자오선과 경사각·방위각"
+    ],
+    baselineModels: [
+      {name:"Solar Geometry",formula:"Declination · Hour Angle · Zenith · Incidence",method:"지역·날짜·시간·설치면 기하 계산",performance:"시간별 입사조건 산정"},
+      {name:"Tilted Surface Irradiance",formula:"I_T = Beam + Diffuse + Ground-reflected",method:"수평면 일사량을 경사면으로 변환",performance:"시간별 Plane-of-Array Solar Resource"},
+      {name:"Configuration Sweep",formula:"Slope 0°~90° / 5° step",method:"경사각·방위·설치면 반복 비교",performance:"월별·연간 누적 Solar Resource 비교"}
+    ],
+    scenarios: [
+      {name:"경사각 비교",baseline:"0°~90°",target:"연간 누적 Solar Resource와 현장 제약을 함께 비교",saving:"설계 입력조건",note:"최대 일사량 각도와 시스템 전체 최적각은 다를 수 있음"},
+      {name:"방위·설치면 비교",baseline:"동·서·남·북·Roof",target:"실제 설치 가능면의 Solar Gain 비교",saving:"설계 입력조건",note:"음영·구조·풍하중·유지관리 조건 추가 검토"},
+      {name:"후속 PV 모델",baseline:"Solar Resource 결과",target:"PV DC → Inverter AC → 연간발전량 → 경제성",saving:"후속 분석",note:"현재 MATLAB 소스에는 PV 발전량·경제성 계산이 포함되지 않음"}
+    ],
+    verification: "본 CASE는 설계 단계의 Solar Radiation Simulation 및 설치조건 비교 사례입니다. 현재 소스가 직접 계산하는 범위는 Solar Radiation과 설치면 Solar Gain이며, PV Array DC 발전량, Inverter AC 출력, 온도·음영·배선·Mismatch·열화 손실, 자가소비율, 전력단가, 투자비, 회수기간·NPV·IRR은 별도 후속 모델로 구분합니다.",
+    sourceNote: "저자 보유 MATLAB Solar Radiation 분석 프로그램(solar.m, solar2.m, solar22.m, solar3.m, solar4.m, solar5.m, solar_comparison.m)을 기반으로 공개용으로 재구성"
+  }
+
+  ,{
     id: "building-load-pattern-analysis",
     status: "published",
     detailMode: "diagnostic",
-    company: "국내 대형 사찰 시설",
+    company: "국내 업무용 건물 A",
     category: "건물 · 전력패턴 분석",
     energyType: "전기",
-    equipment: "여러 동 건물 · 전체 전력 · 기저부하 · 조명·콘센트 · 냉난방",
-    title: "15분 전력데이터로 찾아낸 대형 사찰의 시간대별 에너지 소비구조",
-    short: "2023.11~2024.10 실제 계측한 35,136개의 15분 전력데이터를 분석했습니다. 여러 동으로 구성된 대형 사찰의 용도와 운영 특성을 반영해 휴일의 높은 전력소비와 새벽 약 4시 전후의 특징적 부하를 정상 운영패턴과 함께 해석하고 개선 우선순위를 도출한 장기 데이터 분석 사례입니다.",
+    equipment: "건물 전체 전력 · 기저부하 · 조명·콘센트 · 냉난방",
+    title: "15분 전력데이터로 찾아낸 건물의 시간대별 에너지 소비구조",
+    short: "2023.11~2024.10 실제 계측한 35,136개의 15분 전력데이터를 분석해 심야 기저부하, 동절기 냉난방, Peak 관리의 개선 우선순위를 도출한 장기 데이터 분석 사례입니다.",
     potential: "1년 · 35,136개",
     potentialLabel: "실제 15분 계측데이터 분석",
     verificationStatus: "실제 전력계측 데이터 기반 패턴 진단 · 용도별 부하는 패턴 기반 추정치",
-    tags: ["실제계측", "대형사찰", "휴일운영", "새벽부하", "35,136데이터", "15분전력"],
+    tags: ["실제계측", "1년장기분석", "35,136데이터", "15분전력", "기저부하", "HVAC"],
     period: "2023.11.01 ~ 2024.10.31",
     problem: [
-      "여러 동으로 구성된 대형 사찰은 일반 업무용 건물과 달리 휴일에도 방문과 시설운영이 이어져 휴일 전력소비가 높게 나타날 수 있음",
-      "새벽 약 4시 전후에도 사찰 고유의 운영 특성에 따른 부하가 나타나므로 일반 건물의 심야부하와 동일하게 낭비로 판단해서는 안 됨",
+      "월간 전력사용량만으로는 심야·휴일·업무시간의 운전특성과 불필요한 상시부하를 구분하기 어려움",
       "동절기 전력사용량이 크게 증가하여 냉난방 운전과 기저부하의 영향을 시간대별로 분리할 필요",
-      "정상 운영부하와 비필수 상시부하를 구분하고 최대수요전력의 Peak 관리기준을 함께 검토할 필요"
+      "최대수요전력이 특정 시간대에 집중되어 Peak 관리기준과 운영전략 검토가 필요",
+      "건물 전체 전력만 계측된 조건에서 용도별 부하를 직접 계측하지 않고도 개선 우선순위를 찾을 수 있는 분석체계가 필요"
     ],
     dataUsed: [
-      "2023-11-01~2024-10-31 실제 15분 전력데이터 35,136개",
-      "366일 연속 · 일별 96-point Load Profile",
+      "2023-11-01~2024-10-31 15분 전력데이터 35,136개",
+      "일별 96-point Load Profile",
       "월요일·주중(화~금)·토요일·휴일의 4개 Day Type",
-      "월별·요일별·시간대별 전력수요 및 연간 Peak 분포",
-      "대형 사찰의 휴일 운영 및 새벽 약 4시 전후 이용 특성을 반영한 패턴 해석"
+      "월별·요일별·시간대별 전력수요 및 연간 Peak 분포"
     ],
     baselineModels: [
       {
@@ -4267,28 +4306,29 @@ window.ENERGY_CASES = [
     ],
     scenarios: [
       {
-        name: "새벽 필수부하와 상시부하 분리",
-        baseline: "새벽 약 4시 전후에 사찰 운영 특성에 따른 특징적 부하 발생",
-        target: "사찰 고유의 정상 운영부하는 유지하고 각 건물에서 비이용 시간에도 운전되는 냉난방·펌프·환기·조명 등의 비필수 상시부하를 구분",
+        name: "심야 기저부하 관리",
+        baseline: "주중 00~05시 평균부하 약 273kW",
+        target: "24시간 필수부하와 비필수 상시부하를 구분하고 정지 가능 설비의 운전스케줄 재설정",
         saving: "우선 진단대상",
-        note: "새벽 사용량 자체를 낭비로 판단하지 않고 건물별 실제 운영시간과 필수부하를 확인한 후 절감량 산정"
+        note: "주중 09~17시 평균부하 약 319kW 대비 심야부하가 높은 패턴. 건물의 실제 24시간 운영 여부 확인 후 절감량 산정"
       },
       {
-        name: "건물별·요일별 운영스케줄 최적화",
-        baseline: "휴일에도 방문과 시설운영이 지속되어 전력소비가 높은 시설 특성",
-        target: "평일·휴일·새벽 이용시간을 반영하여 여러 동의 냉난방·환기·조명 운전시간을 건물별로 세분화",
+        name: "동절기 냉난방 운전 최적화",
+        baseline: "냉난방 추정부하 비중: 1월 57.4% · 12월 52.6% · 2월 53.0%",
+        target: "기동·정지시간, 설정온도, 외기조건 및 재실시간을 연계한 운전스케줄 최적화",
         saving: "우선 진단대상",
-        note: "휴일 사용량 자체가 이상부하라는 의미가 아니며 실제 행사·방문·운영일정과 함께 평가"
+        note: "용도별 부하는 별도 계측값이 아니라 패턴 기반 추정치"
       },
       {
-        name: "동절기 냉난방 및 Peak 관리",
-        baseline: "냉난방 추정부하 비중: 1월 57.4% · 12월 52.6% · 2월 53.0% / 최대 768.2kW",
-        target: "건물별 기동·정지시간과 설정온도를 최적화하고 동시기동을 분산하여 Peak 수요를 관리",
+        name: "Peak 수요관리",
+        baseline: "최대 768.2kW · P97.5 525.6kW",
+        target: "Peak 발생시간의 주요 부하 확인 및 순차기동·수요제어 기준 수립",
         saving: "운영기준 제시",
-        note: "용도별 부하는 패턴 기반 추정치이며 설비운전정보 확인 후 경제성과 절감량 평가"
+        note: "계약전력·요금제·설비운전정보 확인 후 경제성 평가"
       }
     ],
-    verification: "본 사례의 연간 사용량, 평균전력, 최대전력 및 시간대별 패턴은 실제 15분 전력계측 데이터에서 산출했습니다. 기저부하·조명/콘센트·냉난방 부하는 별도 서브미터 계측값이 아니라 대표 부하패턴을 이용한 추정치입니다. 본 사례는 여러 동으로 구성된 대형 사찰이라는 시설 용도와 휴일·새벽 운영 특성을 반영하여 해석했으며, 실제 절감량은 각 건물의 용도, 행사·방문 일정, 운영시간, 재실, 외기조건 및 HVAC 운전정보를 추가 확인한 뒤 개선 전후 M&V로 확정해야 합니다.",
-    sourceNote: "실제 대형 사찰 시설의 15분 전력계측 데이터 기반 분석 · 고객/시설 식별정보 비식별 처리"
+    verification: "본 사례의 연간 사용량, 평균전력, 최대전력 및 시간대별 패턴은 실제 15분 전력계측 데이터에서 산출했습니다. 기저부하·조명/콘센트·냉난방 부하는 별도 서브미터 계측값이 아니라 대표 부하패턴을 이용한 추정치입니다. 따라서 실제 절감량은 건물 용도, 재실·영업시간, 외기조건, HVAC 운전정보를 추가 확인한 뒤 개선 전후 M&V로 확정해야 합니다.",
+    sourceNote: "실제 건물 15분 전력계측 데이터 기반 분석 · 고객/건물 식별정보 비식별 처리"
   }
+
 ];

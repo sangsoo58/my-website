@@ -1,0 +1,18 @@
+CASE Library 구조 개편 (2026-09-17)
+
+총 공개 CASE: 46건
+- 산업분야: 28건
+- 건물분야: 18건
+
+주요 변경
+1. 홈페이지 절감사례 영역을 산업분야/건물분야 2개 축으로 재구성
+2. 홈페이지에 TOTAL 46 / INDUSTRIAL 28 / BUILDING 18 수치 표시
+3. /cases/ 상단에 분야별 카드 및 전체/산업/건물 필터 추가
+4. URL ?sector=industry / ?sector=building 지원
+5. 기존 키워드 검색과 분야 필터 동시 사용 가능
+6. CASE 43~46을 Building Energy Simulation & Performance Optimization 시리즈로 강조
+7. 기존 개별 CASE 상세 페이지 내용은 변경하지 않음
+
+분류 원칙
+- 건물: 대형건물, 데이터센터, 지역난방, BEMS/HVAC/DOE2/Building Simulation, Solar 설치조건 분석
+- 산업: 제조공정, 반도체, 철강, 비철금속, 화학, 자동차, 발전, 상하수도 및 산업 Utility
