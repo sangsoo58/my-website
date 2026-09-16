@@ -1,12 +1,10 @@
 ENERGY-AI-OPTIMIZATION FINAL WEBSITE BUILD
-Version: BUILDING_SUSTAINABLE_DESIGN_v6
+Version: BUILDING_SUSTAINABLE_DESIGN_v7
 Date: 2026-09-17
 Public cases: 46 (Industrial 28 / Building 18)
 
-Visible verification after deployment:
-1) Home building card kicker: BUILDING ENERGY & SUSTAINABLE DESIGN · 18 CASES
-2) Home building card title: 친환경건축 · 건물에너지 성능설계
-3) Home building tags: Sustainable Design / Simulation / LEED/ASHRAE / HVAC/Plant / BEMS
-4) /cases/ building intro: BUILDING ENERGY & SUSTAINABLE DESIGN
-5) Building detail pages with application section: 18
-6) CASE 43-46 are DEEP DIVE series.
+VISIBLE CHECKPOINTS
+- /cases/ hero: 산업 에너지 최적화와 친환경건축·건물에너지 설계를 연결합니다.
+- /cases/ building card: 친환경건축 · 건물에너지 성능설계 18 CASES
+- Home building card: 친환경건축 · 건물에너지 성능설계
+- CASE 43-46: DEEP DIVE series
