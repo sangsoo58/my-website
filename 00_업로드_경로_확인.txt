@@ -1,0 +1,15 @@
+CASE 43 상세페이지 교체 전용
+
+업로드 위치:
+/cases/doe2-parametric-building-simulation.html
+
+GitHub 저장소의 기존 동일 파일을 이 파일로 교체하십시오.
+ZIP 자체를 업로드하지 말고 압축을 푼 뒤 cases 폴더를 저장소 루트에 덮어씁니다.
+
+교체 확인 문구:
+05 · ALTERNATIVE GUIDE
+절감대안은 무엇을 바꾸고, 무엇을 확인한 것인가?
+11 · ANALYSIS TECHNOLOGY
+적용 분석기술 — DOE2에서 BEMS·M&V까지
+12 · CONTINUOUS OPTIMIZATION
+설계 Simulation에서 실제 운전최적화까지
