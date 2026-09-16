@@ -362,8 +362,10 @@ h3 { font-size: 22px; }
 .case-detail-breadcrumb a { color: inherit; text-decoration: none; }
 .case-detail-breadcrumb strong { color: var(--navy-900); }
 .case-detail-hero { padding-bottom: 62px; border-bottom: 1px solid var(--line); }
-.case-detail-hero-grid { display: grid; grid-template-columns: 1.35fr .65fr; gap: 72px; align-items: start; }
-.case-detail-hero h1 { margin: 12px 0 22px; max-width: 880px; font-size: clamp(42px,4.8vw,64px); line-height: 1.14; letter-spacing: -.045em; }
+.case-detail-hero-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(280px, 320px); gap: 56px; align-items: start; }
+.case-detail-hero-grid > div { min-width: 0; }
+.case-detail-hero h1 { margin: 12px 0 22px; max-width: 100%; font-size: clamp(40px,4.2vw,56px); line-height: 1.14; letter-spacing: -.04em; overflow-wrap: break-word; word-break: keep-all; }
+.case-detail-hero h1 .title-line { display: block; }
 .case-detail-lead { max-width: 840px; color: var(--muted); font-size: 18px; line-height: 1.9; }
 .case-detail-tags { margin-top: 28px; display: flex; flex-wrap: wrap; gap: 8px; }
 .case-detail-tags span { padding: 7px 11px; border: 1px solid var(--line); border-radius: 999px; color: #63747c; font-size: 12px; }
@@ -461,3 +463,10 @@ h3 { font-size: 22px; }
  .case-sector-home .case-series-highlight h3{font-size:22px}
  .case-sector-home .case-series-highlight p{font-size:15px}
 }
+
+/* CASE 45-46 technical deep-dive enhancement */
+.tech-figure{margin:28px 0 34px;padding:18px;background:#f8fbfc;border:1px solid #dce7eb;border-radius:18px}.tech-figure img{display:block;width:100%;height:auto;border-radius:12px}.tech-figure figcaption{margin-top:12px;color:#667785;font-size:.92rem;line-height:1.6}.engineering-note{margin:28px 0;padding:26px 28px;border-left:5px solid #0f766e;background:#f0faf8;border-radius:0 16px 16px 0}.engineering-note>span{display:block;font-size:.78rem;font-weight:800;letter-spacing:.12em;color:#0f766e;margin-bottom:8px}.engineering-note h3{margin:0 0 10px;font-size:1.3rem;color:#0b1f33}.engineering-note p{margin:0;line-height:1.85}.study-box{margin:28px 0;padding:24px 28px;background:#0b1f33;color:#eef7f7;border-radius:16px}.study-box strong{display:block;color:#5ee0cf;font-size:1.05rem;margin-bottom:10px}.study-box p,.study-box li{color:#e1ebef;line-height:1.8}.study-box ol{margin:8px 0 0;padding-left:22px}.question-banner{margin:26px 0;padding:28px;border-radius:18px;background:linear-gradient(135deg,#0b1f33,#123e55);color:white}.question-banner strong{display:block;font-size:1.45rem;line-height:1.45;color:#63e2d2}.question-banner p{color:#e6f0f2;line-height:1.8;margin:12px 0 0}@media(max-width:720px){.tech-figure{padding:10px;margin:20px 0 26px;overflow-x:auto}.tech-figure img{min-width:680px}.engineering-note,.study-box,.question-banner{padding:20px}.question-banner strong{font-size:1.2rem}}
+
+/* V5 Building Energy & Sustainable Design enhancement */
+.design-application-box{margin:34px 0;padding:28px;border:1px solid #cfe2df;border-radius:22px;background:linear-gradient(135deg,#f4fbf9 0%,#f8fafc 100%)}
+.design-application-box .design-kicker{font-size:12px;font-weight:800;letter-spacing:.12em;color:#087c70;margin:0 0 8px}.design-application-box h2{margin:0 0 10px;font-size:clamp(24px,3vw,34px);line-height:1.25}.design-application-box>p{font-size:16px;line-height:1.8;color:#536577}.design-steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:20px}.design-step{background:#fff;border:1px solid #dbe8e6;border-radius:16px;padding:18px}.design-step b{display:block;color:#0b1f33;font-size:15px;margin-bottom:8px}.design-step p{margin:0;font-size:14px;line-height:1.7;color:#526476}.design-use-note{margin-top:18px;padding-top:16px;border-top:1px solid #d4e5e2;font-size:13px;color:#66788a}.building-audience-banner{margin:0 0 28px;padding:20px 22px;border-radius:18px;background:#0b1f33;color:#fff}.building-audience-banner small{display:block;color:#62dfcb;font-weight:800;letter-spacing:.1em;margin-bottom:6px}.building-audience-banner strong{font-size:20px}.building-audience-banner p{margin:8px 0 0;color:#d8e4ee;line-height:1.7}.sector-intro-card.building small{color:#087c70}.building-knowledge-note{font-size:14px;color:#607184;margin-top:10px}@media(max-width:800px){.design-steps{grid-template-columns:1fr}.design-application-box{padding:22px 18px}}
