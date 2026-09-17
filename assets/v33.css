@@ -16,3 +16,8 @@
 .case-state.v331-expansion{background:#0f6b5a;color:#fff}
 .case-empty-v331{grid-column:1/-1;padding:42px 24px;text-align:center;border:1px dashed #cad8d5;border-radius:18px;color:#60706a;background:#fbfdfc}
 @media(max-width:620px){.case-filter-v331{padding:16px}.case-filter-row{gap:7px}.case-filter-row button{font-size:12px;padding:9px 11px}.v331-case-card .case-top{align-items:flex-start}}
+
+/* V3.3.2 - filter terminology guide */
+.case-filter-guide{margin:-2px 0 14px;color:#6b777d;font-size:13px;line-height:1.6}
+.case-filter-guide strong{color:#44535a;font-weight:800}
+@media(max-width:620px){.case-filter-guide{font-size:12px;margin-bottom:13px}.case-filter-guide span[aria-hidden="true"]{display:none}.case-filter-guide strong:nth-of-type(2)::before{content:"";display:block;margin-top:3px}}

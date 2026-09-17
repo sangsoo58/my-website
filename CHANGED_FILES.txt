@@ -1,9 +1,6 @@
-V3.3.1 변경 파일
+V3.3.2 actual changed files
+1. index.html
+2. assets/case-library-v332.js (new)
+3. assets/v33.css
 
-- index.html (HOME의 절감 사례 섹션에 2축 필터 및 동적 51 CASE 연결)
-- assets/case-library-v331.js (HOME용 동적 필터/렌더러 신규)
-- assets/v33.css (필터/0건 안내 스타일 추가)
-- assets/case-library-v33.js (CASE Library 0건 안내 보강)
-- data/cases-data.js (공개 문구의 LGD/LGU 내부 Source 명칭 제거)
-- data/case-master-v33.js (51 CASE MASTER 동봉)
-- cases/index.html (V3.3.1 캐시 버전 적용)
+No changes: data/cases-data.js, data/case-master-v33.js, CASE detail pages, BOOK, Contact/Supabase, CNAME, DNS/GitHub Pages settings.
