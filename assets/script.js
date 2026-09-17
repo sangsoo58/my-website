@@ -97,6 +97,7 @@
         industry: trimValue(formData, 'industry'),
         topic: trimValue(formData, 'topic') || '공장 에너지 절감',
         message: trimValue(formData, 'message'),
+        status: '신규',
         privacy: Boolean(privacy && privacy.checked)
       };
 
@@ -125,7 +126,13 @@
         setFormStatus('상담 요청이 정상 접수되었습니다. 확인 후 연락드리겠습니다.', 'success');
       } catch (error) {
         console.error('[Energy AI] consultation insert failed:', error);
-        setFormStatus('상담 저장 중 문제가 발생했습니다. 잠시 후 다시 시도하거나 이메일·전화로 문의해 주세요.', 'error');
+        const code = String(error?.code || '');
+        const msg = String(error?.message || '');
+        if (code === '42501' || /row-level security|policy/i.test(msg)) {
+          setFormStatus('상담 저장 권한 설정을 확인하고 있습니다. 잠시 후 다시 시도하거나 이메일·전화로 문의해 주세요.', 'error');
+        } else {
+          setFormStatus('상담 저장 중 문제가 발생했습니다. 잠시 후 다시 시도하거나 이메일·전화로 문의해 주세요.', 'error');
+        }
       } finally {
         if (submitButton) {
           submitButton.disabled = false;
