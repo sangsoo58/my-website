@@ -1,24 +1,9 @@
-03_CASE_MASTER/CASE_MASTER_v2_Final_51CASE.xlsx
-CHANGED_FILES.txt
-CHANGELOG_V3.3.md
-DEPLOY_README.md
-QA_REPORT.md
-assets/case-detail-v33.js
-assets/case-library-v33.js
-assets/v33.css
-cases/case-042-lgd-utility-efficiency-management.html
-cases/case-043-lgd-integrated-utility-analysis.html
-cases/case-044-lgd-multisite-upi-benchmark.html
-cases/case-045-lgd-bigdata-utility-optimization.html
-cases/case-046-multi-idc-pue-ecfan-freecooling.html
-cases/case-047-data-center-pue-ipos-optimization.html
-cases/case-048-light-tower-doe21e-simulation.html
-cases/case-049-gymnasium-energy-simulation.html
-cases/case-050-passive-house-design-simulation.html
-cases/case-051-leed-eac1-energy-modeling.html
-cases/index.html
-cases/large-temple-15min-electricity-pattern.html
-cases/solar-radiation-installation-optimization.html
-data/case-master-v33.js
-data/cases-data.js
-index.html
+V3.3.1 변경 파일
+
+- index.html (HOME의 절감 사례 섹션에 2축 필터 및 동적 51 CASE 연결)
+- assets/case-library-v331.js (HOME용 동적 필터/렌더러 신규)
+- assets/v33.css (필터/0건 안내 스타일 추가)
+- assets/case-library-v33.js (CASE Library 0건 안내 보강)
+- data/cases-data.js (공개 문구의 LGD/LGU 내부 Source 명칭 제거)
+- data/case-master-v33.js (51 CASE MASTER 동봉)
+- cases/index.html (V3.3.1 캐시 버전 적용)
