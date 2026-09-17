@@ -98,6 +98,8 @@
         topic: trimValue(formData, 'topic') || '공장 에너지 절감',
         message: trimValue(formData, 'message'),
         status: '신규',
+        admin_note: '',
+        source: 'website',
         privacy: Boolean(privacy && privacy.checked)
       };
 
