@@ -3860,123 +3860,6 @@ window.ENERGY_CASES = [
   }
 
 
-  ,{
-    id: "large-existing-building-online-energy-diagnosis",
-    status: "published",
-    company: "국내 대형 업무용 건물 G사",
-    category: "대형건물 · 온라인 에너지진단 · 운영최적화",
-    energyType: "전기 · 가스/열",
-    equipment: "건물전체 Utility · 냉난방 · 조명/콘센트 · 기저부하",
-    title: "기존 대형건물 온라인 에너지진단·운영스케줄 최적화",
-    short: "현장방문 없이 건물 전체 전기·가스/열 사용량을 기반으로 에너지소비 패턴을 자동 분석하고, 전문가 해석을 더해 유사건물 Benchmark, 냉난방·조명/콘센트·기저부하 성능, 시간대별 운전패턴과 계약전력을 진단하여 운전개선 중심의 절감잠재량을 산정한 온라인 진단 사례입니다.",
-    potential: "약 13% 예상",
-    potentialLabel: "온라인진단 보고서 기준 · 272,226kWh/년 + 약 44.65백만원/년",
-    verificationStatus: "현장 방문 없이 건물 전체 Utility 사용데이터만으로 산정한 사전 온라인진단 잠재량이며, 현장 관리자 협의·운전조건 확인 후 조정될 수 있음",
-    tags: ["대형건물", "온라인진단", "Energy Benchmark", "운영스케줄", "기저부하", "조명", "냉난방", "계약전력", "원격진단", "M&V"],
-    period: "온라인 에너지진단 보고 · 2015년",
-    problem: [
-      "대형 업무용 건물의 전체 에너지비용이 유사건물 대비 높은지, 어느 End-use와 시간대에서 개선여지가 발생하는지를 현장방문 전에 신속하게 파악할 필요",
-      "월별 총사용량만으로는 냉난방·조명/콘센트·기저부하의 운전패턴과 불필요한 조기기동·지연종료를 확인하기 어려움",
-      "계약전력과 실제 요금적용전력/Peak 수준의 차이를 분석하여 고정성 전력비 절감 가능성을 검토할 필요",
-      "전기와 가스/열 사용량을 유사건물 Benchmark와 비교하여 1차에너지·면적당 소비량·비용 수준을 객관적으로 평가할 필요",
-      "온라인 분석 결과를 바탕으로 현장관리자와 추가 협의할 우선 개선항목을 선별하는 사전진단 체계가 필요"
-    ],
-    dataUsed: [
-      "건물 전체 전기 사용량 및 전력요금 데이터",
-      "건물 전체 가스/열 사용량 및 비용 데이터",
-      "월별·요일별·시간대별 전력소비 패턴",
-      "계약전력·요금적용전력·Peak 전력",
-      "건물 연면적 및 공조면적 등 기본정보",
-      "유사건물 면적당 1차에너지·전기·연료·에너지비용 Benchmark",
-      "냉난방·조명/콘센트·기저부하 추정 소비량과 피크",
-      "월요일·주중·토요일·공휴일별 운전시간 패턴"
-    ],
-    modelSectionTitle: "온라인진단의 목적·방법·절차",
-    baselineModels: [
-      {
-        name: "진단 목적",
-        formula: "Online Audit = Utility Data + Automated Pattern Analysis + Expert Review",
-        method: "현장방문 전 건물 전체 전기·가스/열 데이터를 이용해 에너지소비 특성과 운전개선 가능성을 신속히 진단",
-        performance: "현장관리자 협의가 필요한 우선 개선항목과 예상 절감잠재량 도출"
-      },
-      {
-        name: "유사건물 Benchmark",
-        formula: "Performance Gap = Building Intensity − Peer Building Intensity",
-        method: "면적당 1차에너지·전기·연료·비용과 피크를 유사건물과 비교",
-        performance: "대상건물 면적당 1차에너지 소비는 유사건물 대비 약 7% 높은 수준으로 보고"
-      },
-      {
-        name: "End-use 패턴분석",
-        formula: "Total Electric Load ≈ Heating/Cooling + Lighting/Plug + Base Load",
-        method: "전체 전력패턴을 냉난방, 조명·콘센트, 기저부하 관점으로 분해하여 월·요일·시간대별 특성을 분석",
-        performance: "조기기동·지연종료·비업무시간 기저부하와 같은 운전개선 포인트를 식별"
-      },
-      {
-        name: "운영스케줄 진단",
-        formula: "Saving = Existing Operating Hours − Recommended Operating Hours",
-        method: "월요일·주중·토요일·공휴일별 냉난방 및 조명 운전시간을 비교하고 시작/종료시각을 조정",
-        performance: "냉난방 73,710kWh/년 · 조명 110,916kWh/년 절감잠재량 제시"
-      },
-      {
-        name: "기저부하 진단",
-        formula: "Base-load Saving = Existing Base Load − Target Base Load",
-        method: "비업무시간에 지속되는 전력의 밀도와 kW 수준을 분석하여 상시부하를 감축",
-        performance: "기저부하 87,600kWh/년 절감잠재량 제시"
-      },
-      {
-        name: "전력요금 진단",
-        formula: "Demand Charge Saving = (Current Billing Demand − Target Billing Demand) × Demand Rate",
-        method: "계약전력·요금적용전력·Peak를 비교하여 적정 계약/요금적용전력을 검토",
-        performance: "요금적용전력 60kW 조정 기준 약 6,000천원/년 절감잠재량 제시"
-      }
-    ],
-    scenarios: [
-      {
-        name: "온라인진단 종합 잠재량",
-        baseline: "기존 Utility 사용 및 운영스케줄",
-        target: "계약전력 + 냉난방 + 조명 + 기저부하 운전개선",
-        saving: "272,226kWh/년 + 44,650천원/년",
-        note: "보고서 요약 기준 약 13% 절감잠재량 · 실행 전 사전진단 예상치"
-      },
-      {
-        name: "계약전력 / 요금적용전력 조정",
-        baseline: "계약전력 1,800kW · 요금적용전력 480kW",
-        target: "계약전력 1,600kW · 요금적용전력 420kW",
-        saving: "60kW · 6,000천원/년",
-        note: "기본요금 단가 8,320원/kW를 적용한 보고서 산정"
-      },
-      {
-        name: "냉·난방 운영스케줄",
-        baseline: "평일 및 휴일의 기존 조기기동·지연종료 패턴",
-        target: "시작시간 1시간 후행, 종료시간 1시간 선행 등 운전시간 조정",
-        saving: "73,710kWh/년 · 10,460천원/년",
-        note: "건물 이용조건과 쾌적성을 확인한 후 현장협의를 통해 최종 Schedule 조정 필요"
-      },
-      {
-        name: "조명 운영스케줄",
-        baseline: "기존 점등시간",
-        target: "점등 1시간 후행 · 소등 1시간 선행 중심의 스케줄 조정",
-        saving: "110,916kWh/년 · 15,750천원/년",
-        note: "보고서의 온라인진단 계산값"
-      },
-      {
-        name: "기저부하 운영최적화",
-        baseline: "기저부하 약 110kW · 밀도 약 5.9W/m²",
-        target: "기저부하 약 100kW · 밀도 약 5.4W/m²",
-        saving: "87,600kWh/년 · 12,440천원/년",
-        note: "상시운전 설비·대기전력·비업무시간 부하의 현장확인 필요"
-      },
-      {
-        name: "유사건물 Benchmark",
-        baseline: "대상건물 면적당 1차에너지 약 1,101MJ/m²·yr",
-        target: "유사건물 약 1,021MJ/m²·yr 수준과 비교",
-        saving: "약 7% 성능 Gap",
-        note: "직접 절감률이 아니라 유사건물 대비 성능차를 나타내는 진단지표"
-      }
-    ],
-    verification: "본 사례는 현장방문 없이 건물 전체 전기·가스/열 사용량을 기반으로 수행한 온라인 사전진단입니다. 보고서 자체도 온라인진단 결과는 현장관리자와의 대면 협의 과정에서 절감항목과 세부내용이 조정될 수 있음을 명시합니다. 따라서 272,226kWh/년, 44,650천원/년, 약 13%는 실행 전 잠재량으로 보아야 하며, 실행 후에는 실제 운전시간·외기조건·재실·냉난방부하 등을 반영해 기준사용량과 실제사용량을 비교하여 M&V하는 것이 적절합니다.",
-    sourceNote: "국내 기존 대형 업무용 건물의 온라인 에너지진단 보고서 기반 · 실제 건물명·주소·관리자 개인정보·협력사명 등 식별정보 비식별 처리"
-  }
 
 
   ,{
@@ -4215,120 +4098,365 @@ window.ENERGY_CASES = [
     ],
     verification: "본 제안서의 연간 3~10% 절감은 사업 실행 전 기대효과이며 특정 절감량·절감액이 확정된 결과는 아닙니다. 실제 성과는 건물 사용률, 외기조건, 재실, 영업시간, 냉난방부하 등 주요 영향조건을 반영해 기준기간과 개선기간의 에너지사용량을 비교하고, BPOS의 실시간 진단결과와 함께 M&V해야 합니다. 또한 기존 BEMS 데이터를 활용하되 정합성 검증 과정에서 이상 계측값이 확인되면 보정·교정·교체가 필요할 수 있습니다.",
     sourceNote: "국내 초고층 복합건물의 BEMS 기반 BPOS 운전최적화 사업제안 자료를 바탕으로 재구성 · 실제 고객명·건물명·로고·층수·면적·구역명·개인명 등 식별정보 비식별 처리"
-  }
-
-  ,{
-    id: "solar-radiation-installation-optimization",
-    status: "published",
-    detailMode: "simulation",
-    company: "CASE 37 · 태양광 설계 분석",
-    category: "태양광 · Solar Simulation",
-    energyType: "태양에너지",
-    equipment: "Solar Resource · 경사면 · 방위 · Roof/Wall",
-    title: "시간단위 Solar Radiation Simulation을 이용한 태양광 설치조건 최적화",
-    short: "지역별 Solar Weather Data와 태양기하 계산을 결합해 8,760시간 수평면·경사면 일사량을 구성하고 경사각·방위·설치면별 Solar Resource를 비교하는 MATLAB 기반 설계 분석 사례입니다.",
-    potential: "8,760시간",
-    potentialLabel: "시간단위 Solar Resource Simulation",
-    verificationStatus: "Solar Radiation·설치면 Solar Gain 분석 · PV 발전량·설비용량·경제성은 후속 모델",
-    tags: ["MATLAB","Solar Radiation","8760시간","경사각","방위각","Solar Resource"],
-    period: "365일 × 24시간 시뮬레이션",
-    problem: [
-      "태양광 설비용량과 경제성을 검토하기 전에 Site에서 이용 가능한 Solar Resource를 시간·계절별로 정량화할 필요",
-      "수평면 기상·일사자료를 실제 경사면과 방위조건의 일사량으로 변환할 필요",
-      "경사각의 수학적 최적값과 실제 지붕·벽체 설치 가능조건을 구분해 비교할 필요"
+  },
+  {
+    "id": "large-temple-15min-electricity-pattern",
+    "status": "published",
+    "company": "국내 대형 종교시설",
+    "category": "건물 · 15분 전력데이터",
+    "energyType": "전기",
+    "equipment": "전체 전력",
+    "title": "15분 전력데이터 기반 대형 사찰 에너지 소비패턴 분석",
+    "short": "15분 간격 전력데이터를 Day Type과 시간대별로 분석하여 Base Load와 소비패턴을 구분한 사례입니다.",
+    "potential": "원자료 재확인 필요",
+    "potentialLabel": "데이터 분석결과",
+    "verificationStatus": "해당 Source의 분석·계측 경계",
+    "tags": [
+      "15분 전력",
+      "Base Load",
+      "Day Type",
+      "부하분리"
     ],
-    dataUsed: [
-      "지역별 Solar Weather Data",
-      "365일 × 24시간 = 8,760시간",
-      "수평면 총일사량 및 Beam 자료 또는 수평면 총일사량",
-      "위도·경도·표준자오선과 경사각·방위각"
+    "period": "원자료 기준",
+    "problem": [
+      "Source 기반 분석목적과 범위를 홈페이지 확장 CASE로 정리"
     ],
-    baselineModels: [
-      {name:"Solar Geometry",formula:"Declination · Hour Angle · Zenith · Incidence",method:"지역·날짜·시간·설치면 기하 계산",performance:"시간별 입사조건 산정"},
-      {name:"Tilted Surface Irradiance",formula:"I_T = Beam + Diffuse + Ground-reflected",method:"수평면 일사량을 경사면으로 변환",performance:"시간별 Plane-of-Array Solar Resource"},
-      {name:"Configuration Sweep",formula:"Slope 0°~90° / 5° step",method:"경사각·방위·설치면 반복 비교",performance:"월별·연간 누적 Solar Resource 비교"}
+    "dataUsed": [
+      "해당 CASE Source Trace의 원자료"
     ],
-    scenarios: [
-      {name:"경사각 비교",baseline:"0°~90°",target:"연간 누적 Solar Resource와 현장 제약을 함께 비교",saving:"설계 입력조건",note:"최대 일사량 각도와 시스템 전체 최적각은 다를 수 있음"},
-      {name:"방위·설치면 비교",baseline:"동·서·남·북·Roof",target:"실제 설치 가능면의 Solar Gain 비교",saving:"설계 입력조건",note:"음영·구조·풍하중·유지관리 조건 추가 검토"},
-      {name:"후속 PV 모델",baseline:"Solar Resource 결과",target:"PV DC → Inverter AC → 연간발전량 → 경제성",saving:"후속 분석",note:"현재 MATLAB 소스에는 PV 발전량·경제성 계산이 포함되지 않음"}
+    "baselineModels": [],
+    "scenarios": [],
+    "verification": "해당 Source의 분석·계측 경계",
+    "sourceNote": "홈페이지 확장 CASE · 공개본 비식별 처리 · 정량수치는 Source Trace 확인값만 사용"
+  },
+  {
+    "id": "solar-radiation-installation-optimization",
+    "status": "published",
+    "company": "설계단계 프로젝트",
+    "category": "친환경건축 · Solar Simulation",
+    "energyType": "태양광",
+    "equipment": "태양광 설치면",
+    "title": "시간단위 Solar Radiation Simulation을 이용한 태양광 설치조건 최적화",
+    "short": "지역별 기상자료와 8,760시간 Solar Radiation Simulation으로 경사각·방위·설치면별 태양광 자원을 비교한 사례입니다.",
+    "potential": "원자료 재확인 필요",
+    "potentialLabel": "분석·설계방법",
+    "verificationStatus": "해당 Source의 분석·계측 경계",
+    "tags": [
+      "Solar Radiation",
+      "8760시간",
+      "태양광",
+      "경사각",
+      "방위"
     ],
-    verification: "본 CASE는 설계 단계의 Solar Radiation Simulation 및 설치조건 비교 사례입니다. 현재 소스가 직접 계산하는 범위는 Solar Radiation과 설치면 Solar Gain이며, PV Array DC 발전량, Inverter AC 출력, 온도·음영·배선·Mismatch·열화 손실, 자가소비율, 전력단가, 투자비, 회수기간·NPV·IRR은 별도 후속 모델로 구분합니다.",
-    sourceNote: "저자 보유 MATLAB Solar Radiation 분석 프로그램(solar.m, solar2.m, solar22.m, solar3.m, solar4.m, solar5.m, solar_comparison.m)을 기반으로 공개용으로 재구성"
-  }
-
-  ,{
-    id: "building-load-pattern-analysis",
-    status: "published",
-    detailMode: "diagnostic",
-    company: "국내 업무용 건물 A",
-    category: "건물 · 전력패턴 분석",
-    energyType: "전기",
-    equipment: "건물 전체 전력 · 기저부하 · 조명·콘센트 · 냉난방",
-    title: "15분 전력데이터로 찾아낸 건물의 시간대별 에너지 소비구조",
-    short: "2023.11~2024.10 실제 계측한 35,136개의 15분 전력데이터를 분석해 심야 기저부하, 동절기 냉난방, Peak 관리의 개선 우선순위를 도출한 장기 데이터 분석 사례입니다.",
-    potential: "1년 · 35,136개",
-    potentialLabel: "실제 15분 계측데이터 분석",
-    verificationStatus: "실제 전력계측 데이터 기반 패턴 진단 · 용도별 부하는 패턴 기반 추정치",
-    tags: ["실제계측", "1년장기분석", "35,136데이터", "15분전력", "기저부하", "HVAC"],
-    period: "2023.11.01 ~ 2024.10.31",
-    problem: [
-      "월간 전력사용량만으로는 심야·휴일·업무시간의 운전특성과 불필요한 상시부하를 구분하기 어려움",
-      "동절기 전력사용량이 크게 증가하여 냉난방 운전과 기저부하의 영향을 시간대별로 분리할 필요",
-      "최대수요전력이 특정 시간대에 집중되어 Peak 관리기준과 운영전략 검토가 필요",
-      "건물 전체 전력만 계측된 조건에서 용도별 부하를 직접 계측하지 않고도 개선 우선순위를 찾을 수 있는 분석체계가 필요"
+    "period": "원자료 기준",
+    "problem": [
+      "Source 기반 분석목적과 범위를 홈페이지 확장 CASE로 정리"
     ],
-    dataUsed: [
-      "2023-11-01~2024-10-31 15분 전력데이터 35,136개",
-      "일별 96-point Load Profile",
-      "월요일·주중(화~금)·토요일·휴일의 4개 Day Type",
-      "월별·요일별·시간대별 전력수요 및 연간 Peak 분포"
+    "dataUsed": [
+      "해당 CASE Source Trace의 원자료"
     ],
-    baselineModels: [
-      {
-        name: "연간 전력현황",
-        formula: "연간 사용량 ≈ 2,655.8MWh · 평균전력 ≈ 302.3kW",
-        method: "15분 전력데이터 적산 및 통계",
-        performance: "최대전력 768.2kW · 2024-01-09 10:30"
-      },
-      {
-        name: "Peak 관리기준",
-        formula: "P97.5 ≈ 525.6kW",
-        method: "연간 15분 전력의 97.5 percentile",
-        performance: "상위 부하구간의 수요관리 기준 후보로 활용"
-      },
-      {
-        name: "용도별 부하분리",
-        formula: "Base + Light/Plug + Cooling/Heating",
-        method: "요일유형별 대표 저부하 패턴과 15분 실제부하의 차이를 이용한 패턴 기반 추정",
-        performance: "연간 추정비중: 기저 61.3% · 냉난방 35.8% · 조명·콘센트 2.9%"
-      }
+    "baselineModels": [],
+    "scenarios": [],
+    "verification": "해당 Source의 분석·계측 경계",
+    "sourceNote": "홈페이지 확장 CASE · 공개본 비식별 처리 · 정량수치는 Source Trace 확인값만 사용"
+  },
+  {
+    "id": "case-042-lgd-utility-efficiency-management",
+    "status": "published",
+    "company": "국내 대규모 제조사업장",
+    "category": "제조공장 · Utility",
+    "energyType": "전기·열",
+    "equipment": "냉동기·공기압축기·보일러",
+    "title": "반도체·디스플레이 제조시설 Utility 운전최적화와 실시간 효율관리 체계 구축",
+    "short": "Utility 계측데이터를 이용해 효율 KPI와 운전밸런스를 관리하고 실시간 운전최적화 체계를 구축한 LGD Source 확장 사례입니다.",
+    "potential": "원자료 재확인 필요",
+    "potentialLabel": "데이터 분석결과",
+    "verificationStatus": "해당 Source의 분석·계측 경계",
+    "tags": [
+      "Utility",
+      "UPOS",
+      "효율관리",
+      "운전최적화"
     ],
-    scenarios: [
-      {
-        name: "심야 기저부하 관리",
-        baseline: "주중 00~05시 평균부하 약 273kW",
-        target: "24시간 필수부하와 비필수 상시부하를 구분하고 정지 가능 설비의 운전스케줄 재설정",
-        saving: "우선 진단대상",
-        note: "주중 09~17시 평균부하 약 319kW 대비 심야부하가 높은 패턴. 건물의 실제 24시간 운영 여부 확인 후 절감량 산정"
-      },
-      {
-        name: "동절기 냉난방 운전 최적화",
-        baseline: "냉난방 추정부하 비중: 1월 57.4% · 12월 52.6% · 2월 53.0%",
-        target: "기동·정지시간, 설정온도, 외기조건 및 재실시간을 연계한 운전스케줄 최적화",
-        saving: "우선 진단대상",
-        note: "용도별 부하는 별도 계측값이 아니라 패턴 기반 추정치"
-      },
-      {
-        name: "Peak 수요관리",
-        baseline: "최대 768.2kW · P97.5 525.6kW",
-        target: "Peak 발생시간의 주요 부하 확인 및 순차기동·수요제어 기준 수립",
-        saving: "운영기준 제시",
-        note: "계약전력·요금제·설비운전정보 확인 후 경제성 평가"
-      }
+    "period": "원자료 기준",
+    "problem": [
+      "Source 기반 분석목적과 범위를 홈페이지 확장 CASE로 정리"
     ],
-    verification: "본 사례의 연간 사용량, 평균전력, 최대전력 및 시간대별 패턴은 실제 15분 전력계측 데이터에서 산출했습니다. 기저부하·조명/콘센트·냉난방 부하는 별도 서브미터 계측값이 아니라 대표 부하패턴을 이용한 추정치입니다. 따라서 실제 절감량은 건물 용도, 재실·영업시간, 외기조건, HVAC 운전정보를 추가 확인한 뒤 개선 전후 M&V로 확정해야 합니다.",
-    sourceNote: "실제 건물 15분 전력계측 데이터 기반 분석 · 고객/건물 식별정보 비식별 처리"
+    "dataUsed": [
+      "해당 CASE Source Trace의 원자료"
+    ],
+    "baselineModels": [],
+    "scenarios": [],
+    "verification": "해당 Source의 분석·계측 경계",
+    "sourceNote": "홈페이지 확장 CASE · 공개본 비식별 처리 · 정량수치는 Source Trace 확인값만 사용"
+  },
+  {
+    "id": "case-043-lgd-integrated-utility-analysis",
+    "status": "published",
+    "company": "국내 대규모 제조사업장",
+    "category": "제조공장 · 통합 Utility",
+    "energyType": "전기",
+    "equipment": "냉동·공조·압축공기",
+    "title": "냉동·공조·압축공기 통합 운전데이터 분석",
+    "short": "냉동·공조·압축공기 계통의 운전데이터를 통합 분석하여 수요·공급 밸런스와 절감기회를 진단한 LGD Source 확장 사례입니다.",
+    "potential": "원자료 재확인 필요",
+    "potentialLabel": "데이터 분석결과",
+    "verificationStatus": "해당 Source의 분석·계측 경계",
+    "tags": [
+      "냉동",
+      "공조",
+      "압축공기",
+      "통합분석"
+    ],
+    "period": "원자료 기준",
+    "problem": [
+      "Source 기반 분석목적과 범위를 홈페이지 확장 CASE로 정리"
+    ],
+    "dataUsed": [
+      "해당 CASE Source Trace의 원자료"
+    ],
+    "baselineModels": [],
+    "scenarios": [],
+    "verification": "해당 Source의 분석·계측 경계",
+    "sourceNote": "홈페이지 확장 CASE · 공개본 비식별 처리 · 정량수치는 Source Trace 확인값만 사용"
+  },
+  {
+    "id": "case-044-lgd-multisite-upi-benchmark",
+    "status": "published",
+    "company": "국내 대규모 제조사업장",
+    "category": "제조공장 · Multi-site Benchmark",
+    "energyType": "전기",
+    "equipment": "냉동기·공기압축기",
+    "title": "4개 생산시설 냉동기·공기압축기 UPI Benchmark 및 가동 대수 최적화",
+    "short": "4개 생산시설의 UPI와 설비성능을 비교해 성능우위 설비와 필요 가동대수를 도출한 LGD Source 확장 사례입니다.",
+    "potential": "원자료 재확인 필요",
+    "potentialLabel": "데이터 분석결과",
+    "verificationStatus": "해당 Source의 분석·계측 경계",
+    "tags": [
+      "UPI",
+      "Benchmark",
+      "가동대수",
+      "Multi-site"
+    ],
+    "period": "원자료 기준",
+    "problem": [
+      "Source 기반 분석목적과 범위를 홈페이지 확장 CASE로 정리"
+    ],
+    "dataUsed": [
+      "해당 CASE Source Trace의 원자료"
+    ],
+    "baselineModels": [],
+    "scenarios": [],
+    "verification": "해당 Source의 분석·계측 경계",
+    "sourceNote": "홈페이지 확장 CASE · 공개본 비식별 처리 · 정량수치는 Source Trace 확인값만 사용"
+  },
+  {
+    "id": "case-045-lgd-bigdata-utility-optimization",
+    "status": "published",
+    "company": "국내 대규모 제조사업장",
+    "category": "제조공장 · Big-data Utility",
+    "energyType": "전기·열",
+    "equipment": "Utility 시스템",
+    "title": "반도체공장 Big-data 기반 Utility 운전최적화",
+    "short": "Big-data 기반으로 Utility 수요·공급, 설비효율, 설정값과 가동대수를 분석한 LGD Source 확장 사례입니다.",
+    "potential": "원자료 재확인 필요",
+    "potentialLabel": "데이터 분석결과",
+    "verificationStatus": "해당 Source의 분석·계측 경계",
+    "tags": [
+      "Big-data",
+      "Utility",
+      "수요공급",
+      "운전최적화"
+    ],
+    "period": "원자료 기준",
+    "problem": [
+      "Source 기반 분석목적과 범위를 홈페이지 확장 CASE로 정리"
+    ],
+    "dataUsed": [
+      "해당 CASE Source Trace의 원자료"
+    ],
+    "baselineModels": [],
+    "scenarios": [],
+    "verification": "해당 Source의 분석·계측 경계",
+    "sourceNote": "홈페이지 확장 CASE · 공개본 비식별 처리 · 정량수치는 Source Trace 확인값만 사용"
+  },
+  {
+    "id": "case-046-multi-idc-pue-ecfan-freecooling",
+    "status": "published",
+    "company": "국내 대규모 데이터센터 운영사",
+    "category": "데이터센터 · PUE · EC Fan",
+    "energyType": "전기",
+    "equipment": "냉방기·EC Fan·외기냉방",
+    "title": "다중 IDC PUE·냉방설비 데이터 분석과 EC Fan·외기냉방 최적화",
+    "short": "PUE 이상구간과 냉방설비 성능을 연결하고 EC Fan 시범교체와 외기냉방 확대 가능성을 분석한 LGU Source 확장 사례입니다.",
+    "potential": "EC Fan 시범교체 급기팬 소비동력 63.5% 절감 확인",
+    "potentialLabel": "실측·분석·예상효과",
+    "verificationStatus": "63.5%는 2개 센터 시범교체 대상 냉방기 급기팬 소비동력 전후비교이며 데이터센터 전체 절감률이 아님",
+    "tags": [
+      "PUE",
+      "EC Fan",
+      "Free Cooling",
+      "냉방효율"
+    ],
+    "period": "원자료 기준",
+    "problem": [
+      "Source 기반 분석목적과 범위를 홈페이지 확장 CASE로 정리"
+    ],
+    "dataUsed": [
+      "해당 CASE Source Trace의 원자료"
+    ],
+    "baselineModels": [],
+    "scenarios": [],
+    "verification": "63.5%는 2개 센터 시범교체 대상 냉방기 급기팬 소비동력 전후비교이며 데이터센터 전체 절감률이 아님",
+    "sourceNote": "홈페이지 확장 CASE · 공개본 비식별 처리 · 정량수치는 Source Trace 확인값만 사용"
+  },
+  {
+    "id": "case-047-data-center-pue-ipos-optimization",
+    "status": "published",
+    "company": "국내 대규모 데이터센터 운영사",
+    "category": "데이터센터 · IPOS",
+    "energyType": "전기",
+    "equipment": "다중 데이터센터 냉방설비",
+    "title": "다중 데이터센터 PUE·냉방효율 실시간 진단 및 성능최적화",
+    "short": "다중 데이터센터의 PUE와 냉방효율을 통합 진단하고 단계별 개선목표를 수립한 LGU Source 확장 사례입니다.",
+    "potential": "기준 PUE 1.82 · 추정 1.77; PUE 1.70/1.65 효과는 제안단계 예상치",
+    "potentialLabel": "데이터 분석·예상효과",
+    "verificationStatus": "3개 센터 합산 분석경계; 목표 PUE 효과는 사후 M&V 실적이 아님",
+    "tags": [
+      "PUE",
+      "IPOS",
+      "냉방부하",
+      "성능최적화"
+    ],
+    "period": "원자료 기준",
+    "problem": [
+      "Source 기반 분석목적과 범위를 홈페이지 확장 CASE로 정리"
+    ],
+    "dataUsed": [
+      "해당 CASE Source Trace의 원자료"
+    ],
+    "baselineModels": [],
+    "scenarios": [],
+    "verification": "3개 센터 합산 분석경계; 목표 PUE 효과는 사후 M&V 실적이 아님",
+    "sourceNote": "홈페이지 확장 CASE · 공개본 비식별 처리 · 정량수치는 Source Trace 확인값만 사용"
+  },
+  {
+    "id": "case-048-light-tower-doe21e-simulation",
+    "status": "published",
+    "company": "국내 대형 복합건물",
+    "category": "친환경건축 · DOE-2.1E",
+    "energyType": "전기·열",
+    "equipment": "전체 건물·HVAC/Plant",
+    "title": "133층 Light Tower 건물에너지 효율등급 상향 컴퓨터 시뮬레이션",
+    "short": "설계도서와 표준운전프로필을 DOE-2.1E에 반영해 8,760시간 건물에너지 성능을 예측한 확장 사례입니다.",
+    "potential": "연간 최종에너지 85,122 MWh/년 · 전기 43,634 · 열 41,488 MWh/년 예측",
+    "potentialLabel": "예측·분석방법",
+    "verificationStatus": "설계도서와 모델가정에 따른 시뮬레이션 예측값이며 준공 후 실적이 아님",
+    "tags": [
+      "DOE-2.1E",
+      "8760시간",
+      "Energy Modeling",
+      "Light Tower"
+    ],
+    "period": "원자료 기준",
+    "problem": [
+      "Source 기반 분석목적과 범위를 홈페이지 확장 CASE로 정리"
+    ],
+    "dataUsed": [
+      "해당 CASE Source Trace의 원자료"
+    ],
+    "baselineModels": [],
+    "scenarios": [],
+    "verification": "설계도서와 모델가정에 따른 시뮬레이션 예측값이며 준공 후 실적이 아님",
+    "sourceNote": "홈페이지 확장 CASE · 공개본 비식별 처리 · 정량수치는 Source Trace 확인값만 사용"
+  },
+  {
+    "id": "case-049-gymnasium-energy-simulation",
+    "status": "published",
+    "company": "국내 공공 체육시설",
+    "category": "친환경건축 · Energy Simulation",
+    "energyType": "에너지",
+    "equipment": "건물 외피·HVAC",
+    "title": "체육관 건물에너지 컴퓨터 시뮬레이션",
+    "short": "체육관 설계단계의 건축·기계 조건을 반영하여 에너지성능을 검토한 컴퓨터 시뮬레이션 사례입니다.",
+    "potential": "원자료 재확인 필요",
+    "potentialLabel": "분석방법",
+    "verificationStatus": "해당 Source의 분석·계측 경계",
+    "tags": [
+      "체육관",
+      "Energy Simulation",
+      "설계검토"
+    ],
+    "period": "원자료 기준",
+    "problem": [
+      "Source 기반 분석목적과 범위를 홈페이지 확장 CASE로 정리"
+    ],
+    "dataUsed": [
+      "해당 CASE Source Trace의 원자료"
+    ],
+    "baselineModels": [],
+    "scenarios": [],
+    "verification": "해당 Source의 분석·계측 경계",
+    "sourceNote": "홈페이지 확장 CASE · 공개본 비식별 처리 · 정량수치는 Source Trace 확인값만 사용"
+  },
+  {
+    "id": "case-050-passive-house-design-simulation",
+    "status": "published",
+    "company": "국내 공공 보육시설",
+    "category": "친환경건축 · Passive House",
+    "energyType": "에너지",
+    "equipment": "외피·부하·HVAC",
+    "title": "보육시설 Passive House 설계검토 컴퓨터 시뮬레이션",
+    "short": "Passive House 설계조건의 에너지성능을 컴퓨터 시뮬레이션으로 검토한 확장 사례입니다.",
+    "potential": "원자료 재확인 필요",
+    "potentialLabel": "분석방법",
+    "verificationStatus": "해당 Source의 분석·계측 경계",
+    "tags": [
+      "Passive House",
+      "보육시설",
+      "설계검토"
+    ],
+    "period": "원자료 기준",
+    "problem": [
+      "Source 기반 분석목적과 범위를 홈페이지 확장 CASE로 정리"
+    ],
+    "dataUsed": [
+      "해당 CASE Source Trace의 원자료"
+    ],
+    "baselineModels": [],
+    "scenarios": [],
+    "verification": "해당 Source의 분석·계측 경계",
+    "sourceNote": "홈페이지 확장 CASE · 공개본 비식별 처리 · 정량수치는 Source Trace 확인값만 사용"
+  },
+  {
+    "id": "case-051-leed-eac1-energy-modeling",
+    "status": "published",
+    "company": "국제업무지구 업무시설",
+    "category": "친환경건축 · LEED EAc1",
+    "energyType": "에너지",
+    "equipment": "전체 건물 에너지모델",
+    "title": "국제업무지구 업무시설 LEED EAc1 건물에너지 모델 분석",
+    "short": "LEED EAc1 인증을 위해 건물에너지 모델을 구성하고 Proposed/Baseline 성능평가를 수행한 확장 사례입니다.",
+    "potential": "원자료 재확인 필요",
+    "potentialLabel": "분석방법",
+    "verificationStatus": "해당 Source의 분석·계측 경계",
+    "tags": [
+      "LEED",
+      "EAc1",
+      "Energy Modeling",
+      "Baseline"
+    ],
+    "period": "원자료 기준",
+    "problem": [
+      "Source 기반 분석목적과 범위를 홈페이지 확장 CASE로 정리"
+    ],
+    "dataUsed": [
+      "해당 CASE Source Trace의 원자료"
+    ],
+    "baselineModels": [],
+    "scenarios": [],
+    "verification": "해당 Source의 분석·계측 경계",
+    "sourceNote": "홈페이지 확장 CASE · 공개본 비식별 처리 · 정량수치는 Source Trace 확인값만 사용"
   }
 
 ];
