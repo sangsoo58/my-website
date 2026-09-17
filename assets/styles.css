@@ -508,3 +508,18 @@ h3 { font-size: 22px; }
   .sector-filter button{font-size:15px;padding:11px 15px}
   .case-search-toolbar label span{font-size:15px}
 }
+
+/* 2026-09-17 CASE MASTER 4-tree integration */
+.application-grid,.tree-filter,.master-case-grid,.ai-flow{display:grid;gap:18px}.application-grid{grid-template-columns:repeat(4,1fr)}.application-card,.master-case-card{background:#fff;border:1px solid #dce5ec;border-radius:18px;padding:24px;box-shadow:0 8px 24px rgba(11,31,51,.06)}.application-card h3,.master-case-card h3{margin:8px 0}.tree-filter{grid-template-columns:repeat(5,1fr);margin-bottom:24px}.tree-filter button{border:1px solid #cbd8e2;background:#fff;border-radius:12px;padding:14px;font-weight:800;cursor:pointer}.tree-filter button.active{background:#0b1f33;color:#fff}.master-case-grid{grid-template-columns:repeat(3,1fr)}.master-case-head{display:flex;justify-content:space-between;gap:8px;font-size:.8rem;color:#52697d}.master-case-head span{font-weight:900;color:#0b6b5d}.master-case-card p{color:#607284;line-height:1.65}.master-case-card a,.supp-link{font-weight:800;text-decoration:none}.supplemental-cases{margin-top:54px;padding-top:36px;border-top:1px solid #dce5ec}.supp-links{display:flex;gap:10px;flex-wrap:wrap}.supp-link{padding:10px 13px;border:1px solid #dce5ec;border-radius:999px}.ai-flow{grid-template-columns:repeat(6,1fr);align-items:stretch}.ai-flow span{background:#0b1f33;color:#fff;border-radius:14px;padding:18px 10px;text-align:center;font-weight:800}.book-case-link{display:inline-flex;margin-top:18px;padding:11px 15px;border-radius:10px;background:#eef5f4;color:#075e54;font-weight:800;text-decoration:none}.book-case-floating{position:fixed;left:16px;bottom:14px;z-index:11;background:#fff;color:#0b1f33;border:1px solid #cbd8e2;border-radius:999px;padding:9px 13px;font-size:.78rem;font-weight:800;text-decoration:none;box-shadow:0 4px 16px rgba(11,31,51,.16)}@media(max-width:900px){.application-grid,.master-case-grid{grid-template-columns:repeat(2,1fr)}.tree-filter{grid-template-columns:repeat(2,1fr)}.ai-flow{grid-template-columns:repeat(3,1fr)}}@media(max-width:600px){.application-grid,.master-case-grid,.tree-filter,.ai-flow{grid-template-columns:1fr}.master-case-card{padding:19px}}
+
+/* V3 final visual QA refinements */
+.book-case-floating:focus-visible,.book-case-link:focus-visible,.tree-filter button:focus-visible,.button:focus-visible,.primary-nav a:focus-visible{outline:3px solid currentColor;outline-offset:3px}
+@media (max-width:600px){
+  .case-detail-hero h1{font-size:clamp(1.9rem,8vw,2.55rem);line-height:1.18}
+  .tree-filter{gap:.5rem}
+  .tree-filter button{min-height:44px}
+  .book-case-floating{max-width:calc(100vw - 24px);white-space:normal;text-align:center}
+}
+.evidence-strip{display:grid;grid-template-columns:max-content 1fr;gap:.65rem 1rem;align-items:center;margin:0 0 2rem;padding:1rem 1.15rem;border:1px solid rgba(11,31,51,.12);border-radius:16px;background:#fff;font-size:.92rem;line-height:1.55}
+.evidence-badge{display:inline-flex;align-items:center;justify-content:center;min-height:32px;padding:.25rem .65rem;border-radius:999px;font-weight:800;white-space:nowrap;background:rgba(11,31,51,.07)}
+@media(max-width:600px){.evidence-strip{grid-template-columns:1fr}.evidence-badge{justify-self:start}}
