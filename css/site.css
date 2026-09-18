@@ -95,3 +95,43 @@ html,body{max-width:100%;overflow-x:clip}
 @media(max-width:767px){
   .container,.trust-strip{width:auto;margin-left:14px;margin-right:14px}
 }
+
+
+/* =========================================================
+   POST-DEPLOY UI FIX — book navigation + expert photo ratio
+   UI/layout only. Locked CASE content/data remain unchanged.
+   ========================================================= */
+.expert-photo{min-width:0;max-width:100%}
+.expert-photo .photo-frame{
+  width:100%;
+  aspect-ratio:4 / 5;
+  border-radius:24px;
+  overflow:hidden;
+  background:var(--soft);
+}
+.expert-photo .photo-frame img{
+  width:100%;
+  height:100%;
+  max-width:none;
+  object-fit:cover;
+  object-position:center 18%;
+  display:block;
+}
+.expert-badge{
+  margin-top:10px;
+  display:flex;
+  align-items:baseline;
+  gap:8px;
+  flex-wrap:wrap;
+}
+@media(min-width:860px){
+  .primary-nav{gap:8px;font-size:11.5px}
+  .nav-cta{padding:9px 11px}
+}
+@media(max-width:1023px){
+  .expert-photo{max-width:520px;margin-inline:auto}
+}
+@media(max-width:767px){
+  .expert-photo{max-width:420px}
+  .expert-photo .photo-frame{aspect-ratio:4 / 5}
+}

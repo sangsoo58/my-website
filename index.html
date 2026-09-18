@@ -38,7 +38,7 @@
 <a href="#mv">Baseline &amp; M&amp;V</a>
 <a href="#cases">절감 사례</a>
 <a href="#insight">Energy Insight</a>
-<a href="#expert">전문가 소개</a>
+<a href="book/index.html">저서 온라인 열람</a><a href="#expert">전문가 소개</a>
 <a class="nav-cta" href="#contact">에너지 절감 상담</a>
 </nav>
 </div>
@@ -493,7 +493,7 @@
 </div>
 </div>
 </section>
-<!-- SCREEN 05 : CASES --><section class="section cases" id="cases" aria-labelledby="cases-title"><div class="container"><div class="section-heading split-heading"><div><p class="eyebrow">CASE STUDIES · 82 LOCKED CASES</p><h2 id="cases-title">에너지절감 CASE STUDIES</h2></div><p>현장 데이터 분석, Baseline, M&amp;V, 운전최적화 및 Simulation 사례를 분야별로 탐색할 수 있습니다.</p></div><div class="case-toolbar"><label class="case-search"><span class="sr-only">CASE 검색</span><input id="case-search" type="search" placeholder="CASE, 설비, 분석기법, KPI를 검색하세요"></label><div id="sector-filters" class="case-filters"></div><details><summary>상세 필터</summary><div class="advanced-grid"><label>System<select id="system-filter"><option value="">전체</option></select></label><label>Technology<select id="technology-filter"><option value="">전체</option></select></label><label>Evidence<select id="evidence-filter"><option value="">전체</option></select></label><label>정렬<select id="sort-filter"><option value="number">CASE 번호순</option><option value="sector">분야별</option><option value="evidence">Evidence별</option></select></label></div></details><div class="case-toolbar-status"><strong id="case-result-count">82</strong><span>개 CASE</span><button id="case-reset" type="button">전체 CASE 보기</button></div></div><div id="case-grid" class="case-grid case-library-grid" aria-live="polite"></div><div id="case-empty" class="case-empty" hidden><strong>조건에 맞는 CASE가 없습니다.</strong><button class="button button-dark" type="button" data-reset-cases>전체 CASE 보기</button></div></div></section>
+<!-- SCREEN 05 : CASES --><section aria-labelledby="cases-title" class="section cases" id="cases"><div class="container"><div class="section-heading split-heading"><div><p class="eyebrow">CASE STUDIES · 82 LOCKED CASES</p><h2 id="cases-title">에너지절감 CASE STUDIES</h2></div><p>현장 데이터 분석, Baseline, M&amp;V, 운전최적화 및 Simulation 사례를 분야별로 탐색할 수 있습니다.</p></div><div class="case-toolbar"><label class="case-search"><span class="sr-only">CASE 검색</span><input id="case-search" placeholder="CASE, 설비, 분석기법, KPI를 검색하세요" type="search"/></label><div class="case-filters" id="sector-filters"></div><details><summary>상세 필터</summary><div class="advanced-grid"><label>System<select id="system-filter"><option value="">전체</option></select></label><label>Technology<select id="technology-filter"><option value="">전체</option></select></label><label>Evidence<select id="evidence-filter"><option value="">전체</option></select></label><label>정렬<select id="sort-filter"><option value="number">CASE 번호순</option><option value="sector">분야별</option><option value="evidence">Evidence별</option></select></label></div></details><div class="case-toolbar-status"><strong id="case-result-count">82</strong><span>개 CASE</span><button id="case-reset" type="button">전체 CASE 보기</button></div></div><div aria-live="polite" class="case-grid case-library-grid" id="case-grid"></div><div class="case-empty" hidden="" id="case-empty"><strong>조건에 맞는 CASE가 없습니다.</strong><button class="button button-dark" data-reset-cases="" type="button">전체 CASE 보기</button></div></div></section>
 <!-- SCREEN 06 : INSIGHT -->
 <section aria-labelledby="insight-title" class="section section-soft insight" id="insight">
 <div class="container">
@@ -585,7 +585,7 @@
 </div>
 <form class="contact-form reveal" id="consulting-form">
 <div class="form-head"><strong>에너지 절감 사전상담</strong><span>필수 항목 *</span></div>
-<input aria-hidden="true" autocomplete="off" class="hp-field" name="website" tabindex="-1" type="text"/>
+<input aria-hidden="true" autocomplete="off" class="hp-field" name="website" tabindex="-1" type="text">
 <input name="form_started_at" type="hidden" value=""/>
 <div class="field-row">
 <label>회사명 *<input maxlength="100" name="company" placeholder="회사명을 입력해 주세요" required="" type="text"/></label>
@@ -625,7 +625,7 @@
 <button class="button button-submit" type="submit">에너지 절감 상담 요청하기</button>
 <p class="form-help">※ 필수정보는 상담 회신을 위해 사용되며, 자세한 내용은 개인정보처리방침을 확인해 주세요.</p>
 <div aria-live="polite" class="form-status" role="status"></div>
-</form>
+</input></form>
 </div>
 </section>
 </main>
@@ -643,6 +643,5 @@
 </div>
 <div class="container footer-bottom"><span>© <span id="year">2026</span> Global Energy Optimization Lab. All rights reserved.</span><a href="#top">TOP ↑</a></div>
 </footer>
-
 <script src="data/cases-data.js"></script><script src="js/case-list.js"></script><script src="js/site.js"></script></body>
 </html>
