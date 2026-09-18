@@ -2011,13 +2011,13 @@ window.CASES_DATA = [
       "evidence": null,
       "ai": null
     },
-    "summary": "기존 Historical Homepage Story / Source Mapping 결과 그대로 사용",
-    "question": null,
+    "summary": "건물 에너지를 수요측과 공급측으로 구분하고, 난방·냉방·환기·조명·급탕·운송·사무기기 등 주요 End-use별로 용량·사용시간·기기효율·운전효율을 관리변수로 정의하여 BEMS/BPOS 기반의 에너지진단 및 절감관리 체계를 설계한 사례입니다.",
+    "question": "건물 에너지를 수요측과 공급측으로 구분하고, 난방·냉방·환기·조명·급탕·운송·사무기기 등 주요 End-use별로 용량·사용시간·기기효율·운전효율을 관리변수로 정의하여 BEMS/BPOS 기반의 에너지진단 및 절감관리 체계를 설계한 사례입니다.",
     "story": {
       "situation": null,
       "problem": null,
       "data": null,
-      "analysis": "기존 Historical Homepage Story / Source Mapping 결과 그대로 사용",
+      "analysis": "건물 운영에 필요한 에너지를 난방·냉방·환기·조명·급탕·운송·사무/Process 등 수요측 End-use와 전기·열에너지 공급측으로 구조화합니다. 이후 설비별 용량·사용시간·기기효율·운전효율을 관리변수로 정의하고, 에너지소비량을 ‘용량 × 사용시간 ÷ 효율’ 관점으로 분해하여 BEMS/BPOS의 분석·운전관리 항목으로 연결합니다.",
       "finding": null,
       "alternative": null,
       "decision": null,
@@ -2027,9 +2027,10 @@ window.CASES_DATA = [
       "grade": [],
       "status": "기존 판정 유지",
       "quantitativeEvidence": [],
-      "boundary": "기존 LOCK Boundary 유지",
+      "boundary": "건물 전체의 수요측 End-use(난방·냉방·환기·조명·급탕·운송·사무/Process)와 전기·열에너지 공급측을 연결하고, 각 소비설비의 용량·사용시간·기기효율·운전효율을 BEMS/BPOS 진단·관리 범위로 설정합니다.",
       "allowedExpression": null,
-      "prohibitedExpression": null
+      "prohibitedExpression": null,
+      "publicText": "정량 절감성과 보고서가 아니라, 비식별 공개사례와 원본 컨설팅 자료를 바탕으로 BEMS/BPOS의 에너지절감 착안사항과 관리모델을 정리한 진단 프레임워크 사례입니다."
     },
     "source": {
       "public": "현장/프로젝트 자료 기반 사례",
@@ -3363,13 +3364,13 @@ window.CASES_DATA = [
       "evidence": null,
       "ai": null
     },
-    "summary": "기존 HOMEPAGE-STORY-FINAL-LOCKED Story 그대로 사용",
-    "question": null,
+    "summary": "공정이 요구하는 냉수온도보다 더 낮게 냉수를 만들고 있지는 않을까? 냉수 출구온도를 필요 이상으로 낮게 유지하고 있다면 Set Point 조정으로 냉동기 운전효율을 개선할 가능성이 있습니다. 다만 생산공정·공조·제습 요구조건을 함께 만족해야 하므로, 실제 운전데이터와 Test & Adjust를 통해 냉동시스템 소비전력이 최소가 되는 냉수온도를 찾는 사례입니다.",
+    "question": "공정이 요구하는 냉수온도보다 더 낮게 냉수를 만들고 있지는 않을까? 냉수 출구온도를 필요 이상으로 낮게 유지하고 있다면 Set Point 조정으로 냉동기 운전효율을 개선할 가능성이 있습니다. 다만 생산공정·공조·제습 요구조건을 함께 만족해야 하므로, 실제 운전데이터와 Test & Adjust를 통해 냉동시스템 소비전력이 최소가 되는 냉수온도를 찾는 사례입니다.",
     "story": {
       "situation": null,
       "problem": null,
       "data": null,
-      "analysis": "기존 HOMEPAGE-STORY-FINAL-LOCKED Story 그대로 사용",
+      "analysis": "냉동기 가동상태, 냉수 공급·환수온도, 냉수 출구 Set Point, 냉수유량, 냉각수 입·출구온도와 유량, 냉동기·냉수펌프·냉각수펌프 전력을 확인합니다. 생산공정·AHU·제습 요구조건을 먼저 검토한 뒤 냉수온도를 단계적으로 조정하고, 냉동부하(RT), kW/RT와 시스템 소비전력을 비교하여 최적 Set Point를 판단합니다.",
       "finding": null,
       "alternative": null,
       "decision": null,
@@ -3379,9 +3380,10 @@ window.CASES_DATA = [
       "grade": [],
       "status": "EVIDENCE-VERIFIED",
       "quantitativeEvidence": [],
-      "boundary": "기존 LOCK Boundary 유지",
+      "boundary": "냉수 출구 Set Point 조정 Test를 중심으로 냉동기와 냉수·냉각수 계통의 운전조건을 평가합니다. 냉동부하(RT)와 냉동기 소비전력뿐 아니라 냉수펌프·냉각수펌프 전력을 함께 확인하고, 생산공정·AHU·제습 요구조건을 운전 제약조건으로 검증합니다.",
       "allowedExpression": null,
-      "prohibitedExpression": null
+      "prohibitedExpression": null,
+      "publicText": "실제 현장 운전자료와 Test & Adjust 활동을 기반으로 냉수 출구온도 조정 가능조건과 냉동시스템 운전효율을 검토했습니다. 냉수 출구온도 조정만의 독립적인 최종 절감금액은 원자료에서 분리되어 있지 않아 별도 실적으로 제시하지 않습니다."
     },
     "source": {
       "public": "현장/프로젝트 자료 기반 사례",
@@ -3631,13 +3633,13 @@ window.CASES_DATA = [
       "evidence": null,
       "ai": null
     },
-    "summary": "기존 HOMEPAGE-STORY-FINAL-LOCKED Story 그대로 사용",
-    "question": null,
+    "summary": "모든 냉방부하에 낮은 온도의 냉수를 공급할 필요가 있을까? 현장의 5℃와 13℃ 냉수계통에서 각 사용처의 요구조건을 확인하고 두 계통의 부하분담을 조정하여 냉동기 가동대수와 펌프 반송동력을 함께 줄일 수 있는 운전기준을 검토한 사례입니다.",
+    "question": "모든 냉방부하에 낮은 온도의 냉수를 공급할 필요가 있을까? 현장의 5℃와 13℃ 냉수계통에서 각 사용처의 요구조건을 확인하고 두 계통의 부하분담을 조정하여 냉동기 가동대수와 펌프 반송동력을 함께 줄일 수 있는 운전기준을 검토한 사례입니다.",
     "story": {
       "situation": null,
       "problem": null,
       "data": null,
-      "analysis": "기존 HOMEPAGE-STORY-FINAL-LOCKED Story 그대로 사용",
+      "analysis": "5℃·13℃ 냉수 사용처와 공정·OAC 요구조건을 조사하고 공급·환수온도, 유량, 계통별 냉동부하(RT), 냉동기 가동대수·부하율·kW/RT, 펌프 반송동력과 OAC 밸브 개도율을 분석합니다. 기존조건을 확보한 뒤 13℃ 밸브를 단계적으로 조정하여 부하이동과 냉동기 가동대수 변화를 확인하고, 전체 System kW와 System kW/RT를 비교합니다.",
       "finding": null,
       "alternative": null,
       "decision": null,
@@ -3647,9 +3649,10 @@ window.CASES_DATA = [
       "grade": [],
       "status": "EVIDENCE-PARTIAL",
       "quantitativeEvidence": [],
-      "boundary": "기존 LOCK Boundary 유지",
+      "boundary": "5℃·13℃ 냉수계통의 부하분담 Test를 경계로 하며, 계통별 냉동부하와 OAC 밸브 조정, 냉동기 가동대수·전력, 냉수펌프·냉각수펌프 반송동력을 평가합니다. 냉각탑 Fan은 필요한 경우 System Power 평가에 포함하는 방법론으로 제시됩니다.",
       "allowedExpression": null,
-      "prohibitedExpression": null
+      "prohibitedExpression": null,
+      "publicText": "EVIDENCE-PARTIAL — 실제 현장에서 5℃/13℃ 냉수 부하분담과 OAC 13℃ 밸브 조정 Test가 계획되었고, 냉동기 가동대수 저감 여부를 확인하는 활동이 원자료에 존재합니다. 이 활동만의 독립적인 최종 절감 kWh·절감률·절감금액은 분리되어 있지 않습니다."
     },
     "source": {
       "public": "현장/프로젝트 자료 기반 사례",
@@ -5223,13 +5226,13 @@ window.CASES_DATA = [
       "evidence": null,
       "ai": null
     },
-    "summary": "기존 HOMEPAGE-STORY-FINAL-LOCKED Story 그대로 사용",
-    "question": null,
+    "summary": "전기요금이 높다고 설비의 소비전력부터 줄이려 하지 않았습니다. 먼저 계약전력·요금적용전력·실제 Peak와 Load Factor를 센터별로 비교하고, 실제 Peak가 계약전력에 비해 낮고 기본요금 비중이 높은 조건을 선별하여 계약전력 조정 시나리오의 비용절감 가능성을 분석한 사례입니다.",
+    "question": "전기요금이 높다고 설비의 소비전력부터 줄이려 하지 않았습니다. 먼저 계약전력·요금적용전력·실제 Peak와 Load Factor를 센터별로 비교하고, 실제 Peak가 계약전력에 비해 낮고 기본요금 비중이 높은 조건을 선별하여 계약전력 조정 시나리오의 비용절감 가능성을 분석한 사례입니다.",
     "story": {
       "situation": null,
       "problem": null,
       "data": null,
-      "analysis": "기존 HOMEPAGE-STORY-FINAL-LOCKED Story 그대로 사용",
+      "analysis": "센터별 전기소비량·전기요금·계약전력·요금적용전력·Peak 전력을 같은 기준으로 비교하고, Peak/계약전력 비율과 Load Factor를 분석합니다. 단일 Peak만으로 판단하지 않고 부하수준과 기본요금 구조를 함께 검토한 뒤 계약전력 변경 시나리오의 비용효과를 평가합니다. 실제 kWh 절감과 계약조건 변경에 따른 비용절감은 분리하여 해석합니다.",
       "finding": null,
       "alternative": null,
       "decision": null,
@@ -5239,9 +5242,10 @@ window.CASES_DATA = [
       "grade": [],
       "status": "EVIDENCE-VERIFIED",
       "quantitativeEvidence": [],
-      "boundary": "기존 LOCK Boundary 유지",
+      "boundary": "데이터센터의 전력수요·요금 분석 범위에서 계약전력, 요금적용전력, 실제 Peak, Load Factor와 기본요금을 비교합니다. Energy KPI(kWh)와 계약조건 변경에 따른 Cost KPI(원/년)를 분리하여 평가합니다.",
       "allowedExpression": null,
-      "prohibitedExpression": null
+      "prohibitedExpression": null,
+      "publicText": "국내 데이터센터의 전력사용량·전기요금·계약전력·요금적용전력·Peak 및 Load Factor 비교자료를 기반으로 계약전력 적정성과 비용절감 시나리오를 분석했습니다. 제시된 비용절감은 계약전력 변경 시나리오의 예상효과이며 실제 절감실적과 구분합니다."
     },
     "source": {
       "public": "현장/프로젝트 자료 기반 사례",
