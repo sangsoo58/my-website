@@ -1,4 +1,4 @@
-window.CASES_DATA = [
+[
   {
     "id": "CASE01",
     "number": 1,
@@ -5266,4 +5266,4 @@ window.CASES_DATA = [
       "lockStatus": "LOCKED / PROTECTED"
     }
   }
-];
+]

@@ -1,0 +1,390 @@
+{
+  "total": 82,
+  "sectors": {
+    "건물": [
+      "CASE30",
+      "CASE31",
+      "CASE32",
+      "CASE33",
+      "CASE34"
+    ],
+    "데이터센터": [
+      "CASE38",
+      "CASE39",
+      "CASE46",
+      "CASE47",
+      "CASE70",
+      "CASE71",
+      "CASE72",
+      "CASE73",
+      "CASE74",
+      "CASE75",
+      "CASE76",
+      "CASE77",
+      "CASE78",
+      "CASE79",
+      "CASE80",
+      "CASE81",
+      "CASE82"
+    ],
+    "제조공장": [
+      "CASE01",
+      "CASE02",
+      "CASE03",
+      "CASE04",
+      "CASE05",
+      "CASE06",
+      "CASE07",
+      "CASE08",
+      "CASE09",
+      "CASE10",
+      "CASE11",
+      "CASE12",
+      "CASE13",
+      "CASE14",
+      "CASE15",
+      "CASE16",
+      "CASE17",
+      "CASE18",
+      "CASE19",
+      "CASE20",
+      "CASE21",
+      "CASE22",
+      "CASE23",
+      "CASE24",
+      "CASE25",
+      "CASE26",
+      "CASE27",
+      "CASE28",
+      "CASE42",
+      "CASE43",
+      "CASE44",
+      "CASE45",
+      "CASE52",
+      "CASE53",
+      "CASE54",
+      "CASE55",
+      "CASE56",
+      "CASE57",
+      "CASE58",
+      "CASE59",
+      "CASE60",
+      "CASE61",
+      "CASE62",
+      "CASE63",
+      "CASE64",
+      "CASE65",
+      "CASE66",
+      "CASE67",
+      "CASE68",
+      "CASE69"
+    ],
+    "지역난방·공동주택": [
+      "CASE40",
+      "CASE41"
+    ],
+    "친환경건축": [
+      "CASE29",
+      "CASE35",
+      "CASE36",
+      "CASE37",
+      "CASE48",
+      "CASE49",
+      "CASE50",
+      "CASE51"
+    ]
+  },
+  "systems": {
+    "BEMS": [
+      "CASE33",
+      "CASE34"
+    ],
+    "CDA": [
+      "CASE42",
+      "CASE44",
+      "CASE52",
+      "CASE54",
+      "CASE59",
+      "CASE61",
+      "CASE65"
+    ],
+    "EV": [
+      "CASE29"
+    ],
+    "Fan": [
+      "CASE38",
+      "CASE46",
+      "CASE68",
+      "CASE70",
+      "CASE71"
+    ],
+    "PUE": [
+      "CASE38",
+      "CASE39",
+      "CASE46",
+      "CASE47",
+      "CASE70"
+    ],
+    "Utility": [
+      "CASE06",
+      "CASE11",
+      "CASE14",
+      "CASE15",
+      "CASE17",
+      "CASE19",
+      "CASE24",
+      "CASE42",
+      "CASE43",
+      "CASE45"
+    ],
+    "건물에너지": [
+      "CASE48",
+      "CASE49",
+      "CASE51"
+    ],
+    "공기압축기": [
+      "CASE13",
+      "CASE15",
+      "CASE16",
+      "CASE17",
+      "CASE18",
+      "CASE25",
+      "CASE44",
+      "CASE45",
+      "CASE52",
+      "CASE54",
+      "CASE59",
+      "CASE61",
+      "CASE67",
+      "CASE69"
+    ],
+    "공조": [
+      "CASE08",
+      "CASE12",
+      "CASE43"
+    ],
+    "냉각수": [
+      "CASE58",
+      "CASE62",
+      "CASE68",
+      "CASE78",
+      "CASE81"
+    ],
+    "냉각탑": [
+      "CASE10",
+      "CASE68",
+      "CASE73",
+      "CASE81"
+    ],
+    "냉동기": [
+      "CASE09",
+      "CASE10",
+      "CASE13",
+      "CASE15",
+      "CASE42",
+      "CASE44",
+      "CASE45",
+      "CASE53",
+      "CASE56",
+      "CASE57",
+      "CASE60",
+      "CASE62",
+      "CASE63",
+      "CASE64",
+      "CASE80"
+    ],
+    "냉수": [
+      "CASE53",
+      "CASE55",
+      "CASE57",
+      "CASE63",
+      "CASE66",
+      "CASE79"
+    ],
+    "보일러": [
+      "CASE19",
+      "CASE42"
+    ],
+    "소결": [
+      "CASE07"
+    ],
+    "송풍기": [
+      "CASE22"
+    ],
+    "압축기": [
+      "CASE13",
+      "CASE15",
+      "CASE16",
+      "CASE17",
+      "CASE18",
+      "CASE21",
+      "CASE25",
+      "CASE44",
+      "CASE45",
+      "CASE52",
+      "CASE54",
+      "CASE59",
+      "CASE61",
+      "CASE67",
+      "CASE69"
+    ],
+    "열처리": [
+      "CASE01"
+    ],
+    "용해로": [
+      "CASE20"
+    ],
+    "주조": [
+      "CASE03",
+      "CASE04"
+    ],
+    "지역난방": [
+      "CASE40",
+      "CASE41"
+    ],
+    "태양광": [
+      "CASE37"
+    ],
+    "펌프": [
+      "CASE10",
+      "CASE26",
+      "CASE27",
+      "CASE28",
+      "CASE41",
+      "CASE55",
+      "CASE58",
+      "CASE66",
+      "CASE78",
+      "CASE79"
+    ]
+  },
+  "technologies": {
+    "ASHRAE": [
+      "CASE29",
+      "CASE51"
+    ],
+    "Baseline": [
+      "CASE01",
+      "CASE02",
+      "CASE24",
+      "CASE40",
+      "CASE51"
+    ],
+    "Benchmark": [
+      "CASE13",
+      "CASE44"
+    ],
+    "Big-data": [
+      "CASE14",
+      "CASE45"
+    ],
+    "COP": [
+      "CASE09",
+      "CASE10",
+      "CASE74"
+    ],
+    "DOE-2.1E": [
+      "CASE36"
+    ],
+    "HDD": [
+      "CASE40"
+    ],
+    "LEED": [
+      "CASE29",
+      "CASE35",
+      "CASE51"
+    ],
+    "M&V": [
+      "CASE24"
+    ],
+    "PUE": [
+      "CASE38",
+      "CASE39",
+      "CASE46",
+      "CASE47",
+      "CASE70"
+    ],
+    "Set Point": [
+      "CASE53"
+    ],
+    "Simulation": [
+      "CASE36",
+      "CASE37",
+      "CASE48",
+      "CASE49",
+      "CASE50"
+    ],
+    "Test & Adjust": [
+      "CASE56",
+      "CASE58",
+      "CASE62",
+      "CASE65",
+      "CASE73"
+    ],
+    "UPI": [
+      "CASE13",
+      "CASE16",
+      "CASE18",
+      "CASE25",
+      "CASE44"
+    ],
+    "kW/RT": [
+      "CASE56",
+      "CASE60"
+    ],
+    "가동대수": [
+      "CASE10",
+      "CASE44",
+      "CASE52",
+      "CASE57",
+      "CASE61",
+      "CASE64",
+      "CASE68",
+      "CASE75",
+      "CASE80"
+    ],
+    "부하율": [
+      "CASE44",
+      "CASE52",
+      "CASE63"
+    ],
+    "원단위": [
+      "CASE03",
+      "CASE04",
+      "CASE05",
+      "CASE20",
+      "CASE21",
+      "CASE22",
+      "CASE27",
+      "CASE64",
+      "CASE67"
+    ]
+  },
+  "evidence": {
+    "A": [
+      "CASE42"
+    ],
+    "B": [
+      "CASE42",
+      "CASE43",
+      "CASE44",
+      "CASE45",
+      "CASE46",
+      "CASE47"
+    ],
+    "C": [
+      "CASE42",
+      "CASE43",
+      "CASE44",
+      "CASE45",
+      "CASE46",
+      "CASE47"
+    ],
+    "D": [
+      "CASE48",
+      "CASE49",
+      "CASE50",
+      "CASE51"
+    ]
+  }
+}
