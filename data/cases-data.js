@@ -2011,13 +2011,13 @@ window.CASES_DATA = [
       "evidence": null,
       "ai": null
     },
-    "summary": "건물 에너지를 수요측과 공급측으로 구분하고, 난방·냉방·환기·조명·급탕·운송·사무기기 등 주요 End-use별로 용량·사용시간·기기효율·운전효율을 관리변수로 정의하여 BEMS/BPOS 기반의 에너지진단 및 절감관리 체계를 설계한 사례입니다.",
-    "question": "건물 에너지를 수요측과 공급측으로 구분하고, 난방·냉방·환기·조명·급탕·운송·사무기기 등 주요 End-use별로 용량·사용시간·기기효율·운전효율을 관리변수로 정의하여 BEMS/BPOS 기반의 에너지진단 및 절감관리 체계를 설계한 사례입니다.",
+    "summary": "기존 Historical Homepage Story / Source Mapping 결과 그대로 사용",
+    "question": null,
     "story": {
       "situation": null,
       "problem": null,
       "data": null,
-      "analysis": "건물 운영에 필요한 에너지를 난방·냉방·환기·조명·급탕·운송·사무/Process 등 수요측 End-use와 전기·열에너지 공급측으로 구조화합니다. 이후 설비별 용량·사용시간·기기효율·운전효율을 관리변수로 정의하고, 에너지소비량을 ‘용량 × 사용시간 ÷ 효율’ 관점으로 분해하여 BEMS/BPOS의 분석·운전관리 항목으로 연결합니다.",
+      "analysis": "기존 Historical Homepage Story / Source Mapping 결과 그대로 사용",
       "finding": null,
       "alternative": null,
       "decision": null,
@@ -2027,10 +2027,9 @@ window.CASES_DATA = [
       "grade": [],
       "status": "기존 판정 유지",
       "quantitativeEvidence": [],
-      "boundary": "건물 전체의 수요측 End-use(난방·냉방·환기·조명·급탕·운송·사무/Process)와 전기·열에너지 공급측을 연결하고, 각 소비설비의 용량·사용시간·기기효율·운전효율을 BEMS/BPOS 진단·관리 범위로 설정합니다.",
+      "boundary": "기존 LOCK Boundary 유지",
       "allowedExpression": null,
-      "prohibitedExpression": null,
-      "publicText": "정량 절감성과 보고서가 아니라, 비식별 공개사례와 원본 컨설팅 자료를 바탕으로 BEMS/BPOS의 에너지절감 착안사항과 관리모델을 정리한 진단 프레임워크 사례입니다."
+      "prohibitedExpression": null
     },
     "source": {
       "public": "현장/프로젝트 자료 기반 사례",
@@ -2573,7 +2572,7 @@ window.CASES_DATA = [
       ],
       "ai": null
     },
-    "summary": "단일 공장→다수 생산거점으로 KPI·운전가이드 확산·지속관리",
+    "summary": "단일 생산시설 Utility 분석에서 출발해 다공장 실시간 데이터 비교, 효율 KPI, 운전가이드와 최적화 실행으로 확장된 Experience-based Technical Case Study.",
     "question": null,
     "story": {
       "situation": null,
@@ -2634,7 +2633,7 @@ window.CASES_DATA = [
   {
     "id": "CASE43",
     "number": 43,
-    "title": "냉동·공조·압축공기 통합 운전데이터 분석",
+    "title": "냉동·공조·압축공기 통합 운전분석을 통한 Utility Balance 최적화",
     "classification": {
       "sector": "제조공장",
       "system": [
@@ -2649,7 +2648,7 @@ window.CASES_DATA = [
       ],
       "ai": null
     },
-    "summary": "동일 시간축의 Utility 전체 Balance에서 손실·잠재량 탐색",
+    "summary": "반도체 생산시설의 냉동·공조·압축공기를 각각 따로 보지 않고 하나의 Utility 포트폴리오로 분석하여, 개별 효율뿐 아니라 가동대수·외기량·토출압력·부하분담의 불균형에서 추가 절감기회를 찾은 사례.",
     "question": null,
     "story": {
       "situation": null,
@@ -2700,7 +2699,7 @@ window.CASES_DATA = [
   {
     "id": "CASE44",
     "number": 44,
-    "title": "4개 생산시설 냉동기·공기압축기 UPI Benchmark 및 가동 대수 최적화",
+    "title": "4개 생산시설 Utility 성능 Benchmark를 통한 UPI·가동대수 최적화",
     "classification": {
       "sector": "제조공장",
       "system": [
@@ -2722,7 +2721,7 @@ window.CASES_DATA = [
       ],
       "ai": null
     },
-    "summary": "동일 KPI로 UPI·부하율·실제/필요 가동대수 비교 및 Best Performance Benchmark",
+    "summary": "4개 반도체·디스플레이 생산시설의 저온·고온 냉동기와 CDA 공기압축기를 동일한 KPI로 비교하여, 가장 효율적인 운전수준을 다른 사업장의 개선목표로 활용한 사례.",
     "question": null,
     "story": {
       "situation": null,
@@ -2785,7 +2784,7 @@ window.CASES_DATA = [
   {
     "id": "CASE45",
     "number": 45,
-    "title": "반도체공장 Big-data 기반 Utility 운전최적화",
+    "title": "고효율 반도체공장에서 Big-data로 찾아낸 Utility 잔여 절감기회",
     "classification": {
       "sector": "제조공장",
       "system": [
@@ -2804,7 +2803,7 @@ window.CASES_DATA = [
       ],
       "ai": null
     },
-    "summary": "운전수준이 높은 공장에서 미세한 수요·공급/제어 불균형 발굴",
+    "summary": "일반적인 운전개선과 최적화가 이미 상당 부분 수행된 반도체 제조시설에서, 냉동기와 공기압축기의 수요·공급 Balance, 유량·온도·압력·밸브 개도율, 가동대수와 설비별 성능을 데이터로 다시 들여다보며 추가 개선 가능성을 찾은 컨설팅 제안 사례.",
     "question": null,
     "story": {
       "situation": null,
@@ -2865,7 +2864,7 @@ window.CASES_DATA = [
   {
     "id": "CASE46",
     "number": 46,
-    "title": "다중 IDC PUE·냉방설비 데이터 분석과 EC Fan·외기냉방 최적화",
+    "title": "PUE 이상을 냉방설비까지 추적한 다중 데이터센터 성능개선",
     "classification": {
       "sector": "데이터센터",
       "system": [
@@ -2882,7 +2881,7 @@ window.CASES_DATA = [
       ],
       "ai": null
     },
-    "summary": "PUE 이상구간에서 실제 냉방설비 이상/성능열위를 찾아 EC Fan·외기냉방 대안으로 연결",
+    "summary": "센터·층별 PUE를 비교한 뒤 숫자 자체에서 멈추지 않고 냉방기 운전상태와 설비성능까지 내려가 원인을 찾고, EC Fan·외기냉방·냉각탑 설정온도 개선의 효과와 투자경제성을 검토한 사례.",
     "question": null,
     "story": {
       "situation": null,
@@ -2938,7 +2937,7 @@ window.CASES_DATA = [
   {
     "id": "CASE47",
     "number": 47,
-    "title": "다중 데이터센터 PUE·냉방효율 실시간 진단 및 성능최적화",
+    "title": "PUE를 ‘보고용 숫자’에서 ‘운전 의사결정’으로 바꾼 다중 데이터센터 실시간 성능최적화",
     "classification": {
       "sector": "데이터센터",
       "system": [
@@ -2954,7 +2953,7 @@ window.CASES_DATA = [
       ],
       "ai": null
     },
-    "summary": "PUE·냉방효율 실시간 진단과 지속 최적화 관리체계",
+    "summary": "여러 데이터센터의 전체전력·IT전력·냉방전력과 냉방설비 데이터를 통합하고, PUE→냉방효율→개별 냉방기효율로 단계적으로 내려가면서 과냉·가동대수·설정온도·설비성능의 원인을 실시간으로 진단하도록 설계한 IPOS 기반 성능개선 제안 사례.",
     "question": null,
     "story": {
       "situation": null,
@@ -3011,7 +3010,7 @@ window.CASES_DATA = [
   {
     "id": "CASE48",
     "number": 48,
-    "title": "133층 Light Tower 건물에너지 효율등급 상향 컴퓨터 시뮬레이션",
+    "title": "133층 초고층 복합건물의 에너지성능을 설계 전에 예측한 DOE-2.1E Simulation",
     "classification": {
       "sector": "친환경건축",
       "system": [
@@ -3026,7 +3025,7 @@ window.CASES_DATA = [
       ],
       "ai": null
     },
-    "summary": "Simulation으로 설계안 에너지성능·효율등급 상향 가능성 사전 검토",
+    "summary": "업무·판매·호텔·주거·문화시설이 수직으로 결합된 133층 복합건물을 실제 운영하기 전에 컴퓨터 모델로 구현하고, 외피·기후·내부부하·운영스케줄을 반영하여 용도별 에너지수요와 1차에너지 성능을 예측한 설계검토 사례.",
     "question": null,
     "story": {
       "situation": null,
@@ -3079,7 +3078,7 @@ window.CASES_DATA = [
   {
     "id": "CASE49",
     "number": 49,
-    "title": "체육관 건물에너지 컴퓨터 시뮬레이션",
+    "title": "외피·조명·열원설비 설계변경이 건물에너지에 미치는 영향을 비교한 Simulation",
     "classification": {
       "sector": "친환경건축",
       "system": [
@@ -3094,7 +3093,7 @@ window.CASES_DATA = [
       ],
       "ai": null
     },
-    "summary": "체육관 용도 설계조건 Simulation 프로젝트",
+    "summary": "가상의 상업용 오피스 빌딩을 Baseline으로 두고 외피, 열용량, 조명밀도, 냉동기 구성 등 설계변수를 하나씩 변경하면서 연간 에너지비용이 어떻게 달라지는지를 동일 조건에서 비교한 설계대안 Simulation 사례.",
     "question": null,
     "story": {
       "situation": null,
@@ -3146,7 +3145,7 @@ window.CASES_DATA = [
   {
     "id": "CASE50",
     "number": 50,
-    "title": "보육시설 Passive House 설계검토 컴퓨터 시뮬레이션",
+    "title": "대형 오피스 빌딩의 창면적·유리성능 변화가 냉난방 에너지에 미치는 영향을 비교한 Simulation",
     "classification": {
       "sector": "친환경건축",
       "system": [],
@@ -3159,7 +3158,7 @@ window.CASES_DATA = [
       ],
       "ai": null
     },
-    "summary": "Passive House 목표 보육시설 설계조건 Simulation",
+    "summary": "동일한 오피스 Building Model에서 창면적과 유리의 차폐성능을 변경하여 연간 에너지비용 변화를 비교하고, 창호 설계를 단순한 외관 요소가 아니라 냉난방·일사·채광이 상호작용하는 에너지 설계변수로 해석한 사례.",
     "question": null,
     "story": {
       "situation": null,
@@ -3208,7 +3207,7 @@ window.CASES_DATA = [
   {
     "id": "CASE51",
     "number": 51,
-    "title": "국제업무지구 업무시설 LEED EAc1 건물에너지 모델 분석",
+    "title": "ASHRAE 90.1 Appendix G Baseline과 설계안을 비교한 대형 복합건물 LEED 에너지모델링",
     "classification": {
       "sector": "친환경건축",
       "system": [
@@ -3225,7 +3224,7 @@ window.CASES_DATA = [
       ],
       "ai": null
     },
-    "summary": "ASHRAE 90.1 Appendix G Baseline 대비 설계안 모델링",
+    "summary": "72층 대형 복합건물을 대상으로 eQUEST3-64와 ASHRAE 90.1-2004 Appendix G Performance Rating Method를 적용하여 Proposed Design과 규정 Baseline의 연간 에너지비용·End-use·Peak Demand를 비교하고 LEED EAc1 성능을 평가한 실제 에너지모델링 사례.",
     "question": null,
     "story": {
       "situation": null,
@@ -3277,7 +3276,7 @@ window.CASES_DATA = [
   {
     "id": "CASE52",
     "number": 52,
-    "title": "CDA 공기압축기 부하율 분석 및 저부하 설비 정지를 통한 최적 가동대수 운전",
+    "title": "공기압축기 부하율·Loading/Unloading 분석을 통한 적정 가동대수 Test & Adjust",
     "classification": {
       "sector": "제조공장",
       "system": [
@@ -3293,7 +3292,7 @@ window.CASES_DATA = [
       "evidence": null,
       "ai": null
     },
-    "summary": "기존 HOMEPAGE-STORY-FINAL-LOCKED Story 그대로 사용",
+    "summary": "대형·중소형 공기압축기가 함께 운전되는 제조공장에서 고해상도 운전데이터를 이용해 소비전력, CDA 공급유량·압력, 부하율, 가동대수와 Loading/Unloading을 같은 시간축에서 분석하고, 실제 수요를 만족하면서 불필요한 무부하 운전과 과다 가동대수를 줄이는 운전조합을 찾은 사례.",
     "question": null,
     "story": {
       "situation": null,
@@ -3364,13 +3363,13 @@ window.CASES_DATA = [
       "evidence": null,
       "ai": null
     },
-    "summary": "공정이 요구하는 냉수온도보다 더 낮게 냉수를 만들고 있지는 않을까? 냉수 출구온도를 필요 이상으로 낮게 유지하고 있다면 Set Point 조정으로 냉동기 운전효율을 개선할 가능성이 있습니다. 다만 생산공정·공조·제습 요구조건을 함께 만족해야 하므로, 실제 운전데이터와 Test & Adjust를 통해 냉동시스템 소비전력이 최소가 되는 냉수온도를 찾는 사례입니다.",
-    "question": "공정이 요구하는 냉수온도보다 더 낮게 냉수를 만들고 있지는 않을까? 냉수 출구온도를 필요 이상으로 낮게 유지하고 있다면 Set Point 조정으로 냉동기 운전효율을 개선할 가능성이 있습니다. 다만 생산공정·공조·제습 요구조건을 함께 만족해야 하므로, 실제 운전데이터와 Test & Adjust를 통해 냉동시스템 소비전력이 최소가 되는 냉수온도를 찾는 사례입니다.",
+    "summary": "생산공정과 공조·제습조건이 요구하는 냉수온도를 확인한 뒤, 냉수 출구 Set Point를 단계적으로 조정하면서 냉동부하·소비전력·kW/RT와 냉동시스템 전체 전력을 비교하여 최적 운전점을 찾는 제조공장 냉동시스템 Test & Adjust 사례.",
+    "question": null,
     "story": {
       "situation": null,
       "problem": null,
       "data": null,
-      "analysis": "냉동기 가동상태, 냉수 공급·환수온도, 냉수 출구 Set Point, 냉수유량, 냉각수 입·출구온도와 유량, 냉동기·냉수펌프·냉각수펌프 전력을 확인합니다. 생산공정·AHU·제습 요구조건을 먼저 검토한 뒤 냉수온도를 단계적으로 조정하고, 냉동부하(RT), kW/RT와 시스템 소비전력을 비교하여 최적 Set Point를 판단합니다.",
+      "analysis": "기존 HOMEPAGE-STORY-FINAL-LOCKED Story 그대로 사용",
       "finding": null,
       "alternative": null,
       "decision": null,
@@ -3380,10 +3379,9 @@ window.CASES_DATA = [
       "grade": [],
       "status": "EVIDENCE-VERIFIED",
       "quantitativeEvidence": [],
-      "boundary": "냉수 출구 Set Point 조정 Test를 중심으로 냉동기와 냉수·냉각수 계통의 운전조건을 평가합니다. 냉동부하(RT)와 냉동기 소비전력뿐 아니라 냉수펌프·냉각수펌프 전력을 함께 확인하고, 생산공정·AHU·제습 요구조건을 운전 제약조건으로 검증합니다.",
+      "boundary": "기존 LOCK Boundary 유지",
       "allowedExpression": null,
-      "prohibitedExpression": null,
-      "publicText": "실제 현장 운전자료와 Test & Adjust 활동을 기반으로 냉수 출구온도 조정 가능조건과 냉동시스템 운전효율을 검토했습니다. 냉수 출구온도 조정만의 독립적인 최종 절감금액은 원자료에서 분리되어 있지 않아 별도 실적으로 제시하지 않습니다."
+      "prohibitedExpression": null
     },
     "source": {
       "public": "현장/프로젝트 자료 기반 사례",
@@ -3432,7 +3430,7 @@ window.CASES_DATA = [
       "evidence": null,
       "ai": null
     },
-    "summary": "기존 HOMEPAGE-STORY-FINAL-LOCKED Story 그대로 사용",
+    "summary": "개별 공기압축기의 토출압력을 각각 제어하는 방식에서 벗어나 공통 CDA Header와 생산설비 말단의 실제 요구압력을 기준으로 압력제어를 재구성하고, 단계별 Set Point Test를 통해 안정적인 생산조건과 최소 시스템 에너지를 함께 만족하는 공급압력을 찾는 사례.",
     "question": null,
     "story": {
       "situation": null,
@@ -3500,7 +3498,7 @@ window.CASES_DATA = [
       "evidence": null,
       "ai": null
     },
-    "summary": "기존 HOMEPAGE-STORY-FINAL-LOCKED Story 그대로 사용",
+    "summary": "설계 당시의 펌프 용량을 그대로 받아들이지 않고 실제 냉수 사용유량·필요양정·운전점을 계측하여 과대용량 여부를 판단하고, VFD·Impeller 조정·펌프 재선정 등 대안을 비교하여 냉수계통 전체의 에너지 최적점을 찾는 사례.",
     "question": null,
     "story": {
       "situation": null,
@@ -3566,7 +3564,7 @@ window.CASES_DATA = [
       "evidence": null,
       "ai": null
     },
-    "summary": "기존 HOMEPAGE-STORY-FINAL-LOCKED Story 그대로 사용",
+    "summary": "동일·유사 용량의 냉동기라도 실제 효율은 같지 않다는 점에 착안하여, 운전호기를 실제로 교체하고 냉동부하와 전력을 동시에 측정해 호기별 kW/RT를 비교한 뒤 고효율 냉동기를 우선 가동하도록 운전 Priority를 정한 현장 Test 사례.",
     "question": null,
     "story": {
       "situation": null,
@@ -3633,13 +3631,13 @@ window.CASES_DATA = [
       "evidence": null,
       "ai": null
     },
-    "summary": "모든 냉방부하에 낮은 온도의 냉수를 공급할 필요가 있을까? 현장의 5℃와 13℃ 냉수계통에서 각 사용처의 요구조건을 확인하고 두 계통의 부하분담을 조정하여 냉동기 가동대수와 펌프 반송동력을 함께 줄일 수 있는 운전기준을 검토한 사례입니다.",
-    "question": "모든 냉방부하에 낮은 온도의 냉수를 공급할 필요가 있을까? 현장의 5℃와 13℃ 냉수계통에서 각 사용처의 요구조건을 확인하고 두 계통의 부하분담을 조정하여 냉동기 가동대수와 펌프 반송동력을 함께 줄일 수 있는 운전기준을 검토한 사례입니다.",
+    "summary": "서로 다른 온도등급의 냉수계통이 함께 운영되는 제조공장에서 실제 부하분담, OAC 밸브개도, 냉동기 가동대수와 펌프 반송동력을 분석하고, 저온 냉수의 불필요한 사용을 줄이면서 전체 냉동시스템의 가동대수와 에너지를 최적화하려 한 사례.",
+    "question": null,
     "story": {
       "situation": null,
       "problem": null,
       "data": null,
-      "analysis": "5℃·13℃ 냉수 사용처와 공정·OAC 요구조건을 조사하고 공급·환수온도, 유량, 계통별 냉동부하(RT), 냉동기 가동대수·부하율·kW/RT, 펌프 반송동력과 OAC 밸브 개도율을 분석합니다. 기존조건을 확보한 뒤 13℃ 밸브를 단계적으로 조정하여 부하이동과 냉동기 가동대수 변화를 확인하고, 전체 System kW와 System kW/RT를 비교합니다.",
+      "analysis": "기존 HOMEPAGE-STORY-FINAL-LOCKED Story 그대로 사용",
       "finding": null,
       "alternative": null,
       "decision": null,
@@ -3649,10 +3647,9 @@ window.CASES_DATA = [
       "grade": [],
       "status": "EVIDENCE-PARTIAL",
       "quantitativeEvidence": [],
-      "boundary": "5℃·13℃ 냉수계통의 부하분담 Test를 경계로 하며, 계통별 냉동부하와 OAC 밸브 조정, 냉동기 가동대수·전력, 냉수펌프·냉각수펌프 반송동력을 평가합니다. 냉각탑 Fan은 필요한 경우 System Power 평가에 포함하는 방법론으로 제시됩니다.",
+      "boundary": "기존 LOCK Boundary 유지",
       "allowedExpression": null,
-      "prohibitedExpression": null,
-      "publicText": "EVIDENCE-PARTIAL — 실제 현장에서 5℃/13℃ 냉수 부하분담과 OAC 13℃ 밸브 조정 Test가 계획되었고, 냉동기 가동대수 저감 여부를 확인하는 활동이 원자료에 존재합니다. 이 활동만의 독립적인 최종 절감 kWh·절감률·절감금액은 분리되어 있지 않습니다."
+      "prohibitedExpression": null
     },
     "source": {
       "public": "현장/프로젝트 자료 기반 사례",
@@ -3703,7 +3700,7 @@ window.CASES_DATA = [
       "evidence": null,
       "ai": null
     },
-    "summary": "기존 HOMEPAGE-STORY-FINAL-LOCKED Story 그대로 사용",
+    "summary": "냉각수펌프의 실제 공급유량이 설계조건보다 과다한지 확인하고, 설계유량을 기준으로 단계적인 Test & Adjust를 수행하면서 펌프전력과 냉동기 응축조건을 동시에 평가해 Chiller Plant 전체 소비전력이 최소가 되는 운전점을 찾는 사례.",
     "question": null,
     "story": {
       "situation": null,
@@ -3768,7 +3765,7 @@ window.CASES_DATA = [
       "evidence": null,
       "ai": null
     },
-    "summary": "기존 HOMEPAGE-STORY-FINAL-LOCKED Story 그대로 사용",
+    "summary": "다수의 공기압축기가 병렬 운전되는 제조공장에서 호기별 소비전력과 CDA 생산유량을 Specific Energy로 비교하여 저효율 설비를 식별하고, 운전조건과 기계적 성능저하의 영향을 분리한 뒤 원인점검·정비·재측정을 통해 정상 성능범위로 회복시키는 진단 접근.",
     "question": null,
     "story": {
       "situation": null,
@@ -3825,7 +3822,7 @@ window.CASES_DATA = [
   {
     "id": "CASE60",
     "number": 60,
-    "title": "냉동유 첨가제 적용 전·후 kW/RT 비교를 통한 냉동기 성능개선 효과 검증",
+    "title": "냉동유 첨가제 적용 전·후 kW/RT 비교를 통한 냉동기 효율개선 효과 검증",
     "classification": {
       "sector": "제조공장",
       "system": [
@@ -3838,7 +3835,7 @@ window.CASES_DATA = [
       "evidence": null,
       "ai": null
     },
-    "summary": "기존 HOMEPAGE-STORY-FINAL-LOCKED Story 그대로 사용",
+    "summary": "냉동유가 냉매계통에 유입되어 열교환기 내벽에 부착되는 Oil Fouling이 냉동기 효율을 저하시킬 수 있다는 가설에서 출발해 냉동유 첨가제를 실제 적용하고, 적용 전·후 운전데이터로 효율개선 여부를 검증했으나 실제 적용 후 기대했던 수준의 개선효과가 뚜렷하게 확인되지 않아 확대적용 근거가 충분하지 않다고 판단한 현장 검증 사례.",
     "question": null,
     "story": {
       "situation": null,
@@ -3904,7 +3901,7 @@ window.CASES_DATA = [
       "evidence": null,
       "ai": null
     },
-    "summary": "기존 HOMEPAGE-STORY-FINAL-LOCKED Story 그대로 사용",
+    "summary": "압축기 가동대수가 자주 증가하는 현상을 공급설비 부족으로 단정하지 않고, 시간대별 압축공기 Demand와 Peak 발생원인을 먼저 추적하여 수요 변동폭을 완화한 뒤 실제 필요한 최소 Compressor 대수를 다시 결정하려 한 수요측 중심의 시스템 최적화 사례.",
     "question": null,
     "story": {
       "situation": null,
@@ -3974,7 +3971,7 @@ window.CASES_DATA = [
       "evidence": null,
       "ai": null
     },
-    "summary": "기존 HOMEPAGE-STORY-FINAL-LOCKED Story 그대로 사용",
+    "summary": "냉각수온도를 낮추면 냉동기 압축기 전력은 줄어들 수 있지만 냉각탑 Fan 전력은 증가할 수 있다는 Trade-off에 착안하여, 냉각수 입구온도를 단계별로 변화시키며 kW/RT를 실측하고 계절별 냉각탑 운전조건을 재설정한 현장 Test 사례.",
     "question": null,
     "story": {
       "situation": null,
@@ -4040,7 +4037,7 @@ window.CASES_DATA = [
       "evidence": null,
       "ai": null
     },
-    "summary": "기존 HOMEPAGE-STORY-FINAL-LOCKED Story 그대로 사용",
+    "summary": "13℃ 냉동구간에서 호기별 kW/RT와 부하율을 비교한 결과, 가장 효율적인 냉동기가 오히려 낮은 부하율로 운전되는 현상을 발견하고 냉수펌프 토출밸브를 조정해 부하를 재분배한 뒤 System kW/RT로 효과를 검증한 현장 최적화 사례.",
     "question": null,
     "story": {
       "situation": null,
@@ -4108,7 +4105,7 @@ window.CASES_DATA = [
       "evidence": null,
       "ai": null
     },
-    "summary": "기존 HOMEPAGE-STORY-FINAL-LOCKED Story 그대로 사용",
+    "summary": "과거 운전데이터에서 실제 냉동부하에 비해 냉동기 가동대수가 과다하고 개별 냉동기가 낮은 부하율로 운전되는 현상을 발견한 뒤, UT 운전최적화 프로그램을 활용해 가동대수를 줄이고 호기효율·운전조건을 함께 개선한 시스템 수준의 최적화 사례.",
     "question": null,
     "story": {
       "situation": null,
@@ -4162,7 +4159,7 @@ window.CASES_DATA = [
   {
     "id": "CASE65",
     "number": 65,
-    "title": "흡착식 CDA Dryer 재생온도 분석 및 보조 Heater OFF Test를 통한 재생에너지 절감",
+    "title": "보일러 호기별 에너지원단위 비교 및 고효율 호기 우선운전을 통한 시스템 효율개선",
     "classification": {
       "sector": "제조공장",
       "system": [
@@ -4175,7 +4172,7 @@ window.CASES_DATA = [
       "evidence": null,
       "ai": null
     },
-    "summary": "기존 HOMEPAGE-STORY-FINAL-LOCKED Story 그대로 사용",
+    "summary": "동일한 스팀수요를 공급하는 여러 보일러의 가스 원단위(N㎥/ton)를 실측 비교하고, 실제 교체운전 Test를 통해 호기별 효율차이를 검증한 뒤 원단위가 낮은 보일러를 우선 운전하여 Boiler System의 연료효율을 개선한 현장 최적화 사례.",
     "question": null,
     "story": {
       "situation": null,
@@ -4223,7 +4220,7 @@ window.CASES_DATA = [
   {
     "id": "CASE66",
     "number": 66,
-    "title": "냉수 Header By-Pass 과다개방 진단 및 불필요 순환유량 최소화를 통한 냉수펌프 반송동력 절감",
+    "title": "보일러 부하율과 연료 원단위 상관분석을 통한 가동대수 및 고효율 운전영역 최적화",
     "classification": {
       "sector": "제조공장",
       "system": [
@@ -4235,7 +4232,7 @@ window.CASES_DATA = [
       "evidence": null,
       "ai": null
     },
-    "summary": "기존 HOMEPAGE-STORY-FINAL-LOCKED Story 그대로 사용",
+    "summary": "보일러가 낮은 부하율로 운전될 때 연료 원단위가 상승하는 현상을 실제 운전데이터에서 확인하고, Steam Demand에 맞춰 보일러 용량조합과 가동대수를 조정하여 저부하 비효율을 줄이려 한 Boiler System 최적화 사례.",
     "question": null,
     "story": {
       "situation": null,
@@ -4286,7 +4283,7 @@ window.CASES_DATA = [
   {
     "id": "CASE67",
     "number": 67,
-    "title": "공기압축기 Inter-Cooler 열교환효율 실시간 진단을 통한 성능저하 조기감지 및 에너지원단위 관리",
+    "title": "보일러 배기가스 온도·O₂ 농도와 연료 원단위 상관분석을 통한 연소효율 개선",
     "classification": {
       "sector": "제조공장",
       "system": [
@@ -4300,7 +4297,7 @@ window.CASES_DATA = [
       "evidence": null,
       "ai": null
     },
-    "summary": "기존 HOMEPAGE-STORY-FINAL-LOCKED Story 그대로 사용",
+    "summary": "보일러의 가스 원단위(N㎥/ton)를 단순 Monitoring하는 데서 더 나아가 배기가스 온도와 O₂ 농도를 영향인자로 함께 분석하여, Stack Loss와 Excess Air 관점에서 연료효율 저하 원인을 찾고 연소조건 개선방향을 도출한 현장 데이터 분석 사례.",
     "question": null,
     "story": {
       "situation": null,
@@ -4357,7 +4354,7 @@ window.CASES_DATA = [
   {
     "id": "CASE68",
     "number": 68,
-    "title": "외기 습구온도·냉각수 Approach 분석을 통한 냉각탑 Fan 설정온도 및 가동대수 최적화",
+    "title": "보일러 스팀유량 계측 이상 진단 및 데이터 정합성 확보를 통한 효율평가 신뢰성 개선",
     "classification": {
       "sector": "제조공장",
       "system": [
@@ -4372,7 +4369,7 @@ window.CASES_DATA = [
       "evidence": null,
       "ai": null
     },
-    "summary": "기존 HOMEPAGE-STORY-FINAL-LOCKED Story 그대로 사용",
+    "summary": "보일러 효율을 N㎥/ton으로 비교하려면 가스량뿐 아니라 분모인 스팀생산량이 정확해야 한다. 일부 스팀유량 계측값의 이상으로 정량평가에 제약이 있었던 실제 사례를 바탕으로, 계측기 검증·데이터 정합성·M&V 경계를 먼저 확보한 뒤 효율개선 효과를 평가하는 절차를 정리한다.",
     "question": null,
     "story": {
       "situation": null,
@@ -4425,7 +4422,7 @@ window.CASES_DATA = [
   {
     "id": "CASE69",
     "number": 69,
-    "title": "공기압축기 흡입공기온도·Filter 차압 분석을 통한 압축효율 저하요인 진단 및 운전조건 최적화",
+    "title": "보일러 스팀 공급압력 패턴 분석을 통한 적정 증기압력 운전 및 연료손실 저감",
     "classification": {
       "sector": "제조공장",
       "system": [
@@ -4437,7 +4434,7 @@ window.CASES_DATA = [
       "evidence": null,
       "ai": null
     },
-    "summary": "기존 HOMEPAGE-STORY-FINAL-LOCKED Story 그대로 사용",
+    "summary": "보일러 효율은 연소조건뿐 아니라 필요한 증기를 어떤 압력으로 생산·공급하는가에도 영향을 받는다. 실제 운전자료의 Steam Supply Pressure Pattern을 확인하고, 사용처의 요구압력과 배관손실을 만족하는 범위에서 과도한 증기 발생압력을 줄이는 최적화 방향을 정리한 사례.",
     "question": null,
     "story": {
       "situation": null,
@@ -4492,7 +4489,7 @@ window.CASES_DATA = [
   {
     "id": "CASE70",
     "number": 70,
-    "title": "층별·전산실별 PUE 이상구간 분석을 통한 냉방기 Fan 단독운전 진단 및 불필요 전력 제거",
+    "title": "데이터센터 PUE 이상분석을 통한 냉방기 Fan 단독운전 문제 진단",
     "classification": {
       "sector": "데이터센터",
       "system": [
@@ -4506,7 +4503,7 @@ window.CASES_DATA = [
       "evidence": null,
       "ai": null
     },
-    "summary": "기존 HOMEPAGE-STORY-FINAL-LOCKED Story 그대로 사용",
+    "summary": "센터 평균보다 높은 PUE를 보인 특정 전산실을 찾아 층·전산실·냉방설비로 분석범위를 좁혀가고, 일부 냉방기에서 실제 냉각 없이 Fan만 운전되는 상태를 확인한 데이터센터 에너지성능 Root-cause 진단 사례.",
     "question": null,
     "story": {
       "situation": null,
@@ -4559,7 +4556,7 @@ window.CASES_DATA = [
   {
     "id": "CASE71",
     "number": 71,
-    "title": "데이터센터 냉방기 급기팬 성능분석 및 고효율 EC Fan 시범교체를 통한 팬 소비동력 절감",
+    "title": "데이터센터 냉방기 Fan 성능분석을 통한 고효율 EC Fan 교체 및 냉방전력 절감",
     "classification": {
       "sector": "데이터센터",
       "system": [
@@ -4570,7 +4567,7 @@ window.CASES_DATA = [
       "evidence": null,
       "ai": null
     },
-    "summary": "기존 HOMEPAGE-STORY-FINAL-LOCKED Story 그대로 사용",
+    "summary": "PUE와 냉방설비 운전데이터에서 Fan 운전효율 개선기회를 확인한 뒤, 기존 Fan을 고효율 EC Fan으로 교체하는 대안을 검토하고 Fan Power·Airflow·Rack Thermal Condition과 투자경제성을 함께 평가하는 데이터센터 냉방설비 개선 사례.",
     "question": null,
     "story": {
       "situation": null,
@@ -4619,7 +4616,7 @@ window.CASES_DATA = [
   {
     "id": "CASE72",
     "number": 72,
-    "title": "외기조건·냉방부하 분석을 통한 데이터센터 외기냉방 분담률 확대 및 냉방전력 절감",
+    "title": "데이터센터 외기조건 분석을 통한 외기냉방 적용시간 확대 및 기계냉방 부하 저감",
     "classification": {
       "sector": "데이터센터",
       "system": [],
@@ -4628,7 +4625,7 @@ window.CASES_DATA = [
       "evidence": null,
       "ai": null
     },
-    "summary": "기존 HOMEPAGE-STORY-FINAL-LOCKED Story 그대로 사용",
+    "summary": "다중 IDC의 PUE·냉방설비 분석에서 도출된 외기냉방 개선대안을 독립적으로 검토하여, 외기 온·습도와 IT 열부하·서버 Inlet 조건을 만족하는 시간대에 기계냉방 의존도를 줄이는 데이터센터 Economizer 운전 최적화 사례.",
     "question": null,
     "story": {
       "situation": null,
@@ -4674,7 +4671,7 @@ window.CASES_DATA = [
   {
     "id": "CASE73",
     "number": 73,
-    "title": "외기조건·계절별 운전데이터 분석 및 설정온도 Test를 통한 데이터센터 냉각탑 운전 최적화",
+    "title": "데이터센터 냉각탑 설정온도 최적화를 통한 냉동기·냉각탑 통합 냉방전력 저감",
     "classification": {
       "sector": "데이터센터",
       "system": [
@@ -4687,7 +4684,7 @@ window.CASES_DATA = [
       "evidence": null,
       "ai": null
     },
-    "summary": "기존 HOMEPAGE-STORY-FINAL-LOCKED Story 그대로 사용",
+    "summary": "다중 IDC의 냉방설비 분석에서 도출된 냉각탑 설정온도 개선대안을 독립적으로 검토하여, 외기 습구온도와 냉동부하에 따라 냉각수 공급온도를 조정하고 냉동기 전력과 냉각탑 Fan 전력의 합이 최소가 되는 운전점을 찾는 사례.",
     "question": null,
     "story": {
       "situation": null,
@@ -4735,7 +4732,7 @@ window.CASES_DATA = [
   {
     "id": "CASE74",
     "number": 74,
-    "title": "냉방기별 COP 비교 및 운전조건 분석을 통한 성능열위 냉방기 진단·운전 최적화",
+    "title": "다중 데이터센터 PUE·냉방효율 실시간 진단 및 IPOS 성능최적화 플랫폼 구축",
     "classification": {
       "sector": "데이터센터",
       "system": [],
@@ -4746,7 +4743,7 @@ window.CASES_DATA = [
       "evidence": null,
       "ai": null
     },
-    "summary": "기존 HOMEPAGE-STORY-FINAL-LOCKED Story 그대로 사용",
+    "summary": "여러 데이터센터의 전체전력·IT전력·냉방전력과 냉방기·냉동기·냉각탑 데이터를 하나의 성능관리 체계로 통합하여 PUE와 냉방효율을 실시간 진단하고, 개별 개선활동을 지속적인 운전최적화로 연결하는 플랫폼 구축 제안 사례.",
     "question": null,
     "story": {
       "situation": null,
@@ -4794,7 +4791,7 @@ window.CASES_DATA = [
   {
     "id": "CASE75",
     "number": 75,
-    "title": "전산실 냉방부하 대비 필요·실제 가동대수 분석을 통한 냉방기 과다운전 진단 및 운전 최적화",
+    "title": "발전소 호기별 소내전력률 Benchmark를 통한 보조기기 효율편차 진단 및 개선 우선순위 도출",
     "classification": {
       "sector": "데이터센터",
       "system": [],
@@ -4805,7 +4802,7 @@ window.CASES_DATA = [
       "evidence": null,
       "ai": null
     },
-    "summary": "기존 HOMEPAGE-STORY-FINAL-LOCKED Story 그대로 사용",
+    "summary": "7개 발전호기의 발전량과 소내전력을 정규화해 Auxiliary Power Ratio를 비교하고, 동일 발전기능을 수행하는 호기 사이의 성능편차를 이용해 급수·복수·해수펌프와 FDF·IDF 등 보조기기의 개선 우선순위를 찾는 발전소 에너지진단 사례.",
     "question": null,
     "story": {
       "situation": null,
@@ -4852,7 +4849,7 @@ window.CASES_DATA = [
   {
     "id": "CASE76",
     "number": 76,
-    "title": "층별·전산실 온도분포 분석을 통한 과냉·Hot Spot 진단 및 냉방 설정온도 최적화",
+    "title": "발전소 급수·복수·해수펌프 가동대수와 VFD·유량·압력 통합 운전최적화",
     "classification": {
       "sector": "데이터센터",
       "system": [],
@@ -4861,7 +4858,7 @@ window.CASES_DATA = [
       "evidence": null,
       "ai": null
     },
-    "summary": "기존 HOMEPAGE-STORY-FINAL-LOCKED Story 그대로 사용",
+    "summary": "대형 발전소의 급수펌프 14대, 복수펌프 14대, 해수펌프 17대 등 다수의 병렬 펌프를 발전부하와 연계해 분석하고, 필요한 유량·압력·복수기 조건을 만족하면서 가동대수와 회전수를 조정해 보조동력을 줄이는 펌프시스템 운전최적화 사례.",
     "question": null,
     "story": {
       "situation": null,
@@ -4907,7 +4904,7 @@ window.CASES_DATA = [
   {
     "id": "CASE77",
     "number": 77,
-    "title": "지원시설 부하리스트·시간대별 소비패턴 분석을 통한 데이터센터 비IT 부하 진단 및 운전 최적화",
+    "title": "데이터센터 지원시설 부하리스트·소비패턴 분석을 통한 상시 Base Load 및 설비운영 개선",
     "classification": {
       "sector": "데이터센터",
       "system": [],
@@ -4916,7 +4913,7 @@ window.CASES_DATA = [
       "evidence": null,
       "ai": null
     },
-    "summary": "기존 HOMEPAGE-STORY-FINAL-LOCKED Story 그대로 사용",
+    "summary": "2017년 IDC 컨설팅에서 독립 개선항목으로 다룬 지원시설의 부하리스트·용량·소비패턴·센터별 소비지수 진단을 출발점으로, 24시간 지속되는 부하를 Essential Continuous Load와 Avoidable Continuous Load로 분리하고 Submetering·NILM·FDD·AI까지 확장하는 컨설팅 Story.",
     "question": null,
     "story": {
       "situation": null,
@@ -4974,7 +4971,7 @@ window.CASES_DATA = [
       "evidence": null,
       "ai": null
     },
-    "summary": "기존 HOMEPAGE-STORY-FINAL-LOCKED Story 그대로 사용",
+    "summary": "국내 반도체·디스플레이 제조시설의 실제 에너지효율관리 데이터 구조를 기반으로 개별 냉각수펌프의 성능편차와 시스템 필요 가동대수를 진단하고, 최신 반도체·디스플레이 제조시설의 Variable-Speed Pumping·Liquid Cooling·Continuous Commissioning·AI 성능예측으로 확장하는 사례입니다.",
     "question": null,
     "story": {
       "situation": null,
@@ -5037,7 +5034,7 @@ window.CASES_DATA = [
       "evidence": null,
       "ai": null
     },
-    "summary": "기존 HOMEPAGE-STORY-FINAL-LOCKED Story 그대로 사용",
+    "summary": "냉방부하가 변하는데도 냉수펌프가 고정된 대수로 운전되고 있지는 않은가? 실제 운전데이터와 EEMS의 가동대수·필요대수 로직을 이용하여 냉수펌프 과다운전을 찾고, 냉방서비스를 유지하면서 적정 운전대수를 결정하는 데이터 기반 진단 사례입니다.",
     "question": null,
     "story": {
       "situation": null,
@@ -5101,7 +5098,7 @@ window.CASES_DATA = [
       "evidence": null,
       "ai": null
     },
-    "summary": "기존 HOMEPAGE-STORY-FINAL-LOCKED Story 그대로 사용",
+    "summary": "냉방부하가 낮아졌는데도 냉동기 여러 대가 낮은 부하율로 계속 운전되고 있지는 않은가? 실제 냉방부하와 냉동기 가동대수·필요대수를 비교하고, 부분부하 효율과 보조설비 전력까지 고려하여 최적 운전조합을 찾는 데이터 기반 진단 사례입니다.",
     "question": null,
     "story": {
       "situation": null,
@@ -5166,7 +5163,7 @@ window.CASES_DATA = [
       "evidence": null,
       "ai": null
     },
-    "summary": "기존 HOMEPAGE-STORY-FINAL-LOCKED Story 그대로 사용",
+    "summary": "같은 외기조건에서 왜 특정 냉각탑만 더 높은 냉각수온도를 보이는가? 외기 습구온도와 냉각수 입·출구온도, 냉각부하와 Fan 운전상태를 연결하여 성능열위 냉각탑을 찾고, 개선 후 성능회복을 검증하는 데이터 기반 진단 사례입니다.",
     "question": null,
     "story": {
       "situation": null,
@@ -5226,13 +5223,13 @@ window.CASES_DATA = [
       "evidence": null,
       "ai": null
     },
-    "summary": "전기요금이 높다고 설비의 소비전력부터 줄이려 하지 않았습니다. 먼저 계약전력·요금적용전력·실제 Peak와 Load Factor를 센터별로 비교하고, 실제 Peak가 계약전력에 비해 낮고 기본요금 비중이 높은 조건을 선별하여 계약전력 조정 시나리오의 비용절감 가능성을 분석한 사례입니다.",
-    "question": "전기요금이 높다고 설비의 소비전력부터 줄이려 하지 않았습니다. 먼저 계약전력·요금적용전력·실제 Peak와 Load Factor를 센터별로 비교하고, 실제 Peak가 계약전력에 비해 낮고 기본요금 비중이 높은 조건을 선별하여 계약전력 조정 시나리오의 비용절감 가능성을 분석한 사례입니다.",
+    "summary": "기존 HOMEPAGE-STORY-FINAL-LOCKED Story 그대로 사용",
+    "question": null,
     "story": {
       "situation": null,
       "problem": null,
       "data": null,
-      "analysis": "센터별 전기소비량·전기요금·계약전력·요금적용전력·Peak 전력을 같은 기준으로 비교하고, Peak/계약전력 비율과 Load Factor를 분석합니다. 단일 Peak만으로 판단하지 않고 부하수준과 기본요금 구조를 함께 검토한 뒤 계약전력 변경 시나리오의 비용효과를 평가합니다. 실제 kWh 절감과 계약조건 변경에 따른 비용절감은 분리하여 해석합니다.",
+      "analysis": "기존 HOMEPAGE-STORY-FINAL-LOCKED Story 그대로 사용",
       "finding": null,
       "alternative": null,
       "decision": null,
@@ -5242,10 +5239,9 @@ window.CASES_DATA = [
       "grade": [],
       "status": "EVIDENCE-VERIFIED",
       "quantitativeEvidence": [],
-      "boundary": "데이터센터의 전력수요·요금 분석 범위에서 계약전력, 요금적용전력, 실제 Peak, Load Factor와 기본요금을 비교합니다. Energy KPI(kWh)와 계약조건 변경에 따른 Cost KPI(원/년)를 분리하여 평가합니다.",
+      "boundary": "기존 LOCK Boundary 유지",
       "allowedExpression": null,
-      "prohibitedExpression": null,
-      "publicText": "국내 데이터센터의 전력사용량·전기요금·계약전력·요금적용전력·Peak 및 Load Factor 비교자료를 기반으로 계약전력 적정성과 비용절감 시나리오를 분석했습니다. 제시된 비용절감은 계약전력 변경 시나리오의 예상효과이며 실제 절감실적과 구분합니다."
+      "prohibitedExpression": null
     },
     "source": {
       "public": "현장/프로젝트 자료 기반 사례",
