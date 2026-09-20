@@ -121,7 +121,7 @@
   {
     "id": "CASE03",
     "number": 3,
-    "title": "회수율 개선을 통한 주조공정 에너지원단위 절감 잠재량 분석",
+    "title": "회수율 개선을 통한 주조공정 에너지 원단위 절감 잠재량 분석",
     "classification": {
       "sector": "제조공장",
       "system": [
@@ -184,7 +184,7 @@
   {
     "id": "CASE04",
     "number": 4,
-    "title": "출탕량·Batch 확대를 통한 용해·주조 에너지원단위 개선",
+    "title": "출탕량·Batch 확대를 통한 용해·주조 에너지 원단위 개선",
     "classification": {
       "sector": "제조공장",
       "system": [
@@ -247,7 +247,7 @@
   {
     "id": "CASE05",
     "number": 5,
-    "title": "FM 공정 비가동시간 축소와 LOT 생산중량 확대를 통한 원단위 개선",
+    "title": "FM공정 비가동시간 축소와 LOT 생산중량 확대를 통한 원단위 개선",
     "classification": {
       "sector": "제조공장",
       "system": [],
@@ -305,7 +305,7 @@
   {
     "id": "CASE06",
     "number": 6,
-    "title": "사출·압출 공정과 Utility의 전력 소비구조 및 1분 단위 운전패턴 분석",
+    "title": "사출·압출 공정과 유틸리티의 전력 소비구조 및 1분 단위 운전패턴 분석",
     "classification": {
       "sector": "제조공장",
       "system": [
@@ -543,7 +543,7 @@
   {
     "id": "CASE10",
     "number": 10,
-    "title": "대형 냉동기 Plant 가동대수·COP·펌프·냉각탑 통합 운전최적화",
+    "title": "대형 냉동기 플랜트 가동대수·COP·펌프·냉각탑 통합 운전최적화",
     "classification": {
       "sector": "제조공장",
       "system": [
@@ -677,7 +677,7 @@
   {
     "id": "CASE12",
     "number": 12,
-    "title": "냉동·공조·압축공기 통합 운전데이터 분석",
+    "title": "냉동·공조·압축공기 통합 운전데이터 분석과 에너지 절감 잠재량 도출",
     "classification": {
       "sector": "제조공장",
       "system": [
@@ -735,7 +735,7 @@
   {
     "id": "CASE13",
     "number": 13,
-    "title": "4개 생산시설 냉동기·공기압축기 UPI Benchmark 및 가동 대수 최적화",
+    "title": "4개 생산시설 냉동기·공기압축기 UPI Benchmark 및 가동대수 최적화",
     "classification": {
       "sector": "제조공장",
       "system": [
@@ -943,7 +943,7 @@
   {
     "id": "CASE16",
     "number": 16,
-    "title": "대형 자동차공장 공기압축기 운전효율·UPI·수요패턴 최적화",
+    "title": "대형 자동차 공장의 공기압축기 운전효율·UPI·수요패턴 최적화",
     "classification": {
       "sector": "제조공장",
       "system": [
@@ -1277,7 +1277,7 @@
   {
     "id": "CASE21",
     "number": 21,
-    "title": "일관제철소 산소공장 압축기 원단위·최적 가동 대수·실시간 운전최적화",
+    "title": "일관제철소 산소공장 압축기 원단위·최적 가동대수·실시간 운전최적화",
     "classification": {
       "sector": "제조공장",
       "system": [
@@ -1458,7 +1458,7 @@
   {
     "id": "CASE24",
     "number": 24,
-    "title": "비철금속(구리) 제조공장 Utility 8% 절감 목표·Baseline·M&V 설계",
+    "title": "비철금속(구리) 제조공장 Utility 8% 절감목표·Baseline·M&V 설계",
     "classification": {
       "sector": "제조공장",
       "system": [
@@ -1521,7 +1521,7 @@
   {
     "id": "CASE25",
     "number": 25,
-    "title": "흑연·2차전지 원료 제조공장 공기압축기 UPI·가동 대수·Loading/Unloading 운전최적화",
+    "title": "흑연·2차전지 원료 제조공장 공기압축기 UPI·가동대수·Loading/Unloading 운전최적화",
     "classification": {
       "sector": "제조공장",
       "system": [
@@ -1945,7 +1945,7 @@
   {
     "id": "CASE32",
     "number": 32,
-    "title": "15분 전력데이터 기반 대형 사찰 에너지 소비패턴 분석",
+    "title": "15분 전력데이터로 찾아낸 건물의 시간대별 에너지 소비구조",
     "classification": {
       "sector": "건물",
       "system": [],
@@ -2296,7 +2296,7 @@
   {
     "id": "CASE38",
     "number": 38,
-    "title": "다중 IDC 센터 PUE·냉방설비 데이터 분석과 EC Fan·외기냉방 최적화",
+    "title": "다중 IDC 센터의 PUE·냉방설비 데이터 분석과 EC Fan·외기냉방 최적화",
     "classification": {
       "sector": "데이터센터",
       "system": [
@@ -2430,7 +2430,7 @@
   {
     "id": "CASE40",
     "number": 40,
-    "title": "HDD Baseline 기반 지역난방 스마트 운전 최적화 및 절감 성과 검증",
+    "title": "HDD Baseline 기반 지역난방 스마트 운전 최적화 및 절감성과 검증",
     "classification": {
       "sector": "지역난방·공동주택",
       "system": [
@@ -2493,7 +2493,7 @@
   {
     "id": "CASE41",
     "number": 41,
-    "title": "지역난방 공급 수온·배관 열 손실·공급 펌프 통합 운전최적화",
+    "title": "지역난방 공급수온·배관 열손실·공급펌프 통합 운전최적화",
     "classification": {
       "sector": "지역난방·공동주택",
       "system": [
@@ -5223,25 +5223,26 @@
       "evidence": null,
       "ai": null
     },
-    "summary": "기존 HOMEPAGE-STORY-FINAL-LOCKED Story 그대로 사용",
+    "summary": "전기요금이 높다고 설비의 소비전력부터 줄이려 하지 않고, 계약전력·요금적용전력·실제 Peak와 Load Factor를 센터별로 비교해 비용구조를 진단했습니다. 실제 Peak가 계약전력에 비해 낮고 기본요금 비중이 높은 센터를 선별한 뒤 계약전력 조정 시나리오의 비용절감 가능성을 검토했습니다.",
     "question": null,
     "story": {
-      "situation": null,
-      "problem": null,
-      "data": null,
-      "analysis": "기존 HOMEPAGE-STORY-FINAL-LOCKED Story 그대로 사용",
-      "finding": null,
-      "alternative": null,
-      "decision": null,
-      "result": null
+      "situation": "데이터센터의 전기요금은 사용전력량(kWh)뿐 아니라 계약전력과 요금적용전력 등 계약조건의 영향을 받습니다. 따라서 설비효율 개선에 앞서 실제 최대수요와 계약조건이 서로 적정한지 확인할 필요가 있습니다.",
+      "problem": "비교 대상 중 한 센터는 계약전력 20,000 kW에 비해 2016년 Peak가 4,328 kW였고, 계약전력 대비 Peak 비율은 22%, IDC Load Factor는 37%, 기본요금 비중은 31%로 제시되었습니다. 계약전력 과다 가능성과 낮은 Load Factor 문제를 구분해 판단해야 했습니다.",
+      "data": "센터별 전기소비량, 전기요금, 계약전력, 요금적용전력, Peak 전력, 기본요금 단가, IT 에너지소비량과 PUE를 비교했습니다.",
+      "analysis": "계약전력·요금적용전력·실제 Peak를 나란히 비교하고 Peak/Contract Power 비율과 IDC Load Factor를 계산했습니다. 센터 간 기본요금 비중과 전력사용 특성을 Benchmarking하여 이상센터를 선별하고, 계약전력 20,000 kW를 12,000 kW로 조정하는 시나리오의 비용효과를 검토했습니다. 계약전력 조정과 Peak 저감은 서로 다른 문제로 구분했습니다.",
+      "finding": "분석 대상 센터는 계약전력 20,000 kW, 2016년 요금적용전력 6,000 kW, Peak 4,328 kW, 계약전력 대비 Peak 22%, IDC Load Factor 37%, 기본요금 비중 31%로 제시되어 계약전력 적정성의 상세검토 필요성이 확인되었습니다.",
+      "alternative": "현재 Peak만을 기준으로 계약전력을 최소화하는 대신 향후 부하증가 가능성과 운영 Risk를 고려해 적정 계약전력 범위를 검토했습니다. 원자료에서는 20,000 kW에서 12,000 kW로 조정하는 계약변경 시나리오를 제시했습니다.",
+      "decision": "목표는 단순한 최소 계약전력이 아니라 현재 Peak와 향후 예상부하를 안정적으로 수용하면서 불필요한 기본요금을 줄일 수 있는 적정 계약전력을 찾는 것입니다.",
+      "result": "계약전력을 12,000 kW로 변경하는 시나리오에서 예상 절감액은 167백만원/년(약 1.67억원/년)으로 제시되었습니다. 이는 계약변경 시나리오에 따른 예상 비용절감이며 실제 계약변경 후 검증된 절감실적이나 kWh 절감성과가 아닙니다."
     },
     "evidence": {
       "grade": [],
       "status": "EVIDENCE-VERIFIED",
       "quantitativeEvidence": [],
-      "boundary": "기존 LOCK Boundary 유지",
+      "boundary": "분석범위는 데이터센터의 전력사용량과 전기요금, 계약전력·요금적용전력·Peak 및 Load Factor의 비교입니다. Energy KPI(kWh)와 Cost KPI(원/년)를 구분하며, 계약전력 변경 시나리오는 설비의 kWh 절감성과가 아니라 계약조건 조정에 따른 비용효과 검토 범위로 평가합니다.",
       "allowedExpression": null,
-      "prohibitedExpression": null
+      "prohibitedExpression": null,
+      "publicText": "현장 자료에서 센터별 전기소비량·전기요금·계약전력·요금적용전력·Peak·Load Factor를 비교했습니다. 대표 분석값은 계약전력 20,000 kW, 2016년 요금적용전력 6,000 kW, Peak 4,328 kW, 계약전력 대비 Peak 22%, IDC Load Factor 37%, 기본요금 비중 31%입니다. 12,000 kW 계약변경안의 167백만원/년은 실제 절감실적이 아니라 시나리오 기반 예상 비용절감입니다."
     },
     "source": {
       "public": "현장/프로젝트 자료 기반 사례",

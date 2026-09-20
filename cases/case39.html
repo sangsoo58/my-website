@@ -1,3 +1,421 @@
 <!DOCTYPE html>
 
-<html lang="ko"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/><link href="https://www.energy-ai-optimization.com/cases/case39.html" rel="canonical"/><link href="../css/site.css" rel="stylesheet"/><link href="../css/cases.css" rel="stylesheet"/><title>CASE39 | 다중 데이터센터 PUE·냉방효율 실시간 진단 및 IPOS 성능최적화 | 글로벌 에너지 최적화 연구소</title><meta content="데이터센터 PUE PUE 사례: 다중 데이터센터 PUE·냉방효율 실시간 진단 및 IPOS 성능최적화. 분석 범위와 Evidence를 확인합니다." name="description"/><meta content="article" property="og:type"/><meta content="다중 데이터센터 PUE·냉방효율 실시간 진단 및 IPOS 성능최적화" property="og:title"/><meta content="데이터센터 PUE PUE 사례: 다중 데이터센터 PUE·냉방효율 실시간 진단 및 IPOS 성능최적화. 분석 범위와 Evidence를 확인합니다." property="og:description"/><meta content="https://www.energy-ai-optimization.com/cases/case39.html" property="og:url"/><meta content="글로벌 에너지 최적화 연구소" property="og:site_name"/><meta content="summary" name="twitter:card"/><meta content="다중 데이터센터 PUE·냉방효율 실시간 진단 및 IPOS 성능최적화" name="twitter:title"/><meta content="데이터센터 PUE PUE 사례: 다중 데이터센터 PUE·냉방효율 실시간 진단 및 IPOS 성능최적화. 분석 범위와 Evidence를 확인합니다." name="twitter:description"/><script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "TechArticle", "headline": "다중 데이터센터 PUE·냉방효율 실시간 진단 및 IPOS 성능최적화", "description": "데이터센터 PUE PUE 사례: 다중 데이터센터 PUE·냉방효율 실시간 진단 및 IPOS 성능최적화. 분석 범위와 Evidence를 확인합니다.", "url": "https://www.energy-ai-optimization.com/cases/case39.html", "publisher": {"@type": "Organization", "name": "글로벌 에너지 최적화 연구소", "url": "https://www.energy-ai-optimization.com/"}, "about": [{"@type": "Thing", "name": "PUE"}, {"@type": "Thing", "name": "PUE"}]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "HOME", "item": "https://www.energy-ai-optimization.com/"}, {"@type": "ListItem", "position": 2, "name": "CASE STUDIES", "item": "https://www.energy-ai-optimization.com/#cases"}, {"@type": "ListItem", "position": 3, "name": "CASE39", "item": "https://www.energy-ai-optimization.com/cases/case39.html"}]}]}</script></head><body class="case-page detail-page" data-case-id="CASE39"><a class="skip-link" href="#main">본문 바로가기</a><header class="site-header"><div class="header-inner container"><a aria-label="글로벌 에너지 최적화 연구소 홈" class="brand" href="../"><span aria-hidden="true" class="brand-mark">EO</span><span class="brand-copy"><strong>글로벌 에너지 최적화 연구소</strong><small>Global Energy Optimization Lab</small></span></a><button aria-controls="primary-nav" aria-expanded="false" aria-label="메뉴 열기" class="nav-toggle" type="button"><span></span><span></span><span></span></button><nav aria-label="주 메뉴" class="primary-nav" id="primary-nav"><a href="../#services">에너지 절감 컨설팅</a><a href="../#mv">Baseline &amp; M&amp;V</a><a href="../#cases">절감 사례</a><a href="../#insight">Energy Insight</a><a href="../book/index.html">저서 온라인 열람</a><a href="../#expert">전문가 소개</a><a class="nav-cta" href="../#contact">에너지 절감 상담</a></nav></div></header><main class="case-detail-main" id="main"><div class="container" id="case-detail-root"></div></main><footer class="site-footer"><div class="container footer-bottom"><span>© <span id="year">2026</span> Global Energy Optimization Lab.</span><a href="../#cases">CASE LIST ↑</a></div></footer><script src="../data/cases-data.js"></script><script src="../js/case-detail.js"></script><script src="../js/site.js"></script></body></html>
+<html class="no-js" lang="ko">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#0b1f33" name="theme-color"/>
+<meta content="다수 데이터센터의 PUE·냉방효율·냉방기효율을 실시간 진단하고, 과냉·가동대수·Free Cooling·냉동기·냉각수계통을 데이터 기반으로 최적화하여 PUE 1.77에서 1.70을 목표로 한 성능개선 컨설팅 제안 사례입니다." name="description"/>
+<meta content="데이터센터 컨설팅, 데이터센터 에너지절감, PUE 최적화, IDC 에너지 성능, IPOS, 데이터센터 냉방효율, 데이터센터 냉동기, Free Cooling, 냉방기 가동대수, 데이터센터 M&amp;V" name="keywords"/>
+<link href="https://www.energy-ai-optimization.com/cases/data-center-ipos-performance-optimization.html" rel="canonical"/>
+<link href="../assets/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="../assets/styles.css" rel="stylesheet"/>
+<title>다중 데이터센터 PUE·냉방효율 실시간 진단 및 IPOS 성능최적화 | 글로벌 에너지 최적화 연구소</title>
+<style id="detail-critical-visibility">
+    .case-detail-main, .case-detail-main .container, .case-detail-hero,
+    .case-detail-hero-grid, .case-detail-section, .case-detail-cta,
+    .model-grid, .model-card, .scenario-table-wrap, .verification-box {
+      visibility: visible !important;
+      opacity: 1 !important;
+    }
+    .case-detail-main, .case-detail-hero, .case-detail-section {
+      display: block !important;
+    }
+  </style>
+<meta content="strict-origin-when-cross-origin" name="referrer"/><script>document.documentElement.classList.remove('no-js');document.documentElement.classList.add('js');</script><style data-format-master="CASE42-81">
+.final-lock-content{max-width:1000px;margin:0 auto;padding:32px 0}
+.final-lock-content>header,.final-lock-content>section{margin:0 0 28px}
+.final-lock-content h1{font-size:clamp(2rem,4vw,3.25rem);line-height:1.15}
+.final-lock-content h2{margin-top:0}
+.final-lock-content p{line-height:1.8}
+.final-lock-content .tag{display:inline-block;margin:4px 6px 4px 0;padding:6px 10px;border-radius:999px;background:#eef2f6}
+.final-lock-content .case-web-assets img{display:block;width:100%;height:auto;max-width:1000px;margin:0 auto}
+.final-lock-content .case-web-assets figcaption{text-align:center;margin-top:10px;color:#5b6472;font-size:.9rem;line-height:1.55}
+.final-lock-content table{width:100%;border-collapse:collapse}
+@media(max-width:720px){.final-lock-content{padding:20px 0}.final-lock-content h1 br{display:none}.final-lock-content table{display:block;overflow-x:auto}}
+
+.final-lock-content table{width:100%;border-collapse:collapse;margin:18px 0 24px;background:#fff}
+.final-lock-content th,.final-lock-content td{border:1px solid #d7dee5;padding:11px 14px;text-align:left;vertical-align:top;line-height:1.55}
+.final-lock-content th{background:#f3f6f8;font-weight:700}
+@media(max-width:720px){
+.final-lock-content table{display:block;overflow-x:auto;-webkit-overflow-scrolling:touch}
+.final-lock-content th,.final-lock-content td{min-width:120px}
+}
+.final-lock-content .note{background:#f5f7f9;border-left:4px solid #174a7e;padding:16px 19px;margin:20px 0}
+.final-lock-content .warn{background:#fff7e6}
+.final-lock-content .fact{background:#edf7ef;border-left-color:#2f6b3b}
+.final-lock-content .tech{background:#eef4fb;border-left-color:#315f8d}
+.final-lock-content .grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px}
+.final-lock-content .card{border:1px solid #dbe2e8;border-radius:12px;padding:18px;min-width:0}
+.final-lock-content .num{font-size:27px;font-weight:700;color:#174a7e}
+.final-lock-content .quote{font-size:20px;font-weight:700;border-left:5px solid #24415d;padding-left:18px;color:#24415d}
+.final-lock-content .flow{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px}
+.final-lock-content .flow>div{background:#f4f7f9;border:1px solid #dbe2e8;border-radius:9px;padding:13px 7px;text-align:center;font-weight:700;min-width:0}
+.final-lock-content .bar{display:grid;grid-template-columns:minmax(105px,160px) minmax(0,1fr) minmax(80px,110px);gap:10px;align-items:center;margin:10px 0}
+.final-lock-content .track{height:24px;background:#e7edf2;overflow:hidden}
+.final-lock-content .fill{height:100%;background:#315f89}
+@media(max-width:700px){
+  .final-lock-content .grid,.final-lock-content .flow{grid-template-columns:1fr}
+  .final-lock-content .bar{grid-template-columns:105px minmax(0,1fr) 80px}
+  .final-lock-content .num{font-size:23px}
+  .final-lock-content .quote{font-size:18px}
+}</style></head>
+<body class="case-page detail-page">
+<a class="skip-link" href="#main">본문 바로가기</a>
+<header class="site-header scrolled">
+<div class="header-inner container">
+<a aria-label="글로벌 에너지 최적화 연구소 홈" class="brand" href="../">
+<span aria-hidden="true" class="brand-mark">EO</span>
+<span class="brand-copy">
+<strong>글로벌 에너지 최적화 연구소</strong>
+<small>GLOBAL ENERGY OPTIMIZATION LAB</small>
+</span>
+</a>
+<button aria-controls="primary-nav" aria-expanded="false" aria-label="메뉴 열기" class="nav-toggle" type="button"><span></span><span></span><span></span></button><nav aria-label="주 메뉴" class="primary-nav archive-nav" id="primary-nav">
+<a href="../#services">에너지 절감 컨설팅</a>
+<a href="../#mv">Baseline &amp; M&amp;V</a>
+<a class="active" href="./">절감 사례</a>
+<a href="../#insight">Energy Insight</a><a href="../book/">저서 온라인 열람</a>
+<a href="../#expert">전문가 소개</a>
+<a class="nav-cta" href="../#contact">에너지 절감 상담</a>
+</nav>
+</div>
+</header>
+<main class="case-detail-main final-lock-content" id="main">
+<div class="container">
+<section class="case-detail-hero">
+<div class="case-detail-breadcrumb">
+<a href="../">홈</a><span>›</span><a href="./">절감 사례</a><span>›</span>
+<strong>국내 데이터센터 운영 B사</strong>
+</div>
+<div class="case-detail-hero-grid">
+<div>
+<p class="eyebrow">DATA CENTER · PUE · REAL-TIME DIAGNOSIS · COOLING OPTIMIZATION · IPOS</p>
+<h1>다중 데이터센터 PUE·냉방효율 실시간 진단 및 IPOS 성능최적화</h1>
+<p class="case-detail-lead">
+              다수 IDC의 전체전력·IT전력·냉방전력과 냉방기·냉동기·냉각탑 운전데이터를 통합하여
+              PUE, 냉방효율, 냉방기효율을 진단하고, 과냉·가동대수·설정온도·Free Cooling·
+              냉각수계통과 설비효율을 지속적으로 최적화하는 데이터센터 성능개선 플랫폼 구축 제안 사례입니다.
+            </p>
+<div class="case-detail-tags">
+<span>데이터센터</span><span>IDC</span><span>PUE</span>
+<span>IPOS</span><span>냉방효율</span><span>Free Cooling</span>
+<span>가동대수</span><span>실시간 진단</span><span>M&amp;V</span>
+</div>
+</div>
+<aside class="case-summary-panel">
+<span class="case-state live">성능개선 제안 사례</span>
+<small>24개월 1차 목표</small>
+<strong>PUE 1.77 → 1.70</strong>
+<dl>
+<div><dt>고객</dt><dd>국내 데이터센터 운영 B사</dd></div>
+<div><dt>대상</dt><dd>복수 IDC · 냉방 인프라</dd></div>
+<div><dt>예상 절감량</dt><dd>6.5 GWh/년</dd></div>
+<div><dt>예상 절감액</dt><dd>약 7.53억원/년</dd></div>
+</dl>
+<p>
+              수치는 실행 전 목표이며, 실제 절감성과는 IT부하·외기조건 등을 반영한
+              M&amp;V를 통해 별도로 확정해야 합니다.
+            </p>
+</aside>
+</div>
+</section>
+<section class="case-detail-section">
+<p class="eyebrow">01 · BASELINE</p>
+<h2>기존 에너지성능과 PUE 구조</h2>
+<div class="model-grid">
+<article class="model-card">
+<span>2016 Total Electricity</span>
+<strong>176,885 MWh/년</strong>
+<p>3개 센터 합산 전력사용량</p>
+</article>
+<article class="model-card">
+<span>2016 Electricity Cost</span>
+<strong>20,486 백만원/년</strong>
+<p>3개 센터 합산 전력비</p>
+</article>
+<article class="model-card">
+<span>IT Equipment Energy</span>
+<strong>97,429 MWh/년</strong>
+<p>IT 장비 연간 전력소비량</p>
+</article>
+<article class="model-card">
+<span>2016 Average PUE</span>
+<strong>1.82</strong>
+<p>보고서 기준 3개 센터 평균</p>
+</article>
+</div>
+</section>
+<section class="case-detail-section">
+<p class="eyebrow">02 · COOLING CAPACITY</p>
+<h2>냉방능력 대비 평균 냉방부하와 가동대수</h2>
+<div class="scenario-table-wrap">
+<table class="scenario-table">
+<thead>
+<tr>
+<th>항목</th>
+<th>3개 센터 합산</th>
+<th>진단 의미</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>설치 냉방기</strong></td>
+<td>594대</td>
+<td>다수의 냉방기가 병렬로 구성된 대규모 IDC</td>
+</tr>
+<tr>
+<td><strong>냉방능력</strong></td>
+<td>14,890 RT/h</td>
+<td>설치 냉방능력</td>
+</tr>
+<tr>
+<td><strong>평균 냉방부하</strong></td>
+<td>3,154 RT/h</td>
+<td>평균부하 기준 설치 냉방능력 대비 약 21%</td>
+</tr>
+<tr>
+<td><strong>평균부하 기준 필요가동대수</strong></td>
+<td>132대</td>
+<td>가동대수·부하율 최적화 검토 기준</td>
+</tr>
+<tr>
+<td><strong>설치대수 대비 여유</strong></td>
+<td>462대</td>
+<td>철거대수 의미가 아니라 수요대응 가동대수 최적화 여지를 보여주는 지표</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section class="case-detail-section">
+<p class="eyebrow">03 · WHY DATA QUALITY MATTERS</p>
+<h2>센터별 계측환경 차이부터 정리해야 정확한 최적화가 가능</h2>
+<div class="verification-box">
+<strong>계측주기와 측정항목의 불일치</strong>
+<p>
+            보고서에서는 센터별 전력·온도 데이터의 저장주기가 1분, 15분, 1시간 등으로 서로 다르고,
+            일부 센터에는 냉방기별 소비전력이나 펌프전력, 냉방기 출구온도 데이터가 부족한 것으로 정리했습니다.
+            따라서 추가계측과 기존 센서 Calibration, 데이터 정합성 검증을 성능개선의 선행조건으로 제안했습니다.
+          </p>
+</div>
+</section>
+<section class="case-detail-section">
+<p class="eyebrow">04 · PERFORMANCE DIAGNOSIS</p>
+<h2>PUE만 보지 않고 냉방효율과 기기효율을 함께 진단</h2>
+<div class="scenario-table-wrap">
+<table class="scenario-table">
+<thead>
+<tr>
+<th>성능지표</th>
+<th>정의</th>
+<th>활용</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>PUE</strong></td>
+<td>전체 사용전력 ÷ IT 장비 사용전력</td>
+<td>센터·층별 인프라 에너지성능 비교 · 낮을수록 유리</td>
+</tr>
+<tr>
+<td><strong>냉방효율</strong></td>
+<td>냉방전력소비 ÷ IT 서버 전력소비</td>
+<td>IT 부하 대비 냉방 전력수준 진단 · 낮을수록 유리</td>
+</tr>
+<tr>
+<td><strong>냉방기효율</strong></td>
+<td>냉방에너지 공급 ÷ 냉방기 전력소비</td>
+<td>개별 냉방기·냉동기 효율 진단 · 높을수록 유리</td>
+</tr>
+<tr>
+<td><strong>UPI / DRE / ERE / TCE</strong></td>
+<td>종합성능 / 가동효율 / 기기효율 / 제어효율</td>
+<td>가동대수·설비상태·제어상태의 문제원인을 분리해 조치</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section class="case-detail-section">
+<p class="eyebrow">05 · OPTIMIZATION ITEMS</p>
+<h2>주요 성능최적화 항목</h2>
+<div class="scenario-table-wrap">
+<table class="scenario-table">
+<thead>
+<tr>
+<th>영역</th>
+<th>최적화 내용</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>과냉 방지</strong></td>
+<td>Zone별 설정온도와 실제 전산실온도 비교, 센서 Calibration, 부분 과냉구역 조치</td>
+</tr>
+<tr>
+<td><strong>가동대수</strong></td>
+<td>IT 부하와 냉방부하에 맞춰 냉방기·냉동기 가동대수와 우선순위 조정</td>
+</tr>
+<tr>
+<td><strong>Free Cooling</strong></td>
+<td>외기조건과 층별 부하를 고려해 외기냉방 전환기준과 운전방법 최적화</td>
+</tr>
+<tr>
+<td><strong>냉동기 효율</strong></td>
+<td>냉매·압축기·열교환기 상태 및 COP, 설정온도, 부하분담 최적화</td>
+</tr>
+<tr>
+<td><strong>냉각수 계통</strong></td>
+<td>냉각탑·냉각수펌프·냉수펌프 유량·온도·가동대수 최적화</td>
+</tr>
+<tr>
+<td><strong>Hot Spot / Air Flow</strong></td>
+<td>공기유동성, 다공판·공급덕트·하부구획 등 전산실 냉기 분배 개선</td>
+</tr>
+<tr>
+<td><strong>지원시설</strong></td>
+<td>센터별 지원시설 소비지수 분석 및 전력계약조건 검토</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section class="case-detail-section">
+<p class="eyebrow">06 · CONTINUOUS PLATFORM</p>
+<h2>일회성 진단이 아니라 지속 성능개선 플랫폼 구축</h2>
+<div class="scenario-table-wrap">
+<table class="scenario-table">
+<thead>
+<tr>
+<th>단계</th>
+<th>주요 수행내용</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>1. 현장조사</strong></td>
+<td>냉방시스템/설비 DB 작성, 기존 계측기 및 추가계측 소요 확인</td>
+</tr>
+<tr>
+<td><strong>2. 데이터 기반구축</strong></td>
+<td>계측기 설치지원, 데이터연계, 정합성 검증, 센서 Calibration</td>
+</tr>
+<tr>
+<td><strong>3. IPOS 구축</strong></td>
+<td>센터통합 모니터링, PUE·냉방효율·냉방기효율 진단, 트렌드·상관관계 분석</td>
+</tr>
+<tr>
+<td><strong>4. 운전최적화</strong></td>
+<td>가동대수·설정온도·Free Cooling·냉각수계통·고효율설비 우선운전</td>
+</tr>
+<tr>
+<td><strong>5. 반복개선</strong></td>
+<td>데이터분석 → 문제점 확인 → 개선활동 → 결과확인을 반복</td>
+</tr>
+<tr>
+<td><strong>6. 기술축적</strong></td>
+<td>성능개선 과정 공유, 운영인력 교육 및 자체 최적화 역량 강화</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="source-note">
+          보고서 내 실시간 진단주기는 일부 페이지에서 5분과 15분으로 다르게 표기되어 있어,
+          공개페이지에서는 특정 주기를 단정하지 않고 “실시간 성능진단”으로 표현했습니다.
+        </p>
+</section>
+<section class="case-detail-section">
+<p class="eyebrow">07 · TARGET PERFORMANCE</p>
+<h2>제안된 성능개선 목표</h2>
+<div class="scenario-table-wrap">
+<table class="scenario-table">
+<thead>
+<tr>
+<th>구분</th>
+<th>PUE</th>
+<th>연간 예상 절감량</th>
+<th>연간 예상 절감액</th>
+<th>냉방에너지 절감률</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>2017 추정 기준</strong></td>
+<td>1.77</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td><strong>24개월 1차 목표</strong></td>
+<td class="saving-cell">1.70</td>
+<td class="saving-cell">6.5 GWh/년</td>
+<td class="saving-cell">약 7.53억원/년</td>
+<td>8.81%</td>
+</tr>
+<tr>
+<td><strong>중장기 목표</strong></td>
+<td class="saving-cell">1.65</td>
+<td class="saving-cell">11.3 GWh/년</td>
+<td class="saving-cell">약 13.1억원/년</td>
+<td>15.3%</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="verification-box">
+<strong>목표값과 실제 실적을 구분</strong>
+<p>
+            1.70과 1.65는 제안서에서 제시한 성능개선 목표이며,
+            실제 개선 완료 후 검증된 PUE나 절감량이 아닙니다.
+            홈페이지에서도 “예상 절감량/목표”로 표시했습니다.
+          </p>
+</div>
+</section>
+<section class="case-detail-section">
+<p class="eyebrow">08 · QUICK WIN</p>
+<h2>전력 계약조건도 데이터센터 비용최적화 대상</h2>
+<div class="verification-box">
+<strong>일부 센터 계약전력 적정화 검토</strong>
+<p>
+            보고서에서는 한 센터의 계약전력이 실제 Peak와 요금적용전력에 비해 높은 점을 확인하고
+            계약전력 조정을 통해 연간 약 1.67억원의 비용절감 가능성을 제안했습니다.
+            이는 냉방효율 개선과 별개의 전력요금 최적화 항목입니다.
+          </p>
+</div>
+</section>
+<section class="case-detail-section">
+<p class="eyebrow">09 · M&amp;V</p>
+<h2>PUE 개선성과는 IT 부하와 외기조건을 함께 보정해 검증</h2>
+<div class="verification-box">
+<strong>단순 전력량 전후비교만으로는 부족</strong>
+<p>
+            데이터센터 전력은 IT 부하와 외기온도에 크게 영향을 받으므로,
+            기준기간의 Facility 전력·IT 전력·외기온도·냉방운전조건을 확보하고 개선기간의 동일 지표와 비교해야 합니다.
+            계측주기와 센서 정합성을 통일한 뒤 센터·층별 PUE, 냉방효율, 냉방기효율을 함께 검증하는 것이 적절합니다.
+          </p>
+</div>
+<p class="source-note">
+          자료 기준: 국내 데이터센터 운영사의 다중 IDC 에너지성능개선 사업제안 ·
+          실제 고객사명·센터명·개인명·조직정보·세부 계약/예산정보는 비식별 처리
+        </p>
+</section>
+<section class="case-detail-cta">
+<div>
+<p class="eyebrow light">DATA CENTER · PUE · COOLING PERFORMANCE · REAL-TIME OPTIMIZATION</p>
+<h2>데이터센터 성능개선은 PUE 한 숫자보다 냉방효율의 원인을 실시간으로 분해하는 것이 중요합니다.</h2>
+<p>IT부하·PUE·냉방전력·설비효율·외기조건을 함께 분석하면 과냉, 불필요 가동대수, Free Cooling과 냉동기/냉각수계통의 개선기회를 구체화할 수 있습니다.</p>
+</div>
+<a class="button button-submit" href="../#contact">데이터센터 에너지성능 컨설팅 상담하기</a>
+</section>
+</div>
+<section class="approval-supplement"><h2>전문가 해설과 확장 적용</h2><div class="note"><h3>배경·기술적 맥락</h3><p>데이터센터는 IT 부하와 냉각·전력 인프라를 분리해 보되 PUE 등 지표와 공기관리, 냉각, 전력계통, 계측을 함께 관리하는 시스템 접근이 중요하다.</p></div><div class="note tech"><h3>Engineering Interpretation</h3><p>데이터센터에서는 IT 부하가 기준이 되므로 전체 전력만 줄이는 것보다 IT 부하 대비 냉각·전력 인프라의 부가 에너지를 분리해 추적하는 것이 해석에 유리하다.</p></div><div class="note"><h3>응용 가능 분야</h3><p>IDC, HPC, 통신시설 및 고밀도 전산실에서 PUE와 냉각·전력 인프라를 함께 관리하는 방식으로 확장할 수 있다.</p></div><div class="note warn"><h3>M&amp;V 실무 고려사항</h3><p>향후 성과검증에서는 총 시설전력과 IT Load를 분리하고 냉각부하, 외기조건 및 냉각설비 운전상태를 동일 시간축으로 관리하는 것이 적절하다. PUE 변화는 IT 부하 변화와 함께 해석해야 하며, 개선 전후 비교기간의 부하조건을 명확히 기록하는 것이 중요하다.</p></div><div class="note fact"><h3>Consultant's Point</h3><p>데이터센터는 총전력 절감보다 IT 부하와 비IT 인프라 전력을 분리해 보는 것이 먼저다. PUE와 냉각·전력계통 데이터를 같은 시간축으로 보면 개선효과의 원인을 더 명확하게 해석할 수 있다.</p></div><div class="note"><h3>AI·데이터 활용 확장</h3><p>시계열 계측데이터가 충분히 축적되는 경우 부하예측, 이상운전 탐지 또는 운전조건 추천을 후속 적용으로 검토할 수 있다. 이는 향후 확장 가능성에 대한 제안이며 원래 CASE에서 AI를 적용했다는 의미는 아니다.</p></div><div class="note"><h3>International / External Reference</h3><p>U.S. Department of Energy, Federal Energy Management Program의 「Best Practices Guide for Energy-Efficient Data Center Design」는 이 CASE와 관련된 시스템 효율화의 일반적 기술 배경을 제공한다. 이 자료는 원래 CASE의 현장 실적이나 Evidence가 아니라 외부 참고자료이다. <a href="https://www.energy.gov/cmei/femp/articles/best-practices-guide-energy-efficient-data-center-design" rel="noopener noreferrer" target="_blank">Reference</a></p></div></section><!-- CASE39 APPROVAL FINAL CANDIDATE: ORIGINAL LOCKED CONTENT PRESERVED + SUPPLEMENTARY CONTENT --></main>
+<footer class="site-footer compact-footer">
+<div class="container footer-bottom">
+<span>© <span id="year">2026</span> Global Energy Optimization Lab. All rights reserved.</span>
+<a href="../privacy.html">개인정보처리방침</a><a href="./">CASE LIST ↑</a>
+</div>
+</footer>
+<script defer="" src="../assets/script.js"></script></body>
+</html>
