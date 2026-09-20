@@ -17,6 +17,24 @@
 @media(max-width:720px){
 .final-lock-content table{display:block;overflow-x:auto;-webkit-overflow-scrolling:touch}
 .final-lock-content th,.final-lock-content td{min-width:120px}
+}</style><style data-structured-ui-fix="rev06">.final-lock-content .note{background:#f5f7f9;border-left:4px solid #174a7e;padding:16px 19px;margin:20px 0}
+.final-lock-content .warn{background:#fff7e6}
+.final-lock-content .fact{background:#edf7ef;border-left-color:#2f6b3b}
+.final-lock-content .tech{background:#eef4fb;border-left-color:#315f8d}
+.final-lock-content .grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px}
+.final-lock-content .card{border:1px solid #dbe2e8;border-radius:12px;padding:18px;min-width:0}
+.final-lock-content .num{font-size:27px;font-weight:700;color:#174a7e}
+.final-lock-content .quote{font-size:20px;font-weight:700;border-left:5px solid #24415d;padding-left:18px;color:#24415d}
+.final-lock-content .flow{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px}
+.final-lock-content .flow>div{background:#f4f7f9;border:1px solid #dbe2e8;border-radius:9px;padding:13px 7px;text-align:center;font-weight:700;min-width:0}
+.final-lock-content .bar{display:grid;grid-template-columns:minmax(105px,160px) minmax(0,1fr) minmax(80px,110px);gap:10px;align-items:center;margin:10px 0}
+.final-lock-content .track{height:24px;background:#e7edf2;overflow:hidden}
+.final-lock-content .fill{height:100%;background:#315f89}
+@media(max-width:700px){
+  .final-lock-content .grid,.final-lock-content .flow{grid-template-columns:1fr}
+  .final-lock-content .bar{grid-template-columns:105px minmax(0,1fr) 80px}
+  .final-lock-content .num{font-size:23px}
+  .final-lock-content .quote{font-size:18px}
 }</style></head><body class="case-page detail-page" data-case-id="CASE61"><a class="skip-link" href="#main">본문 바로가기</a><header class="site-header"><div class="header-inner container"><a aria-label="글로벌 에너지 최적화 연구소 홈" class="brand" href="../"><span aria-hidden="true" class="brand-mark">EO</span><span class="brand-copy"><strong>글로벌 에너지 최적화 연구소</strong><small>Global Energy Optimization Lab</small></span></a><button aria-controls="primary-nav" aria-expanded="false" aria-label="메뉴 열기" class="nav-toggle" type="button"><span></span><span></span><span></span></button><nav aria-label="주 메뉴" class="primary-nav" id="primary-nav"><a href="../#services">에너지 절감 컨설팅</a><a href="../#mv">Baseline &amp; M&amp;V</a><a href="../#cases">절감 사례</a><a href="../#insight">Energy Insight</a><a href="../book/index.html">저서 온라인 열람</a><a href="../#expert">전문가 소개</a><a class="nav-cta" href="../#contact">에너지 절감 상담</a></nav></div></header><main class="case-detail-main" id="main"><div class="container" id="case-detail-root"><div class="detail-shell final-lock-content"><header><b>CASE61 · APPROVED · FINAL-LOCK · Evidence C | Diagnosis / Optimization Plan</b><h1>CDA 압축공기 Demand 패턴 분석 및 수요 변동폭 저감을 통한<br/>공기압축기 가동대수 최적화</h1><p class="lead">압축기 가동대수가 자주 증가하는 현상을 공급설비 부족으로 단정하지 않고, 시간대별 압축공기 Demand와 Peak 발생원인을 먼저 추적하여 수요 변동폭을 완화한 뒤 실제 필요한 최소 Compressor 대수를 다시 결정하려 한 수요측 중심의 시스템 최적화 사례.</p><span class="tag">CDA Demand</span><span class="tag">Peak Demand</span><span class="tag">Demand Variability</span><span class="tag">Compressor Staging</span><span class="tag">Demand-side Management</span></header><section><h2>1. 압축기가 자꾸 추가로 기동한다. 정말 압축공기가 부족해서일까?</h2><p>여러 대의 공기압축기가 병렬 운전되는 공장에서 특정 시간대마다 Compressor가 추가 기동하고, 얼마 뒤 다시 저부하나 Unloading 상태가 된다면 설비용량이 부족하다고 생각하기 쉽다.</p><p>하지만 순간적인 CDA Peak 때문에 한 대가 추가로 기동하는 것이라면 공급설비를 늘리거나 Stand-by를 상시 유지하는 것이 근본해법이 아닐 수 있다.</p><div class="quote">압축기 대수를 결정하기 전에, 왜 그 순간에 그렇게 많은 압축공기가 필요했는지부터 확인한다.</div></section><section><h2>2. 배경 — 압축공기는 공급을 늘리기 전에 수요의 형태부터 봐야 한다</h2>
 <p>압축공기 시스템은 생산수요가 변하면 Compressor가 그 변화를 따라가야 한다. 문제는 평균 사용량이 충분히 낮아도 짧고 큰 Peak가 반복되면 Stand-by Compressor를 유지하거나 추가호기를 기동하게 될 수 있다는 점이다.</p>
 <p>미국 DOE의 압축공기 가이드도 시스템을 평가할 때 Demand Profile을 파악하고, 간헐적인 고유량 사용처와 저장용량·제어방식을 함께 검토하도록 권고한다. 즉 <b>공급능력을 추가하기 전에 수요가 언제, 얼마나, 얼마나 오래 발생하는지를 이해하는 것</b>이 시스템 최적화의 출발점이다.</p></section><section><h2>3. 기술동향 — Supply Follow에서 Demand-aware Control로</h2>

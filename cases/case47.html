@@ -17,6 +17,24 @@
 @media(max-width:720px){
 .final-lock-content table{display:block;overflow-x:auto;-webkit-overflow-scrolling:touch}
 .final-lock-content th,.final-lock-content td{min-width:120px}
+}</style><style data-structured-ui-fix="rev06">.final-lock-content .note{background:#f5f7f9;border-left:4px solid #174a7e;padding:16px 19px;margin:20px 0}
+.final-lock-content .warn{background:#fff7e6}
+.final-lock-content .fact{background:#edf7ef;border-left-color:#2f6b3b}
+.final-lock-content .tech{background:#eef4fb;border-left-color:#315f8d}
+.final-lock-content .grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px}
+.final-lock-content .card{border:1px solid #dbe2e8;border-radius:12px;padding:18px;min-width:0}
+.final-lock-content .num{font-size:27px;font-weight:700;color:#174a7e}
+.final-lock-content .quote{font-size:20px;font-weight:700;border-left:5px solid #24415d;padding-left:18px;color:#24415d}
+.final-lock-content .flow{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px}
+.final-lock-content .flow>div{background:#f4f7f9;border:1px solid #dbe2e8;border-radius:9px;padding:13px 7px;text-align:center;font-weight:700;min-width:0}
+.final-lock-content .bar{display:grid;grid-template-columns:minmax(105px,160px) minmax(0,1fr) minmax(80px,110px);gap:10px;align-items:center;margin:10px 0}
+.final-lock-content .track{height:24px;background:#e7edf2;overflow:hidden}
+.final-lock-content .fill{height:100%;background:#315f89}
+@media(max-width:700px){
+  .final-lock-content .grid,.final-lock-content .flow{grid-template-columns:1fr}
+  .final-lock-content .bar{grid-template-columns:105px minmax(0,1fr) 80px}
+  .final-lock-content .num{font-size:23px}
+  .final-lock-content .quote{font-size:18px}
 }</style></head><body class="case-page detail-page" data-case-id="CASE47"><a class="skip-link" href="#main">본문 바로가기</a><header class="site-header"><div class="header-inner container"><a aria-label="글로벌 에너지 최적화 연구소 홈" class="brand" href="../"><span aria-hidden="true" class="brand-mark">EO</span><span class="brand-copy"><strong>글로벌 에너지 최적화 연구소</strong><small>Global Energy Optimization Lab</small></span></a><button aria-controls="primary-nav" aria-expanded="false" aria-label="메뉴 열기" class="nav-toggle" type="button"><span></span><span></span><span></span></button><nav aria-label="주 메뉴" class="primary-nav" id="primary-nav"><a href="../#services">에너지 절감 컨설팅</a><a href="../#mv">Baseline &amp; M&amp;V</a><a href="../#cases">절감 사례</a><a href="../#insight">Energy Insight</a><a href="../book/index.html">저서 온라인 열람</a><a href="../#expert">전문가 소개</a><a class="nav-cta" href="../#contact">에너지 절감 상담</a></nav></div></header><main class="case-detail-main" id="main"><div class="container" id="case-detail-root"><div class="detail-shell final-lock-content"><header><b>CASE47 · APPROVED · FINAL-LOCK</b><h1>PUE를 ‘보고용 숫자’에서 ‘운전 의사결정’으로 바꾼<br/>다중 데이터센터 실시간 성능최적화</h1><p class="lead">여러 데이터센터의 전체전력·IT전력·냉방전력과 냉방설비 데이터를 통합하고, PUE→냉방효율→개별 냉방기효율로 단계적으로 내려가면서 과냉·가동대수·설정온도·설비성능의 원인을 실시간으로 진단하도록 설계한 IPOS 기반 성능개선 제안 사례.</p><span class="tag">PUE</span><span class="tag">IPOS</span><span class="tag">Real-time</span><span class="tag">Cooling Efficiency</span><span class="tag">Correlation</span><span class="tag">M&amp;V</span></header><section><h2>1. 여러 IDC를 관리하려면 PUE 한 숫자로는 부족했다</h2><p>센터별 월간 PUE를 비교하면 어느 센터가 상대적으로 높은지, 계절에 따라 어떻게 변하는지는 알 수 있다. 그러나 운영자에게 더 중요한 질문은 <b>“PUE가 목표를 벗어났을 때 무엇을 먼저 확인해야 하는가?”</b>이다.</p><p>원 제안자료에는 3개 센터의 2016년 합산 전체 전력사용량 약 <b>176,885 MWh/년</b>, IT 전력 약 <b>97,429 MWh/년</b>, 평균 PUE 약 <b>1.82</b>가 제시되어 있다. 2017년 추정 평균 PUE는 약 <b>1.77</b>이었다. 규모가 큰 여러 센터를 지속적으로 관리하려면 월말 보고서보다 이상이 발생하는 시점에 하위 원인을 바로 추적할 수 있는 진단체계가 필요했다.</p><div class="quote">PUE를 낮추는 시스템이 아니라, PUE가 나빠졌을 때 ‘왜’를 찾아주는 시스템을 설계한다.</div></section><section><h2>2. 실제 월별 PUE는 계절과 센터에 따라 움직였다</h2><p>원자료의 최근 1년 월별 PUE를 보면 세 센터 모두 계절에 따른 변화가 나타난다. 예를 들어 2016년 9월에는 약 1.95, 1.93, 2.16 수준이었고 겨울철에는 1.5~1.6대로 낮아지는 구간이 있었다. 다시 여름으로 가면서 PUE가 상승하는 패턴도 확인된다.</p><p>이 패턴만으로 원인을 확정하지는 않는다. 다만 원 제안서는 타사 비교와 함께 <b>외기냉방 활용수준이 상대적으로 높은 것으로 추정</b>하면서도, 하절기에는 냉방효율과 냉방기효율을 더 높일 필요가 있다고 판단했다. 즉 계절별 PUE 변화가 다음 분석대상을 결정하는 단서가 된 것이다.</p></section><section><h2>3. IPOS의 핵심 — PUE → 냉방효율 → 냉방기효율로 내려간다</h2><p>실시간 진단체계는 세 단계로 설계되었다. 최상위에는 PUE, 그 아래에는 IT전력 대비 냉방전력을 보는 냉방효율, 다시 아래에는 냉방에너지 공급량과 냉방기 전력의 관계를 보는 개별 냉방기효율을 둔다.</p>
 <div class="flow"><div>실시간<br/>PUE</div><div>목표초과<br/>판단</div><div>냉방효율<br/>분해</div><div>냉방기효율<br/>비교</div><div>원인·조치<br/>결정</div></div>
 <p>원 제안서에서는 실시간 성능진단을 센터·층 수준으로 수행하고, 개별 냉방기까지 내려가도록 구성했다. 이렇게 하면 PUE가 나빠졌을 때 IT 부하 때문인지, 냉방시스템 때문인지, 특정 냉방기의 성능 때문인지 단계적으로 범위를 좁힐 수 있다.</p></section><section><h2>4. 목표를 벗어나면 — 실제 제안서는 ‘조사내용 → 조치내용’까지 연결했다</h2>

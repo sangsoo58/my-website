@@ -17,6 +17,24 @@
 @media(max-width:720px){
 .final-lock-content table{display:block;overflow-x:auto;-webkit-overflow-scrolling:touch}
 .final-lock-content th,.final-lock-content td{min-width:120px}
+}</style><style data-structured-ui-fix="rev06">.final-lock-content .note{background:#f5f7f9;border-left:4px solid #174a7e;padding:16px 19px;margin:20px 0}
+.final-lock-content .warn{background:#fff7e6}
+.final-lock-content .fact{background:#edf7ef;border-left-color:#2f6b3b}
+.final-lock-content .tech{background:#eef4fb;border-left-color:#315f8d}
+.final-lock-content .grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px}
+.final-lock-content .card{border:1px solid #dbe2e8;border-radius:12px;padding:18px;min-width:0}
+.final-lock-content .num{font-size:27px;font-weight:700;color:#174a7e}
+.final-lock-content .quote{font-size:20px;font-weight:700;border-left:5px solid #24415d;padding-left:18px;color:#24415d}
+.final-lock-content .flow{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px}
+.final-lock-content .flow>div{background:#f4f7f9;border:1px solid #dbe2e8;border-radius:9px;padding:13px 7px;text-align:center;font-weight:700;min-width:0}
+.final-lock-content .bar{display:grid;grid-template-columns:minmax(105px,160px) minmax(0,1fr) minmax(80px,110px);gap:10px;align-items:center;margin:10px 0}
+.final-lock-content .track{height:24px;background:#e7edf2;overflow:hidden}
+.final-lock-content .fill{height:100%;background:#315f89}
+@media(max-width:700px){
+  .final-lock-content .grid,.final-lock-content .flow{grid-template-columns:1fr}
+  .final-lock-content .bar{grid-template-columns:105px minmax(0,1fr) 80px}
+  .final-lock-content .num{font-size:23px}
+  .final-lock-content .quote{font-size:18px}
 }</style></head><body class="case-page detail-page" data-case-id="CASE55"><a class="skip-link" href="#main">본문 바로가기</a><header class="site-header"><div class="header-inner container"><a aria-label="글로벌 에너지 최적화 연구소 홈" class="brand" href="../"><span aria-hidden="true" class="brand-mark">EO</span><span class="brand-copy"><strong>글로벌 에너지 최적화 연구소</strong><small>Global Energy Optimization Lab</small></span></a><button aria-controls="primary-nav" aria-expanded="false" aria-label="메뉴 열기" class="nav-toggle" type="button"><span></span><span></span><span></span></button><nav aria-label="주 메뉴" class="primary-nav" id="primary-nav"><a href="../#services">에너지 절감 컨설팅</a><a href="../#mv">Baseline &amp; M&amp;V</a><a href="../#cases">절감 사례</a><a href="../#insight">Energy Insight</a><a href="../book/index.html">저서 온라인 열람</a><a href="../#expert">전문가 소개</a><a class="nav-cta" href="../#contact">에너지 절감 상담</a></nav></div></header><main class="case-detail-main" id="main"><div class="container" id="case-detail-root"><div class="detail-shell final-lock-content"><header><b>CASE55 · APPROVED · FINAL-LOCK · Evidence C | Improvement Potential</b><h1>냉수 사용유량 분석 및 적정용량 펌프 선정·교체를 통한<br/>냉수펌프 전력절감</h1><p class="lead">설계 당시의 펌프 용량을 그대로 받아들이지 않고 실제 냉수 사용유량·필요양정·운전점을 계측하여 과대용량 여부를 판단하고, VFD·Impeller 조정·펌프 재선정 등 대안을 비교하여 냉수계통 전체의 에너지 최적점을 찾는 사례.</p><span class="tag">Chilled Water Pump</span><span class="tag">Flow</span><span class="tag">Head</span><span class="tag">Pump Curve</span><span class="tag">BEP</span><span class="tag">Hydronic Optimization</span></header><section><h2>1. 설계 당시의 펌프가 지금도 적정용량일까?</h2><p>냉수펌프는 냉동기에서 생산된 냉수를 생산공정과 공조설비까지 이송한다. 하지만 생산설비 변경, 부하 감소, 배관 변경과 운전방식 변화가 누적되면 설계 당시의 유량·양정과 현재 실제 요구조건이 달라질 수 있다.</p><p>이때 기존 대용량 펌프를 계속 운전하면 밸브에서 압력을 버리거나 필요 이상의 유량을 순환시키는 형태로 전력이 소비될 수 있다. 그래서 CASE55의 질문은 단순하다.</p><div class="quote">현재 설치된 냉수펌프의 용량이 실제 필요한 냉수유량과 양정에 맞는가?</div></section><section><h2>2. 실제 5℃ 냉수계통에는 설계사양과 운전조건 차이가 있었다</h2><p>2,000 USRT급 5℃ 냉동기 계통의 설계자료에서 냉수펌프는 대표적으로 <b>150 kW, 605 m³/h, 양정 60 m</b> 사양으로 정리되어 있었다. 반면 운전 시나리오에서는 5℃ 냉수펌프 #08, #09, #12 등이 약 <b>128.9~133 kW</b>, 유량 <b>630 m³/h</b> 조건으로 계산·관리된 자료가 있다.</p><p>다른 운전표에서는 같은 계통에서 #14 냉수펌프가 약 <b>134 kW / 859 m³/h</b>, #08은 약 <b>128.9 kW / 760 m³/h</b> 등 서로 다른 운전유량을 보였다. 즉 동일한 정격계통이라도 실제 유량과 운전점은 고정되어 있지 않았다.</p></section><section><h2>3. 후속 개선안은 ‘5℃ 냉수펌프 사용량에 맞는 사양 교체’였다</h2><p>프로젝트의 후속 개선 Item에는 <b>“5℃ 냉수펌프 사용량에 맞는 사양 교체”</b>가 명시되어 있고, 당시 약 <b>0.7억원/년</b> 규모의 개선효과가 검토되었다.</p><div class="note warn"><b>Evidence C | Improvement Potential</b><br/>적정용량 냉수펌프 적용 검토효과: 약 0.7억원/년. 당시 진행 중 개선 Item에서 산정된 기대효과이며 완료 후 독립적으로 검증된 실측 절감성과와 구분한다.</div></section><section><h2>4. 이 개선의 취지 — ‘설계용량’에서 ‘현재 수요기반 용량’으로</h2>
 <p>Utility 설비는 일반적으로 설계단계에서 최대부하, 향후 증설과 안전여유를 고려해 선정된다. 이 자체는 필요한 설계행위지만, 실제 공장에서는 생산품목·가동률·공정설비와 배관계통이 시간이 지나면서 달라질 수 있다. 그러면 준공 당시 적정했던 펌프가 현재 운전조건에서는 과대 또는 비효율적인 운전점에 놓일 수 있다.</p>
 <p>CASE55의 취지는 설계자를 비판하거나 단순히 펌프 크기를 줄이는 데 있지 않다. <b>현재의 실제 수요를 다시 계측하여 설비용량과 운전방법을 재정렬(Re-matching)</b>하는 데 있다. 즉 Nameplate Capacity가 아니라 실제 Q-H와 부하변동을 기준으로 기존 설비가 현재 공정에 여전히 적합한지를 확인한다.</p>

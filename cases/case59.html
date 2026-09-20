@@ -17,6 +17,24 @@
 @media(max-width:720px){
 .final-lock-content table{display:block;overflow-x:auto;-webkit-overflow-scrolling:touch}
 .final-lock-content th,.final-lock-content td{min-width:120px}
+}</style><style data-structured-ui-fix="rev06">.final-lock-content .note{background:#f5f7f9;border-left:4px solid #174a7e;padding:16px 19px;margin:20px 0}
+.final-lock-content .warn{background:#fff7e6}
+.final-lock-content .fact{background:#edf7ef;border-left-color:#2f6b3b}
+.final-lock-content .tech{background:#eef4fb;border-left-color:#315f8d}
+.final-lock-content .grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px}
+.final-lock-content .card{border:1px solid #dbe2e8;border-radius:12px;padding:18px;min-width:0}
+.final-lock-content .num{font-size:27px;font-weight:700;color:#174a7e}
+.final-lock-content .quote{font-size:20px;font-weight:700;border-left:5px solid #24415d;padding-left:18px;color:#24415d}
+.final-lock-content .flow{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px}
+.final-lock-content .flow>div{background:#f4f7f9;border:1px solid #dbe2e8;border-radius:9px;padding:13px 7px;text-align:center;font-weight:700;min-width:0}
+.final-lock-content .bar{display:grid;grid-template-columns:minmax(105px,160px) minmax(0,1fr) minmax(80px,110px);gap:10px;align-items:center;margin:10px 0}
+.final-lock-content .track{height:24px;background:#e7edf2;overflow:hidden}
+.final-lock-content .fill{height:100%;background:#315f89}
+@media(max-width:700px){
+  .final-lock-content .grid,.final-lock-content .flow{grid-template-columns:1fr}
+  .final-lock-content .bar{grid-template-columns:105px minmax(0,1fr) 80px}
+  .final-lock-content .num{font-size:23px}
+  .final-lock-content .quote{font-size:18px}
 }</style></head><body class="case-page detail-page" data-case-id="CASE59"><a class="skip-link" href="#main">본문 바로가기</a><header class="site-header"><div class="header-inner container"><a aria-label="글로벌 에너지 최적화 연구소 홈" class="brand" href="../"><span aria-hidden="true" class="brand-mark">EO</span><span class="brand-copy"><strong>글로벌 에너지 최적화 연구소</strong><small>Global Energy Optimization Lab</small></span></a><button aria-controls="primary-nav" aria-expanded="false" aria-label="메뉴 열기" class="nav-toggle" type="button"><span></span><span></span><span></span></button><nav aria-label="주 메뉴" class="primary-nav" id="primary-nav"><a href="../#services">에너지 절감 컨설팅</a><a href="../#mv">Baseline &amp; M&amp;V</a><a href="../#cases">절감 사례</a><a href="../#insight">Energy Insight</a><a href="../book/index.html">저서 온라인 열람</a><a href="../#expert">전문가 소개</a><a class="nav-cta" href="../#contact">에너지 절감 상담</a></nav></div></header><main class="case-detail-main" id="main"><div class="container" id="case-detail-root"><div class="detail-shell final-lock-content"><header><b>CASE59 · APPROVED · FINAL-LOCK · Evidence C | Diagnosis / Improvement Activity</b><h1>CDA 공기압축기 저효율 호기 진단 및<br/>성능저하 원인분석을 통한 효율개선</h1><p class="lead">다수의 공기압축기가 병렬 운전되는 제조공장에서 호기별 소비전력과 CDA 생산유량을 Specific Energy로 비교하여 저효율 설비를 식별하고, 운전조건과 기계적 성능저하의 영향을 분리한 뒤 원인점검·정비·재측정을 통해 정상 성능범위로 회복시키는 진단 접근.</p><span class="tag">CDA</span><span class="tag">Compressor</span><span class="tag">Specific Energy</span><span class="tag">Performance Degradation</span><span class="tag">Condition Monitoring</span></header><section><h2>1. 같은 압축공기를 생산하는데 왜 특정 압축기만 전력을 더 사용할까?</h2><p>동일하거나 유사한 용량의 압축기라도 실제 운전에서는 호기별 효율차이가 발생할 수 있다. 단순히 소비전력 kW가 큰 설비를 저효율이라고 판단하면 안 되고, 생산한 압축공기량과 소비전력을 함께 비교해야 한다.</p><div class="note"><b>Specific Energy</b><br/>SE = Compressor Power(kW) ÷ CDA Flow(Nm³/h)</div><p>즉 같은 양의 압축공기를 만드는 데 얼마나 많은 전력이 필요한지를 비교한다.</p><div class="quote">저효율 압축기를 발견하는 것은 진단의 끝이 아니라 시작이다. 중요한 것은 왜 효율이 나빠졌는지를 찾아 정상 성능으로 회복시키는 것이다.</div></section><section><h2>2. 배경 — 압축공기는 설비효율과 시스템효율을 함께 관리해야 한다</h2>
 <p>압축공기는 제조현장에서 사용하기 편리하지만 전기에너지를 압축공기로 변환하는 과정의 손실이 큰 Utility다. 미국 DOE Better Plants도 투입에너지의 80% 이상이 열로 손실될 수 있다고 설명하며, 수요측 사용량과 공급측 설비·제어를 함께 최적화하는 System Approach를 강조한다.</p>
 <p>따라서 누설·과압·과다가동 같은 System Loss를 줄이는 것과 동시에, 같은 서비스를 생산하는 개별 Compressor의 성능이 정상 수준을 유지하는지도 관리해야 한다. CASE59는 이 가운데 <b>개별 설비의 Efficiency Drift를 찾아 원인을 확인하고 성능을 회복</b>하는 영역에 초점을 둔다.</p></section><section><h2>3. 국제적인 평가방향도 Supply·Transmission·Demand 전체를 본다</h2>
