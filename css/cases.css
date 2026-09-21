@@ -34,3 +34,26 @@
   .cases>.container{margin-left:14px;margin-right:14px}
   .case-grid.case-library-grid{grid-template-columns:minmax(0,1fr)}
 }
+
+
+/* CASE STUDIES MOBILE FILTER WRAP FIX — 2026-09-21 */
+@media(max-width:767px){
+  .case-filters{
+    display:flex;
+    flex-wrap:wrap;
+    overflow-x:visible;
+    overflow-y:visible;
+    white-space:normal;
+    gap:8px;
+    width:100%;
+    max-width:100%;
+    padding-bottom:0;
+  }
+  .case-filters .filter-chip{
+    flex:0 1 auto;
+    min-width:0;
+    max-width:100%;
+    white-space:normal;
+    text-align:center;
+  }
+}
