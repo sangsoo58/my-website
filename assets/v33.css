@@ -21,3 +21,21 @@
 .case-filter-guide{margin:-2px 0 14px;color:#6b777d;font-size:13px;line-height:1.6}
 .case-filter-guide strong{color:#44535a;font-weight:800}
 @media(max-width:620px){.case-filter-guide{font-size:12px;margin-bottom:13px}.case-filter-guide span[aria-hidden="true"]{display:none}.case-filter-guide strong:nth-of-type(2)::before{content:"";display:block;margin-top:3px}}
+
+
+/* MOBILE QA FIX 2026-09-21 */
+@media(max-width:620px){
+  html,body{max-width:100%;overflow-x:hidden}
+  .v33-detail{width:100%;max-width:100%;padding:34px 16px 48px;overflow:hidden}
+  .v33-detail h1{font-size:clamp(27px,8.5vw,36px);line-height:1.25;overflow-wrap:anywhere}
+  .v33-detail>p{overflow-wrap:anywhere}
+  .v33-filter{width:100%;gap:7px;margin:14px 0}
+  .v33-filter button{flex:0 1 auto;max-width:100%;white-space:normal;line-height:1.25;text-align:center}
+  .v33-summary{width:100%;padding:14px 15px;margin:15px 0 22px;overflow-wrap:anywhere}
+  .v33-case-grid{width:100%;min-width:0}
+  .v33-case-card{min-width:0;width:100%;padding:18px}
+  .v33-case-head{min-width:0;flex-wrap:wrap;align-items:flex-start}
+  .v33-case-head>*{max-width:100%;overflow-wrap:anywhere}
+  .v33-case-card h2,.v33-case-card p{overflow-wrap:anywhere;word-break:break-word}
+  .v33-tags{max-width:100%}
+}
