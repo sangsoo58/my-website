@@ -111,3 +111,16 @@ Still blocking actual Editable Word integration:
 5. Book Print permission/anonymization review for selected assets
 
 Therefore the current Editable Word Master and 159p Print Master remain unchanged.
+
+
+## 9. Publication provenance gate
+
+Status: **PASS FOR PLANNING / FINAL FIDELITY NOT WAIVED**
+
+- Active CASE Web URL QA: 40/40 PASS
+- Active CASE publication Source Note: 40/40 PASS
+- REFERENCES public provenance wording: 40/40 PASS
+- internal source path leakage: 0
+- CASE50: excluded / HOLD
+
+This gate only confirms publication-safe provenance wording. Actual Word Master integration remains blocked by source fidelity and user approval gates.
