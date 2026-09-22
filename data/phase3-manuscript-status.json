@@ -251,15 +251,15 @@
     "evidenceQA": "PASS_WITH_CASE_SPECIFIC_BOUNDARY",
     "titleQA": "PASS_WEB_TITLE_PRESERVED",
     "pageNumber": null,
-    "figureCountPlanned": null,
+    "figureCountPlanned": 0,
     "tableCountPlanned": null,
     "sourceRegisterStatus": "PENDING",
     "finalReview": "SOURCE_RECONCILIATION_REQUIRED",
     "proposedPart": 5,
     "proposedChapter": 23,
     "proposedChapterTitle": "신축건물 Energy Modeling",
-    "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
-    "round2Status": "BOOK_REVISION_CANDIDATE",
+    "chapterPlacementStatus": "HOLD_EXCLUDED_PENDING_SOURCE_RECONCILIATION",
+    "round2Status": "BOOK_REVISION_CANDIDATE_HOLD",
     "bookSourceStatus": "APPROVED_FINAL_SOURCE_RECOVERED",
     "bookSourceFile": "02_BOOK_SOURCE/CASE50_APPROVED_FINAL.txt",
     "sourceReconciliation": "HOLD",
@@ -269,7 +269,8 @@
     "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
     "productionVerificationNumericQA": "EXCLUDED_SOURCE_IDENTITY_HOLD",
     "productionVerificationEvidenceQA": "EXCLUDED_SOURCE_IDENTITY_HOLD",
-    "approvalFinalTxtFidelityQA": "HOLD_PENDING_SOURCE_TEXT"
+    "approvalFinalTxtFidelityQA": "HOLD_PENDING_SOURCE_TEXT",
+    "bookIncluded": false
   },
   {
     "caseNo": 51,
