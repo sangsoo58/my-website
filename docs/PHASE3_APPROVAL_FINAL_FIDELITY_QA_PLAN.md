@@ -52,3 +52,31 @@ CASE별 Book manuscript는 Fidelity PASS 후에만:
 PASS 전에는:
 - BOOK REVISION CANDIDATE
 상태를 유지한다.
+
+
+## Direct Library source recovery update
+
+### CASE79
+A Library file named `CASE79_BOOK_MASTER.txt` was directly readable and contains:
+- Status: APPROVED / FINAL LOCK
+- Evidence: B/C
+- CASE79 APPROVED FINAL content
+- Primary basis and user-approval metadata
+
+Direct comparison against the current Phase 3 CASE79 manuscript found:
+- Title meaning: aligned
+- Evidence B/C: aligned
+- Actual vs Required Units logic: aligned
+- 5℃ / 13℃ chilled-water pump data structure: aligned
+- Pump OFF action / service verification logic: aligned
+- no-independent-final-saving boundary: aligned
+- claim strengthening: 0 identified
+
+The current manuscript is intentionally condensed and omits monthly numeric detail and external-reference expansion present in the BOOK MASTER.
+
+Result: **PRELIMINARY DIRECT-MASTER PASS**.
+
+This is not upgraded to Final Fidelity PASS because the directly readable Library object is named `CASE79_BOOK_MASTER.txt`, not the exact official source filename `case79_approval_final.txt`. Exact official-file content identity remains pending.
+
+### CASE77, CASE78, CASE80, CASE81
+Direct approved-final/master content remains unresolved in the current accessible file set.
