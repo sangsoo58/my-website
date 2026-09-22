@@ -212,3 +212,9 @@ Draft PR → Ready for Review → Merge → GitHub Pages → Production Smoke Te
   - heading, description, checklist and direct contact fit viewport
   - form card begins below content with correct width/padding
   - first form fields stack vertically as expected
+
+- Consultation mobile lower @390px: PASS
+  - topic select, message textarea, privacy consent and submit button fit viewport
+  - form controls remain readable and full-width
+  - no visible horizontal overflow
+  - mobile consultation QA complete
