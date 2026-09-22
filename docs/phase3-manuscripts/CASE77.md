@@ -1,4 +1,4 @@
-# CASE 77 | 응용사례 — 데이터센터 지원시설 Base Load와 소비패턴 진단
+# CASE 77 | 응용사례 — 데이터센터 지원시설 부하리스트·소비패턴 분석을 통한 상시 Base Load 및 설비운영 개선
 
 **편집상태:** PHASE 3 DRAFT / USER REVIEW REQUIRED  
 **배치안:** PART 5 · Proposed Chapter 24 · 데이터센터 PUE와 냉방 최적화
