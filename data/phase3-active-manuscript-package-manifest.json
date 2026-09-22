@@ -202,5 +202,11 @@
     "optionalTables": 1,
     "factBoxesApprox": "9-12",
     "status": "READY"
+  },
+  "selectedTableSourceQA": {
+    "doc": "docs/PHASE3_SELECTED_TABLE_SOURCE_QA.md",
+    "data": "data/phase3-selected-table-source-qa.json",
+    "pass": "11/11",
+    "finalPageRecheck": "PENDING"
   }
 }
