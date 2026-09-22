@@ -165,7 +165,7 @@
   if(!m || document.querySelector('.knowledge-link-panel')) return;
   const no=Number(m[1]), caseId='CASE'+String(no).padStart(2,'0');
   const main=document.querySelector('main');
-  const host=main&&main.querySelector('.container');
+  const host=main&&(main.querySelector('.container')||main.querySelector('.final-lock-content')||main);
   if(!host) return;
   const textContent=(main.innerText||'');
   let insight='../insights/mes-ems-energy-data-analysis.html', insightLabel='에너지 데이터 분석 Insight';
