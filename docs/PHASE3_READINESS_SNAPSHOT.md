@@ -340,3 +340,19 @@ Current state at checkpoint:
 - CASE77~81 Final Fidelity PASS 5/5
 - CASE52~76 strict standalone source-text reader limitation remains
 - current book masters and Production unchanged
+
+
+## CASE52~76 direct BOOK MASTER update
+
+Status: **PRELIMINARY PASS 25/25**
+
+Directly readable CASE52~76 BOOK_MASTER files were compared against current manuscripts.
+
+Verified:
+- title alignment: 25/25
+- Evidence class: 25/25 aligned
+- Evidence Boundary: 25/25 aligned
+- manuscript numeric tokens missing from BOOK MASTER: 0
+- claim-strengthening conflict identified: 0
+
+Remaining limitation is only the strict standalone Approval Final TXT direct-text gate for files that the current Library reader cannot parse.
