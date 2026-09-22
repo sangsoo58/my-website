@@ -1,12 +1,12 @@
 {
   "phase": "PHASE3",
   "packet": "USER_APPROVAL",
-  "status": "READY_FOR_USER_DECISION",
+  "status": "APPROVED",
   "proposedTOC": {
     "newChapter15": "보일러 시스템 운전최적화",
     "totalChapters": 29,
     "renumberCurrent15To28ByPlusOne": true,
-    "approval": "PENDING"
+    "approval": "APPROVED"
   },
   "activeCases": 40,
   "holdCases": [
@@ -30,14 +30,14 @@
       "CASE64-F01",
       "CASE66-F01"
     ],
-    "approval": "PENDING",
+    "approval": "APPROVED_AS_PLANNED",
     "printPermission": "PENDING"
   },
   "pageTarget": {
     "compact": "211-215",
     "recommended": "214-220",
     "expanded": "221-226",
-    "approval": "PENDING"
+    "approval": "APPROVED_214_220"
   },
   "preWordAcceptance": "40/40",
   "sourceFidelity": {
@@ -47,6 +47,7 @@
   },
   "wordWorkingCopy": {
     "currentMaster": "READ_ONLY",
-    "expandedWorkingCopyAuthorization": "PENDING"
-  }
+    "expandedWorkingCopyAuthorization": "APPROVED"
+  },
+  "case50Decision": "ABSORB_INTO_CASE49_NO_SEPARATE_BODY"
 }
