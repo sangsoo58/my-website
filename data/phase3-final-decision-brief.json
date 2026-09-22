@@ -1,0 +1,27 @@
+{
+  "status": "READY_FOR_USER_DECISION",
+  "recommended": {
+    "toc": "APPROVE_29_CHAPTER",
+    "case50": "ABSORB_INTO_CASE49_NO_SEPARATE_BODY",
+    "figurePlan": "APPROVE_7_PRIMARY_1_OPTIONAL_3_TABLE_FACTBOX",
+    "pageTarget": "214-220",
+    "expandedWordWorkingCopy": "AUTHORIZE_SEPARATE_COPY"
+  },
+  "currentQA": {
+    "preWordAcceptance": "40/40",
+    "finalFidelity": "15/40",
+    "directBookMasterPreliminary": "25/40",
+    "figureBinaryIntegrity": "11/11",
+    "figureCaptionUnitQA": "11/11",
+    "tableSourceQA": "11/11",
+    "knownClaimStrengtheningConflicts": 0,
+    "knownProjectDoubleCount": 0
+  },
+  "protected": [
+    "Editable Word Master v1.7",
+    "159p Print Master",
+    "Production Web",
+    "Book Reader"
+  ],
+  "approvalState": "PENDING_USER_EXPLICIT_APPROVAL"
+}
