@@ -139,3 +139,20 @@ Final Figure insertion remains blocked until:
 - BOOK_PRINT_PERMISSION_REVIEW
 - final unit/caption verification
 - final pagination
+
+
+## Asset binary integrity QA
+
+Status: **PASS 11/11**
+
+GitHub branch binary files were directly checked against the Figure/Table Source Register.
+
+Results:
+- asset path exists: 11/11
+- Git blob SHA match: 11/11
+- PNG pixel dimensions match Register: 11/11
+- 1510×936 group: 7 assets
+- 1511×852 group: 4 assets
+- 300 dpi max width remains approximately 127.8~127.9 mm
+
+This confirms file identity/resolution metadata only. It does not grant print permission or replace anonymization/caption review.
