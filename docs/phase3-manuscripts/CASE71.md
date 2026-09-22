@@ -1,4 +1,4 @@
-# CASE 71 | 응용사례 — 데이터센터 냉방기 EC Fan Retrofit
+# CASE 71 | 응용사례 — 데이터센터 냉방기 Fan 성능분석을 통한 고효율 EC Fan 교체 및 냉방전력 절감
 
 **편집상태:** PHASE 3 DRAFT / USER REVIEW REQUIRED  
 **배치안:** PART 5 · Proposed Chapter 24 · 데이터센터 PUE와 냉방 최적화
