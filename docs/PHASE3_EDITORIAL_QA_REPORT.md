@@ -107,3 +107,38 @@ Status: PASS
 - Draft REFERENCES C42~C82: ready
 - Figure/Table source register: initialized
 - Book-style second edit: READY
+
+
+## 10. Semantic Overlap Control
+
+Status: PASS / CONTROL ACTIVE
+
+The following high-confidence relationships were identified:
+- CASE11 ↔ CASE42
+- CASE12 ↔ CASE43
+- CASE13 ↔ CASE44
+- CASE14 ↔ CASE45
+- CASE35 ↔ CASE51
+- CASE36 ↔ CASE48
+- CASE38 ↔ CASE46/70/71/72/73/81
+- CASE39 ↔ CASE47/74
+- CASE28 ↔ CASE75/76
+
+Policy:
+- do not delete or renumber CASE IDs
+- do not present 82 CASE as 82 independent companies/sites
+- same-project expanded/sub-case relationships must be disclosed
+- project-level results must not be double-counted across sub-cases
+- umbrella CASE text must not be duplicated verbatim in companion CASEs
+
+## 11. Current Book Baseline Protection
+
+Status: PASS
+
+- Current Print Master: unchanged
+- Current Editable Word Master: unchanged
+- Current 41-CASE Book Reader: unchanged
+- Production Web: unchanged by Phase 3 branch
+- CASE42~82 book links: remain hidden
+- All Phase 3 artifacts are BOOK REVISION CANDIDATES only
+- User confirmation is required before actual book integration or mapping activation
