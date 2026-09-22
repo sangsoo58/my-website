@@ -60,17 +60,17 @@ For each asset confirm:
 
 | Figure | Current editorial use | Permission | Anonymization | Unit/caption | Final print |
 |---|---|---|---|---|---|
-| CASE42-F01 | PRIMARY | PENDING | REVIEW | REVIEW | HOLD |
-| CASE43-F01 | PRIMARY | PENDING | REVIEW | REVIEW | HOLD |
-| CASE44-F01 | PRIMARY | PENDING | REVIEW | REVIEW | HOLD |
-| CASE44-F02 | OPTIONAL | PENDING | REVIEW | REVIEW | HOLD |
-| CASE51-F01 | PRIMARY | PENDING | REVIEW | REVIEW | HOLD |
-| CASE53-F01 | TABLE/CALLOUT PREFERRED ALTERNATE | PENDING | REVIEW | REVIEW | HOLD |
-| CASE56-F01 | PRIMARY | PENDING | REVIEW | REVIEW | HOLD |
-| CASE63-F01 | PRIMARY | PENDING | REVIEW | REVIEW | HOLD |
-| CASE64-F01 | TABLE/CALLOUT PREFERRED ALTERNATE | PENDING | REVIEW | REVIEW | HOLD |
-| CASE65-F01 | PRIMARY | PENDING | REVIEW | REVIEW | HOLD |
-| CASE66-F01 | TABLE PREFERRED ALTERNATE | PENDING | REVIEW | REVIEW | HOLD |
+| CASE42-F01 | PRIMARY | PENDING | REVIEW | PASS | HOLD |
+| CASE43-F01 | PRIMARY | PENDING | REVIEW | PASS | HOLD |
+| CASE44-F01 | PRIMARY | PENDING | REVIEW | PASS | HOLD |
+| CASE44-F02 | OPTIONAL | PENDING | REVIEW | PASS | HOLD |
+| CASE51-F01 | PRIMARY | PENDING | REVIEW | PASS | HOLD |
+| CASE53-F01 | TABLE/CALLOUT PREFERRED ALTERNATE | PENDING | REVIEW | PASS | HOLD |
+| CASE56-F01 | PRIMARY | PENDING | REVIEW | PASS | HOLD |
+| CASE63-F01 | PRIMARY | PENDING | REVIEW | PASS | HOLD |
+| CASE64-F01 | TABLE/CALLOUT PREFERRED ALTERNATE | PENDING | REVIEW | PASS | HOLD |
+| CASE65-F01 | PRIMARY | PENDING | REVIEW | PASS | HOLD |
+| CASE66-F01 | TABLE PREFERRED ALTERNATE | PENDING | REVIEW | PASS | HOLD |
 
 ## Gate
 
@@ -95,3 +95,15 @@ Status: **PASS 11/11**
 - pixel dimension identity vs Source Register: 11/11
 
 Permission, anonymization, unit/caption and final-layout checks remain independent gates.
+
+
+## Caption / unit result
+
+Status: **PASS 11/11**
+
+Source-level caption and unit checks are complete for all approved Web PNG assets.
+
+Still pending:
+- permission/use-basis confirmation
+- visual anonymization review
+- final print layout readability / grayscale-CMYK check
