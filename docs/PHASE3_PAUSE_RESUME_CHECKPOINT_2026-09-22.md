@@ -34,10 +34,12 @@ Do not merge to main/Production without user approval.
 - CASE42~49, CASE51: direct standalone Approval Final TXT → Final Fidelity PASS
 - CASE77~81: direct standalone Approval Final TXT → Final Fidelity PASS 5/5
 - CASE50: direct standalone Approval Final TXT reviewed; source conflict RESOLVED; content Fidelity PASS
-- CASE52~76: standalone files exist but current Library text reader cannot read some bodies; remain Preliminary
+- CASE52~76: Direct BOOK MASTER Preliminary PASS 25/25; standalone files exist but current Library text reader cannot read some bodies, so Final Fidelity remains pending
 - CASE82: separate Production-locked source regime
 
 Active Final Fidelity PASS count: **14/40**
+Active Direct BOOK MASTER Preliminary PASS: **25/40**
+CASE82 separate-source Preliminary: **1/40**
 
 ### CASE50
 Authoritative identity:
@@ -85,8 +87,9 @@ Overlap:
 ## Technical item still pending
 
 CASE52~76 strict standalone source-text access:
-- source files exist
-- current reader returns zero readable lines for some files
+- Direct BOOK MASTER QA = PASS 25/25
+- standalone Approval Final source files exist
+- current reader returns zero readable lines for some standalone files
 - do not invent Final Fidelity PASS
 
 ## Current master protection
