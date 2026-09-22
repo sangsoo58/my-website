@@ -1,4 +1,4 @@
-# CASE 64 | DEEP DIVE 후보 — 냉동기 가동대수 8대→7대와 시스템 원단위 개선
+# CASE 64 | DEEP DIVE 후보 — 냉동기 가동대수 8대→7대 최적화를 통한 시스템 에너지원단위 개선
 
 **편집상태:** PHASE 3 DRAFT / USER REVIEW REQUIRED  
 **배치안:** PART 3 · Chapter 11 · 냉동기 Plant 최적화  
