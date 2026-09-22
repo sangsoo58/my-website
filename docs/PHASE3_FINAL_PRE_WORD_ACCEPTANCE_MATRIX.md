@@ -88,7 +88,7 @@ Each active CASE is checked for:
 - active candidates in this range: **34**
 - CASE50: HOLD
 - direct standalone Final Fidelity PASS in CASE42~49 & CASE51: **9 active CASEs**
-- CASE52~76 remain Preliminary because standalone TXT text is not readable through current Library tooling
+- CASE52~76 = **Direct BOOK MASTER Preliminary PASS 25/25**; standalone TXT direct-text gate remains pending because current Library tooling cannot read some file bodies
 - CASE50 content/source identity resolved; inclusion decision pending
 - standalone official Approval Final TXT byte identity: pending
 
@@ -103,7 +103,8 @@ Each active CASE is checked for:
 ## Current Fidelity Count
 
 - Active Final Fidelity PASS: **14/40**
-- Active Preliminary Fidelity / source-preserving QA: **26/40**
+- Active Direct BOOK MASTER Preliminary PASS: **25/40**
+- CASE82 separate-source Preliminary QA: **1/40**
 - CASE50 content Fidelity: PASS, but excluded pending user book decision
 
 ## Four remaining gates
