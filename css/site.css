@@ -192,3 +192,24 @@ html,body{max-width:100%;overflow-x:clip}
 .form-status{margin-top:10px;font-size:13px;color:var(--teal)}
 .form-status.success{color:#0f725e}
 .form-status.error{color:#a33b3b}
+
+
+/* PHASE 2 CONTACT HEADING FINAL FIX */
+#contact-title{
+  font-size:clamp(32px,2.8vw,44px);
+  line-height:1.08;
+  max-width:520px;
+  word-break:keep-all;
+  overflow-wrap:normal;
+}
+#contact-title span{
+  display:block;
+  white-space:nowrap;
+}
+@media(max-width:1000px){
+  #contact-title{font-size:clamp(34px,5vw,44px);max-width:none}
+}
+@media(max-width:640px){
+  #contact-title{font-size:32px}
+  #contact-title span{white-space:normal}
+}
