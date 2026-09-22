@@ -24,13 +24,14 @@
     "bookSourceFile": "02_BOOK_SOURCE/CASE42_APPROVED_FINAL.txt",
     "officialBookSourceFile": "case42_approval_final.txt",
     "officialSourcePriority": 1,
-    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
+    "manuscriptFidelityStatus": "FINAL_PASS",
     "productionVerificationNumericQA": "PRELIMINARY_PASS",
     "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
-    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+    "approvalFinalTxtFidelityQA": "FINAL_PASS_DIRECT_STANDALONE_APPROVED_FINAL_TXT",
     "canonicalWebPath": "/cases/case42.html",
     "publicationSourceNoteQA": "PASS",
-    "webPathQA": "PASS"
+    "webPathQA": "PASS",
+    "directApprovedMasterContentQA": "PASS_DIRECT_STANDALONE_APPROVED_FINAL_TXT"
   },
   {
     "caseNo": 43,
@@ -57,13 +58,14 @@
     "bookSourceFile": "02_BOOK_SOURCE/CASE43_APPROVED_FINAL.txt",
     "officialBookSourceFile": "case43_approval_final.txt",
     "officialSourcePriority": 1,
-    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
+    "manuscriptFidelityStatus": "FINAL_PASS",
     "productionVerificationNumericQA": "PRELIMINARY_PASS",
     "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
-    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+    "approvalFinalTxtFidelityQA": "FINAL_PASS_DIRECT_STANDALONE_APPROVED_FINAL_TXT",
     "canonicalWebPath": "/cases/case43.html",
     "publicationSourceNoteQA": "PASS",
-    "webPathQA": "PASS"
+    "webPathQA": "PASS",
+    "directApprovedMasterContentQA": "PASS_DIRECT_STANDALONE_APPROVED_FINAL_TXT"
   },
   {
     "caseNo": 44,
@@ -90,13 +92,14 @@
     "bookSourceFile": "02_BOOK_SOURCE/CASE44_APPROVED_FINAL.txt",
     "officialBookSourceFile": "case44_approval_final.txt",
     "officialSourcePriority": 1,
-    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
+    "manuscriptFidelityStatus": "FINAL_PASS",
     "productionVerificationNumericQA": "PRELIMINARY_PASS",
     "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
-    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+    "approvalFinalTxtFidelityQA": "FINAL_PASS_DIRECT_STANDALONE_APPROVED_FINAL_TXT",
     "canonicalWebPath": "/cases/case44.html",
     "publicationSourceNoteQA": "PASS",
-    "webPathQA": "PASS"
+    "webPathQA": "PASS",
+    "directApprovedMasterContentQA": "PASS_DIRECT_STANDALONE_APPROVED_FINAL_TXT"
   },
   {
     "caseNo": 45,
@@ -123,13 +126,14 @@
     "bookSourceFile": "02_BOOK_SOURCE/CASE45_APPROVED_FINAL.txt",
     "officialBookSourceFile": "case45_approval_final.txt",
     "officialSourcePriority": 1,
-    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
+    "manuscriptFidelityStatus": "FINAL_PASS",
     "productionVerificationNumericQA": "PRELIMINARY_PASS",
     "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
-    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+    "approvalFinalTxtFidelityQA": "FINAL_PASS_DIRECT_STANDALONE_APPROVED_FINAL_TXT",
     "canonicalWebPath": "/cases/case45.html",
     "publicationSourceNoteQA": "PASS",
-    "webPathQA": "PASS"
+    "webPathQA": "PASS",
+    "directApprovedMasterContentQA": "PASS_DIRECT_STANDALONE_APPROVED_FINAL_TXT"
   },
   {
     "caseNo": 46,
@@ -156,13 +160,14 @@
     "bookSourceFile": "02_BOOK_SOURCE/CASE46_APPROVED_FINAL.txt",
     "officialBookSourceFile": "case46_approval_final.txt",
     "officialSourcePriority": 1,
-    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
+    "manuscriptFidelityStatus": "FINAL_PASS",
     "productionVerificationNumericQA": "PRELIMINARY_PASS",
     "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
-    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+    "approvalFinalTxtFidelityQA": "FINAL_PASS_DIRECT_STANDALONE_APPROVED_FINAL_TXT",
     "canonicalWebPath": "/cases/case46.html",
     "publicationSourceNoteQA": "PASS",
-    "webPathQA": "PASS"
+    "webPathQA": "PASS",
+    "directApprovedMasterContentQA": "PASS_DIRECT_STANDALONE_APPROVED_FINAL_TXT"
   },
   {
     "caseNo": 47,
@@ -189,13 +194,14 @@
     "bookSourceFile": "02_BOOK_SOURCE/CASE47_APPROVED_FINAL.txt",
     "officialBookSourceFile": "case47_approval_final.txt",
     "officialSourcePriority": 1,
-    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
+    "manuscriptFidelityStatus": "FINAL_PASS",
     "productionVerificationNumericQA": "PRELIMINARY_PASS",
     "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
-    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+    "approvalFinalTxtFidelityQA": "FINAL_PASS_DIRECT_STANDALONE_APPROVED_FINAL_TXT",
     "canonicalWebPath": "/cases/case47.html",
     "publicationSourceNoteQA": "PASS",
-    "webPathQA": "PASS"
+    "webPathQA": "PASS",
+    "directApprovedMasterContentQA": "PASS_DIRECT_STANDALONE_APPROVED_FINAL_TXT"
   },
   {
     "caseNo": 48,
@@ -222,13 +228,14 @@
     "bookSourceFile": "02_BOOK_SOURCE/CASE48_APPROVED_FINAL.txt",
     "officialBookSourceFile": "case48_approval_final.txt",
     "officialSourcePriority": 1,
-    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
+    "manuscriptFidelityStatus": "FINAL_PASS",
     "productionVerificationNumericQA": "PRELIMINARY_PASS",
     "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
-    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+    "approvalFinalTxtFidelityQA": "FINAL_PASS_DIRECT_STANDALONE_APPROVED_FINAL_TXT",
     "canonicalWebPath": "/cases/case48.html",
     "publicationSourceNoteQA": "PASS",
-    "webPathQA": "PASS"
+    "webPathQA": "PASS",
+    "directApprovedMasterContentQA": "PASS_DIRECT_STANDALONE_APPROVED_FINAL_TXT"
   },
   {
     "caseNo": 49,
@@ -255,13 +262,14 @@
     "bookSourceFile": "02_BOOK_SOURCE/CASE49_APPROVED_FINAL.txt",
     "officialBookSourceFile": "case49_approval_final.txt",
     "officialSourcePriority": 1,
-    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
+    "manuscriptFidelityStatus": "FINAL_PASS",
     "productionVerificationNumericQA": "PRELIMINARY_PASS",
     "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
-    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+    "approvalFinalTxtFidelityQA": "FINAL_PASS_DIRECT_STANDALONE_APPROVED_FINAL_TXT",
     "canonicalWebPath": "/cases/case49.html",
     "publicationSourceNoteQA": "PASS",
-    "webPathQA": "PASS"
+    "webPathQA": "PASS",
+    "directApprovedMasterContentQA": "PASS_DIRECT_STANDALONE_APPROVED_FINAL_TXT"
   },
   {
     "caseNo": 50,
@@ -290,16 +298,17 @@
     "sourceReconciliationReason": "Visible approved-final narrative/title is large-office WWR/SC simulation, while JSON-LD and legacy boundary metadata still identify childcare Passive House. Approved source exists, but exact original source bytes are not currently exposed for direct comparison.",
     "officialBookSourceFile": "case50_approval_final.txt",
     "officialSourcePriority": 1,
-    "manuscriptFidelityStatus": "SOURCE_RECONCILED_USER_BOOK_DECISION_PENDING",
+    "manuscriptFidelityStatus": "FINAL_CONTENT_FIDELITY_PASS_USER_BOOK_DECISION_PENDING",
     "productionVerificationNumericQA": "EXCLUDED_SOURCE_IDENTITY_HOLD",
     "productionVerificationEvidenceQA": "EXCLUDED_SOURCE_IDENTITY_HOLD",
-    "approvalFinalTxtFidelityQA": "SOURCE_IDENTITY_FINAL_PASS_BOOK_INCLUSION_PENDING_USER_DECISION",
+    "approvalFinalTxtFidelityQA": "FINAL_PASS_CONTENT_IDENTITY_DIRECT_STANDALONE_APPROVED_FINAL_TXT",
     "bookIncluded": false,
     "canonicalWebPath": "/cases/case50.html",
     "publicationSourceNoteQA": "HOLD_SOURCE_RECONCILIATION",
     "webPathQA": "PASS",
     "sourceReconciliationStatus": "RESOLVED_APPROVED_FINAL_OFFICE_WWR_GLAZING",
-    "sourceReconciliationBasis": "Direct read of CASE50_APPROVED_FINAL.txt confirms large-office fenestration parametric simulation; source explicitly rejects legacy childcare Passive House label for this CASE."
+    "sourceReconciliationBasis": "Direct read of CASE50_APPROVED_FINAL.txt confirms large-office fenestration parametric simulation; source explicitly rejects legacy childcare Passive House label for this CASE.",
+    "directApprovedMasterContentQA": "PASS_DIRECT_STANDALONE_APPROVED_FINAL_TXT"
   },
   {
     "caseNo": 51,
@@ -326,13 +335,14 @@
     "bookSourceFile": "02_BOOK_SOURCE/CASE51_APPROVED_FINAL_REV02.txt",
     "officialBookSourceFile": "case51_approval_final.txt",
     "officialSourcePriority": 1,
-    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
+    "manuscriptFidelityStatus": "FINAL_PASS",
     "productionVerificationNumericQA": "PRELIMINARY_PASS",
     "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
-    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+    "approvalFinalTxtFidelityQA": "FINAL_PASS_DIRECT_STANDALONE_APPROVED_FINAL_TXT",
     "canonicalWebPath": "/cases/case51.html",
     "publicationSourceNoteQA": "PASS",
-    "webPathQA": "PASS"
+    "webPathQA": "PASS",
+    "directApprovedMasterContentQA": "PASS_DIRECT_STANDALONE_APPROVED_FINAL_TXT"
   },
   {
     "caseNo": 52,
