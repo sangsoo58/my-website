@@ -1,0 +1,105 @@
+{
+  "status": "PLANNING_PASS_FINAL_PAGE_RECHECK_PENDING",
+  "count": 11,
+  "rows": [
+    {
+      "caseId": "CASE53",
+      "tableId": "CASE53-T01",
+      "use": "Fact Box",
+      "chapter": "Ch11",
+      "sourceStatus": "DIRECT_BOOK_MASTER_PRELIMINARY_PASS",
+      "planningTableQA": "PASS",
+      "finalPageRecheck": "PENDING"
+    },
+    {
+      "caseId": "CASE56",
+      "tableId": "CASE56-T01",
+      "use": "Compact Test Table",
+      "chapter": "Ch11",
+      "sourceStatus": "DIRECT_BOOK_MASTER_PRELIMINARY_PASS",
+      "planningTableQA": "PASS",
+      "finalPageRecheck": "PENDING"
+    },
+    {
+      "caseId": "CASE63",
+      "tableId": "CASE63-T01",
+      "use": "Compact Comparison Table",
+      "chapter": "Ch11",
+      "sourceStatus": "DIRECT_BOOK_MASTER_PRELIMINARY_PASS",
+      "planningTableQA": "PASS",
+      "finalPageRecheck": "PENDING"
+    },
+    {
+      "caseId": "CASE64",
+      "tableId": "CASE64-T01",
+      "use": "Fact Box",
+      "chapter": "Ch11",
+      "sourceStatus": "DIRECT_BOOK_MASTER_PRELIMINARY_PASS",
+      "planningTableQA": "PASS",
+      "finalPageRecheck": "PENDING"
+    },
+    {
+      "caseId": "CASE54",
+      "tableId": "CASE54-T01",
+      "use": "Compact Action Table",
+      "chapter": "Ch14",
+      "sourceStatus": "DIRECT_BOOK_MASTER_PRELIMINARY_PASS",
+      "planningTableQA": "PASS",
+      "finalPageRecheck": "PENDING"
+    },
+    {
+      "caseId": "CASE66",
+      "tableId": "CASE66-T01",
+      "use": "Primary Operating Combination Table",
+      "chapter": "Ch15",
+      "sourceStatus": "DIRECT_BOOK_MASTER_PRELIMINARY_PASS",
+      "planningTableQA": "PASS",
+      "finalPageRecheck": "PENDING"
+    },
+    {
+      "caseId": "CASE75",
+      "tableId": "CASE75-T01",
+      "use": "Benchmark Table",
+      "chapter": "Ch20",
+      "sourceStatus": "DIRECT_BOOK_MASTER_PRELIMINARY_PASS",
+      "planningTableQA": "PASS",
+      "finalPageRecheck": "PENDING"
+    },
+    {
+      "caseId": "CASE76",
+      "tableId": "CASE76-T01",
+      "use": "Equipment Configuration Table",
+      "chapter": "Ch20",
+      "sourceStatus": "DIRECT_BOOK_MASTER_PRELIMINARY_PASS",
+      "planningTableQA": "PASS",
+      "finalPageRecheck": "PENDING"
+    },
+    {
+      "caseId": "CASE49",
+      "tableId": "CASE49-T01",
+      "use": "Parametric Summary Table",
+      "chapter": "Ch23",
+      "sourceStatus": "FINAL_SOURCE_FIDELITY_PASS",
+      "planningTableQA": "PASS",
+      "finalPageRecheck": "PENDING"
+    },
+    {
+      "caseId": "CASE79",
+      "tableId": "CASE79-T01",
+      "use": "Actual vs Required Units Table",
+      "chapter": "Ch24",
+      "sourceStatus": "FINAL_SOURCE_FIDELITY_PASS",
+      "planningTableQA": "PASS",
+      "finalPageRecheck": "PENDING"
+    },
+    {
+      "caseId": "CASE82",
+      "tableId": "CASE82-T01",
+      "use": "Cost Scenario Table",
+      "chapter": "Ch24",
+      "sourceStatus": "FINAL_SOURCE_FIDELITY_PASS",
+      "planningTableQA": "PASS",
+      "finalPageRecheck": "PENDING"
+    }
+  ]
+}
