@@ -324,3 +324,19 @@ CASE50:
 - Book inclusion remains USER DECISION PENDING
 
 The remaining CASE52~76 limitation is tool access/readability, not a known content conflict.
+
+
+## Resume checkpoint
+
+Latest continuation record:
+- `docs/PHASE3_PAUSE_RESUME_CHECKPOINT_2026-09-22.md`
+- `docs/PHASE3_STANDALONE_SOURCE_ACCESSIBILITY_REGISTER.md`
+
+Current state at checkpoint:
+- Pre-Word package ready
+- active CASE = 40
+- active Final Fidelity PASS = 14/40
+- CASE50 source resolved / separate-body user decision pending
+- CASE77~81 Final Fidelity PASS 5/5
+- CASE52~76 strict standalone source-text reader limitation remains
+- current book masters and Production unchanged
