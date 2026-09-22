@@ -43,3 +43,7 @@ PUE가 높게 나타났을 때 그 숫자에서 멈추지 않고 실제 냉방�
 ## Consultant's Point
 
 PUE는 결론이 아니라 원인을 찾아 내려가기 위한 첫 번째 신호다. 또한 다중 센터 Benchmark보다 먼저 Measurement Quality를 확보해야 한다.
+
+## Source Note
+
+저자 보유 프로젝트 자료와 비식별 공개사례를 바탕으로 재구성했다. 수치·성과의 성격은 본문의 Evidence Boundary를 따른다.
