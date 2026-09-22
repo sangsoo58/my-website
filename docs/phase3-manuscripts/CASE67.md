@@ -1,7 +1,7 @@
 # CASE 67 | 응용사례 — 배기가스 온도·O₂와 연료 원단위 상관분석을 통한 연소효율 개선
 
 **편집상태:** PHASE 3 DRAFT / USER REVIEW REQUIRED  
-**배치안:** PART 4 · 신규 Chapter 후보 · 보일러 시스템 운전최적화  
+**편집 배치안 (Expanded Edition Proposal):** PART 4 · Chapter 15 · 보일러 시스템 운전최적화
 **Evidence:** B/C · Field Correlation / Optimization Direction  
 **Web:** /cases/case67.html
 
