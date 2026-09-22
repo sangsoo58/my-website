@@ -239,3 +239,14 @@ Artifacts:
 Result:
 - base selected table/fact-box candidates: **11/11 PASS**
 - final page-level source check remains pending after Word pagination
+
+
+## 19. Figure anonymization evidence
+
+Artifacts:
+- `docs/PHASE3_FIGURE_ANONYMIZATION_EVIDENCE_REVIEW.md`
+- `data/phase3-figure-anonymization-evidence-review.json`
+
+Result:
+- known document-level anonymization defect: 0
+- pixel visual review: pending
