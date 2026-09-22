@@ -84,3 +84,14 @@ Final print status requires:
 
 Until then:
 **BOOK_PRINT_PERMISSION_REVIEW_PENDING**
+
+
+## Binary asset integrity
+
+Status: **PASS 11/11**
+
+- Git asset existence: 11/11
+- SHA identity vs Source Register: 11/11
+- pixel dimension identity vs Source Register: 11/11
+
+Permission, anonymization, unit/caption and final-layout checks remain independent gates.
