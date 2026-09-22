@@ -200,3 +200,9 @@ Draft PR → Ready for Review → Merge → GitHub Pages → Production Smoke Te
   - hero heading wraps cleanly with no horizontal overflow
   - hero lead, primary CTAs and tags remain readable
   - screenshot viewport height was ~791px; width 390px is sufficient for this layout gate
+
+- Homepage mobile audience cards @390px: PASS
+  - audience cards stack in a single column
+  - card width, padding, typography and links fit within viewport
+  - no visible horizontal overflow
+  - sector labels and CTA links remain readable
