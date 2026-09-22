@@ -38,3 +38,7 @@
 
 ## Consultant's Point
 목표는 최소 가동대수가 아니라 **신뢰성을 만족하면서 System kW/RT가 가장 낮은 최적 가동대수**다.
+
+## Source Note
+
+저자 보유 프로젝트 자료와 비식별 공개사례를 바탕으로 재구성했다. 수치·성과의 성격은 본문의 Evidence Boundary를 따른다.
