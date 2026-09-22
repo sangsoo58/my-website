@@ -158,5 +158,10 @@
     "doc": "docs/PHASE3_BOOK_PRINT_PERMISSION_REVIEW.md",
     "data": "data/phase3-book-print-permission-review.json",
     "status": "PENDING"
+  },
+  "postApprovalExecution": {
+    "recommendationDoc": "docs/PHASE3_RECOMMENDED_APPROVAL_RESOLUTION.md",
+    "runbookDoc": "docs/PHASE3_WORD_INTEGRATION_RUNBOOK.md",
+    "status": "READY_NOT_AUTHORIZED"
   }
 }
