@@ -121,3 +121,17 @@ Therefore:
 - this is an access limitation, not a known anonymization failure
 
 Keep Anonymization = REVIEW until an actual visual inspection is completed.
+
+
+## Document-level anonymization evidence
+
+Reference:
+- `docs/PHASE3_FIGURE_ANONYMIZATION_EVIDENCE_REVIEW.md`
+
+Result:
+- known document-level anonymization defect: **0**
+- low documented risk: 10 assets
+- medium documented risk: CASE42-F01
+- pixel-level visual review: **PENDING**
+
+Therefore anonymization remains REVIEW, but there is currently no documented blocking issue.
