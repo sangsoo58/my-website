@@ -1,4 +1,4 @@
-# CASE 76 | 응용사례 — 발전소 급수·복수·해수펌프 가동대수·VFD 통합 최적화
+# CASE 76 | 응용사례 — 발전소 급수·복수·해수펌프 가동대수와 VFD·유량·압력 통합 운전최적화
 
 **편집상태:** PHASE 3 DRAFT / USER REVIEW REQUIRED  
 **배치안:** PART 4 · Proposed Chapter 20 · 발전소 보조기기
