@@ -294,3 +294,14 @@ Prepared:
 - Book print permission/anonymization checklist for all 11 approved Web PNG assets
 
 No decision in these planning documents modifies the current Master automatically.
+
+
+## Post-approval execution readiness update
+
+Status: **EXECUTION RUNBOOK READY / AUTHORIZATION PENDING**
+
+Prepared:
+- recommended approval resolution
+- full Expanded Edition Word integration runbook
+
+If/when approval is granted, the next controlled step is to create a separate Expanded Edition Word working copy, never overwrite the current Editable Word Master.
