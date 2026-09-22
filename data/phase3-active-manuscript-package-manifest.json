@@ -194,5 +194,13 @@
     "doc": "docs/PHASE3_PAUSE_RESUME_CHECKPOINT_2026-09-22.md",
     "sourceAccessibility": "docs/PHASE3_STANDALONE_SOURCE_ACCESSIBILITY_REGISTER.md",
     "status": "READY_FOR_NEXT_SESSION"
+  },
+  "tableFactBoxPlan": {
+    "doc": "docs/PHASE3_TABLE_FACTBOX_SELECTION_PLAN.md",
+    "data": "data/phase3-table-factbox-selection-plan.json",
+    "baseTables": 11,
+    "optionalTables": 1,
+    "factBoxesApprox": "9-12",
+    "status": "READY"
   }
 }
