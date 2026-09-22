@@ -54,3 +54,7 @@ DOE-2.1E 모델에는 외피, 기후, 재실, 조명, 콘센트, 공조기, Fan,
 ## Consultant's Point
 
 Simulation의 목적은 미래 사용량을 맞히는 것만이 아니라 **어느 시설·End-use·계절이 결과를 지배하는지 찾아 설계대안의 우선순위를 정하는 것**이다.
+
+## Source Note
+
+저자 보유 설계·Simulation 자료와 비식별 공개사례를 바탕으로 재구성했다. 수치·성과의 성격은 본문의 Evidence Boundary를 따르며 준공 후 실측성과로 해석하지 않는다.
