@@ -1,0 +1,66 @@
+{
+  "phase": "PHASE3",
+  "status": "PRE_WORD_MASTER_PARTIAL_PASS",
+  "currentBookModified": false,
+  "productionWebModified": false,
+  "expandedCases": {
+    "total": 41,
+    "manuscriptDrafts": 41
+  },
+  "sourceReadiness": {
+    "approvedFinalRecovered": {
+      "count": 35,
+      "range": "CASE42-76"
+    },
+    "sourceBasisIdentifiedExactPathPending": {
+      "count": 5,
+      "cases": [
+        "CASE77",
+        "CASE78",
+        "CASE79",
+        "CASE80",
+        "CASE81"
+      ]
+    },
+    "productionLockedDataSource": {
+      "count": 1,
+      "cases": [
+        "CASE82"
+      ]
+    }
+  },
+  "holds": {
+    "content": [
+      {
+        "caseId": "CASE50",
+        "reason": "Office WWR/SC body conflicts with childcare Passive House JSON-LD/legacy boundary; original source bytes not currently available for direct reconciliation."
+      }
+    ],
+    "provenance": [
+      "CASE77",
+      "CASE78",
+      "CASE79",
+      "CASE80",
+      "CASE81"
+    ]
+  },
+  "figureSelection": {
+    "approvedWebAssets": 11,
+    "primaryCandidates": 7,
+    "optional": 1,
+    "preferTableOrCallout": 3
+  },
+  "nextAllowedWork": [
+    "deduplicate chapter text",
+    "draft captions",
+    "sync index/references",
+    "prepare insertion order",
+    "estimate page budget"
+  ],
+  "blockedUntilUserOrSourceResolution": [
+    "modify current Editable Word Master",
+    "activate CASE42-82 book links",
+    "final pagination",
+    "final Web↔Book mapping"
+  ]
+}
