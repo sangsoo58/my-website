@@ -37,3 +37,7 @@ Pressure Test 전·후 Fuel Gas만 비교하면 Demand 차이가 섞일 수 있�
 
 ## Consultant's Point
 목표는 가장 낮은 Pressure가 아니라 **가장 불리한 사용처까지 필요한 서비스를 안정적으로 전달할 수 있는 최소 충분 Pressure**다.
+
+## Source Note
+
+저자 보유 프로젝트 자료와 비식별 공개사례를 바탕으로 재구성했다. 수치·성과의 성격은 본문의 Evidence Boundary를 따른다.
