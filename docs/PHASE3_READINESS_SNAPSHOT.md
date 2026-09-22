@@ -402,3 +402,17 @@ Status: **EDITORIAL PLAN READY**
 - source values remain subject to final page-level verification
 
 Reference: `docs/PHASE3_TABLE_FACTBOX_SELECTION_PLAN.md`
+
+
+## Consolidated remaining gates
+
+Current non-destructive QA is effectively complete.
+
+Remaining gates:
+1. CASE52~76 strict standalone Approval Final TXT direct-text access for Final Fidelity promotion
+2. User decision: proposed 29-Chapter TOC / new Boiler Chapter 15
+3. User decision: CASE50 separate body vs CASE49 absorption
+4. User decision: final Figure selection + page target + Word working-copy authorization
+5. Figure print permission/anonymization/final-layout review
+
+Current Master/Production remain unchanged.
