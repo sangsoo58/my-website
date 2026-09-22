@@ -32,3 +32,7 @@ Demand 평탄화와 최소 대수 운영은 실제 개선방향으로 명시되�
 
 ## Consultant's Point
 압축기 부족처럼 보이는 문제도 실제로는 **수요 Peak 관리 문제**일 수 있다. 공급설비를 늘리기 전에 Demand Pattern을 먼저 본다.
+
+## Source Note
+
+저자 보유 프로젝트 자료와 비식별 공개사례를 바탕으로 재구성했다. 수치·성과의 성격은 본문의 Evidence Boundary를 따른다.
