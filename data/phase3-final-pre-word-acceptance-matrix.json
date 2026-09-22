@@ -15,10 +15,9 @@
     "boundary": "40/40 PASS",
     "claimStrengtheningViolations": 0,
     "preWordAcceptance": "40/40",
-    "finalFidelityPass": "14/40",
+    "finalFidelityPass": "15/40",
     "preliminaryFidelity": "26/40",
-    "directBookMasterPreliminaryPass": "25/40",
-    "separateSourcePreliminary": "1/40"
+    "directBookMasterPreliminaryPass": "25/40"
   },
   "sourceFidelity": {
     "case42_76": {
@@ -38,7 +37,8 @@
     },
     "case82": {
       "basis": "PRODUCTION_LOCKED_DATA_PLUS_RESTORED_QA",
-      "preliminaryPass": true
+      "finalPass": true,
+      "sourceRegime": "SEPARATE_FROM_CASE01_81_APPROVAL_FINAL_TXT"
     }
   },
   "remainingGates": [
@@ -604,8 +604,8 @@
       "numericUnit": "PRELIMINARY_PASS",
       "evidence": "PRELIMINARY_PASS",
       "boundary": "PASS_WITH_CASE_SPECIFIC_BOUNDARY",
-      "sourceStage": "PRODUCTION LOCKED DATA / PRELIMINARY",
-      "finalByte": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+      "sourceStage": "FINAL_PASS_LOCKED_DATA_QA_SOURCE",
+      "finalByte": "NOT_APPLICABLE_SEPARATE_SOURCE_REGIME",
       "acceptance": "PRE_WORD_ACCEPT"
     }
   ]
