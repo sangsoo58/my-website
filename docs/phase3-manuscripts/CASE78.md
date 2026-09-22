@@ -48,3 +48,7 @@ CASE78만의 독립 절감률·절감량·금액은 현재 확인자료에서 �
 
 ## Consultant's Point
 개별 Pump 성능과 System 가동대수를 분리하지 않고 **Unit Benchmark + Required Units**를 함께 관리하는 것이 강점이다.
+
+## Source Note
+
+저자 보유 프로젝트 자료와 비식별 공개사례를 바탕으로 재구성했다. 수치·성과의 성격은 본문의 Evidence Boundary를 따른다.
