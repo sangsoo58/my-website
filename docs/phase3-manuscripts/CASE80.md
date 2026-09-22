@@ -1,4 +1,4 @@
-# CASE 80 | DEEP DIVE 후보 — 냉방부하·냉동기 가동대수 분석을 통한 부분부하 과다운전 진단 및 냉동기 운전조합 최적화
+# CASE 80 | 응용사례 — 냉방부하·냉동기 가동대수 분석을 통한 부분부하 과다운전 진단 및 냉동기 운전조합 최적화
 
 **편집상태:** PHASE 3 DRAFT / USER REVIEW REQUIRED  
 **배치안:** PART 5 · Proposed Chapter 24 · 데이터센터 PUE와 냉방 최적화
