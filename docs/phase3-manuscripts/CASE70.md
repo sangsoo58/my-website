@@ -28,3 +28,7 @@ Fan-only 상태 제거만의 독립 최종 절감률·금액은 현재 확보자
 
 ## Consultant's Point
 PUE는 결론이 아니라 **원인을 찾아 설비 수준으로 내려가기 위한 Screening KPI**다.
+
+## Source Note
+
+저자 보유 프로젝트 자료와 비식별 공개사례를 바탕으로 재구성했다. 수치·성과의 성격은 본문의 Evidence Boundary를 따른다.
