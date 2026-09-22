@@ -36,3 +36,7 @@ Retrofit 전후 IT Load와 외기조건이 달라질 수 있으므로 유사조�
 
 ## Consultant's Point
 Fan 기술명보다 중요한 것은 **필요한 Airflow를 필요한 시간에 최소전력으로 공급하는 제어구조**다.
+
+## Source Note
+
+저자 보유 프로젝트 자료와 비식별 공개사례를 바탕으로 재구성했다. 수치·성과의 성격은 본문의 Evidence Boundary를 따른다.
