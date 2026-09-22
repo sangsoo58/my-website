@@ -32,17 +32,16 @@
         "CASE81"
       ],
       "sourceMode": "DIRECT_STANDALONE_APPROVED_FINAL_TXT_REVIEW"
+    },
+    "case50": {
+      "status": "SOURCE_IDENTITY_RESOLVED",
+      "authoritativeSource": "CASE50_APPROVED_FINAL.txt",
+      "authoritativeIdentity": "Large office fenestration WWR/glazing parametric simulation",
+      "bookDecision": "USER_DECISION_PENDING"
     }
   },
   "holds": {
-    "content": [
-      {
-        "caseId": "CASE50",
-        "reason": "Office WWR/SC body conflicts with childcare Passive House JSON-LD/legacy boundary; original source bytes not currently available for direct reconciliation.",
-        "bookIncluded": false,
-        "page": null
-      }
-    ],
+    "content": [],
     "provenance": []
   },
   "figureSelection": {
@@ -68,5 +67,14 @@
     "activate CASE42-82 book links",
     "final pagination",
     "final Web↔Book mapping"
+  ],
+  "userDecisionPending": [
+    {
+      "caseId": "CASE50",
+      "issue": "BOOK_INCLUSION_AFTER_SOURCE_RECONCILIATION",
+      "sourceIdentity": "RESOLVED_APPROVED_FINAL_OFFICE_WWR_GLAZING",
+      "currentBookIncluded": false,
+      "page": null
+    }
   ]
 }
