@@ -129,3 +129,33 @@ CASE77~81 official filenames are confirmed as `case77_approval_final.txt` ~ `cas
 - no orphan chapter/page references
 - CASE INDEX / REFERENCES / body title 1:1
 - current 159p baseline remains separately archived
+
+
+## 8. Chapter Map Integrity QA
+
+Status: **PASS / ACTUAL WORD INSERTION NOT STARTED**
+
+Active revision set:
+- manuscript drafts: 41
+- active integration candidates: 40
+- Source HOLD excluded: CASE50
+
+Chapter-map integrity result:
+- mapped active CASEs: 40
+- unique mapped CASEs: 40
+- duplicate CASE IDs: 0
+- missing active CASE IDs: 0
+- extra CASE IDs: 0
+
+Current insertion map:
+- Chapter 11: CASE53,55,56,57,58,60,62,63,64,78
+- Chapter 12: CASE42,43,44,45
+- Chapter 14: CASE52,54,59,61
+- Proposed Chapter 15: CASE65,66,67,68,69
+- Proposed Chapter 20: CASE75,76
+- Proposed Chapter 23: CASE48,49,51
+- Proposed Chapter 24: CASE46,47,70,71,72,73,74,77,79,80,81,82
+
+CASE50 is not assigned to an active insertion chapter until Source Reconciliation is completed.
+
+This QA validates planning metadata only; it does not authorize modification of the current Editable Word Master.
