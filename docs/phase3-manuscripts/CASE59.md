@@ -28,3 +28,7 @@
 
 ## Consultant's Point
 호기 Ranking은 설비 폐기의 근거가 아니라 **어디를 먼저 점검하고 정비할지 정하는 진단 우선순위**다.
+
+## Source Note
+
+저자 보유 프로젝트 자료와 비식별 공개사례를 바탕으로 재구성했다. 수치·성과의 성격은 본문의 Evidence Boundary를 따른다.
