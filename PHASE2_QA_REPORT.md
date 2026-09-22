@@ -146,3 +146,9 @@ Draft PR → Ready for Review → Merge → GitHub Pages → Production Smoke Te
   - Current-book card appears for CASE01
   - Related Insight resolves to Baseline & M&V
   - CASE Library and Professional Consultation links visible
+
+- CASE41 full page + knowledge connection: PASS
+  - Current-book card appears for CASE41
+  - Related Insight resolves to Baseline & M&V
+  - CASE Library and Professional Consultation links visible
+  - no visible layout issue in reviewed upper/lower screenshots
