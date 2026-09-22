@@ -1,4 +1,4 @@
-# CASE 81 | 응용사례 — 외기조건 보정 기반 데이터센터 냉각탑 성능열위 진단
+# CASE 81 | 응용사례 — 외기조건·냉각수온도 분석을 통한 데이터센터 냉각탑 성능열위 진단 및 성능개선
 
 **편집상태:** PHASE 3 DRAFT / USER REVIEW REQUIRED  
 **배치안:** PART 5 · Proposed Chapter 24 · 데이터센터 PUE와 냉방 최적화
