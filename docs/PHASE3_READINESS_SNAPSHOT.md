@@ -381,3 +381,13 @@ Status: **11/11 PASS**
 - approved Web PNG file identity verified by Git SHA
 - pixel dimensions verified against Figure/Table Register
 - print permission/anonymization remains pending
+
+
+## Figure caption unit update
+
+Status: **SOURCE QA PASS 11/11**
+- caption/source mismatch: 0
+- unit/source mismatch: 0
+- unsupported Figure numeric: 0
+
+Remaining Figure gates: user selection, print permission/anonymization, final layout readability.
