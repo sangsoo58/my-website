@@ -51,9 +51,9 @@ PUE를 냉방효율과 개별 냉방기효율로 분해하고, KPI 이탈 시 �
 
 ## CASE 70 | 응용사례 — Fan-only Root Cause
 
-센터 평균 PUE 1.576과 특정 전산실 PUE 1.848의 Gap을 설비상태까지 Drill-down하여 Fan-only 운전을 확인했다.
+CASE46의 PUE 이상 진단에서 확인된 **Fan-only 운전상태**를 별도 분석질문으로 분리한다. 동일 PUE 수치는 여기서 반복하지 않고 CASE46을 참조한다.
 
-PUE Gap 자체를 절감률로 해석하지 않고 IT Load와 Cooling Power, Rack 환경조건을 함께 본다.
+핵심은 PUE Gap 자체를 절감률로 해석하는 것이 아니라, IT Load와 Cooling Power, Rack 환경조건을 함께 보면서 실제 설비상태까지 Drill-down하는 것이다.
 
 ---
 
@@ -103,9 +103,9 @@ Wet-bulb와 Cooling Load에 따라 Set Point를 조정하고:
 
 **Meter/BMS → Data Quality → KPI/Benchmark → FDD/Model → Optimization → M&V**
 
-24개월 1차 목표는 PUE 1.77→1.70, 예상 6.5 GWh/년·7.53억원/년이다.
+정량 목표와 예상효과는 동일 프로젝트의 CASE47에 제시된 값을 참조하고, 여기서는 Multi-site Architecture·Data Quality·FDD/M&V 운영구조에 집중한다.
 
-**EVIDENCE C | Proposal Target**
+**EVIDENCE C | Proposal Target — 정량 목표는 CASE47 참조**
 
 ---
 
