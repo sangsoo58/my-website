@@ -300,17 +300,18 @@
     "proposedPart": 5,
     "proposedChapter": 23,
     "proposedChapterTitle": "신축건물 Energy Modeling",
-    "placementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
+    "placementStatus": "HOLD_EXCLUDED_PENDING_SOURCE_RECONCILIATION",
     "placementCandidates": [],
     "placementReason": null,
     "auditFlags": [
       "SIMULATION_ONLY_D",
-      "TITLE_BOUNDARY_MISMATCH_REVIEW"
+      "TITLE_BOUNDARY_MISMATCH_REVIEW",
+      "BOOK_EXCLUDED_SOURCE_RECONCILIATION_HOLD"
     ],
     "bookIncluded": false,
     "bookPage": null,
     "bookEdition": null,
-    "mappingStatus": "PHASE3_DRAFT_REVIEW"
+    "mappingStatus": "PHASE3_HOLD_SOURCE_RECONCILIATION"
   },
   {
     "caseId": "CASE51",
