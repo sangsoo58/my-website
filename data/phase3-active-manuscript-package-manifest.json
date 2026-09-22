@@ -1,0 +1,119 @@
+{
+  "phase": "PHASE3",
+  "status": "PLANNING_PACKAGE_READY",
+  "manuscriptDrafts": 41,
+  "activeRevisionCandidates": 40,
+  "holdCases": [
+    "CASE50"
+  ],
+  "chapterMap": {
+    "P3-C11": [
+      "CASE53",
+      "CASE55",
+      "CASE56",
+      "CASE57",
+      "CASE58",
+      "CASE60",
+      "CASE62",
+      "CASE63",
+      "CASE64",
+      "CASE78"
+    ],
+    "P3-C12": [
+      "CASE42",
+      "CASE43",
+      "CASE44",
+      "CASE45"
+    ],
+    "P4-C14": [
+      "CASE52",
+      "CASE54",
+      "CASE59",
+      "CASE61"
+    ],
+    "P4-C15": [
+      "CASE65",
+      "CASE66",
+      "CASE67",
+      "CASE68",
+      "CASE69"
+    ],
+    "P4-C20": [
+      "CASE75",
+      "CASE76"
+    ],
+    "P5-C23": [
+      "CASE48",
+      "CASE49",
+      "CASE51"
+    ],
+    "P5-C24": [
+      "CASE46",
+      "CASE47",
+      "CASE70",
+      "CASE71",
+      "CASE72",
+      "CASE73",
+      "CASE74",
+      "CASE77",
+      "CASE79",
+      "CASE80",
+      "CASE81",
+      "CASE82"
+    ]
+  },
+  "qa": {
+    "mappedActiveCases": 40,
+    "duplicateCaseIds": [],
+    "missingActiveCaseIds": [],
+    "titleAlignment": "40/40 PASS",
+    "canonicalWebPath": "40/40 PASS",
+    "publicationSourceNote": "40/40 PASS",
+    "publicationInternalPathLeakage": 0,
+    "evidenceStrengtheningViolations": 0,
+    "sameProjectDoubleCount": 0
+  },
+  "figures": {
+    "approvedWebAssets": 11,
+    "primary": [
+      "CASE42-F01",
+      "CASE43-F01",
+      "CASE44-F01",
+      "CASE51-F01",
+      "CASE56-F01",
+      "CASE63-F01",
+      "CASE65-F01"
+    ],
+    "optional": [
+      "CASE44-F02"
+    ],
+    "tableOrFactBoxPreferred": [
+      "CASE53-F01",
+      "CASE64-F01",
+      "CASE66-F01"
+    ],
+    "finalSelection": "USER_CONFIRMATION_PENDING",
+    "bookPrintPermission": "PENDING"
+  },
+  "pageBudget": {
+    "compact": "211-215",
+    "baseRecommended": "214-220",
+    "expanded": "221-226",
+    "finalPagination": "PENDING"
+  },
+  "blockers": [
+    "CASE50_SOURCE_RECONCILIATION",
+    "CASE77_81_DIRECT_APPROVAL_FINAL_TXT_FIDELITY",
+    "USER_CONFIRMATION_EXPANDED_TOC",
+    "USER_CONFIRMATION_FINAL_FIGURE_SELECTION",
+    "BOOK_PRINT_PERMISSION_ANONYMIZATION_REVIEW",
+    "AUTHORIZATION_FOR_EXPANDED_WORD_WORKING_COPY"
+  ],
+  "protected": {
+    "currentEditableWordMaster": "UNCHANGED",
+    "currentPrintMaster": "UNCHANGED",
+    "currentBookReader": "UNCHANGED",
+    "productionWeb": "UNCHANGED",
+    "case42_82BookLinks": "HIDDEN"
+  }
+}
