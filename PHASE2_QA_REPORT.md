@@ -186,3 +186,11 @@ Draft PR → Ready for Review → Merge → GitHub Pages → Production Smoke Te
   - Professional Consultation & Collaboration CTA visible
   - source-supported profile wording retained
   - canonical present
+
+- Consultation section browser QA: PASS
+  - contact heading renders cleanly without orphaned particles
+  - company/organization, contact, email, phone, industry/process, topic, message, privacy, submit button layout verified
+  - honeypot hidden from normal UI
+  - Supabase CDN/config/client/contact-form module wiring present
+  - contact-form.js syntax PASS
+  - actual submission was not performed during QA
