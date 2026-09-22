@@ -128,3 +128,18 @@ CASE42~82를 현재 41 CASE 책에 추가할 때 동일 프로젝트의 반복�
 - Simulation→Actual = 0
 - Program-level→single-action attribution = 0
 - unresolved Source conflict = CASE50 only
+
+
+## De-duplication QA Update
+
+Status: **PRELIMINARY PASS / CROSS-REFERENCE CONTROL APPLIED**
+
+Applied in Chapter 24:
+- CASE70 no longer repeats the CASE46 PUE 1.576 / 1.848 values; it cross-references CASE46 and focuses on Fan-only root-cause analysis.
+- CASE74 no longer repeats the CASE47 proposal metrics PUE 1.77→1.70, 6.5 GWh/년, 7.53억원/년; it cross-references CASE47 and focuses on Multi-site Architecture / Data Quality / FDD / M&V.
+
+Current control result:
+- same-project project-level metric double-count: 0 identified in CASE65~82 integrated chapter review
+- program-level result attributed to a single action: 0 identified
+- cost-saving scenario mixed into energy-saving total: 0 identified
+- CASE50 remains excluded from integration pending source reconciliation
