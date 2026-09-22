@@ -16,7 +16,9 @@
     "claimStrengtheningViolations": 0,
     "preWordAcceptance": "40/40",
     "finalFidelityPass": "14/40",
-    "preliminaryFidelity": "26/40"
+    "preliminaryFidelity": "26/40",
+    "directBookMasterPreliminaryPass": "25/40",
+    "separateSourcePreliminary": "1/40"
   },
   "sourceFidelity": {
     "case42_76": {
@@ -27,7 +29,7 @@
       ],
       "standaloneByteIdentity": "PENDING",
       "directStandaloneFinalPass": "CASE42-49 + CASE51 = 9 active",
-      "case52_76": "PRELIMINARY_STANDALONE_TEXT_READER_LIMITATION"
+      "case52_76": "DIRECT_BOOK_MASTER_PRELIMINARY_PASS_25_OF_25_STANDALONE_TXT_TEXT_ACCESS_PENDING"
     },
     "case77_81": {
       "directSourceMasterPreliminaryPass": "SUPERSEDED",
@@ -182,8 +184,8 @@
       "numericUnit": "PRELIMINARY_PASS",
       "evidence": "PRELIMINARY_PASS",
       "boundary": "PASS_WITH_CASE_SPECIFIC_BOUNDARY",
-      "sourceStage": "APPROVED_SOURCE_RECOVERED / PRELIMINARY",
-      "finalByte": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+      "sourceStage": "DIRECT_BOOK_MASTER_PRELIMINARY_PASS",
+      "finalByte": "PENDING_STANDALONE_APPROVED_FINAL_DIRECT_TEXT_ACCESS",
       "acceptance": "PRE_WORD_ACCEPT"
     },
     {
@@ -196,8 +198,8 @@
       "numericUnit": "PRELIMINARY_PASS",
       "evidence": "PRELIMINARY_PASS",
       "boundary": "PASS_WITH_CASE_SPECIFIC_BOUNDARY",
-      "sourceStage": "APPROVED_SOURCE_RECOVERED / PRELIMINARY",
-      "finalByte": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+      "sourceStage": "DIRECT_BOOK_MASTER_PRELIMINARY_PASS",
+      "finalByte": "PENDING_STANDALONE_APPROVED_FINAL_DIRECT_TEXT_ACCESS",
       "acceptance": "PRE_WORD_ACCEPT"
     },
     {
@@ -210,8 +212,8 @@
       "numericUnit": "PRELIMINARY_PASS",
       "evidence": "PRELIMINARY_PASS",
       "boundary": "PASS_WITH_CASE_SPECIFIC_BOUNDARY",
-      "sourceStage": "APPROVED_SOURCE_RECOVERED / PRELIMINARY",
-      "finalByte": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+      "sourceStage": "DIRECT_BOOK_MASTER_PRELIMINARY_PASS",
+      "finalByte": "PENDING_STANDALONE_APPROVED_FINAL_DIRECT_TEXT_ACCESS",
       "acceptance": "PRE_WORD_ACCEPT"
     },
     {
@@ -224,8 +226,8 @@
       "numericUnit": "PRELIMINARY_PASS",
       "evidence": "PRELIMINARY_PASS",
       "boundary": "PASS_WITH_CASE_SPECIFIC_BOUNDARY",
-      "sourceStage": "APPROVED_SOURCE_RECOVERED / PRELIMINARY",
-      "finalByte": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+      "sourceStage": "DIRECT_BOOK_MASTER_PRELIMINARY_PASS",
+      "finalByte": "PENDING_STANDALONE_APPROVED_FINAL_DIRECT_TEXT_ACCESS",
       "acceptance": "PRE_WORD_ACCEPT"
     },
     {
@@ -238,8 +240,8 @@
       "numericUnit": "PRELIMINARY_PASS",
       "evidence": "PRELIMINARY_PASS",
       "boundary": "PASS_WITH_CASE_SPECIFIC_BOUNDARY",
-      "sourceStage": "APPROVED_SOURCE_RECOVERED / PRELIMINARY",
-      "finalByte": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+      "sourceStage": "DIRECT_BOOK_MASTER_PRELIMINARY_PASS",
+      "finalByte": "PENDING_STANDALONE_APPROVED_FINAL_DIRECT_TEXT_ACCESS",
       "acceptance": "PRE_WORD_ACCEPT"
     },
     {
@@ -252,8 +254,8 @@
       "numericUnit": "PRELIMINARY_PASS",
       "evidence": "PRELIMINARY_PASS",
       "boundary": "PASS_WITH_CASE_SPECIFIC_BOUNDARY",
-      "sourceStage": "APPROVED_SOURCE_RECOVERED / PRELIMINARY",
-      "finalByte": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+      "sourceStage": "DIRECT_BOOK_MASTER_PRELIMINARY_PASS",
+      "finalByte": "PENDING_STANDALONE_APPROVED_FINAL_DIRECT_TEXT_ACCESS",
       "acceptance": "PRE_WORD_ACCEPT"
     },
     {
@@ -266,8 +268,8 @@
       "numericUnit": "PRELIMINARY_PASS",
       "evidence": "PRELIMINARY_PASS",
       "boundary": "PASS_WITH_CASE_SPECIFIC_BOUNDARY",
-      "sourceStage": "APPROVED_SOURCE_RECOVERED / PRELIMINARY",
-      "finalByte": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+      "sourceStage": "DIRECT_BOOK_MASTER_PRELIMINARY_PASS",
+      "finalByte": "PENDING_STANDALONE_APPROVED_FINAL_DIRECT_TEXT_ACCESS",
       "acceptance": "PRE_WORD_ACCEPT"
     },
     {
@@ -280,8 +282,8 @@
       "numericUnit": "PRELIMINARY_PASS",
       "evidence": "PRELIMINARY_PASS",
       "boundary": "PASS_WITH_CASE_SPECIFIC_BOUNDARY",
-      "sourceStage": "APPROVED_SOURCE_RECOVERED / PRELIMINARY",
-      "finalByte": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+      "sourceStage": "DIRECT_BOOK_MASTER_PRELIMINARY_PASS",
+      "finalByte": "PENDING_STANDALONE_APPROVED_FINAL_DIRECT_TEXT_ACCESS",
       "acceptance": "PRE_WORD_ACCEPT"
     },
     {
@@ -294,8 +296,8 @@
       "numericUnit": "PRELIMINARY_PASS",
       "evidence": "PRELIMINARY_PASS",
       "boundary": "PASS_WITH_CASE_SPECIFIC_BOUNDARY",
-      "sourceStage": "APPROVED_SOURCE_RECOVERED / PRELIMINARY",
-      "finalByte": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+      "sourceStage": "DIRECT_BOOK_MASTER_PRELIMINARY_PASS",
+      "finalByte": "PENDING_STANDALONE_APPROVED_FINAL_DIRECT_TEXT_ACCESS",
       "acceptance": "PRE_WORD_ACCEPT"
     },
     {
@@ -308,8 +310,8 @@
       "numericUnit": "PRELIMINARY_PASS",
       "evidence": "PRELIMINARY_PASS",
       "boundary": "PASS_WITH_CASE_SPECIFIC_BOUNDARY",
-      "sourceStage": "APPROVED_SOURCE_RECOVERED / PRELIMINARY",
-      "finalByte": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+      "sourceStage": "DIRECT_BOOK_MASTER_PRELIMINARY_PASS",
+      "finalByte": "PENDING_STANDALONE_APPROVED_FINAL_DIRECT_TEXT_ACCESS",
       "acceptance": "PRE_WORD_ACCEPT"
     },
     {
@@ -322,8 +324,8 @@
       "numericUnit": "PRELIMINARY_PASS",
       "evidence": "PRELIMINARY_PASS",
       "boundary": "PASS_WITH_CASE_SPECIFIC_BOUNDARY",
-      "sourceStage": "APPROVED_SOURCE_RECOVERED / PRELIMINARY",
-      "finalByte": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+      "sourceStage": "DIRECT_BOOK_MASTER_PRELIMINARY_PASS",
+      "finalByte": "PENDING_STANDALONE_APPROVED_FINAL_DIRECT_TEXT_ACCESS",
       "acceptance": "PRE_WORD_ACCEPT"
     },
     {
@@ -336,8 +338,8 @@
       "numericUnit": "PRELIMINARY_PASS",
       "evidence": "PRELIMINARY_PASS",
       "boundary": "PASS_WITH_CASE_SPECIFIC_BOUNDARY",
-      "sourceStage": "APPROVED_SOURCE_RECOVERED / PRELIMINARY",
-      "finalByte": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+      "sourceStage": "DIRECT_BOOK_MASTER_PRELIMINARY_PASS",
+      "finalByte": "PENDING_STANDALONE_APPROVED_FINAL_DIRECT_TEXT_ACCESS",
       "acceptance": "PRE_WORD_ACCEPT"
     },
     {
@@ -350,8 +352,8 @@
       "numericUnit": "PRELIMINARY_PASS",
       "evidence": "PRELIMINARY_PASS",
       "boundary": "PASS_WITH_CASE_SPECIFIC_BOUNDARY",
-      "sourceStage": "APPROVED_SOURCE_RECOVERED / PRELIMINARY",
-      "finalByte": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+      "sourceStage": "DIRECT_BOOK_MASTER_PRELIMINARY_PASS",
+      "finalByte": "PENDING_STANDALONE_APPROVED_FINAL_DIRECT_TEXT_ACCESS",
       "acceptance": "PRE_WORD_ACCEPT"
     },
     {
@@ -364,8 +366,8 @@
       "numericUnit": "PRELIMINARY_PASS",
       "evidence": "PRELIMINARY_PASS",
       "boundary": "PASS_WITH_CASE_SPECIFIC_BOUNDARY",
-      "sourceStage": "APPROVED_SOURCE_RECOVERED / PRELIMINARY",
-      "finalByte": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+      "sourceStage": "DIRECT_BOOK_MASTER_PRELIMINARY_PASS",
+      "finalByte": "PENDING_STANDALONE_APPROVED_FINAL_DIRECT_TEXT_ACCESS",
       "acceptance": "PRE_WORD_ACCEPT"
     },
     {
@@ -378,8 +380,8 @@
       "numericUnit": "PRELIMINARY_PASS",
       "evidence": "PRELIMINARY_PASS",
       "boundary": "PASS_WITH_CASE_SPECIFIC_BOUNDARY",
-      "sourceStage": "APPROVED_SOURCE_RECOVERED / PRELIMINARY",
-      "finalByte": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+      "sourceStage": "DIRECT_BOOK_MASTER_PRELIMINARY_PASS",
+      "finalByte": "PENDING_STANDALONE_APPROVED_FINAL_DIRECT_TEXT_ACCESS",
       "acceptance": "PRE_WORD_ACCEPT"
     },
     {
@@ -392,8 +394,8 @@
       "numericUnit": "PRELIMINARY_PASS",
       "evidence": "PRELIMINARY_PASS",
       "boundary": "PASS_WITH_CASE_SPECIFIC_BOUNDARY",
-      "sourceStage": "APPROVED_SOURCE_RECOVERED / PRELIMINARY",
-      "finalByte": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+      "sourceStage": "DIRECT_BOOK_MASTER_PRELIMINARY_PASS",
+      "finalByte": "PENDING_STANDALONE_APPROVED_FINAL_DIRECT_TEXT_ACCESS",
       "acceptance": "PRE_WORD_ACCEPT"
     },
     {
@@ -406,8 +408,8 @@
       "numericUnit": "PRELIMINARY_PASS",
       "evidence": "PRELIMINARY_PASS",
       "boundary": "PASS_WITH_CASE_SPECIFIC_BOUNDARY",
-      "sourceStage": "APPROVED_SOURCE_RECOVERED / PRELIMINARY",
-      "finalByte": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+      "sourceStage": "DIRECT_BOOK_MASTER_PRELIMINARY_PASS",
+      "finalByte": "PENDING_STANDALONE_APPROVED_FINAL_DIRECT_TEXT_ACCESS",
       "acceptance": "PRE_WORD_ACCEPT"
     },
     {
@@ -420,8 +422,8 @@
       "numericUnit": "PRELIMINARY_PASS",
       "evidence": "PRELIMINARY_PASS",
       "boundary": "PASS_WITH_CASE_SPECIFIC_BOUNDARY",
-      "sourceStage": "APPROVED_SOURCE_RECOVERED / PRELIMINARY",
-      "finalByte": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+      "sourceStage": "DIRECT_BOOK_MASTER_PRELIMINARY_PASS",
+      "finalByte": "PENDING_STANDALONE_APPROVED_FINAL_DIRECT_TEXT_ACCESS",
       "acceptance": "PRE_WORD_ACCEPT"
     },
     {
@@ -434,8 +436,8 @@
       "numericUnit": "PRELIMINARY_PASS",
       "evidence": "PRELIMINARY_PASS",
       "boundary": "PASS_WITH_CASE_SPECIFIC_BOUNDARY",
-      "sourceStage": "APPROVED_SOURCE_RECOVERED / PRELIMINARY",
-      "finalByte": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+      "sourceStage": "DIRECT_BOOK_MASTER_PRELIMINARY_PASS",
+      "finalByte": "PENDING_STANDALONE_APPROVED_FINAL_DIRECT_TEXT_ACCESS",
       "acceptance": "PRE_WORD_ACCEPT"
     },
     {
@@ -448,8 +450,8 @@
       "numericUnit": "PRELIMINARY_PASS",
       "evidence": "PRELIMINARY_PASS",
       "boundary": "PASS_WITH_CASE_SPECIFIC_BOUNDARY",
-      "sourceStage": "APPROVED_SOURCE_RECOVERED / PRELIMINARY",
-      "finalByte": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+      "sourceStage": "DIRECT_BOOK_MASTER_PRELIMINARY_PASS",
+      "finalByte": "PENDING_STANDALONE_APPROVED_FINAL_DIRECT_TEXT_ACCESS",
       "acceptance": "PRE_WORD_ACCEPT"
     },
     {
@@ -462,8 +464,8 @@
       "numericUnit": "PRELIMINARY_PASS",
       "evidence": "PRELIMINARY_PASS",
       "boundary": "PASS_WITH_CASE_SPECIFIC_BOUNDARY",
-      "sourceStage": "APPROVED_SOURCE_RECOVERED / PRELIMINARY",
-      "finalByte": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+      "sourceStage": "DIRECT_BOOK_MASTER_PRELIMINARY_PASS",
+      "finalByte": "PENDING_STANDALONE_APPROVED_FINAL_DIRECT_TEXT_ACCESS",
       "acceptance": "PRE_WORD_ACCEPT"
     },
     {
@@ -476,8 +478,8 @@
       "numericUnit": "PRELIMINARY_PASS",
       "evidence": "PRELIMINARY_PASS",
       "boundary": "PASS_WITH_CASE_SPECIFIC_BOUNDARY",
-      "sourceStage": "APPROVED_SOURCE_RECOVERED / PRELIMINARY",
-      "finalByte": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+      "sourceStage": "DIRECT_BOOK_MASTER_PRELIMINARY_PASS",
+      "finalByte": "PENDING_STANDALONE_APPROVED_FINAL_DIRECT_TEXT_ACCESS",
       "acceptance": "PRE_WORD_ACCEPT"
     },
     {
@@ -490,8 +492,8 @@
       "numericUnit": "PRELIMINARY_PASS",
       "evidence": "PRELIMINARY_PASS",
       "boundary": "PASS_WITH_CASE_SPECIFIC_BOUNDARY",
-      "sourceStage": "APPROVED_SOURCE_RECOVERED / PRELIMINARY",
-      "finalByte": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+      "sourceStage": "DIRECT_BOOK_MASTER_PRELIMINARY_PASS",
+      "finalByte": "PENDING_STANDALONE_APPROVED_FINAL_DIRECT_TEXT_ACCESS",
       "acceptance": "PRE_WORD_ACCEPT"
     },
     {
@@ -504,8 +506,8 @@
       "numericUnit": "PRELIMINARY_PASS",
       "evidence": "PRELIMINARY_PASS",
       "boundary": "PASS_WITH_CASE_SPECIFIC_BOUNDARY",
-      "sourceStage": "APPROVED_SOURCE_RECOVERED / PRELIMINARY",
-      "finalByte": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+      "sourceStage": "DIRECT_BOOK_MASTER_PRELIMINARY_PASS",
+      "finalByte": "PENDING_STANDALONE_APPROVED_FINAL_DIRECT_TEXT_ACCESS",
       "acceptance": "PRE_WORD_ACCEPT"
     },
     {
@@ -518,8 +520,8 @@
       "numericUnit": "PRELIMINARY_PASS",
       "evidence": "PRELIMINARY_PASS",
       "boundary": "PASS_WITH_CASE_SPECIFIC_BOUNDARY",
-      "sourceStage": "APPROVED_SOURCE_RECOVERED / PRELIMINARY",
-      "finalByte": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+      "sourceStage": "DIRECT_BOOK_MASTER_PRELIMINARY_PASS",
+      "finalByte": "PENDING_STANDALONE_APPROVED_FINAL_DIRECT_TEXT_ACCESS",
       "acceptance": "PRE_WORD_ACCEPT"
     },
     {
