@@ -100,14 +100,13 @@ Current editorial target: **214~220p**
 ## 8. Source fidelity status
 
 - CASE42~76: Approved Final Source recovered; direct final manuscript fidelity still governed by Approval Final TXT comparison
-- CASE77~81: direct approved Source Master content compared; Preliminary PASS 5/5. Standalone official file byte identity remains pending
+- CASE77~81: standalone Approval Final TXT directly reviewed; **Final Fidelity PASS 5/5**
 - CASE82: Production locked data + QA source basis
 - CASE50: Source identity conflict; excluded until reconciliation
 
 ## 9. Blocking gates before actual Word integration
 
 1. CASE50 source reconciliation
-2. CASE77~81 standalone official Approval Final TXT byte-identity confirmation (direct Source Master Preliminary PASS already complete)
 3. User confirmation of proposed Expanded Edition TOC
 4. User confirmation of final Figure selection
 5. Book print permission/anonymization review
