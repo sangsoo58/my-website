@@ -46,7 +46,6 @@
     "P5-C23": [
       "CASE48",
       "CASE49",
-      "CASE50",
       "CASE51"
     ],
     "P4-C14": [
@@ -80,5 +79,13 @@
     ]
   },
   "userConfirmationRequired": true,
-  "currentBookBaselineChanged": false
+  "currentBookBaselineChanged": false,
+  "holdCases": [
+    {
+      "caseId": "CASE50",
+      "bookIncluded": false,
+      "page": null,
+      "reason": "Source identity conflict: office WWR/glazing narrative vs childcare Passive House legacy metadata. Keep excluded until Approval Final TXT source reconciliation."
+    }
+  ]
 }
