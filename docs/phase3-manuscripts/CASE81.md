@@ -36,3 +36,7 @@
 
 ## Consultant's Point
 냉각탑은 **같은 외기와 같은 부하에서 얼마나 Wet-bulb에 가깝게 냉각하는가**로 비교해야 한다.
+
+## Source Note
+
+저자 보유 프로젝트 자료와 비식별 공개사례를 바탕으로 재구성했다. 수치·성과의 성격은 본문의 Evidence Boundary를 따른다.
