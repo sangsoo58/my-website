@@ -38,6 +38,7 @@ Do not merge to main/Production without user approval.
 - CASE82: separate Production-locked source regime → Final Fidelity PASS
 
 Active Final Fidelity PASS count: **15/40**
+Direct BOOK MASTER Preliminary PASS: **25/40**
 Active Direct BOOK MASTER Preliminary PASS: **25/40**
 CASE82 locked-data Final Fidelity PASS: **1/40**
 
@@ -110,3 +111,11 @@ Do not redo completed Preliminary QA.
 First action should be:
 - present/record user decisions if supplied;
 - otherwise continue only with non-destructive planning/source QA that does not modify the current Master.
+
+
+### Figure technical QA
+- binary integrity: 11/11 PASS
+- caption/unit source QA: 11/11 PASS
+- permission/use-basis: pending
+- visual anonymization: review pending
+- final layout readability: pending
