@@ -162,5 +162,30 @@
     "recommendationDoc": "docs/PHASE3_RECOMMENDED_APPROVAL_RESOLUTION.md",
     "runbookDoc": "docs/PHASE3_WORD_INTEGRATION_RUNBOOK.md",
     "status": "READY_NOT_AUTHORIZED"
+  },
+  "fidelitySummary": {
+    "activeFinalPass": 14,
+    "activePreliminary": 26,
+    "finalPassCases": [
+      "CASE42",
+      "CASE43",
+      "CASE44",
+      "CASE45",
+      "CASE46",
+      "CASE47",
+      "CASE48",
+      "CASE49",
+      "CASE51",
+      "CASE77",
+      "CASE78",
+      "CASE79",
+      "CASE80",
+      "CASE81"
+    ],
+    "preliminaryReason": {
+      "CASE52-76": "Standalone Approval Final files confirmed; current Library text reader cannot open some files and raw-byte materialization is unavailable.",
+      "CASE82": "Separate Production-locked source regime."
+    },
+    "case50": "CONTENT_FIDELITY_PASS_BOOK_INCLUSION_USER_DECISION_PENDING"
   }
 }
