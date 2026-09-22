@@ -201,3 +201,17 @@ Current scenarios:
 - Expanded: 221~226p
 
 The 214~220p target is achievable if duplication control and the current Figure/Table strategy are maintained. Final pagination remains blocked until the actual Expanded Edition Word working copy is authorized and created.
+
+
+## Provenance readiness update
+
+Status: **PUBLICATION PROVENANCE PASS / FINAL FIDELITY PENDING**
+
+Verified:
+- active manuscript Web paths: 40/40
+- active manuscript Source Notes: 40/40
+- internal filename/path leakage into publication text: 0
+- active REFERENCES provenance entries: 40/40
+- CASE50 remains HOLD-only and excluded from active publication content
+
+Internal source identity/fidelity metadata remains separate from public book text.
