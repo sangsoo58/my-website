@@ -156,3 +156,27 @@ Results:
 - 300 dpi max width remains approximately 127.8~127.9 mm
 
 This confirms file identity/resolution metadata only. It does not grant print permission or replace anonymization/caption review.
+
+
+## Caption / Unit source verification
+
+Status: **PASS 11/11**
+
+Verified against standalone Approval Final TXT or readable BOOK MASTER sources:
+- CASE42-F01 — CDA before/after KPI source confirmed
+- CASE43-F01 — 2.1 actual vs 1.2 required units confirmed
+- CASE44-F01/F02 — LT Chiller UPI / CDA UPI source context confirmed
+- CASE51-F01 — Appendix G 0°/90°/180°/270° rotation confirmed
+- CASE53-F01 — 2,000 USRT / 7℃ / 630 m³/h confirmed
+- CASE56-F01 — #10→#9 and #4→#3 change-over Field Test confirmed
+- CASE63-F01 — 21/22/23 chiller kW/RT + load-factor comparison confirmed
+- CASE64-F01 — required 6 / actual 8 / about 75% load factor confirmed
+- CASE65-F01 — boiler N㎥/ton comparison confirmed
+- CASE66-F01 — 30 ton/h ×1 vs 15 ton/h ×2 operating combination confirmed
+
+Result:
+- caption/source semantic mismatch: 0
+- unit/source mismatch: 0
+- unsupported Figure numeric introduced: 0
+
+Remaining Figure gates are user selection, print permission/anonymization, and final-layout readability only.
