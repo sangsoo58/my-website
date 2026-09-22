@@ -1,4 +1,4 @@
-# CASE 47 | 응용사례 — PUE를 운전 의사결정으로 바꾼 다중 데이터센터 실시간 성능최적화
+# CASE 47 | 응용사례 — PUE를 ‘보고용 숫자’에서 ‘운전 의사결정’으로 바꾼 다중 데이터센터 실시간 성능최적화
 
 **편집상태:** PHASE 3 DRAFT / USER REVIEW REQUIRED  
 **편집 배치안 (Expanded Edition Proposal):** PART 5 · Chapter 24 · 데이터센터 PUE와 냉방 최적화
