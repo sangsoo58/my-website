@@ -311,12 +311,12 @@ If/when approval is granted, the next controlled step is to create a separate Ex
 ## Consolidated final-fidelity count
 
 Current active 40 CASE:
-- Final Fidelity PASS via direct standalone Approval Final TXT: **14/40**
+- Final Fidelity PASS: **15/40**
   - CASE42~49, CASE51
   - CASE77~81
-- Preliminary/source-preserving QA pending strict direct text read: **26/40**
-  - CASE52~76 = 25
-  - CASE82 = 1 (separate Production-locked source regime)
+  - CASE82 (separate locked-data source regime)
+- Direct BOOK MASTER Preliminary Fidelity: **25/40**
+  - CASE52~76
 
 CASE50:
 - standalone Approval Final TXT directly reviewed
@@ -356,3 +356,20 @@ Verified:
 - claim-strengthening conflict identified: 0
 
 Remaining limitation is only the strict standalone Approval Final TXT direct-text gate for files that the current Library reader cannot parse.
+
+
+## CASE82 locked-source final update
+
+Status: **FINAL FIDELITY PASS** under CASE82 separate source regime.
+
+Directly matched:
+- Contract Power 20,000 kW
+- Billing Demand 6,000 kW
+- Peak 4,328 kW
+- Peak / Contract Power 22%
+- IDC Load Factor 37%
+- Base-charge share 31%
+- Review Contract Power 12,000 kW
+- Cost scenario 167백만원/년
+
+Boundary preserved: cost-saving scenario is not represented as kWh Energy Saving.
