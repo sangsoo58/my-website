@@ -1424,12 +1424,14 @@
     "bookSourceFile": "data/cases-data.js + CASE82 restored public QA",
     "officialBookSourceFile": "CASE82 production locked data + QA",
     "officialSourcePriority": 1,
-    "manuscriptFidelityStatus": "REQUIRES_LOCKED_DATA_FIDELITY_CHECK",
+    "manuscriptFidelityStatus": "FINAL_PASS_LOCKED_DATA_QA_SOURCE",
     "productionVerificationNumericQA": "PRELIMINARY_PASS",
     "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
-    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+    "approvalFinalTxtFidelityQA": "NOT_APPLICABLE_CASE82_SEPARATE_SOURCE_REGIME",
     "canonicalWebPath": "/cases/case82.html",
     "publicationSourceNoteQA": "PASS",
-    "webPathQA": "PASS"
+    "webPathQA": "PASS",
+    "directApprovedMasterContentQA": "FINAL_PASS_PRODUCTION_LOCKED_DATA_PLUS_RESTORED_QA",
+    "directApprovedMasterContentQANote": "CASE82 manuscript directly compared with locked cases-data.js and restored QA. Key values 20,000 kW contract power, 6,000 kW billing demand, 4,328 kW Peak, 22% Peak/Contract, 37% Load Factor, 31% base-charge share, 12,000 kW review scenario and 167 million KRW/year cost effect all match. Cost Saving Scenario remains explicitly separate from kWh Energy Saving."
   }
 ]
