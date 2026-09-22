@@ -1,4 +1,4 @@
-# CASE 61 | 응용사례 — CDA Demand 패턴과 수요 변동폭 저감을 통한 가동대수 최적화
+# CASE 61 | 응용사례 — CDA 압축공기 Demand 패턴 분석 및 수요 변동폭 저감을 통한 공기압축기 가동대수 최적화
 
 **편집상태:** PHASE 3 DRAFT / USER REVIEW REQUIRED  
 **배치안:** PART 4 · Chapter 14 · 공기압축기 시스템 운전최적화  
