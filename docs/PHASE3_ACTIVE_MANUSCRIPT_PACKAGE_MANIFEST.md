@@ -183,10 +183,10 @@ Status: **READY BUT NOT AUTHORIZED**
 
 ## 15. Consolidated Fidelity status
 
-- Active Final Fidelity PASS: **14/40**
+- Active Final Fidelity PASS: **15/40**
   - CASE42~49, CASE51, CASE77~81
 - Active Direct BOOK MASTER Preliminary PASS: **25/40** — CASE52~76
-- CASE82 separate Production-locked Preliminary QA: **1/40**
+- CASE82 locked-data source regime: **Final Fidelity PASS**
 - CASE50: standalone source/content fidelity resolved; book inclusion USER DECISION PENDING
 
 No known claim-strengthening conflict is open in the active package.
@@ -208,3 +208,9 @@ Use the checkpoint as the next-session starting point. Do not repeat completed Q
 - Evidence/Boundary: 25/25 aligned
 - numeric-token missing from Master: 0
 - Final standalone TXT gate remains pending only due current text-reader accessibility
+
+
+### CASE82 locked-source final
+- Production locked data + restored QA directly compared
+- key numeric values and Cost-vs-Energy Boundary aligned
+- Final Fidelity PASS under separate CASE82 source regime
