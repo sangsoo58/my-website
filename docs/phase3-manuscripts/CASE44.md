@@ -40,3 +40,7 @@ Benchmark의 목적은 순위를 만드는 것이 아니라 가장 좋은 성능
 ## Evidence Boundary
 
 현재 원고는 원자료에서 확인된 UPI·부하율·By-pass 값을 사용한다. 시설 A~D는 비식별 표현이며, 시설 간 Performance Gap 자체를 실제 절감성과로 변환하지 않는다.
+
+## Source Note
+
+저자 보유 프로젝트 자료와 비식별 공개사례를 바탕으로 재구성했다. 수치·성과의 성격은 본문의 Evidence Boundary를 따른다.
