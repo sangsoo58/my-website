@@ -125,3 +125,36 @@ Editorial handling:
 - official filename identity may be used in registers
 - content claims remain PRELIMINARY until direct Approval Final TXT comparison
 - Word Master integration retains a source-fidelity HOLD for CASE77~81
+
+
+## 9. Active Register Consistency QA
+
+Status: **PASS / FINAL PRINT SELECTION PENDING**
+
+Active scope:
+- manuscript drafts: 41
+- active Expanded Edition candidates: 40
+- excluded source-hold case: CASE50
+
+Register QA result:
+- active CASE count in Figure/Table Source Register: **40**
+- CASE50 active Figure/Table rows: **0**
+- CSV column-width/structure errors: **0**
+- editorialType mismatches vs manuscript-status metadata: **0**
+- evidenceClass mismatches vs Evidence Register: **0**
+- approved PNG asset rows: **11**
+- NO VISUAL figure rows: **30**
+
+Print-selection reconciliation:
+- KEEP / KEEP HIGH primary candidates: 7
+- OPTIONAL: 1
+- TABLE/CALLOUT PREFERRED: 3
+- total approved Web PNG assets accounted for: 11/11
+
+CASE53-F01, CASE64-F01 and CASE66-F01 remain source-traceable approved Web assets but are intentionally treated as alternate visuals because Table/Fact Box presentation is preferred for print. Their absence from the primary Figure-caption list is not a missing-caption error.
+
+Final Figure insertion remains blocked until:
+- user confirmation of final Figure selection
+- BOOK_PRINT_PERMISSION_REVIEW
+- final unit/caption verification
+- final pagination
