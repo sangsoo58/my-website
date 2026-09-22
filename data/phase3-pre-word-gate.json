@@ -80,6 +80,8 @@
   "fidelitySummary": {
     "finalPassActive": 14,
     "preliminaryActive": 26,
-    "case50": "CONTENT_PASS_USER_BOOK_DECISION_PENDING"
+    "case50": "CONTENT_PASS_USER_BOOK_DECISION_PENDING",
+    "directBookMasterPreliminaryPass": 25,
+    "case52_76": "DIRECT_BOOK_MASTER_PRELIMINARY_PASS_25_OF_25"
   }
 }
