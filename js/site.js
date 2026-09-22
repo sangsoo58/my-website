@@ -23,7 +23,7 @@
   const host=main;
   if(!host) return;
   const textContent=(main.innerText||'');
-  const focusText=[document.title,document.querySelector('h1')?.innerText||'',...[...document.querySelectorAll('.tag,.detail-tags span')].map(x=>x.innerText||'')].join(' ');
+  const focusText=[document.title,document.querySelector('h1')?.innerText||'',...[...document.querySelectorAll('.tag,.detail-tags span,.case-detail-tags span')].map(x=>x.innerText||'')].join(' ');
   let insight='../insights/mes-ems-energy-data-analysis.html', insightLabel='에너지 데이터 분석 Insight';
   if(/AI|머신러닝|예측모델/i.test(focusText)){ insight='../insights/energy-ai-practical-optimization.html'; insightLabel='Energy AI 활용 Insight'; }
   else if(/Baseline|M&V|절감성과/i.test(focusText)){ insight='../insights/baseline-mv-normalization.html'; insightLabel='Baseline & M&V Insight'; }
