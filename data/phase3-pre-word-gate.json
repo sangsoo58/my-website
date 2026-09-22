@@ -4,15 +4,24 @@
   "currentBookModified": false,
   "productionWebModified": false,
   "expandedCases": {
-    "total": 41,
-    "manuscriptDrafts": 41
+    "totalDrafts": 41,
+    "activeRevisionCandidates": 40,
+    "holdCases": [
+      "CASE50"
+    ]
   },
   "sourceReadiness": {
     "approvedFinalRecovered": {
       "count": 35,
       "range": "CASE42-76"
     },
-    "sourceBasisIdentifiedExactPathPending": {
+    "productionLockedDataSource": {
+      "count": 1,
+      "cases": [
+        "CASE82"
+      ]
+    },
+    "officialSourceNameConfirmedContentBytesPending": {
       "count": 5,
       "cases": [
         "CASE77",
@@ -20,12 +29,13 @@
         "CASE79",
         "CASE80",
         "CASE81"
-      ]
-    },
-    "productionLockedDataSource": {
-      "count": 1,
-      "cases": [
-        "CASE82"
+      ],
+      "officialFilenames": [
+        "case77_approval_final.txt",
+        "case78_approval_final.txt",
+        "case79_approval_final.txt",
+        "case80_approval_final.txt",
+        "case81_approval_final.txt"
       ]
     }
   },
@@ -33,7 +43,9 @@
     "content": [
       {
         "caseId": "CASE50",
-        "reason": "Office WWR/SC body conflicts with childcare Passive House JSON-LD/legacy boundary; original source bytes not currently available for direct reconciliation."
+        "reason": "Office WWR/SC body conflicts with childcare Passive House JSON-LD/legacy boundary; original source bytes not currently available for direct reconciliation.",
+        "bookIncluded": false,
+        "page": null
       }
     ],
     "provenance": [
