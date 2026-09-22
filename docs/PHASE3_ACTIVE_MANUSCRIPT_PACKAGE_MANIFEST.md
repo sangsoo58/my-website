@@ -1,0 +1,128 @@
+# PHASE 3 — Active Manuscript Package Manifest
+
+Status: **PLANNING PACKAGE READY / USER CONFIRMATION + SOURCE FIDELITY GATES PENDING**
+
+## 1. Package scope
+
+- Manuscript drafts: 41
+- Active revision candidates: 40
+- Source HOLD excluded: CASE50
+- CASE ID range remains CASE01~CASE82
+- Current Print Master / Editable Word Master / Book Reader / Production Web: unchanged
+
+## 2. Active insertion map
+
+### Chapter 11 — 냉동기 Plant 최적화
+CASE53, CASE55, CASE56, CASE57, CASE58, CASE60, CASE62, CASE63, CASE64, CASE78
+
+### Chapter 12 — 반도체 Multi-Utility 통합 최적화
+CASE42, CASE43, CASE44, CASE45
+
+### Chapter 14 — 공기압축기 시스템 운전최적화
+CASE52, CASE54, CASE59, CASE61
+
+### Proposed Chapter 15 — 보일러 시스템 운전최적화
+CASE65, CASE66, CASE67, CASE68, CASE69
+
+### Proposed Chapter 20 — 발전소 보조기기
+CASE75, CASE76
+
+### Proposed Chapter 23 — 신축건물 Energy Modeling
+CASE48, CASE49, CASE51
+
+### Proposed Chapter 24 — 데이터센터 PUE와 냉방 최적화
+CASE46, CASE47, CASE70, CASE71, CASE72, CASE73, CASE74, CASE77, CASE79, CASE80, CASE81, CASE82
+
+## 3. Package integrity
+
+- Active CASE mapped: 40/40
+- Duplicate CASE ID: 0
+- Missing active CASE ID: 0
+- Extra CASE ID: 0
+- CASE50 active placement: 0
+
+## 4. Publication-title / provenance QA
+
+- CASE INDEX ↔ REFERENCES ↔ manuscript title: 40/40 aligned
+- Canonical Web path: 40/40 PASS
+- Publication Source Note: 40/40 PASS
+- Internal source filename/path leakage into publication manuscript: 0
+- Active REFERENCES provenance entries: 40/40 PASS
+- CASE50: HOLD placeholder only; not active publication content
+
+## 5. Evidence / duplication QA
+
+- Potential → Actual strengthening: 0 identified
+- Simulation → Actual strengthening: 0 identified
+- Proposal/Target → Verified Result strengthening: 0 identified
+- Program-level result → single-action attribution: 0 identified
+- Same-project project-level result double-count: 0 identified
+- Contract-power cost scenario → kWh saving confusion: 0 identified
+
+## 6. Figure / Table package
+
+Approved Web PNG assets: 11
+
+Primary:
+- CASE42-F01
+- CASE43-F01
+- CASE44-F01
+- CASE51-F01
+- CASE56-F01
+- CASE63-F01
+- CASE65-F01
+
+Optional:
+- CASE44-F02
+
+Table / Fact Box preferred:
+- CASE53-F01
+- CASE64-F01
+- CASE66-F01
+
+Current status:
+- Figure/Table Register active CASE count: 40
+- CASE50 active rows: 0
+- editorialType mismatch: 0
+- evidenceClass mismatch: 0
+- CSV structural error: 0
+- Final Figure selection: USER CONFIRMATION PENDING
+- Book print permission: PENDING
+
+## 7. Page budget
+
+- Compact: 211~215p
+- Base recommended: 214~220p
+- Expanded: 221~226p
+
+Current editorial target: **214~220p**
+
+## 8. Source fidelity status
+
+- CASE42~76: Approved Final Source recovered; direct final manuscript fidelity still governed by Approval Final TXT comparison
+- CASE77~81: official filenames confirmed; content-byte fidelity comparison pending
+- CASE82: Production locked data + QA source basis
+- CASE50: Source identity conflict; excluded until reconciliation
+
+## 9. Blocking gates before actual Word integration
+
+1. CASE50 source reconciliation
+2. CASE77~81 direct Approval Final TXT fidelity comparison
+3. User confirmation of proposed Expanded Edition TOC
+4. User confirmation of final Figure selection
+5. Book print permission/anonymization review
+6. Authorization to create and modify an Expanded Edition Word working copy
+
+## 10. Protection
+
+This manifest is planning metadata only.
+
+Do not:
+- modify current Editable Word Master
+- modify current Print Master
+- modify Production Web
+- activate CASE42~82 Book links
+- assign final pages
+- activate final Web↔Book mapping
+
+until the required gates are cleared.
