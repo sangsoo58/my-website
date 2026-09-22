@@ -25,3 +25,7 @@ Header와 말단 사이의 Pressure Drop이 크면 Set Point를 높여 보상하
 
 ## Consultant's Point
 몇 대를 돌릴지와 어느 압력으로 공급할지는 별개의 문제가 아니다. **가동대수 + Header Pressure + Pressure Drop + Demand**를 하나의 시스템 제어문제로 본다.
+
+## Source Note
+
+저자 보유 프로젝트 자료와 비식별 공개사례를 바탕으로 재구성했다. 수치·성과의 성격은 본문의 Evidence Boundary를 따른다.
