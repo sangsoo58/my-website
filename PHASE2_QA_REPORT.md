@@ -238,3 +238,9 @@ Draft PR → Ready for Review → Merge → GitHub Pages → Production Smoke Te
   - CASE 01~82 button, web CASE jump, TOC jump and page controls visible
   - current publication notice (CASE01~41 / CASE42~82 web expansion) visible
   - page 1 / 159 renders
+
+- Production homepage CASE cards: PASS
+  - CASE01/CASE02 real titles render correctly
+  - source-derived real summaries render correctly
+  - placeholder text removed
+  - category/system tags and detail links remain intact
