@@ -50,7 +50,7 @@ CASE75, 76 as detailed sub-cases under the existing power-plant story
 ### Proposed Chapter 23
 Insert:
 CASE48, 49, 51
-CASE50 remains HOLD
+CASE50 source is reconciled; separate-body inclusion remains USER DECISION PENDING
 
 ### Proposed Chapter 24
 Integrate:
@@ -115,12 +115,12 @@ For every new CASE:
 - figure/table register: exact source and Evidence class
 - final REFERENCES: C42~C82 1:1
 
-CASE77~81 official filenames are confirmed as `case77_approval_final.txt` ~ `case81_approval_final.txt`; direct Approval Final TXT content-byte comparison must be completed before final provenance/fidelity lock.
+CASE77~81 standalone Approval Final TXT files have been directly reviewed and Final Fidelity PASS = 5/5. CASE52~76 standalone file identities are confirmed, but some file bodies are unreadable through the current Library text reader; retain Preliminary Fidelity until direct text access is available.
 
 ## 7. First Expanded Word Candidate acceptance criteria
 
 - Active integration set present: CASE42~49 and CASE51~82 = 40/40
-- CASE50 is excluded from integration while HOLD; no placeholder page is allowed
+- CASE50 remains excluded from the default integration set pending the user's separate-body decision; no placeholder page is allowed
 - no duplicate Project-level result counting
 - no Potential→Actual strengthening
 - no Simulation→Actual strengthening
@@ -156,6 +156,6 @@ Current insertion map:
 - Proposed Chapter 23: CASE48,49,51
 - Proposed Chapter 24: CASE46,47,70,71,72,73,74,77,79,80,81,82
 
-CASE50 is not assigned to an active insertion chapter until Source Reconciliation is completed.
+CASE50 source reconciliation is complete. It remains outside the active insertion map until the user decides whether to preserve it as a separate Chapter 23 CASE or absorb its fenestration detail into CASE49.
 
 This QA validates planning metadata only; it does not authorize modification of the current Editable Word Master.
