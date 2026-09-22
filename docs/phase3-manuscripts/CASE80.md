@@ -28,3 +28,7 @@ Actual/Required Units 비교와 OFF Action 구조는 실제 원자료에서 확�
 
 ## Consultant's Point
 목표는 최소 대수가 아니라 **Redundancy를 만족하면서 Plant kW/RT가 가장 낮은 Chiller Combination**이다.
+
+## Source Note
+
+저자 보유 프로젝트 자료와 비식별 공개사례를 바탕으로 재구성했다. 수치·성과의 성격은 본문의 Evidence Boundary를 따른다.
