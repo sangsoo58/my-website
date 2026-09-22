@@ -84,7 +84,7 @@ Direct approved-final/master content remains unresolved in the current accessibl
 
 ## CASE77~81 consolidated direct-source-master result
 
-Status: **PRELIMINARY DIRECT SOURCE MASTER PASS 5/5**
+Status: **FINAL FIDELITY PASS 5/5 — STANDALONE APPROVED FINAL TXT DIRECTLY REVIEWED**
 
 Directly accessible Library source material now includes:
 - CASE01_81_BOOK_WRITING_SOURCE_MASTER.txt with locked APPROVED FINAL sections for CASE77, CASE78, CASE80, CASE81
@@ -99,4 +99,4 @@ Compared against current Phase 3 manuscripts:
 
 The manuscripts are condensed book candidates and intentionally omit some detailed numeric/reference expansion from the approved source master without reversing or strengthening the evidence meaning.
 
-Final label remains **NOT FINAL FIDELITY PASS** because the standalone official files `case77_approval_final.txt` ~ `case81_approval_final.txt` have not been independently byte-identified/read as separate objects in the current environment.
+Standalone official files `CASE77_APPROVED_FINAL.txt` ~ `CASE81_APPROVED_FINAL.txt` have now been directly read. Current Phase 3 manuscripts preserve title, Evidence B/C, core FACT/diagnostic logic, Measurement Boundary, and no-independent-final-saving classification. Therefore CASE77~81 are promoted to **FINAL FIDELITY PASS 5/5**.
