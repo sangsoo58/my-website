@@ -56,3 +56,14 @@ Caption:
 - Simulation: “Simulation 결과”, “설계단계” 표시
 - Benchmark: 성능편차 자체를 절감률로 표현하지 않음
 - 동일 프로젝트 Companion CASE의 중복 숫자는 Caption에 반복하지 않고 Cross-reference 사용
+
+
+## Existing asset but Table/Fact Box preferred
+
+The following approved Web PNG assets exist in the Source Register, but they are intentionally not listed in the primary Figure-caption table because print use is currently **Table/Fact Box preferred**:
+
+- CASE53-F01 → CASE53 Fact Box preferred
+- CASE64-F01 → CASE64 Fact Box preferred
+- CASE66-F01 → CASE66 Table preferred
+
+This is not a missing-caption error. The PNG assets remain source-traceable candidates, but final print use requires user confirmation and BOOK_PRINT_PERMISSION_REVIEW.
