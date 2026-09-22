@@ -32,3 +32,7 @@ PUE 1.77→1.70과 6.5 GWh/년, 7.53억원/년은 목표·예상효과이지 검
 
 ## Consultant's Point
 플랫폼의 가치는 Dashboard가 아니라 **계측 → 진단 → Action → 검증 → 재학습**의 지속적인 성능관리 Cycle에 있다.
+
+## Source Note
+
+저자 보유 프로젝트 자료와 비식별 공개사례를 바탕으로 재구성했다. 수치·성과의 성격은 본문의 Evidence Boundary를 따른다.
