@@ -90,5 +90,11 @@
     "directBookMasterPreliminaryPass": 25,
     "case52_76": "DIRECT_BOOK_MASTER_PRELIMINARY_PASS_25_OF_25",
     "case82": "FINAL_PASS_LOCKED_DATA_QA_SOURCE"
+  },
+  "tableSelection": {
+    "baseCandidates": 11,
+    "planningSourceQA": "PASS_11_OF_11",
+    "optionalCase78Table": "LAYOUT_DEPENDENT",
+    "finalPageRecheck": "PENDING_AFTER_WORD_PAGINATION"
   }
 }
