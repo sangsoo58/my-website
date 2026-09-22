@@ -169,3 +169,14 @@ Print permission review:
 - `data/phase3-book-print-permission-review.json`
 
 Current Figure assets remain HOLD for print until permission, anonymization, source/unit/caption and final-layout readability reviews are completed.
+
+
+## 14. Post-approval execution package
+
+Recommendation:
+- `docs/PHASE3_RECOMMENDED_APPROVAL_RESOLUTION.md`
+
+Execution runbook:
+- `docs/PHASE3_WORD_INTEGRATION_RUNBOOK.md`
+
+Status: **READY BUT NOT AUTHORIZED**
