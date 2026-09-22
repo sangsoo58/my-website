@@ -4,6 +4,15 @@
 **Expanded Edition Chapter 24 / 기존 Chapter 23에서 +1 이동**  
 **CASE46,47,70~74,77,79~82 추가**
 
+## DUPLICATION CONTROL
+
+현재 출간본 CASE38·39는 데이터센터 프로젝트의 Umbrella CASE다. CASE46·47·70~74·81은 동일 프로젝트 계열의 세부 분석 또는 확장 Story가 포함된다.
+
+- CASE38 → CASE46·70·71·72·73·81: PUE 이상, Fan, Free Cooling, Cooling Tower를 세부 Sub-case로 분해.
+- CASE39 → CASE47·74: IPOS 제안을 운전지원과 Platform Architecture로 각각 확장.
+
+따라서 CASE38·39의 PUE 수치·목표·개선대안을 확장 CASE마다 반복하지 않고, 필요한 경우 “CASE38/39 참조”로 Cross-reference한다.
+
 ## CHAPTER 24
 # 데이터센터 PUE와 냉방 최적화
 
