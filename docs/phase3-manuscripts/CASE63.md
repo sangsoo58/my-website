@@ -1,0 +1,34 @@
+# CASE 63 | DEEP DIVE 후보 — 고효율 냉동기 고부하 운전과 Load Dispatch
+
+**편집상태:** PHASE 3 DRAFT / USER REVIEW REQUIRED  
+**배치안:** PART 3 · Chapter 11 · 냉동기 Plant 최적화  
+**Evidence:** A · Field Test / Verified Saving  
+**Web:** /cases/case63.html
+
+## 현장 질문
+가장 효율적인 냉동기가 이미 가동 중인데도 낮은 부하율로 운전된다면, 부하를 재분배해 Plant kW/RT를 더 낮출 수 있는가?
+
+## Field Analysis
+13℃ 냉동구간 3대의 kW/RT와 부하율을 비교한 결과, 가장 효율적인 호기가 약 **60% 부하**, 다른 호기는 약 **95~105%** 부하로 운전되고 있었다.
+
+냉수유량·ΔT로 호기별 실제 RT를 계산하고, 냉수펌프 토출밸브 개도율을 단계적으로 조정하여 부하를 고효율 호기로 재분배했다.
+
+## 검증결과
+System kW/RT:
+
+**0.594 → 0.556**
+
+개선폭 **0.038 kW/RT**.
+
+13℃ 구간 냉방부하 **5,200 RT**에 적용하면 약 **197.6 kW** 절감으로 계산되었다.
+
+완료보고서의 연간 절감효과는 약 **1.02억원/년**이었다. 산정에는 연간 8,760시간과 당시 전력단가 59.4원/kWh가 사용되었다.
+
+## 판단원칙
+고효율 호기를 무조건 100% 부하로 만드는 것이 목적은 아니다. Chiller별 Part-load Curve와 Pump Power를 포함해 **Plant 전체 kW/RT가 최소가 되는 Load Allocation**을 찾는다.
+
+## Evidence Boundary
+0.594→0.556 kW/RT, 197.6 kW, 1.02억원/년은 완료보고서에 제시된 프로젝트 값이다. 다른 현장에 동일 부하율·절감액을 적용하지 않는다.
+
+## Consultant's Point
+CASE56이 ‘어느 호기를 켤 것인가’를 다룬다면 CASE63은 **켜진 호기에 부하를 어떻게 나눌 것인가**를 다룬다.
