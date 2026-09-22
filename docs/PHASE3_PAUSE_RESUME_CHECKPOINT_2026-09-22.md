@@ -167,3 +167,17 @@ Still unchanged:
 - `docs/PHASE3_FINAL_DECISION_BRIEF.md`
 - `data/phase3-final-decision-brief.json`
 - approval state: USER EXPLICIT APPROVAL PENDING
+
+
+### Word working-copy execution started
+- user approval received
+- source Master supplied directly by user
+- isolated v0.1 working copy created
+- new Chapter 15 Boiler inserted
+- old Chapter 15~28 headings renumbered to 16~29
+- modified region rendered and visually checked
+- current Master remains unchanged
+
+Next:
+- integrate remaining approved CASE companions chapter-by-chapter
+- rebuild TOC / CASE INDEX / REFERENCES after body integration
