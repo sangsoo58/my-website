@@ -58,15 +58,16 @@ Editorial consequence:
 Separate source regime:
 - Production locked data
 - restored QA
+- direct manuscript comparison complete
+- Final Fidelity PASS
 - contract-power Cost Saving Scenario kept separate from kWh Energy Saving
 
 ## Current active fidelity count
 
 Active CASE42~82 excluding CASE50:
-- Final Fidelity PASS: **14/40**
-- Preliminary/source-preserving QA: **26/40**
+- Final Fidelity PASS: **15/40**
+- Direct BOOK MASTER Preliminary QA: **25/40**
   - CASE52~76 = 25
-  - CASE82 = 1
 
 ## Protection
 
