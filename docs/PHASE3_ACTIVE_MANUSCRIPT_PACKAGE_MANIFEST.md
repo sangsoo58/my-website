@@ -185,9 +185,8 @@ Status: **READY BUT NOT AUTHORIZED**
 
 - Active Final Fidelity PASS: **14/40**
   - CASE42~49, CASE51, CASE77~81
-- Active Preliminary/source-preserving QA: **26/40**
-  - CASE52~76: standalone files confirmed but text reader cannot open some files
-  - CASE82: separate Production locked data + restored QA source regime
+- Active Direct BOOK MASTER Preliminary PASS: **25/40** — CASE52~76
+- CASE82 separate Production-locked Preliminary QA: **1/40**
 - CASE50: standalone source/content fidelity resolved; book inclusion USER DECISION PENDING
 
 No known claim-strengthening conflict is open in the active package.
@@ -202,3 +201,10 @@ Pause/resume state:
 - `docs/PHASE3_PAUSE_RESUME_CHECKPOINT_2026-09-22.md`
 
 Use the checkpoint as the next-session starting point. Do not repeat completed QA unless a source or user decision changes.
+
+
+### CASE52~76 direct BOOK MASTER
+- title: 25/25 aligned
+- Evidence/Boundary: 25/25 aligned
+- numeric-token missing from Master: 0
+- Final standalone TXT gate remains pending only due current text-reader accessibility
