@@ -2,8 +2,8 @@
 
 Status: **ROUGH ESTIMATE / NOT PAGINATED**
 
-현재 159p 내지의 스타일을 유지한다는 가정하에 신규 41 CASE를 모두 동일 분량으로 넣지 않고,
-Deep Dive와 응용사례를 혼합한다.
+현재 159p 내지의 스타일을 유지한다는 가정하에 CASE42~82의 41개 manuscript draft 중 **CASE50을 제외한 40개 활성 개정판 후보**를 동일 분량으로 넣지 않고,
+Deep Dive와 응용사례를 혼합한다. CASE50은 Source reconciliation 완료 전 Page Budget에서 제외한다.
 
 ## 편집 분량 가이드
 
@@ -22,7 +22,7 @@ CASE42, 52, 56, 63, 68, 74, 82
 CASE44, 60, 62, 64
 → 평균 1.75 page 가정: 약 7 page
 
-나머지 응용/Expanded CASE 약 29개:
+나머지 응용/Expanded CASE 약 29개(CASE50 제외):
 → 평균 0.9 page 가정: 약 26 page
 
 신규 Boiler Chapter intro/synthesis:
