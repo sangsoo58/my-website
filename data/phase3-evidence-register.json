@@ -1,0 +1,723 @@
+[
+  {
+    "caseId": "CASE42",
+    "caseNo": 42,
+    "title": "반도체·디스플레이 제조시설 Utility 운전최적화와 실시간 효율관리 체계 구축",
+    "bookEvidenceLabel": "A/B/C mixed",
+    "outcomeClass": "MIXED_VERIFIED_AND_POTENTIAL",
+    "allowedClaims": [
+      "검증된 적용성과와 추가 절감잠재량을 분리해 표현",
+      "합계는 실적+잠재량 Portfolio로만 표현"
+    ],
+    "prohibitedClaims": [
+      "전체 Portfolio를 전부 실제 절감실적으로 표현"
+    ],
+    "productionEvidenceStatus": "B / A-C mixed",
+    "productionBoundary": "반도체·디스플레이 생산시설 Utility(CDA·냉동기·보일러) 및 다수 생산거점",
+    "note": "Phase 3 book editorial taxonomy. Production evidence fields are not modified."
+  },
+  {
+    "caseId": "CASE43",
+    "caseNo": 43,
+    "title": "냉동·공조·압축공기 통합 운전분석을 통한 Utility Balance 최적화",
+    "bookEvidenceLabel": "B/C",
+    "outcomeClass": "IMPROVEMENT_POTENTIAL",
+    "allowedClaims": [
+      "절감잠재량",
+      "예상효과",
+      "개선 가능성"
+    ],
+    "prohibitedClaims": [
+      "실제 절감실적",
+      "검증 완료 성과"
+    ],
+    "productionEvidenceStatus": "B/C",
+    "productionBoundary": "냉동·공조·압축공기 Utility 통합",
+    "note": "Phase 3 book editorial taxonomy. Production evidence fields are not modified."
+  },
+  {
+    "caseId": "CASE44",
+    "caseNo": 44,
+    "title": "4개 생산시설 Utility 성능 Benchmark를 통한 UPI·가동대수 최적화",
+    "bookEvidenceLabel": "B/C",
+    "outcomeClass": "DIAGNOSTIC_BENCHMARK",
+    "allowedClaims": [
+      "성능편차",
+      "Benchmark",
+      "개선 우선순위"
+    ],
+    "prohibitedClaims": [
+      "Performance Gap을 절감실적으로 환산"
+    ],
+    "productionEvidenceStatus": "B/C",
+    "productionBoundary": "4개 생산시설 냉동기 및 CDA",
+    "note": "Phase 3 book editorial taxonomy. Production evidence fields are not modified."
+  },
+  {
+    "caseId": "CASE45",
+    "caseNo": 45,
+    "title": "고효율 반도체공장에서 Big-data로 찾아낸 Utility 잔여 절감기회",
+    "bookEvidenceLabel": "B/C",
+    "outcomeClass": "IMPROVEMENT_POTENTIAL",
+    "allowedClaims": [
+      "절감잠재량",
+      "예상효과",
+      "개선 가능성"
+    ],
+    "prohibitedClaims": [
+      "실제 절감실적",
+      "검증 완료 성과"
+    ],
+    "productionEvidenceStatus": "B/C",
+    "productionBoundary": "대형 반도체 제조공장 냉동기·공기압축기",
+    "note": "Phase 3 book editorial taxonomy. Production evidence fields are not modified."
+  },
+  {
+    "caseId": "CASE46",
+    "caseNo": 46,
+    "title": "PUE 이상을 냉방설비까지 추적한 다중 데이터센터 성능개선",
+    "bookEvidenceLabel": "B/C mixed",
+    "outcomeClass": "MIXED_FIELD_TEST_AND_POTENTIAL",
+    "allowedClaims": [
+      "시범 Test 확인값과 확대 예상효과를 분리"
+    ],
+    "prohibitedClaims": [
+      "확대 예상효과를 시범 Test 실적으로 표현"
+    ],
+    "productionEvidenceStatus": "B/C",
+    "productionBoundary": "다수 IDC 층별 PUE 및 냉방설비",
+    "note": "Phase 3 book editorial taxonomy. Production evidence fields are not modified."
+  },
+  {
+    "caseId": "CASE47",
+    "caseNo": 47,
+    "title": "PUE를 ‘보고용 숫자’에서 ‘운전 의사결정’으로 바꾼 다중 데이터센터 실시간 성능최적화",
+    "bookEvidenceLabel": "C + B baseline",
+    "outcomeClass": "PROPOSAL_TARGET",
+    "allowedClaims": [
+      "목표",
+      "예상효과",
+      "제안단계"
+    ],
+    "prohibitedClaims": [
+      "달성성과",
+      "검증 실적"
+    ],
+    "productionEvidenceStatus": "C + B baseline",
+    "productionBoundary": "다수 IDC 전체전력·IT전력·냉방전력 및 냉방설비",
+    "note": "Phase 3 book editorial taxonomy. Production evidence fields are not modified."
+  },
+  {
+    "caseId": "CASE48",
+    "caseNo": 48,
+    "title": "133층 초고층 복합건물의 에너지성능을 설계 전에 예측한 DOE-2.1E Simulation",
+    "bookEvidenceLabel": "D",
+    "outcomeClass": "SIMULATION_MODELING",
+    "allowedClaims": [
+      "Simulation 결과",
+      "설계단계 예측",
+      "Modeling"
+    ],
+    "prohibitedClaims": [
+      "준공 후 실제 절감률",
+      "실측 성과"
+    ],
+    "productionEvidenceStatus": "D",
+    "productionBoundary": "133층 복합건물 설계안",
+    "note": "Phase 3 book editorial taxonomy. Production evidence fields are not modified."
+  },
+  {
+    "caseId": "CASE49",
+    "caseNo": 49,
+    "title": "외피·조명·열원설비 설계변경이 건물에너지에 미치는 영향을 비교한 Simulation",
+    "bookEvidenceLabel": "D",
+    "outcomeClass": "SIMULATION_MODELING",
+    "allowedClaims": [
+      "Simulation 결과",
+      "설계단계 예측",
+      "Modeling"
+    ],
+    "prohibitedClaims": [
+      "준공 후 실제 절감률",
+      "실측 성과"
+    ],
+    "productionEvidenceStatus": "D",
+    "productionBoundary": "체육관 건물 설계/에너지 모델",
+    "note": "Phase 3 book editorial taxonomy. Production evidence fields are not modified."
+  },
+  {
+    "caseId": "CASE50",
+    "caseNo": 50,
+    "title": "대형 오피스 빌딩의 창면적·유리성능 변화가 냉난방 에너지에 미치는 영향을 비교한 Simulation",
+    "bookEvidenceLabel": "D",
+    "outcomeClass": "SIMULATION_MODELING",
+    "allowedClaims": [
+      "Simulation 결과",
+      "설계단계 예측",
+      "Modeling"
+    ],
+    "prohibitedClaims": [
+      "준공 후 실제 절감률",
+      "실측 성과"
+    ],
+    "productionEvidenceStatus": "D",
+    "productionBoundary": "보육시설 Passive House 설계안",
+    "note": "Phase 3 book editorial taxonomy. Production evidence fields are not modified."
+  },
+  {
+    "caseId": "CASE51",
+    "caseNo": 51,
+    "title": "ASHRAE 90.1 Appendix G Baseline과 설계안을 비교한 대형 복합건물 LEED 에너지모델링",
+    "bookEvidenceLabel": "D",
+    "outcomeClass": "SIMULATION_MODELING",
+    "allowedClaims": [
+      "Simulation 결과",
+      "설계단계 예측",
+      "Modeling"
+    ],
+    "prohibitedClaims": [
+      "준공 후 실제 절감률",
+      "실측 성과"
+    ],
+    "productionEvidenceStatus": "D",
+    "productionBoundary": "국제업무지구 업무시설 LEED EAc1 모델",
+    "note": "Phase 3 book editorial taxonomy. Production evidence fields are not modified."
+  },
+  {
+    "caseId": "CASE52",
+    "caseNo": 52,
+    "title": "공기압축기 부하율·Loading/Unloading 분석을 통한 적정 가동대수 Test & Adjust",
+    "bookEvidenceLabel": "Field Data + Test & Adjust",
+    "outcomeClass": "TEST_AND_ADJUST",
+    "allowedClaims": [
+      "Field Data",
+      "단계 Test",
+      "운전조건 최적화"
+    ],
+    "prohibitedClaims": [
+      "원자료에 없는 독립 절감금액"
+    ],
+    "productionEvidenceStatus": "EVIDENCE-VERIFIED",
+    "productionBoundary": "기존 LOCK Boundary 유지",
+    "note": "Phase 3 book editorial taxonomy. Production evidence fields are not modified."
+  },
+  {
+    "caseId": "CASE53",
+    "caseNo": 53,
+    "title": "냉동기 냉수 출구온도 Set Point 상향을 통한 냉동효율 개선 및 전력절감",
+    "bookEvidenceLabel": "Field Data + Test & Adjust",
+    "outcomeClass": "TEST_AND_ADJUST",
+    "allowedClaims": [
+      "Field Data",
+      "단계 Test",
+      "운전조건 최적화"
+    ],
+    "prohibitedClaims": [
+      "원자료에 없는 독립 절감금액"
+    ],
+    "productionEvidenceStatus": "EVIDENCE-VERIFIED",
+    "productionBoundary": "기존 LOCK Boundary 유지",
+    "note": "Phase 3 book editorial taxonomy. Production evidence fields are not modified."
+  },
+  {
+    "caseId": "CASE54",
+    "caseNo": 54,
+    "title": "CDA Header 압력기반 통합제어를 통한 공기압축기 공급압력 최적화 및 전력절감",
+    "bookEvidenceLabel": "C",
+    "outcomeClass": "IMPROVEMENT_POTENTIAL",
+    "allowedClaims": [
+      "절감잠재량",
+      "예상효과",
+      "개선 가능성"
+    ],
+    "prohibitedClaims": [
+      "실제 절감실적",
+      "검증 완료 성과"
+    ],
+    "productionEvidenceStatus": "EVIDENCE-VERIFIED",
+    "productionBoundary": "기존 LOCK Boundary 유지",
+    "note": "Phase 3 book editorial taxonomy. Production evidence fields are not modified."
+  },
+  {
+    "caseId": "CASE55",
+    "caseNo": 55,
+    "title": "냉수 사용유량 분석 및 적정용량 펌프 선정·교체를 통한 냉수펌프 전력절감",
+    "bookEvidenceLabel": "C",
+    "outcomeClass": "IMPROVEMENT_POTENTIAL",
+    "allowedClaims": [
+      "절감잠재량",
+      "예상효과",
+      "개선 가능성"
+    ],
+    "prohibitedClaims": [
+      "실제 절감실적",
+      "검증 완료 성과"
+    ],
+    "productionEvidenceStatus": "EVIDENCE-VERIFIED",
+    "productionBoundary": "기존 LOCK Boundary 유지",
+    "note": "Phase 3 book editorial taxonomy. Production evidence fields are not modified."
+  },
+  {
+    "caseId": "CASE56",
+    "caseNo": 56,
+    "title": "냉동기 교체운전 Test를 통한 호기별 kW/RT 실측 비교 및 고효율 운전순서 결정",
+    "bookEvidenceLabel": "A",
+    "outcomeClass": "VERIFIED_FIELD_TEST",
+    "allowedClaims": [
+      "현장 교체운전 Test 결과"
+    ],
+    "prohibitedClaims": [
+      "상위 프로그램 성과를 해당 CASE 단독성과로 귀속"
+    ],
+    "productionEvidenceStatus": "EVIDENCE-VERIFIED",
+    "productionBoundary": "기존 LOCK Boundary 유지",
+    "note": "Phase 3 book editorial taxonomy. Production evidence fields are not modified."
+  },
+  {
+    "caseId": "CASE57",
+    "caseNo": 57,
+    "title": "5℃·13℃ 냉수계통 부하분담 최적화를 통한 냉동기 가동대수 및 반송동력 절감",
+    "bookEvidenceLabel": "C",
+    "outcomeClass": "TEST_PLAN_OPTIMIZATION",
+    "allowedClaims": [
+      "Test 계획",
+      "최적화 계획",
+      "Field Analysis"
+    ],
+    "prohibitedClaims": [
+      "독립 최종 절감성과"
+    ],
+    "productionEvidenceStatus": "EVIDENCE-PARTIAL",
+    "productionBoundary": "기존 LOCK Boundary 유지",
+    "note": "Phase 3 book editorial taxonomy. Production evidence fields are not modified."
+  },
+  {
+    "caseId": "CASE58",
+    "caseNo": 58,
+    "title": "냉각수펌프 설계유량 적용 Test를 통한 펌프 운전점 및 소비동력 최적화",
+    "bookEvidenceLabel": "C",
+    "outcomeClass": "TEST_AND_ADJUST_POTENTIAL",
+    "allowedClaims": [
+      "Test & Adjust",
+      "예상효과"
+    ],
+    "prohibitedClaims": [
+      "예상효과를 완료 실적으로 표현"
+    ],
+    "productionEvidenceStatus": "EVIDENCE-VERIFIED",
+    "productionBoundary": "기존 LOCK Boundary 유지",
+    "note": "Phase 3 book editorial taxonomy. Production evidence fields are not modified."
+  },
+  {
+    "caseId": "CASE59",
+    "caseNo": 59,
+    "title": "CDA 공기압축기 저효율 호기 진단 및 성능저하 원인분석을 통한 효율개선",
+    "bookEvidenceLabel": "C",
+    "outcomeClass": "DIAGNOSIS_IMPROVEMENT_ACTIVITY",
+    "allowedClaims": [
+      "진단",
+      "점검·개선활동"
+    ],
+    "prohibitedClaims": [
+      "독립 최종 절감량·금액"
+    ],
+    "productionEvidenceStatus": "EVIDENCE-VERIFIED",
+    "productionBoundary": "기존 LOCK Boundary 유지",
+    "note": "Phase 3 book editorial taxonomy. Production evidence fields are not modified."
+  },
+  {
+    "caseId": "CASE60",
+    "caseNo": 60,
+    "title": "냉동유 첨가제 적용 전·후 kW/RT 비교를 통한 냉동기 효율개선 효과 검증",
+    "bookEvidenceLabel": "A",
+    "outcomeClass": "VERIFIED_NULL_RESULT",
+    "allowedClaims": [
+      "효과 없음",
+      "확대적용 근거 부족"
+    ],
+    "prohibitedClaims": [
+      "절감성과 부여",
+      "가설 유효성 입증으로 표현"
+    ],
+    "productionEvidenceStatus": "EVIDENCE-VERIFIED",
+    "productionBoundary": "기존 LOCK Boundary 유지",
+    "note": "Phase 3 book editorial taxonomy. Production evidence fields are not modified."
+  },
+  {
+    "caseId": "CASE61",
+    "caseNo": 61,
+    "title": "CDA 압축공기 Demand 패턴 분석 및 수요 변동폭 저감을 통한 공기압축기 가동대수 최적화",
+    "bookEvidenceLabel": "C",
+    "outcomeClass": "DIAGNOSIS_OPTIMIZATION_PLAN",
+    "allowedClaims": [
+      "진단배경",
+      "최적화 방향"
+    ],
+    "prohibitedClaims": [
+      "독립 최종 절감량·금액"
+    ],
+    "productionEvidenceStatus": "EVIDENCE-VERIFIED",
+    "productionBoundary": "기존 LOCK Boundary 유지",
+    "note": "Phase 3 book editorial taxonomy. Production evidence fields are not modified."
+  },
+  {
+    "caseId": "CASE62",
+    "caseNo": 62,
+    "title": "냉각수 입구온도 단계별 Test를 통한 냉동기 최적 운전온도 탐색",
+    "bookEvidenceLabel": "A/C",
+    "outcomeClass": "FIELD_TEST_AND_PROJECT_EFFECT",
+    "allowedClaims": [
+      "실측 Test 값",
+      "완료자료 개선항목 Cost Reduction"
+    ],
+    "prohibitedClaims": [
+      "특정 Test Point를 보편 최적값으로 일반화"
+    ],
+    "productionEvidenceStatus": "EVIDENCE-VERIFIED",
+    "productionBoundary": "기존 LOCK Boundary 유지",
+    "note": "Phase 3 book editorial taxonomy. Production evidence fields are not modified."
+  },
+  {
+    "caseId": "CASE63",
+    "caseNo": 63,
+    "title": "냉동기 부하율 분석 및 냉수밸브 조정을 통한 고효율 냉동기 고부하 운전 최적화",
+    "bookEvidenceLabel": "A",
+    "outcomeClass": "VERIFIED_SAVING",
+    "allowedClaims": [
+      "완료보고서에 직접 제시된 검증성과"
+    ],
+    "prohibitedClaims": [
+      "다른 현장에 동일 수치 적용"
+    ],
+    "productionEvidenceStatus": "EVIDENCE-VERIFIED",
+    "productionBoundary": "기존 LOCK Boundary 유지",
+    "note": "Phase 3 book editorial taxonomy. Production evidence fields are not modified."
+  },
+  {
+    "caseId": "CASE64",
+    "caseNo": 64,
+    "title": "냉동기 가동대수 8대→7대 최적화를 통한 시스템 에너지원단위 개선",
+    "bookEvidenceLabel": "B",
+    "outcomeClass": "PROGRAM_LEVEL_VERIFIED_RESULT",
+    "allowedClaims": [
+      "프로그램 수준 검증결과"
+    ],
+    "prohibitedClaims": [
+      "여러 활동의 결과를 단일 조치 효과로 귀속"
+    ],
+    "productionEvidenceStatus": "EVIDENCE-VERIFIED",
+    "productionBoundary": "기존 LOCK Boundary 유지",
+    "note": "Phase 3 book editorial taxonomy. Production evidence fields are not modified."
+  },
+  {
+    "caseId": "CASE65",
+    "caseNo": 65,
+    "title": "보일러 호기별 에너지원단위 비교 및 고효율 호기 우선운전을 통한 시스템 효율개선",
+    "bookEvidenceLabel": "A",
+    "outcomeClass": "VERIFIED_SAVING",
+    "allowedClaims": [
+      "완료보고서에 직접 제시된 검증성과"
+    ],
+    "prohibitedClaims": [
+      "다른 현장에 동일 수치 적용"
+    ],
+    "productionEvidenceStatus": "EVIDENCE-VERIFIED",
+    "productionBoundary": "기존 LOCK Boundary 유지",
+    "note": "Phase 3 book editorial taxonomy. Production evidence fields are not modified."
+  },
+  {
+    "caseId": "CASE66",
+    "caseNo": 66,
+    "title": "보일러 부하율과 연료 원단위 상관분석을 통한 가동대수 및 고효율 운전영역 최적화",
+    "bookEvidenceLabel": "A/C",
+    "outcomeClass": "FIELD_ANALYSIS_TEST_PLAN",
+    "allowedClaims": [
+      "현장 관찰",
+      "Test Plan"
+    ],
+    "prohibitedClaims": [
+      "관찰 Threshold를 보편 기준으로 일반화",
+      "독립 절감금액 생성"
+    ],
+    "productionEvidenceStatus": "EVIDENCE-VERIFIED",
+    "productionBoundary": "기존 LOCK Boundary 유지",
+    "note": "Phase 3 book editorial taxonomy. Production evidence fields are not modified."
+  },
+  {
+    "caseId": "CASE67",
+    "caseNo": 67,
+    "title": "보일러 배기가스 온도·O₂ 농도와 연료 원단위 상관분석을 통한 연소효율 개선",
+    "bookEvidenceLabel": "B/C",
+    "outcomeClass": "FIELD_CORRELATION_OPTIMIZATION",
+    "allowedClaims": [
+      "상관관계",
+      "개선방향",
+      "Test 가설"
+    ],
+    "prohibitedClaims": [
+      "상관관계를 인과·절감성과로 단정"
+    ],
+    "productionEvidenceStatus": "EVIDENCE-VERIFIED",
+    "productionBoundary": "기존 LOCK Boundary 유지",
+    "note": "Phase 3 book editorial taxonomy. Production evidence fields are not modified."
+  },
+  {
+    "caseId": "CASE68",
+    "caseNo": 68,
+    "title": "보일러 스팀유량 계측 이상 진단 및 데이터 정합성 확보를 통한 효율평가 신뢰성 개선",
+    "bookEvidenceLabel": "C",
+    "outcomeClass": "DATA_QUALITY_MV_READINESS",
+    "allowedClaims": [
+      "계측정합성",
+      "M&V 준비",
+      "정량평가 보류"
+    ],
+    "prohibitedClaims": [
+      "비정상 계측값으로 절감률 산정"
+    ],
+    "productionEvidenceStatus": "EVIDENCE-VERIFIED",
+    "productionBoundary": "기존 LOCK Boundary 유지",
+    "note": "Phase 3 book editorial taxonomy. Production evidence fields are not modified."
+  },
+  {
+    "caseId": "CASE69",
+    "caseNo": 69,
+    "title": "보일러 스팀 공급압력 패턴 분석을 통한 적정 증기압력 운전 및 연료손실 저감",
+    "bookEvidenceLabel": "B/C",
+    "outcomeClass": "FIELD_PATTERN_OPTIMIZATION",
+    "allowedClaims": [
+      "운전 Pattern",
+      "최적화 방향"
+    ],
+    "prohibitedClaims": [
+      "독립 최종 절감률·금액 생성"
+    ],
+    "productionEvidenceStatus": "EVIDENCE-VERIFIED",
+    "productionBoundary": "기존 LOCK Boundary 유지",
+    "note": "Phase 3 book editorial taxonomy. Production evidence fields are not modified."
+  },
+  {
+    "caseId": "CASE70",
+    "caseNo": 70,
+    "title": "데이터센터 PUE 이상분석을 통한 냉방기 Fan 단독운전 문제 진단",
+    "bookEvidenceLabel": "B",
+    "outcomeClass": "ROOT_CAUSE_FINDING",
+    "allowedClaims": [
+      "원인후보/운전상태 이상 확인"
+    ],
+    "prohibitedClaims": [
+      "PUE Gap을 절감률로 해석"
+    ],
+    "productionEvidenceStatus": "EVIDENCE-VERIFIED",
+    "productionBoundary": "기존 LOCK Boundary 유지",
+    "note": "Phase 3 book editorial taxonomy. Production evidence fields are not modified."
+  },
+  {
+    "caseId": "CASE71",
+    "caseNo": 71,
+    "title": "데이터센터 냉방기 Fan 성능분석을 통한 고효율 EC Fan 교체 및 냉방전력 절감",
+    "bookEvidenceLabel": "C",
+    "outcomeClass": "RETROFIT_ALTERNATIVE",
+    "allowedClaims": [
+      "Retrofit 대안",
+      "경제성 검토"
+    ],
+    "prohibitedClaims": [
+      "독립 최종 절감성과로 표현"
+    ],
+    "productionEvidenceStatus": "EVIDENCE-VERIFIED",
+    "productionBoundary": "기존 LOCK Boundary 유지",
+    "note": "Phase 3 book editorial taxonomy. Production evidence fields are not modified."
+  },
+  {
+    "caseId": "CASE72",
+    "caseNo": 72,
+    "title": "데이터센터 외기조건 분석을 통한 외기냉방 적용시간 확대 및 기계냉방 부하 저감",
+    "bookEvidenceLabel": "C",
+    "outcomeClass": "COOLING_ALTERNATIVE",
+    "allowedClaims": [
+      "Economizer 대안",
+      "적용조건"
+    ],
+    "prohibitedClaims": [
+      "독립 최종 실적 생성"
+    ],
+    "productionEvidenceStatus": "EVIDENCE-VERIFIED",
+    "productionBoundary": "기존 LOCK Boundary 유지",
+    "note": "Phase 3 book editorial taxonomy. Production evidence fields are not modified."
+  },
+  {
+    "caseId": "CASE73",
+    "caseNo": 73,
+    "title": "데이터센터 냉각탑 설정온도 최적화를 통한 냉동기·냉각탑 통합 냉방전력 저감",
+    "bookEvidenceLabel": "C",
+    "outcomeClass": "HEAT_REJECTION_ALTERNATIVE",
+    "allowedClaims": [
+      "Set Point 대안",
+      "System Energy Trade-off"
+    ],
+    "prohibitedClaims": [
+      "독립 최종 실적 생성"
+    ],
+    "productionEvidenceStatus": "EVIDENCE-VERIFIED",
+    "productionBoundary": "기존 LOCK Boundary 유지",
+    "note": "Phase 3 book editorial taxonomy. Production evidence fields are not modified."
+  },
+  {
+    "caseId": "CASE74",
+    "caseNo": 74,
+    "title": "다중 데이터센터 PUE·냉방효율 실시간 진단 및 IPOS 성능최적화 플랫폼 구축",
+    "bookEvidenceLabel": "C",
+    "outcomeClass": "PROPOSAL_TARGET",
+    "allowedClaims": [
+      "목표",
+      "예상효과",
+      "제안단계"
+    ],
+    "prohibitedClaims": [
+      "달성성과",
+      "검증 실적"
+    ],
+    "productionEvidenceStatus": "EVIDENCE-VERIFIED",
+    "productionBoundary": "기존 LOCK Boundary 유지",
+    "note": "Phase 3 book editorial taxonomy. Production evidence fields are not modified."
+  },
+  {
+    "caseId": "CASE75",
+    "caseNo": 75,
+    "title": "발전소 호기별 소내전력률 Benchmark를 통한 보조기기 효율편차 진단 및 개선 우선순위 도출",
+    "bookEvidenceLabel": "B/C",
+    "outcomeClass": "FIELD_BENCHMARK_OPTIMIZATION",
+    "allowedClaims": [
+      "Benchmark",
+      "개선 우선순위"
+    ],
+    "prohibitedClaims": [
+      "Benchmark Gap을 절감실적으로 표현"
+    ],
+    "productionEvidenceStatus": "EVIDENCE-VERIFIED",
+    "productionBoundary": "기존 LOCK Boundary 유지",
+    "note": "Phase 3 book editorial taxonomy. Production evidence fields are not modified."
+  },
+  {
+    "caseId": "CASE76",
+    "caseNo": 76,
+    "title": "발전소 급수·복수·해수펌프 가동대수와 VFD·유량·압력 통합 운전최적화",
+    "bookEvidenceLabel": "B/C",
+    "outcomeClass": "FIELD_ANALYSIS_OPTIMIZATION",
+    "allowedClaims": [
+      "현장 분석",
+      "가동대수/VFD 최적화 방향"
+    ],
+    "prohibitedClaims": [
+      "독립 최종 절감성과 생성"
+    ],
+    "productionEvidenceStatus": "EVIDENCE-VERIFIED",
+    "productionBoundary": "기존 LOCK Boundary 유지",
+    "note": "Phase 3 book editorial taxonomy. Production evidence fields are not modified."
+  },
+  {
+    "caseId": "CASE77",
+    "caseNo": 77,
+    "title": "데이터센터 지원시설 부하리스트·소비패턴 분석을 통한 상시 Base Load 및 설비운영 개선",
+    "bookEvidenceLabel": "B/C",
+    "outcomeClass": "FIELD_DIAGNOSIS_OPTIMIZATION",
+    "allowedClaims": [
+      "Field Diagnosis",
+      "Optimization Direction"
+    ],
+    "prohibitedClaims": [
+      "독립 최종 절감성과 생성"
+    ],
+    "productionEvidenceStatus": "EVIDENCE-VERIFIED",
+    "productionBoundary": "기존 LOCK Boundary 유지",
+    "note": "Phase 3 book editorial taxonomy. Production evidence fields are not modified."
+  },
+  {
+    "caseId": "CASE78",
+    "caseNo": 78,
+    "title": "냉각수펌프별 소비전력·운전상태 비교를 통한 성능열위 펌프 진단 및 운전 최적화",
+    "bookEvidenceLabel": "B/C",
+    "outcomeClass": "FIELD_DATA_STRUCTURE_OPTIMIZATION",
+    "allowedClaims": [
+      "데이터 구조",
+      "성능 Screening",
+      "운전 최적화 방향"
+    ],
+    "prohibitedClaims": [
+      "독립 절감률·금액 생성"
+    ],
+    "productionEvidenceStatus": "EVIDENCE-VERIFIED",
+    "productionBoundary": "기존 LOCK Boundary 유지",
+    "note": "Phase 3 book editorial taxonomy. Production evidence fields are not modified."
+  },
+  {
+    "caseId": "CASE79",
+    "caseNo": 79,
+    "title": "냉방부하·운전대수 분석을 통한 데이터센터 냉수펌프 과다운전 진단 및 운전 최적화",
+    "bookEvidenceLabel": "B/C",
+    "outcomeClass": "FIELD_DATA_OPTIMIZATION",
+    "allowedClaims": [
+      "Actual vs Required",
+      "운전최적화 방향"
+    ],
+    "prohibitedClaims": [
+      "독립 절감성과 생성"
+    ],
+    "productionEvidenceStatus": "EVIDENCE-VERIFIED",
+    "productionBoundary": "기존 LOCK Boundary 유지",
+    "note": "Phase 3 book editorial taxonomy. Production evidence fields are not modified."
+  },
+  {
+    "caseId": "CASE80",
+    "caseNo": 80,
+    "title": "냉방부하·냉동기 가동대수 분석을 통한 부분부하 과다운전 진단 및 냉동기 운전조합 최적화",
+    "bookEvidenceLabel": "B/C",
+    "outcomeClass": "FIELD_DATA_OPTIMIZATION",
+    "allowedClaims": [
+      "Actual vs Required",
+      "운전최적화 방향"
+    ],
+    "prohibitedClaims": [
+      "독립 절감성과 생성"
+    ],
+    "productionEvidenceStatus": "EVIDENCE-VERIFIED",
+    "productionBoundary": "기존 LOCK Boundary 유지",
+    "note": "Phase 3 book editorial taxonomy. Production evidence fields are not modified."
+  },
+  {
+    "caseId": "CASE81",
+    "caseNo": 81,
+    "title": "외기조건·냉각수온도 분석을 통한 데이터센터 냉각탑 성능열위 진단 및 성능개선",
+    "bookEvidenceLabel": "B/C",
+    "outcomeClass": "FIELD_DIAGNOSIS_OPTIMIZATION",
+    "allowedClaims": [
+      "Field Diagnosis",
+      "Optimization Direction"
+    ],
+    "prohibitedClaims": [
+      "독립 최종 절감성과 생성"
+    ],
+    "productionEvidenceStatus": "EVIDENCE-VERIFIED",
+    "productionBoundary": "기존 LOCK Boundary 유지",
+    "note": "Phase 3 book editorial taxonomy. Production evidence fields are not modified."
+  },
+  {
+    "caseId": "CASE82",
+    "caseNo": 82,
+    "title": "Peak·Load Factor 분석을 통한 데이터센터 계약전력 적정성 진단 및 기본요금 절감",
+    "bookEvidenceLabel": "C",
+    "outcomeClass": "COST_SAVING_SCENARIO",
+    "allowedClaims": [
+      "계약조건 변경 시나리오",
+      "예상 비용절감"
+    ],
+    "prohibitedClaims": [
+      "kWh 절감성과",
+      "실제 계약변경 후 검증성과"
+    ],
+    "productionEvidenceStatus": "EVIDENCE-VERIFIED",
+    "productionBoundary": "분석범위는 데이터센터의 전력사용량과 전기요금, 계약전력·요금적용전력·Peak 및 Load Factor의 비교입니다. Energy KPI(kWh)와 Cost KPI(원/년)를 구분하며, 계약전력 변경 시나리오는 설비의 kWh 절감성과가 아니라 계약조건 조정에 따른 비용효과 검토 범위로 평가합니다.",
+    "note": "Phase 3 book editorial taxonomy. Production evidence fields are not modified."
+  }
+]
