@@ -150,3 +150,28 @@ CASE77~81:
 - standalone official Approval Final file byte identity: pending
 
 This keeps the project at PRE_WORD_MASTER_PARTIAL_PASS. Actual Word integration is still blocked by the remaining source/user gates.
+
+
+## 11. Final Pre-Word Acceptance Matrix
+
+Artifacts:
+- `docs/PHASE3_FINAL_PRE_WORD_ACCEPTANCE_MATRIX.md`
+- `data/phase3-final-pre-word-acceptance-matrix.json`
+
+Aggregate status:
+- Active CASE: 40
+- Pre-Word acceptance: 40/40
+- Chapter mapping: 40/40 PASS
+- Title / Web path / Source Note: 40/40 PASS
+- Numeric/Unit preliminary QA: 40/40
+- Evidence preliminary QA: 40/40
+- Boundary QA: 40/40
+- claim-strengthening violations: 0
+
+Remaining four gates:
+1. strict standalone source-byte identity confirmation where required
+2. CASE50 source reconciliation
+3. user approval of Expanded TOC + final Figure selection/print permission
+4. authorization to create/modify the Expanded Edition Word working copy
+
+Therefore status = **PRE-WORD PACKAGE READY**, not FINAL BOOK MANUSCRIPT LOCKED.
