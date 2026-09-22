@@ -166,3 +166,10 @@ Draft PR → Ready for Review → Merge → GitHub Pages → Production Smoke Te
   - Related Insight = Baseline & M&V
   - CASE Library and Professional Consultation links visible
   - no visible layout break in reviewed screenshots
+
+- Book Reader upper screen: PASS
+  - cover shows 41 cases
+  - current-book notice correctly states CASE01~41 and CASE42~82 web expansion
+  - CASE 01~82 library button, web CASE jump, TOC jump, page controls all visible
+  - no visible horizontal overflow in reviewed desktop screenshot
+  - book title area truncation in top bar is acceptable at this viewport
