@@ -189,3 +189,21 @@ For the cleanest next phase, approve together:
 5. Separate Expanded Edition Word working copy only; preserve current Master unchanged
 
 No approval in this packet changes the current production book automatically.
+
+
+## 10. Recommended resolution and execution runbook
+
+Editorial recommendation:
+- `docs/PHASE3_RECOMMENDED_APPROVAL_RESOLUTION.md`
+
+Post-approval execution sequence:
+- `docs/PHASE3_WORD_INTEGRATION_RUNBOOK.md`
+
+Recommended combined approval remains:
+1. 29-Chapter TOC with new Boiler Chapter 15
+2. 7 primary Figures + CASE44-F02 optional
+3. CASE53/64/66 as Table/Fact Box
+4. 214~220p target
+5. separate Expanded Edition Word working copy only; current Master remains read-only
+
+The recommendation document is advisory; it does not change approval state by itself.
