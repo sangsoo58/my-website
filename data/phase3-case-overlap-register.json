@@ -134,5 +134,17 @@
     "editorialAction": "동일 프로젝트인지 단정하지 않음. Chapter 11 통합 시 기존 CASE10의 Plant-level 잠재량 표와 신규 Field Test/Action 결과가 중복 귀속되지 않도록 Source Trace별 분리.",
     "evidence": "냉동기 Plant·펌프·냉각탑·가동대수 최적화 영역이 겹치지만 현재 Current CASE Source Trace가 LOCK되어 동일 프로젝트 여부를 확정하기 어려움.",
     "status": "EDITORIAL_CONTROL_ACTIVE"
+  },
+  {
+    "id": 11,
+    "current": "CASE49",
+    "expanded": [
+      "CASE50"
+    ],
+    "relation": "SAME_MODEL_FENESTRATION_FOCUSED_COMPANION",
+    "confidence": "HIGH",
+    "editorialAction": "CASE49는 18개 설계변수 Parametric Study의 전체 비교를 유지하고, CASE50의 WWR·SC·Curtain 수치는 동일 모델의 창호 세부항목과 중복되므로 별도 본문으로 넣을 경우 반복 최소화. 214~220p 목표에서는 CASE50을 별도 CASE 본문에서 제외하고 CASE49 내 Fenestration Fact Box 또는 Cross-reference로 흡수하는 안을 우선 권고.",
+    "evidence": "CASE49와 CASE50에 WWR 63→40% (-1.7%), SC 0.33→0.75 (+9.3%), Curtain 50% (-1.0%)가 동일하게 등장하며 동일 오피스 Baseline Parametric Simulation 구조를 공유.",
+    "status": "EDITORIAL_CONTROL_ACTIVE"
   }
 ]
