@@ -100,3 +100,33 @@ Compared against current Phase 3 manuscripts:
 The manuscripts are condensed book candidates and intentionally omit some detailed numeric/reference expansion from the approved source master without reversing or strengthening the evidence meaning.
 
 Standalone official files `CASE77_APPROVED_FINAL.txt` ~ `CASE81_APPROVED_FINAL.txt` have now been directly read. Current Phase 3 manuscripts preserve title, Evidence B/C, core FACT/diagnostic logic, Measurement Boundary, and no-independent-final-saving classification. Therefore CASE77~81 are promoted to **FINAL FIDELITY PASS 5/5**.
+
+
+## Consolidated standalone TXT fidelity status
+
+Status after direct Library review:
+
+### FINAL Fidelity PASS — direct standalone Approval Final TXT
+- CASE42~49: 8/8
+- CASE51: 1/1 (REV02 authoritative source basis)
+- CASE77~81: 5/5
+- Active Final Fidelity PASS subtotal: **14 CASE**
+
+### CASE50
+- standalone `CASE50_APPROVED_FINAL.txt` directly reviewed
+- authoritative identity = large-office fenestration WWR/glazing parametric Simulation
+- content fidelity = PASS
+- book inclusion = USER DECISION PENDING
+
+### CASE52~76
+- standalone Approval Final TXT files exist and exact file identities are confirmed
+- Source Recovery Register = 25/25 within this range
+- Book Writing Source Master = source-preserving / locked
+- however some standalone TXT objects return no readable text through the current Library text reader and raw-byte materialization is not authorized in this environment
+- therefore these CASEs remain **PRELIMINARY FIDELITY PASS**, not Final Fidelity PASS
+
+### CASE82
+- Production locked data + restored QA basis
+- remains under its separate source regime
+
+This status follows the rule: no Final Fidelity PASS when the standalone Approval Final TXT content cannot actually be read in the current environment.
