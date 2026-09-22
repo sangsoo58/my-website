@@ -319,3 +319,33 @@ Control assumptions:
 - common M&V explanation is Cross-referenced to Chapter 29
 
 Final page count is not assigned until Word layout and pagination.
+
+
+## 18. Source Note / Web / REFERENCES Provenance QA
+
+Status: **PASS / FINAL SOURCE FIDELITY STILL PENDING**
+
+Active scope:
+- CASE42~49 and CASE51~82 = 40 active revision candidates
+- CASE50 = Source HOLD / excluded from active publication content
+
+Manuscript QA:
+- canonical Web path present and correct: **40/40**
+- path rule: `/cases/caseXX.html`
+- publication Source Note present exactly once: **40/40**
+- internal source filename / recovery path leakage in manuscript body: **0**
+
+REFERENCES QA:
+- total C42~C82 reference lines: 41
+- active publication references: 40
+- CASE50 HOLD placeholder: 1
+- internal file/path/fidelity-status leakage: 0
+- standard project provenance wording: 37
+- Simulation-specific provenance wording: 3 (CASE48,49,51)
+- CASE82 explicitly tagged as a contract-power/cost scenario source context
+
+Publication rule:
+- public Source Note and REFERENCES use concise anonymized provenance only
+- official filenames, sourceMaster, sourceTrace, recovery state and fidelity status remain internal Editorial Register metadata
+
+This PASS does not replace Approval Final TXT fidelity QA.
