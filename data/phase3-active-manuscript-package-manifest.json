@@ -187,5 +187,10 @@
       "CASE82": "Separate Production-locked source regime."
     },
     "case50": "CONTENT_FIDELITY_PASS_BOOK_INCLUSION_USER_DECISION_PENDING"
+  },
+  "resumeCheckpoint": {
+    "doc": "docs/PHASE3_PAUSE_RESUME_CHECKPOINT_2026-09-22.md",
+    "sourceAccessibility": "docs/PHASE3_STANDALONE_SOURCE_ACCESSIBILITY_REGISTER.md",
+    "status": "READY_FOR_NEXT_SESSION"
   }
 }
