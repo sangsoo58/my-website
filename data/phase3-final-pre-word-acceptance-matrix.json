@@ -14,7 +14,9 @@
     "evidence": "40/40 PRELIMINARY PASS",
     "boundary": "40/40 PASS",
     "claimStrengtheningViolations": 0,
-    "preWordAcceptance": "40/40"
+    "preWordAcceptance": "40/40",
+    "finalFidelityPass": "14/40",
+    "preliminaryFidelity": "26/40"
   },
   "sourceFidelity": {
     "case42_76": {
@@ -23,11 +25,14 @@
       "hold": [
         "CASE50"
       ],
-      "standaloneByteIdentity": "PENDING"
+      "standaloneByteIdentity": "PENDING",
+      "directStandaloneFinalPass": "CASE42-49 + CASE51 = 9 active",
+      "case52_76": "PRELIMINARY_STANDALONE_TEXT_READER_LIMITATION"
     },
     "case77_81": {
-      "directSourceMasterPreliminaryPass": "5/5",
-      "standaloneByteIdentity": "PENDING"
+      "directSourceMasterPreliminaryPass": "SUPERSEDED",
+      "standaloneByteIdentity": "PENDING",
+      "finalStandaloneOfficialFileByteQA": "FINAL_PASS_5_OF_5"
     },
     "case82": {
       "basis": "PRODUCTION_LOCKED_DATA_PLUS_RESTORED_QA",
@@ -51,8 +56,8 @@
       "numericUnit": "PRELIMINARY_PASS",
       "evidence": "PRELIMINARY_PASS",
       "boundary": "PASS_WITH_CASE_SPECIFIC_BOUNDARY",
-      "sourceStage": "APPROVED_SOURCE_RECOVERED / PRELIMINARY",
-      "finalByte": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+      "sourceStage": "FINAL_PASS_DIRECT_STANDALONE_APPROVED_FINAL_TXT",
+      "finalByte": "FINAL_PASS",
       "acceptance": "PRE_WORD_ACCEPT"
     },
     {
@@ -65,8 +70,8 @@
       "numericUnit": "PRELIMINARY_PASS",
       "evidence": "PRELIMINARY_PASS",
       "boundary": "PASS_WITH_CASE_SPECIFIC_BOUNDARY",
-      "sourceStage": "APPROVED_SOURCE_RECOVERED / PRELIMINARY",
-      "finalByte": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+      "sourceStage": "FINAL_PASS_DIRECT_STANDALONE_APPROVED_FINAL_TXT",
+      "finalByte": "FINAL_PASS",
       "acceptance": "PRE_WORD_ACCEPT"
     },
     {
@@ -79,8 +84,8 @@
       "numericUnit": "PRELIMINARY_PASS",
       "evidence": "PRELIMINARY_PASS",
       "boundary": "PASS_WITH_CASE_SPECIFIC_BOUNDARY",
-      "sourceStage": "APPROVED_SOURCE_RECOVERED / PRELIMINARY",
-      "finalByte": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+      "sourceStage": "FINAL_PASS_DIRECT_STANDALONE_APPROVED_FINAL_TXT",
+      "finalByte": "FINAL_PASS",
       "acceptance": "PRE_WORD_ACCEPT"
     },
     {
@@ -93,8 +98,8 @@
       "numericUnit": "PRELIMINARY_PASS",
       "evidence": "PRELIMINARY_PASS",
       "boundary": "PASS_WITH_CASE_SPECIFIC_BOUNDARY",
-      "sourceStage": "APPROVED_SOURCE_RECOVERED / PRELIMINARY",
-      "finalByte": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+      "sourceStage": "FINAL_PASS_DIRECT_STANDALONE_APPROVED_FINAL_TXT",
+      "finalByte": "FINAL_PASS",
       "acceptance": "PRE_WORD_ACCEPT"
     },
     {
@@ -107,8 +112,8 @@
       "numericUnit": "PRELIMINARY_PASS",
       "evidence": "PRELIMINARY_PASS",
       "boundary": "PASS_WITH_CASE_SPECIFIC_BOUNDARY",
-      "sourceStage": "APPROVED_SOURCE_RECOVERED / PRELIMINARY",
-      "finalByte": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+      "sourceStage": "FINAL_PASS_DIRECT_STANDALONE_APPROVED_FINAL_TXT",
+      "finalByte": "FINAL_PASS",
       "acceptance": "PRE_WORD_ACCEPT"
     },
     {
@@ -121,8 +126,8 @@
       "numericUnit": "PRELIMINARY_PASS",
       "evidence": "PRELIMINARY_PASS",
       "boundary": "PASS_WITH_CASE_SPECIFIC_BOUNDARY",
-      "sourceStage": "APPROVED_SOURCE_RECOVERED / PRELIMINARY",
-      "finalByte": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+      "sourceStage": "FINAL_PASS_DIRECT_STANDALONE_APPROVED_FINAL_TXT",
+      "finalByte": "FINAL_PASS",
       "acceptance": "PRE_WORD_ACCEPT"
     },
     {
@@ -135,8 +140,8 @@
       "numericUnit": "PRELIMINARY_PASS",
       "evidence": "PRELIMINARY_PASS",
       "boundary": "PASS_WITH_CASE_SPECIFIC_BOUNDARY",
-      "sourceStage": "APPROVED_SOURCE_RECOVERED / PRELIMINARY",
-      "finalByte": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+      "sourceStage": "FINAL_PASS_DIRECT_STANDALONE_APPROVED_FINAL_TXT",
+      "finalByte": "FINAL_PASS",
       "acceptance": "PRE_WORD_ACCEPT"
     },
     {
@@ -149,8 +154,8 @@
       "numericUnit": "PRELIMINARY_PASS",
       "evidence": "PRELIMINARY_PASS",
       "boundary": "PASS_WITH_CASE_SPECIFIC_BOUNDARY",
-      "sourceStage": "APPROVED_SOURCE_RECOVERED / PRELIMINARY",
-      "finalByte": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+      "sourceStage": "FINAL_PASS_DIRECT_STANDALONE_APPROVED_FINAL_TXT",
+      "finalByte": "FINAL_PASS",
       "acceptance": "PRE_WORD_ACCEPT"
     },
     {
@@ -163,8 +168,8 @@
       "numericUnit": "PRELIMINARY_PASS",
       "evidence": "PRELIMINARY_PASS",
       "boundary": "PASS_WITH_CASE_SPECIFIC_BOUNDARY",
-      "sourceStage": "APPROVED_SOURCE_RECOVERED / PRELIMINARY",
-      "finalByte": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+      "sourceStage": "FINAL_PASS_DIRECT_STANDALONE_APPROVED_FINAL_TXT",
+      "finalByte": "FINAL_PASS",
       "acceptance": "PRE_WORD_ACCEPT"
     },
     {
@@ -527,8 +532,8 @@
       "numericUnit": "PRELIMINARY_PASS",
       "evidence": "PRELIMINARY_PASS",
       "boundary": "PASS_WITH_CASE_SPECIFIC_BOUNDARY",
-      "sourceStage": "DIRECT_SOURCE_MASTER PRELIMINARY PASS",
-      "finalByte": "PENDING_STANDALONE_OFFICIAL_FILE_BYTE_IDENTITY_AFTER_DIRECT_SOURCE_MASTER_PASS",
+      "sourceStage": "FINAL_PASS_DIRECT_STANDALONE_APPROVED_FINAL_TXT",
+      "finalByte": "FINAL_PASS",
       "acceptance": "PRE_WORD_ACCEPT"
     },
     {
@@ -541,8 +546,8 @@
       "numericUnit": "PRELIMINARY_PASS",
       "evidence": "PRELIMINARY_PASS",
       "boundary": "PASS_WITH_CASE_SPECIFIC_BOUNDARY",
-      "sourceStage": "DIRECT_SOURCE_MASTER PRELIMINARY PASS",
-      "finalByte": "PENDING_STANDALONE_OFFICIAL_FILE_BYTE_IDENTITY_AFTER_DIRECT_SOURCE_MASTER_PASS",
+      "sourceStage": "FINAL_PASS_DIRECT_STANDALONE_APPROVED_FINAL_TXT",
+      "finalByte": "FINAL_PASS",
       "acceptance": "PRE_WORD_ACCEPT"
     },
     {
@@ -555,8 +560,8 @@
       "numericUnit": "PRELIMINARY_PASS",
       "evidence": "PRELIMINARY_PASS",
       "boundary": "PASS_WITH_CASE_SPECIFIC_BOUNDARY",
-      "sourceStage": "DIRECT_SOURCE_MASTER PRELIMINARY PASS",
-      "finalByte": "PENDING_STANDALONE_OFFICIAL_FILE_BYTE_IDENTITY_AFTER_DIRECT_SOURCE_MASTER_PASS",
+      "sourceStage": "FINAL_PASS_DIRECT_STANDALONE_APPROVED_FINAL_TXT",
+      "finalByte": "FINAL_PASS",
       "acceptance": "PRE_WORD_ACCEPT"
     },
     {
@@ -569,8 +574,8 @@
       "numericUnit": "PRELIMINARY_PASS",
       "evidence": "PRELIMINARY_PASS",
       "boundary": "PASS_WITH_CASE_SPECIFIC_BOUNDARY",
-      "sourceStage": "DIRECT_SOURCE_MASTER PRELIMINARY PASS",
-      "finalByte": "PENDING_STANDALONE_OFFICIAL_FILE_BYTE_IDENTITY_AFTER_DIRECT_SOURCE_MASTER_PASS",
+      "sourceStage": "FINAL_PASS_DIRECT_STANDALONE_APPROVED_FINAL_TXT",
+      "finalByte": "FINAL_PASS",
       "acceptance": "PRE_WORD_ACCEPT"
     },
     {
@@ -583,8 +588,8 @@
       "numericUnit": "PRELIMINARY_PASS",
       "evidence": "PRELIMINARY_PASS",
       "boundary": "PASS_WITH_CASE_SPECIFIC_BOUNDARY",
-      "sourceStage": "DIRECT_SOURCE_MASTER PRELIMINARY PASS",
-      "finalByte": "PENDING_STANDALONE_OFFICIAL_FILE_BYTE_IDENTITY_AFTER_DIRECT_SOURCE_MASTER_PASS",
+      "sourceStage": "FINAL_PASS_DIRECT_STANDALONE_APPROVED_FINAL_TXT",
+      "finalByte": "FINAL_PASS",
       "acceptance": "PRE_WORD_ACCEPT"
     },
     {
