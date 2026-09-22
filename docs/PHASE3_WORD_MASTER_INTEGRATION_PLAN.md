@@ -115,11 +115,12 @@ For every new CASE:
 - figure/table register: exact source and Evidence class
 - final REFERENCES: C42~C82 1:1
 
-CASE77~81 exact file path must be recovered before final provenance lock.
+CASE77~81 official filenames are confirmed as `case77_approval_final.txt` ~ `case81_approval_final.txt`; direct Approval Final TXT content-byte comparison must be completed before final provenance/fidelity lock.
 
 ## 7. First Expanded Word Candidate acceptance criteria
 
-- CASE42~82 present: 41/41 except CASE50 HOLD placeholder page is not allowed
+- Active integration set present: CASE42~49 and CASE51~82 = 40/40
+- CASE50 is excluded from integration while HOLD; no placeholder page is allowed
 - no duplicate Project-level result counting
 - no Potential→Actual strengthening
 - no Simulation→Actual strengthening
