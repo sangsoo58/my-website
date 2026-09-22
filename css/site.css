@@ -213,3 +213,16 @@ html,body{max-width:100%;overflow-x:clip}
   #contact-title{font-size:32px}
   #contact-title span{white-space:normal}
 }
+
+
+/* PHASE 2 MOBILE AUDIENCE CARDS FINAL FIX */
+@media(max-width:767px){
+  .problem-grid{
+    grid-template-columns:1fr;
+    gap:14px;
+  }
+  .problem-card{
+    min-height:auto;
+    padding:24px;
+  }
+}
