@@ -109,3 +109,24 @@ Status after direct Library review:
 - remains under its separate source regime
 
 This status follows the rule: no Final Fidelity PASS when the standalone Approval Final TXT content cannot actually be read in the current environment.
+
+
+## CASE52~76 Direct BOOK MASTER result
+
+Status: **PRELIMINARY DIRECT BOOK MASTER PASS 25/25**
+
+Directly readable `CASE52_BOOK_MASTER.txt` ~ `CASE76_BOOK_MASTER.txt` were compared against current Phase 3 manuscripts.
+
+Result:
+- title alignment: **25/25**
+- Evidence classification alignment: **25/25**
+- Evidence Boundary presence/alignment: **25/25**
+- manuscript numeric tokens missing from readable BOOK MASTER: **0**
+- claim-strengthening conflict identified: **0**
+
+Interpretation:
+- the CASE52~76 manuscript set is directly supported by readable BOOK MASTER sources
+- this materially strengthens the previous Source-Recovery-only status
+- however Final Fidelity PASS is still not assigned because some standalone `CASE##_APPROVED_FINAL.txt` objects return zero readable lines through the current Library reader and raw-byte materialization is unavailable
+
+Therefore CASE52~76 status = **DIRECT BOOK MASTER PRELIMINARY PASS 25/25 / STANDALONE TXT FINAL GATE PENDING**.
