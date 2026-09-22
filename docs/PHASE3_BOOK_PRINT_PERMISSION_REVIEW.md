@@ -107,3 +107,17 @@ Still pending:
 - permission/use-basis confirmation
 - visual anonymization review
 - final print layout readability / grayscale-CMYK check
+
+
+## Visual anonymization access note
+
+Current status: **REVIEW PENDING**
+
+The 11 PNG assets are confirmed in GitHub and their binary SHA/dimensions match the Source Register, but the current tool path cannot render those GitHub binary assets for pixel-level visual inspection.
+
+Therefore:
+- anonymization is not marked PASS by inference
+- customer/site/equipment identifiers must be visually checked when the assets are available in the Word working-copy or another renderable review surface
+- this is an access limitation, not a known anonymization failure
+
+Keep Anonymization = REVIEW until an actual visual inspection is completed.
