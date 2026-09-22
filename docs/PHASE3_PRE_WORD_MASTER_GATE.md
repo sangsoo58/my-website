@@ -124,3 +124,29 @@ Status: **PASS FOR PLANNING / FINAL FIDELITY NOT WAIVED**
 - CASE50: excluded / HOLD
 
 This gate only confirms publication-safe provenance wording. Actual Word Master integration remains blocked by source fidelity and user approval gates.
+
+
+## 10. Pre-Word Fidelity Matrix linkage
+
+Status: **MATRIX READY / FINAL STANDALONE FILE QA PENDING**
+
+New matrix artifacts:
+- `docs/PHASE3_PRE_WORD_FIDELITY_MATRIX.md`
+- `data/phase3-pre-word-fidelity-matrix.json`
+
+CASE42~76 summary:
+- Approved Final source recovery: 35/35
+- active revision candidates in range: 34
+- CASE50: Source HOLD
+- active title QA: 34/34 PASS
+- active Numeric/Unit QA: 34/34 Preliminary PASS
+- active Evidence QA: 34/34 Preliminary PASS
+- active Boundary QA: 34/34 PASS with case-specific boundary
+- claim strengthening violation identified: 0
+- final standalone official TXT byte QA: pending
+
+CASE77~81:
+- Direct approved Source Master comparison: Preliminary PASS 5/5
+- standalone official Approval Final file byte identity: pending
+
+This keeps the project at PRE_WORD_MASTER_PARTIAL_PASS. Actual Word integration is still blocked by the remaining source/user gates.
