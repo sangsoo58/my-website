@@ -39,3 +39,6 @@
   .v33-case-card h2,.v33-case-card p{overflow-wrap:anywhere;word-break:break-word}
   .v33-tags{max-width:100%}
 }
+
+/* V3.4 CASE card real-content layout */
+.v33-case-card{display:flex;flex-direction:column}.v33-case-card h2{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;overflow:hidden;min-height:82px}.v33-case-card p{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:4;overflow:hidden;min-height:106px}.v33-tags{margin-top:auto}.v33-case-card>a{margin-top:4px}
