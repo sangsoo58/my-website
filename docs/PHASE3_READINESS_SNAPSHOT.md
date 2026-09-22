@@ -28,17 +28,18 @@ Status: **STRUCTURE READY / SOURCE FIDELITY PARTIAL**
 ## Remaining source-fidelity work
 
 ### CASE50
-Official source filename:
-- `case50_approval_final.txt`
+Source identity is now **RESOLVED** by direct review of `CASE50_APPROVED_FINAL.txt`.
 
-Current issue:
-- Production visible body: office WWR / glazing Simulation
-- legacy JSON-LD / boundary: childcare Passive House
+Authoritative identity:
+- 대형 오피스 빌딩 창면적·유리성능 Parametric Simulation
+- Evidence D | Simulation·Modeling
 
-Required:
-- read the Approval Final TXT itself
-- reconcile which identity is authoritative
-- then update manuscript/source note only after confirmation
+The approved source explicitly rejects the legacy “보육시설 Passive House” label as inconsistent with the actual CASE50 content.
+
+Current state:
+- source conflict resolved
+- Book inclusion remains USER DECISION PENDING
+- until user decision, bookIncluded=false / page=null / no active Figure/Table row
 
 ### CASE77~81
 Filename identity is no longer unresolved.
