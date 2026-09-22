@@ -267,3 +267,16 @@ CASE77~81:
 - direct Source Master Preliminary PASS 5/5
 
 Strict final limitation remains standalone official Approval Final TXT byte identity where required by policy. No Final Fidelity PASS is assigned yet.
+
+
+## Final pre-word acceptance update
+
+Status: **PRE-WORD PACKAGE READY / 40 OF 40 ACTIVE ACCEPTED**
+
+All 40 active revision candidates are currently acceptable for pre-Word planning across chapter mapping, title, Web path, Source Note, preliminary Numeric/Unit QA, Evidence QA and Measurement Boundary control.
+
+This does not authorize Word integration. Four gates remain:
+1. strict standalone source-byte identity confirmation where required
+2. CASE50 source reconciliation
+3. user TOC/Figure approval and print permission
+4. Word working-copy authorization
