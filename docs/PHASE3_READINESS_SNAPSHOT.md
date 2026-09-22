@@ -373,3 +373,11 @@ Directly matched:
 - Cost scenario 167백만원/년
 
 Boundary preserved: cost-saving scenario is not represented as kWh Energy Saving.
+
+
+## Figure binary integrity update
+
+Status: **11/11 PASS**
+- approved Web PNG file identity verified by Git SHA
+- pixel dimensions verified against Figure/Table Register
+- print permission/anonymization remains pending
