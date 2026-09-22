@@ -1,0 +1,86 @@
+# PHASE 3 — Editorial QA Report
+
+Status: **ROUND 1 COMPLETE / USER REVIEW GATE**
+
+## 1. Manuscript Coverage
+
+- CASE42~82 manuscript files: **41 / 41**
+- Missing CASE drafts: **0**
+- Chapter expansion drafts:
+  - Boiler System Optimization
+  - Data Center PUE & Cooling Optimization
+
+## 2. Evidence Taxonomy
+
+Phase 3 책 원고는 Production의 포괄적 status 값만 사용하지 않고, 각 상세 CASE에 실제로 서술된 Evidence Boundary를 우선해 다음 유형으로 통일한다.
+
+- A: Field Test / Verified Saving
+- B: Field Data / Verified Finding / Program-level Result
+- C: Improvement Potential / Proposal / Optimization Direction
+- D: Simulation / Modeling
+- Mixed: A/B/C 또는 A/C, B/C처럼 한 CASE 안에서 서로 다른 성격이 공존
+
+성과문구는 `data/phase3-evidence-register.json`의 allowed/prohibited claim 규칙을 따른다.
+
+## 3. 주요 Editorial Hold / Reconciliation
+
+### CASE50
+Web 본문은 대형 오피스 빌딩 창호 Parametric Simulation으로 정리되어 있으나 기존 Master metadata에 보육시설 Passive House Boundary 흔적이 남아 있다. 최종 Expanded Edition에는 원자료 확인 후 Boundary를 하나로 확정한다.
+
+### CASE65~69
+실제 CASE 본문은 Boiler System Story이나 Production system metadata 일부가 CDA/냉수/압축기/냉각탑으로 어긋나 있다. 책 원고는 본문 Evidence를 기준으로 Boiler Chapter에 배치하되 Production metadata는 별도 승인 전 수정하지 않는다.
+
+### CASE75~76
+실제 콘텐츠는 발전소 보조기기인데 Production sector metadata는 데이터센터로 되어 있다. Expanded Edition은 PART 4 발전소 Chapter에 배치한다.
+
+### CASE78
+본문은 국내 반도체·디스플레이 제조시설 5℃·13℃ 냉각수펌프 데이터 구조다. Book placement는 PART 3 냉동기 Plant Chapter로 제안 확정했으나 Production sector metadata는 별도 승인 전 유지한다.
+
+## 4. 금지되는 성과표현
+
+- Potential → Actual 금지
+- Proposal Target → Verified Saving 금지
+- Simulation → Actual Saving 금지
+- Benchmark Gap → Saving Rate 금지
+- Null Result에 Saving 부여 금지
+- Program-level Result를 단일 CASE 조치효과로 귀속 금지
+- Contract Power Cost Saving을 kWh Saving으로 표현 금지
+
+## 5. Chapter Structure QA
+
+현재 출간본은 Chapter 1~28 체계다. Boiler 전용 Chapter를 추가하면 Expanded Edition Chapter는 29개가 된다.
+
+별도 `PHASE3_EXPANDED_EDITION_TOC_PROPOSAL.md`에:
+- Option A: Boiler를 Chapter 15로 삽입
+- Option B: Boiler를 PART 4 말미에 삽입
+을 기록했다.
+
+Chapter 번호는 승인 전 확정하지 않는다.
+
+## 6. Index / Reference QA
+
+Draft artifacts:
+- CASE INDEX C01~C82
+- REFERENCES C42~C82
+- Evidence Register C42~C82
+
+최종 조판 전:
+- CASE INDEX title
+- 본문 CASE title
+- REFERENCES title
+- Web↔Book mapping title
+을 1:1 대조한다.
+
+## 7. 다음 Round
+
+1. Expanded Edition TOC 확정
+2. CASE42~82 Deep Dive / 응용사례 등급 확정
+3. 각 CASE 원고를 현재 책의 페이지 스타일로 편집
+4. C42~C82 Figure/Table Source Register 작성
+5. Word Master에 삽입할 원고 패키지 생성
+6. 전체 82 CASE 문체·단위·성과표현 2차 QA
+7. 조판 후 페이지 번호와 Web↔Book mapping 활성화
+
+## Gate
+
+현재 단계에서는 **Production Web과 Current 41-CASE Book Reader를 변경하지 않는다.**
