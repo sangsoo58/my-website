@@ -68,3 +68,29 @@ Source가 확인될 때까지:
 - 보육시설 ↔ 오피스 중 하나를 추정으로 선택하지 않는다.
 - Simulation을 Actual 성과로 강화하지 않는다.
 - Production 수정과 Book 반영을 모두 보류한다.
+
+
+## Direct Approval Final TXT Resolution
+
+Status: **SOURCE IDENTITY RESOLVED / BOOK INCLUSION USER DECISION PENDING**
+
+Directly reviewed file:
+- `CASE50_APPROVED_FINAL.txt`
+
+Authoritative content identity:
+- **대형 오피스 빌딩의 창면적·유리성능 변화가 냉난방 에너지에 미치는 영향을 비교한 Simulation**
+- Evidence D | Simulation·Modeling
+
+Approved source confirms:
+- WWR 63% → 40%: 3,114 → 3,060백만원, 약 -54백만원/년, -1.7%
+- SC 0.33 → 0.75: 3,114 → 3,405백만원, 약 +291백만원/년, +9.3%
+- Curtain 50%: 약 -31백만원/년, -1.0%
+- all values are Simulation results, not measured post-construction savings
+
+The approved source explicitly states that the legacy “보육시설 Passive House” label does not match the actual CASE50 content and should not be used for this Review.
+
+Therefore:
+- source identity conflict = **RESOLVED**
+- authoritative CASE50 identity = **large office fenestration parametric simulation**
+- current exclusion from active book integration remains temporarily in place because CASE50 book inclusion was previously defined as a user decision gate
+- no placeholder page is created before that decision
