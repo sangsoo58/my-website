@@ -132,3 +132,38 @@ Status: **ROUND 2 EDITORIAL STANDARD**
 CASE42, 44, 52, 56, 60, 62, 63, 64, 68, 74, 82.
 
 최종 Deep Dive 수는 전체 책 분량을 보고 조정한다.
+
+
+## 10. Source Note / Provenance 표준
+
+### 출판 본문용 Source Note
+
+Active CASE42~82의 책 본문에는 내부 파일명·복구 경로·QA 상태를 노출하지 않는다.
+
+권장 기본문구:
+
+**Source Note |** 저자 보유 프로젝트 자료와 비식별 공개사례를 바탕으로 재구성했다. 수치·성과의 성격은 본문의 Evidence Boundary를 따른다.
+
+단, 다음은 별도 처리한다.
+- Simulation CASE: “설계·Simulation 자료를 바탕으로 재구성”으로 표현 가능
+- CASE82: 계약조건·비용 시나리오 사례임을 Source Note에서 실제 절감성과처럼 보이게 하지 않음
+- CASE50: Source Reconciliation 완료 전 출판 본문 Source Note 생성 금지
+
+### Web 표기
+
+각 CASE의 canonical Web 경로는:
+- `/cases/caseXX.html`
+
+형식을 유지한다. CASE ID와 Web 숫자는 1:1이어야 한다.
+
+### 내부 Editorial Provenance
+
+다음 정보는 책 본문이 아니라 내부 Register에서만 관리한다.
+- officialBookSourceFile
+- sourceMaster
+- sourceTrace
+- Approval Final TXT fidelity status
+- source recovery / content-byte access status
+- permission / anonymization review status
+
+출판용 REFERENCES에는 고객사명·사업장명·내부 설비 ID·내부 파일 경로를 노출하지 않는다.
