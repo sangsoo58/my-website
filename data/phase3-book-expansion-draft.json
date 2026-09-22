@@ -1,0 +1,1260 @@
+[
+  {
+    "caseId": "CASE42",
+    "caseNo": 42,
+    "webTitle": "반도체·디스플레이 제조시설 Utility 운전최적화와 실시간 효율관리 체계 구축",
+    "webUrl": "/cases/case42.html",
+    "currentWebSector": "제조공장",
+    "currentSystems": [
+      "냉동기",
+      "CDA",
+      "보일러",
+      "Utility"
+    ],
+    "currentTechnologies": [],
+    "evidenceStatus": "B / A-C mixed",
+    "evidenceGrade": [
+      "A",
+      "B",
+      "C"
+    ],
+    "measurementBoundary": "반도체·디스플레이 생산시설 Utility(CDA·냉동기·보일러) 및 다수 생산거점",
+    "sourceTrace": "Final_51CASE + multi-site Utility historical source",
+    "manuscriptBatch": "A_42_51",
+    "proposedPart": 3,
+    "proposedChapter": 12,
+    "proposedChapterTitle": "반도체 Multi-Utility 통합 최적화",
+    "placementStatus": "PROPOSED_EXISTING_CHAPTER",
+    "placementCandidates": [],
+    "placementReason": null,
+    "auditFlags": [
+      "EVIDENCE_MIXED_A_B_C"
+    ],
+    "bookIncluded": false,
+    "bookPage": null,
+    "bookEdition": null,
+    "mappingStatus": "PHASE3_DRAFT_REVIEW"
+  },
+  {
+    "caseId": "CASE43",
+    "caseNo": 43,
+    "webTitle": "냉동·공조·압축공기 통합 운전분석을 통한 Utility Balance 최적화",
+    "webUrl": "/cases/case43.html",
+    "currentWebSector": "제조공장",
+    "currentSystems": [
+      "공조",
+      "Utility"
+    ],
+    "currentTechnologies": [],
+    "evidenceStatus": "B/C",
+    "evidenceGrade": [
+      "B",
+      "C"
+    ],
+    "measurementBoundary": "냉동·공조·압축공기 Utility 통합",
+    "sourceTrace": "Final_51CASE + 냉동·공조·압축공기 운전데이터 historical source",
+    "manuscriptBatch": "A_42_51",
+    "proposedPart": 3,
+    "proposedChapter": 12,
+    "proposedChapterTitle": "반도체 Multi-Utility 통합 최적화",
+    "placementStatus": "PROPOSED_EXISTING_CHAPTER",
+    "placementCandidates": [],
+    "placementReason": null,
+    "auditFlags": [
+      "EVIDENCE_B_C"
+    ],
+    "bookIncluded": false,
+    "bookPage": null,
+    "bookEdition": null,
+    "mappingStatus": "PHASE3_DRAFT_REVIEW"
+  },
+  {
+    "caseId": "CASE44",
+    "caseNo": 44,
+    "webTitle": "4개 생산시설 Utility 성능 Benchmark를 통한 UPI·가동대수 최적화",
+    "webUrl": "/cases/case44.html",
+    "currentWebSector": "제조공장",
+    "currentSystems": [
+      "냉동기",
+      "CDA",
+      "공기압축기",
+      "압축기"
+    ],
+    "currentTechnologies": [
+      "UPI",
+      "Benchmark",
+      "가동대수",
+      "부하율"
+    ],
+    "evidenceStatus": "B/C",
+    "evidenceGrade": [
+      "B",
+      "C"
+    ],
+    "measurementBoundary": "4개 생산시설 냉동기 및 CDA",
+    "sourceTrace": "Final_51CASE + 4개 생산시설 Benchmark historical source",
+    "manuscriptBatch": "A_42_51",
+    "proposedPart": 3,
+    "proposedChapter": 12,
+    "proposedChapterTitle": "반도체 Multi-Utility 통합 최적화",
+    "placementStatus": "PROPOSED_EXISTING_CHAPTER",
+    "placementCandidates": [],
+    "placementReason": null,
+    "auditFlags": [
+      "EVIDENCE_B_C"
+    ],
+    "bookIncluded": false,
+    "bookPage": null,
+    "bookEdition": null,
+    "mappingStatus": "PHASE3_DRAFT_REVIEW"
+  },
+  {
+    "caseId": "CASE45",
+    "caseNo": 45,
+    "webTitle": "고효율 반도체공장에서 Big-data로 찾아낸 Utility 잔여 절감기회",
+    "webUrl": "/cases/case45.html",
+    "currentWebSector": "제조공장",
+    "currentSystems": [
+      "냉동기",
+      "공기압축기",
+      "Utility",
+      "압축기"
+    ],
+    "currentTechnologies": [
+      "Big-data"
+    ],
+    "evidenceStatus": "B/C",
+    "evidenceGrade": [
+      "B",
+      "C"
+    ],
+    "measurementBoundary": "대형 반도체 제조공장 냉동기·공기압축기",
+    "sourceTrace": "Final_51CASE + 반도체공장 Big-data Utility historical source",
+    "manuscriptBatch": "A_42_51",
+    "proposedPart": 3,
+    "proposedChapter": 12,
+    "proposedChapterTitle": "반도체 Multi-Utility 통합 최적화",
+    "placementStatus": "PROPOSED_EXISTING_CHAPTER",
+    "placementCandidates": [],
+    "placementReason": null,
+    "auditFlags": [
+      "EVIDENCE_B_C"
+    ],
+    "bookIncluded": false,
+    "bookPage": null,
+    "bookEdition": null,
+    "mappingStatus": "PHASE3_DRAFT_REVIEW"
+  },
+  {
+    "caseId": "CASE46",
+    "caseNo": 46,
+    "webTitle": "PUE 이상을 냉방설비까지 추적한 다중 데이터센터 성능개선",
+    "webUrl": "/cases/case46.html",
+    "currentWebSector": "데이터센터",
+    "currentSystems": [
+      "Fan",
+      "PUE"
+    ],
+    "currentTechnologies": [
+      "PUE"
+    ],
+    "evidenceStatus": "B/C",
+    "evidenceGrade": [
+      "B",
+      "C"
+    ],
+    "measurementBoundary": "다수 IDC 층별 PUE 및 냉방설비",
+    "sourceTrace": "Final_51CASE + IDC 에너지성능 개선 historical source",
+    "manuscriptBatch": "A_42_51",
+    "proposedPart": 5,
+    "proposedChapter": 23,
+    "proposedChapterTitle": "데이터센터 PUE와 냉방 최적화",
+    "placementStatus": "PROPOSED_EXISTING_CHAPTER",
+    "placementCandidates": [],
+    "placementReason": null,
+    "auditFlags": [
+      "EVIDENCE_B_C"
+    ],
+    "bookIncluded": false,
+    "bookPage": null,
+    "bookEdition": null,
+    "mappingStatus": "PHASE3_DRAFT_REVIEW"
+  },
+  {
+    "caseId": "CASE47",
+    "caseNo": 47,
+    "webTitle": "PUE를 ‘보고용 숫자’에서 ‘운전 의사결정’으로 바꾼 다중 데이터센터 실시간 성능최적화",
+    "webUrl": "/cases/case47.html",
+    "currentWebSector": "데이터센터",
+    "currentSystems": [
+      "PUE"
+    ],
+    "currentTechnologies": [
+      "PUE"
+    ],
+    "evidenceStatus": "C + B baseline",
+    "evidenceGrade": [
+      "B",
+      "C"
+    ],
+    "measurementBoundary": "다수 IDC 전체전력·IT전력·냉방전력 및 냉방설비",
+    "sourceTrace": "Final_51CASE + 2017 다중 IDC 성능최적화/IPOS 제안자료",
+    "manuscriptBatch": "A_42_51",
+    "proposedPart": 5,
+    "proposedChapter": 23,
+    "proposedChapterTitle": "데이터센터 PUE와 냉방 최적화",
+    "placementStatus": "PROPOSED_EXISTING_CHAPTER",
+    "placementCandidates": [],
+    "placementReason": null,
+    "auditFlags": [
+      "EVIDENCE_C_WITH_B_BASELINE"
+    ],
+    "bookIncluded": false,
+    "bookPage": null,
+    "bookEdition": null,
+    "mappingStatus": "PHASE3_DRAFT_REVIEW"
+  },
+  {
+    "caseId": "CASE48",
+    "caseNo": 48,
+    "webTitle": "133층 초고층 복합건물의 에너지성능을 설계 전에 예측한 DOE-2.1E Simulation",
+    "webUrl": "/cases/case48.html",
+    "currentWebSector": "친환경건축",
+    "currentSystems": [
+      "건물에너지"
+    ],
+    "currentTechnologies": [
+      "Simulation"
+    ],
+    "evidenceStatus": "D",
+    "evidenceGrade": [
+      "D"
+    ],
+    "measurementBoundary": "133층 복합건물 설계안",
+    "sourceTrace": "Final_51CASE + 서울라이트타워 보고서 + 건물에너지 성능 비교분석 자료",
+    "manuscriptBatch": "A_42_51",
+    "proposedPart": 5,
+    "proposedChapter": 22,
+    "proposedChapterTitle": "신축건물 Energy Modeling",
+    "placementStatus": "PROPOSED_EXISTING_CHAPTER",
+    "placementCandidates": [],
+    "placementReason": null,
+    "auditFlags": [
+      "SIMULATION_ONLY_D"
+    ],
+    "bookIncluded": false,
+    "bookPage": null,
+    "bookEdition": null,
+    "mappingStatus": "PHASE3_DRAFT_REVIEW"
+  },
+  {
+    "caseId": "CASE49",
+    "caseNo": 49,
+    "webTitle": "외피·조명·열원설비 설계변경이 건물에너지에 미치는 영향을 비교한 Simulation",
+    "webUrl": "/cases/case49.html",
+    "currentWebSector": "친환경건축",
+    "currentSystems": [
+      "건물에너지"
+    ],
+    "currentTechnologies": [
+      "Simulation"
+    ],
+    "evidenceStatus": "D",
+    "evidenceGrade": [
+      "D"
+    ],
+    "measurementBoundary": "체육관 건물 설계/에너지 모델",
+    "sourceTrace": "Final_51CASE + 공덕빌딩 제안서 주요 실적(김천체육관 Simulation)",
+    "manuscriptBatch": "A_42_51",
+    "proposedPart": 5,
+    "proposedChapter": 22,
+    "proposedChapterTitle": "신축건물 Energy Modeling",
+    "placementStatus": "PROPOSED_EXISTING_CHAPTER",
+    "placementCandidates": [],
+    "placementReason": null,
+    "auditFlags": [
+      "SIMULATION_ONLY_D"
+    ],
+    "bookIncluded": false,
+    "bookPage": null,
+    "bookEdition": null,
+    "mappingStatus": "PHASE3_DRAFT_REVIEW"
+  },
+  {
+    "caseId": "CASE50",
+    "caseNo": 50,
+    "webTitle": "대형 오피스 빌딩의 창면적·유리성능 변화가 냉난방 에너지에 미치는 영향을 비교한 Simulation",
+    "webUrl": "/cases/case50.html",
+    "currentWebSector": "친환경건축",
+    "currentSystems": [],
+    "currentTechnologies": [
+      "Simulation"
+    ],
+    "evidenceStatus": "D",
+    "evidenceGrade": [
+      "D"
+    ],
+    "measurementBoundary": "보육시설 Passive House 설계안",
+    "sourceTrace": "Final_51CASE + 공덕빌딩 제안서 주요 실적(보육시설 Passive House Simulation)",
+    "manuscriptBatch": "A_42_51",
+    "proposedPart": 5,
+    "proposedChapter": 22,
+    "proposedChapterTitle": "신축건물 Energy Modeling",
+    "placementStatus": "PROPOSED_EXISTING_CHAPTER",
+    "placementCandidates": [],
+    "placementReason": null,
+    "auditFlags": [
+      "SIMULATION_ONLY_D",
+      "TITLE_BOUNDARY_MISMATCH_REVIEW"
+    ],
+    "bookIncluded": false,
+    "bookPage": null,
+    "bookEdition": null,
+    "mappingStatus": "PHASE3_DRAFT_REVIEW"
+  },
+  {
+    "caseId": "CASE51",
+    "caseNo": 51,
+    "webTitle": "ASHRAE 90.1 Appendix G Baseline과 설계안을 비교한 대형 복합건물 LEED 에너지모델링",
+    "webUrl": "/cases/case51.html",
+    "currentWebSector": "친환경건축",
+    "currentSystems": [
+      "건물에너지"
+    ],
+    "currentTechnologies": [
+      "Baseline",
+      "LEED",
+      "ASHRAE"
+    ],
+    "evidenceStatus": "D",
+    "evidenceGrade": [
+      "D"
+    ],
+    "measurementBoundary": "국제업무지구 업무시설 LEED EAc1 모델",
+    "sourceTrace": "Final_51CASE + 공덕빌딩 제안서 주요 실적 + LEED EAc1 historical source",
+    "manuscriptBatch": "A_42_51",
+    "proposedPart": 5,
+    "proposedChapter": 22,
+    "proposedChapterTitle": "신축건물 Energy Modeling",
+    "placementStatus": "PROPOSED_EXISTING_CHAPTER",
+    "placementCandidates": [],
+    "placementReason": null,
+    "auditFlags": [
+      "SIMULATION_ONLY_D"
+    ],
+    "bookIncluded": false,
+    "bookPage": null,
+    "bookEdition": null,
+    "mappingStatus": "PHASE3_DRAFT_REVIEW"
+  },
+  {
+    "caseId": "CASE52",
+    "caseNo": 52,
+    "webTitle": "공기압축기 부하율·Loading/Unloading 분석을 통한 적정 가동대수 Test & Adjust",
+    "webUrl": "/cases/case52.html",
+    "currentWebSector": "제조공장",
+    "currentSystems": [
+      "CDA",
+      "공기압축기",
+      "압축기"
+    ],
+    "currentTechnologies": [
+      "가동대수",
+      "부하율"
+    ],
+    "evidenceStatus": "EVIDENCE-VERIFIED",
+    "evidenceGrade": [],
+    "measurementBoundary": "기존 LOCK Boundary 유지",
+    "sourceTrace": "Protected CASE52~82 prior Final Story",
+    "manuscriptBatch": "B_52_64",
+    "proposedPart": 4,
+    "proposedChapter": 14,
+    "proposedChapterTitle": "공기압축기 시스템 운전최적화",
+    "placementStatus": "PROPOSED_EXISTING_CHAPTER",
+    "placementCandidates": [],
+    "placementReason": null,
+    "auditFlags": [],
+    "bookIncluded": false,
+    "bookPage": null,
+    "bookEdition": null,
+    "mappingStatus": "PHASE3_DRAFT_REVIEW"
+  },
+  {
+    "caseId": "CASE53",
+    "caseNo": 53,
+    "webTitle": "냉동기 냉수 출구온도 Set Point 상향을 통한 냉동효율 개선 및 전력절감",
+    "webUrl": "/cases/case53.html",
+    "currentWebSector": "제조공장",
+    "currentSystems": [
+      "냉동기",
+      "냉수"
+    ],
+    "currentTechnologies": [
+      "Set Point"
+    ],
+    "evidenceStatus": "EVIDENCE-VERIFIED",
+    "evidenceGrade": [],
+    "measurementBoundary": "기존 LOCK Boundary 유지",
+    "sourceTrace": "Protected CASE52~82 prior Final Story",
+    "manuscriptBatch": "B_52_64",
+    "proposedPart": 3,
+    "proposedChapter": 11,
+    "proposedChapterTitle": "냉동기 Plant 최적화",
+    "placementStatus": "PROPOSED_EXISTING_CHAPTER",
+    "placementCandidates": [],
+    "placementReason": null,
+    "auditFlags": [],
+    "bookIncluded": false,
+    "bookPage": null,
+    "bookEdition": null,
+    "mappingStatus": "PHASE3_DRAFT_REVIEW"
+  },
+  {
+    "caseId": "CASE54",
+    "caseNo": 54,
+    "webTitle": "CDA Header 압력기반 통합제어를 통한 공기압축기 공급압력 최적화 및 전력절감",
+    "webUrl": "/cases/case54.html",
+    "currentWebSector": "제조공장",
+    "currentSystems": [
+      "CDA",
+      "공기압축기",
+      "압축기"
+    ],
+    "currentTechnologies": [],
+    "evidenceStatus": "EVIDENCE-VERIFIED",
+    "evidenceGrade": [],
+    "measurementBoundary": "기존 LOCK Boundary 유지",
+    "sourceTrace": "Protected CASE52~82 prior Final Story",
+    "manuscriptBatch": "B_52_64",
+    "proposedPart": 4,
+    "proposedChapter": 14,
+    "proposedChapterTitle": "공기압축기 시스템 운전최적화",
+    "placementStatus": "PROPOSED_EXISTING_CHAPTER",
+    "placementCandidates": [],
+    "placementReason": null,
+    "auditFlags": [],
+    "bookIncluded": false,
+    "bookPage": null,
+    "bookEdition": null,
+    "mappingStatus": "PHASE3_DRAFT_REVIEW"
+  },
+  {
+    "caseId": "CASE55",
+    "caseNo": 55,
+    "webTitle": "냉수 사용유량 분석 및 적정용량 펌프 선정·교체를 통한 냉수펌프 전력절감",
+    "webUrl": "/cases/case55.html",
+    "currentWebSector": "제조공장",
+    "currentSystems": [
+      "냉수",
+      "펌프"
+    ],
+    "currentTechnologies": [],
+    "evidenceStatus": "EVIDENCE-VERIFIED",
+    "evidenceGrade": [],
+    "measurementBoundary": "기존 LOCK Boundary 유지",
+    "sourceTrace": "Protected CASE52~82 prior Final Story",
+    "manuscriptBatch": "B_52_64",
+    "proposedPart": 3,
+    "proposedChapter": 11,
+    "proposedChapterTitle": "냉동기 Plant 최적화",
+    "placementStatus": "PROPOSED_EXISTING_CHAPTER",
+    "placementCandidates": [],
+    "placementReason": null,
+    "auditFlags": [],
+    "bookIncluded": false,
+    "bookPage": null,
+    "bookEdition": null,
+    "mappingStatus": "PHASE3_DRAFT_REVIEW"
+  },
+  {
+    "caseId": "CASE56",
+    "caseNo": 56,
+    "webTitle": "냉동기 교체운전 Test를 통한 호기별 kW/RT 실측 비교 및 고효율 운전순서 결정",
+    "webUrl": "/cases/case56.html",
+    "currentWebSector": "제조공장",
+    "currentSystems": [
+      "냉동기"
+    ],
+    "currentTechnologies": [
+      "kW/RT",
+      "Test & Adjust"
+    ],
+    "evidenceStatus": "EVIDENCE-VERIFIED",
+    "evidenceGrade": [],
+    "measurementBoundary": "기존 LOCK Boundary 유지",
+    "sourceTrace": "Protected CASE52~82 prior Final Story",
+    "manuscriptBatch": "B_52_64",
+    "proposedPart": 3,
+    "proposedChapter": 11,
+    "proposedChapterTitle": "냉동기 Plant 최적화",
+    "placementStatus": "PROPOSED_EXISTING_CHAPTER",
+    "placementCandidates": [],
+    "placementReason": null,
+    "auditFlags": [],
+    "bookIncluded": false,
+    "bookPage": null,
+    "bookEdition": null,
+    "mappingStatus": "PHASE3_DRAFT_REVIEW"
+  },
+  {
+    "caseId": "CASE57",
+    "caseNo": 57,
+    "webTitle": "5℃·13℃ 냉수계통 부하분담 최적화를 통한 냉동기 가동대수 및 반송동력 절감",
+    "webUrl": "/cases/case57.html",
+    "currentWebSector": "제조공장",
+    "currentSystems": [
+      "냉동기",
+      "냉수"
+    ],
+    "currentTechnologies": [
+      "가동대수"
+    ],
+    "evidenceStatus": "EVIDENCE-PARTIAL",
+    "evidenceGrade": [],
+    "measurementBoundary": "기존 LOCK Boundary 유지",
+    "sourceTrace": "Protected CASE52~82 prior Final Story",
+    "manuscriptBatch": "B_52_64",
+    "proposedPart": 3,
+    "proposedChapter": 11,
+    "proposedChapterTitle": "냉동기 Plant 최적화",
+    "placementStatus": "PROPOSED_EXISTING_CHAPTER",
+    "placementCandidates": [],
+    "placementReason": null,
+    "auditFlags": [
+      "EVIDENCE_PARTIAL"
+    ],
+    "bookIncluded": false,
+    "bookPage": null,
+    "bookEdition": null,
+    "mappingStatus": "PHASE3_DRAFT_REVIEW"
+  },
+  {
+    "caseId": "CASE58",
+    "caseNo": 58,
+    "webTitle": "냉각수펌프 설계유량 적용 Test를 통한 펌프 운전점 및 소비동력 최적화",
+    "webUrl": "/cases/case58.html",
+    "currentWebSector": "제조공장",
+    "currentSystems": [
+      "냉각수",
+      "펌프"
+    ],
+    "currentTechnologies": [
+      "Test & Adjust"
+    ],
+    "evidenceStatus": "EVIDENCE-VERIFIED",
+    "evidenceGrade": [],
+    "measurementBoundary": "기존 LOCK Boundary 유지",
+    "sourceTrace": "Protected CASE52~82 prior Final Story",
+    "manuscriptBatch": "B_52_64",
+    "proposedPart": 3,
+    "proposedChapter": 11,
+    "proposedChapterTitle": "냉동기 Plant 최적화",
+    "placementStatus": "PROPOSED_EXISTING_CHAPTER",
+    "placementCandidates": [],
+    "placementReason": null,
+    "auditFlags": [],
+    "bookIncluded": false,
+    "bookPage": null,
+    "bookEdition": null,
+    "mappingStatus": "PHASE3_DRAFT_REVIEW"
+  },
+  {
+    "caseId": "CASE59",
+    "caseNo": 59,
+    "webTitle": "CDA 공기압축기 저효율 호기 진단 및 성능저하 원인분석을 통한 효율개선",
+    "webUrl": "/cases/case59.html",
+    "currentWebSector": "제조공장",
+    "currentSystems": [
+      "CDA",
+      "공기압축기",
+      "압축기"
+    ],
+    "currentTechnologies": [],
+    "evidenceStatus": "EVIDENCE-VERIFIED",
+    "evidenceGrade": [],
+    "measurementBoundary": "기존 LOCK Boundary 유지",
+    "sourceTrace": "Protected CASE52~82 prior Final Story",
+    "manuscriptBatch": "B_52_64",
+    "proposedPart": 4,
+    "proposedChapter": 14,
+    "proposedChapterTitle": "공기압축기 시스템 운전최적화",
+    "placementStatus": "PROPOSED_EXISTING_CHAPTER",
+    "placementCandidates": [],
+    "placementReason": null,
+    "auditFlags": [],
+    "bookIncluded": false,
+    "bookPage": null,
+    "bookEdition": null,
+    "mappingStatus": "PHASE3_DRAFT_REVIEW"
+  },
+  {
+    "caseId": "CASE60",
+    "caseNo": 60,
+    "webTitle": "냉동유 첨가제 적용 전·후 kW/RT 비교를 통한 냉동기 효율개선 효과 검증",
+    "webUrl": "/cases/case60.html",
+    "currentWebSector": "제조공장",
+    "currentSystems": [
+      "냉동기"
+    ],
+    "currentTechnologies": [
+      "kW/RT"
+    ],
+    "evidenceStatus": "EVIDENCE-VERIFIED",
+    "evidenceGrade": [],
+    "measurementBoundary": "기존 LOCK Boundary 유지",
+    "sourceTrace": "Protected CASE52~82 prior Final Story",
+    "manuscriptBatch": "B_52_64",
+    "proposedPart": 3,
+    "proposedChapter": 11,
+    "proposedChapterTitle": "냉동기 Plant 최적화",
+    "placementStatus": "PROPOSED_EXISTING_CHAPTER",
+    "placementCandidates": [],
+    "placementReason": null,
+    "auditFlags": [],
+    "bookIncluded": false,
+    "bookPage": null,
+    "bookEdition": null,
+    "mappingStatus": "PHASE3_DRAFT_REVIEW"
+  },
+  {
+    "caseId": "CASE61",
+    "caseNo": 61,
+    "webTitle": "CDA 압축공기 Demand 패턴 분석 및 수요 변동폭 저감을 통한 공기압축기 가동대수 최적화",
+    "webUrl": "/cases/case61.html",
+    "currentWebSector": "제조공장",
+    "currentSystems": [
+      "CDA",
+      "공기압축기",
+      "압축기"
+    ],
+    "currentTechnologies": [
+      "가동대수"
+    ],
+    "evidenceStatus": "EVIDENCE-VERIFIED",
+    "evidenceGrade": [],
+    "measurementBoundary": "기존 LOCK Boundary 유지",
+    "sourceTrace": "Protected CASE52~82 prior Final Story",
+    "manuscriptBatch": "B_52_64",
+    "proposedPart": 4,
+    "proposedChapter": 14,
+    "proposedChapterTitle": "공기압축기 시스템 운전최적화",
+    "placementStatus": "PROPOSED_EXISTING_CHAPTER",
+    "placementCandidates": [],
+    "placementReason": null,
+    "auditFlags": [],
+    "bookIncluded": false,
+    "bookPage": null,
+    "bookEdition": null,
+    "mappingStatus": "PHASE3_DRAFT_REVIEW"
+  },
+  {
+    "caseId": "CASE62",
+    "caseNo": 62,
+    "webTitle": "냉각수 입구온도 단계별 Test를 통한 냉동기 최적 운전온도 탐색",
+    "webUrl": "/cases/case62.html",
+    "currentWebSector": "제조공장",
+    "currentSystems": [
+      "냉동기",
+      "냉각수"
+    ],
+    "currentTechnologies": [
+      "Test & Adjust"
+    ],
+    "evidenceStatus": "EVIDENCE-VERIFIED",
+    "evidenceGrade": [],
+    "measurementBoundary": "기존 LOCK Boundary 유지",
+    "sourceTrace": "Protected CASE52~82 prior Final Story",
+    "manuscriptBatch": "B_52_64",
+    "proposedPart": 3,
+    "proposedChapter": 11,
+    "proposedChapterTitle": "냉동기 Plant 최적화",
+    "placementStatus": "PROPOSED_EXISTING_CHAPTER",
+    "placementCandidates": [],
+    "placementReason": null,
+    "auditFlags": [],
+    "bookIncluded": false,
+    "bookPage": null,
+    "bookEdition": null,
+    "mappingStatus": "PHASE3_DRAFT_REVIEW"
+  },
+  {
+    "caseId": "CASE63",
+    "caseNo": 63,
+    "webTitle": "냉동기 부하율 분석 및 냉수밸브 조정을 통한 고효율 냉동기 고부하 운전 최적화",
+    "webUrl": "/cases/case63.html",
+    "currentWebSector": "제조공장",
+    "currentSystems": [
+      "냉동기",
+      "냉수"
+    ],
+    "currentTechnologies": [
+      "부하율"
+    ],
+    "evidenceStatus": "EVIDENCE-VERIFIED",
+    "evidenceGrade": [],
+    "measurementBoundary": "기존 LOCK Boundary 유지",
+    "sourceTrace": "Protected CASE52~82 prior Final Story",
+    "manuscriptBatch": "B_52_64",
+    "proposedPart": 3,
+    "proposedChapter": 11,
+    "proposedChapterTitle": "냉동기 Plant 최적화",
+    "placementStatus": "PROPOSED_EXISTING_CHAPTER",
+    "placementCandidates": [],
+    "placementReason": null,
+    "auditFlags": [],
+    "bookIncluded": false,
+    "bookPage": null,
+    "bookEdition": null,
+    "mappingStatus": "PHASE3_DRAFT_REVIEW"
+  },
+  {
+    "caseId": "CASE64",
+    "caseNo": 64,
+    "webTitle": "냉동기 가동대수 8대→7대 최적화를 통한 시스템 에너지원단위 개선",
+    "webUrl": "/cases/case64.html",
+    "currentWebSector": "제조공장",
+    "currentSystems": [
+      "냉동기"
+    ],
+    "currentTechnologies": [
+      "원단위",
+      "가동대수"
+    ],
+    "evidenceStatus": "EVIDENCE-VERIFIED",
+    "evidenceGrade": [],
+    "measurementBoundary": "기존 LOCK Boundary 유지",
+    "sourceTrace": "Protected CASE52~82 prior Final Story",
+    "manuscriptBatch": "B_52_64",
+    "proposedPart": 3,
+    "proposedChapter": 11,
+    "proposedChapterTitle": "냉동기 Plant 최적화",
+    "placementStatus": "PROPOSED_EXISTING_CHAPTER",
+    "placementCandidates": [],
+    "placementReason": null,
+    "auditFlags": [],
+    "bookIncluded": false,
+    "bookPage": null,
+    "bookEdition": null,
+    "mappingStatus": "PHASE3_DRAFT_REVIEW"
+  },
+  {
+    "caseId": "CASE65",
+    "caseNo": 65,
+    "webTitle": "보일러 호기별 에너지원단위 비교 및 고효율 호기 우선운전을 통한 시스템 효율개선",
+    "webUrl": "/cases/case65.html",
+    "currentWebSector": "제조공장",
+    "currentSystems": [
+      "CDA"
+    ],
+    "currentTechnologies": [
+      "Test & Adjust"
+    ],
+    "evidenceStatus": "EVIDENCE-VERIFIED",
+    "evidenceGrade": [],
+    "measurementBoundary": "기존 LOCK Boundary 유지",
+    "sourceTrace": "Protected CASE52~82 prior Final Story",
+    "manuscriptBatch": "C_65_69",
+    "proposedPart": 4,
+    "proposedChapter": null,
+    "proposedChapterTitle": "보일러 시스템 운전최적화",
+    "placementStatus": "NEW_CHAPTER_CANDIDATE",
+    "placementCandidates": [],
+    "placementReason": null,
+    "auditFlags": [
+      "SYSTEM_METADATA_REVIEW"
+    ],
+    "bookIncluded": false,
+    "bookPage": null,
+    "bookEdition": null,
+    "mappingStatus": "PHASE3_DRAFT_REVIEW"
+  },
+  {
+    "caseId": "CASE66",
+    "caseNo": 66,
+    "webTitle": "보일러 부하율과 연료 원단위 상관분석을 통한 가동대수 및 고효율 운전영역 최적화",
+    "webUrl": "/cases/case66.html",
+    "currentWebSector": "제조공장",
+    "currentSystems": [
+      "냉수",
+      "펌프"
+    ],
+    "currentTechnologies": [],
+    "evidenceStatus": "EVIDENCE-VERIFIED",
+    "evidenceGrade": [],
+    "measurementBoundary": "기존 LOCK Boundary 유지",
+    "sourceTrace": "Protected CASE52~82 prior Final Story",
+    "manuscriptBatch": "C_65_69",
+    "proposedPart": 4,
+    "proposedChapter": null,
+    "proposedChapterTitle": "보일러 시스템 운전최적화",
+    "placementStatus": "NEW_CHAPTER_CANDIDATE",
+    "placementCandidates": [],
+    "placementReason": null,
+    "auditFlags": [
+      "SYSTEM_METADATA_REVIEW"
+    ],
+    "bookIncluded": false,
+    "bookPage": null,
+    "bookEdition": null,
+    "mappingStatus": "PHASE3_DRAFT_REVIEW"
+  },
+  {
+    "caseId": "CASE67",
+    "caseNo": 67,
+    "webTitle": "보일러 배기가스 온도·O₂ 농도와 연료 원단위 상관분석을 통한 연소효율 개선",
+    "webUrl": "/cases/case67.html",
+    "currentWebSector": "제조공장",
+    "currentSystems": [
+      "공기압축기",
+      "압축기"
+    ],
+    "currentTechnologies": [
+      "원단위"
+    ],
+    "evidenceStatus": "EVIDENCE-VERIFIED",
+    "evidenceGrade": [],
+    "measurementBoundary": "기존 LOCK Boundary 유지",
+    "sourceTrace": "Protected CASE52~82 prior Final Story",
+    "manuscriptBatch": "C_65_69",
+    "proposedPart": 4,
+    "proposedChapter": null,
+    "proposedChapterTitle": "보일러 시스템 운전최적화",
+    "placementStatus": "NEW_CHAPTER_CANDIDATE",
+    "placementCandidates": [],
+    "placementReason": null,
+    "auditFlags": [
+      "SYSTEM_METADATA_REVIEW"
+    ],
+    "bookIncluded": false,
+    "bookPage": null,
+    "bookEdition": null,
+    "mappingStatus": "PHASE3_DRAFT_REVIEW"
+  },
+  {
+    "caseId": "CASE68",
+    "caseNo": 68,
+    "webTitle": "보일러 스팀유량 계측 이상 진단 및 데이터 정합성 확보를 통한 효율평가 신뢰성 개선",
+    "webUrl": "/cases/case68.html",
+    "currentWebSector": "제조공장",
+    "currentSystems": [
+      "냉각수",
+      "냉각탑",
+      "Fan"
+    ],
+    "currentTechnologies": [
+      "가동대수"
+    ],
+    "evidenceStatus": "EVIDENCE-VERIFIED",
+    "evidenceGrade": [],
+    "measurementBoundary": "기존 LOCK Boundary 유지",
+    "sourceTrace": "Protected CASE52~82 prior Final Story",
+    "manuscriptBatch": "C_65_69",
+    "proposedPart": 4,
+    "proposedChapter": null,
+    "proposedChapterTitle": "보일러 시스템 운전최적화",
+    "placementStatus": "NEW_CHAPTER_CANDIDATE",
+    "placementCandidates": [],
+    "placementReason": null,
+    "auditFlags": [
+      "SYSTEM_METADATA_REVIEW",
+      "DATA_QUALITY_CASE"
+    ],
+    "bookIncluded": false,
+    "bookPage": null,
+    "bookEdition": null,
+    "mappingStatus": "PHASE3_DRAFT_REVIEW"
+  },
+  {
+    "caseId": "CASE69",
+    "caseNo": 69,
+    "webTitle": "보일러 스팀 공급압력 패턴 분석을 통한 적정 증기압력 운전 및 연료손실 저감",
+    "webUrl": "/cases/case69.html",
+    "currentWebSector": "제조공장",
+    "currentSystems": [
+      "공기압축기",
+      "압축기"
+    ],
+    "currentTechnologies": [],
+    "evidenceStatus": "EVIDENCE-VERIFIED",
+    "evidenceGrade": [],
+    "measurementBoundary": "기존 LOCK Boundary 유지",
+    "sourceTrace": "Protected CASE52~82 prior Final Story",
+    "manuscriptBatch": "C_65_69",
+    "proposedPart": 4,
+    "proposedChapter": null,
+    "proposedChapterTitle": "보일러 시스템 운전최적화",
+    "placementStatus": "NEW_CHAPTER_CANDIDATE",
+    "placementCandidates": [],
+    "placementReason": null,
+    "auditFlags": [
+      "SYSTEM_METADATA_REVIEW"
+    ],
+    "bookIncluded": false,
+    "bookPage": null,
+    "bookEdition": null,
+    "mappingStatus": "PHASE3_DRAFT_REVIEW"
+  },
+  {
+    "caseId": "CASE70",
+    "caseNo": 70,
+    "webTitle": "데이터센터 PUE 이상분석을 통한 냉방기 Fan 단독운전 문제 진단",
+    "webUrl": "/cases/case70.html",
+    "currentWebSector": "데이터센터",
+    "currentSystems": [
+      "Fan",
+      "PUE"
+    ],
+    "currentTechnologies": [
+      "PUE"
+    ],
+    "evidenceStatus": "EVIDENCE-VERIFIED",
+    "evidenceGrade": [],
+    "measurementBoundary": "기존 LOCK Boundary 유지",
+    "sourceTrace": "Protected CASE52~82 prior Final Story",
+    "manuscriptBatch": "D_70_82",
+    "proposedPart": 5,
+    "proposedChapter": 23,
+    "proposedChapterTitle": "데이터센터 PUE와 냉방 최적화",
+    "placementStatus": "PROPOSED_EXISTING_CHAPTER",
+    "placementCandidates": [],
+    "placementReason": null,
+    "auditFlags": [],
+    "bookIncluded": false,
+    "bookPage": null,
+    "bookEdition": null,
+    "mappingStatus": "PHASE3_DRAFT_REVIEW"
+  },
+  {
+    "caseId": "CASE71",
+    "caseNo": 71,
+    "webTitle": "데이터센터 냉방기 Fan 성능분석을 통한 고효율 EC Fan 교체 및 냉방전력 절감",
+    "webUrl": "/cases/case71.html",
+    "currentWebSector": "데이터센터",
+    "currentSystems": [
+      "Fan"
+    ],
+    "currentTechnologies": [],
+    "evidenceStatus": "EVIDENCE-VERIFIED",
+    "evidenceGrade": [],
+    "measurementBoundary": "기존 LOCK Boundary 유지",
+    "sourceTrace": "Protected CASE52~82 prior Final Story",
+    "manuscriptBatch": "D_70_82",
+    "proposedPart": 5,
+    "proposedChapter": 23,
+    "proposedChapterTitle": "데이터센터 PUE와 냉방 최적화",
+    "placementStatus": "PROPOSED_EXISTING_CHAPTER",
+    "placementCandidates": [],
+    "placementReason": null,
+    "auditFlags": [],
+    "bookIncluded": false,
+    "bookPage": null,
+    "bookEdition": null,
+    "mappingStatus": "PHASE3_DRAFT_REVIEW"
+  },
+  {
+    "caseId": "CASE72",
+    "caseNo": 72,
+    "webTitle": "데이터센터 외기조건 분석을 통한 외기냉방 적용시간 확대 및 기계냉방 부하 저감",
+    "webUrl": "/cases/case72.html",
+    "currentWebSector": "데이터센터",
+    "currentSystems": [],
+    "currentTechnologies": [],
+    "evidenceStatus": "EVIDENCE-VERIFIED",
+    "evidenceGrade": [],
+    "measurementBoundary": "기존 LOCK Boundary 유지",
+    "sourceTrace": "Protected CASE52~82 prior Final Story",
+    "manuscriptBatch": "D_70_82",
+    "proposedPart": 5,
+    "proposedChapter": 23,
+    "proposedChapterTitle": "데이터센터 PUE와 냉방 최적화",
+    "placementStatus": "PROPOSED_EXISTING_CHAPTER",
+    "placementCandidates": [],
+    "placementReason": null,
+    "auditFlags": [],
+    "bookIncluded": false,
+    "bookPage": null,
+    "bookEdition": null,
+    "mappingStatus": "PHASE3_DRAFT_REVIEW"
+  },
+  {
+    "caseId": "CASE73",
+    "caseNo": 73,
+    "webTitle": "데이터센터 냉각탑 설정온도 최적화를 통한 냉동기·냉각탑 통합 냉방전력 저감",
+    "webUrl": "/cases/case73.html",
+    "currentWebSector": "데이터센터",
+    "currentSystems": [
+      "냉각탑"
+    ],
+    "currentTechnologies": [
+      "Test & Adjust"
+    ],
+    "evidenceStatus": "EVIDENCE-VERIFIED",
+    "evidenceGrade": [],
+    "measurementBoundary": "기존 LOCK Boundary 유지",
+    "sourceTrace": "Protected CASE52~82 prior Final Story",
+    "manuscriptBatch": "D_70_82",
+    "proposedPart": 5,
+    "proposedChapter": 23,
+    "proposedChapterTitle": "데이터센터 PUE와 냉방 최적화",
+    "placementStatus": "PROPOSED_EXISTING_CHAPTER",
+    "placementCandidates": [],
+    "placementReason": null,
+    "auditFlags": [],
+    "bookIncluded": false,
+    "bookPage": null,
+    "bookEdition": null,
+    "mappingStatus": "PHASE3_DRAFT_REVIEW"
+  },
+  {
+    "caseId": "CASE74",
+    "caseNo": 74,
+    "webTitle": "다중 데이터센터 PUE·냉방효율 실시간 진단 및 IPOS 성능최적화 플랫폼 구축",
+    "webUrl": "/cases/case74.html",
+    "currentWebSector": "데이터센터",
+    "currentSystems": [],
+    "currentTechnologies": [
+      "COP"
+    ],
+    "evidenceStatus": "EVIDENCE-VERIFIED",
+    "evidenceGrade": [],
+    "measurementBoundary": "기존 LOCK Boundary 유지",
+    "sourceTrace": "Protected CASE52~82 prior Final Story",
+    "manuscriptBatch": "D_70_82",
+    "proposedPart": 5,
+    "proposedChapter": 23,
+    "proposedChapterTitle": "데이터센터 PUE와 냉방 최적화",
+    "placementStatus": "PROPOSED_EXISTING_CHAPTER",
+    "placementCandidates": [],
+    "placementReason": null,
+    "auditFlags": [],
+    "bookIncluded": false,
+    "bookPage": null,
+    "bookEdition": null,
+    "mappingStatus": "PHASE3_DRAFT_REVIEW"
+  },
+  {
+    "caseId": "CASE75",
+    "caseNo": 75,
+    "webTitle": "발전소 호기별 소내전력률 Benchmark를 통한 보조기기 효율편차 진단 및 개선 우선순위 도출",
+    "webUrl": "/cases/case75.html",
+    "currentWebSector": "데이터센터",
+    "currentSystems": [],
+    "currentTechnologies": [
+      "가동대수"
+    ],
+    "evidenceStatus": "EVIDENCE-VERIFIED",
+    "evidenceGrade": [],
+    "measurementBoundary": "기존 LOCK Boundary 유지",
+    "sourceTrace": "Protected CASE52~82 prior Final Story",
+    "manuscriptBatch": "D_70_82",
+    "proposedPart": 4,
+    "proposedChapter": 19,
+    "proposedChapterTitle": "발전소 보조기기",
+    "placementStatus": "PROPOSED_EXISTING_CHAPTER",
+    "placementCandidates": [],
+    "placementReason": null,
+    "auditFlags": [
+      "SECTOR_METADATA_MISMATCH_REVIEW"
+    ],
+    "bookIncluded": false,
+    "bookPage": null,
+    "bookEdition": null,
+    "mappingStatus": "PHASE3_DRAFT_REVIEW"
+  },
+  {
+    "caseId": "CASE76",
+    "caseNo": 76,
+    "webTitle": "발전소 급수·복수·해수펌프 가동대수와 VFD·유량·압력 통합 운전최적화",
+    "webUrl": "/cases/case76.html",
+    "currentWebSector": "데이터센터",
+    "currentSystems": [],
+    "currentTechnologies": [],
+    "evidenceStatus": "EVIDENCE-VERIFIED",
+    "evidenceGrade": [],
+    "measurementBoundary": "기존 LOCK Boundary 유지",
+    "sourceTrace": "Protected CASE52~82 prior Final Story",
+    "manuscriptBatch": "D_70_82",
+    "proposedPart": 4,
+    "proposedChapter": 19,
+    "proposedChapterTitle": "발전소 보조기기",
+    "placementStatus": "PROPOSED_EXISTING_CHAPTER",
+    "placementCandidates": [],
+    "placementReason": null,
+    "auditFlags": [
+      "SECTOR_METADATA_MISMATCH_REVIEW"
+    ],
+    "bookIncluded": false,
+    "bookPage": null,
+    "bookEdition": null,
+    "mappingStatus": "PHASE3_DRAFT_REVIEW"
+  },
+  {
+    "caseId": "CASE77",
+    "caseNo": 77,
+    "webTitle": "데이터센터 지원시설 부하리스트·소비패턴 분석을 통한 상시 Base Load 및 설비운영 개선",
+    "webUrl": "/cases/case77.html",
+    "currentWebSector": "데이터센터",
+    "currentSystems": [],
+    "currentTechnologies": [],
+    "evidenceStatus": "EVIDENCE-VERIFIED",
+    "evidenceGrade": [],
+    "measurementBoundary": "기존 LOCK Boundary 유지",
+    "sourceTrace": "Protected CASE52~82 prior Final Story",
+    "manuscriptBatch": "D_70_82",
+    "proposedPart": 5,
+    "proposedChapter": 23,
+    "proposedChapterTitle": "데이터센터 PUE와 냉방 최적화",
+    "placementStatus": "PROPOSED_EXISTING_CHAPTER",
+    "placementCandidates": [],
+    "placementReason": null,
+    "auditFlags": [],
+    "bookIncluded": false,
+    "bookPage": null,
+    "bookEdition": null,
+    "mappingStatus": "PHASE3_DRAFT_REVIEW"
+  },
+  {
+    "caseId": "CASE78",
+    "caseNo": 78,
+    "webTitle": "냉각수펌프별 소비전력·운전상태 비교를 통한 성능열위 펌프 진단 및 운전 최적화",
+    "webUrl": "/cases/case78.html",
+    "currentWebSector": "데이터센터",
+    "currentSystems": [
+      "냉각수",
+      "펌프"
+    ],
+    "currentTechnologies": [],
+    "evidenceStatus": "EVIDENCE-VERIFIED",
+    "evidenceGrade": [],
+    "measurementBoundary": "기존 LOCK Boundary 유지",
+    "sourceTrace": "Protected CASE52~82 prior Final Story",
+    "manuscriptBatch": "D_70_82",
+    "proposedPart": null,
+    "proposedChapter": null,
+    "proposedChapterTitle": null,
+    "placementStatus": "REVIEW_REQUIRED",
+    "placementCandidates": [
+      "PART3_CH11_냉동기_Plant",
+      "PART3_CH12_반도체_Multi-Utility"
+    ],
+    "placementReason": "현재 Web sector는 데이터센터지만 CASE 설명은 반도체·디스플레이 제조시설 냉각수펌프를 가리켜 원자료 대조 후 배치 확정 필요",
+    "auditFlags": [
+      "SECTOR_METADATA_MISMATCH_REVIEW",
+      "PLACEMENT_REVIEW"
+    ],
+    "bookIncluded": false,
+    "bookPage": null,
+    "bookEdition": null,
+    "mappingStatus": "PHASE3_DRAFT_REVIEW"
+  },
+  {
+    "caseId": "CASE79",
+    "caseNo": 79,
+    "webTitle": "냉방부하·운전대수 분석을 통한 데이터센터 냉수펌프 과다운전 진단 및 운전 최적화",
+    "webUrl": "/cases/case79.html",
+    "currentWebSector": "데이터센터",
+    "currentSystems": [
+      "냉수",
+      "펌프"
+    ],
+    "currentTechnologies": [],
+    "evidenceStatus": "EVIDENCE-VERIFIED",
+    "evidenceGrade": [],
+    "measurementBoundary": "기존 LOCK Boundary 유지",
+    "sourceTrace": "Protected CASE52~82 prior Final Story",
+    "manuscriptBatch": "D_70_82",
+    "proposedPart": 5,
+    "proposedChapter": 23,
+    "proposedChapterTitle": "데이터센터 PUE와 냉방 최적화",
+    "placementStatus": "PROPOSED_EXISTING_CHAPTER",
+    "placementCandidates": [],
+    "placementReason": null,
+    "auditFlags": [],
+    "bookIncluded": false,
+    "bookPage": null,
+    "bookEdition": null,
+    "mappingStatus": "PHASE3_DRAFT_REVIEW"
+  },
+  {
+    "caseId": "CASE80",
+    "caseNo": 80,
+    "webTitle": "냉방부하·냉동기 가동대수 분석을 통한 부분부하 과다운전 진단 및 냉동기 운전조합 최적화",
+    "webUrl": "/cases/case80.html",
+    "currentWebSector": "데이터센터",
+    "currentSystems": [
+      "냉동기"
+    ],
+    "currentTechnologies": [
+      "가동대수"
+    ],
+    "evidenceStatus": "EVIDENCE-VERIFIED",
+    "evidenceGrade": [],
+    "measurementBoundary": "기존 LOCK Boundary 유지",
+    "sourceTrace": "Protected CASE52~82 prior Final Story",
+    "manuscriptBatch": "D_70_82",
+    "proposedPart": 5,
+    "proposedChapter": 23,
+    "proposedChapterTitle": "데이터센터 PUE와 냉방 최적화",
+    "placementStatus": "PROPOSED_EXISTING_CHAPTER",
+    "placementCandidates": [],
+    "placementReason": null,
+    "auditFlags": [],
+    "bookIncluded": false,
+    "bookPage": null,
+    "bookEdition": null,
+    "mappingStatus": "PHASE3_DRAFT_REVIEW"
+  },
+  {
+    "caseId": "CASE81",
+    "caseNo": 81,
+    "webTitle": "외기조건·냉각수온도 분석을 통한 데이터센터 냉각탑 성능열위 진단 및 성능개선",
+    "webUrl": "/cases/case81.html",
+    "currentWebSector": "데이터센터",
+    "currentSystems": [
+      "냉각수",
+      "냉각탑"
+    ],
+    "currentTechnologies": [],
+    "evidenceStatus": "EVIDENCE-VERIFIED",
+    "evidenceGrade": [],
+    "measurementBoundary": "기존 LOCK Boundary 유지",
+    "sourceTrace": "Protected CASE52~82 prior Final Story",
+    "manuscriptBatch": "D_70_82",
+    "proposedPart": 5,
+    "proposedChapter": 23,
+    "proposedChapterTitle": "데이터센터 PUE와 냉방 최적화",
+    "placementStatus": "PROPOSED_EXISTING_CHAPTER",
+    "placementCandidates": [],
+    "placementReason": null,
+    "auditFlags": [],
+    "bookIncluded": false,
+    "bookPage": null,
+    "bookEdition": null,
+    "mappingStatus": "PHASE3_DRAFT_REVIEW"
+  },
+  {
+    "caseId": "CASE82",
+    "caseNo": 82,
+    "webTitle": "Peak·Load Factor 분석을 통한 데이터센터 계약전력 적정성 진단 및 기본요금 절감",
+    "webUrl": "/cases/case82.html",
+    "currentWebSector": "데이터센터",
+    "currentSystems": [],
+    "currentTechnologies": [],
+    "evidenceStatus": "EVIDENCE-VERIFIED",
+    "evidenceGrade": [],
+    "measurementBoundary": "분석범위는 데이터센터의 전력사용량과 전기요금, 계약전력·요금적용전력·Peak 및 Load Factor의 비교입니다. Energy KPI(kWh)와 Cost KPI(원/년)를 구분하며, 계약전력 변경 시나리오는 설비의 kWh 절감성과가 아니라 계약조건 조정에 따른 비용효과 검토 범위로 평가합니다.",
+    "sourceTrace": "Protected CASE52~82 prior Final Story",
+    "manuscriptBatch": "D_70_82",
+    "proposedPart": 5,
+    "proposedChapter": 23,
+    "proposedChapterTitle": "데이터센터 PUE와 냉방 최적화",
+    "placementStatus": "PROPOSED_EXISTING_CHAPTER",
+    "placementCandidates": [],
+    "placementReason": null,
+    "auditFlags": [],
+    "bookIncluded": false,
+    "bookPage": null,
+    "bookEdition": null,
+    "mappingStatus": "PHASE3_DRAFT_REVIEW"
+  }
+]
