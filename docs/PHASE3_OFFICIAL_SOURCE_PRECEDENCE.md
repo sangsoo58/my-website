@@ -100,3 +100,33 @@ Critical Difference = 0 이어야 한다.
 - Book Reader 변경 없음
 - Production Web 변경 없음
 - Expanded Edition은 승인 전 Candidate 상태
+
+
+## 9. Public vs Internal Provenance
+
+Publication text and editorial source control are intentionally separated.
+
+### Public book text
+May contain:
+- concise anonymized Source Note
+- Web CASE URL / QR target
+- public REFERENCES entry
+- Evidence Boundary statement
+
+Must not contain:
+- Approval Final internal filename/path
+- recovery package path
+- source byte-access status
+- internal QA labels
+- permission-review workflow metadata
+
+### Internal Editorial Register
+Retains:
+- officialBookSourceFile
+- sourceMaster / sourceTrace
+- source precedence
+- fidelity status
+- content-byte access status
+- anonymization / print permission status
+
+Public provenance simplification never changes the official source priority or Fidelity Gate.
