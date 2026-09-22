@@ -137,5 +137,16 @@
       "finalStandaloneOfficialFileByteQA": "PENDING"
     },
     "claimStrengtheningViolations": 0
+  },
+  "finalPreWordAcceptance": {
+    "status": "40/40 PRE_WORD_ACCEPT",
+    "matrixDoc": "docs/PHASE3_FINAL_PRE_WORD_ACCEPTANCE_MATRIX.md",
+    "matrixData": "data/phase3-final-pre-word-acceptance-matrix.json",
+    "remainingGates": [
+      "STRICT_STANDALONE_SOURCE_BYTE_IDENTITY",
+      "CASE50_SOURCE_RECONCILIATION",
+      "USER_TOC_FIGURE_APPROVAL_AND_PRINT_PERMISSION",
+      "WORD_WORKING_COPY_AUTHORIZATION"
+    ]
   }
 }
