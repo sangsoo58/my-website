@@ -259,3 +259,23 @@ Decision artifact:
 - `data/phase3-final-decision-brief.json`
 
 Status: **READY / USER EXPLICIT APPROVAL PENDING**
+
+
+## 21. Word working-copy execution
+
+User authorization: **APPROVED**
+
+Baseline:
+- `01_POD_내지_Editable_Word_Master_v1.7(1).docx`
+- SHA-256: `b013dccd773fd813ce187e75e0d01e19beb7965e80d2b4cb38e889fa4848775f`
+
+Working copy v0.1:
+- `02_Expanded_Edition_Working_Copy_v0.1.docx`
+- SHA-256: `28c63be1900def2a6c246ba3b1eb1c6936dbcc4c1f11c9e3c8681c9b3e528949`
+
+Applied:
+- new Chapter 15 Boiler
+- current Chapter 15~28 heading renumbering to 16~29
+- current Master remains unchanged
+
+Status: **STRUCTURAL INTEGRATION STARTED**
