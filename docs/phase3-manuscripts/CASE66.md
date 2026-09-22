@@ -35,3 +35,7 @@ System Load Factor는 Steam Production과 Online Rated Capacity를 연결해 보
 
 ## Consultant's Point
 CASE65가 **어느 호기인가**를 묻는다면 CASE66은 **몇 대를 어떤 용량조합으로 운전할 것인가**를 묻는다.
+
+## Source Note
+
+저자 보유 프로젝트 자료와 비식별 공개사례를 바탕으로 재구성했다. 수치·성과의 성격은 본문의 Evidence Boundary를 따른다.
