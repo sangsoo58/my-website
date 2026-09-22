@@ -161,3 +161,9 @@ Still unchanged:
 - Book Reader
 - Production Web
 - Book links
+
+
+### Final Decision Brief
+- `docs/PHASE3_FINAL_DECISION_BRIEF.md`
+- `data/phase3-final-decision-brief.json`
+- approval state: USER EXPLICIT APPROVAL PENDING
