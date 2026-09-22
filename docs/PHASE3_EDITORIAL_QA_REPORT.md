@@ -86,17 +86,18 @@ Draft artifacts:
 현재 단계에서는 **Production Web과 Current 41-CASE Book Reader를 변경하지 않는다.**
 
 
-## 8. Round 2 TOC Lock
+## 8. Round 2 TOC Proposal Alignment
 
-Status: PASS
+Status: **ALIGNED / USER CONFIRMATION PENDING**
 
-- Expanded Edition keeps PART 1~7.
-- New Boiler chapter is fixed as Chapter 15 in PART 4.
-- Existing Chapter 15~28 move by +1 in Expanded Edition.
-- Final chapter count becomes 29.
+- Expanded Edition proposal keeps PART 1~7.
+- New Boiler chapter is proposed as Chapter 15 in PART 4.
+- If the user approves this TOC, existing Chapter 15~28 move by +1 in the Expanded Edition.
+- Under the current proposal, the final chapter count becomes 29.
 - CASE IDs remain CASE01~CASE82 and are not renumbered.
 - Current 41-CASE Book Reader remains unchanged until Expanded Edition release.
-- CASE42~82 placement register has been synchronized to the fixed chapter numbers.
+- CASE42~82 placement metadata has been synchronized to the proposed chapter numbers.
+- This alignment is not a final TOC approval and does not authorize Word Master integration or Book-link activation.
 
 ## 9. Round 2 Ready State
 
