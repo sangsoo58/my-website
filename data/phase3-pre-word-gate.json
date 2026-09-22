@@ -58,9 +58,14 @@
   },
   "figureSelection": {
     "approvedWebAssets": 11,
+    "activeRegisterCases": 40,
     "primaryCandidates": 7,
     "optional": 1,
-    "preferTableOrCallout": 3
+    "preferTableOrCallout": 3,
+    "case50ActiveRows": 0,
+    "registerConsistencyQA": "PASS",
+    "finalSelection": "USER_CONFIRMATION_PENDING",
+    "printPermission": "BOOK_PRINT_PERMISSION_REVIEW_PENDING"
   },
   "nextAllowedWork": [
     "deduplicate chapter text",
