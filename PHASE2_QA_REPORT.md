@@ -178,3 +178,11 @@ Draft PR → Ready for Review → Merge → GitHub Pages → Production Smoke Te
   - user confirmed CASE37~41 entries all visible
   - published C37~C41 order aligns with web CASE37~41
   - Book Reader browser QA complete
+
+- Expert Profile browser QA: PASS
+  - profile intro / experience / academic-professional block render correctly
+  - qualifications and core specialty cards visible
+  - research / education section visible
+  - Professional Consultation & Collaboration CTA visible
+  - source-supported profile wording retained
+  - canonical present
