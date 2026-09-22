@@ -1,7 +1,7 @@
 # CASE 75 | 응용사례 — 발전호기별 소내전력률 Benchmark와 보조기기 개선 우선순위
 
 **편집상태:** PHASE 3 DRAFT / USER REVIEW REQUIRED  
-**배치안:** PART 4 · Chapter 19 · 발전소 보조기기  
+**배치안:** PART 4 · Proposed Chapter 20 · 발전소 보조기기
 **Editorial Note:** 현재 Web sector metadata는 데이터센터로 되어 있으나 실제 콘텐츠는 발전소 사례. 출간본에서는 발전소로 분류.  
 **Evidence:** B/C · Field Benchmark / Optimization Direction  
 **Web:** /cases/case75.html
