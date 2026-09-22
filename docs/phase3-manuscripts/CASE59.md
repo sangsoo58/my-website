@@ -1,4 +1,4 @@
-# CASE 59 | 응용사례 — CDA 공기압축기 저효율 호기 진단과 성능저하 원인분석
+# CASE 59 | 응용사례 — CDA 공기압축기 저효율 호기 진단 및 성능저하 원인분석을 통한 효율개선
 
 **편집상태:** PHASE 3 DRAFT / USER REVIEW REQUIRED  
 **배치안:** PART 4 · Chapter 14 · 공기압축기 시스템 운전최적화  
