@@ -122,5 +122,20 @@
     "case77_81Final": "PENDING_STANDALONE_OFFICIAL_FILE_BYTE_IDENTITY",
     "case82": "PRODUCTION_LOCKED_DATA_QA_SOURCE",
     "case50": "SOURCE_IDENTITY_HOLD"
+  },
+  "preWordFidelityMatrix": {
+    "case42_76": {
+      "approvedSourceRecovered": "35/35",
+      "activePreliminaryPass": "34/34",
+      "hold": [
+        "CASE50"
+      ],
+      "finalStandaloneOfficialFileByteQA": "PENDING"
+    },
+    "case77_81": {
+      "directSourceMasterPreliminaryPass": "5/5",
+      "finalStandaloneOfficialFileByteQA": "PENDING"
+    },
+    "claimStrengtheningViolations": 0
   }
 }
