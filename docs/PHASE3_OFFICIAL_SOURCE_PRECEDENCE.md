@@ -70,12 +70,15 @@ Critical Difference = 0 이어야 한다.
 
 ## 6. CASE50
 
-공식 Source filename은 **case50_approval_final.txt**로 확인한다.
+Standalone `CASE50_APPROVED_FINAL.txt` has now been directly reviewed.
 
-다만 현재 작업환경에서 해당 TXT의 원문 bytes/content를 직접 읽지 못한 상태이므로:
-- CASE50 HOLD 유지
-- Production HTML의 Office 내용과 legacy JSON-LD의 Childcare Passive House 충돌을 추정으로 해결하지 않음
-- Approval Final TXT 확보 후 Source Reconciliation 수행
+Authoritative identity:
+- 대형 오피스 빌딩 창면적·유리성능 Parametric Simulation
+- Evidence D | Simulation·Modeling
+
+The approved source explicitly states that the legacy “보육시설 Passive House” label does not match the actual CASE50 content.
+
+Therefore source identity reconciliation is **RESOLVED**. CASE50 remains outside the active book set only because separate-body inclusion is a user editorial decision.
 
 ## 7. CASE77~81
 
@@ -86,12 +89,11 @@ Critical Difference = 0 이어야 한다.
 - case80_approval_final.txt
 - case81_approval_final.txt
 
-기존 Book Source Gate에서 5/5 PASS가 확인되어 Source Gap은 아니다.
+Standalone `CASE77_APPROVED_FINAL.txt` ~ `CASE81_APPROVED_FINAL.txt` have been directly reviewed. Current Phase 3 manuscripts preserve title, Evidence B/C, core FACT/diagnostic logic and Measurement Boundary. Result: **FINAL FIDELITY PASS 5/5**.
 
-현재 제한:
-- 개별 TXT content bytes가 Library 검색 결과로 직접 노출되지 않음
+## 7A. CASE52~76 reader limitation
 
-따라서 filename identity는 해결되었고, **content fidelity verification만 pending**이다.
+Standalone Approval Final file identities are confirmed and Source Recovery is PASS. Some standalone files return zero readable lines through the current Library text reader, and raw-byte materialization is unavailable. These cases therefore remain Preliminary Fidelity rather than being promoted by inference.
 
 ## 8. Current Book protection
 
