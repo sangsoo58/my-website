@@ -182,3 +182,32 @@ Editorial tightening applied:
 
 Limit:
 This is a **Preliminary QA**, not Approval Final Fidelity PASS. Approval Final TXT source bytes are still not directly available in the current working environment for direct text comparison. CASE50 remains HOLD.
+
+
+## 13. CASE INDEX / REFERENCES / Manuscript Title Synchronization QA
+
+Status: **PASS WITH CASE50 HOLD EXCEPTION**
+
+Scope:
+- PHASE3_CASE_INDEX_C01_C82_DRAFT.md
+- PHASE3_REFERENCES_C42_C82_DRAFT.md
+- docs/phase3-manuscripts/CASE42.md ~ CASE82.md
+- data/phase3-manuscript-status.json
+- data/phase3-expanded-edition-manifest.json
+
+Result:
+- CASE42~82 CASE INDEX titles and REFERENCES titles: 1:1 aligned
+- CASE42~82 manuscript first-heading titles: synchronized to the official Book Title set
+- CASE42~49 and CASE51~82 final verification: 40/40 title match
+- CASE50 intentionally excluded from normal title-sync PASS because source identity is unresolved
+
+CASE50 structural correction:
+- bookIncluded = false
+- pageNumber = null
+- figureCountPlanned = 0
+- chapterPlacementStatus = HOLD_EXCLUDED_PENDING_SOURCE_RECONCILIATION
+- removed CASE50 from Expanded Edition P5-C23 active chapterCaseMap
+- retained CASE50 permanent ID in CASE INDEX with HOLD marker
+- REFERENCES draft retains C50 only as a HOLD placeholder and states it is not included in final publication references until reconciliation
+
+This preserves the permanent CASE ID while preventing CASE50 from being treated as active Expanded Edition book content before source reconciliation.
