@@ -99,3 +99,20 @@ Word Master integration 전에:
 4. Table 수치 Source line 대조
 5. CASE50 Source Reconciliation
 6. 최종 Figure/Table 번호는 조판 구조 확정 후 부여
+
+
+## 8. CASE77~81 Exact-path Retrieval Result
+
+Result: **SOURCE EXISTENCE PASS / EXACT PATH UNRESOLVED**
+
+Library retrieval confirms:
+- CASE77~81 Source = **5/5 PASS**
+- TOTAL CASE01~81 Book Source Gate = **81/81 PASS**
+- Source Gap = **0**
+
+However, title-only and exact filename searches do not expose the individual CASE77~81 source files as separate Library records. Therefore the register does **not** invent filenames such as CASE77_APPROVED_FINAL.txt.
+
+Editorial handling:
+- FACT/Evidence already locked in Production CASE77~81 may be used as review context.
+- Exact Book Source filename/path remains pending.
+- Word Master integration for CASE77~81 must retain a source-path HOLD until the exact source file identity is recovered from the Book Source package.
