@@ -1,6 +1,6 @@
 # PHASE 3 — Approval Final Fidelity QA Plan
 
-Status: **PENDING SOURCE CONTENT ACCESS**
+Status: **PARTIAL FINAL PASS / CASE52~76 STRICT TEXT ACCESS PENDING**
 
 ## Scope
 
@@ -39,9 +39,12 @@ CASE82 = 별도 locked-data verification
 - HOLD — Source identity/content 충돌 또는 원문 접근 불가로 FACT 확인 불가
 - BLOCK — Numeric/Evidence/Boundary/Classification 차이
 
-## Current HOLD
+## Current non-final set
 
-- CASE50: Source identity conflict reconciliation required
+- CASE52~76: source files exist and recovery is verified, but some standalone TXT bodies are not readable through the current Library text reader. Keep Preliminary Fidelity until direct text access is available.
+- CASE82: separate Production-locked source regime.
+
+CASE50 source identity conflict is resolved; its content Fidelity is PASS and only book inclusion remains a user editorial decision.
 
 ## Promotion rule
 
@@ -54,33 +57,9 @@ PASS 전에는:
 상태를 유지한다.
 
 
-## Direct Library source recovery update
+## Direct Library source recovery history
 
-### CASE79
-A Library file named `CASE79_BOOK_MASTER.txt` was directly readable and contains:
-- Status: APPROVED / FINAL LOCK
-- Evidence: B/C
-- CASE79 APPROVED FINAL content
-- Primary basis and user-approval metadata
-
-Direct comparison against the current Phase 3 CASE79 manuscript found:
-- Title meaning: aligned
-- Evidence B/C: aligned
-- Actual vs Required Units logic: aligned
-- 5℃ / 13℃ chilled-water pump data structure: aligned
-- Pump OFF action / service verification logic: aligned
-- no-independent-final-saving boundary: aligned
-- claim strengthening: 0 identified
-
-The current manuscript is intentionally condensed and omits monthly numeric detail and external-reference expansion present in the BOOK MASTER.
-
-Result: **PRELIMINARY DIRECT-MASTER PASS**.
-
-This is not upgraded to Final Fidelity PASS because the directly readable Library object is named `CASE79_BOOK_MASTER.txt`, not the exact official source filename `case79_approval_final.txt`. Exact official-file content identity remains pending.
-
-### CASE77, CASE78, CASE80, CASE81
-Direct approved-final/master content remains unresolved in the current accessible file set.
-
+CASE79 BOOK MASTER was initially used for Preliminary comparison. This has been superseded by direct review of standalone CASE77~81 Approval Final TXT files.
 
 ## CASE77~81 consolidated direct-source-master result
 
