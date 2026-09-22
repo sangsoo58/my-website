@@ -1,7 +1,7 @@
 # CASE 50 | 응용사례 — 대형 오피스 빌딩 창면적·유리성능 Parametric Simulation
 
 **편집상태:** PHASE 3 DRAFT / SOURCE RECONCILIATION REQUIRED  
-**배치안:** PART 5 · Chapter 22 · 신축건물 Energy Modeling  
+**편집 배치안 (Expanded Edition Proposal):** PART 5 · Chapter 23 · 신축건물 Energy Modeling
 **Evidence:** D — Simulation·Modeling  
 **Web:** /cases/case50.html
 
