@@ -119,3 +119,45 @@ First action should be:
 - permission/use-basis: pending
 - visual anonymization: review pending
 - final layout readability: pending
+
+
+## Latest 19:xx update
+
+### Fidelity
+- Active Final Fidelity PASS: **15/40**
+  - CASE42~49, CASE51, CASE77~82
+- Active Direct BOOK MASTER Preliminary PASS: **25/40**
+  - CASE52~76
+- Active coverage: **40/40**
+
+### CASE50
+- standalone Approval Final reviewed
+- source/content identity resolved
+- content Fidelity PASS
+- default editorial recommendation: absorb fenestration detail under CASE49 rather than add a separate body page
+- separate-body inclusion remains user decision
+
+### Figure / Table
+- binary asset integrity: 11/11 PASS
+- caption/unit source QA: 11/11 PASS
+- base full/compact tables: 11
+- optional table: 1
+- Fact Boxes/checklists: about 9~12
+- print permission: pending
+- visual anonymization: REVIEW pending actual pixel inspection
+
+### Remaining gates
+1. CASE52~76 standalone Approval Final direct-text access if strict Final Fidelity promotion is required
+2. user approval of 29-Chapter TOC / new Boiler Chapter 15
+3. user decision on CASE50 separate body vs CASE49 absorption
+4. user approval of Figure plan / 214~220p target
+5. print permission/anonymization/final layout review
+6. authorization to create separate Expanded Edition Word working copy
+
+### Protection
+Still unchanged:
+- Editable Word Master v1.7
+- 159p Print Master
+- Book Reader
+- Production Web
+- Book links
