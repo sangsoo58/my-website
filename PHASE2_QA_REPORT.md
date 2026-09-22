@@ -194,3 +194,9 @@ Draft PR → Ready for Review → Merge → GitHub Pages → Production Smoke Te
   - Supabase CDN/config/client/contact-form module wiring present
   - contact-form.js syntax PASS
   - actual submission was not performed during QA
+
+- Homepage mobile Hero @390px: PASS
+  - brand and hamburger navigation fit correctly
+  - hero heading wraps cleanly with no horizontal overflow
+  - hero lead, primary CTAs and tags remain readable
+  - screenshot viewport height was ~791px; width 390px is sufficient for this layout gate
