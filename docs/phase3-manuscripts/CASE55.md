@@ -1,4 +1,4 @@
-# CASE 55 | 응용사례 — 냉수 사용유량 기반 적정용량 펌프 선정·교체
+# CASE 55 | 응용사례 — 냉수 사용유량 분석 및 적정용량 펌프 선정·교체를 통한 냉수펌프 전력절감
 
 **편집상태:** PHASE 3 DRAFT / USER REVIEW REQUIRED  
 **배치안:** PART 3 · Chapter 11 · 냉동기 Plant 최적화  
