@@ -369,13 +369,15 @@
     "bookSourceFile": "02_BOOK_SOURCE/CASE52_APPROVED_FINAL.txt",
     "officialBookSourceFile": "case52_approval_final.txt",
     "officialSourcePriority": 1,
-    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
+    "manuscriptFidelityStatus": "PRELIMINARY_PASS_BOOK_MASTER_DIRECT_REVIEW",
     "productionVerificationNumericQA": "PRELIMINARY_PASS",
     "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
-    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+    "approvalFinalTxtFidelityQA": "PENDING_STANDALONE_APPROVED_FINAL_DIRECT_TEXT_ACCESS_AFTER_BOOK_MASTER_PASS",
     "canonicalWebPath": "/cases/case52.html",
     "publicationSourceNoteQA": "PASS",
-    "webPathQA": "PASS"
+    "webPathQA": "PASS",
+    "directApprovedMasterContentQA": "PRELIMINARY_PASS_BOOK_MASTER_DIRECT_REVIEW",
+    "directApprovedMasterContentQANote": "Direct BOOK_MASTER review: manuscript title aligned, Evidence/Boundary aligned, and all manuscript numeric tokens were found in the readable BOOK_MASTER source. Final standalone Approval Final TXT direct-text review remains pending because current Library reader returns zero readable lines for some standalone files."
   },
   {
     "caseNo": 53,
@@ -402,13 +404,15 @@
     "bookSourceFile": "02_BOOK_SOURCE/CASE53_APPROVED_FINAL.txt",
     "officialBookSourceFile": "case53_approval_final.txt",
     "officialSourcePriority": 1,
-    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
+    "manuscriptFidelityStatus": "PRELIMINARY_PASS_BOOK_MASTER_DIRECT_REVIEW",
     "productionVerificationNumericQA": "PRELIMINARY_PASS",
     "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
-    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+    "approvalFinalTxtFidelityQA": "PENDING_STANDALONE_APPROVED_FINAL_DIRECT_TEXT_ACCESS_AFTER_BOOK_MASTER_PASS",
     "canonicalWebPath": "/cases/case53.html",
     "publicationSourceNoteQA": "PASS",
-    "webPathQA": "PASS"
+    "webPathQA": "PASS",
+    "directApprovedMasterContentQA": "PRELIMINARY_PASS_BOOK_MASTER_DIRECT_REVIEW",
+    "directApprovedMasterContentQANote": "Direct BOOK_MASTER review: manuscript title aligned, Evidence/Boundary aligned, and all manuscript numeric tokens were found in the readable BOOK_MASTER source. Final standalone Approval Final TXT direct-text review remains pending because current Library reader returns zero readable lines for some standalone files."
   },
   {
     "caseNo": 54,
@@ -435,13 +439,15 @@
     "bookSourceFile": "02_BOOK_SOURCE/CASE54_APPROVED_FINAL.txt",
     "officialBookSourceFile": "case54_approval_final.txt",
     "officialSourcePriority": 1,
-    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
+    "manuscriptFidelityStatus": "PRELIMINARY_PASS_BOOK_MASTER_DIRECT_REVIEW",
     "productionVerificationNumericQA": "PRELIMINARY_PASS",
     "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
-    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+    "approvalFinalTxtFidelityQA": "PENDING_STANDALONE_APPROVED_FINAL_DIRECT_TEXT_ACCESS_AFTER_BOOK_MASTER_PASS",
     "canonicalWebPath": "/cases/case54.html",
     "publicationSourceNoteQA": "PASS",
-    "webPathQA": "PASS"
+    "webPathQA": "PASS",
+    "directApprovedMasterContentQA": "PRELIMINARY_PASS_BOOK_MASTER_DIRECT_REVIEW",
+    "directApprovedMasterContentQANote": "Direct BOOK_MASTER review: manuscript title aligned, Evidence/Boundary aligned, and all manuscript numeric tokens were found in the readable BOOK_MASTER source. Final standalone Approval Final TXT direct-text review remains pending because current Library reader returns zero readable lines for some standalone files."
   },
   {
     "caseNo": 55,
@@ -468,13 +474,15 @@
     "bookSourceFile": "02_BOOK_SOURCE/CASE55_APPROVED_FINAL.txt",
     "officialBookSourceFile": "case55_approval_final.txt",
     "officialSourcePriority": 1,
-    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
+    "manuscriptFidelityStatus": "PRELIMINARY_PASS_BOOK_MASTER_DIRECT_REVIEW",
     "productionVerificationNumericQA": "PRELIMINARY_PASS",
     "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
-    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+    "approvalFinalTxtFidelityQA": "PENDING_STANDALONE_APPROVED_FINAL_DIRECT_TEXT_ACCESS_AFTER_BOOK_MASTER_PASS",
     "canonicalWebPath": "/cases/case55.html",
     "publicationSourceNoteQA": "PASS",
-    "webPathQA": "PASS"
+    "webPathQA": "PASS",
+    "directApprovedMasterContentQA": "PRELIMINARY_PASS_BOOK_MASTER_DIRECT_REVIEW",
+    "directApprovedMasterContentQANote": "Direct BOOK_MASTER review: manuscript title aligned, Evidence/Boundary aligned, and all manuscript numeric tokens were found in the readable BOOK_MASTER source. Final standalone Approval Final TXT direct-text review remains pending because current Library reader returns zero readable lines for some standalone files."
   },
   {
     "caseNo": 56,
@@ -501,13 +509,15 @@
     "bookSourceFile": "02_BOOK_SOURCE/CASE56_APPROVED_FINAL.txt",
     "officialBookSourceFile": "case56_approval_final.txt",
     "officialSourcePriority": 1,
-    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
+    "manuscriptFidelityStatus": "PRELIMINARY_PASS_BOOK_MASTER_DIRECT_REVIEW",
     "productionVerificationNumericQA": "PRELIMINARY_PASS",
     "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
-    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+    "approvalFinalTxtFidelityQA": "PENDING_STANDALONE_APPROVED_FINAL_DIRECT_TEXT_ACCESS_AFTER_BOOK_MASTER_PASS",
     "canonicalWebPath": "/cases/case56.html",
     "publicationSourceNoteQA": "PASS",
-    "webPathQA": "PASS"
+    "webPathQA": "PASS",
+    "directApprovedMasterContentQA": "PRELIMINARY_PASS_BOOK_MASTER_DIRECT_REVIEW",
+    "directApprovedMasterContentQANote": "Direct BOOK_MASTER review: manuscript title aligned, Evidence/Boundary aligned, and all manuscript numeric tokens were found in the readable BOOK_MASTER source. Final standalone Approval Final TXT direct-text review remains pending because current Library reader returns zero readable lines for some standalone files."
   },
   {
     "caseNo": 57,
@@ -534,13 +544,15 @@
     "bookSourceFile": "02_BOOK_SOURCE/CASE57_APPROVED_FINAL.txt",
     "officialBookSourceFile": "case57_approval_final.txt",
     "officialSourcePriority": 1,
-    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
+    "manuscriptFidelityStatus": "PRELIMINARY_PASS_BOOK_MASTER_DIRECT_REVIEW",
     "productionVerificationNumericQA": "PRELIMINARY_PASS",
     "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
-    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+    "approvalFinalTxtFidelityQA": "PENDING_STANDALONE_APPROVED_FINAL_DIRECT_TEXT_ACCESS_AFTER_BOOK_MASTER_PASS",
     "canonicalWebPath": "/cases/case57.html",
     "publicationSourceNoteQA": "PASS",
-    "webPathQA": "PASS"
+    "webPathQA": "PASS",
+    "directApprovedMasterContentQA": "PRELIMINARY_PASS_BOOK_MASTER_DIRECT_REVIEW",
+    "directApprovedMasterContentQANote": "Direct BOOK_MASTER review: manuscript title aligned, Evidence/Boundary aligned, and all manuscript numeric tokens were found in the readable BOOK_MASTER source. Final standalone Approval Final TXT direct-text review remains pending because current Library reader returns zero readable lines for some standalone files."
   },
   {
     "caseNo": 58,
@@ -567,13 +579,15 @@
     "bookSourceFile": "02_BOOK_SOURCE/CASE58_APPROVED_FINAL.txt",
     "officialBookSourceFile": "case58_approval_final.txt",
     "officialSourcePriority": 1,
-    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
+    "manuscriptFidelityStatus": "PRELIMINARY_PASS_BOOK_MASTER_DIRECT_REVIEW",
     "productionVerificationNumericQA": "PRELIMINARY_PASS",
     "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
-    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+    "approvalFinalTxtFidelityQA": "PENDING_STANDALONE_APPROVED_FINAL_DIRECT_TEXT_ACCESS_AFTER_BOOK_MASTER_PASS",
     "canonicalWebPath": "/cases/case58.html",
     "publicationSourceNoteQA": "PASS",
-    "webPathQA": "PASS"
+    "webPathQA": "PASS",
+    "directApprovedMasterContentQA": "PRELIMINARY_PASS_BOOK_MASTER_DIRECT_REVIEW",
+    "directApprovedMasterContentQANote": "Direct BOOK_MASTER review: manuscript title aligned, Evidence/Boundary aligned, and all manuscript numeric tokens were found in the readable BOOK_MASTER source. Final standalone Approval Final TXT direct-text review remains pending because current Library reader returns zero readable lines for some standalone files."
   },
   {
     "caseNo": 59,
@@ -600,13 +614,15 @@
     "bookSourceFile": "02_BOOK_SOURCE/CASE59_APPROVED_FINAL.txt",
     "officialBookSourceFile": "case59_approval_final.txt",
     "officialSourcePriority": 1,
-    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
+    "manuscriptFidelityStatus": "PRELIMINARY_PASS_BOOK_MASTER_DIRECT_REVIEW",
     "productionVerificationNumericQA": "PRELIMINARY_PASS",
     "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
-    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+    "approvalFinalTxtFidelityQA": "PENDING_STANDALONE_APPROVED_FINAL_DIRECT_TEXT_ACCESS_AFTER_BOOK_MASTER_PASS",
     "canonicalWebPath": "/cases/case59.html",
     "publicationSourceNoteQA": "PASS",
-    "webPathQA": "PASS"
+    "webPathQA": "PASS",
+    "directApprovedMasterContentQA": "PRELIMINARY_PASS_BOOK_MASTER_DIRECT_REVIEW",
+    "directApprovedMasterContentQANote": "Direct BOOK_MASTER review: manuscript title aligned, Evidence/Boundary aligned, and all manuscript numeric tokens were found in the readable BOOK_MASTER source. Final standalone Approval Final TXT direct-text review remains pending because current Library reader returns zero readable lines for some standalone files."
   },
   {
     "caseNo": 60,
@@ -633,13 +649,15 @@
     "bookSourceFile": "02_BOOK_SOURCE/CASE60_APPROVED_FINAL.txt",
     "officialBookSourceFile": "case60_approval_final.txt",
     "officialSourcePriority": 1,
-    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
+    "manuscriptFidelityStatus": "PRELIMINARY_PASS_BOOK_MASTER_DIRECT_REVIEW",
     "productionVerificationNumericQA": "PRELIMINARY_PASS",
     "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
-    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+    "approvalFinalTxtFidelityQA": "PENDING_STANDALONE_APPROVED_FINAL_DIRECT_TEXT_ACCESS_AFTER_BOOK_MASTER_PASS",
     "canonicalWebPath": "/cases/case60.html",
     "publicationSourceNoteQA": "PASS",
-    "webPathQA": "PASS"
+    "webPathQA": "PASS",
+    "directApprovedMasterContentQA": "PRELIMINARY_PASS_BOOK_MASTER_DIRECT_REVIEW",
+    "directApprovedMasterContentQANote": "Direct BOOK_MASTER review: manuscript title aligned, Evidence/Boundary aligned, and all manuscript numeric tokens were found in the readable BOOK_MASTER source. Final standalone Approval Final TXT direct-text review remains pending because current Library reader returns zero readable lines for some standalone files."
   },
   {
     "caseNo": 61,
@@ -666,13 +684,15 @@
     "bookSourceFile": "02_BOOK_SOURCE/CASE61_APPROVED_FINAL.txt",
     "officialBookSourceFile": "case61_approval_final.txt",
     "officialSourcePriority": 1,
-    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
+    "manuscriptFidelityStatus": "PRELIMINARY_PASS_BOOK_MASTER_DIRECT_REVIEW",
     "productionVerificationNumericQA": "PRELIMINARY_PASS",
     "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
-    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+    "approvalFinalTxtFidelityQA": "PENDING_STANDALONE_APPROVED_FINAL_DIRECT_TEXT_ACCESS_AFTER_BOOK_MASTER_PASS",
     "canonicalWebPath": "/cases/case61.html",
     "publicationSourceNoteQA": "PASS",
-    "webPathQA": "PASS"
+    "webPathQA": "PASS",
+    "directApprovedMasterContentQA": "PRELIMINARY_PASS_BOOK_MASTER_DIRECT_REVIEW",
+    "directApprovedMasterContentQANote": "Direct BOOK_MASTER review: manuscript title aligned, Evidence/Boundary aligned, and all manuscript numeric tokens were found in the readable BOOK_MASTER source. Final standalone Approval Final TXT direct-text review remains pending because current Library reader returns zero readable lines for some standalone files."
   },
   {
     "caseNo": 62,
@@ -699,13 +719,15 @@
     "bookSourceFile": "02_BOOK_SOURCE/CASE62_APPROVED_FINAL.txt",
     "officialBookSourceFile": "case62_approval_final.txt",
     "officialSourcePriority": 1,
-    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
+    "manuscriptFidelityStatus": "PRELIMINARY_PASS_BOOK_MASTER_DIRECT_REVIEW",
     "productionVerificationNumericQA": "PRELIMINARY_PASS",
     "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
-    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+    "approvalFinalTxtFidelityQA": "PENDING_STANDALONE_APPROVED_FINAL_DIRECT_TEXT_ACCESS_AFTER_BOOK_MASTER_PASS",
     "canonicalWebPath": "/cases/case62.html",
     "publicationSourceNoteQA": "PASS",
-    "webPathQA": "PASS"
+    "webPathQA": "PASS",
+    "directApprovedMasterContentQA": "PRELIMINARY_PASS_BOOK_MASTER_DIRECT_REVIEW",
+    "directApprovedMasterContentQANote": "Direct BOOK_MASTER review: manuscript title aligned, Evidence/Boundary aligned, and all manuscript numeric tokens were found in the readable BOOK_MASTER source. Final standalone Approval Final TXT direct-text review remains pending because current Library reader returns zero readable lines for some standalone files."
   },
   {
     "caseNo": 63,
@@ -732,13 +754,15 @@
     "bookSourceFile": "02_BOOK_SOURCE/CASE63_APPROVED_FINAL.txt",
     "officialBookSourceFile": "case63_approval_final.txt",
     "officialSourcePriority": 1,
-    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
+    "manuscriptFidelityStatus": "PRELIMINARY_PASS_BOOK_MASTER_DIRECT_REVIEW",
     "productionVerificationNumericQA": "PRELIMINARY_PASS",
     "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
-    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+    "approvalFinalTxtFidelityQA": "PENDING_STANDALONE_APPROVED_FINAL_DIRECT_TEXT_ACCESS_AFTER_BOOK_MASTER_PASS",
     "canonicalWebPath": "/cases/case63.html",
     "publicationSourceNoteQA": "PASS",
-    "webPathQA": "PASS"
+    "webPathQA": "PASS",
+    "directApprovedMasterContentQA": "PRELIMINARY_PASS_BOOK_MASTER_DIRECT_REVIEW",
+    "directApprovedMasterContentQANote": "Direct BOOK_MASTER review: manuscript title aligned, Evidence/Boundary aligned, and all manuscript numeric tokens were found in the readable BOOK_MASTER source. Final standalone Approval Final TXT direct-text review remains pending because current Library reader returns zero readable lines for some standalone files."
   },
   {
     "caseNo": 64,
@@ -765,13 +789,15 @@
     "bookSourceFile": "02_BOOK_SOURCE/CASE64_APPROVED_FINAL.txt",
     "officialBookSourceFile": "case64_approval_final.txt",
     "officialSourcePriority": 1,
-    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
+    "manuscriptFidelityStatus": "PRELIMINARY_PASS_BOOK_MASTER_DIRECT_REVIEW",
     "productionVerificationNumericQA": "PRELIMINARY_PASS",
     "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
-    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+    "approvalFinalTxtFidelityQA": "PENDING_STANDALONE_APPROVED_FINAL_DIRECT_TEXT_ACCESS_AFTER_BOOK_MASTER_PASS",
     "canonicalWebPath": "/cases/case64.html",
     "publicationSourceNoteQA": "PASS",
-    "webPathQA": "PASS"
+    "webPathQA": "PASS",
+    "directApprovedMasterContentQA": "PRELIMINARY_PASS_BOOK_MASTER_DIRECT_REVIEW",
+    "directApprovedMasterContentQANote": "Direct BOOK_MASTER review: manuscript title aligned, Evidence/Boundary aligned, and all manuscript numeric tokens were found in the readable BOOK_MASTER source. Final standalone Approval Final TXT direct-text review remains pending because current Library reader returns zero readable lines for some standalone files."
   },
   {
     "caseNo": 65,
@@ -798,13 +824,15 @@
     "bookSourceFile": "02_BOOK_SOURCE/CASE65_APPROVED_FINAL.txt",
     "officialBookSourceFile": "case65_approval_final.txt",
     "officialSourcePriority": 1,
-    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
+    "manuscriptFidelityStatus": "PRELIMINARY_PASS_BOOK_MASTER_DIRECT_REVIEW",
     "productionVerificationNumericQA": "PRELIMINARY_PASS",
     "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
-    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+    "approvalFinalTxtFidelityQA": "PENDING_STANDALONE_APPROVED_FINAL_DIRECT_TEXT_ACCESS_AFTER_BOOK_MASTER_PASS",
     "canonicalWebPath": "/cases/case65.html",
     "publicationSourceNoteQA": "PASS",
-    "webPathQA": "PASS"
+    "webPathQA": "PASS",
+    "directApprovedMasterContentQA": "PRELIMINARY_PASS_BOOK_MASTER_DIRECT_REVIEW",
+    "directApprovedMasterContentQANote": "Direct BOOK_MASTER review: manuscript title aligned, Evidence/Boundary aligned, and all manuscript numeric tokens were found in the readable BOOK_MASTER source. Final standalone Approval Final TXT direct-text review remains pending because current Library reader returns zero readable lines for some standalone files."
   },
   {
     "caseNo": 66,
@@ -831,13 +859,15 @@
     "bookSourceFile": "02_BOOK_SOURCE/CASE66_APPROVED_FINAL.txt",
     "officialBookSourceFile": "case66_approval_final.txt",
     "officialSourcePriority": 1,
-    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
+    "manuscriptFidelityStatus": "PRELIMINARY_PASS_BOOK_MASTER_DIRECT_REVIEW",
     "productionVerificationNumericQA": "PRELIMINARY_PASS",
     "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
-    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+    "approvalFinalTxtFidelityQA": "PENDING_STANDALONE_APPROVED_FINAL_DIRECT_TEXT_ACCESS_AFTER_BOOK_MASTER_PASS",
     "canonicalWebPath": "/cases/case66.html",
     "publicationSourceNoteQA": "PASS",
-    "webPathQA": "PASS"
+    "webPathQA": "PASS",
+    "directApprovedMasterContentQA": "PRELIMINARY_PASS_BOOK_MASTER_DIRECT_REVIEW",
+    "directApprovedMasterContentQANote": "Direct BOOK_MASTER review: manuscript title aligned, Evidence/Boundary aligned, and all manuscript numeric tokens were found in the readable BOOK_MASTER source. Final standalone Approval Final TXT direct-text review remains pending because current Library reader returns zero readable lines for some standalone files."
   },
   {
     "caseNo": 67,
@@ -864,13 +894,15 @@
     "bookSourceFile": "02_BOOK_SOURCE/CASE67_APPROVED_FINAL.txt",
     "officialBookSourceFile": "case67_approval_final.txt",
     "officialSourcePriority": 1,
-    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
+    "manuscriptFidelityStatus": "PRELIMINARY_PASS_BOOK_MASTER_DIRECT_REVIEW",
     "productionVerificationNumericQA": "PRELIMINARY_PASS",
     "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
-    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+    "approvalFinalTxtFidelityQA": "PENDING_STANDALONE_APPROVED_FINAL_DIRECT_TEXT_ACCESS_AFTER_BOOK_MASTER_PASS",
     "canonicalWebPath": "/cases/case67.html",
     "publicationSourceNoteQA": "PASS",
-    "webPathQA": "PASS"
+    "webPathQA": "PASS",
+    "directApprovedMasterContentQA": "PRELIMINARY_PASS_BOOK_MASTER_DIRECT_REVIEW",
+    "directApprovedMasterContentQANote": "Direct BOOK_MASTER review: manuscript title aligned, Evidence/Boundary aligned, and all manuscript numeric tokens were found in the readable BOOK_MASTER source. Final standalone Approval Final TXT direct-text review remains pending because current Library reader returns zero readable lines for some standalone files."
   },
   {
     "caseNo": 68,
@@ -897,13 +929,15 @@
     "bookSourceFile": "02_BOOK_SOURCE/CASE68_APPROVED_FINAL.txt",
     "officialBookSourceFile": "case68_approval_final.txt",
     "officialSourcePriority": 1,
-    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
+    "manuscriptFidelityStatus": "PRELIMINARY_PASS_BOOK_MASTER_DIRECT_REVIEW",
     "productionVerificationNumericQA": "PRELIMINARY_PASS",
     "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
-    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+    "approvalFinalTxtFidelityQA": "PENDING_STANDALONE_APPROVED_FINAL_DIRECT_TEXT_ACCESS_AFTER_BOOK_MASTER_PASS",
     "canonicalWebPath": "/cases/case68.html",
     "publicationSourceNoteQA": "PASS",
-    "webPathQA": "PASS"
+    "webPathQA": "PASS",
+    "directApprovedMasterContentQA": "PRELIMINARY_PASS_BOOK_MASTER_DIRECT_REVIEW",
+    "directApprovedMasterContentQANote": "Direct BOOK_MASTER review: manuscript title aligned, Evidence/Boundary aligned, and all manuscript numeric tokens were found in the readable BOOK_MASTER source. Final standalone Approval Final TXT direct-text review remains pending because current Library reader returns zero readable lines for some standalone files."
   },
   {
     "caseNo": 69,
@@ -930,13 +964,15 @@
     "bookSourceFile": "02_BOOK_SOURCE/CASE69_APPROVED_FINAL.txt",
     "officialBookSourceFile": "case69_approval_final.txt",
     "officialSourcePriority": 1,
-    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
+    "manuscriptFidelityStatus": "PRELIMINARY_PASS_BOOK_MASTER_DIRECT_REVIEW",
     "productionVerificationNumericQA": "PRELIMINARY_PASS",
     "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
-    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+    "approvalFinalTxtFidelityQA": "PENDING_STANDALONE_APPROVED_FINAL_DIRECT_TEXT_ACCESS_AFTER_BOOK_MASTER_PASS",
     "canonicalWebPath": "/cases/case69.html",
     "publicationSourceNoteQA": "PASS",
-    "webPathQA": "PASS"
+    "webPathQA": "PASS",
+    "directApprovedMasterContentQA": "PRELIMINARY_PASS_BOOK_MASTER_DIRECT_REVIEW",
+    "directApprovedMasterContentQANote": "Direct BOOK_MASTER review: manuscript title aligned, Evidence/Boundary aligned, and all manuscript numeric tokens were found in the readable BOOK_MASTER source. Final standalone Approval Final TXT direct-text review remains pending because current Library reader returns zero readable lines for some standalone files."
   },
   {
     "caseNo": 70,
@@ -963,13 +999,15 @@
     "bookSourceFile": "02_BOOK_SOURCE/CASE70_APPROVED_FINAL.txt",
     "officialBookSourceFile": "case70_approval_final.txt",
     "officialSourcePriority": 1,
-    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
+    "manuscriptFidelityStatus": "PRELIMINARY_PASS_BOOK_MASTER_DIRECT_REVIEW",
     "productionVerificationNumericQA": "PRELIMINARY_PASS",
     "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
-    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+    "approvalFinalTxtFidelityQA": "PENDING_STANDALONE_APPROVED_FINAL_DIRECT_TEXT_ACCESS_AFTER_BOOK_MASTER_PASS",
     "canonicalWebPath": "/cases/case70.html",
     "publicationSourceNoteQA": "PASS",
-    "webPathQA": "PASS"
+    "webPathQA": "PASS",
+    "directApprovedMasterContentQA": "PRELIMINARY_PASS_BOOK_MASTER_DIRECT_REVIEW",
+    "directApprovedMasterContentQANote": "Direct BOOK_MASTER review: manuscript title aligned, Evidence/Boundary aligned, and all manuscript numeric tokens were found in the readable BOOK_MASTER source. Final standalone Approval Final TXT direct-text review remains pending because current Library reader returns zero readable lines for some standalone files."
   },
   {
     "caseNo": 71,
@@ -996,13 +1034,15 @@
     "bookSourceFile": "02_BOOK_SOURCE/CASE71_APPROVED_FINAL.txt",
     "officialBookSourceFile": "case71_approval_final.txt",
     "officialSourcePriority": 1,
-    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
+    "manuscriptFidelityStatus": "PRELIMINARY_PASS_BOOK_MASTER_DIRECT_REVIEW",
     "productionVerificationNumericQA": "PRELIMINARY_PASS",
     "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
-    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+    "approvalFinalTxtFidelityQA": "PENDING_STANDALONE_APPROVED_FINAL_DIRECT_TEXT_ACCESS_AFTER_BOOK_MASTER_PASS",
     "canonicalWebPath": "/cases/case71.html",
     "publicationSourceNoteQA": "PASS",
-    "webPathQA": "PASS"
+    "webPathQA": "PASS",
+    "directApprovedMasterContentQA": "PRELIMINARY_PASS_BOOK_MASTER_DIRECT_REVIEW",
+    "directApprovedMasterContentQANote": "Direct BOOK_MASTER review: manuscript title aligned, Evidence/Boundary aligned, and all manuscript numeric tokens were found in the readable BOOK_MASTER source. Final standalone Approval Final TXT direct-text review remains pending because current Library reader returns zero readable lines for some standalone files."
   },
   {
     "caseNo": 72,
@@ -1029,13 +1069,15 @@
     "bookSourceFile": "02_BOOK_SOURCE/CASE72_APPROVED_FINAL.txt",
     "officialBookSourceFile": "case72_approval_final.txt",
     "officialSourcePriority": 1,
-    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
+    "manuscriptFidelityStatus": "PRELIMINARY_PASS_BOOK_MASTER_DIRECT_REVIEW",
     "productionVerificationNumericQA": "PRELIMINARY_PASS",
     "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
-    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+    "approvalFinalTxtFidelityQA": "PENDING_STANDALONE_APPROVED_FINAL_DIRECT_TEXT_ACCESS_AFTER_BOOK_MASTER_PASS",
     "canonicalWebPath": "/cases/case72.html",
     "publicationSourceNoteQA": "PASS",
-    "webPathQA": "PASS"
+    "webPathQA": "PASS",
+    "directApprovedMasterContentQA": "PRELIMINARY_PASS_BOOK_MASTER_DIRECT_REVIEW",
+    "directApprovedMasterContentQANote": "Direct BOOK_MASTER review: manuscript title aligned, Evidence/Boundary aligned, and all manuscript numeric tokens were found in the readable BOOK_MASTER source. Final standalone Approval Final TXT direct-text review remains pending because current Library reader returns zero readable lines for some standalone files."
   },
   {
     "caseNo": 73,
@@ -1062,13 +1104,15 @@
     "bookSourceFile": "02_BOOK_SOURCE/CASE73_APPROVED_FINAL.txt",
     "officialBookSourceFile": "case73_approval_final.txt",
     "officialSourcePriority": 1,
-    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
+    "manuscriptFidelityStatus": "PRELIMINARY_PASS_BOOK_MASTER_DIRECT_REVIEW",
     "productionVerificationNumericQA": "PRELIMINARY_PASS",
     "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
-    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+    "approvalFinalTxtFidelityQA": "PENDING_STANDALONE_APPROVED_FINAL_DIRECT_TEXT_ACCESS_AFTER_BOOK_MASTER_PASS",
     "canonicalWebPath": "/cases/case73.html",
     "publicationSourceNoteQA": "PASS",
-    "webPathQA": "PASS"
+    "webPathQA": "PASS",
+    "directApprovedMasterContentQA": "PRELIMINARY_PASS_BOOK_MASTER_DIRECT_REVIEW",
+    "directApprovedMasterContentQANote": "Direct BOOK_MASTER review: manuscript title aligned, Evidence/Boundary aligned, and all manuscript numeric tokens were found in the readable BOOK_MASTER source. Final standalone Approval Final TXT direct-text review remains pending because current Library reader returns zero readable lines for some standalone files."
   },
   {
     "caseNo": 74,
@@ -1095,13 +1139,15 @@
     "bookSourceFile": "02_BOOK_SOURCE/CASE74_APPROVED_FINAL.txt",
     "officialBookSourceFile": "case74_approval_final.txt",
     "officialSourcePriority": 1,
-    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
+    "manuscriptFidelityStatus": "PRELIMINARY_PASS_BOOK_MASTER_DIRECT_REVIEW",
     "productionVerificationNumericQA": "PRELIMINARY_PASS",
     "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
-    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+    "approvalFinalTxtFidelityQA": "PENDING_STANDALONE_APPROVED_FINAL_DIRECT_TEXT_ACCESS_AFTER_BOOK_MASTER_PASS",
     "canonicalWebPath": "/cases/case74.html",
     "publicationSourceNoteQA": "PASS",
-    "webPathQA": "PASS"
+    "webPathQA": "PASS",
+    "directApprovedMasterContentQA": "PRELIMINARY_PASS_BOOK_MASTER_DIRECT_REVIEW",
+    "directApprovedMasterContentQANote": "Direct BOOK_MASTER review: manuscript title aligned, Evidence/Boundary aligned, and all manuscript numeric tokens were found in the readable BOOK_MASTER source. Final standalone Approval Final TXT direct-text review remains pending because current Library reader returns zero readable lines for some standalone files."
   },
   {
     "caseNo": 75,
@@ -1128,13 +1174,15 @@
     "bookSourceFile": "02_BOOK_SOURCE/CASE75_APPROVED_FINAL.txt",
     "officialBookSourceFile": "case75_approval_final.txt",
     "officialSourcePriority": 1,
-    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
+    "manuscriptFidelityStatus": "PRELIMINARY_PASS_BOOK_MASTER_DIRECT_REVIEW",
     "productionVerificationNumericQA": "PRELIMINARY_PASS",
     "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
-    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+    "approvalFinalTxtFidelityQA": "PENDING_STANDALONE_APPROVED_FINAL_DIRECT_TEXT_ACCESS_AFTER_BOOK_MASTER_PASS",
     "canonicalWebPath": "/cases/case75.html",
     "publicationSourceNoteQA": "PASS",
-    "webPathQA": "PASS"
+    "webPathQA": "PASS",
+    "directApprovedMasterContentQA": "PRELIMINARY_PASS_BOOK_MASTER_DIRECT_REVIEW",
+    "directApprovedMasterContentQANote": "Direct BOOK_MASTER review: manuscript title aligned, Evidence/Boundary aligned, and all manuscript numeric tokens were found in the readable BOOK_MASTER source. Final standalone Approval Final TXT direct-text review remains pending because current Library reader returns zero readable lines for some standalone files."
   },
   {
     "caseNo": 76,
@@ -1161,13 +1209,15 @@
     "bookSourceFile": "02_BOOK_SOURCE/CASE76_APPROVED_FINAL.txt",
     "officialBookSourceFile": "case76_approval_final.txt",
     "officialSourcePriority": 1,
-    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
+    "manuscriptFidelityStatus": "PRELIMINARY_PASS_BOOK_MASTER_DIRECT_REVIEW",
     "productionVerificationNumericQA": "PRELIMINARY_PASS",
     "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
-    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+    "approvalFinalTxtFidelityQA": "PENDING_STANDALONE_APPROVED_FINAL_DIRECT_TEXT_ACCESS_AFTER_BOOK_MASTER_PASS",
     "canonicalWebPath": "/cases/case76.html",
     "publicationSourceNoteQA": "PASS",
-    "webPathQA": "PASS"
+    "webPathQA": "PASS",
+    "directApprovedMasterContentQA": "PRELIMINARY_PASS_BOOK_MASTER_DIRECT_REVIEW",
+    "directApprovedMasterContentQANote": "Direct BOOK_MASTER review: manuscript title aligned, Evidence/Boundary aligned, and all manuscript numeric tokens were found in the readable BOOK_MASTER source. Final standalone Approval Final TXT direct-text review remains pending because current Library reader returns zero readable lines for some standalone files."
   },
   {
     "caseNo": 77,
@@ -1190,8 +1240,8 @@
     "proposedChapterTitle": "데이터센터 PUE와 냉방 최적화",
     "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
     "round2Status": "BOOK_REVISION_CANDIDATE",
-    "bookSourceStatus": "OFFICIAL_SOURCE_NAME_CONFIRMED_CONTENT_BYTES_NOT_DIRECTLY_RETRIEVED",
-    "bookSourceFile": "case77_approval_final.txt",
+    "bookSourceStatus": "STANDALONE_APPROVED_FINAL_TXT_DIRECTLY_REVIEWED",
+    "bookSourceFile": "CASE77_APPROVED_FINAL.txt",
     "bookSourceBasis": "2017 IDC 에너지성능 개선 컨설팅 자료 + 기존 CASE 기록 복원 + 외부 기술 Reference 보강",
     "officialBookSourceFile": "case77_approval_final.txt",
     "officialSourcePriority": 1,
@@ -1203,7 +1253,7 @@
     "publicationSourceNoteQA": "PASS",
     "webPathQA": "PASS",
     "directApprovedMasterContentQA": "PASS_DIRECT_STANDALONE_APPROVED_FINAL_TXT",
-    "directApprovedMasterContentQANote": "Direct comparison against CASE01_81_BOOK_WRITING_SOURCE_MASTER locked CASE77 APPROVED FINAL section: title, Evidence B/C, support-facility load inventory/consumption-pattern scope, Essential vs Avoidable continuous load logic, Submetering/NILM/FDD expansion boundary, and no-independent-final-saving classification are consistent."
+    "directApprovedMasterContentQANote": "Standalone Approval Final TXT directly reviewed against current manuscript; title, Evidence B/C, core FACT/diagnostic logic and Measurement Boundary preserved; claim strengthening 0."
   },
   {
     "caseNo": 78,
@@ -1226,8 +1276,8 @@
     "proposedChapterTitle": "냉동기 Plant 최적화",
     "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
     "round2Status": "BOOK_REVISION_CANDIDATE",
-    "bookSourceStatus": "OFFICIAL_SOURCE_NAME_CONFIRMED_CONTENT_BYTES_NOT_DIRECTLY_RETRIEVED",
-    "bookSourceFile": "case78_approval_final.txt",
+    "bookSourceStatus": "STANDALONE_APPROVED_FINAL_TXT_DIRECTLY_REVIEWED",
+    "bookSourceFile": "CASE78_APPROVED_FINAL.txt",
     "bookSourceBasis": "비식별 국내 반도체·디스플레이 제조시설 EEMS/Trend/Utility 원자료 + 외부 기술동향 Reference",
     "officialBookSourceFile": "case78_approval_final.txt",
     "officialSourcePriority": 1,
@@ -1239,7 +1289,7 @@
     "publicationSourceNoteQA": "PASS",
     "webPathQA": "PASS",
     "directApprovedMasterContentQA": "PASS_DIRECT_STANDALONE_APPROVED_FINAL_TXT",
-    "directApprovedMasterContentQANote": "Direct comparison against CASE01_81_BOOK_WRITING_SOURCE_MASTER locked CASE78 APPROVED FINAL section: title, Evidence B/C, semiconductor/display cooling-water pump benchmark context, unit-performance plus required-units structure, variable-flow optimization direction, and no-independent-final-saving classification are consistent."
+    "directApprovedMasterContentQANote": "Standalone Approval Final TXT directly reviewed against current manuscript; title, Evidence B/C, core FACT/diagnostic logic and Measurement Boundary preserved; claim strengthening 0."
   },
   {
     "caseNo": 79,
@@ -1262,8 +1312,8 @@
     "proposedChapterTitle": "데이터센터 PUE와 냉방 최적화",
     "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
     "round2Status": "BOOK_REVISION_CANDIDATE",
-    "bookSourceStatus": "OFFICIAL_SOURCE_NAME_CONFIRMED_CONTENT_BYTES_NOT_DIRECTLY_RETRIEVED",
-    "bookSourceFile": "case79_approval_final.txt",
+    "bookSourceStatus": "STANDALONE_APPROVED_FINAL_TXT_DIRECTLY_REVIEWED",
+    "bookSourceFile": "CASE79_APPROVED_FINAL.txt",
     "bookSourceBasis": "비식별 국내 데이터센터 운전데이터 분석 PPT + EEMS/Trend Excel + 실시간 운전가이드 자료",
     "officialBookSourceFile": "case79_approval_final.txt",
     "officialSourcePriority": 1,
@@ -1275,7 +1325,7 @@
     "publicationSourceNoteQA": "PASS",
     "webPathQA": "PASS",
     "directApprovedMasterContentQA": "PASS_DIRECT_STANDALONE_APPROVED_FINAL_TXT",
-    "directApprovedMasterContentQANote": "Direct Library content comparison against CASE79_BOOK_MASTER.txt: Title, Evidence B/C, Actual-vs-Required Units logic, 5℃/13℃ system data structure, Pump OFF action, M&V boundary and no-independent-final-saving classification are consistent. Monthly numeric detail and external references are condensed/omitted without claim strengthening. Final official Approval Final TXT filename-content identity check remains pending."
+    "directApprovedMasterContentQANote": "Standalone Approval Final TXT directly reviewed against current manuscript; title, Evidence B/C, core FACT/diagnostic logic and Measurement Boundary preserved; claim strengthening 0."
   },
   {
     "caseNo": 80,
@@ -1298,8 +1348,8 @@
     "proposedChapterTitle": "데이터센터 PUE와 냉방 최적화",
     "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
     "round2Status": "BOOK_REVISION_CANDIDATE",
-    "bookSourceStatus": "OFFICIAL_SOURCE_NAME_CONFIRMED_CONTENT_BYTES_NOT_DIRECTLY_RETRIEVED",
-    "bookSourceFile": "case80_approval_final.txt",
+    "bookSourceStatus": "STANDALONE_APPROVED_FINAL_TXT_DIRECTLY_REVIEWED",
+    "bookSourceFile": "CASE80_APPROVED_FINAL.txt",
     "bookSourceBasis": "비식별 국내 데이터센터 냉방·냉동기 관련 원자료 + 실시간 운전가이드 자료",
     "officialBookSourceFile": "case80_approval_final.txt",
     "officialSourcePriority": 1,
@@ -1311,7 +1361,7 @@
     "publicationSourceNoteQA": "PASS",
     "webPathQA": "PASS",
     "directApprovedMasterContentQA": "PASS_DIRECT_STANDALONE_APPROVED_FINAL_TXT",
-    "directApprovedMasterContentQANote": "Direct comparison against CASE01_81_BOOK_WRITING_SOURCE_MASTER locked CASE80 APPROVED FINAL section: title, Evidence B/C, cooling-load vs actual/required chiller units logic, Operating Margin concept, OFF Action/staging logic, plant-level efficiency constraint, and no-independent-final-saving classification are consistent."
+    "directApprovedMasterContentQANote": "Standalone Approval Final TXT directly reviewed against current manuscript; title, Evidence B/C, core FACT/diagnostic logic and Measurement Boundary preserved; claim strengthening 0."
   },
   {
     "caseNo": 81,
@@ -1334,8 +1384,8 @@
     "proposedChapterTitle": "데이터센터 PUE와 냉방 최적화",
     "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
     "round2Status": "BOOK_REVISION_CANDIDATE",
-    "bookSourceStatus": "OFFICIAL_SOURCE_NAME_CONFIRMED_CONTENT_BYTES_NOT_DIRECTLY_RETRIEVED",
-    "bookSourceFile": "case81_approval_final.txt",
+    "bookSourceStatus": "STANDALONE_APPROVED_FINAL_TXT_DIRECTLY_REVIEWED",
+    "bookSourceFile": "CASE81_APPROVED_FINAL.txt",
     "bookSourceBasis": "비식별 국내 데이터센터 냉각탑 성능진단·설정온도 Test·실시간 운전가이드 관련 원자료",
     "officialBookSourceFile": "case81_approval_final.txt",
     "officialSourcePriority": 1,
@@ -1347,7 +1397,7 @@
     "publicationSourceNoteQA": "PASS",
     "webPathQA": "PASS",
     "directApprovedMasterContentQA": "PASS_DIRECT_STANDALONE_APPROVED_FINAL_TXT",
-    "directApprovedMasterContentQANote": "Direct comparison against CASE01_81_BOOK_WRITING_SOURCE_MASTER locked CASE81 APPROVED FINAL section: title, Evidence B/C, wet-bulb/Approach/Range diagnostic logic, cooling-tower performance vs set-point distinction, condition-adjusted M&V, and no-independent-final-saving classification are consistent."
+    "directApprovedMasterContentQANote": "Standalone Approval Final TXT directly reviewed against current manuscript; title, Evidence B/C, core FACT/diagnostic logic and Measurement Boundary preserved; claim strengthening 0."
   },
   {
     "caseNo": 82,
