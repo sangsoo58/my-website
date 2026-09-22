@@ -2,7 +2,7 @@
 
 **편집상태:** ROUND 2 BOOK-STYLE DRAFT  
 **Expanded Edition Chapter 23 / 기존 Chapter 22에서 +1 이동**  
-**CASE48~51 추가**
+**CASE48,49,51 추가 / CASE50 Source HOLD 제외**
 
 ## DUPLICATION CONTROL
 
@@ -10,7 +10,8 @@ CASE48·51은 현재 출간본의 기존 Energy Modeling CASE와 동일 프로�
 
 - CASE48 ↔ CASE36: 동일 DOE-2.1E 설계검토 계열. CASE36은 개요, CASE48은 133층 복합건물의 용도·월별·1차에너지 상세.
 - CASE51 ↔ CASE35: 동일 LEED Appendix G Performance Rating 계열. CASE35는 개요, CASE51은 72층 모델·Rotation·Cost vs Site Energy 상세.
-- CASE49·50은 별도 Parametric Study로 유지하되 CASE50은 Source Reconciliation Hold를 유지한다.
+- CASE49는 별도 Parametric Study로 유지한다.
+- CASE50은 Source Reconciliation Hold로 Expanded Edition 통합원고에서 제외한다.
 
 같은 모델의 수치를 두 CASE의 독립성과처럼 합산하지 않는다.
 
@@ -50,16 +51,6 @@ End-use 요구량은 냉방 약 34,630, 조명 약 26,911, 급탕 약 27,168 MWh
 - 자연조명 적용: **-14.3%**
 
 **CASE LESSON |** 예상과 반대의 결과도 중요한 설계정보다. Simulation은 정답을 주는 도구가 아니라, 어떤 설계변수에 더 많은 검토가 필요한지 보여주는 의사결정 도구다.
-
-### CASE 50 | 응용사례 — 창면적·유리성능 Parametric Study
-
-동일 오피스 모델에서 창호변수만 변경했다.
-
-- WWR 63%→40%: 약 **-1.7%, -54백만원/년**
-- SC 0.33→0.75: 약 **+9.3%, +291백만원/년**
-- 커튼 50% 적용: 약 **-1.0%, -31백만원/년**
-
-**SOURCE HOLD |** 기존 Master metadata에 보육시설 Passive House Boundary 흔적이 남아 있어 Source Reconciliation 완료 전에는 CASE50을 Expanded Edition 본문에 포함하지 않는다.
 
 ### CASE 51 | 응용사례 — ASHRAE 90.1 Appendix G / LEED Energy Modeling
 
