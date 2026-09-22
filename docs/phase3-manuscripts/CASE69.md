@@ -1,7 +1,7 @@
 # CASE 69 | 응용사례 — Steam Supply Pressure Pattern과 적정 증기압력 운전
 
 **편집상태:** PHASE 3 DRAFT / USER REVIEW REQUIRED  
-**배치안:** PART 4 · 신규 Chapter 후보 · 보일러 시스템 운전최적화  
+**배치안:** PART 4 · Proposed Chapter 15 · 보일러 시스템 운전최적화
 **Evidence:** B/C · Field Pattern / Optimization Direction  
 **Web:** /cases/case69.html
 
