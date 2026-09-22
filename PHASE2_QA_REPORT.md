@@ -218,3 +218,11 @@ Draft PR → Ready for Review → Merge → GitHub Pages → Production Smoke Te
   - form controls remain readable and full-width
   - no visible horizontal overflow
   - mobile consultation QA complete
+
+## 11. Production Smoke Test
+
+- Production homepage: PASS
+- Production CASE Library: PASS
+- Production CASE01 upper smoke: PASS
+  - title, summary, tags and evidence summary render correctly
+  - official CASE01 content is visible after merge
