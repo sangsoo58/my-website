@@ -76,5 +76,10 @@
       "currentBookIncluded": false,
       "page": null
     }
-  ]
+  ],
+  "fidelitySummary": {
+    "finalPassActive": 14,
+    "preliminaryActive": 26,
+    "case50": "CONTENT_PASS_USER_BOOK_DECISION_PENDING"
+  }
 }
