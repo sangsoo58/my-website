@@ -28,3 +28,7 @@ Benchmark Gap은 절감실적이 아니다. 개별 보조기기 개선 후 동�
 
 ## Consultant's Point
 Benchmark의 목적은 호기 순위를 만드는 것이 아니라 **소내전력률 차이를 만드는 설비와 운전조건을 찾는 것**이다.
+
+## Source Note
+
+저자 보유 프로젝트 자료와 비식별 공개사례를 바탕으로 재구성했다. 수치·성과의 성격은 본문의 Evidence Boundary를 따른다.
