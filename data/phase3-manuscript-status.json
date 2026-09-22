@@ -24,7 +24,10 @@
     "bookSourceFile": "02_BOOK_SOURCE/CASE42_APPROVED_FINAL.txt",
     "officialBookSourceFile": "case42_approval_final.txt",
     "officialSourcePriority": 1,
-    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK"
+    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
+    "productionVerificationNumericQA": "PRELIMINARY_PASS",
+    "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
+    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON"
   },
   {
     "caseNo": 43,
@@ -51,7 +54,10 @@
     "bookSourceFile": "02_BOOK_SOURCE/CASE43_APPROVED_FINAL.txt",
     "officialBookSourceFile": "case43_approval_final.txt",
     "officialSourcePriority": 1,
-    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK"
+    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
+    "productionVerificationNumericQA": "PRELIMINARY_PASS",
+    "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
+    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON"
   },
   {
     "caseNo": 44,
@@ -78,7 +84,10 @@
     "bookSourceFile": "02_BOOK_SOURCE/CASE44_APPROVED_FINAL.txt",
     "officialBookSourceFile": "case44_approval_final.txt",
     "officialSourcePriority": 1,
-    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK"
+    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
+    "productionVerificationNumericQA": "PRELIMINARY_PASS",
+    "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
+    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON"
   },
   {
     "caseNo": 45,
@@ -105,7 +114,10 @@
     "bookSourceFile": "02_BOOK_SOURCE/CASE45_APPROVED_FINAL.txt",
     "officialBookSourceFile": "case45_approval_final.txt",
     "officialSourcePriority": 1,
-    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK"
+    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
+    "productionVerificationNumericQA": "PRELIMINARY_PASS",
+    "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
+    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON"
   },
   {
     "caseNo": 46,
@@ -132,7 +144,10 @@
     "bookSourceFile": "02_BOOK_SOURCE/CASE46_APPROVED_FINAL.txt",
     "officialBookSourceFile": "case46_approval_final.txt",
     "officialSourcePriority": 1,
-    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK"
+    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
+    "productionVerificationNumericQA": "PRELIMINARY_PASS",
+    "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
+    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON"
   },
   {
     "caseNo": 47,
@@ -159,7 +174,10 @@
     "bookSourceFile": "02_BOOK_SOURCE/CASE47_APPROVED_FINAL.txt",
     "officialBookSourceFile": "case47_approval_final.txt",
     "officialSourcePriority": 1,
-    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK"
+    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
+    "productionVerificationNumericQA": "PRELIMINARY_PASS",
+    "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
+    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON"
   },
   {
     "caseNo": 48,
@@ -186,7 +204,10 @@
     "bookSourceFile": "02_BOOK_SOURCE/CASE48_APPROVED_FINAL.txt",
     "officialBookSourceFile": "case48_approval_final.txt",
     "officialSourcePriority": 1,
-    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK"
+    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
+    "productionVerificationNumericQA": "PRELIMINARY_PASS",
+    "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
+    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON"
   },
   {
     "caseNo": 49,
@@ -213,7 +234,10 @@
     "bookSourceFile": "02_BOOK_SOURCE/CASE49_APPROVED_FINAL.txt",
     "officialBookSourceFile": "case49_approval_final.txt",
     "officialSourcePriority": 1,
-    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK"
+    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
+    "productionVerificationNumericQA": "PRELIMINARY_PASS",
+    "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
+    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON"
   },
   {
     "caseNo": 50,
@@ -242,7 +266,10 @@
     "sourceReconciliationReason": "Visible approved-final narrative/title is large-office WWR/SC simulation, while JSON-LD and legacy boundary metadata still identify childcare Passive House. Approved source exists, but exact original source bytes are not currently exposed for direct comparison.",
     "officialBookSourceFile": "case50_approval_final.txt",
     "officialSourcePriority": 1,
-    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK"
+    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
+    "productionVerificationNumericQA": "EXCLUDED_SOURCE_IDENTITY_HOLD",
+    "productionVerificationEvidenceQA": "EXCLUDED_SOURCE_IDENTITY_HOLD",
+    "approvalFinalTxtFidelityQA": "HOLD_PENDING_SOURCE_TEXT"
   },
   {
     "caseNo": 51,
@@ -269,7 +296,10 @@
     "bookSourceFile": "02_BOOK_SOURCE/CASE51_APPROVED_FINAL_REV02.txt",
     "officialBookSourceFile": "case51_approval_final.txt",
     "officialSourcePriority": 1,
-    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK"
+    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
+    "productionVerificationNumericQA": "PRELIMINARY_PASS",
+    "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
+    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON"
   },
   {
     "caseNo": 52,
@@ -296,7 +326,10 @@
     "bookSourceFile": "02_BOOK_SOURCE/CASE52_APPROVED_FINAL.txt",
     "officialBookSourceFile": "case52_approval_final.txt",
     "officialSourcePriority": 1,
-    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK"
+    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
+    "productionVerificationNumericQA": "PRELIMINARY_PASS",
+    "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
+    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON"
   },
   {
     "caseNo": 53,
@@ -323,7 +356,10 @@
     "bookSourceFile": "02_BOOK_SOURCE/CASE53_APPROVED_FINAL.txt",
     "officialBookSourceFile": "case53_approval_final.txt",
     "officialSourcePriority": 1,
-    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK"
+    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
+    "productionVerificationNumericQA": "PRELIMINARY_PASS",
+    "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
+    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON"
   },
   {
     "caseNo": 54,
@@ -350,7 +386,10 @@
     "bookSourceFile": "02_BOOK_SOURCE/CASE54_APPROVED_FINAL.txt",
     "officialBookSourceFile": "case54_approval_final.txt",
     "officialSourcePriority": 1,
-    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK"
+    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
+    "productionVerificationNumericQA": "PRELIMINARY_PASS",
+    "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
+    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON"
   },
   {
     "caseNo": 55,
@@ -377,7 +416,10 @@
     "bookSourceFile": "02_BOOK_SOURCE/CASE55_APPROVED_FINAL.txt",
     "officialBookSourceFile": "case55_approval_final.txt",
     "officialSourcePriority": 1,
-    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK"
+    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
+    "productionVerificationNumericQA": "PRELIMINARY_PASS",
+    "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
+    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON"
   },
   {
     "caseNo": 56,
@@ -404,7 +446,10 @@
     "bookSourceFile": "02_BOOK_SOURCE/CASE56_APPROVED_FINAL.txt",
     "officialBookSourceFile": "case56_approval_final.txt",
     "officialSourcePriority": 1,
-    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK"
+    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
+    "productionVerificationNumericQA": "PRELIMINARY_PASS",
+    "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
+    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON"
   },
   {
     "caseNo": 57,
@@ -431,7 +476,10 @@
     "bookSourceFile": "02_BOOK_SOURCE/CASE57_APPROVED_FINAL.txt",
     "officialBookSourceFile": "case57_approval_final.txt",
     "officialSourcePriority": 1,
-    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK"
+    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
+    "productionVerificationNumericQA": "PRELIMINARY_PASS",
+    "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
+    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON"
   },
   {
     "caseNo": 58,
@@ -458,7 +506,10 @@
     "bookSourceFile": "02_BOOK_SOURCE/CASE58_APPROVED_FINAL.txt",
     "officialBookSourceFile": "case58_approval_final.txt",
     "officialSourcePriority": 1,
-    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK"
+    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
+    "productionVerificationNumericQA": "PRELIMINARY_PASS",
+    "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
+    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON"
   },
   {
     "caseNo": 59,
@@ -485,7 +536,10 @@
     "bookSourceFile": "02_BOOK_SOURCE/CASE59_APPROVED_FINAL.txt",
     "officialBookSourceFile": "case59_approval_final.txt",
     "officialSourcePriority": 1,
-    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK"
+    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
+    "productionVerificationNumericQA": "PRELIMINARY_PASS",
+    "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
+    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON"
   },
   {
     "caseNo": 60,
@@ -512,7 +566,10 @@
     "bookSourceFile": "02_BOOK_SOURCE/CASE60_APPROVED_FINAL.txt",
     "officialBookSourceFile": "case60_approval_final.txt",
     "officialSourcePriority": 1,
-    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK"
+    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
+    "productionVerificationNumericQA": "PRELIMINARY_PASS",
+    "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
+    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON"
   },
   {
     "caseNo": 61,
@@ -539,7 +596,10 @@
     "bookSourceFile": "02_BOOK_SOURCE/CASE61_APPROVED_FINAL.txt",
     "officialBookSourceFile": "case61_approval_final.txt",
     "officialSourcePriority": 1,
-    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK"
+    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
+    "productionVerificationNumericQA": "PRELIMINARY_PASS",
+    "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
+    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON"
   },
   {
     "caseNo": 62,
@@ -566,7 +626,10 @@
     "bookSourceFile": "02_BOOK_SOURCE/CASE62_APPROVED_FINAL.txt",
     "officialBookSourceFile": "case62_approval_final.txt",
     "officialSourcePriority": 1,
-    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK"
+    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
+    "productionVerificationNumericQA": "PRELIMINARY_PASS",
+    "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
+    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON"
   },
   {
     "caseNo": 63,
@@ -593,7 +656,10 @@
     "bookSourceFile": "02_BOOK_SOURCE/CASE63_APPROVED_FINAL.txt",
     "officialBookSourceFile": "case63_approval_final.txt",
     "officialSourcePriority": 1,
-    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK"
+    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
+    "productionVerificationNumericQA": "PRELIMINARY_PASS",
+    "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
+    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON"
   },
   {
     "caseNo": 64,
@@ -620,7 +686,10 @@
     "bookSourceFile": "02_BOOK_SOURCE/CASE64_APPROVED_FINAL.txt",
     "officialBookSourceFile": "case64_approval_final.txt",
     "officialSourcePriority": 1,
-    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK"
+    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
+    "productionVerificationNumericQA": "PRELIMINARY_PASS",
+    "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
+    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON"
   },
   {
     "caseNo": 65,
@@ -647,7 +716,10 @@
     "bookSourceFile": "02_BOOK_SOURCE/CASE65_APPROVED_FINAL.txt",
     "officialBookSourceFile": "case65_approval_final.txt",
     "officialSourcePriority": 1,
-    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK"
+    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
+    "productionVerificationNumericQA": "PRELIMINARY_PASS",
+    "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
+    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON"
   },
   {
     "caseNo": 66,
@@ -674,7 +746,10 @@
     "bookSourceFile": "02_BOOK_SOURCE/CASE66_APPROVED_FINAL.txt",
     "officialBookSourceFile": "case66_approval_final.txt",
     "officialSourcePriority": 1,
-    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK"
+    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
+    "productionVerificationNumericQA": "PRELIMINARY_PASS",
+    "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
+    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON"
   },
   {
     "caseNo": 67,
@@ -701,7 +776,10 @@
     "bookSourceFile": "02_BOOK_SOURCE/CASE67_APPROVED_FINAL.txt",
     "officialBookSourceFile": "case67_approval_final.txt",
     "officialSourcePriority": 1,
-    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK"
+    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
+    "productionVerificationNumericQA": "PRELIMINARY_PASS",
+    "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
+    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON"
   },
   {
     "caseNo": 68,
@@ -728,7 +806,10 @@
     "bookSourceFile": "02_BOOK_SOURCE/CASE68_APPROVED_FINAL.txt",
     "officialBookSourceFile": "case68_approval_final.txt",
     "officialSourcePriority": 1,
-    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK"
+    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
+    "productionVerificationNumericQA": "PRELIMINARY_PASS",
+    "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
+    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON"
   },
   {
     "caseNo": 69,
@@ -755,7 +836,10 @@
     "bookSourceFile": "02_BOOK_SOURCE/CASE69_APPROVED_FINAL.txt",
     "officialBookSourceFile": "case69_approval_final.txt",
     "officialSourcePriority": 1,
-    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK"
+    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
+    "productionVerificationNumericQA": "PRELIMINARY_PASS",
+    "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
+    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON"
   },
   {
     "caseNo": 70,
@@ -782,7 +866,10 @@
     "bookSourceFile": "02_BOOK_SOURCE/CASE70_APPROVED_FINAL.txt",
     "officialBookSourceFile": "case70_approval_final.txt",
     "officialSourcePriority": 1,
-    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK"
+    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
+    "productionVerificationNumericQA": "PRELIMINARY_PASS",
+    "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
+    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON"
   },
   {
     "caseNo": 71,
@@ -809,7 +896,10 @@
     "bookSourceFile": "02_BOOK_SOURCE/CASE71_APPROVED_FINAL.txt",
     "officialBookSourceFile": "case71_approval_final.txt",
     "officialSourcePriority": 1,
-    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK"
+    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
+    "productionVerificationNumericQA": "PRELIMINARY_PASS",
+    "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
+    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON"
   },
   {
     "caseNo": 72,
@@ -836,7 +926,10 @@
     "bookSourceFile": "02_BOOK_SOURCE/CASE72_APPROVED_FINAL.txt",
     "officialBookSourceFile": "case72_approval_final.txt",
     "officialSourcePriority": 1,
-    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK"
+    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
+    "productionVerificationNumericQA": "PRELIMINARY_PASS",
+    "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
+    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON"
   },
   {
     "caseNo": 73,
@@ -863,7 +956,10 @@
     "bookSourceFile": "02_BOOK_SOURCE/CASE73_APPROVED_FINAL.txt",
     "officialBookSourceFile": "case73_approval_final.txt",
     "officialSourcePriority": 1,
-    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK"
+    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
+    "productionVerificationNumericQA": "PRELIMINARY_PASS",
+    "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
+    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON"
   },
   {
     "caseNo": 74,
@@ -890,7 +986,10 @@
     "bookSourceFile": "02_BOOK_SOURCE/CASE74_APPROVED_FINAL.txt",
     "officialBookSourceFile": "case74_approval_final.txt",
     "officialSourcePriority": 1,
-    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK"
+    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
+    "productionVerificationNumericQA": "PRELIMINARY_PASS",
+    "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
+    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON"
   },
   {
     "caseNo": 75,
@@ -917,7 +1016,10 @@
     "bookSourceFile": "02_BOOK_SOURCE/CASE75_APPROVED_FINAL.txt",
     "officialBookSourceFile": "case75_approval_final.txt",
     "officialSourcePriority": 1,
-    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK"
+    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
+    "productionVerificationNumericQA": "PRELIMINARY_PASS",
+    "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
+    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON"
   },
   {
     "caseNo": 76,
@@ -944,7 +1046,10 @@
     "bookSourceFile": "02_BOOK_SOURCE/CASE76_APPROVED_FINAL.txt",
     "officialBookSourceFile": "case76_approval_final.txt",
     "officialSourcePriority": 1,
-    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK"
+    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
+    "productionVerificationNumericQA": "PRELIMINARY_PASS",
+    "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
+    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON"
   },
   {
     "caseNo": 77,
@@ -972,7 +1077,10 @@
     "bookSourceBasis": "2017 IDC 에너지성능 개선 컨설팅 자료 + 기존 CASE 기록 복원 + 외부 기술 Reference 보강",
     "officialBookSourceFile": "case77_approval_final.txt",
     "officialSourcePriority": 1,
-    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK"
+    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
+    "productionVerificationNumericQA": "PRELIMINARY_PASS",
+    "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
+    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON"
   },
   {
     "caseNo": 78,
@@ -1000,7 +1108,10 @@
     "bookSourceBasis": "비식별 국내 반도체·디스플레이 제조시설 EEMS/Trend/Utility 원자료 + 외부 기술동향 Reference",
     "officialBookSourceFile": "case78_approval_final.txt",
     "officialSourcePriority": 1,
-    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK"
+    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
+    "productionVerificationNumericQA": "PRELIMINARY_PASS",
+    "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
+    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON"
   },
   {
     "caseNo": 79,
@@ -1028,7 +1139,10 @@
     "bookSourceBasis": "비식별 국내 데이터센터 운전데이터 분석 PPT + EEMS/Trend Excel + 실시간 운전가이드 자료",
     "officialBookSourceFile": "case79_approval_final.txt",
     "officialSourcePriority": 1,
-    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK"
+    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
+    "productionVerificationNumericQA": "PRELIMINARY_PASS",
+    "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
+    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON"
   },
   {
     "caseNo": 80,
@@ -1056,7 +1170,10 @@
     "bookSourceBasis": "비식별 국내 데이터센터 냉방·냉동기 관련 원자료 + 실시간 운전가이드 자료",
     "officialBookSourceFile": "case80_approval_final.txt",
     "officialSourcePriority": 1,
-    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK"
+    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
+    "productionVerificationNumericQA": "PRELIMINARY_PASS",
+    "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
+    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON"
   },
   {
     "caseNo": 81,
@@ -1084,7 +1201,10 @@
     "bookSourceBasis": "비식별 국내 데이터센터 냉각탑 성능진단·설정온도 Test·실시간 운전가이드 관련 원자료",
     "officialBookSourceFile": "case81_approval_final.txt",
     "officialSourcePriority": 1,
-    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK"
+    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
+    "productionVerificationNumericQA": "PRELIMINARY_PASS",
+    "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
+    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON"
   },
   {
     "caseNo": 82,
@@ -1111,6 +1231,9 @@
     "bookSourceFile": "data/cases-data.js + CASE82 restored public QA",
     "officialBookSourceFile": "CASE82 production locked data + QA",
     "officialSourcePriority": 1,
-    "manuscriptFidelityStatus": "REQUIRES_LOCKED_DATA_FIDELITY_CHECK"
+    "manuscriptFidelityStatus": "REQUIRES_LOCKED_DATA_FIDELITY_CHECK",
+    "productionVerificationNumericQA": "PRELIMINARY_PASS",
+    "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
+    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON"
   }
 ]
