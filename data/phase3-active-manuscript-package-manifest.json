@@ -214,5 +214,10 @@
     "data": "data/phase3-figure-anonymization-evidence-review.json",
     "knownDocumentLevelDefects": 0,
     "pixelReview": "PENDING"
+  },
+  "finalDecisionBrief": {
+    "doc": "docs/PHASE3_FINAL_DECISION_BRIEF.md",
+    "data": "data/phase3-final-decision-brief.json",
+    "status": "READY_USER_APPROVAL_PENDING"
   }
 }
