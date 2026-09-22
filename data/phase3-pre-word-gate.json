@@ -78,10 +78,11 @@
     }
   ],
   "fidelitySummary": {
-    "finalPassActive": 14,
-    "preliminaryActive": 26,
+    "finalPassActive": 15,
+    "preliminaryActive": 25,
     "case50": "CONTENT_PASS_USER_BOOK_DECISION_PENDING",
     "directBookMasterPreliminaryPass": 25,
-    "case52_76": "DIRECT_BOOK_MASTER_PRELIMINARY_PASS_25_OF_25"
+    "case52_76": "DIRECT_BOOK_MASTER_PRELIMINARY_PASS_25_OF_25",
+    "case82": "FINAL_PASS_LOCKED_DATA_QA_SOURCE"
   }
 }
