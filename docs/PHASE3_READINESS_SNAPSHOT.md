@@ -391,3 +391,14 @@ Status: **SOURCE QA PASS 11/11**
 - unsupported Figure numeric: 0
 
 Remaining Figure gates: user selection, print permission/anonymization, final layout readability.
+
+
+## Table / Fact Box readiness update
+
+Status: **EDITORIAL PLAN READY**
+- base tables: 11
+- optional table: 1
+- inline Fact Boxes/checklists: ~9~12
+- source values remain subject to final page-level verification
+
+Reference: `docs/PHASE3_TABLE_FACTBOX_SELECTION_PLAN.md`
