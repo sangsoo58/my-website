@@ -31,3 +31,7 @@
 
 ## Consultant's Point
 설계용량을 그대로 유지하는 것이 아니라 **현재 수요에 맞게 설비와 운전점을 Re-matching**하는 것이 핵심이다.
+
+## Source Note
+
+저자 보유 프로젝트 자료와 비식별 공개사례를 바탕으로 재구성했다. 수치·성과의 성격은 본문의 Evidence Boundary를 따른다.
