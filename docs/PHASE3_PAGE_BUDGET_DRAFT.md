@@ -59,3 +59,77 @@ Expanded Edition 목표 내지:
 - 동일 프로젝트 총성과는 한 곳에서만 제시
 
 하는 방향이 적절하다.
+
+
+## 2차 Page Budget Scenario
+
+Classification basis:
+- 핵심 Deep Dive: 7 CASE
+- 보조 Deep Dive: 4 CASE
+- 응용/Expanded/Sub-case: 29 CASE
+- Active total: 40 CASE
+- Source HOLD excluded: CASE50
+
+### Raw manuscript allocation
+
+- 핵심 Deep Dive 7 × 2.5p ≈ **17.5p**
+- 보조 Deep Dive 4 × 1.75p ≈ **7.0p**
+- 응용/Expanded 29 × 0.9p ≈ **26.1p**
+- 신규 Boiler intro/synthesis ≈ **3p**
+- 기존 Chapter intro/synthesis·cross-reference 보완 ≈ **4~6p**
+- CASE INDEX / REFERENCES 확장 ≈ **4~6p**
+
+Raw addition before de-duplication: 약 **61.6~65.6p**.
+
+### De-duplication effect
+
+CASE11~14↔42~45, CASE28↔75/76, CASE35/36↔51/48, CASE38/39↔46/47/70~74/81 계열의 반복 설명과 정량표를 Cross-reference 구조로 줄이면 약 **5~10p**를 회수할 수 있다.
+
+따라서 text 중심 순증가는 대략 **52~61p** 범위로 본다.
+
+### Figure layout effect
+
+현재 Print plan은:
+- primary Figure 7개
+- optional 1개
+- Table/Fact Box preferred 3개
+
+Figure를 CASE 본문 흐름 안에 반폭~본문폭으로 배치하면 모든 Figure가 별도 1페이지를 추가하는 것은 아니다. 다만 조판상 여백·caption·page break로 약 **2~5p**의 추가 영향을 가정하는 것이 안전하다.
+
+## Scenario estimate
+
+### Compact
+- 강한 de-duplication
+- Figure 7개 중심
+- Companion/Sub-case 0.75~1.0p 중심
+- 신규 증가: 약 **52~56p**
+- 예상 내지: 약 **211~215p**
+
+### Base — 권장
+- 현재 40 CASE 구조 유지
+- Figure 7개 + 필요한 Fact Box
+- Cross-reference 적극 적용
+- 신규 증가: 약 **55~61p**
+- 예상 내지: 약 **214~220p**
+
+### Expanded
+- Optional Figure 포함
+- Deep Dive 일부 3p 이상
+- Chapter intro/Box 확대
+- 신규 증가: 약 **62~67p**
+- 예상 내지: 약 **221~226p**
+
+## Current editorial target
+
+현재 권장 목표는 **214~220p**다.
+
+이는 기존 목표 210~220p와 대체로 일치하며, 220p를 넘기지 않으려면:
+- CASE42~45·46/70~73·47/74의 동일 프로젝트 설명 반복 최소화
+- CASE75/76은 CASE28 배경 반복 금지
+- CASE48/51은 기존 CASE36/35의 모델 개요 반복 금지
+- CASE53/64/66은 raster Figure보다 Fact Box/Table 우선
+- Optional CASE44-F02는 실제 조판 후 공간이 허용될 때만 사용
+- 공통 M&V 설명은 Chapter 29로 Cross-reference
+를 유지한다.
+
+This remains a planning estimate; final page count is determined only after Word layout and pagination.
