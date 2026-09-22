@@ -21,7 +21,10 @@
     "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
     "round2Status": "BOOK_REVISION_CANDIDATE",
     "bookSourceStatus": "APPROVED_FINAL_SOURCE_RECOVERED",
-    "bookSourceFile": "02_BOOK_SOURCE/CASE42_APPROVED_FINAL.txt"
+    "bookSourceFile": "02_BOOK_SOURCE/CASE42_APPROVED_FINAL.txt",
+    "officialBookSourceFile": "case42_approval_final.txt",
+    "officialSourcePriority": 1,
+    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK"
   },
   {
     "caseNo": 43,
@@ -45,7 +48,10 @@
     "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
     "round2Status": "BOOK_REVISION_CANDIDATE",
     "bookSourceStatus": "APPROVED_FINAL_SOURCE_RECOVERED",
-    "bookSourceFile": "02_BOOK_SOURCE/CASE43_APPROVED_FINAL.txt"
+    "bookSourceFile": "02_BOOK_SOURCE/CASE43_APPROVED_FINAL.txt",
+    "officialBookSourceFile": "case43_approval_final.txt",
+    "officialSourcePriority": 1,
+    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK"
   },
   {
     "caseNo": 44,
@@ -69,7 +75,10 @@
     "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
     "round2Status": "BOOK_REVISION_CANDIDATE",
     "bookSourceStatus": "APPROVED_FINAL_SOURCE_RECOVERED",
-    "bookSourceFile": "02_BOOK_SOURCE/CASE44_APPROVED_FINAL.txt"
+    "bookSourceFile": "02_BOOK_SOURCE/CASE44_APPROVED_FINAL.txt",
+    "officialBookSourceFile": "case44_approval_final.txt",
+    "officialSourcePriority": 1,
+    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK"
   },
   {
     "caseNo": 45,
@@ -93,7 +102,10 @@
     "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
     "round2Status": "BOOK_REVISION_CANDIDATE",
     "bookSourceStatus": "APPROVED_FINAL_SOURCE_RECOVERED",
-    "bookSourceFile": "02_BOOK_SOURCE/CASE45_APPROVED_FINAL.txt"
+    "bookSourceFile": "02_BOOK_SOURCE/CASE45_APPROVED_FINAL.txt",
+    "officialBookSourceFile": "case45_approval_final.txt",
+    "officialSourcePriority": 1,
+    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK"
   },
   {
     "caseNo": 46,
@@ -117,7 +129,10 @@
     "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
     "round2Status": "BOOK_REVISION_CANDIDATE",
     "bookSourceStatus": "APPROVED_FINAL_SOURCE_RECOVERED",
-    "bookSourceFile": "02_BOOK_SOURCE/CASE46_APPROVED_FINAL.txt"
+    "bookSourceFile": "02_BOOK_SOURCE/CASE46_APPROVED_FINAL.txt",
+    "officialBookSourceFile": "case46_approval_final.txt",
+    "officialSourcePriority": 1,
+    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK"
   },
   {
     "caseNo": 47,
@@ -141,7 +156,10 @@
     "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
     "round2Status": "BOOK_REVISION_CANDIDATE",
     "bookSourceStatus": "APPROVED_FINAL_SOURCE_RECOVERED",
-    "bookSourceFile": "02_BOOK_SOURCE/CASE47_APPROVED_FINAL.txt"
+    "bookSourceFile": "02_BOOK_SOURCE/CASE47_APPROVED_FINAL.txt",
+    "officialBookSourceFile": "case47_approval_final.txt",
+    "officialSourcePriority": 1,
+    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK"
   },
   {
     "caseNo": 48,
@@ -165,7 +183,10 @@
     "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
     "round2Status": "BOOK_REVISION_CANDIDATE",
     "bookSourceStatus": "APPROVED_FINAL_SOURCE_RECOVERED",
-    "bookSourceFile": "02_BOOK_SOURCE/CASE48_APPROVED_FINAL.txt"
+    "bookSourceFile": "02_BOOK_SOURCE/CASE48_APPROVED_FINAL.txt",
+    "officialBookSourceFile": "case48_approval_final.txt",
+    "officialSourcePriority": 1,
+    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK"
   },
   {
     "caseNo": 49,
@@ -189,7 +210,10 @@
     "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
     "round2Status": "BOOK_REVISION_CANDIDATE",
     "bookSourceStatus": "APPROVED_FINAL_SOURCE_RECOVERED",
-    "bookSourceFile": "02_BOOK_SOURCE/CASE49_APPROVED_FINAL.txt"
+    "bookSourceFile": "02_BOOK_SOURCE/CASE49_APPROVED_FINAL.txt",
+    "officialBookSourceFile": "case49_approval_final.txt",
+    "officialSourcePriority": 1,
+    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK"
   },
   {
     "caseNo": 50,
@@ -215,7 +239,10 @@
     "bookSourceStatus": "APPROVED_FINAL_SOURCE_RECOVERED",
     "bookSourceFile": "02_BOOK_SOURCE/CASE50_APPROVED_FINAL.txt",
     "sourceReconciliation": "HOLD",
-    "sourceReconciliationReason": "Visible approved-final narrative/title is large-office WWR/SC simulation, while JSON-LD and legacy boundary metadata still identify childcare Passive House. Approved source exists, but exact original source bytes are not currently exposed for direct comparison."
+    "sourceReconciliationReason": "Visible approved-final narrative/title is large-office WWR/SC simulation, while JSON-LD and legacy boundary metadata still identify childcare Passive House. Approved source exists, but exact original source bytes are not currently exposed for direct comparison.",
+    "officialBookSourceFile": "case50_approval_final.txt",
+    "officialSourcePriority": 1,
+    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK"
   },
   {
     "caseNo": 51,
@@ -239,7 +266,10 @@
     "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
     "round2Status": "BOOK_REVISION_CANDIDATE",
     "bookSourceStatus": "APPROVED_FINAL_SOURCE_RECOVERED",
-    "bookSourceFile": "02_BOOK_SOURCE/CASE51_APPROVED_FINAL_REV02.txt"
+    "bookSourceFile": "02_BOOK_SOURCE/CASE51_APPROVED_FINAL_REV02.txt",
+    "officialBookSourceFile": "case51_approval_final.txt",
+    "officialSourcePriority": 1,
+    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK"
   },
   {
     "caseNo": 52,
@@ -263,7 +293,10 @@
     "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
     "round2Status": "BOOK_REVISION_CANDIDATE",
     "bookSourceStatus": "APPROVED_FINAL_SOURCE_RECOVERED",
-    "bookSourceFile": "02_BOOK_SOURCE/CASE52_APPROVED_FINAL.txt"
+    "bookSourceFile": "02_BOOK_SOURCE/CASE52_APPROVED_FINAL.txt",
+    "officialBookSourceFile": "case52_approval_final.txt",
+    "officialSourcePriority": 1,
+    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK"
   },
   {
     "caseNo": 53,
@@ -287,7 +320,10 @@
     "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
     "round2Status": "BOOK_REVISION_CANDIDATE",
     "bookSourceStatus": "APPROVED_FINAL_SOURCE_RECOVERED",
-    "bookSourceFile": "02_BOOK_SOURCE/CASE53_APPROVED_FINAL.txt"
+    "bookSourceFile": "02_BOOK_SOURCE/CASE53_APPROVED_FINAL.txt",
+    "officialBookSourceFile": "case53_approval_final.txt",
+    "officialSourcePriority": 1,
+    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK"
   },
   {
     "caseNo": 54,
@@ -311,7 +347,10 @@
     "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
     "round2Status": "BOOK_REVISION_CANDIDATE",
     "bookSourceStatus": "APPROVED_FINAL_SOURCE_RECOVERED",
-    "bookSourceFile": "02_BOOK_SOURCE/CASE54_APPROVED_FINAL.txt"
+    "bookSourceFile": "02_BOOK_SOURCE/CASE54_APPROVED_FINAL.txt",
+    "officialBookSourceFile": "case54_approval_final.txt",
+    "officialSourcePriority": 1,
+    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK"
   },
   {
     "caseNo": 55,
@@ -335,7 +374,10 @@
     "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
     "round2Status": "BOOK_REVISION_CANDIDATE",
     "bookSourceStatus": "APPROVED_FINAL_SOURCE_RECOVERED",
-    "bookSourceFile": "02_BOOK_SOURCE/CASE55_APPROVED_FINAL.txt"
+    "bookSourceFile": "02_BOOK_SOURCE/CASE55_APPROVED_FINAL.txt",
+    "officialBookSourceFile": "case55_approval_final.txt",
+    "officialSourcePriority": 1,
+    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK"
   },
   {
     "caseNo": 56,
@@ -359,7 +401,10 @@
     "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
     "round2Status": "BOOK_REVISION_CANDIDATE",
     "bookSourceStatus": "APPROVED_FINAL_SOURCE_RECOVERED",
-    "bookSourceFile": "02_BOOK_SOURCE/CASE56_APPROVED_FINAL.txt"
+    "bookSourceFile": "02_BOOK_SOURCE/CASE56_APPROVED_FINAL.txt",
+    "officialBookSourceFile": "case56_approval_final.txt",
+    "officialSourcePriority": 1,
+    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK"
   },
   {
     "caseNo": 57,
@@ -383,7 +428,10 @@
     "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
     "round2Status": "BOOK_REVISION_CANDIDATE",
     "bookSourceStatus": "APPROVED_FINAL_SOURCE_RECOVERED",
-    "bookSourceFile": "02_BOOK_SOURCE/CASE57_APPROVED_FINAL.txt"
+    "bookSourceFile": "02_BOOK_SOURCE/CASE57_APPROVED_FINAL.txt",
+    "officialBookSourceFile": "case57_approval_final.txt",
+    "officialSourcePriority": 1,
+    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK"
   },
   {
     "caseNo": 58,
@@ -407,7 +455,10 @@
     "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
     "round2Status": "BOOK_REVISION_CANDIDATE",
     "bookSourceStatus": "APPROVED_FINAL_SOURCE_RECOVERED",
-    "bookSourceFile": "02_BOOK_SOURCE/CASE58_APPROVED_FINAL.txt"
+    "bookSourceFile": "02_BOOK_SOURCE/CASE58_APPROVED_FINAL.txt",
+    "officialBookSourceFile": "case58_approval_final.txt",
+    "officialSourcePriority": 1,
+    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK"
   },
   {
     "caseNo": 59,
@@ -431,7 +482,10 @@
     "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
     "round2Status": "BOOK_REVISION_CANDIDATE",
     "bookSourceStatus": "APPROVED_FINAL_SOURCE_RECOVERED",
-    "bookSourceFile": "02_BOOK_SOURCE/CASE59_APPROVED_FINAL.txt"
+    "bookSourceFile": "02_BOOK_SOURCE/CASE59_APPROVED_FINAL.txt",
+    "officialBookSourceFile": "case59_approval_final.txt",
+    "officialSourcePriority": 1,
+    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK"
   },
   {
     "caseNo": 60,
@@ -455,7 +509,10 @@
     "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
     "round2Status": "BOOK_REVISION_CANDIDATE",
     "bookSourceStatus": "APPROVED_FINAL_SOURCE_RECOVERED",
-    "bookSourceFile": "02_BOOK_SOURCE/CASE60_APPROVED_FINAL.txt"
+    "bookSourceFile": "02_BOOK_SOURCE/CASE60_APPROVED_FINAL.txt",
+    "officialBookSourceFile": "case60_approval_final.txt",
+    "officialSourcePriority": 1,
+    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK"
   },
   {
     "caseNo": 61,
@@ -479,7 +536,10 @@
     "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
     "round2Status": "BOOK_REVISION_CANDIDATE",
     "bookSourceStatus": "APPROVED_FINAL_SOURCE_RECOVERED",
-    "bookSourceFile": "02_BOOK_SOURCE/CASE61_APPROVED_FINAL.txt"
+    "bookSourceFile": "02_BOOK_SOURCE/CASE61_APPROVED_FINAL.txt",
+    "officialBookSourceFile": "case61_approval_final.txt",
+    "officialSourcePriority": 1,
+    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK"
   },
   {
     "caseNo": 62,
@@ -503,7 +563,10 @@
     "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
     "round2Status": "BOOK_REVISION_CANDIDATE",
     "bookSourceStatus": "APPROVED_FINAL_SOURCE_RECOVERED",
-    "bookSourceFile": "02_BOOK_SOURCE/CASE62_APPROVED_FINAL.txt"
+    "bookSourceFile": "02_BOOK_SOURCE/CASE62_APPROVED_FINAL.txt",
+    "officialBookSourceFile": "case62_approval_final.txt",
+    "officialSourcePriority": 1,
+    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK"
   },
   {
     "caseNo": 63,
@@ -527,7 +590,10 @@
     "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
     "round2Status": "BOOK_REVISION_CANDIDATE",
     "bookSourceStatus": "APPROVED_FINAL_SOURCE_RECOVERED",
-    "bookSourceFile": "02_BOOK_SOURCE/CASE63_APPROVED_FINAL.txt"
+    "bookSourceFile": "02_BOOK_SOURCE/CASE63_APPROVED_FINAL.txt",
+    "officialBookSourceFile": "case63_approval_final.txt",
+    "officialSourcePriority": 1,
+    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK"
   },
   {
     "caseNo": 64,
@@ -551,7 +617,10 @@
     "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
     "round2Status": "BOOK_REVISION_CANDIDATE",
     "bookSourceStatus": "APPROVED_FINAL_SOURCE_RECOVERED",
-    "bookSourceFile": "02_BOOK_SOURCE/CASE64_APPROVED_FINAL.txt"
+    "bookSourceFile": "02_BOOK_SOURCE/CASE64_APPROVED_FINAL.txt",
+    "officialBookSourceFile": "case64_approval_final.txt",
+    "officialSourcePriority": 1,
+    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK"
   },
   {
     "caseNo": 65,
@@ -575,7 +644,10 @@
     "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
     "round2Status": "BOOK_REVISION_CANDIDATE",
     "bookSourceStatus": "APPROVED_FINAL_SOURCE_RECOVERED",
-    "bookSourceFile": "02_BOOK_SOURCE/CASE65_APPROVED_FINAL.txt"
+    "bookSourceFile": "02_BOOK_SOURCE/CASE65_APPROVED_FINAL.txt",
+    "officialBookSourceFile": "case65_approval_final.txt",
+    "officialSourcePriority": 1,
+    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK"
   },
   {
     "caseNo": 66,
@@ -599,7 +671,10 @@
     "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
     "round2Status": "BOOK_REVISION_CANDIDATE",
     "bookSourceStatus": "APPROVED_FINAL_SOURCE_RECOVERED",
-    "bookSourceFile": "02_BOOK_SOURCE/CASE66_APPROVED_FINAL.txt"
+    "bookSourceFile": "02_BOOK_SOURCE/CASE66_APPROVED_FINAL.txt",
+    "officialBookSourceFile": "case66_approval_final.txt",
+    "officialSourcePriority": 1,
+    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK"
   },
   {
     "caseNo": 67,
@@ -623,7 +698,10 @@
     "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
     "round2Status": "BOOK_REVISION_CANDIDATE",
     "bookSourceStatus": "APPROVED_FINAL_SOURCE_RECOVERED",
-    "bookSourceFile": "02_BOOK_SOURCE/CASE67_APPROVED_FINAL.txt"
+    "bookSourceFile": "02_BOOK_SOURCE/CASE67_APPROVED_FINAL.txt",
+    "officialBookSourceFile": "case67_approval_final.txt",
+    "officialSourcePriority": 1,
+    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK"
   },
   {
     "caseNo": 68,
@@ -647,7 +725,10 @@
     "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
     "round2Status": "BOOK_REVISION_CANDIDATE",
     "bookSourceStatus": "APPROVED_FINAL_SOURCE_RECOVERED",
-    "bookSourceFile": "02_BOOK_SOURCE/CASE68_APPROVED_FINAL.txt"
+    "bookSourceFile": "02_BOOK_SOURCE/CASE68_APPROVED_FINAL.txt",
+    "officialBookSourceFile": "case68_approval_final.txt",
+    "officialSourcePriority": 1,
+    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK"
   },
   {
     "caseNo": 69,
@@ -671,7 +752,10 @@
     "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
     "round2Status": "BOOK_REVISION_CANDIDATE",
     "bookSourceStatus": "APPROVED_FINAL_SOURCE_RECOVERED",
-    "bookSourceFile": "02_BOOK_SOURCE/CASE69_APPROVED_FINAL.txt"
+    "bookSourceFile": "02_BOOK_SOURCE/CASE69_APPROVED_FINAL.txt",
+    "officialBookSourceFile": "case69_approval_final.txt",
+    "officialSourcePriority": 1,
+    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK"
   },
   {
     "caseNo": 70,
@@ -695,7 +779,10 @@
     "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
     "round2Status": "BOOK_REVISION_CANDIDATE",
     "bookSourceStatus": "APPROVED_FINAL_SOURCE_RECOVERED",
-    "bookSourceFile": "02_BOOK_SOURCE/CASE70_APPROVED_FINAL.txt"
+    "bookSourceFile": "02_BOOK_SOURCE/CASE70_APPROVED_FINAL.txt",
+    "officialBookSourceFile": "case70_approval_final.txt",
+    "officialSourcePriority": 1,
+    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK"
   },
   {
     "caseNo": 71,
@@ -719,7 +806,10 @@
     "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
     "round2Status": "BOOK_REVISION_CANDIDATE",
     "bookSourceStatus": "APPROVED_FINAL_SOURCE_RECOVERED",
-    "bookSourceFile": "02_BOOK_SOURCE/CASE71_APPROVED_FINAL.txt"
+    "bookSourceFile": "02_BOOK_SOURCE/CASE71_APPROVED_FINAL.txt",
+    "officialBookSourceFile": "case71_approval_final.txt",
+    "officialSourcePriority": 1,
+    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK"
   },
   {
     "caseNo": 72,
@@ -743,7 +833,10 @@
     "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
     "round2Status": "BOOK_REVISION_CANDIDATE",
     "bookSourceStatus": "APPROVED_FINAL_SOURCE_RECOVERED",
-    "bookSourceFile": "02_BOOK_SOURCE/CASE72_APPROVED_FINAL.txt"
+    "bookSourceFile": "02_BOOK_SOURCE/CASE72_APPROVED_FINAL.txt",
+    "officialBookSourceFile": "case72_approval_final.txt",
+    "officialSourcePriority": 1,
+    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK"
   },
   {
     "caseNo": 73,
@@ -767,7 +860,10 @@
     "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
     "round2Status": "BOOK_REVISION_CANDIDATE",
     "bookSourceStatus": "APPROVED_FINAL_SOURCE_RECOVERED",
-    "bookSourceFile": "02_BOOK_SOURCE/CASE73_APPROVED_FINAL.txt"
+    "bookSourceFile": "02_BOOK_SOURCE/CASE73_APPROVED_FINAL.txt",
+    "officialBookSourceFile": "case73_approval_final.txt",
+    "officialSourcePriority": 1,
+    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK"
   },
   {
     "caseNo": 74,
@@ -791,7 +887,10 @@
     "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
     "round2Status": "BOOK_REVISION_CANDIDATE",
     "bookSourceStatus": "APPROVED_FINAL_SOURCE_RECOVERED",
-    "bookSourceFile": "02_BOOK_SOURCE/CASE74_APPROVED_FINAL.txt"
+    "bookSourceFile": "02_BOOK_SOURCE/CASE74_APPROVED_FINAL.txt",
+    "officialBookSourceFile": "case74_approval_final.txt",
+    "officialSourcePriority": 1,
+    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK"
   },
   {
     "caseNo": 75,
@@ -815,7 +914,10 @@
     "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
     "round2Status": "BOOK_REVISION_CANDIDATE",
     "bookSourceStatus": "APPROVED_FINAL_SOURCE_RECOVERED",
-    "bookSourceFile": "02_BOOK_SOURCE/CASE75_APPROVED_FINAL.txt"
+    "bookSourceFile": "02_BOOK_SOURCE/CASE75_APPROVED_FINAL.txt",
+    "officialBookSourceFile": "case75_approval_final.txt",
+    "officialSourcePriority": 1,
+    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK"
   },
   {
     "caseNo": 76,
@@ -839,7 +941,10 @@
     "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
     "round2Status": "BOOK_REVISION_CANDIDATE",
     "bookSourceStatus": "APPROVED_FINAL_SOURCE_RECOVERED",
-    "bookSourceFile": "02_BOOK_SOURCE/CASE76_APPROVED_FINAL.txt"
+    "bookSourceFile": "02_BOOK_SOURCE/CASE76_APPROVED_FINAL.txt",
+    "officialBookSourceFile": "case76_approval_final.txt",
+    "officialSourcePriority": 1,
+    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK"
   },
   {
     "caseNo": 77,
@@ -862,9 +967,12 @@
     "proposedChapterTitle": "데이터센터 PUE와 냉방 최적화",
     "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
     "round2Status": "BOOK_REVISION_CANDIDATE",
-    "bookSourceStatus": "SOURCE_BASIS_IDENTIFIED_EXACT_FILENAME_PENDING",
-    "bookSourceFile": null,
-    "bookSourceBasis": "2017 IDC 에너지성능 개선 컨설팅 자료 + 기존 CASE 기록 복원 + 외부 기술 Reference 보강"
+    "bookSourceStatus": "OFFICIAL_SOURCE_NAME_CONFIRMED_CONTENT_BYTES_NOT_DIRECTLY_RETRIEVED",
+    "bookSourceFile": "case77_approval_final.txt",
+    "bookSourceBasis": "2017 IDC 에너지성능 개선 컨설팅 자료 + 기존 CASE 기록 복원 + 외부 기술 Reference 보강",
+    "officialBookSourceFile": "case77_approval_final.txt",
+    "officialSourcePriority": 1,
+    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK"
   },
   {
     "caseNo": 78,
@@ -887,9 +995,12 @@
     "proposedChapterTitle": "냉동기 Plant 최적화",
     "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
     "round2Status": "BOOK_REVISION_CANDIDATE",
-    "bookSourceStatus": "SOURCE_BASIS_IDENTIFIED_EXACT_FILENAME_PENDING",
-    "bookSourceFile": null,
-    "bookSourceBasis": "비식별 국내 반도체·디스플레이 제조시설 EEMS/Trend/Utility 원자료 + 외부 기술동향 Reference"
+    "bookSourceStatus": "OFFICIAL_SOURCE_NAME_CONFIRMED_CONTENT_BYTES_NOT_DIRECTLY_RETRIEVED",
+    "bookSourceFile": "case78_approval_final.txt",
+    "bookSourceBasis": "비식별 국내 반도체·디스플레이 제조시설 EEMS/Trend/Utility 원자료 + 외부 기술동향 Reference",
+    "officialBookSourceFile": "case78_approval_final.txt",
+    "officialSourcePriority": 1,
+    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK"
   },
   {
     "caseNo": 79,
@@ -912,9 +1023,12 @@
     "proposedChapterTitle": "데이터센터 PUE와 냉방 최적화",
     "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
     "round2Status": "BOOK_REVISION_CANDIDATE",
-    "bookSourceStatus": "SOURCE_BASIS_IDENTIFIED_EXACT_FILENAME_PENDING",
-    "bookSourceFile": null,
-    "bookSourceBasis": "비식별 국내 데이터센터 운전데이터 분석 PPT + EEMS/Trend Excel + 실시간 운전가이드 자료"
+    "bookSourceStatus": "OFFICIAL_SOURCE_NAME_CONFIRMED_CONTENT_BYTES_NOT_DIRECTLY_RETRIEVED",
+    "bookSourceFile": "case79_approval_final.txt",
+    "bookSourceBasis": "비식별 국내 데이터센터 운전데이터 분석 PPT + EEMS/Trend Excel + 실시간 운전가이드 자료",
+    "officialBookSourceFile": "case79_approval_final.txt",
+    "officialSourcePriority": 1,
+    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK"
   },
   {
     "caseNo": 80,
@@ -937,9 +1051,12 @@
     "proposedChapterTitle": "데이터센터 PUE와 냉방 최적화",
     "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
     "round2Status": "BOOK_REVISION_CANDIDATE",
-    "bookSourceStatus": "SOURCE_BASIS_IDENTIFIED_EXACT_FILENAME_PENDING",
-    "bookSourceFile": null,
-    "bookSourceBasis": "비식별 국내 데이터센터 냉방·냉동기 관련 원자료 + 실시간 운전가이드 자료"
+    "bookSourceStatus": "OFFICIAL_SOURCE_NAME_CONFIRMED_CONTENT_BYTES_NOT_DIRECTLY_RETRIEVED",
+    "bookSourceFile": "case80_approval_final.txt",
+    "bookSourceBasis": "비식별 국내 데이터센터 냉방·냉동기 관련 원자료 + 실시간 운전가이드 자료",
+    "officialBookSourceFile": "case80_approval_final.txt",
+    "officialSourcePriority": 1,
+    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK"
   },
   {
     "caseNo": 81,
@@ -962,9 +1079,12 @@
     "proposedChapterTitle": "데이터센터 PUE와 냉방 최적화",
     "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
     "round2Status": "BOOK_REVISION_CANDIDATE",
-    "bookSourceStatus": "SOURCE_BASIS_IDENTIFIED_EXACT_FILENAME_PENDING",
-    "bookSourceFile": null,
-    "bookSourceBasis": "비식별 국내 데이터센터 냉각탑 성능진단·설정온도 Test·실시간 운전가이드 관련 원자료"
+    "bookSourceStatus": "OFFICIAL_SOURCE_NAME_CONFIRMED_CONTENT_BYTES_NOT_DIRECTLY_RETRIEVED",
+    "bookSourceFile": "case81_approval_final.txt",
+    "bookSourceBasis": "비식별 국내 데이터센터 냉각탑 성능진단·설정온도 Test·실시간 운전가이드 관련 원자료",
+    "officialBookSourceFile": "case81_approval_final.txt",
+    "officialSourcePriority": 1,
+    "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK"
   },
   {
     "caseNo": 82,
@@ -988,6 +1108,9 @@
     "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
     "round2Status": "BOOK_REVISION_CANDIDATE",
     "bookSourceStatus": "PRODUCTION_LOCKED_DATA_QA_SOURCE",
-    "bookSourceFile": "data/cases-data.js + CASE82 restored public QA"
+    "bookSourceFile": "data/cases-data.js + CASE82 restored public QA",
+    "officialBookSourceFile": "CASE82 production locked data + QA",
+    "officialSourcePriority": 1,
+    "manuscriptFidelityStatus": "REQUIRES_LOCKED_DATA_FIDELITY_CHECK"
   }
 ]
