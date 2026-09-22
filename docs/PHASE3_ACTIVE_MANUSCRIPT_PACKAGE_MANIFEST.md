@@ -102,11 +102,11 @@ Current editorial target: **214~220p**
 - CASE42~76: Approved Final Source recovered; direct final manuscript fidelity still governed by Approval Final TXT comparison
 - CASE77~81: standalone Approval Final TXT directly reviewed; **Final Fidelity PASS 5/5**
 - CASE82: Production locked data + QA source basis
-- CASE50: Source identity conflict; excluded until reconciliation
+- CASE50: Source identity resolved by direct Approval Final TXT; book inclusion remains USER DECISION PENDING and is excluded until that decision
 
 ## 9. Blocking gates before actual Word integration
 
-1. CASE50 source reconciliation
+1. CASE50 book inclusion decision after source reconciliation
 3. User confirmation of proposed Expanded Edition TOC
 4. User confirmation of final Figure selection
 5. Book print permission/anonymization review
@@ -152,7 +152,7 @@ See:
 
 Remaining blockers are intentionally compressed to four gates:
 - strict source-byte identity
-- CASE50 source reconciliation
+- CASE50 book inclusion decision after source reconciliation
 - user TOC/Figure approval + print permission
 - Word working-copy authorization
 
