@@ -226,3 +226,9 @@ Draft PR → Ready for Review → Merge → GitHub Pages → Production Smoke Te
 - Production CASE01 upper smoke: PASS
   - title, summary, tags and evidence summary render correctly
   - official CASE01 content is visible after merge
+
+- Production CASE01 Knowledge Connection: PASS
+  - Related Book card visible
+  - Related Insight = Baseline & M&V Insight
+  - CASE Library link visible
+  - Professional Consultation & Collaboration link visible
