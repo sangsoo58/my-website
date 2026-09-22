@@ -1,7 +1,7 @@
 # CASE 80 | DEEP DIVE 후보 — 데이터센터 냉동기 부분부하·가동대수·운전조합 최적화
 
 **편집상태:** PHASE 3 DRAFT / USER REVIEW REQUIRED  
-**배치안:** PART 5 · Chapter 23 · 데이터센터 PUE와 냉방 최적화  
+**배치안:** PART 5 · Proposed Chapter 24 · 데이터센터 PUE와 냉방 최적화
 **Evidence:** B/C · Field Data / Optimization Direction  
 **Web:** /cases/case80.html
 
