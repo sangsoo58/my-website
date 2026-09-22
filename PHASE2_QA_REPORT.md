@@ -255,3 +255,34 @@ Draft PR → Ready for Review → Merge → GitHub Pages → Production Smoke Te
   - anon INSERT permitted under current RLS policy
   - QA insert executed inside a transaction and rolled back (no test record retained)
   - anon SELECT remains denied
+
+
+## 12. Phase 2 Final Status
+
+Status: COMPLETE / PRODUCTION
+
+Completed:
+- Production homepage Phase 2 deployment verified
+- Homepage desktop/mobile browser QA completed
+- CASE01 / CASE41 / CASE42 / CASE82 browser QA completed
+- Web ↔ Book mapping: 82 total / 41 current book / 41 future pending
+- Book Reader production smoke test completed
+- Expert Profile production structure verified
+- Consultation form desktop/mobile QA completed
+- Consultation runtime restored and Supabase wiring verified
+- Consultation RLS verified: anonymous INSERT only; no anonymous SELECT/UPDATE/DELETE
+- Lee Sang-soo account is the only human administrator in admin_users
+- Non-admin authenticated account sees 0 consultation rows
+- Anonymous INSERT rollback smoke test passed
+- Homepage CASE cards use real titles and source-derived summaries
+- Standalone CASE Library v3.4 is bound by CASE number to all 82 real titles/summaries
+- Placeholder card text fallback count: 0
+- Official numeric CASE links: 82/82
+- Book Reader web CASE links: 41/41
+- robots.txt / sitemap.xml preserved
+- privacy.html explicitly states Lee Sang-soo-only consultation data access
+
+Branch handling:
+- main is the Production source
+- phase2-knowledge-platform-candidate is retained temporarily as a recovery/reference branch
+- no further Phase 2 feature edits are required before starting the next phase
