@@ -1,4 +1,4 @@
-# CASE 73 | 응용사례 — 냉각탑 설정온도와 Chiller·Tower 통합 최적화
+# CASE 73 | 응용사례 — 데이터센터 냉각탑 설정온도 최적화를 통한 냉동기·냉각탑 통합 냉방전력 저감
 
 **편집상태:** PHASE 3 DRAFT / USER REVIEW REQUIRED  
 **배치안:** PART 5 · Proposed Chapter 24 · 데이터센터 PUE와 냉방 최적화
