@@ -1,7 +1,7 @@
 # CASE 68 | DEEP DIVE 후보 — 스팀유량 계측 이상과 Data Quality Gate
 
 **편집상태:** PHASE 3 DRAFT / USER REVIEW REQUIRED  
-**편집 배치안 (Expanded Edition Proposal):** PART 4 · Chapter 15 · 보일러 시스템 운전최적화
+**편집 배치안 (Expanded Edition Proposal):** PART 4 · Proposed Chapter 15 · 보일러 시스템 운전최적화
 **Evidence:** C · Data Quality / M&V Readiness  
 **Web:** /cases/case68.html
 
