@@ -1,4 +1,4 @@
-# CASE 49 | 응용사례 — 외피·조명·열원설비 설계변경 Simulation
+# CASE 49 | 응용사례 — 외피·조명·열원설비 설계변경이 건물에너지에 미치는 영향을 비교한 Simulation
 
 **편집상태:** PHASE 3 DRAFT / USER REVIEW REQUIRED  
 **편집 배치안 (Expanded Edition Proposal):** PART 5 · Chapter 23 · 신축건물 Energy Modeling
