@@ -1,7 +1,7 @@
 # CASE 65 | DEEP DIVE 후보 — 보일러 호기별 에너지원단위 비교와 고효율 호기 우선운전
 
 **편집상태:** PHASE 3 DRAFT / USER REVIEW REQUIRED  
-**편집 배치안 (Expanded Edition Proposal):** PART 4 · Chapter 15 · 보일러 시스템 운전최적화
+**편집 배치안 (Expanded Edition Proposal):** PART 4 · Proposed Chapter 15 · 보일러 시스템 운전최적화
 **Evidence:** A · Field Test / Verified Saving  
 **Web:** /cases/case65.html
 
