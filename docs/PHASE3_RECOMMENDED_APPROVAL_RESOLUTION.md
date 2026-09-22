@@ -20,10 +20,11 @@ The current Phase 3 package is sufficiently mature to recommend the following ap
    - use 220p as the editorial ceiling where practical
    - preserve stronger de-duplication before increasing page count
 
-4. **Keep CASE50 excluded**
-   - no placeholder page
-   - no active Figure/Table
-   - re-enter only after source reconciliation
+4. **Keep CASE50 as a non-separate body by default**
+   - source identity is now resolved as the large-office fenestration Simulation
+   - WWR/SC/Curtain results materially overlap CASE49
+   - for the 214~220p target, absorb its fenestration insight into CASE49 Fact Box/Cross-reference rather than add a separate page
+   - if the user explicitly wants all CASE IDs represented as separate body cases, include CASE50 in Ch.23 at about 0.75~1.0p
 
 5. **Authorize a separate Expanded Edition Word working copy**
    - do not overwrite Editable Word Master v1.7
@@ -57,7 +58,7 @@ Before final publication:
 **APPROVE PHASE 3 EDITORIAL DIRECTION**
 - 29-Chapter Expanded TOC: APPROVE
 - 40 active CASE integration scope: APPROVE
-- CASE50 HOLD/exclusion: MAINTAIN
+- CASE50 source: RESOLVED; default editorial treatment: merge/cross-reference under CASE49 rather than separate body
 - Figure plan 7 primary + 1 optional + 3 Table/Fact Box: APPROVE
 - target 214~220p: APPROVE
 - separate Expanded Edition Word working copy: AUTHORIZE AFTER REMAINING SOURCE/PERMISSION CHECKS
