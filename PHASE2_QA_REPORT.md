@@ -250,3 +250,8 @@ Draft PR → Ready for Review → Merge → GitHub Pages → Production Smoke Te
   - Lee Sang-soo admin account: is_admin() = true; consultation rows visible
   - non-admin authenticated user: is_admin() = false; visible consultation rows = 0
   - RLS policies enforce Lee Sang-soo-only human access to consultation data
+
+- Anonymous consultation INSERT smoke: PASS
+  - anon INSERT permitted under current RLS policy
+  - QA insert executed inside a transaction and rolled back (no test record retained)
+  - anon SELECT remains denied
