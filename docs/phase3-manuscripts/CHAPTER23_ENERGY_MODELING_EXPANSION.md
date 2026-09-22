@@ -2,7 +2,7 @@
 
 **편집상태:** ROUND 2 BOOK-STYLE DRAFT  
 **Expanded Edition Chapter 23 / 기존 Chapter 22에서 +1 이동**  
-**CASE48,49,51 추가 / CASE50 Source HOLD 제외**
+**CASE48,49,51 추가 / CASE50 Source reconciled·별도 포함 여부 사용자 결정 대기**
 
 ## DUPLICATION CONTROL
 
@@ -11,7 +11,7 @@ CASE48·51은 현재 출간본의 기존 Energy Modeling CASE와 동일 프로�
 - CASE48 ↔ CASE36: 동일 DOE-2.1E 설계검토 계열. CASE36은 개요, CASE48은 133층 복합건물의 용도·월별·1차에너지 상세.
 - CASE51 ↔ CASE35: 동일 LEED Appendix G Performance Rating 계열. CASE35는 개요, CASE51은 72층 모델·Rotation·Cost vs Site Energy 상세.
 - CASE49는 별도 Parametric Study로 유지한다.
-- CASE50은 Source Reconciliation Hold로 Expanded Edition 통합원고에서 제외한다.
+- CASE50의 승인 정본은 대형 오피스 창호 Parametric Simulation으로 확인되었다. 다만 CASE49와 WWR·SC·Curtain 정량결과가 중복되므로 현재 통합원고에서는 제외하고, 별도 CASE 보존 여부는 사용자 결정에 따른다.
 
 같은 모델의 수치를 두 CASE의 독립성과처럼 합산하지 않는다.
 
