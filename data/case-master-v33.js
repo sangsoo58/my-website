@@ -5,7 +5,7 @@ window.CASE_MASTER_V33 = [
     "category": "제조공장",
     "publicationStatus": "저서 연계",
     "bookCaseNo": 1,
-    "caseLink": "manufacturing-case-a.html"
+    "caseLink": "case01.html"
   },
   {
     "caseNo": 2,
@@ -13,7 +13,7 @@ window.CASE_MASTER_V33 = [
     "category": "제조공장",
     "publicationStatus": "저서 연계",
     "bookCaseNo": 2,
-    "caseLink": "manufacturing-case-b.html"
+    "caseLink": "case02.html"
   },
   {
     "caseNo": 3,
@@ -21,7 +21,7 @@ window.CASE_MASTER_V33 = [
     "category": "제조공장",
     "publicationStatus": "저서 연계",
     "bookCaseNo": 3,
-    "caseLink": "manufacturing-case-c.html"
+    "caseLink": "case03.html"
   },
   {
     "caseNo": 4,
@@ -29,7 +29,7 @@ window.CASE_MASTER_V33 = [
     "category": "제조공장",
     "publicationStatus": "저서 연계",
     "bookCaseNo": 4,
-    "caseLink": "manufacturing-case-d.html"
+    "caseLink": "case04.html"
   },
   {
     "caseNo": 5,
@@ -37,7 +37,7 @@ window.CASE_MASTER_V33 = [
     "category": "제조공장",
     "publicationStatus": "저서 연계",
     "bookCaseNo": 5,
-    "caseLink": "manufacturing-case-e.html"
+    "caseLink": "case05.html"
   },
   {
     "caseNo": 6,
@@ -45,7 +45,7 @@ window.CASE_MASTER_V33 = [
     "category": "제조공장",
     "publicationStatus": "저서 연계",
     "bookCaseNo": 6,
-    "caseLink": "injection-extrusion-utility.html"
+    "caseLink": "case06.html"
   },
   {
     "caseNo": 7,
@@ -53,7 +53,7 @@ window.CASE_MASTER_V33 = [
     "category": "제조공장",
     "publicationStatus": "저서 연계",
     "bookCaseNo": 7,
-    "caseLink": "glass-sintering-furnace-optimization.html"
+    "caseLink": "case07.html"
   },
   {
     "caseNo": 8,
@@ -61,7 +61,7 @@ window.CASE_MASTER_V33 = [
     "category": "제조공장",
     "publicationStatus": "저서 연계",
     "bookCaseNo": 8,
-    "caseLink": "semiconductor-cleanroom-hvac.html"
+    "caseLink": "case08.html"
   },
   {
     "caseNo": 9,
@@ -69,7 +69,7 @@ window.CASE_MASTER_V33 = [
     "category": "제조공장",
     "publicationStatus": "저서 연계",
     "bookCaseNo": 9,
-    "caseLink": "semiconductor-chiller-operation-scenario.html"
+    "caseLink": "case09.html"
   },
   {
     "caseNo": 10,
@@ -77,7 +77,7 @@ window.CASE_MASTER_V33 = [
     "category": "제조공장",
     "publicationStatus": "저서 연계",
     "bookCaseNo": 10,
-    "caseLink": "semiconductor-chiller-plant-optimization.html"
+    "caseLink": "case10.html"
   },
   {
     "caseNo": 11,
@@ -85,7 +85,7 @@ window.CASE_MASTER_V33 = [
     "category": "제조공장",
     "publicationStatus": "저서 연계",
     "bookCaseNo": 11,
-    "caseLink": "semiconductor-display-utility-optimization.html"
+    "caseLink": "case11.html"
   },
   {
     "caseNo": 12,
@@ -93,7 +93,7 @@ window.CASE_MASTER_V33 = [
     "category": "제조공장",
     "publicationStatus": "저서 연계",
     "bookCaseNo": 12,
-    "caseLink": "semiconductor-integrated-utility-optimization.html"
+    "caseLink": "case12.html"
   },
   {
     "caseNo": 13,
@@ -101,7 +101,7 @@ window.CASE_MASTER_V33 = [
     "category": "제조공장",
     "publicationStatus": "저서 연계",
     "bookCaseNo": 13,
-    "caseLink": "semiconductor-display-multisite-upi-optimization.html"
+    "caseLink": "case13.html"
   },
   {
     "caseNo": 14,
@@ -109,7 +109,7 @@ window.CASE_MASTER_V33 = [
     "category": "제조공장",
     "publicationStatus": "저서 연계",
     "bookCaseNo": 14,
-    "caseLink": "semiconductor-utility-bigdata-operation-optimization.html"
+    "caseLink": "case14.html"
   },
   {
     "caseNo": 15,
@@ -117,7 +117,7 @@ window.CASE_MASTER_V33 = [
     "category": "제조공장",
     "publicationStatus": "저서 연계",
     "bookCaseNo": 15,
-    "caseLink": "electronics-components-utility-optimization.html"
+    "caseLink": "case15.html"
   },
   {
     "caseNo": 16,
@@ -125,7 +125,7 @@ window.CASE_MASTER_V33 = [
     "category": "제조공장",
     "publicationStatus": "저서 연계",
     "bookCaseNo": 16,
-    "caseLink": "automotive-compressed-air-optimization.html"
+    "caseLink": "case16.html"
   },
   {
     "caseNo": 17,
@@ -133,7 +133,7 @@ window.CASE_MASTER_V33 = [
     "category": "제조공장",
     "publicationStatus": "저서 연계",
     "bookCaseNo": 17,
-    "caseLink": "textile-compressed-air-utility-optimization.html"
+    "caseLink": "case17.html"
   },
   {
     "caseNo": 18,
@@ -141,7 +141,7 @@ window.CASE_MASTER_V33 = [
     "category": "제조공장",
     "publicationStatus": "저서 연계",
     "bookCaseNo": 18,
-    "caseLink": "chemical-plant-compressed-air-system-optimization.html"
+    "caseLink": "case18.html"
   },
   {
     "caseNo": 19,
@@ -149,7 +149,7 @@ window.CASE_MASTER_V33 = [
     "category": "제조공장",
     "publicationStatus": "저서 연계",
     "bookCaseNo": 19,
-    "caseLink": "chemical-plant-utility-optimization.html"
+    "caseLink": "case19.html"
   },
   {
     "caseNo": 20,
@@ -157,7 +157,7 @@ window.CASE_MASTER_V33 = [
     "category": "제조공장",
     "publicationStatus": "저서 연계",
     "bookCaseNo": 20,
-    "caseLink": "steel-melting-furnace-operation-optimization.html"
+    "caseLink": "case20.html"
   },
   {
     "caseNo": 21,
@@ -165,7 +165,7 @@ window.CASE_MASTER_V33 = [
     "category": "제조공장",
     "publicationStatus": "저서 연계",
     "bookCaseNo": 21,
-    "caseLink": "steel-oxygen-plant-compressor-optimization.html"
+    "caseLink": "case21.html"
   },
   {
     "caseNo": 22,
@@ -173,7 +173,7 @@ window.CASE_MASTER_V33 = [
     "category": "제조공장",
     "publicationStatus": "저서 연계",
     "bookCaseNo": 22,
-    "caseLink": "steel-blast-furnace-blower-optimization.html"
+    "caseLink": "case22.html"
   },
   {
     "caseNo": 23,
@@ -181,7 +181,7 @@ window.CASE_MASTER_V33 = [
     "category": "제조공장",
     "publicationStatus": "저서 연계",
     "bookCaseNo": 23,
-    "caseLink": "nonferrous-zinc-fumer-energy-optimization.html"
+    "caseLink": "case23.html"
   },
   {
     "caseNo": 24,
@@ -189,7 +189,7 @@ window.CASE_MASTER_V33 = [
     "category": "제조공장",
     "publicationStatus": "저서 연계",
     "bookCaseNo": 24,
-    "caseLink": "nonferrous-copper-utility-baseline-optimization.html"
+    "caseLink": "case24.html"
   },
   {
     "caseNo": 25,
@@ -197,7 +197,7 @@ window.CASE_MASTER_V33 = [
     "category": "제조공장",
     "publicationStatus": "저서 연계",
     "bookCaseNo": 25,
-    "caseLink": "nonferrous-battery-material-compressed-air-optimization.html"
+    "caseLink": "case25.html"
   },
   {
     "caseNo": 26,
@@ -205,7 +205,7 @@ window.CASE_MASTER_V33 = [
     "category": "제조공장",
     "publicationStatus": "저서 연계",
     "bookCaseNo": 26,
-    "caseLink": "wastewater-inlet-pump-efficiency.html"
+    "caseLink": "case26.html"
   },
   {
     "caseNo": 27,
@@ -213,7 +213,7 @@ window.CASE_MASTER_V33 = [
     "category": "제조공장",
     "publicationStatus": "저서 연계",
     "bookCaseNo": 27,
-    "caseLink": "large-water-pump-system-optimization.html"
+    "caseLink": "case27.html"
   },
   {
     "caseNo": 28,
@@ -221,7 +221,7 @@ window.CASE_MASTER_V33 = [
     "category": "제조공장",
     "publicationStatus": "저서 연계",
     "bookCaseNo": 28,
-    "caseLink": "powerplant-byproduct-gas-auxiliary-optimization.html"
+    "caseLink": "case28.html"
   },
   {
     "caseNo": 29,
@@ -229,7 +229,7 @@ window.CASE_MASTER_V33 = [
     "category": "친환경건축",
     "publicationStatus": "저서 연계",
     "bookCaseNo": 29,
-    "caseLink": "large-building-leed-ashrae-energy-audit.html"
+    "caseLink": "case29.html"
   },
   {
     "caseNo": 30,
@@ -237,7 +237,7 @@ window.CASE_MASTER_V33 = [
     "category": "건물",
     "publicationStatus": "저서 연계",
     "bookCaseNo": 30,
-    "caseLink": "large-existing-building-retrofit-energy-investment-optimization.html"
+    "caseLink": "case30.html"
   },
   {
     "caseNo": 31,
@@ -245,7 +245,7 @@ window.CASE_MASTER_V33 = [
     "category": "건물",
     "publicationStatus": "저서 연계",
     "bookCaseNo": 31,
-    "caseLink": "large-existing-building-detailed-energy-audit-esco.html"
+    "caseLink": "case31.html"
   },
   {
     "caseNo": 32,
@@ -253,7 +253,7 @@ window.CASE_MASTER_V33 = [
     "category": "건물",
     "publicationStatus": "저서 연계",
     "bookCaseNo": 32,
-    "caseLink": "large-temple-15min-electricity-pattern.html"
+    "caseLink": "case32.html"
   },
   {
     "caseNo": 33,
@@ -261,7 +261,7 @@ window.CASE_MASTER_V33 = [
     "category": "건물",
     "publicationStatus": "저서 연계",
     "bookCaseNo": 33,
-    "caseLink": "large-building-bems-energy-management-audit.html"
+    "caseLink": "case33.html"
   },
   {
     "caseNo": 34,
@@ -269,7 +269,7 @@ window.CASE_MASTER_V33 = [
     "category": "건물",
     "publicationStatus": "저서 연계",
     "bookCaseNo": 34,
-    "caseLink": "supertall-building-bems-bpos-operation-optimization.html"
+    "caseLink": "case34.html"
   },
   {
     "caseNo": 35,
@@ -277,7 +277,7 @@ window.CASE_MASTER_V33 = [
     "category": "친환경건축",
     "publicationStatus": "저서 연계",
     "bookCaseNo": 35,
-    "caseLink": "large-new-building-leed-energy-modeling.html"
+    "caseLink": "case35.html"
   },
   {
     "caseNo": 36,
@@ -285,7 +285,7 @@ window.CASE_MASTER_V33 = [
     "category": "친환경건축",
     "publicationStatus": "저서 연계",
     "bookCaseNo": 36,
-    "caseLink": "large-new-building-design-energy-simulation-doe21e.html"
+    "caseLink": "case36.html"
   },
   {
     "caseNo": 37,
@@ -293,7 +293,7 @@ window.CASE_MASTER_V33 = [
     "category": "친환경건축",
     "publicationStatus": "저서 연계",
     "bookCaseNo": 37,
-    "caseLink": "solar-radiation-installation-optimization.html"
+    "caseLink": "case37.html"
   },
   {
     "caseNo": 38,
@@ -301,7 +301,7 @@ window.CASE_MASTER_V33 = [
     "category": "데이터센터",
     "publicationStatus": "저서 연계",
     "bookCaseNo": 38,
-    "caseLink": "data-center-energy-performance.html"
+    "caseLink": "case38.html"
   },
   {
     "caseNo": 39,
@@ -309,7 +309,7 @@ window.CASE_MASTER_V33 = [
     "category": "데이터센터",
     "publicationStatus": "저서 연계",
     "bookCaseNo": 39,
-    "caseLink": "data-center-ipos-performance-optimization.html"
+    "caseLink": "case39.html"
   },
   {
     "caseNo": 40,
@@ -317,7 +317,7 @@ window.CASE_MASTER_V33 = [
     "category": "지역난방·공동주택",
     "publicationStatus": "저서 연계",
     "bookCaseNo": 40,
-    "caseLink": "district-heating-smart-operation.html"
+    "caseLink": "case40.html"
   },
   {
     "caseNo": 41,
@@ -325,7 +325,7 @@ window.CASE_MASTER_V33 = [
     "category": "지역난방·공동주택",
     "publicationStatus": "저서 연계",
     "bookCaseNo": 41,
-    "caseLink": "district-heating-supply-temperature-optimization.html"
+    "caseLink": "case41.html"
   },
   {
     "caseNo": 42,
@@ -333,7 +333,7 @@ window.CASE_MASTER_V33 = [
     "category": "제조공장",
     "publicationStatus": "홈페이지 확장",
     "bookCaseNo": null,
-    "caseLink": "case-042-lgd-utility-efficiency-management.html"
+    "caseLink": "case42.html"
   },
   {
     "caseNo": 43,
@@ -341,7 +341,7 @@ window.CASE_MASTER_V33 = [
     "category": "제조공장",
     "publicationStatus": "홈페이지 확장",
     "bookCaseNo": null,
-    "caseLink": "case-043-lgd-integrated-utility-analysis.html"
+    "caseLink": "case43.html"
   },
   {
     "caseNo": 44,
@@ -349,7 +349,7 @@ window.CASE_MASTER_V33 = [
     "category": "제조공장",
     "publicationStatus": "홈페이지 확장",
     "bookCaseNo": null,
-    "caseLink": "case-044-lgd-multisite-upi-benchmark.html"
+    "caseLink": "case44.html"
   },
   {
     "caseNo": 45,
@@ -357,7 +357,7 @@ window.CASE_MASTER_V33 = [
     "category": "제조공장",
     "publicationStatus": "홈페이지 확장",
     "bookCaseNo": null,
-    "caseLink": "case-045-lgd-bigdata-utility-optimization.html"
+    "caseLink": "case45.html"
   },
   {
     "caseNo": 46,
@@ -365,7 +365,7 @@ window.CASE_MASTER_V33 = [
     "category": "데이터센터",
     "publicationStatus": "홈페이지 확장",
     "bookCaseNo": null,
-    "caseLink": "case-046-multi-idc-pue-ecfan-freecooling.html"
+    "caseLink": "case46.html"
   },
   {
     "caseNo": 47,
@@ -373,7 +373,7 @@ window.CASE_MASTER_V33 = [
     "category": "데이터센터",
     "publicationStatus": "홈페이지 확장",
     "bookCaseNo": null,
-    "caseLink": "case-047-data-center-pue-ipos-optimization.html"
+    "caseLink": "case47.html"
   },
   {
     "caseNo": 48,
@@ -381,7 +381,7 @@ window.CASE_MASTER_V33 = [
     "category": "친환경건축",
     "publicationStatus": "홈페이지 확장",
     "bookCaseNo": null,
-    "caseLink": "case-048-light-tower-doe21e-simulation.html"
+    "caseLink": "case48.html"
   },
   {
     "caseNo": 49,
@@ -389,7 +389,7 @@ window.CASE_MASTER_V33 = [
     "category": "친환경건축",
     "publicationStatus": "홈페이지 확장",
     "bookCaseNo": null,
-    "caseLink": "case-049-gymnasium-energy-simulation.html"
+    "caseLink": "case49.html"
   },
   {
     "caseNo": 50,
@@ -397,7 +397,7 @@ window.CASE_MASTER_V33 = [
     "category": "친환경건축",
     "publicationStatus": "홈페이지 확장",
     "bookCaseNo": null,
-    "caseLink": "case-050-passive-house-design-simulation.html"
+    "caseLink": "case50.html"
   },
   {
     "caseNo": 51,
@@ -405,7 +405,7 @@ window.CASE_MASTER_V33 = [
     "category": "친환경건축",
     "publicationStatus": "홈페이지 확장",
     "bookCaseNo": null,
-    "caseLink": "case-051-leed-eac1-energy-modeling.html"
+    "caseLink": "case51.html"
   }
 ,
 {
