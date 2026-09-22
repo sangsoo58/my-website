@@ -58,7 +58,7 @@ Status: DRAFT / EXPANDED EDITION
 - CASE 47 | PUE를 ‘보고용 숫자’에서 ‘운전 의사결정’으로 바꾼 다중 데이터센터 실시간 성능최적화
 - CASE 48 | 133층 초고층 복합건물의 에너지성능을 설계 전에 예측한 DOE-2.1E Simulation
 - CASE 49 | 외피·조명·열원설비 설계변경이 건물에너지에 미치는 영향을 비교한 Simulation
-- CASE 50 | [HOLD — Source reconciliation pending / Book Included=false] 대형 오피스 빌딩의 창면적·유리성능 변화가 냉난방 에너지에 미치는 영향을 비교한 Simulation
+- CASE 50 | [USER DECISION PENDING — Source reconciled / Book Included=false] 대형 오피스 빌딩의 창면적·유리성능 변화가 냉난방 에너지에 미치는 영향을 비교한 Simulation
 - CASE 51 | ASHRAE 90.1 Appendix G Baseline과 설계안을 비교한 대형 복합건물 LEED 에너지모델링
 - CASE 52 | 공기압축기 부하율·Loading/Unloading 분석을 통한 적정 가동대수 Test & Adjust
 - CASE 53 | 냉동기 냉수 출구온도 Set Point 상향을 통한 냉동효율 개선 및 전력절감
