@@ -189,3 +189,15 @@ Still pending:
 - user confirmation of final Figure selection
 - BOOK_PRINT_PERMISSION_REVIEW
 - final caption/unit verification at Word integration
+
+
+## Page budget readiness update
+
+Status: **BASE TARGET 214~220p / NOT PAGINATED**
+
+Current scenarios:
+- Compact: 211~215p
+- Base recommended: 214~220p
+- Expanded: 221~226p
+
+The 214~220p target is achievable if duplication control and the current Figure/Table strategy are maintained. Final pagination remains blocked until the actual Expanded Edition Word working copy is authorized and created.
