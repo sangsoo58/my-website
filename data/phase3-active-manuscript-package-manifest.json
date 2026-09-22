@@ -102,7 +102,7 @@
     "finalPagination": "PENDING"
   },
   "blockers": [
-    "CASE50_SOURCE_RECONCILIATION",
+    "CASE50_BOOK_INCLUSION_USER_DECISION",
     "USER_CONFIRMATION_EXPANDED_TOC",
     "USER_CONFIRMATION_FINAL_FIGURE_SELECTION",
     "BOOK_PRINT_PERMISSION_ANONYMIZATION_REVIEW",
@@ -120,14 +120,14 @@
     "case77_81": "FINAL_FIDELITY_PASS_5_OF_5_DIRECT_STANDALONE_APPROVED_FINAL_TXT",
     "case77_81Final": "FINAL_PASS",
     "case82": "PRODUCTION_LOCKED_DATA_QA_SOURCE",
-    "case50": "SOURCE_IDENTITY_HOLD"
+    "case50": "SOURCE_IDENTITY_RESOLVED_APPROVED_FINAL_OFFICE_WWR_GLAZING_USER_BOOK_DECISION_PENDING"
   },
   "preWordFidelityMatrix": {
     "case42_76": {
       "approvedSourceRecovered": "35/35",
       "activePreliminaryPass": "34/34",
       "hold": [
-        "CASE50"
+        "CASE50_BOOK_DECISION_PENDING"
       ],
       "finalStandaloneOfficialFileByteQA": "PENDING"
     },
