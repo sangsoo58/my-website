@@ -53,7 +53,7 @@ CASE ID는 Chapter 번호 변경과 무관하게 **CASE01~CASE82를 영구 유�
 - Chapter 25. 지역난방 운전최적화
 
 ### Phase 3 확장
-- Ch.23: CASE48,49,51 추가 / CASE50 Source HOLD 제외
+- Ch.23: CASE48,49,51 추가 / CASE50 정본 확인 완료·별도 포함 여부 사용자 결정 대기
 - Ch.24: CASE46,47,70~74,77,79~82 추가
 
 ## PART 6. 에너지 데이터 분석과 성과 검증
