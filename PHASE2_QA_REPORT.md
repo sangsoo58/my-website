@@ -152,3 +152,10 @@ Draft PR → Ready for Review → Merge → GitHub Pages → Production Smoke Te
   - Related Insight resolves to Baseline & M&V
   - CASE Library and Professional Consultation links visible
   - no visible layout issue in reviewed upper/lower screenshots
+
+- CASE42 full page + knowledge connection: PASS
+  - upper title / summary / tags / body opening render correctly
+  - no Current Book card appears (expected for CASE42~82)
+  - Related Insight = 에너지 데이터 분석 Insight
+  - CASE Library and Professional Consultation links visible
+  - no visible layout break in reviewed screenshots
