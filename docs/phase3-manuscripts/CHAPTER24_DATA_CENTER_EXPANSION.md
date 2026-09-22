@@ -132,7 +132,7 @@ Gap이 지속적으로 양(+)이면 단계적인 Pump OFF Test와 ΔP·ΔT·냉�
 
 ---
 
-## CASE 80 | DEEP DIVE — Chiller Staging
+## CASE 80 | 응용사례 — Chiller Staging
 
 Cooling Load 대비 Actual Running Units와 Required Units를 비교하고, 개별 Chiller Part-load Efficiency와 Auxiliary Power를 포함해 가능한 조합을 평가한다.
 
