@@ -1,0 +1,21 @@
+{
+  "status": "NO_KNOWN_DOCUMENT_LEVEL_ISSUE_PIXEL_REVIEW_REQUIRED",
+  "assets": 11,
+  "documentLevelLowRisk": [
+    "CASE43-F01",
+    "CASE44-F01",
+    "CASE44-F02",
+    "CASE51-F01",
+    "CASE53-F01",
+    "CASE56-F01",
+    "CASE63-F01",
+    "CASE64-F01",
+    "CASE65-F01",
+    "CASE66-F01"
+  ],
+  "documentLevelMediumRisk": [
+    "CASE42-F01"
+  ],
+  "knownAnonymizationDefects": 0,
+  "pixelVisualReview": "PENDING"
+}
