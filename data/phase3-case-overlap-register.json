@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "current": "CASE11",
+    "expanded": [
+      "CASE42"
+    ],
+    "relation": "SAME_PROJECT_EXPANDED_COMPANION",
+    "confidence": "HIGH",
+    "editorialAction": "CASE11은 현재 출간본의 핵심 요약을 유지하고 CASE42는 동일 프로젝트의 Multi-site·성과구분·실시간 운영체계를 더 깊게 설명하는 확장 Companion으로 편집. 동일 숫자/문단 반복 금지.",
+    "evidence": "제목 동일, 2개 생산거점 6개 공장, 16.2억원 실적 + 3.5억원 잠재량, CDA 0.12897→0.12627가 동일.",
+    "status": "EDITORIAL_CONTROL_ACTIVE"
+  },
+  {
+    "id": 2,
+    "current": "CASE12",
+    "expanded": [
+      "CASE43"
+    ],
+    "relation": "SAME_PROJECT_EXPANDED_COMPANION",
+    "confidence": "HIGH",
+    "editorialAction": "CASE12는 기존 통합 Utility 핵심결과를 유지하고 CASE43은 1분 데이터·순간 손실·Utility Balance 진단절차 중심으로 차별화.",
+    "evidence": "냉동 UPI 0.84, COP 4.20, 가동대수 2.1/필요 1.2, CDA 0.126 및 절감잠재량 444,832 kWh/년이 동일.",
+    "status": "EDITORIAL_CONTROL_ACTIVE"
+  },
+  {
+    "id": 3,
+    "current": "CASE13",
+    "expanded": [
+      "CASE44"
+    ],
+    "relation": "SAME_PROJECT_EXPANDED_COMPANION",
+    "confidence": "HIGH",
+    "editorialAction": "CASE13은 4개 시설 Benchmark 결과 요약, CASE44는 Measurement Boundary·Best Performance 재현 로직 중심 Deep Dive.",
+    "evidence": "4개 생산시설 LT/HT 냉동기+CDA Benchmark 및 UPI 구조 동일.",
+    "status": "EDITORIAL_CONTROL_ACTIVE"
+  },
+  {
+    "id": 4,
+    "current": "CASE14",
+    "expanded": [
+      "CASE45"
+    ],
+    "relation": "SAME_PROJECT_EXPANDED_COMPANION",
+    "confidence": "HIGH",
+    "editorialAction": "CASE14는 제안단계 잠재량 표를 유지하고 CASE45는 이미 고효율인 현장에서 잔여 Performance Gap을 찾는 분석방법 중심으로 편집.",
+    "evidence": "반도체 Big-data Utility 제안, 생산거점별 약 4.8%/4.4%, 냉동 3.0%, 공기압축기 6.7% 구조 동일.",
+    "status": "EDITORIAL_CONTROL_ACTIVE"
+  },
+  {
+    "id": 5,
+    "current": "CASE35",
+    "expanded": [
+      "CASE51"
+    ],
+    "relation": "SAME_PROJECT_DEEP_DIVE",
+    "confidence": "HIGH",
+    "editorialAction": "CASE35는 Appendix G Performance Rating 개요, CASE51은 72층 모델·4방위 Rotation·Cost vs Site Energy·End-use 상세 Deep Dive로 편집.",
+    "evidence": "LEED Appendix G, Lighting -40.1%, Fan -5.9%, Cooling Electricity -94.8%가 동일.",
+    "status": "EDITORIAL_CONTROL_ACTIVE"
+  },
+  {
+    "id": 6,
+    "current": "CASE36",
+    "expanded": [
+      "CASE48"
+    ],
+    "relation": "SAME_PROJECT_DEEP_DIVE",
+    "confidence": "HIGH",
+    "editorialAction": "CASE36은 DOE-2.1E 설계검토 요약, CASE48은 133층 복합건물 용도별·월별·1차에너지 Deep Dive로 편집.",
+    "evidence": "DOE-2.1E 8760h 모델, 연간 최종에너지 약 85,122 MWh/년이 동일.",
+    "status": "EDITORIAL_CONTROL_ACTIVE"
+  },
+  {
+    "id": 7,
+    "current": "CASE38",
+    "expanded": [
+      "CASE46",
+      "CASE70",
+      "CASE71",
+      "CASE72",
+      "CASE73",
+      "CASE81"
+    ],
+    "relation": "UMBRELLA_TO_SUBCASES",
+    "confidence": "HIGH",
+    "editorialAction": "CASE38은 다중 IDC PUE·냉방개선 전체 Story를 Umbrella로 유지. 확장 CASE는 Root Cause/Fan/Free Cooling/Tower Set Point/Tower Performance로 각각 분석질문을 분리. 동일 PUE·개선대안 설명 반복 최소화.",
+    "evidence": "CASE38의 PUE 1.848 vs 1.576, Fan-only, EC Fan·외기냉방·냉각탑 개선축이 확장 CASE에서 세분화됨.",
+    "status": "EDITORIAL_CONTROL_ACTIVE"
+  },
+  {
+    "id": 8,
+    "current": "CASE39",
+    "expanded": [
+      "CASE47",
+      "CASE74"
+    ],
+    "relation": "UMBRELLA_TO_PLATFORM_DEEP_DIVES",
+    "confidence": "HIGH",
+    "editorialAction": "CASE39는 IPOS 개념·목표 요약을 유지. CASE47은 KPI→조사→Action 운전지원, CASE74는 Multi-site Architecture·Data Quality·FDD/M&V Platform으로 역할 분리.",
+    "evidence": "PUE 1.82/1.77, 목표 1.70·1.65, 6.5/11.3 GWh, 약 594대·14,890RT 구조가 동일 프로젝트 계열.",
+    "status": "EDITORIAL_CONTROL_ACTIVE"
+  },
+  {
+    "id": 9,
+    "current": "CASE28",
+    "expanded": [
+      "CASE75",
+      "CASE76"
+    ],
+    "relation": "UMBRELLA_TO_SUBCASES",
+    "confidence": "MEDIUM_HIGH",
+    "editorialAction": "CASE28은 발전소 Auxiliary Power 통합진단 요약, CASE75는 호기 Benchmark, CASE76은 병렬 Pump/VFD 상세운전으로 분리. 동일 7개 호기/보조기기 배경 반복 최소화.",
+    "evidence": "7개 발전호기, 급수·복수·해수펌프 및 보조기기 최적화라는 분석경계가 일치.",
+    "status": "EDITORIAL_CONTROL_ACTIVE"
+  },
+  {
+    "id": 10,
+    "current": "CASE10",
+    "expanded": [
+      "CASE53",
+      "CASE55",
+      "CASE56",
+      "CASE57",
+      "CASE58",
+      "CASE60",
+      "CASE62",
+      "CASE63",
+      "CASE64",
+      "CASE78"
+    ],
+    "relation": "RELATED_CHILLER_PLANT_METHODS",
+    "confidence": "REVIEW_REQUIRED",
+    "editorialAction": "동일 프로젝트인지 단정하지 않음. Chapter 11 통합 시 기존 CASE10의 Plant-level 잠재량 표와 신규 Field Test/Action 결과가 중복 귀속되지 않도록 Source Trace별 분리.",
+    "evidence": "냉동기 Plant·펌프·냉각탑·가동대수 최적화 영역이 겹치지만 현재 Current CASE Source Trace가 LOCK되어 동일 프로젝트 여부를 확정하기 어려움.",
+    "status": "EDITORIAL_CONTROL_ACTIVE"
+  }
+]
