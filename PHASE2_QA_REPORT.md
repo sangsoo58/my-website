@@ -206,3 +206,9 @@ Draft PR → Ready for Review → Merge → GitHub Pages → Production Smoke Te
   - card width, padding, typography and links fit within viewport
   - no visible horizontal overflow
   - sector labels and CTA links remain readable
+
+- Consultation mobile upper @390px: PASS
+  - consultation copy stacks above form
+  - heading, description, checklist and direct contact fit viewport
+  - form card begins below content with correct width/padding
+  - first form fields stack vertically as expected
