@@ -249,3 +249,20 @@ Recommended combined decision:
 - authorize separate Expanded Edition Word working copy
 
 No approval state changes until the user explicitly approves.
+
+
+## 12. User approval recorded
+
+Status: **APPROVED BY USER**
+
+Approved direction:
+- 29-Chapter Expanded Edition TOC
+- new Chapter 15: 보일러 시스템 운전최적화
+- CASE50 absorbed into CASE49 / no separate body page
+- 7 primary Figures + CASE44-F02 optional
+- CASE53/64/66 as Table/Fact Box
+- target 214~220p
+- separate Expanded Edition Word working copy authorized
+- current Editable Word Master / Print Master / Production remain protected
+
+Working-copy execution has started.
