@@ -439,3 +439,21 @@ Status: **NO KNOWN DOCUMENT-LEVEL ISSUE / PIXEL REVIEW PENDING**
 
 Reference:
 - `docs/PHASE3_FIGURE_ANONYMIZATION_EVIDENCE_REVIEW.md`
+
+
+## Final decision brief readiness
+
+Status: **READY FOR USER DECISION**
+
+Primary decision document:
+- `docs/PHASE3_FINAL_DECISION_BRIEF.md`
+
+Recommended package:
+- 29-Chapter TOC
+- CASE50 absorbed into CASE49
+- 7 primary Figures + 1 optional
+- 11 base selected tables/fact boxes source-QA PASS
+- 214~220p target
+- separate Expanded Word working copy
+
+Current Master/Production remain unchanged.
