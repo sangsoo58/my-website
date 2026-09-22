@@ -106,3 +106,21 @@ Check:
 
 Only after user approval:
 Draft PR → Ready for Review → Merge → GitHub Pages → Production Smoke Test.
+
+
+## 9. Additional static QA (latest)
+
+- Case Library metadata JS syntax: PASS
+- Case Library renderer JS syntax: PASS
+- Case Library rows: 82
+- Case Library canonical numeric links: 82/82
+- Book Reader web CASE direct links: 41/41
+- Book Reader legacy/slugs direct links: 0
+- Expert profile: removed unsupported specific university claims; retained source-supported "공학박사", 25+ years energy-saving consulting, qualifications and professional domains
+- Responsive CSS review:
+  - problem-grid → 1 column at <=640px
+  - service-grid → 1 column at tablet/mobile
+  - contact form field-row → 1 column at <=640px
+  - CASE detail grids → 1 column at mobile
+  - table overflow handling retained
+- Browser rendering itself is still a manual gate and has not been declared PASS.
