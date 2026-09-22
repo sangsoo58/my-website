@@ -1,0 +1,84 @@
+{
+  "phase": "PHASE3",
+  "status": "BOOK_PRINT_PERMISSION_REVIEW_PENDING",
+  "assets": [
+    {
+      "figureId": "CASE42-F01",
+      "permission": "PENDING",
+      "anonymization": "REVIEW",
+      "sourceUnitCaption": "REVIEW",
+      "finalPrint": "HOLD"
+    },
+    {
+      "figureId": "CASE43-F01",
+      "permission": "PENDING",
+      "anonymization": "REVIEW",
+      "sourceUnitCaption": "REVIEW",
+      "finalPrint": "HOLD"
+    },
+    {
+      "figureId": "CASE44-F01",
+      "permission": "PENDING",
+      "anonymization": "REVIEW",
+      "sourceUnitCaption": "REVIEW",
+      "finalPrint": "HOLD"
+    },
+    {
+      "figureId": "CASE44-F02",
+      "permission": "PENDING",
+      "anonymization": "REVIEW",
+      "sourceUnitCaption": "REVIEW",
+      "finalPrint": "HOLD"
+    },
+    {
+      "figureId": "CASE51-F01",
+      "permission": "PENDING",
+      "anonymization": "REVIEW",
+      "sourceUnitCaption": "REVIEW",
+      "finalPrint": "HOLD"
+    },
+    {
+      "figureId": "CASE53-F01",
+      "permission": "PENDING",
+      "anonymization": "REVIEW",
+      "sourceUnitCaption": "REVIEW",
+      "finalPrint": "HOLD"
+    },
+    {
+      "figureId": "CASE56-F01",
+      "permission": "PENDING",
+      "anonymization": "REVIEW",
+      "sourceUnitCaption": "REVIEW",
+      "finalPrint": "HOLD"
+    },
+    {
+      "figureId": "CASE63-F01",
+      "permission": "PENDING",
+      "anonymization": "REVIEW",
+      "sourceUnitCaption": "REVIEW",
+      "finalPrint": "HOLD"
+    },
+    {
+      "figureId": "CASE64-F01",
+      "permission": "PENDING",
+      "anonymization": "REVIEW",
+      "sourceUnitCaption": "REVIEW",
+      "finalPrint": "HOLD"
+    },
+    {
+      "figureId": "CASE65-F01",
+      "permission": "PENDING",
+      "anonymization": "REVIEW",
+      "sourceUnitCaption": "REVIEW",
+      "finalPrint": "HOLD"
+    },
+    {
+      "figureId": "CASE66-F01",
+      "permission": "PENDING",
+      "anonymization": "REVIEW",
+      "sourceUnitCaption": "REVIEW",
+      "finalPrint": "HOLD"
+    }
+  ],
+  "rule": "APPROVED_WEB_ASSET_DOES_NOT_EQUAL_PRINT_PERMISSION"
+}
