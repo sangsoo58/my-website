@@ -862,8 +862,9 @@
     "proposedChapterTitle": "데이터센터 PUE와 냉방 최적화",
     "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
     "round2Status": "BOOK_REVISION_CANDIDATE",
-    "bookSourceStatus": "SOURCE_GATE_PASS_EXACT_PATH_PENDING",
-    "bookSourceFile": null
+    "bookSourceStatus": "SOURCE_BASIS_IDENTIFIED_EXACT_FILENAME_PENDING",
+    "bookSourceFile": null,
+    "bookSourceBasis": "2017 IDC 에너지성능 개선 컨설팅 자료 + 기존 CASE 기록 복원 + 외부 기술 Reference 보강"
   },
   {
     "caseNo": 78,
@@ -886,8 +887,9 @@
     "proposedChapterTitle": "냉동기 Plant 최적화",
     "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
     "round2Status": "BOOK_REVISION_CANDIDATE",
-    "bookSourceStatus": "SOURCE_GATE_PASS_EXACT_PATH_PENDING",
-    "bookSourceFile": null
+    "bookSourceStatus": "SOURCE_BASIS_IDENTIFIED_EXACT_FILENAME_PENDING",
+    "bookSourceFile": null,
+    "bookSourceBasis": "비식별 국내 반도체·디스플레이 제조시설 EEMS/Trend/Utility 원자료 + 외부 기술동향 Reference"
   },
   {
     "caseNo": 79,
@@ -910,8 +912,9 @@
     "proposedChapterTitle": "데이터센터 PUE와 냉방 최적화",
     "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
     "round2Status": "BOOK_REVISION_CANDIDATE",
-    "bookSourceStatus": "SOURCE_GATE_PASS_EXACT_PATH_PENDING",
-    "bookSourceFile": null
+    "bookSourceStatus": "SOURCE_BASIS_IDENTIFIED_EXACT_FILENAME_PENDING",
+    "bookSourceFile": null,
+    "bookSourceBasis": "비식별 국내 데이터센터 운전데이터 분석 PPT + EEMS/Trend Excel + 실시간 운전가이드 자료"
   },
   {
     "caseNo": 80,
@@ -934,8 +937,9 @@
     "proposedChapterTitle": "데이터센터 PUE와 냉방 최적화",
     "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
     "round2Status": "BOOK_REVISION_CANDIDATE",
-    "bookSourceStatus": "SOURCE_GATE_PASS_EXACT_PATH_PENDING",
-    "bookSourceFile": null
+    "bookSourceStatus": "SOURCE_BASIS_IDENTIFIED_EXACT_FILENAME_PENDING",
+    "bookSourceFile": null,
+    "bookSourceBasis": "비식별 국내 데이터센터 냉방·냉동기 관련 원자료 + 실시간 운전가이드 자료"
   },
   {
     "caseNo": 81,
@@ -958,8 +962,9 @@
     "proposedChapterTitle": "데이터센터 PUE와 냉방 최적화",
     "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
     "round2Status": "BOOK_REVISION_CANDIDATE",
-    "bookSourceStatus": "SOURCE_GATE_PASS_EXACT_PATH_PENDING",
-    "bookSourceFile": null
+    "bookSourceStatus": "SOURCE_BASIS_IDENTIFIED_EXACT_FILENAME_PENDING",
+    "bookSourceFile": null,
+    "bookSourceBasis": "비식별 국내 데이터센터 냉각탑 성능진단·설정온도 Test·실시간 운전가이드 관련 원자료"
   },
   {
     "caseNo": 82,
