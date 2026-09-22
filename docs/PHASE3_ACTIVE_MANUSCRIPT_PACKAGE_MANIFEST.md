@@ -191,3 +191,14 @@ Status: **READY BUT NOT AUTHORIZED**
 - CASE50: standalone source/content fidelity resolved; book inclusion USER DECISION PENDING
 
 No known claim-strengthening conflict is open in the active package.
+
+
+## 16. Resume checkpoint
+
+Source accessibility:
+- `docs/PHASE3_STANDALONE_SOURCE_ACCESSIBILITY_REGISTER.md`
+
+Pause/resume state:
+- `docs/PHASE3_PAUSE_RESUME_CHECKPOINT_2026-09-22.md`
+
+Use the checkpoint as the next-session starting point. Do not repeat completed QA unless a source or user decision changes.
