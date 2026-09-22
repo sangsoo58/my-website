@@ -175,3 +175,20 @@ html,body{max-width:100%;overflow-x:clip}
   #hero-title{font-size:36px;line-height:1.12}
   #hero-title .hero-line{white-space:normal}
 }
+
+
+/* PHASE 2 CONTACT FORM FIX */
+.contact-form{position:relative}
+.form-head{display:flex;justify-content:space-between;gap:12px;align-items:center;margin-bottom:25px}
+.form-head strong{font-size:22px;color:var(--navy)}
+.form-head span{color:#8f9ba3;font-size:11px}
+.hp-field{position:absolute!important;left:-10000px!important;top:auto!important;width:1px!important;height:1px!important;opacity:0!important;pointer-events:none!important}
+.consent{display:flex!important;grid-template-columns:auto 1fr;align-items:flex-start;gap:9px!important;font-weight:500!important;line-height:1.55}
+.consent input{width:auto!important;margin-top:3px}
+.consent a{text-decoration:underline;text-underline-offset:3px}
+.button-submit{width:100%;border:0;color:#fff;background:var(--teal);cursor:pointer}
+.button-submit:disabled{opacity:.65;cursor:not-allowed}
+.form-help{color:#8b979e;font-size:11px;margin:12px 0 0}
+.form-status{margin-top:10px;font-size:13px;color:var(--teal)}
+.form-status.success{color:#0f725e}
+.form-status.error{color:#a33b3b}
