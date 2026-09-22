@@ -291,3 +291,31 @@ Special handling:
 - they remain traceable alternates and are not treated as missing captions.
 
 No final Figure number, Word insertion, or print permission approval has been performed.
+
+
+## 17. Page Budget Refinement QA
+
+Status: **PLANNING PASS / FINAL PAGINATION PENDING**
+
+Basis:
+- active revision candidates: 40
+- core Deep Dive: 7
+- supplementary Deep Dive: 4
+- application/expanded/sub-case: 29
+- CASE50 excluded from page budget while Source HOLD
+- Figure plan: 7 primary + 1 optional + 3 Table/Fact Box preferred
+
+Scenario estimate:
+- Compact: **211~215p** total
+- Base / recommended: **214~220p** total
+- Expanded: **221~226p** total
+
+Editorial target: **214~220p**.
+
+Control assumptions:
+- same-project companion text is de-duplicated by Cross-reference
+- optional CASE44-F02 is inserted only if final layout permits
+- CASE53/64/66 prefer Table/Fact Box over raster Figure
+- common M&V explanation is Cross-referenced to Chapter 29
+
+Final page count is not assigned until Word layout and pagination.
