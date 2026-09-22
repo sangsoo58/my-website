@@ -3,6 +3,17 @@
 **편집상태:** ROUND 2 BOOK-STYLE DRAFT  
 **기존 Chapter 유지 / CASE42~45 추가**
 
+## DUPLICATION CONTROL
+
+CASE42~45는 현재 출간본 CASE11~14와 동일 프로젝트 계열의 확장 Companion이다.
+
+- CASE42 ↔ CASE11: 동일 Multi-site Utility 프로젝트. CASE42는 성과구분·운영체계 중심으로 확장.
+- CASE43 ↔ CASE12: 동일 Utility Balance 분석. CASE43은 1분 데이터·순간 손실·운전의사결정 중심.
+- CASE44 ↔ CASE13: 동일 4개 생산시설 Benchmark. CASE44는 Measurement Boundary와 Best Performance 재현 로직 중심.
+- CASE45 ↔ CASE14: 동일 Big-data Utility 제안. CASE45는 고효율 현장의 잔여 Performance Gap 분석 중심.
+
+Expanded Edition에서 기존 CASE11~14의 정량표를 그대로 반복하지 않고, 확장 CASE에는 **동일 프로젝트의 다른 분석질문**만 추가한다.
+
 ## Chapter Lens
 
 개별 Utility가 효율적으로 보여도 전체 제조 Utility가 최적이라고 할 수 있는가?
