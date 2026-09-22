@@ -18,16 +18,15 @@ Status: **PARTIAL PASS / 1 CONTENT HOLD + 5 SOURCE-PATH HOLDS**
 - CASE42~76
 - CASE51 uses REV02 approved final
 
-### Amber — Source existence and descriptive basis identified, exact file path pending
+### Amber — Official source filenames confirmed; source text content not directly retrieved
 **5 CASE / 41**
-- CASE77
-- CASE78
-- CASE79
-- CASE80
-- CASE81
+- CASE77 → `case77_approval_final.txt`
+- CASE78 → `case78_approval_final.txt`
+- CASE79 → `case79_approval_final.txt`
+- CASE80 → `case80_approval_final.txt`
+- CASE81 → `case81_approval_final.txt`
 
-These 5 are not treated as Source Gap. Existing Book Source Gate reports 5/5 PASS and total CASE01~81 Source Gap = 0.  
-However exact source file identity must be recovered before final Word/PDF provenance lock.
+These 5 are not treated as Source Gap. Existing Book Source Gate reports 5/5 PASS and total CASE01~81 Source Gap = 0. The unresolved item is now narrowed to **content-byte fidelity verification**, not filename identity.
 
 ### Blue — Production locked-data / QA source
 **1 CASE / 41**
@@ -63,8 +62,8 @@ CASE50 is excluded from layout prototype content.
 ## 5. Word integration blockers
 
 Critical blockers before final Editable Word integration:
-1. CASE50 Source reconciliation
-2. CASE77~81 exact source file/path recovery
+1. CASE50 Approval Final TXT content recovery and Source reconciliation
+2. CASE77~81 Approval Final TXT content fidelity verification
 3. user confirmation of Expanded Edition TOC / Chapter 15 Boiler insertion
 4. user confirmation of final Figure selection
 5. Book Print permission/anonymization check for selected PNG assets
