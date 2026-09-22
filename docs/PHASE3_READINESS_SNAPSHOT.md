@@ -428,3 +428,14 @@ Status: **PASS 11/11**
 
 Reference:
 - `docs/PHASE3_SELECTED_TABLE_SOURCE_QA.md`
+
+
+## Figure anonymization evidence update
+
+Status: **NO KNOWN DOCUMENT-LEVEL ISSUE / PIXEL REVIEW PENDING**
+- 10 assets: low documented risk
+- CASE42-F01: medium documented risk due multi-site project context
+- known anonymization defect: 0
+
+Reference:
+- `docs/PHASE3_FIGURE_ANONYMIZATION_EVIDENCE_REVIEW.md`
