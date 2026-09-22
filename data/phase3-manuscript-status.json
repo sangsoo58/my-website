@@ -14,12 +14,12 @@
     "figureCountPlanned": null,
     "tableCountPlanned": null,
     "sourceRegisterStatus": "PENDING",
-    "finalReview": "PENDING",
+    "finalReview": "USER_CONFIRMATION_PENDING",
     "proposedPart": 3,
     "proposedChapter": 12,
     "proposedChapterTitle": "반도체 Multi-Utility 통합 최적화",
-    "chapterPlacementStatus": "EDITORIAL_TOC_FIXED",
-    "round2Status": "READY_FOR_BOOK_STYLE_EDIT"
+    "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
+    "round2Status": "BOOK_REVISION_CANDIDATE"
   },
   {
     "caseNo": 43,
@@ -36,12 +36,12 @@
     "figureCountPlanned": null,
     "tableCountPlanned": null,
     "sourceRegisterStatus": "PENDING",
-    "finalReview": "PENDING",
+    "finalReview": "USER_CONFIRMATION_PENDING",
     "proposedPart": 3,
     "proposedChapter": 12,
     "proposedChapterTitle": "반도체 Multi-Utility 통합 최적화",
-    "chapterPlacementStatus": "EDITORIAL_TOC_FIXED",
-    "round2Status": "READY_FOR_BOOK_STYLE_EDIT"
+    "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
+    "round2Status": "BOOK_REVISION_CANDIDATE"
   },
   {
     "caseNo": 44,
@@ -58,12 +58,12 @@
     "figureCountPlanned": null,
     "tableCountPlanned": null,
     "sourceRegisterStatus": "PENDING",
-    "finalReview": "PENDING",
+    "finalReview": "USER_CONFIRMATION_PENDING",
     "proposedPart": 3,
     "proposedChapter": 12,
     "proposedChapterTitle": "반도체 Multi-Utility 통합 최적화",
-    "chapterPlacementStatus": "EDITORIAL_TOC_FIXED",
-    "round2Status": "READY_FOR_BOOK_STYLE_EDIT"
+    "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
+    "round2Status": "BOOK_REVISION_CANDIDATE"
   },
   {
     "caseNo": 45,
@@ -80,12 +80,12 @@
     "figureCountPlanned": null,
     "tableCountPlanned": null,
     "sourceRegisterStatus": "PENDING",
-    "finalReview": "PENDING",
+    "finalReview": "USER_CONFIRMATION_PENDING",
     "proposedPart": 3,
     "proposedChapter": 12,
     "proposedChapterTitle": "반도체 Multi-Utility 통합 최적화",
-    "chapterPlacementStatus": "EDITORIAL_TOC_FIXED",
-    "round2Status": "READY_FOR_BOOK_STYLE_EDIT"
+    "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
+    "round2Status": "BOOK_REVISION_CANDIDATE"
   },
   {
     "caseNo": 46,
@@ -102,12 +102,12 @@
     "figureCountPlanned": null,
     "tableCountPlanned": null,
     "sourceRegisterStatus": "PENDING",
-    "finalReview": "PENDING",
+    "finalReview": "USER_CONFIRMATION_PENDING",
     "proposedPart": 5,
     "proposedChapter": 24,
     "proposedChapterTitle": "데이터센터 PUE와 냉방 최적화",
-    "chapterPlacementStatus": "EDITORIAL_TOC_FIXED",
-    "round2Status": "READY_FOR_BOOK_STYLE_EDIT"
+    "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
+    "round2Status": "BOOK_REVISION_CANDIDATE"
   },
   {
     "caseNo": 47,
@@ -124,12 +124,12 @@
     "figureCountPlanned": null,
     "tableCountPlanned": null,
     "sourceRegisterStatus": "PENDING",
-    "finalReview": "PENDING",
+    "finalReview": "USER_CONFIRMATION_PENDING",
     "proposedPart": 5,
     "proposedChapter": 24,
     "proposedChapterTitle": "데이터센터 PUE와 냉방 최적화",
-    "chapterPlacementStatus": "EDITORIAL_TOC_FIXED",
-    "round2Status": "READY_FOR_BOOK_STYLE_EDIT"
+    "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
+    "round2Status": "BOOK_REVISION_CANDIDATE"
   },
   {
     "caseNo": 48,
@@ -146,12 +146,12 @@
     "figureCountPlanned": null,
     "tableCountPlanned": null,
     "sourceRegisterStatus": "PENDING",
-    "finalReview": "PENDING",
+    "finalReview": "USER_CONFIRMATION_PENDING",
     "proposedPart": 5,
     "proposedChapter": 23,
     "proposedChapterTitle": "신축건물 Energy Modeling",
-    "chapterPlacementStatus": "EDITORIAL_TOC_FIXED",
-    "round2Status": "READY_FOR_BOOK_STYLE_EDIT"
+    "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
+    "round2Status": "BOOK_REVISION_CANDIDATE"
   },
   {
     "caseNo": 49,
@@ -168,12 +168,12 @@
     "figureCountPlanned": null,
     "tableCountPlanned": null,
     "sourceRegisterStatus": "PENDING",
-    "finalReview": "PENDING",
+    "finalReview": "USER_CONFIRMATION_PENDING",
     "proposedPart": 5,
     "proposedChapter": 23,
     "proposedChapterTitle": "신축건물 Energy Modeling",
-    "chapterPlacementStatus": "EDITORIAL_TOC_FIXED",
-    "round2Status": "READY_FOR_BOOK_STYLE_EDIT"
+    "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
+    "round2Status": "BOOK_REVISION_CANDIDATE"
   },
   {
     "caseNo": 50,
@@ -190,12 +190,12 @@
     "figureCountPlanned": null,
     "tableCountPlanned": null,
     "sourceRegisterStatus": "PENDING",
-    "finalReview": "PENDING",
+    "finalReview": "USER_CONFIRMATION_PENDING",
     "proposedPart": 5,
     "proposedChapter": 23,
     "proposedChapterTitle": "신축건물 Energy Modeling",
-    "chapterPlacementStatus": "EDITORIAL_TOC_FIXED",
-    "round2Status": "READY_FOR_BOOK_STYLE_EDIT"
+    "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
+    "round2Status": "BOOK_REVISION_CANDIDATE"
   },
   {
     "caseNo": 51,
@@ -212,12 +212,12 @@
     "figureCountPlanned": null,
     "tableCountPlanned": null,
     "sourceRegisterStatus": "PENDING",
-    "finalReview": "PENDING",
+    "finalReview": "USER_CONFIRMATION_PENDING",
     "proposedPart": 5,
     "proposedChapter": 23,
     "proposedChapterTitle": "신축건물 Energy Modeling",
-    "chapterPlacementStatus": "EDITORIAL_TOC_FIXED",
-    "round2Status": "READY_FOR_BOOK_STYLE_EDIT"
+    "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
+    "round2Status": "BOOK_REVISION_CANDIDATE"
   },
   {
     "caseNo": 52,
@@ -234,12 +234,12 @@
     "figureCountPlanned": null,
     "tableCountPlanned": null,
     "sourceRegisterStatus": "PENDING",
-    "finalReview": "PENDING",
+    "finalReview": "USER_CONFIRMATION_PENDING",
     "proposedPart": 4,
     "proposedChapter": 14,
     "proposedChapterTitle": "공기압축기 시스템 운전최적화",
-    "chapterPlacementStatus": "EDITORIAL_TOC_FIXED",
-    "round2Status": "READY_FOR_BOOK_STYLE_EDIT"
+    "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
+    "round2Status": "BOOK_REVISION_CANDIDATE"
   },
   {
     "caseNo": 53,
@@ -256,12 +256,12 @@
     "figureCountPlanned": null,
     "tableCountPlanned": null,
     "sourceRegisterStatus": "PENDING",
-    "finalReview": "PENDING",
+    "finalReview": "USER_CONFIRMATION_PENDING",
     "proposedPart": 3,
     "proposedChapter": 11,
     "proposedChapterTitle": "냉동기 Plant 최적화",
-    "chapterPlacementStatus": "EDITORIAL_TOC_FIXED",
-    "round2Status": "READY_FOR_BOOK_STYLE_EDIT"
+    "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
+    "round2Status": "BOOK_REVISION_CANDIDATE"
   },
   {
     "caseNo": 54,
@@ -278,12 +278,12 @@
     "figureCountPlanned": null,
     "tableCountPlanned": null,
     "sourceRegisterStatus": "PENDING",
-    "finalReview": "PENDING",
+    "finalReview": "USER_CONFIRMATION_PENDING",
     "proposedPart": 4,
     "proposedChapter": 14,
     "proposedChapterTitle": "공기압축기 시스템 운전최적화",
-    "chapterPlacementStatus": "EDITORIAL_TOC_FIXED",
-    "round2Status": "READY_FOR_BOOK_STYLE_EDIT"
+    "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
+    "round2Status": "BOOK_REVISION_CANDIDATE"
   },
   {
     "caseNo": 55,
@@ -300,12 +300,12 @@
     "figureCountPlanned": null,
     "tableCountPlanned": null,
     "sourceRegisterStatus": "PENDING",
-    "finalReview": "PENDING",
+    "finalReview": "USER_CONFIRMATION_PENDING",
     "proposedPart": 3,
     "proposedChapter": 11,
     "proposedChapterTitle": "냉동기 Plant 최적화",
-    "chapterPlacementStatus": "EDITORIAL_TOC_FIXED",
-    "round2Status": "READY_FOR_BOOK_STYLE_EDIT"
+    "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
+    "round2Status": "BOOK_REVISION_CANDIDATE"
   },
   {
     "caseNo": 56,
@@ -322,12 +322,12 @@
     "figureCountPlanned": null,
     "tableCountPlanned": null,
     "sourceRegisterStatus": "PENDING",
-    "finalReview": "PENDING",
+    "finalReview": "USER_CONFIRMATION_PENDING",
     "proposedPart": 3,
     "proposedChapter": 11,
     "proposedChapterTitle": "냉동기 Plant 최적화",
-    "chapterPlacementStatus": "EDITORIAL_TOC_FIXED",
-    "round2Status": "READY_FOR_BOOK_STYLE_EDIT"
+    "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
+    "round2Status": "BOOK_REVISION_CANDIDATE"
   },
   {
     "caseNo": 57,
@@ -344,12 +344,12 @@
     "figureCountPlanned": null,
     "tableCountPlanned": null,
     "sourceRegisterStatus": "PENDING",
-    "finalReview": "PENDING",
+    "finalReview": "USER_CONFIRMATION_PENDING",
     "proposedPart": 3,
     "proposedChapter": 11,
     "proposedChapterTitle": "냉동기 Plant 최적화",
-    "chapterPlacementStatus": "EDITORIAL_TOC_FIXED",
-    "round2Status": "READY_FOR_BOOK_STYLE_EDIT"
+    "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
+    "round2Status": "BOOK_REVISION_CANDIDATE"
   },
   {
     "caseNo": 58,
@@ -366,12 +366,12 @@
     "figureCountPlanned": null,
     "tableCountPlanned": null,
     "sourceRegisterStatus": "PENDING",
-    "finalReview": "PENDING",
+    "finalReview": "USER_CONFIRMATION_PENDING",
     "proposedPart": 3,
     "proposedChapter": 11,
     "proposedChapterTitle": "냉동기 Plant 최적화",
-    "chapterPlacementStatus": "EDITORIAL_TOC_FIXED",
-    "round2Status": "READY_FOR_BOOK_STYLE_EDIT"
+    "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
+    "round2Status": "BOOK_REVISION_CANDIDATE"
   },
   {
     "caseNo": 59,
@@ -388,12 +388,12 @@
     "figureCountPlanned": null,
     "tableCountPlanned": null,
     "sourceRegisterStatus": "PENDING",
-    "finalReview": "PENDING",
+    "finalReview": "USER_CONFIRMATION_PENDING",
     "proposedPart": 4,
     "proposedChapter": 14,
     "proposedChapterTitle": "공기압축기 시스템 운전최적화",
-    "chapterPlacementStatus": "EDITORIAL_TOC_FIXED",
-    "round2Status": "READY_FOR_BOOK_STYLE_EDIT"
+    "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
+    "round2Status": "BOOK_REVISION_CANDIDATE"
   },
   {
     "caseNo": 60,
@@ -410,12 +410,12 @@
     "figureCountPlanned": null,
     "tableCountPlanned": null,
     "sourceRegisterStatus": "PENDING",
-    "finalReview": "PENDING",
+    "finalReview": "USER_CONFIRMATION_PENDING",
     "proposedPart": 3,
     "proposedChapter": 11,
     "proposedChapterTitle": "냉동기 Plant 최적화",
-    "chapterPlacementStatus": "EDITORIAL_TOC_FIXED",
-    "round2Status": "READY_FOR_BOOK_STYLE_EDIT"
+    "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
+    "round2Status": "BOOK_REVISION_CANDIDATE"
   },
   {
     "caseNo": 61,
@@ -432,12 +432,12 @@
     "figureCountPlanned": null,
     "tableCountPlanned": null,
     "sourceRegisterStatus": "PENDING",
-    "finalReview": "PENDING",
+    "finalReview": "USER_CONFIRMATION_PENDING",
     "proposedPart": 4,
     "proposedChapter": 14,
     "proposedChapterTitle": "공기압축기 시스템 운전최적화",
-    "chapterPlacementStatus": "EDITORIAL_TOC_FIXED",
-    "round2Status": "READY_FOR_BOOK_STYLE_EDIT"
+    "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
+    "round2Status": "BOOK_REVISION_CANDIDATE"
   },
   {
     "caseNo": 62,
@@ -454,12 +454,12 @@
     "figureCountPlanned": null,
     "tableCountPlanned": null,
     "sourceRegisterStatus": "PENDING",
-    "finalReview": "PENDING",
+    "finalReview": "USER_CONFIRMATION_PENDING",
     "proposedPart": 3,
     "proposedChapter": 11,
     "proposedChapterTitle": "냉동기 Plant 최적화",
-    "chapterPlacementStatus": "EDITORIAL_TOC_FIXED",
-    "round2Status": "READY_FOR_BOOK_STYLE_EDIT"
+    "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
+    "round2Status": "BOOK_REVISION_CANDIDATE"
   },
   {
     "caseNo": 63,
@@ -476,12 +476,12 @@
     "figureCountPlanned": null,
     "tableCountPlanned": null,
     "sourceRegisterStatus": "PENDING",
-    "finalReview": "PENDING",
+    "finalReview": "USER_CONFIRMATION_PENDING",
     "proposedPart": 3,
     "proposedChapter": 11,
     "proposedChapterTitle": "냉동기 Plant 최적화",
-    "chapterPlacementStatus": "EDITORIAL_TOC_FIXED",
-    "round2Status": "READY_FOR_BOOK_STYLE_EDIT"
+    "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
+    "round2Status": "BOOK_REVISION_CANDIDATE"
   },
   {
     "caseNo": 64,
@@ -498,12 +498,12 @@
     "figureCountPlanned": null,
     "tableCountPlanned": null,
     "sourceRegisterStatus": "PENDING",
-    "finalReview": "PENDING",
+    "finalReview": "USER_CONFIRMATION_PENDING",
     "proposedPart": 3,
     "proposedChapter": 11,
     "proposedChapterTitle": "냉동기 Plant 최적화",
-    "chapterPlacementStatus": "EDITORIAL_TOC_FIXED",
-    "round2Status": "READY_FOR_BOOK_STYLE_EDIT"
+    "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
+    "round2Status": "BOOK_REVISION_CANDIDATE"
   },
   {
     "caseNo": 65,
@@ -520,12 +520,12 @@
     "figureCountPlanned": null,
     "tableCountPlanned": null,
     "sourceRegisterStatus": "PENDING",
-    "finalReview": "PENDING",
+    "finalReview": "USER_CONFIRMATION_PENDING",
     "proposedPart": 4,
     "proposedChapter": 15,
     "proposedChapterTitle": "보일러 시스템 운전최적화",
-    "chapterPlacementStatus": "EDITORIAL_TOC_FIXED",
-    "round2Status": "READY_FOR_BOOK_STYLE_EDIT"
+    "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
+    "round2Status": "BOOK_REVISION_CANDIDATE"
   },
   {
     "caseNo": 66,
@@ -542,12 +542,12 @@
     "figureCountPlanned": null,
     "tableCountPlanned": null,
     "sourceRegisterStatus": "PENDING",
-    "finalReview": "PENDING",
+    "finalReview": "USER_CONFIRMATION_PENDING",
     "proposedPart": 4,
     "proposedChapter": 15,
     "proposedChapterTitle": "보일러 시스템 운전최적화",
-    "chapterPlacementStatus": "EDITORIAL_TOC_FIXED",
-    "round2Status": "READY_FOR_BOOK_STYLE_EDIT"
+    "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
+    "round2Status": "BOOK_REVISION_CANDIDATE"
   },
   {
     "caseNo": 67,
@@ -564,12 +564,12 @@
     "figureCountPlanned": null,
     "tableCountPlanned": null,
     "sourceRegisterStatus": "PENDING",
-    "finalReview": "PENDING",
+    "finalReview": "USER_CONFIRMATION_PENDING",
     "proposedPart": 4,
     "proposedChapter": 15,
     "proposedChapterTitle": "보일러 시스템 운전최적화",
-    "chapterPlacementStatus": "EDITORIAL_TOC_FIXED",
-    "round2Status": "READY_FOR_BOOK_STYLE_EDIT"
+    "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
+    "round2Status": "BOOK_REVISION_CANDIDATE"
   },
   {
     "caseNo": 68,
@@ -586,12 +586,12 @@
     "figureCountPlanned": null,
     "tableCountPlanned": null,
     "sourceRegisterStatus": "PENDING",
-    "finalReview": "PENDING",
+    "finalReview": "USER_CONFIRMATION_PENDING",
     "proposedPart": 4,
     "proposedChapter": 15,
     "proposedChapterTitle": "보일러 시스템 운전최적화",
-    "chapterPlacementStatus": "EDITORIAL_TOC_FIXED",
-    "round2Status": "READY_FOR_BOOK_STYLE_EDIT"
+    "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
+    "round2Status": "BOOK_REVISION_CANDIDATE"
   },
   {
     "caseNo": 69,
@@ -608,12 +608,12 @@
     "figureCountPlanned": null,
     "tableCountPlanned": null,
     "sourceRegisterStatus": "PENDING",
-    "finalReview": "PENDING",
+    "finalReview": "USER_CONFIRMATION_PENDING",
     "proposedPart": 4,
     "proposedChapter": 15,
     "proposedChapterTitle": "보일러 시스템 운전최적화",
-    "chapterPlacementStatus": "EDITORIAL_TOC_FIXED",
-    "round2Status": "READY_FOR_BOOK_STYLE_EDIT"
+    "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
+    "round2Status": "BOOK_REVISION_CANDIDATE"
   },
   {
     "caseNo": 70,
@@ -630,12 +630,12 @@
     "figureCountPlanned": null,
     "tableCountPlanned": null,
     "sourceRegisterStatus": "PENDING",
-    "finalReview": "PENDING",
+    "finalReview": "USER_CONFIRMATION_PENDING",
     "proposedPart": 5,
     "proposedChapter": 24,
     "proposedChapterTitle": "데이터센터 PUE와 냉방 최적화",
-    "chapterPlacementStatus": "EDITORIAL_TOC_FIXED",
-    "round2Status": "READY_FOR_BOOK_STYLE_EDIT"
+    "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
+    "round2Status": "BOOK_REVISION_CANDIDATE"
   },
   {
     "caseNo": 71,
@@ -652,12 +652,12 @@
     "figureCountPlanned": null,
     "tableCountPlanned": null,
     "sourceRegisterStatus": "PENDING",
-    "finalReview": "PENDING",
+    "finalReview": "USER_CONFIRMATION_PENDING",
     "proposedPart": 5,
     "proposedChapter": 24,
     "proposedChapterTitle": "데이터센터 PUE와 냉방 최적화",
-    "chapterPlacementStatus": "EDITORIAL_TOC_FIXED",
-    "round2Status": "READY_FOR_BOOK_STYLE_EDIT"
+    "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
+    "round2Status": "BOOK_REVISION_CANDIDATE"
   },
   {
     "caseNo": 72,
@@ -674,12 +674,12 @@
     "figureCountPlanned": null,
     "tableCountPlanned": null,
     "sourceRegisterStatus": "PENDING",
-    "finalReview": "PENDING",
+    "finalReview": "USER_CONFIRMATION_PENDING",
     "proposedPart": 5,
     "proposedChapter": 24,
     "proposedChapterTitle": "데이터센터 PUE와 냉방 최적화",
-    "chapterPlacementStatus": "EDITORIAL_TOC_FIXED",
-    "round2Status": "READY_FOR_BOOK_STYLE_EDIT"
+    "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
+    "round2Status": "BOOK_REVISION_CANDIDATE"
   },
   {
     "caseNo": 73,
@@ -696,12 +696,12 @@
     "figureCountPlanned": null,
     "tableCountPlanned": null,
     "sourceRegisterStatus": "PENDING",
-    "finalReview": "PENDING",
+    "finalReview": "USER_CONFIRMATION_PENDING",
     "proposedPart": 5,
     "proposedChapter": 24,
     "proposedChapterTitle": "데이터센터 PUE와 냉방 최적화",
-    "chapterPlacementStatus": "EDITORIAL_TOC_FIXED",
-    "round2Status": "READY_FOR_BOOK_STYLE_EDIT"
+    "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
+    "round2Status": "BOOK_REVISION_CANDIDATE"
   },
   {
     "caseNo": 74,
@@ -718,12 +718,12 @@
     "figureCountPlanned": null,
     "tableCountPlanned": null,
     "sourceRegisterStatus": "PENDING",
-    "finalReview": "PENDING",
+    "finalReview": "USER_CONFIRMATION_PENDING",
     "proposedPart": 5,
     "proposedChapter": 24,
     "proposedChapterTitle": "데이터센터 PUE와 냉방 최적화",
-    "chapterPlacementStatus": "EDITORIAL_TOC_FIXED",
-    "round2Status": "READY_FOR_BOOK_STYLE_EDIT"
+    "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
+    "round2Status": "BOOK_REVISION_CANDIDATE"
   },
   {
     "caseNo": 75,
@@ -740,12 +740,12 @@
     "figureCountPlanned": null,
     "tableCountPlanned": null,
     "sourceRegisterStatus": "PENDING",
-    "finalReview": "PENDING",
+    "finalReview": "USER_CONFIRMATION_PENDING",
     "proposedPart": 4,
     "proposedChapter": 20,
     "proposedChapterTitle": "발전소 보조기기",
-    "chapterPlacementStatus": "EDITORIAL_TOC_FIXED",
-    "round2Status": "READY_FOR_BOOK_STYLE_EDIT"
+    "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
+    "round2Status": "BOOK_REVISION_CANDIDATE"
   },
   {
     "caseNo": 76,
@@ -762,12 +762,12 @@
     "figureCountPlanned": null,
     "tableCountPlanned": null,
     "sourceRegisterStatus": "PENDING",
-    "finalReview": "PENDING",
+    "finalReview": "USER_CONFIRMATION_PENDING",
     "proposedPart": 4,
     "proposedChapter": 20,
     "proposedChapterTitle": "발전소 보조기기",
-    "chapterPlacementStatus": "EDITORIAL_TOC_FIXED",
-    "round2Status": "READY_FOR_BOOK_STYLE_EDIT"
+    "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
+    "round2Status": "BOOK_REVISION_CANDIDATE"
   },
   {
     "caseNo": 77,
@@ -784,12 +784,12 @@
     "figureCountPlanned": null,
     "tableCountPlanned": null,
     "sourceRegisterStatus": "PENDING",
-    "finalReview": "PENDING",
+    "finalReview": "USER_CONFIRMATION_PENDING",
     "proposedPart": 5,
     "proposedChapter": 24,
     "proposedChapterTitle": "데이터센터 PUE와 냉방 최적화",
-    "chapterPlacementStatus": "EDITORIAL_TOC_FIXED",
-    "round2Status": "READY_FOR_BOOK_STYLE_EDIT"
+    "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
+    "round2Status": "BOOK_REVISION_CANDIDATE"
   },
   {
     "caseNo": 78,
@@ -806,12 +806,12 @@
     "figureCountPlanned": null,
     "tableCountPlanned": null,
     "sourceRegisterStatus": "PENDING",
-    "finalReview": "PENDING",
+    "finalReview": "USER_CONFIRMATION_PENDING",
     "proposedPart": 3,
     "proposedChapter": 11,
     "proposedChapterTitle": "냉동기 Plant 최적화",
-    "chapterPlacementStatus": "EDITORIAL_TOC_FIXED",
-    "round2Status": "READY_FOR_BOOK_STYLE_EDIT"
+    "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
+    "round2Status": "BOOK_REVISION_CANDIDATE"
   },
   {
     "caseNo": 79,
@@ -828,12 +828,12 @@
     "figureCountPlanned": null,
     "tableCountPlanned": null,
     "sourceRegisterStatus": "PENDING",
-    "finalReview": "PENDING",
+    "finalReview": "USER_CONFIRMATION_PENDING",
     "proposedPart": 5,
     "proposedChapter": 24,
     "proposedChapterTitle": "데이터센터 PUE와 냉방 최적화",
-    "chapterPlacementStatus": "EDITORIAL_TOC_FIXED",
-    "round2Status": "READY_FOR_BOOK_STYLE_EDIT"
+    "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
+    "round2Status": "BOOK_REVISION_CANDIDATE"
   },
   {
     "caseNo": 80,
@@ -850,12 +850,12 @@
     "figureCountPlanned": null,
     "tableCountPlanned": null,
     "sourceRegisterStatus": "PENDING",
-    "finalReview": "PENDING",
+    "finalReview": "USER_CONFIRMATION_PENDING",
     "proposedPart": 5,
     "proposedChapter": 24,
     "proposedChapterTitle": "데이터센터 PUE와 냉방 최적화",
-    "chapterPlacementStatus": "EDITORIAL_TOC_FIXED",
-    "round2Status": "READY_FOR_BOOK_STYLE_EDIT"
+    "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
+    "round2Status": "BOOK_REVISION_CANDIDATE"
   },
   {
     "caseNo": 81,
@@ -872,12 +872,12 @@
     "figureCountPlanned": null,
     "tableCountPlanned": null,
     "sourceRegisterStatus": "PENDING",
-    "finalReview": "PENDING",
+    "finalReview": "USER_CONFIRMATION_PENDING",
     "proposedPart": 5,
     "proposedChapter": 24,
     "proposedChapterTitle": "데이터센터 PUE와 냉방 최적화",
-    "chapterPlacementStatus": "EDITORIAL_TOC_FIXED",
-    "round2Status": "READY_FOR_BOOK_STYLE_EDIT"
+    "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
+    "round2Status": "BOOK_REVISION_CANDIDATE"
   },
   {
     "caseNo": 82,
@@ -894,11 +894,11 @@
     "figureCountPlanned": null,
     "tableCountPlanned": null,
     "sourceRegisterStatus": "PENDING",
-    "finalReview": "PENDING",
+    "finalReview": "USER_CONFIRMATION_PENDING",
     "proposedPart": 5,
     "proposedChapter": 24,
     "proposedChapterTitle": "데이터센터 PUE와 냉방 최적화",
-    "chapterPlacementStatus": "EDITORIAL_TOC_FIXED",
-    "round2Status": "READY_FOR_BOOK_STYLE_EDIT"
+    "chapterPlacementStatus": "PROPOSED_PENDING_USER_CONFIRMATION",
+    "round2Status": "BOOK_REVISION_CANDIDATE"
   }
 ]
