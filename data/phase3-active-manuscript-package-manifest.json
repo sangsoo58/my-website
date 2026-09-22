@@ -148,5 +148,15 @@
       "USER_TOC_FIGURE_APPROVAL_AND_PRINT_PERMISSION",
       "WORD_WORKING_COPY_AUTHORIZATION"
     ]
+  },
+  "userApprovalPacket": {
+    "doc": "docs/PHASE3_USER_APPROVAL_PACKET.md",
+    "data": "data/phase3-user-approval-packet.json",
+    "status": "READY_FOR_USER_DECISION"
+  },
+  "printPermissionReview": {
+    "doc": "docs/PHASE3_BOOK_PRINT_PERMISSION_REVIEW.md",
+    "data": "data/phase3-book-print-permission-review.json",
+    "status": "PENDING"
   }
 }
