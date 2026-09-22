@@ -21,14 +21,8 @@
         "CASE82"
       ]
     },
-    "case79DirectMaster": {
-      "status": "PRELIMINARY_DIRECT_MASTER_PASS",
-      "librarySource": "CASE79_BOOK_MASTER.txt",
-      "exactOfficialFilename": "case79_approval_final.txt",
-      "finalFidelity": "PENDING_EXACT_OFFICIAL_FILE_CONTENT_IDENTITY"
-    },
     "case77_81DirectSourceMaster": {
-      "status": "PRELIMINARY_DIRECT_SOURCE_MASTER_PASS",
+      "status": "FINAL_FIDELITY_PASS",
       "count": 5,
       "cases": [
         "CASE77",
@@ -37,11 +31,7 @@
         "CASE80",
         "CASE81"
       ],
-      "sources": [
-        "CASE01_81_BOOK_WRITING_SOURCE_MASTER.txt",
-        "CASE79_BOOK_MASTER.txt"
-      ],
-      "finalFidelity": "PENDING_STANDALONE_OFFICIAL_APPROVAL_FINAL_FILE_BYTE_IDENTITY"
+      "sourceMode": "DIRECT_STANDALONE_APPROVED_FINAL_TXT_REVIEW"
     }
   },
   "holds": {
@@ -53,13 +43,7 @@
         "page": null
       }
     ],
-    "provenance": [
-      "CASE77",
-      "CASE78",
-      "CASE79",
-      "CASE80",
-      "CASE81"
-    ]
+    "provenance": []
   },
   "figureSelection": {
     "approvedWebAssets": 11,
