@@ -1,11 +1,11 @@
-# CASE 50 | 응용사례 — 대형 오피스 빌딩 창면적·유리성능 Parametric Simulation
+# CASE 50 | 응용사례 — 대형 오피스 빌딩의 창면적·유리성능 변화가 냉난방 에너지에 미치는 영향을 비교한 Simulation
 
-**편집상태:** PHASE 3 DRAFT / SOURCE RECONCILIATION REQUIRED  
+**편집상태:** PHASE 3 DRAFT / SOURCE RECONCILED / USER BOOK DECISION PENDING  
 **편집 배치안 (Expanded Edition Proposal):** PART 5 · Chapter 23 · 신축건물 Energy Modeling
 **Evidence:** D — Simulation·Modeling  
 **Web:** /cases/case50.html
 
-> 편집 Hold: 현재 Web CASE 본문은 대형 오피스 빌딩 Parametric Simulation으로 정리되어 있으나, 기존 Master metadata의 Measurement Boundary에는 ‘보육시설 Passive House 설계안’ 흔적이 남아 있다. 최종 출간 전 원자료와 대조하여 Boundary를 확정한다.
+> 편집상태: standalone `CASE50_APPROVED_FINAL.txt` 직접 대조로 대형 오피스 빌딩 창호 Parametric Simulation이 승인 정본임을 확인했다. 기존 Master의 ‘보육시설 Passive House’ 표기는 승인 정본과 불일치하므로 사용하지 않는다. 별도 CASE로 책에 포함할지는 사용자 결정 대기 상태다.
 
 ## 설계 질문
 
@@ -29,4 +29,9 @@ WWR는 단독 정답변수가 아니다. U-value, SC/SHGC, VT/VLT, Orientation, 
 
 ## Evidence Boundary
 
-현재 Web CASE 기준으로 창면적·SC·커튼 변경값은 Simulation 계산결과이며 실측 절감성과가 아니다. **최종 책 원고에서는 기존 Master의 Boundary 불일치를 먼저 원자료로 해소한 뒤 본 문구를 확정한다.**
+창면적·SC·커튼 변경값은 승인된 Simulation 계산결과이며 실측 절감성과가 아니다. 다른 건물에 동일 절감률을 적용하지 않으며, 승인 정본의 대형 오피스 Building Model Boundary를 유지한다.
+
+
+## Source Note
+
+저자 보유 설계·Simulation 자료와 비식별 공개사례를 바탕으로 재구성했다. 수치·성과는 설계단계 Simulation 결과이며 준공 후 실측 절감성과가 아니다.
