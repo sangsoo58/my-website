@@ -143,3 +143,42 @@ Status: PASS
 - CASE42~82 book links: remain hidden
 - All Phase 3 artifacts are BOOK REVISION CANDIDATES only
 - User confirmation is required before actual book integration or mapping activation
+
+
+## 12. CASE65~82 Preliminary Evidence QA
+
+Status: **PRELIMINARY PASS / FINAL FIDELITY PENDING**
+
+Scope:
+- CASE65~82 individual manuscripts
+- Chapter 11 / 15 / 20 / 24 integrated drafts
+- Evidence Register and overlap-control rules
+
+Checks completed:
+- Chapter placement metadata: 18/18 aligned with current proposed TOC
+- Evidence Boundary section present: 18/18
+- Potential / Proposal / Scenario values promoted to verified saving: none found
+- Benchmark gap promoted to saving rate: none found
+- Null/diagnostic result given artificial saving: none found
+- Contract-power cost scenario represented as kWh saving: none found
+- Program-level result explicitly protected from single-action attribution where applicable
+
+Case-specific protection confirmed:
+- CASE65: 66.62 vs 70.12 N㎥/ton, ~5% and ~1.8억원/년 remain field-test/project values; no generalization to other sites
+- CASE66: 40% load-factor observation remains site-specific threshold; no independent saving amount created
+- CASE67: correlation is not promoted to causality or verified saving
+- CASE68: abnormal steam-flow metering is not used to calculate a saving rate
+- CASE69: pressure optimization remains field pattern / optimization direction
+- CASE70: PUE gap remains diagnostic, not saving rate
+- CASE71~73: retrofit / free-cooling / tower-setpoint items remain alternatives or optimization directions
+- CASE74: PUE 1.77→1.70, 6.5 GWh/년, 7.53억원/년 remain proposal targets / expected effects
+- CASE75: auxiliary-power benchmark gap remains diagnostic
+- CASE76~81: no independent final saving is assigned where source does not establish one
+- CASE82: 20,000→12,000 kW and 1.67억원/년 remain a contract-power cost-saving scenario, not kWh energy saving
+
+Editorial tightening applied:
+- CASE46 integrated Chapter 24 wording changed from “Fan 소비동력 63.5% 절감” to “Fan 소비동력 63.5% 감소” so the measured fan-power change is not overstated as an M&V saving claim.
+- CASE65~68 placement label normalized to “Proposed Chapter 15”.
+
+Limit:
+This is a **Preliminary QA**, not Approval Final Fidelity PASS. Approval Final TXT source bytes are still not directly available in the current working environment for direct text comparison. CASE50 remains HOLD.
