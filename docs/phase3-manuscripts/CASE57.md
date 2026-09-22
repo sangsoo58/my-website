@@ -1,4 +1,4 @@
-# CASE 57 | 응용사례 — 5℃·13℃ 냉수계통 부하분담 최적화
+# CASE 57 | 응용사례 — 5℃·13℃ 냉수계통 부하분담 최적화를 통한 냉동기 가동대수 및 반송동력 절감
 
 **편집상태:** PHASE 3 DRAFT / USER REVIEW REQUIRED  
 **배치안:** PART 3 · Chapter 11 · 냉동기 Plant 최적화  
