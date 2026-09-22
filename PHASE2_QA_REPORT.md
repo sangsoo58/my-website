@@ -140,3 +140,9 @@ Draft PR → Ready for Review → Merge → GitHub Pages → Production Smoke Te
   - CTA / trust strip visible
   - four audience entry cards visible and balanced
 - Next browser gate: CASE01 → CASE41 → CASE42 → CASE82 → Book Reader → Expert → Consultation
+
+- CASE01 full page + knowledge connection: PASS
+  - Knowledge Connection appears after supplementary/expert commentary
+  - Current-book card appears for CASE01
+  - Related Insight resolves to Baseline & M&V
+  - CASE Library and Professional Consultation links visible
