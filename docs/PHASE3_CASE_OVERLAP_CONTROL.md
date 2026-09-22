@@ -113,3 +113,10 @@ CASE INDEX에는 82개 ID를 모두 유지하되, 동일 프로젝트 계열은 
 하나의 복합 프로젝트에서 서로 다른 진단질문·설비·Test·M&V를 분리한 Sub-case가 포함될 수 있다.
 
 이 원칙을 SOURCE NOTE와 READING GUIDE에도 반영한다.
+
+
+### CASE49 ↔ CASE50
+- Relation: **SAME_MODEL_FENESTRATION_FOCUSED_COMPANION**
+- Confidence: HIGH
+- Evidence: WWR 63→40%(-1.7%), SC 0.33→0.75(+9.3%), Curtain 50%(-1.0%)가 동일한 오피스 Baseline Parametric Simulation에 반복된다.
+- Editorial Action: CASE49는 18개 설계변수 전체 Parametric Study를 유지한다. CASE50은 창호 변수에 집중한 세부 Companion이지만 정량 결과가 CASE49와 중복되므로, **214~220p 목표에서는 별도 본문 제외 + CASE49 내 Fenestration Fact Box/Cross-reference 흡수안을 우선 권고**한다. 사용자가 별도 CASE 보존을 원할 경우에만 중복 문장을 최소화해 0.75~1p 수준으로 편집한다.
