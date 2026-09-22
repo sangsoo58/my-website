@@ -252,3 +252,18 @@ Remaining strict-fidelity limitation:
 - therefore Final Fidelity PASS remains pending by policy
 
 CASE50 remains the only separate source-identity conflict HOLD.
+
+
+## Pre-Word fidelity matrix update
+
+Status: **CASE42~81 PRE-WORD SOURCE/MANUSCRIPT MATRIX READY**
+
+CASE42~76:
+- source recovery 35/35
+- active preliminary manuscript fidelity 34/34
+- CASE50 separate HOLD
+
+CASE77~81:
+- direct Source Master Preliminary PASS 5/5
+
+Strict final limitation remains standalone official Approval Final TXT byte identity where required by policy. No Final Fidelity PASS is assigned yet.
