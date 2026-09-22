@@ -1,7 +1,7 @@
 # CASE 79 | 응용사례 — 데이터센터 냉수펌프 실제·필요 가동대수 비교
 
 **편집상태:** PHASE 3 DRAFT / USER REVIEW REQUIRED  
-**배치안:** PART 5 · Chapter 23 · 데이터센터 PUE와 냉방 최적화  
+**배치안:** PART 5 · Proposed Chapter 24 · 데이터센터 PUE와 냉방 최적화
 **Evidence:** B/C · Field Data / Optimization Direction  
 **Web:** /cases/case79.html
 
