@@ -34,3 +34,7 @@ Baseline에서 가동대수, Flow, Header Pressure, 총 kW, Loading/Unloading과
 
 ## Evidence Boundary
 현장 운전데이터와 Test & Adjust 기반 사례. 생산에 필요한 Flow·Pressure를 유지하면서 System Specific Energy가 개선되는지를 검증한다.
+
+## Source Note
+
+저자 보유 프로젝트 자료와 비식별 공개사례를 바탕으로 재구성했다. 수치·성과의 성격은 본문의 Evidence Boundary를 따른다.
