@@ -183,10 +183,12 @@
       "CASE81"
     ],
     "preliminaryReason": {
-      "CASE52-76": "Standalone Approval Final files confirmed; current Library text reader cannot open some files and raw-byte materialization is unavailable.",
+      "CASE52-76": "Direct BOOK_MASTER review PASS 25/25; standalone Approval Final direct-text access remains unavailable for some files.",
       "CASE82": "Separate Production-locked source regime."
     },
-    "case50": "CONTENT_FIDELITY_PASS_BOOK_INCLUSION_USER_DECISION_PENDING"
+    "case50": "CONTENT_FIDELITY_PASS_BOOK_INCLUSION_USER_DECISION_PENDING",
+    "directBookMasterPreliminaryPass": 25,
+    "separateSourcePreliminary": 1
   },
   "resumeCheckpoint": {
     "doc": "docs/PHASE3_PAUSE_RESUME_CHECKPOINT_2026-09-22.md",
