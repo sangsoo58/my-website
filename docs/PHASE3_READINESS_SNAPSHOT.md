@@ -236,7 +236,7 @@ CASE50 remains a separate source-identity HOLD.
 
 ## CASE77~81 direct source master update
 
-Status: **PRELIMINARY DIRECT SOURCE MASTER PASS 5/5**
+Status: **FINAL FIDELITY PASS 5/5**
 
 Recovered direct readable approved-source content:
 - CASE77, CASE78, CASE80, CASE81 from `CASE01_81_BOOK_WRITING_SOURCE_MASTER.txt`
@@ -247,9 +247,9 @@ Current result:
 - claim strengthening: 0 identified
 - active manuscript content-byte accessibility blocker: resolved at Source Master level
 
-Remaining strict-fidelity limitation:
-- standalone official `case77_approval_final.txt` ~ `case81_approval_final.txt` objects have not been independently byte-read
-- therefore Final Fidelity PASS remains pending by policy
+Standalone Approval Final TXT review:
+- CASE77~81 = **5/5 directly reviewed**
+- Final Fidelity PASS assigned for CASE77~81
 
 CASE50 remains the only separate source-identity conflict HOLD.
 
