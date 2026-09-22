@@ -36,20 +36,21 @@ Count: **14 active CASE**
 - authoritative identity = large-office fenestration WWR/glazing parametric Simulation
 - book separate-body inclusion = USER DECISION PENDING
 
-## Standalone source file exists but current reader cannot access text
+## CASE52~76 standalone text limitation with readable BOOK MASTER fallback
 
 CASE52~76 = **25 CASE**
 
 Status:
 - exact standalone file identities confirmed
 - Source Recovery Register PASS
-- Book Writing Source Master source-preservation lock PASS
-- some standalone files return zero readable lines through Files read/find/search
+- individual CASE52~76 BOOK_MASTER files directly readable
+- Direct BOOK MASTER manuscript comparison PASS 25/25
+- some standalone Approval Final files still return zero readable lines through Files read/find/search
 - raw-byte materialization is not authorized in current environment
 
 Editorial consequence:
-- keep PRELIMINARY FIDELITY
-- do not promote to Final Fidelity by inference
+- keep **Direct BOOK MASTER Preliminary Fidelity PASS 25/25**
+- do not promote to standalone Final Fidelity by inference
 - this is an accessibility/tool limitation, not a known source-content conflict
 
 ## CASE82
