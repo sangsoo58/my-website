@@ -65,3 +65,17 @@ Before final publication:
 - current Word/PDF Master and Production: KEEP UNCHANGED
 
 This recommendation is not itself a user approval.
+
+
+## Current technical readiness
+
+- Active CASE Pre-Word acceptance: 40/40
+- Final Fidelity PASS: 15/40
+- Direct BOOK MASTER Preliminary PASS: 25/40
+- Figure binary integrity: 11/11 PASS
+- Figure caption/unit source QA: 11/11 PASS
+- Figure permission/anonymization: pending
+- CASE50 source/content identity: resolved
+- current Word/PDF Master and Production: unchanged
+
+The remaining source limitation is concentrated in CASE52~76 standalone Approval Final TXT direct-text access. No known content conflict is open in that set.
