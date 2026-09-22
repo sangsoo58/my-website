@@ -175,3 +175,25 @@ Remaining four gates:
 4. authorization to create/modify the Expanded Edition Word working copy
 
 Therefore status = **PRE-WORD PACKAGE READY**, not FINAL BOOK MANUSCRIPT LOCKED.
+
+
+## 12. User approval packet readiness
+
+Status: **READY FOR USER DECISION**
+
+Approval artifacts:
+- `docs/PHASE3_USER_APPROVAL_PACKET.md`
+- `data/phase3-user-approval-packet.json`
+
+Print review artifacts:
+- `docs/PHASE3_BOOK_PRINT_PERMISSION_REVIEW.md`
+- `data/phase3-book-print-permission-review.json`
+
+User decisions required before Expanded Word working-copy creation:
+1. proposed Chapter 15 insertion / 29-Chapter TOC
+2. 7 primary Figures + optional CASE44-F02
+3. CASE53/64/66 Table/Fact Box preference
+4. page target (recommended 214~220p)
+5. authorization for separate Expanded Edition Word working copy
+
+Print permission/anonymization remains an independent gate even after Figure selection approval.
