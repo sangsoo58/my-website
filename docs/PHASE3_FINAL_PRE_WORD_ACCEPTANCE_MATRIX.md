@@ -97,15 +97,23 @@ Each active CASE is checked for:
 
 ### CASE82
 - Production locked data + restored QA source basis
+- Direct locked-source comparison completed
+- Final Fidelity PASS under CASE82 separate source regime
 - Energy KPI and contract-cost scenario boundary preserved
-- standalone Approval Final TXT does not exist in the same CASE01~81 source regime
 
 ## Current Fidelity Count
 
-- Active Final Fidelity PASS: **14/40**
+- Active Final Fidelity PASS: **15/40**
 - Active Direct BOOK MASTER Preliminary PASS: **25/40**
-- CASE82 separate-source Preliminary QA: **1/40**
+- CASE82 locked-data source regime Final Fidelity PASS: **1/40**
 - CASE50 content Fidelity: PASS, but excluded pending user book decision
+
+## Final/Preliminary split = 15/25
+
+- Final Fidelity PASS: **15/40**
+  - CASE42~49, CASE51, CASE77~82
+- Direct BOOK MASTER Preliminary PASS: **25/40**
+  - CASE52~76
 
 ## Four remaining gates
 
