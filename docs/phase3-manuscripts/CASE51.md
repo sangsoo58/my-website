@@ -57,3 +57,7 @@ Baseline Building Performance에서 Process Energy Cost 비중은 약 **25.27%**
 ## Consultant's Point
 
 Site Energy, Source Energy, Energy Cost, Peak Demand, Carbon은 서로 다른 평가축이다. 무엇을 ‘개선’이라고 부르는지 KPI와 Boundary를 함께 명시해야 한다.
+
+## Source Note
+
+저자 보유 설계·Simulation 자료와 비식별 공개사례를 바탕으로 재구성했다. 수치·성과의 성격은 본문의 Evidence Boundary를 따르며 준공 후 실측성과로 해석하지 않는다.
