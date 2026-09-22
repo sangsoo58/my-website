@@ -1,7 +1,7 @@
 # CASE 46 | 응용사례 — PUE 이상을 냉방설비까지 추적한 다중 데이터센터 성능개선
 
 **편집상태:** PHASE 3 DRAFT / USER REVIEW REQUIRED  
-**배치안:** PART 5 · Chapter 23 · 데이터센터 PUE와 냉방 최적화  
+**편집 배치안 (Expanded Edition Proposal):** PART 5 · Chapter 24 · 데이터센터 PUE와 냉방 최적화
 **Evidence:** B/C mixed  
 **Web:** /cases/case46.html
 
