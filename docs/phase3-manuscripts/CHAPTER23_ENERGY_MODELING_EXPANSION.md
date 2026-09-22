@@ -59,13 +59,13 @@ End-use 요구량은 냉방 약 34,630, 조명 약 26,911, 급탕 약 27,168 MWh
 - SC 0.33→0.75: 약 **+9.3%, +291백만원/년**
 - 커튼 50% 적용: 약 **-1.0%, -31백만원/년**
 
-**EDITORIAL HOLD |** 기존 Master metadata에 보육시설 Passive House Boundary 흔적이 남아 있어 최종 출간 전 Source Reconciliation이 필요하다. 현재 원고는 Web CASE 본문의 대형 오피스 Parametric Simulation을 기준으로 작성한다.
+**SOURCE HOLD |** 기존 Master metadata에 보육시설 Passive House Boundary 흔적이 남아 있어 Source Reconciliation 완료 전에는 CASE50을 Expanded Edition 본문에 포함하지 않는다.
 
 ### CASE 51 | 응용사례 — ASHRAE 90.1 Appendix G / LEED Energy Modeling
 
 72층 복합건물을 eQUEST3-64와 ASHRAE 90.1-2004 Appendix G에 따라 Proposed와 Baseline으로 비교했다.
 
-Baseline은 0°, 90°, 180°, 270° 네 방향으로 Simulation했고 평균 연간 에너지비용은 약 **3.721 million USD/yr**였다.
+Baseline은 0°, 90°, 180°, 270° 네 방향으로 Simulation했고 평균 연간 에너지비용은 약 **3.721백만 USD/년**이었다.
 
 Proposed는 Baseline보다 **연간 에너지비용 약 4% 낮게** 평가되었다. 그러나 **Site Energy Consumption은 약 36% 더 크게** 계산되었다.
 
