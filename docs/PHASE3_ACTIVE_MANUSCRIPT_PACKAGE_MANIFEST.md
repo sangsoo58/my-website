@@ -214,3 +214,17 @@ Use the checkpoint as the next-session starting point. Do not repeat completed Q
 - Production locked data + restored QA directly compared
 - key numeric values and Cost-vs-Energy Boundary aligned
 - Final Fidelity PASS under separate CASE82 source regime
+
+
+## 17. Table / Fact Box package
+
+Plan:
+- `docs/PHASE3_TABLE_FACTBOX_SELECTION_PLAN.md`
+- `data/phase3-table-factbox-selection-plan.json`
+
+Base:
+- 11 tables
+- 1 optional table
+- ~9~12 Fact Boxes/checklists
+
+Purpose: preserve the 214~220p target while preventing same-project KPI duplication.
