@@ -43,8 +43,9 @@ CASE42~76:
 
 CASE77~81:
 - 기존 BOOK SOURCE GATE에서 **5/5 PASS**
-- 실제 source 존재는 확인되었으나 현재 recovery snippet에서 개별 정확한 파일명이 노출되지 않아 Register에는 Source Gate PASS 상태로 기록
-- Word Master 통합 전 정확한 filename/path 재확인 필요
+- official Book Source filename은 `case77_approval_final.txt` ~ `case81_approval_final.txt`로 확인됨
+- 현재 작업환경에서는 해당 TXT의 실제 content bytes를 직접 읽지 못했으므로 manuscript fidelity 비교는 Pending
+- Word Master 통합 전 Approval Final TXT 본문 직접 대조 필요
 
 CASE82:
 - CASE82는 기존 42~81 Source Recovery 묶음 밖에 있으므로 Production의 restored locked data와 QA를 Source로 사용
@@ -93,7 +94,7 @@ NO VISUAL은 정상적인 편집결정이다.
 ## 7. Next Gate
 
 Word Master integration 전에:
-1. CASE77~81 exact Source filename/path 확정
+1. CASE77~81 Approval Final TXT content-byte fidelity verification
 2. 11개 PNG의 Book Print permission 확인
 3. Figure별 caption·unit·evidence 최종 검증
 4. Table 수치 Source line 대조
@@ -101,18 +102,26 @@ Word Master integration 전에:
 6. 최종 Figure/Table 번호는 조판 구조 확정 후 부여
 
 
-## 8. CASE77~81 Exact-path Retrieval Result
+## 8. CASE77~81 Official Source Identity Result
 
-Result: **SOURCE EXISTENCE PASS / EXACT PATH UNRESOLVED**
+Result: **OFFICIAL FILENAME CONFIRMED / CONTENT-BYTE FIDELITY PENDING**
 
-Library retrieval confirms:
-- CASE77~81 Source = **5/5 PASS**
-- TOTAL CASE01~81 Book Source Gate = **81/81 PASS**
-- Source Gap = **0**
+Confirmed official filenames:
+- CASE77 → `case77_approval_final.txt`
+- CASE78 → `case78_approval_final.txt`
+- CASE79 → `case79_approval_final.txt`
+- CASE80 → `case80_approval_final.txt`
+- CASE81 → `case81_approval_final.txt`
 
-However, title-only and exact filename searches do not expose the individual CASE77~81 source files as separate Library records. Therefore the register does **not** invent filenames such as CASE77_APPROVED_FINAL.txt.
+Source existence / Book Source Gate:
+- CASE77~81 = **5/5 PASS**
+- TOTAL CASE01~81 Source Gap = **0**
+
+Remaining limitation:
+- current Phase 3 working environment does not expose the Approval Final TXT content bytes for direct manuscript comparison
+- therefore Final Fidelity PASS is not assigned
 
 Editorial handling:
-- FACT/Evidence already locked in Production CASE77~81 may be used as review context.
-- Exact Book Source filename/path remains pending.
-- Word Master integration for CASE77~81 must retain a source-path HOLD until the exact source file identity is recovered from the Book Source package.
+- official filename identity may be used in registers
+- content claims remain PRELIMINARY until direct Approval Final TXT comparison
+- Word Master integration retains a source-fidelity HOLD for CASE77~81
