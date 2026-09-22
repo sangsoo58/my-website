@@ -179,3 +179,15 @@ Execution runbook:
 - `docs/PHASE3_WORD_INTEGRATION_RUNBOOK.md`
 
 Status: **READY BUT NOT AUTHORIZED**
+
+
+## 15. Consolidated Fidelity status
+
+- Active Final Fidelity PASS: **14/40**
+  - CASE42~49, CASE51, CASE77~81
+- Active Preliminary/source-preserving QA: **26/40**
+  - CASE52~76: standalone files confirmed but text reader cannot open some files
+  - CASE82: separate Production locked data + restored QA source regime
+- CASE50: standalone source/content fidelity resolved; book inclusion USER DECISION PENDING
+
+No known claim-strengthening conflict is open in the active package.
