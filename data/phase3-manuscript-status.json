@@ -1254,10 +1254,12 @@
     "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
     "productionVerificationNumericQA": "PRELIMINARY_PASS",
     "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
-    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+    "approvalFinalTxtFidelityQA": "PENDING_EXACT_OFFICIAL_FILE_CONTENT_IDENTITY_AFTER_PRELIMINARY_DIRECT_MASTER_PASS",
     "canonicalWebPath": "/cases/case79.html",
     "publicationSourceNoteQA": "PASS",
-    "webPathQA": "PASS"
+    "webPathQA": "PASS",
+    "directApprovedMasterContentQA": "PRELIMINARY_PASS_CASE79_BOOK_MASTER",
+    "directApprovedMasterContentQANote": "Direct Library content comparison against CASE79_BOOK_MASTER.txt: Title, Evidence B/C, Actual-vs-Required Units logic, 5℃/13℃ system data structure, Pump OFF action, M&V boundary and no-independent-final-saving classification are consistent. Monthly numeric detail and external references are condensed/omitted without claim strengthening. Final official Approval Final TXT filename-content identity check remains pending."
   },
   {
     "caseNo": 80,
