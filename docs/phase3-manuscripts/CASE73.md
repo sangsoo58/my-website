@@ -1,7 +1,7 @@
 # CASE 73 | 응용사례 — 냉각탑 설정온도와 Chiller·Tower 통합 최적화
 
 **편집상태:** PHASE 3 DRAFT / USER REVIEW REQUIRED  
-**배치안:** PART 5 · Chapter 23 · 데이터센터 PUE와 냉방 최적화  
+**배치안:** PART 5 · Proposed Chapter 24 · 데이터센터 PUE와 냉방 최적화
 **Evidence:** C · Field Diagnosis / Heat-rejection Alternative  
 **Web:** /cases/case73.html
 
