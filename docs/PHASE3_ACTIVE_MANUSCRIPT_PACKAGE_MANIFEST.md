@@ -156,3 +156,16 @@ Remaining blockers are intentionally compressed to four gates:
 - CASE50 source reconciliation
 - user TOC/Figure approval + print permission
 - Word working-copy authorization
+
+
+## 13. User approval / print review packet
+
+Ready for decision:
+- `docs/PHASE3_USER_APPROVAL_PACKET.md`
+- `data/phase3-user-approval-packet.json`
+
+Print permission review:
+- `docs/PHASE3_BOOK_PRINT_PERMISSION_REVIEW.md`
+- `data/phase3-book-print-permission-review.json`
+
+Current Figure assets remain HOLD for print until permission, anonymization, source/unit/caption and final-layout readability reviews are completed.
