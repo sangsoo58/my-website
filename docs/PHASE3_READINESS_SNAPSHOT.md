@@ -280,3 +280,17 @@ This does not authorize Word integration. Four gates remain:
 2. CASE50 source reconciliation
 3. user TOC/Figure approval and print permission
 4. Word working-copy authorization
+
+
+## User approval readiness update
+
+Status: **APPROVAL PACKET READY**
+
+Prepared:
+- Expanded Edition TOC decision packet
+- Figure/Table selection decision
+- 214~220p recommended page target
+- Word working-copy authorization gate
+- Book print permission/anonymization checklist for all 11 approved Web PNG assets
+
+No decision in these planning documents modifies the current Master automatically.
