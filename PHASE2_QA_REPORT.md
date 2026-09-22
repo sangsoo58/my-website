@@ -126,6 +126,12 @@ Draft PR → Ready for Review → Merge → GitHub Pages → Production Smoke Te
 - Browser rendering itself is still a manual gate and has not been declared PASS.
 
 ## 10. Browser QA progress
+- CASE01 upper/detail hero: PASS (browser screenshot reviewed)
+  - breadcrumb / category / title / summary / tags render correctly
+  - responsive hamburger header is expected at this viewport
+  - evidence summary card alignment is stable
+  - no visible horizontal overflow in the captured upper viewport
+
 
 - Homepage desktop Hero: PASS (user browser screenshot reviewed)
   - headline line breaks stable
