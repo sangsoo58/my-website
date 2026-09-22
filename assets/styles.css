@@ -76,8 +76,8 @@ h3 { font-size: 22px; }
 
 /* Hero */
 .hero { padding-top: 94px; background: radial-gradient(circle at 88% 18%, rgba(53,181,142,.10), transparent 27%), linear-gradient(180deg, #fbfdfd, #fff); overflow: hidden; }
-.hero-grid { min-height: 580px; display: grid; grid-template-columns: 1.16fr .84fr; gap: 52px; align-items: center; }
-#hero-title{font-size:clamp(42px,3.25vw,52px);line-height:1.08;max-width:760px}
+.hero-grid { min-height: 580px; display: grid; grid-template-columns: 1.22fr .78fr; gap: 40px; align-items: center; }
+#hero-title{font-size:clamp(40px,3.1vw,50px);line-height:1.08;max-width:780px}
 #hero-title .hero-title-line{display:block}
 #hero-title .hero-title-dark{color:var(--navy-900)}
 #hero-title em{color:var(--teal-600);font-style:normal}
