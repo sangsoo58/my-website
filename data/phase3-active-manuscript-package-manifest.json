@@ -208,5 +208,11 @@
     "data": "data/phase3-selected-table-source-qa.json",
     "pass": "11/11",
     "finalPageRecheck": "PENDING"
+  },
+  "figureAnonymizationReview": {
+    "doc": "docs/PHASE3_FIGURE_ANONYMIZATION_EVIDENCE_REVIEW.md",
+    "data": "data/phase3-figure-anonymization-evidence-review.json",
+    "knownDocumentLevelDefects": 0,
+    "pixelReview": "PENDING"
   }
 }
