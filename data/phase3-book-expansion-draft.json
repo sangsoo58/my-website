@@ -1129,18 +1129,14 @@
     "measurementBoundary": "기존 LOCK Boundary 유지",
     "sourceTrace": "Protected CASE52~82 prior Final Story",
     "manuscriptBatch": "D_70_82",
-    "proposedPart": null,
-    "proposedChapter": null,
-    "proposedChapterTitle": null,
-    "placementStatus": "REVIEW_REQUIRED",
-    "placementCandidates": [
-      "PART3_CH11_냉동기_Plant",
-      "PART3_CH12_반도체_Multi-Utility"
-    ],
-    "placementReason": "현재 Web sector는 데이터센터지만 CASE 설명은 반도체·디스플레이 제조시설 냉각수펌프를 가리켜 원자료 대조 후 배치 확정 필요",
+    "proposedPart": 3,
+    "proposedChapter": 11,
+    "proposedChapterTitle": "냉동기 Plant 최적화",
+    "placementStatus": "PROPOSED_EXISTING_CHAPTER",
+    "placementCandidates": [],
+    "placementReason": "CASE 본문이 국내 반도체·디스플레이 제조시설의 5℃·13℃ 냉각수펌프 성능 및 필요대수 분석으로 확인되어 PART 3 Chapter 11 배치 제안",
     "auditFlags": [
-      "SECTOR_METADATA_MISMATCH_REVIEW",
-      "PLACEMENT_REVIEW"
+      "SECTOR_METADATA_MISMATCH_REVIEW"
     ],
     "bookIncluded": false,
     "bookPage": null,
