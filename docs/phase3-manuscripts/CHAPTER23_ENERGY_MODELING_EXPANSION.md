@@ -4,6 +4,16 @@
 **Expanded Edition Chapter 23 / 기존 Chapter 22에서 +1 이동**  
 **CASE48~51 추가**
 
+## DUPLICATION CONTROL
+
+CASE48·51은 현재 출간본의 기존 Energy Modeling CASE와 동일 프로젝트의 Deep Dive Companion으로 편집한다.
+
+- CASE48 ↔ CASE36: 동일 DOE-2.1E 설계검토 계열. CASE36은 개요, CASE48은 133층 복합건물의 용도·월별·1차에너지 상세.
+- CASE51 ↔ CASE35: 동일 LEED Appendix G Performance Rating 계열. CASE35는 개요, CASE51은 72층 모델·Rotation·Cost vs Site Energy 상세.
+- CASE49·50은 별도 Parametric Study로 유지하되 CASE50은 Source Reconciliation Hold를 유지한다.
+
+같은 모델의 수치를 두 CASE의 독립성과처럼 합산하지 않는다.
+
 ## Chapter Lens
 
 실제 운영데이터가 존재하지 않는 신축건물에서 설계대안의 에너지성능을 어떻게 비교할 것인가?
