@@ -36,3 +36,7 @@ O₂가 낮을수록 무조건 좋은 것이 아니다. Excess Air를 줄이면 
 
 ## Consultant's Point
 원단위 악화는 결과이고 O₂·Stack Temperature는 **원인을 좁히는 진단변수**다. 상관관계는 결론이 아니라 Test 대상을 선정하는 근거다.
+
+## Source Note
+
+저자 보유 프로젝트 자료와 비식별 공개사례를 바탕으로 재구성했다. 수치·성과의 성격은 본문의 Evidence Boundary를 따른다.
