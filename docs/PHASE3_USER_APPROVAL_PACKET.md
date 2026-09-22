@@ -150,15 +150,24 @@ Strict standalone source-byte identity confirmation remains a final fidelity con
 
 ## 7. CASE50
 
-Current status:
+Source reconciliation is now **complete**.
+
+Direct Approval Final TXT confirms the authoritative CASE50 identity as:
+- 대형 오피스 빌딩의 창면적·유리성능 변화가 냉난방 에너지에 미치는 영향을 비교한 Simulation
+- Evidence D | Simulation·Modeling
+
+The approved source explicitly states that the legacy “보육시설 Passive House” label does not match the actual CASE50 content.
+
+Current temporary state remains:
 - Book Included = false
 - Page = null
 - no Figure/Table active row
-- removed from active Ch.23 integration
-- Source identity conflict remains unresolved
+
+### CASE50 approval item
 
 Decision:
-- **No user decision required now. Keep HOLD until source reconciliation.**
+- [ ] INCLUDE CASE50 in Proposed Chapter 23 using the reconciled approved office-fenestration source
+- [ ] KEEP CASE50 excluded from this Expanded Edition
 
 ## 8. Word Working Copy gate
 
