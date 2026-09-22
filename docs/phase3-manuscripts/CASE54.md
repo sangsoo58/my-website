@@ -1,4 +1,4 @@
-# CASE 54 | 응용사례 — CDA Header 압력기반 통합제어와 공급압력 최적화
+# CASE 54 | 응용사례 — CDA Header 압력기반 통합제어를 통한 공기압축기 공급압력 최적화 및 전력절감
 
 **편집상태:** PHASE 3 DRAFT / USER REVIEW REQUIRED  
 **배치안:** PART 4 · Chapter 14 · 공기압축기 시스템 운전최적화  
