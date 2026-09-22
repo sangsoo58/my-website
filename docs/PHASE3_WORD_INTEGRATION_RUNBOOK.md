@@ -163,8 +163,10 @@ Before insertion:
 
 Use:
 - `docs/PHASE3_TABLE_FACTBOX_SELECTION_PLAN.md`
+- `docs/PHASE3_SELECTED_TABLE_SOURCE_QA.md`
 
 Base plan:
+- selected table/fact-box Source QA: **11/11 PASS**
 - full/compact tables: 11
 - optional table: 1 (CASE78)
 - inline Fact Boxes/checklists: about 9~12
