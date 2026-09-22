@@ -1,4 +1,4 @@
-# CASE 62 | DEEP DIVE 후보 — 냉각수 입구온도 단계별 Test와 최적 운전온도
+# CASE 62 | DEEP DIVE 후보 — 냉각수 입구온도 단계별 Test를 통한 냉동기 최적 운전온도 탐색
 
 **편집상태:** PHASE 3 DRAFT / USER REVIEW REQUIRED  
 **배치안:** PART 3 · Chapter 11 · 냉동기 Plant 최적화  
