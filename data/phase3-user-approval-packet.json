@@ -1,0 +1,52 @@
+{
+  "phase": "PHASE3",
+  "packet": "USER_APPROVAL",
+  "status": "READY_FOR_USER_DECISION",
+  "proposedTOC": {
+    "newChapter15": "보일러 시스템 운전최적화",
+    "totalChapters": 29,
+    "renumberCurrent15To28ByPlusOne": true,
+    "approval": "PENDING"
+  },
+  "activeCases": 40,
+  "holdCases": [
+    "CASE50"
+  ],
+  "figures": {
+    "primary": [
+      "CASE42-F01",
+      "CASE43-F01",
+      "CASE44-F01",
+      "CASE51-F01",
+      "CASE56-F01",
+      "CASE63-F01",
+      "CASE65-F01"
+    ],
+    "optional": [
+      "CASE44-F02"
+    ],
+    "tableOrFactBoxPreferred": [
+      "CASE53-F01",
+      "CASE64-F01",
+      "CASE66-F01"
+    ],
+    "approval": "PENDING",
+    "printPermission": "PENDING"
+  },
+  "pageTarget": {
+    "compact": "211-215",
+    "recommended": "214-220",
+    "expanded": "221-226",
+    "approval": "PENDING"
+  },
+  "preWordAcceptance": "40/40",
+  "sourceFidelity": {
+    "case42_76": "35/35 source recovered; 34/34 active preliminary pass; CASE50 hold",
+    "case77_81": "direct source master preliminary pass 5/5",
+    "case82": "production locked data + restored QA"
+  },
+  "wordWorkingCopy": {
+    "currentMaster": "READ_ONLY",
+    "expandedWorkingCopyAuthorization": "PENDING"
+  }
+}
