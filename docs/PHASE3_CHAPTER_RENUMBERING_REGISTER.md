@@ -1,8 +1,8 @@
 # PHASE 3 — Expanded Edition Chapter Renumbering & Cross-reference Register
 
-Status: **ROUND 2 CROSS-REFERENCE CONTROL**
+Status: **PROPOSED CROSS-REFERENCE MAP / USER CONFIRMATION PENDING**
 
-신규 Chapter 15 「보일러 시스템 운전최적화」 삽입에 따라 기존 Chapter 15~28은 Expanded Edition에서 +1 이동한다.
+신규 Chapter 15 「보일러 시스템 운전최적화」 삽입안이 승인될 경우 기존 Chapter 15~28은 Expanded Edition에서 +1 이동한다.
 
 | Current Edition | Expanded Edition | Title |
 |---:|---:|---|
@@ -22,7 +22,7 @@ Status: **ROUND 2 CROSS-REFERENCE CONTROL**
 | 27 | 28 | 데이터 기반 이상 진단과 운전 추천 |
 | 28 | 29 | 에너지절감 M&V의 실제 |
 
-## 반드시 수정할 Cross-reference 유형
+## 승인 후 반드시 수정할 Cross-reference 유형
 
 Expanded Edition Word Master 통합 시 아래 문자열을 단순 일괄치환하지 않고 문맥별 확인한다.
 
