@@ -197,3 +197,25 @@ User decisions required before Expanded Word working-copy creation:
 5. authorization for separate Expanded Edition Word working copy
 
 Print permission/anonymization remains an independent gate even after Figure selection approval.
+
+
+## 13. Post-approval execution readiness
+
+Status: **RUNBOOK READY / NOT AUTHORIZED YET**
+
+Prepared execution documents:
+- `docs/PHASE3_RECOMMENDED_APPROVAL_RESOLUTION.md`
+- `docs/PHASE3_WORD_INTEGRATION_RUNBOOK.md`
+
+The runbook defines:
+- isolated Word working-copy creation
+- chapter-by-chapter insertion order
+- Figure/Table integration rules
+- CASE50 exclusion
+- chapter renumbering and cross-reference QA
+- 214~220p page-control logic
+- Word QA
+- PDF/preflight sequence
+- final fidelity and release gates
+
+Actual execution remains blocked until user approval/authorization is explicit.
