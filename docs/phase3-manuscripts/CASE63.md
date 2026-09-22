@@ -32,3 +32,7 @@ System kW/RT:
 
 ## Consultant's Point
 CASE56이 ‘어느 호기를 켤 것인가’를 다룬다면 CASE63은 **켜진 호기에 부하를 어떻게 나눌 것인가**를 다룬다.
+
+## Source Note
+
+저자 보유 프로젝트 자료와 비식별 공개사례를 바탕으로 재구성했다. 수치·성과의 성격은 본문의 Evidence Boundary를 따른다.
