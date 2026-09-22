@@ -306,3 +306,21 @@ Prepared:
 - full Expanded Edition Word integration runbook
 
 If/when approval is granted, the next controlled step is to create a separate Expanded Edition Word working copy, never overwrite the current Editable Word Master.
+
+
+## Consolidated final-fidelity count
+
+Current active 40 CASE:
+- Final Fidelity PASS via direct standalone Approval Final TXT: **14/40**
+  - CASE42~49, CASE51
+  - CASE77~81
+- Preliminary/source-preserving QA pending strict direct text read: **26/40**
+  - CASE52~76 = 25
+  - CASE82 = 1 (separate Production-locked source regime)
+
+CASE50:
+- standalone Approval Final TXT directly reviewed
+- content identity and manuscript fidelity resolved
+- Book inclusion remains USER DECISION PENDING
+
+The remaining CASE52~76 limitation is tool access/readability, not a known content conflict.
