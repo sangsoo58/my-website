@@ -20,7 +20,7 @@ CASE48·51은 현재 출간본의 기존 Energy Modeling CASE와 동일 프로�
 
 Energy Modeling의 목적은 미래 사용량을 정확히 맞히는 것만이 아니다. 동일한 기상·Schedule·용도조건에서 외피·조명·HVAC·Plant·에너지원의 영향을 분리하고, 설계 의사결정 전에 대안의 상대적 성능을 비교하는 데 있다.
 
-### CASE 48 | DEEP DIVE — 133층 초고층 복합건물 DOE-2.1E Simulation
+### CASE 48 | 응용사례 — 133층 초고층 복합건물 DOE-2.1E Simulation
 
 업무·판매·호텔·주거·문화시설이 결합된 133층 복합건물을 용도별 Zone과 Schedule로 나누어 DOE-2.1E 모델을 구축했다.
 
@@ -61,7 +61,7 @@ End-use 요구량은 냉방 약 34,630, 조명 약 26,911, 급탕 약 27,168 MWh
 
 **EDITORIAL HOLD |** 기존 Master metadata에 보육시설 Passive House Boundary 흔적이 남아 있어 최종 출간 전 Source Reconciliation이 필요하다. 현재 원고는 Web CASE 본문의 대형 오피스 Parametric Simulation을 기준으로 작성한다.
 
-### CASE 51 | DEEP DIVE — ASHRAE 90.1 Appendix G / LEED Energy Modeling
+### CASE 51 | 응용사례 — ASHRAE 90.1 Appendix G / LEED Energy Modeling
 
 72층 복합건물을 eQUEST3-64와 ASHRAE 90.1-2004 Appendix G에 따라 Proposed와 Baseline으로 비교했다.
 
