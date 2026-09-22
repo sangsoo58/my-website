@@ -1,4 +1,4 @@
-# CASE 56 | DEEP DIVE 후보 — 냉동기 교체운전 Test를 통한 호기별 kW/RT 비교
+# CASE 56 | DEEP DIVE 후보 — 냉동기 교체운전 Test를 통한 호기별 kW/RT 실측 비교 및 고효율 운전순서 결정
 
 **편집상태:** PHASE 3 DRAFT / USER REVIEW REQUIRED  
 **배치안:** PART 3 · Chapter 11 · 냉동기 Plant 최적화  
