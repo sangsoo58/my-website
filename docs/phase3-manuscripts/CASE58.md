@@ -1,4 +1,4 @@
-# CASE 58 | 응용사례 — 냉각수펌프 설계유량 적용 Test와 System kW 최적화
+# CASE 58 | 응용사례 — 냉각수펌프 설계유량 적용 Test를 통한 펌프 운전점 및 소비동력 최적화
 
 **편집상태:** PHASE 3 DRAFT / USER REVIEW REQUIRED  
 **배치안:** PART 3 · Chapter 11 · 냉동기 Plant 최적화  
