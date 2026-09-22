@@ -242,3 +242,25 @@ Structural correction:
 Publication protection:
 - draft metadata such as ROUND 2 / BOOK-STYLE DRAFT remains only in editorial draft headers and must not be carried into final publication body
 - no current Word Master / Print Master / Production Web modification was made
+
+
+## 15. Chapter Renumbering / Cross-reference QA
+
+Status: **PRELIMINARY PASS / USER CONFIRMATION PENDING**
+
+Checks completed:
+- Proposed Chapter 15 insertion map reviewed against Chapter 11/12/14/15/20/23/24 integration drafts
+- Existing Chapter 15~28 → +1 mapping retained only as a proposal until user approval
+- Chapter Renumbering Register status corrected from implied lock to USER CONFIRMATION PENDING
+- Proposed TOC Chapter 23 expansion corrected to CASE48,49,51; CASE50 excluded while Source HOLD
+- CASE IDs remain stable and are not renumbered
+- current page references remain invalid for Expanded Edition until final pagination
+
+Current proposed mapping if approved:
+- Current Ch.19 → Expanded Ch.20 Power Plant Auxiliaries
+- Current Ch.22 → Expanded Ch.23 Energy Modeling
+- Current Ch.23 → Expanded Ch.24 Data Center
+- Current Ch.24 → Expanded Ch.25 District Heating
+- Current Ch.28 → Expanded Ch.29 M&V
+
+No current Print/Word Master cross-reference replacement has been performed.
