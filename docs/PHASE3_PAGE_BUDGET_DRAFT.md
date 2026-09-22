@@ -133,3 +133,23 @@ Figure를 CASE 본문 흐름 안에 반폭~본문폭으로 배치하면 모든 F
 를 유지한다.
 
 This remains a planning estimate; final page count is determined only after Word layout and pagination.
+
+
+## Table / Fact Box page-control update
+
+Base layout assumption:
+- full/compact tables: **11**
+- optional full table: **1**
+- inline Fact Boxes/checklists: **about 9~12**
+
+The boxes are intended to live inside existing CASE flow rather than consume separate pages.
+
+If the layout exceeds 220p:
+1. remove optional CASE78 table
+2. convert CASE54 table to compact action box
+3. avoid a separate CASE50 table/body by keeping fenestration detail under CASE49
+4. consolidate overlapping Data Center diagnostic boxes
+5. preserve Evidence Boundary even when compressing layout
+
+Reference:
+- `docs/PHASE3_TABLE_FACTBOX_SELECTION_PLAN.md`
