@@ -1,7 +1,7 @@
 # CASE 48 | DEEP DIVE 후보 — 133층 초고층 복합건물 DOE-2.1E Simulation
 
 **편집상태:** PHASE 3 DRAFT / USER REVIEW REQUIRED  
-**배치안:** PART 5 · Chapter 22 · 신축건물 Energy Modeling  
+**편집 배치안 (Expanded Edition Proposal):** PART 5 · Chapter 23 · 신축건물 Energy Modeling
 **Evidence:** D — Simulation·Modeling  
 **Web:** /cases/case48.html
 
