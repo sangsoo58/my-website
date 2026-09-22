@@ -48,3 +48,7 @@ PUE가 목표를 벗어나면 Zone 과냉, 설정온도·실내온도, 센서 �
 ## Consultant's Point
 
 실시간 플랫폼의 가치는 Monitoring 자체가 아니라 **KPI 이탈 → 조사 Checklist → Action → 효과검증**을 한 흐름으로 연결하는 데 있다.
+
+## Source Note
+
+저자 보유 프로젝트 자료와 비식별 공개사례를 바탕으로 재구성했다. 수치·성과의 성격은 본문의 Evidence Boundary를 따른다.
