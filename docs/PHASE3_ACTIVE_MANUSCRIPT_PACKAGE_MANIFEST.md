@@ -126,3 +126,18 @@ Do not:
 - activate final Web↔Book mapping
 
 until the required gates are cleared.
+
+
+## 11. Pre-Word fidelity matrix
+
+Artifacts:
+- `docs/PHASE3_PRE_WORD_FIDELITY_MATRIX.md`
+- `data/phase3-pre-word-fidelity-matrix.json`
+
+Current source/manuscript QA summary:
+- CASE42~76 Approved Final source recovered: 35/35
+- CASE42~76 active Preliminary Fidelity: 34/34
+- CASE50: HOLD
+- CASE77~81 direct Source Master Preliminary Fidelity: 5/5
+- claim strengthening identified across active reviewed set: 0
+- standalone official TXT byte-identity confirmation: pending
