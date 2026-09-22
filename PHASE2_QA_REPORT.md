@@ -124,3 +124,13 @@ Draft PR → Ready for Review → Merge → GitHub Pages → Production Smoke Te
   - CASE detail grids → 1 column at mobile
   - table overflow handling retained
 - Browser rendering itself is still a manual gate and has not been declared PASS.
+
+## 10. Browser QA progress
+
+- Homepage desktop Hero: PASS (user browser screenshot reviewed)
+  - headline line breaks stable
+  - no orphaned words
+  - right-side performance visual aligned
+  - CTA / trust strip visible
+  - four audience entry cards visible and balanced
+- Next browser gate: CASE01 → CASE41 → CASE42 → CASE82 → Book Reader → Expert → Consultation
