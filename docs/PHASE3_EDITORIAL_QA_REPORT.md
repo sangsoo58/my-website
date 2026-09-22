@@ -211,3 +211,34 @@ CASE50 structural correction:
 - REFERENCES draft retains C50 only as a HOLD placeholder and states it is not included in final publication references until reconciliation
 
 This preserves the permanent CASE ID while preventing CASE50 from being treated as active Expanded Edition book content before source reconciliation.
+
+
+## 14. Integrated Chapter Style / Terminology QA
+
+Status: **PRELIMINARY PASS / SOURCE FIDELITY PENDING**
+
+Scope:
+- Chapter 11 Chiller Plant
+- Chapter 12 Multi-Utility
+- Chapter 14 Compressed Air
+- Proposed Chapter 15 Boiler
+- Proposed Chapter 20 Power Plant Auxiliaries
+- Proposed Chapter 23 Energy Modeling
+- Proposed Chapter 24 Data Center
+
+Style checks:
+- CASE type label synchronized with PHASE3_DEEP_DIVE_CLASSIFICATION.md
+- Boiler specific-energy unit normalized to N㎥/ton where the same metric is described
+- Cost-effect wording normalized to Korean publication prose where no source meaning is changed
+- Internal EDITORIAL NOTE / EDITORIAL HOLD labels converted to publication-safe BOOK NOTE / SOURCE HOLD semantics
+- English technical terms such as Set Point, Baseline, M&V, PUE, COP, kW/RT remain where they function as established engineering terms
+- source-derived uncommon units such as mmAQ or USRT are not silently replaced without source-level verification
+
+Structural correction:
+- CASE50 was still present as a full section in the Chapter 23 integration draft even after active-book exclusion.
+- CASE50 section was removed from the active Chapter 23 integration draft.
+- Chapter 23 now integrates CASE48, CASE49 and CASE51 only; CASE50 remains Source HOLD outside active book content.
+
+Publication protection:
+- draft metadata such as ROUND 2 / BOOK-STYLE DRAFT remains only in editorial draft headers and must not be carried into final publication body
+- no current Word Master / Print Master / Production Web modification was made
