@@ -1,4 +1,4 @@
-# CASE 68 | DEEP DIVE 후보 — 스팀유량 계측 이상과 Data Quality Gate
+# CASE 68 | DEEP DIVE 후보 — 보일러 스팀유량 계측 이상 진단 및 데이터 정합성 확보를 통한 효율평가 신뢰성 개선
 
 **편집상태:** PHASE 3 DRAFT / USER REVIEW REQUIRED  
 **편집 배치안 (Expanded Edition Proposal):** PART 4 · Proposed Chapter 15 · 보일러 시스템 운전최적화
