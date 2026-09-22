@@ -159,6 +159,25 @@ Before insertion:
 - grayscale/CMYK readability checked
 - final width/readability checked
 
+## 11A. Table / Fact Box integration
+
+Use:
+- `docs/PHASE3_TABLE_FACTBOX_SELECTION_PLAN.md`
+
+Base plan:
+- full/compact tables: 11
+- optional table: 1 (CASE78)
+- inline Fact Boxes/checklists: about 9~12
+
+Priority controls:
+- do not duplicate current-book Project-level KPI tables
+- CASE42~45 rely primarily on Figures/Cross-reference
+- CASE65 uses Figure; CASE66 uses the main Boiler operating-combination table
+- CASE49 holds the main Parametric Summary Table; CASE50 has no separate table by default
+- CASE82 gets a Cost Scenario Table with Cost-vs-Energy Boundary explicit
+
+If total pages exceed 220p, remove optional/secondary tables before weakening technical content.
+
 ## 12. Publication-text cleanup
 
 Remove internal labels from final body:
