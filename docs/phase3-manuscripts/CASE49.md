@@ -40,3 +40,7 @@
 ## Evidence Boundary
 
 모든 금액과 증감률은 **가상 상업용 오피스 Baseline의 Simulation 결과**이며 실제 건물의 절감실적이 아니다. 다른 건물에 동일한 절감률이 재현된다고 가정하지 않는다.
+
+## Source Note
+
+저자 보유 설계·Simulation 자료와 비식별 공개사례를 바탕으로 재구성했다. 수치·성과의 성격은 본문의 Evidence Boundary를 따르며 준공 후 실측성과로 해석하지 않는다.
