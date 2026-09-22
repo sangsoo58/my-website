@@ -1,4 +1,4 @@
-# CASE 53 | 응용사례 — 냉동기 냉수 출구온도 Set Point 상향을 통한 냉동효율 개선
+# CASE 53 | 응용사례 — 냉동기 냉수 출구온도 Set Point 상향을 통한 냉동효율 개선 및 전력절감
 
 **편집상태:** PHASE 3 DRAFT / USER REVIEW REQUIRED  
 **배치안:** PART 3 · Chapter 11 · 냉동기 Plant 최적화  
