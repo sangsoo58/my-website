@@ -230,3 +230,22 @@ Recommended combined approval remains:
 5. separate Expanded Edition Word working copy only; current Master remains read-only
 
 The recommendation document is advisory; it does not change approval state by itself.
+
+
+## 11. Final Decision Brief
+
+Use this as the primary approval screen:
+- `docs/PHASE3_FINAL_DECISION_BRIEF.md`
+
+Machine-readable summary:
+- `data/phase3-final-decision-brief.json`
+
+Recommended combined decision:
+- approve 29-Chapter TOC
+- absorb CASE50 into CASE49 / no separate body page
+- approve 7 primary Figures + CASE44-F02 optional
+- CASE53/64/66 as Table/Fact Box
+- approve 214~220p target
+- authorize separate Expanded Edition Word working copy
+
+No approval state changes until the user explicitly approves.
