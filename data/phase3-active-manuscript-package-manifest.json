@@ -103,7 +103,6 @@
   },
   "blockers": [
     "CASE50_SOURCE_RECONCILIATION",
-    "CASE77_81_STANDALONE_OFFICIAL_FILE_BYTE_IDENTITY_CONFIRMATION",
     "USER_CONFIRMATION_EXPANDED_TOC",
     "USER_CONFIRMATION_FINAL_FIGURE_SELECTION",
     "BOOK_PRINT_PERMISSION_ANONYMIZATION_REVIEW",
@@ -118,8 +117,8 @@
   },
   "sourceFidelity": {
     "case42_76": "APPROVED_FINAL_SOURCE_RECOVERED",
-    "case77_81": "PRELIMINARY_DIRECT_SOURCE_MASTER_PASS_5_OF_5",
-    "case77_81Final": "PENDING_STANDALONE_OFFICIAL_FILE_BYTE_IDENTITY",
+    "case77_81": "FINAL_FIDELITY_PASS_5_OF_5_DIRECT_STANDALONE_APPROVED_FINAL_TXT",
+    "case77_81Final": "FINAL_PASS",
     "case82": "PRODUCTION_LOCKED_DATA_QA_SOURCE",
     "case50": "SOURCE_IDENTITY_HOLD"
   },
@@ -133,8 +132,8 @@
       "finalStandaloneOfficialFileByteQA": "PENDING"
     },
     "case77_81": {
-      "directSourceMasterPreliminaryPass": "5/5",
-      "finalStandaloneOfficialFileByteQA": "PENDING"
+      "directSourceMasterPreliminaryPass": "SUPERSEDED_BY_FINAL_PASS",
+      "finalStandaloneOfficialFileByteQA": "FINAL_PASS_5_OF_5"
     },
     "claimStrengtheningViolations": 0
   },
