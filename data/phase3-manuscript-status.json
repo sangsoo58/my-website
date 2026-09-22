@@ -27,7 +27,10 @@
     "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
     "productionVerificationNumericQA": "PRELIMINARY_PASS",
     "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
-    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON"
+    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+    "canonicalWebPath": "/cases/case42.html",
+    "publicationSourceNoteQA": "PASS",
+    "webPathQA": "PASS"
   },
   {
     "caseNo": 43,
@@ -57,7 +60,10 @@
     "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
     "productionVerificationNumericQA": "PRELIMINARY_PASS",
     "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
-    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON"
+    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+    "canonicalWebPath": "/cases/case43.html",
+    "publicationSourceNoteQA": "PASS",
+    "webPathQA": "PASS"
   },
   {
     "caseNo": 44,
@@ -87,7 +93,10 @@
     "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
     "productionVerificationNumericQA": "PRELIMINARY_PASS",
     "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
-    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON"
+    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+    "canonicalWebPath": "/cases/case44.html",
+    "publicationSourceNoteQA": "PASS",
+    "webPathQA": "PASS"
   },
   {
     "caseNo": 45,
@@ -117,7 +126,10 @@
     "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
     "productionVerificationNumericQA": "PRELIMINARY_PASS",
     "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
-    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON"
+    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+    "canonicalWebPath": "/cases/case45.html",
+    "publicationSourceNoteQA": "PASS",
+    "webPathQA": "PASS"
   },
   {
     "caseNo": 46,
@@ -147,7 +159,10 @@
     "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
     "productionVerificationNumericQA": "PRELIMINARY_PASS",
     "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
-    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON"
+    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+    "canonicalWebPath": "/cases/case46.html",
+    "publicationSourceNoteQA": "PASS",
+    "webPathQA": "PASS"
   },
   {
     "caseNo": 47,
@@ -177,7 +192,10 @@
     "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
     "productionVerificationNumericQA": "PRELIMINARY_PASS",
     "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
-    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON"
+    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+    "canonicalWebPath": "/cases/case47.html",
+    "publicationSourceNoteQA": "PASS",
+    "webPathQA": "PASS"
   },
   {
     "caseNo": 48,
@@ -207,7 +225,10 @@
     "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
     "productionVerificationNumericQA": "PRELIMINARY_PASS",
     "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
-    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON"
+    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+    "canonicalWebPath": "/cases/case48.html",
+    "publicationSourceNoteQA": "PASS",
+    "webPathQA": "PASS"
   },
   {
     "caseNo": 49,
@@ -237,7 +258,10 @@
     "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
     "productionVerificationNumericQA": "PRELIMINARY_PASS",
     "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
-    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON"
+    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+    "canonicalWebPath": "/cases/case49.html",
+    "publicationSourceNoteQA": "PASS",
+    "webPathQA": "PASS"
   },
   {
     "caseNo": 50,
@@ -270,7 +294,10 @@
     "productionVerificationNumericQA": "EXCLUDED_SOURCE_IDENTITY_HOLD",
     "productionVerificationEvidenceQA": "EXCLUDED_SOURCE_IDENTITY_HOLD",
     "approvalFinalTxtFidelityQA": "HOLD_PENDING_SOURCE_TEXT",
-    "bookIncluded": false
+    "bookIncluded": false,
+    "canonicalWebPath": "/cases/case50.html",
+    "publicationSourceNoteQA": "HOLD_SOURCE_RECONCILIATION",
+    "webPathQA": "PASS"
   },
   {
     "caseNo": 51,
@@ -300,7 +327,10 @@
     "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
     "productionVerificationNumericQA": "PRELIMINARY_PASS",
     "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
-    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON"
+    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+    "canonicalWebPath": "/cases/case51.html",
+    "publicationSourceNoteQA": "PASS",
+    "webPathQA": "PASS"
   },
   {
     "caseNo": 52,
@@ -330,7 +360,10 @@
     "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
     "productionVerificationNumericQA": "PRELIMINARY_PASS",
     "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
-    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON"
+    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+    "canonicalWebPath": "/cases/case52.html",
+    "publicationSourceNoteQA": "PASS",
+    "webPathQA": "PASS"
   },
   {
     "caseNo": 53,
@@ -360,7 +393,10 @@
     "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
     "productionVerificationNumericQA": "PRELIMINARY_PASS",
     "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
-    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON"
+    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+    "canonicalWebPath": "/cases/case53.html",
+    "publicationSourceNoteQA": "PASS",
+    "webPathQA": "PASS"
   },
   {
     "caseNo": 54,
@@ -390,7 +426,10 @@
     "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
     "productionVerificationNumericQA": "PRELIMINARY_PASS",
     "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
-    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON"
+    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+    "canonicalWebPath": "/cases/case54.html",
+    "publicationSourceNoteQA": "PASS",
+    "webPathQA": "PASS"
   },
   {
     "caseNo": 55,
@@ -420,7 +459,10 @@
     "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
     "productionVerificationNumericQA": "PRELIMINARY_PASS",
     "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
-    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON"
+    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+    "canonicalWebPath": "/cases/case55.html",
+    "publicationSourceNoteQA": "PASS",
+    "webPathQA": "PASS"
   },
   {
     "caseNo": 56,
@@ -450,7 +492,10 @@
     "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
     "productionVerificationNumericQA": "PRELIMINARY_PASS",
     "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
-    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON"
+    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+    "canonicalWebPath": "/cases/case56.html",
+    "publicationSourceNoteQA": "PASS",
+    "webPathQA": "PASS"
   },
   {
     "caseNo": 57,
@@ -480,7 +525,10 @@
     "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
     "productionVerificationNumericQA": "PRELIMINARY_PASS",
     "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
-    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON"
+    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+    "canonicalWebPath": "/cases/case57.html",
+    "publicationSourceNoteQA": "PASS",
+    "webPathQA": "PASS"
   },
   {
     "caseNo": 58,
@@ -510,7 +558,10 @@
     "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
     "productionVerificationNumericQA": "PRELIMINARY_PASS",
     "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
-    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON"
+    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+    "canonicalWebPath": "/cases/case58.html",
+    "publicationSourceNoteQA": "PASS",
+    "webPathQA": "PASS"
   },
   {
     "caseNo": 59,
@@ -540,7 +591,10 @@
     "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
     "productionVerificationNumericQA": "PRELIMINARY_PASS",
     "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
-    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON"
+    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+    "canonicalWebPath": "/cases/case59.html",
+    "publicationSourceNoteQA": "PASS",
+    "webPathQA": "PASS"
   },
   {
     "caseNo": 60,
@@ -570,7 +624,10 @@
     "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
     "productionVerificationNumericQA": "PRELIMINARY_PASS",
     "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
-    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON"
+    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+    "canonicalWebPath": "/cases/case60.html",
+    "publicationSourceNoteQA": "PASS",
+    "webPathQA": "PASS"
   },
   {
     "caseNo": 61,
@@ -600,7 +657,10 @@
     "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
     "productionVerificationNumericQA": "PRELIMINARY_PASS",
     "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
-    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON"
+    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+    "canonicalWebPath": "/cases/case61.html",
+    "publicationSourceNoteQA": "PASS",
+    "webPathQA": "PASS"
   },
   {
     "caseNo": 62,
@@ -630,7 +690,10 @@
     "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
     "productionVerificationNumericQA": "PRELIMINARY_PASS",
     "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
-    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON"
+    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+    "canonicalWebPath": "/cases/case62.html",
+    "publicationSourceNoteQA": "PASS",
+    "webPathQA": "PASS"
   },
   {
     "caseNo": 63,
@@ -660,7 +723,10 @@
     "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
     "productionVerificationNumericQA": "PRELIMINARY_PASS",
     "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
-    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON"
+    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+    "canonicalWebPath": "/cases/case63.html",
+    "publicationSourceNoteQA": "PASS",
+    "webPathQA": "PASS"
   },
   {
     "caseNo": 64,
@@ -690,7 +756,10 @@
     "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
     "productionVerificationNumericQA": "PRELIMINARY_PASS",
     "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
-    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON"
+    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+    "canonicalWebPath": "/cases/case64.html",
+    "publicationSourceNoteQA": "PASS",
+    "webPathQA": "PASS"
   },
   {
     "caseNo": 65,
@@ -720,7 +789,10 @@
     "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
     "productionVerificationNumericQA": "PRELIMINARY_PASS",
     "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
-    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON"
+    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+    "canonicalWebPath": "/cases/case65.html",
+    "publicationSourceNoteQA": "PASS",
+    "webPathQA": "PASS"
   },
   {
     "caseNo": 66,
@@ -750,7 +822,10 @@
     "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
     "productionVerificationNumericQA": "PRELIMINARY_PASS",
     "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
-    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON"
+    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+    "canonicalWebPath": "/cases/case66.html",
+    "publicationSourceNoteQA": "PASS",
+    "webPathQA": "PASS"
   },
   {
     "caseNo": 67,
@@ -780,7 +855,10 @@
     "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
     "productionVerificationNumericQA": "PRELIMINARY_PASS",
     "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
-    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON"
+    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+    "canonicalWebPath": "/cases/case67.html",
+    "publicationSourceNoteQA": "PASS",
+    "webPathQA": "PASS"
   },
   {
     "caseNo": 68,
@@ -810,7 +888,10 @@
     "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
     "productionVerificationNumericQA": "PRELIMINARY_PASS",
     "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
-    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON"
+    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+    "canonicalWebPath": "/cases/case68.html",
+    "publicationSourceNoteQA": "PASS",
+    "webPathQA": "PASS"
   },
   {
     "caseNo": 69,
@@ -840,7 +921,10 @@
     "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
     "productionVerificationNumericQA": "PRELIMINARY_PASS",
     "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
-    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON"
+    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+    "canonicalWebPath": "/cases/case69.html",
+    "publicationSourceNoteQA": "PASS",
+    "webPathQA": "PASS"
   },
   {
     "caseNo": 70,
@@ -870,7 +954,10 @@
     "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
     "productionVerificationNumericQA": "PRELIMINARY_PASS",
     "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
-    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON"
+    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+    "canonicalWebPath": "/cases/case70.html",
+    "publicationSourceNoteQA": "PASS",
+    "webPathQA": "PASS"
   },
   {
     "caseNo": 71,
@@ -900,7 +987,10 @@
     "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
     "productionVerificationNumericQA": "PRELIMINARY_PASS",
     "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
-    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON"
+    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+    "canonicalWebPath": "/cases/case71.html",
+    "publicationSourceNoteQA": "PASS",
+    "webPathQA": "PASS"
   },
   {
     "caseNo": 72,
@@ -930,7 +1020,10 @@
     "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
     "productionVerificationNumericQA": "PRELIMINARY_PASS",
     "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
-    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON"
+    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+    "canonicalWebPath": "/cases/case72.html",
+    "publicationSourceNoteQA": "PASS",
+    "webPathQA": "PASS"
   },
   {
     "caseNo": 73,
@@ -960,7 +1053,10 @@
     "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
     "productionVerificationNumericQA": "PRELIMINARY_PASS",
     "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
-    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON"
+    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+    "canonicalWebPath": "/cases/case73.html",
+    "publicationSourceNoteQA": "PASS",
+    "webPathQA": "PASS"
   },
   {
     "caseNo": 74,
@@ -990,7 +1086,10 @@
     "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
     "productionVerificationNumericQA": "PRELIMINARY_PASS",
     "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
-    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON"
+    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+    "canonicalWebPath": "/cases/case74.html",
+    "publicationSourceNoteQA": "PASS",
+    "webPathQA": "PASS"
   },
   {
     "caseNo": 75,
@@ -1020,7 +1119,10 @@
     "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
     "productionVerificationNumericQA": "PRELIMINARY_PASS",
     "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
-    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON"
+    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+    "canonicalWebPath": "/cases/case75.html",
+    "publicationSourceNoteQA": "PASS",
+    "webPathQA": "PASS"
   },
   {
     "caseNo": 76,
@@ -1050,7 +1152,10 @@
     "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
     "productionVerificationNumericQA": "PRELIMINARY_PASS",
     "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
-    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON"
+    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+    "canonicalWebPath": "/cases/case76.html",
+    "publicationSourceNoteQA": "PASS",
+    "webPathQA": "PASS"
   },
   {
     "caseNo": 77,
@@ -1081,7 +1186,10 @@
     "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
     "productionVerificationNumericQA": "PRELIMINARY_PASS",
     "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
-    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON"
+    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+    "canonicalWebPath": "/cases/case77.html",
+    "publicationSourceNoteQA": "PASS",
+    "webPathQA": "PASS"
   },
   {
     "caseNo": 78,
@@ -1112,7 +1220,10 @@
     "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
     "productionVerificationNumericQA": "PRELIMINARY_PASS",
     "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
-    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON"
+    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+    "canonicalWebPath": "/cases/case78.html",
+    "publicationSourceNoteQA": "PASS",
+    "webPathQA": "PASS"
   },
   {
     "caseNo": 79,
@@ -1143,7 +1254,10 @@
     "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
     "productionVerificationNumericQA": "PRELIMINARY_PASS",
     "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
-    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON"
+    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+    "canonicalWebPath": "/cases/case79.html",
+    "publicationSourceNoteQA": "PASS",
+    "webPathQA": "PASS"
   },
   {
     "caseNo": 80,
@@ -1174,7 +1288,10 @@
     "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
     "productionVerificationNumericQA": "PRELIMINARY_PASS",
     "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
-    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON"
+    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+    "canonicalWebPath": "/cases/case80.html",
+    "publicationSourceNoteQA": "PASS",
+    "webPathQA": "PASS"
   },
   {
     "caseNo": 81,
@@ -1205,7 +1322,10 @@
     "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
     "productionVerificationNumericQA": "PRELIMINARY_PASS",
     "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
-    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON"
+    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+    "canonicalWebPath": "/cases/case81.html",
+    "publicationSourceNoteQA": "PASS",
+    "webPathQA": "PASS"
   },
   {
     "caseNo": 82,
@@ -1235,6 +1355,9 @@
     "manuscriptFidelityStatus": "REQUIRES_LOCKED_DATA_FIDELITY_CHECK",
     "productionVerificationNumericQA": "PRELIMINARY_PASS",
     "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
-    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON"
+    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+    "canonicalWebPath": "/cases/case82.html",
+    "publicationSourceNoteQA": "PASS",
+    "webPathQA": "PASS"
   }
 ]
