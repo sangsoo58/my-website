@@ -1,4 +1,4 @@
-# CASE 78 | 응용사례 — 반도체·디스플레이 제조시설 냉각수펌프 성능 Benchmark
+# CASE 78 | 응용사례 — 냉각수펌프별 소비전력·운전상태 비교를 통한 성능열위 펌프 진단 및 운전 최적화
 
 **편집상태:** PHASE 3 DRAFT / USER REVIEW REQUIRED  
 **배치안:** PART 3 · Chapter 11 · 냉동기 Plant 최적화  
