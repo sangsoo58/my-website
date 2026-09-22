@@ -250,3 +250,12 @@ Artifacts:
 Result:
 - known document-level anonymization defect: 0
 - pixel visual review: pending
+
+
+## 20. Final decision brief
+
+Decision artifact:
+- `docs/PHASE3_FINAL_DECISION_BRIEF.md`
+- `data/phase3-final-decision-brief.json`
+
+Status: **READY / USER EXPLICIT APPROVAL PENDING**
