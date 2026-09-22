@@ -1,4 +1,4 @@
-# CASE 70 | 응용사례 — PUE 이상분석을 통한 냉방기 Fan 단독운전 진단
+# CASE 70 | 응용사례 — 데이터센터 PUE 이상분석을 통한 냉방기 Fan 단독운전 문제 진단
 
 **편집상태:** PHASE 3 DRAFT / USER REVIEW REQUIRED  
 **배치안:** PART 5 · Proposed Chapter 24 · 데이터센터 PUE와 냉방 최적화
