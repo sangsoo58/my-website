@@ -228,3 +228,14 @@ Base:
 - ~9~12 Fact Boxes/checklists
 
 Purpose: preserve the 214~220p target while preventing same-project KPI duplication.
+
+
+## 18. Selected table source QA
+
+Artifacts:
+- `docs/PHASE3_SELECTED_TABLE_SOURCE_QA.md`
+- `data/phase3-selected-table-source-qa.json`
+
+Result:
+- base selected table/fact-box candidates: **11/11 PASS**
+- final page-level source check remains pending after Word pagination
