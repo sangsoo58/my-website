@@ -1186,10 +1186,12 @@
     "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
     "productionVerificationNumericQA": "PRELIMINARY_PASS",
     "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
-    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+    "approvalFinalTxtFidelityQA": "PENDING_STANDALONE_OFFICIAL_FILE_BYTE_IDENTITY_AFTER_DIRECT_SOURCE_MASTER_PASS",
     "canonicalWebPath": "/cases/case77.html",
     "publicationSourceNoteQA": "PASS",
-    "webPathQA": "PASS"
+    "webPathQA": "PASS",
+    "directApprovedMasterContentQA": "PRELIMINARY_PASS_BOOK_WRITING_SOURCE_MASTER",
+    "directApprovedMasterContentQANote": "Direct comparison against CASE01_81_BOOK_WRITING_SOURCE_MASTER locked CASE77 APPROVED FINAL section: title, Evidence B/C, support-facility load inventory/consumption-pattern scope, Essential vs Avoidable continuous load logic, Submetering/NILM/FDD expansion boundary, and no-independent-final-saving classification are consistent."
   },
   {
     "caseNo": 78,
@@ -1220,10 +1222,12 @@
     "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
     "productionVerificationNumericQA": "PRELIMINARY_PASS",
     "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
-    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+    "approvalFinalTxtFidelityQA": "PENDING_STANDALONE_OFFICIAL_FILE_BYTE_IDENTITY_AFTER_DIRECT_SOURCE_MASTER_PASS",
     "canonicalWebPath": "/cases/case78.html",
     "publicationSourceNoteQA": "PASS",
-    "webPathQA": "PASS"
+    "webPathQA": "PASS",
+    "directApprovedMasterContentQA": "PRELIMINARY_PASS_BOOK_WRITING_SOURCE_MASTER",
+    "directApprovedMasterContentQANote": "Direct comparison against CASE01_81_BOOK_WRITING_SOURCE_MASTER locked CASE78 APPROVED FINAL section: title, Evidence B/C, semiconductor/display cooling-water pump benchmark context, unit-performance plus required-units structure, variable-flow optimization direction, and no-independent-final-saving classification are consistent."
   },
   {
     "caseNo": 79,
@@ -1254,11 +1258,11 @@
     "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
     "productionVerificationNumericQA": "PRELIMINARY_PASS",
     "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
-    "approvalFinalTxtFidelityQA": "PENDING_EXACT_OFFICIAL_FILE_CONTENT_IDENTITY_AFTER_PRELIMINARY_DIRECT_MASTER_PASS",
+    "approvalFinalTxtFidelityQA": "PENDING_STANDALONE_OFFICIAL_FILE_BYTE_IDENTITY_AFTER_DIRECT_SOURCE_MASTER_PASS",
     "canonicalWebPath": "/cases/case79.html",
     "publicationSourceNoteQA": "PASS",
     "webPathQA": "PASS",
-    "directApprovedMasterContentQA": "PRELIMINARY_PASS_CASE79_BOOK_MASTER",
+    "directApprovedMasterContentQA": "PRELIMINARY_PASS_BOOK_MASTER",
     "directApprovedMasterContentQANote": "Direct Library content comparison against CASE79_BOOK_MASTER.txt: Title, Evidence B/C, Actual-vs-Required Units logic, 5℃/13℃ system data structure, Pump OFF action, M&V boundary and no-independent-final-saving classification are consistent. Monthly numeric detail and external references are condensed/omitted without claim strengthening. Final official Approval Final TXT filename-content identity check remains pending."
   },
   {
@@ -1290,10 +1294,12 @@
     "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
     "productionVerificationNumericQA": "PRELIMINARY_PASS",
     "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
-    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+    "approvalFinalTxtFidelityQA": "PENDING_STANDALONE_OFFICIAL_FILE_BYTE_IDENTITY_AFTER_DIRECT_SOURCE_MASTER_PASS",
     "canonicalWebPath": "/cases/case80.html",
     "publicationSourceNoteQA": "PASS",
-    "webPathQA": "PASS"
+    "webPathQA": "PASS",
+    "directApprovedMasterContentQA": "PRELIMINARY_PASS_BOOK_WRITING_SOURCE_MASTER",
+    "directApprovedMasterContentQANote": "Direct comparison against CASE01_81_BOOK_WRITING_SOURCE_MASTER locked CASE80 APPROVED FINAL section: title, Evidence B/C, cooling-load vs actual/required chiller units logic, Operating Margin concept, OFF Action/staging logic, plant-level efficiency constraint, and no-independent-final-saving classification are consistent."
   },
   {
     "caseNo": 81,
@@ -1324,10 +1330,12 @@
     "manuscriptFidelityStatus": "REQUIRES_APPROVAL_FINAL_TXT_FIDELITY_CHECK",
     "productionVerificationNumericQA": "PRELIMINARY_PASS",
     "productionVerificationEvidenceQA": "PRELIMINARY_PASS",
-    "approvalFinalTxtFidelityQA": "PENDING_DIRECT_SOURCE_TEXT_COMPARISON",
+    "approvalFinalTxtFidelityQA": "PENDING_STANDALONE_OFFICIAL_FILE_BYTE_IDENTITY_AFTER_DIRECT_SOURCE_MASTER_PASS",
     "canonicalWebPath": "/cases/case81.html",
     "publicationSourceNoteQA": "PASS",
-    "webPathQA": "PASS"
+    "webPathQA": "PASS",
+    "directApprovedMasterContentQA": "PRELIMINARY_PASS_BOOK_WRITING_SOURCE_MASTER",
+    "directApprovedMasterContentQANote": "Direct comparison against CASE01_81_BOOK_WRITING_SOURCE_MASTER locked CASE81 APPROVED FINAL section: title, Evidence B/C, wet-bulb/Approach/Range diagnostic logic, cooling-tower performance vs set-point distinction, condition-adjusted M&V, and no-independent-final-saving classification are consistent."
   },
   {
     "caseNo": 82,
