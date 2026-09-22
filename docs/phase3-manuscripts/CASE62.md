@@ -39,3 +39,7 @@ RT·Wet-bulb·Cooling Water Temperature에 따른 System kW/RT Map을 만들면 
 
 ## Consultant's Point
 냉각수 Set Point는 ‘낮을수록 좋다’가 아니라 **Chiller와 Tower를 합한 전체 Plant 전력이 최소가 되는 조건**으로 결정한다.
+
+## Source Note
+
+저자 보유 프로젝트 자료와 비식별 공개사례를 바탕으로 재구성했다. 수치·성과의 성격은 본문의 Evidence Boundary를 따른다.
