@@ -1,4 +1,4 @@
-# CASE 63 | DEEP DIVE 후보 — 고효율 냉동기 고부하 운전과 Load Dispatch
+# CASE 63 | DEEP DIVE 후보 — 냉동기 부하율 분석 및 냉수밸브 조정을 통한 고효율 냉동기 고부하 운전 최적화
 
 **편집상태:** PHASE 3 DRAFT / USER REVIEW REQUIRED  
 **배치안:** PART 3 · Chapter 11 · 냉동기 Plant 최적화  
