@@ -1,13 +1,13 @@
 # PHASE 3 — Pre-Word-Master Integration Gate
 
-Status: **PARTIAL PASS / 1 CONTENT HOLD + 5 SOURCE-PATH HOLDS**
+Status: **PRE-WORD PACKAGE READY / USER APPROVAL PENDING / CASE52~76 STRICT READER LIMITATION**
 
 ## 1. Coverage
 
 - CASE42~82 manuscript draft: **41/41**
 - Evidence register: **41/41**
 - Chapter placement proposal: **41/41**
-- Book-style chapter integration draft: **41/41**
+- Book-style chapter integration draft: **40 active / CASE50 user decision pending**
 - Approved Web PNG inventory: **11 assets**
 - Figure selection candidate: complete
 
@@ -18,15 +18,18 @@ Status: **PARTIAL PASS / 1 CONTENT HOLD + 5 SOURCE-PATH HOLDS**
 - CASE42~76
 - CASE51 uses REV02 approved final
 
-### Amber — Official source filenames confirmed; source text content not directly retrieved
-**5 CASE / 41**
-- CASE77 → `case77_approval_final.txt`
-- CASE78 → `case78_approval_final.txt`
-- CASE79 → `case79_approval_final.txt`
-- CASE80 → `case80_approval_final.txt`
-- CASE81 → `case81_approval_final.txt`
+### Green — Standalone Approval Final directly reviewed
+**14 active CASE**
+- CASE42~49, CASE51
+- CASE77~81
 
-These 5 are not treated as Source Gap. Existing Book Source Gate reports 5/5 PASS and total CASE01~81 Source Gap = 0. The unresolved item is now narrowed to **content-byte fidelity verification**, not filename identity.
+Final Fidelity PASS assigned after direct standalone TXT review.
+
+### Amber — Approved source confirmed / strict standalone text read limited
+**25 active CASE**
+- CASE52~76
+
+The standalone Approval Final files exist and Source Recovery/Book Writing Source Master are locked, but the current Library text reader returns zero readable lines for some files and raw-byte materialization is unavailable. No known content conflict is open; Final Fidelity is simply not promoted by inference.
 
 ### Blue — Production locked-data / QA source
 **1 CASE / 41**
@@ -34,27 +37,23 @@ These 5 are not treated as Source Gap. Existing Book Source Gate reports 5/5 PAS
 
 CASE82 was added after the CASE01~81 Book Source Master gate. Its locked public data and QA are the current source basis.
 
-## 3. Content hold
+## 3. CASE50 editorial decision
 
-### CASE50 — HOLD
-Reason:
-- visible title/body = large-office WWR / glazing simulation
-- JSON-LD + legacy boundary = childcare Passive House
-- approved source existence is confirmed but the original source bytes are not currently exposed for direct comparison
+CASE50 source reconciliation is complete.
 
-Until reconciled:
-- do not integrate CASE50 into the actual Word Master
-- do not assign page
-- do not activate Book mapping
-- do not create Figure
-- do not rewrite Production metadata by inference
+Authoritative source:
+- large-office WWR / glazing Parametric Simulation
+- Evidence D | Simulation·Modeling
+
+CASE50 remains outside the default active integration set because its WWR/SC/Curtain results substantially overlap CASE49. User decision is required only on whether to preserve CASE50 as a separate Ch.23 body case or absorb it into CASE49 as a Fact Box/Cross-reference.
 
 ## 4. Ready set for layout prototyping
 
 For **layout/template prototyping only**, CASE42~49 and CASE51~82 may be used, subject to:
 - no final page assignment
 - no final Book mapping activation
-- CASE77~81 provenance path remains amber
+- CASE77~81 Final Fidelity = PASS 5/5
+- CASE52~76 strict source-text accessibility remains amber
 - user confirmation still required
 
 CASE50 is excluded from layout prototype content.
@@ -62,11 +61,11 @@ CASE50 is excluded from layout prototype content.
 ## 5. Word integration blockers
 
 Critical blockers before final Editable Word integration:
-1. CASE50 Approval Final TXT content recovery and Source reconciliation
-2. CASE77~81 Approval Final TXT content fidelity verification
-3. user confirmation of Expanded Edition TOC / Chapter 15 Boiler insertion
-4. user confirmation of final Figure selection
-5. Book Print permission/anonymization check for selected PNG assets
+1. user confirmation of Expanded Edition TOC / Chapter 15 Boiler insertion
+2. user confirmation of final Figure selection and CASE50 separate-body treatment
+3. Book Print permission/anonymization check for selected PNG assets
+4. CASE52~76 strict standalone source-text read where required for Final Fidelity lock
+5. authorization to create the separate Expanded Edition Word working copy
 
 ## 6. Non-blocking work that may continue
 
@@ -95,7 +94,7 @@ Status: **PLANNING INTEGRITY PASS / INTEGRATION STILL BLOCKED**
 Latest verified state:
 - manuscript drafts: 41/41
 - active revision candidates: 40
-- excluded Source HOLD: CASE50
+- CASE50 excluded from default active set pending separate-body decision
 - active Chapter map: 40/40 unique / duplicate 0 / missing 0
 - Figure/Table active register: 40 CASE
 - approved Web PNG assets: 11/11 accounted for
@@ -104,11 +103,11 @@ Latest verified state:
 - evidenceClass mismatch: 0
 
 Still blocking actual Editable Word integration:
-1. CASE50 source reconciliation
-2. CASE77~81 direct Approval Final TXT fidelity comparison
-3. user confirmation of proposed Expanded Edition TOC
-4. user confirmation of final Figure selection
-5. Book Print permission/anonymization review for selected assets
+1. user confirmation of proposed Expanded Edition TOC
+2. user confirmation of final Figure selection and CASE50 separate-body treatment
+3. Book Print permission/anonymization review for selected assets
+4. CASE52~76 strict standalone source-text accessibility for Final Fidelity lock
+5. Word working-copy authorization
 
 Therefore the current Editable Word Master and 159p Print Master remain unchanged.
 
@@ -121,7 +120,7 @@ Status: **PASS FOR PLANNING / FINAL FIDELITY NOT WAIVED**
 - Active CASE publication Source Note: 40/40 PASS
 - REFERENCES public provenance wording: 40/40 PASS
 - internal source path leakage: 0
-- CASE50: excluded / HOLD
+- CASE50: source reconciled; excluded pending separate-body decision
 
 This gate only confirms publication-safe provenance wording. Actual Word Master integration remains blocked by source fidelity and user approval gates.
 
@@ -136,18 +135,15 @@ New matrix artifacts:
 
 CASE42~76 summary:
 - Approved Final source recovery: 35/35
-- active revision candidates in range: 34
-- CASE50: Source HOLD
-- active title QA: 34/34 PASS
-- active Numeric/Unit QA: 34/34 Preliminary PASS
-- active Evidence QA: 34/34 Preliminary PASS
-- active Boundary QA: 34/34 PASS with case-specific boundary
+- CASE42~49: Final Fidelity PASS 8/8
+- CASE50: content/source Fidelity PASS; separate-body user decision pending
+- CASE51: Final Fidelity PASS using REV02
+- CASE52~76: Preliminary Fidelity retained due current standalone TXT reader limitation
 - claim strengthening violation identified: 0
-- final standalone official TXT byte QA: pending
 
 CASE77~81:
-- Direct approved Source Master comparison: Preliminary PASS 5/5
-- standalone official Approval Final file byte identity: pending
+- standalone Approval Final TXT directly reviewed
+- Final Fidelity PASS 5/5
 
 This keeps the project at PRE_WORD_MASTER_PARTIAL_PASS. Actual Word integration is still blocked by the remaining source/user gates.
 
@@ -169,8 +165,8 @@ Aggregate status:
 - claim-strengthening violations: 0
 
 Remaining four gates:
-1. strict standalone source-byte identity confirmation where required
-2. CASE50 source reconciliation
+1. CASE52~76 strict standalone source-text accessibility / Final Fidelity lock
+2. user decision on CASE50 separate-body inclusion
 3. user approval of Expanded TOC + final Figure selection/print permission
 4. authorization to create/modify the Expanded Edition Word working copy
 
