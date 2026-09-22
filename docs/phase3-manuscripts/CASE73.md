@@ -36,3 +36,7 @@
 
 ## Consultant's Point
 가장 낮은 냉각수온도가 아니라 **냉동기와 열방출설비의 Trade-off가 최소가 되는 온도**가 최적 Set Point다.
+
+## Source Note
+
+저자 보유 프로젝트 자료와 비식별 공개사례를 바탕으로 재구성했다. 수치·성과의 성격은 본문의 Evidence Boundary를 따른다.
