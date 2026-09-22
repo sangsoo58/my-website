@@ -1,10 +1,10 @@
 # PHASE 3 — Expanded Edition Final Editorial TOC
 
-Status: **EDITORIAL STRUCTURE FIXED / PAGE NUMBERS PENDING**
+Status: **EDITORIAL PROPOSAL / USER CONFIRMATION REQUIRED / PAGE NUMBERS PENDING**
 
-## 편집 결정
+## 편집 제안
 
-Expanded Edition은 기존 7개 PART 체계를 유지하고, PART 4의 공기압축기 다음에 **보일러 시스템 운전최적화**를 신규 Chapter 15로 삽입한다.
+Expanded Edition은 기존 7개 PART 체계를 유지하고, PART 4의 공기압축기 다음에 **보일러 시스템 운전최적화**를 신규 Chapter 15로 삽입하는 안을 1차 편집안으로 제안한다. 사용자 확인 전 최종 목차로 확정하지 않는다.
 
 CASE ID는 Chapter 번호 변경과 무관하게 **CASE01~CASE82를 영구 유지**한다.
 
@@ -66,7 +66,15 @@ CASE ID는 Chapter 번호 변경과 무관하게 **CASE01~CASE82를 영구 유�
 
 ## 편집 규칙
 - 현재 CASE01~41의 CASE ID는 변경하지 않는다.
-- Chapter 15 삽입으로 기존 Chapter 15~28은 Expanded Edition에서 +1 이동한다.
-- 페이지 번호는 조판 완료 후 확정한다.
+- Chapter 15 삽입안이 승인될 경우 기존 Chapter 15~28은 Expanded Edition에서 +1 이동한다.
+- 페이지 번호는 사용자 승인 후 조판 단계에서 확정한다.
 - Current 41-CASE Book Reader는 Expanded Edition 공개 전까지 기존 번호/페이지를 유지한다.
 - Expanded Edition Web↔Book mapping은 최종 페이지 확정 후 별도 Edition으로 활성화한다.
+
+
+## Baseline Protection
+
+- 현재 Print Baseline 및 Editable Word Master는 변경하지 않는다.
+- 현재 41 CASE Book Reader도 변경하지 않는다.
+- 이 문서는 향후 책 개정 후보를 검토하기 위한 Draft다.
+- CASE42~82의 Book 반영 여부·Chapter 배치·최종 제목은 사용자 확인 후 확정한다.
