@@ -4,6 +4,15 @@
 **Expanded Edition Chapter 20 / 기존 Chapter 19에서 +1 이동**  
 **기존 CASE28 유지 / CASE75,76 추가**
 
+## DUPLICATION CONTROL
+
+CASE28은 7개 발전호기의 소내전력률·펌프·Fan을 함께 다룬 Umbrella CASE다.
+
+- CASE75는 동일 분석경계에서 **호기별 Auxiliary Power Ratio Benchmark**를 분리한 Sub-case.
+- CASE76은 **급수·복수·해수펌프의 가동대수·VFD·유량·압력**으로 내려간 Sub-case.
+
+CASE28의 제안목표 2%·4.6억원/년을 CASE75·76의 독립성과로 재사용하거나 합산하지 않는다.
+
 ## CHAPTER 20
 # 발전소 보조기기
 
