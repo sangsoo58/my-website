@@ -106,7 +106,8 @@ Status after direct Library review:
 
 ### CASE82
 - Production locked data + restored QA basis
-- remains under its separate source regime
+- direct locked-source manuscript comparison completed
+- Final Fidelity PASS under separate CASE82 source regime
 
 This status follows the rule: no Final Fidelity PASS when the standalone Approval Final TXT content cannot actually be read in the current environment.
 
@@ -130,3 +131,20 @@ Interpretation:
 - however Final Fidelity PASS is still not assigned because some standalone `CASE##_APPROVED_FINAL.txt` objects return zero readable lines through the current Library reader and raw-byte materialization is unavailable
 
 Therefore CASE52~76 status = **DIRECT BOOK MASTER PRELIMINARY PASS 25/25 / STANDALONE TXT FINAL GATE PENDING**.
+
+
+## CASE82 final locked-source result
+
+Status: **FINAL FIDELITY PASS**
+
+Direct comparison against locked `cases-data.js` and restored QA confirms:
+- 20,000 kW Contract Power
+- 6,000 kW Billing Demand
+- 4,328 kW Peak
+- 22% Peak / Contract Power
+- 37% IDC Load Factor
+- 31% base-charge share
+- 12,000 kW review scenario
+- 167백만원/년 expected cost effect
+
+The manuscript preserves the required classification: this is a **Cost Saving Scenario**, not verified kWh Energy Saving.
