@@ -92,3 +92,41 @@ Book protection remains unchanged:
 - Book Reader unchanged
 - Production Web unchanged
 - CASE42~82 Book links hidden
+
+
+## Latest synchronization update
+
+Status: **40 ACTIVE REVISION CANDIDATES / 1 SOURCE HOLD**
+
+Structure:
+- CASE42~82 manuscript drafts: 41/41
+- active Expanded Edition integration candidates: 40
+- excluded source-hold case: CASE50
+- CASE50: bookIncluded=false / page=null / no placeholder page / removed from active P5-C23 chapter map
+
+Title synchronization:
+- CASE INDEX C42~C82 and REFERENCES C42~C82: aligned
+- manuscript first-heading titles for active set CASE42~49 and CASE51~82: 40/40 aligned with official Book Title set
+- CASE50 retained only as HOLD identity placeholder pending source reconciliation
+
+Editorial classification synchronization:
+- CASE48, CASE51, CASE65, CASE66, CASE80 manuscript labels corrected to 응용사례 to match PHASE3_DEEP_DIVE_CLASSIFICATION.md and manuscript-status metadata
+
+Figure/Table source status:
+- 11 approved Web PNG assets remain candidate inventory only
+- final Figure insertion remains USER CONFIRMATION PENDING
+- CASE77~81 official filenames confirmed as case77_approval_final.txt ~ case81_approval_final.txt
+- direct Approval Final TXT content-byte fidelity comparison remains pending
+
+Current active blockers:
+1. CASE50 source identity reconciliation
+2. CASE77~81 direct Approval Final TXT fidelity verification
+3. user confirmation of Expanded Edition TOC
+4. user confirmation of final Figure selection / book print permission
+
+Current book protection remains unchanged:
+- Print Master unchanged
+- Editable Word Master unchanged
+- Book Reader unchanged
+- Production Web unchanged
+- CASE42~82 Book links hidden
