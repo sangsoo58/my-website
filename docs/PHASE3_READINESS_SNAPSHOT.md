@@ -416,3 +416,15 @@ Remaining gates:
 5. Figure print permission/anonymization/final-layout review
 
 Current Master/Production remain unchanged.
+
+
+## Selected table source QA update
+
+Status: **PASS 11/11**
+- base selected table/fact-box candidates: 11
+- source/evidence/boundary planning QA: 11/11
+- unsupported numeric introduced: 0
+- final page-level recheck remains pending after Word pagination
+
+Reference:
+- `docs/PHASE3_SELECTED_TABLE_SOURCE_QA.md`
