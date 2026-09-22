@@ -1,7 +1,7 @@
 # CASE 82 | DEEP DIVE 후보 — Peak·Load Factor 기반 데이터센터 계약전력 적정성 진단
 
 **편집상태:** PHASE 3 DRAFT / USER REVIEW REQUIRED  
-**배치안:** PART 5 · Chapter 23 · 데이터센터 PUE와 냉방 최적화  
+**배치안:** PART 5 · Proposed Chapter 24 · 데이터센터 PUE와 냉방 최적화
 **Evidence:** Scenario-based Cost Saving / Energy KPI와 Cost KPI 분리  
 **Web:** /cases/case82.html
 
