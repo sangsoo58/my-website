@@ -3,7 +3,7 @@
 Status: **ROUGH ESTIMATE / NOT PAGINATED**
 
 현재 159p 내지의 스타일을 유지한다는 가정하에 CASE42~82의 41개 manuscript draft 중 **CASE50을 제외한 40개 활성 개정판 후보**를 동일 분량으로 넣지 않고,
-Deep Dive와 응용사례를 혼합한다. CASE50은 Source reconciliation 완료 전 Page Budget에서 제외한다.
+Deep Dive와 응용사례를 혼합한다. CASE50은 승인 정본 확인이 완료됐으나 CASE49와 높은 정량 중복이 있어 현재 Page Budget에서 제외한다. 사용자가 별도 CASE 보존을 선택하면 약 0.75~1.0p 추가를 가정한다.
 
 ## 편집 분량 가이드
 
@@ -44,7 +44,7 @@ CASE INDEX / REFERENCES C42~82 확장:
 - 이는 조판 전 Rough Estimate다.
 - 기존 CASE11~14, 28, 35~39의 중복을 실제로 줄이면 5~10p 정도 더 줄어들 수 있다.
 - Figure 7~8개를 크게 배치하면 다시 4~8p 증가할 수 있다.
-- CASE50은 현재 Hold라 포함하지 않은 상태로 보는 것이 안전하다.
+- CASE50은 Source 문제가 아니라 CASE49와의 중복관리 때문에 현재 별도 본문에서 제외한다.
 
 ## 권장 목표
 
