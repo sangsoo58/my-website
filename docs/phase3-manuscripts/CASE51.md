@@ -1,7 +1,7 @@
 # CASE 51 | DEEP DIVE 후보 — ASHRAE 90.1 Appendix G Baseline과 설계안을 비교한 LEED 에너지모델링
 
 **편집상태:** PHASE 3 DRAFT / USER REVIEW REQUIRED  
-**배치안:** PART 5 · Chapter 22 · 신축건물 Energy Modeling  
+**편집 배치안 (Expanded Edition Proposal):** PART 5 · Chapter 23 · 신축건물 Energy Modeling
 **Evidence:** D — Simulation·Modeling  
 **Web:** /cases/case51.html
 
