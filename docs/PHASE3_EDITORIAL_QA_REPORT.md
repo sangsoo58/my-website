@@ -264,3 +264,30 @@ Current proposed mapping if approved:
 - Current Ch.28 → Expanded Ch.29 M&V
 
 No current Print/Word Master cross-reference replacement has been performed.
+
+
+## 16. Figure / Table Register Consistency QA
+
+Status: **PASS / FINAL FIGURE USER GATE PENDING**
+
+Verified against:
+- PHASE3_FIGURE_TABLE_SOURCE_REGISTER.csv
+- PHASE3_FIGURE_SELECTION.md
+- PHASE3_CAPTION_TABLE_REGISTER.md
+- phase3-manuscript-status.json
+- phase3-evidence-register.json
+
+Result:
+- active CASE scope = 40
+- CASE50 rows removed from active Figure/Table register
+- editorialType mismatch = 0
+- evidenceClass mismatch = 0
+- CSV structural error = 0
+- approved source-backed PNG inventory = 11/11 accounted for
+- Figure Selection = 7 primary + 1 optional + 3 Table/Callout preferred
+
+Special handling:
+- CASE53-F01, CASE64-F01, CASE66-F01 are valid approved assets but print presentation is currently Table/Fact Box preferred.
+- they remain traceable alternates and are not treated as missing captions.
+
+No final Figure number, Word insertion, or print permission approval has been performed.
