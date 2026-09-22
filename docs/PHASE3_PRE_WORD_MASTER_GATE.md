@@ -86,3 +86,28 @@ The following can proceed without modifying the current 159p book:
 - current 41-CASE Book Reader: unchanged
 - Production Web: unchanged
 - CASE42~82 Book links: hidden
+
+
+## 8. Latest planning integrity QA
+
+Status: **PLANNING INTEGRITY PASS / INTEGRATION STILL BLOCKED**
+
+Latest verified state:
+- manuscript drafts: 41/41
+- active revision candidates: 40
+- excluded Source HOLD: CASE50
+- active Chapter map: 40/40 unique / duplicate 0 / missing 0
+- Figure/Table active register: 40 CASE
+- approved Web PNG assets: 11/11 accounted for
+- Figure plan: 7 primary + 1 optional + 3 Table/Callout preferred
+- editorialType mismatch: 0
+- evidenceClass mismatch: 0
+
+Still blocking actual Editable Word integration:
+1. CASE50 source reconciliation
+2. CASE77~81 direct Approval Final TXT fidelity comparison
+3. user confirmation of proposed Expanded Edition TOC
+4. user confirmation of final Figure selection
+5. Book Print permission/anonymization review for selected assets
+
+Therefore the current Editable Word Master and 159p Print Master remain unchanged.
