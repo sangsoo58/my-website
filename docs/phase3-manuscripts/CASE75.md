@@ -1,4 +1,4 @@
-# CASE 75 | 응용사례 — 발전호기별 소내전력률 Benchmark와 보조기기 개선 우선순위
+# CASE 75 | 응용사례 — 발전소 호기별 소내전력률 Benchmark를 통한 보조기기 효율편차 진단 및 개선 우선순위 도출
 
 **편집상태:** PHASE 3 DRAFT / USER REVIEW REQUIRED  
 **배치안:** PART 4 · Proposed Chapter 20 · 발전소 보조기기
