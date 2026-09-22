@@ -1,4 +1,4 @@
-# CASE 48 | DEEP DIVE 후보 — 133층 초고층 복합건물의 에너지성능을 설계 전에 예측한 DOE-2.1E Simulation
+# CASE 48 | 응용사례 — 133층 초고층 복합건물의 에너지성능을 설계 전에 예측한 DOE-2.1E Simulation
 
 **편집상태:** PHASE 3 DRAFT / USER REVIEW REQUIRED  
 **편집 배치안 (Expanded Edition Proposal):** PART 5 · Chapter 23 · 신축건물 Energy Modeling
