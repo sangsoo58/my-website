@@ -244,3 +244,9 @@ Draft PR → Ready for Review → Merge → GitHub Pages → Production Smoke Te
   - source-derived real summaries render correctly
   - placeholder text removed
   - category/system tags and detail links remain intact
+
+- Consultation access isolation: PASS
+  - anonymous role: INSERT allowed; SELECT/UPDATE/DELETE denied
+  - Lee Sang-soo admin account: is_admin() = true; consultation rows visible
+  - non-admin authenticated user: is_admin() = false; visible consultation rows = 0
+  - RLS policies enforce Lee Sang-soo-only human access to consultation data
