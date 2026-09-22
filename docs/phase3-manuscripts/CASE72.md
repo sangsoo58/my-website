@@ -34,3 +34,7 @@ Economizer 적용 전후 Compressor Runtime, Cooling kWh, Fan/Pump Power와 IT �
 
 ## Consultant's Point
 Free Cooling의 질문은 ‘외기가 차가운가’가 아니라 **IT 장비 환경조건을 만족하면서 Mechanical Energy를 줄일 수 있는 시간대가 언제인가**이다.
+
+## Source Note
+
+저자 보유 프로젝트 자료와 비식별 공개사례를 바탕으로 재구성했다. 수치·성과의 성격은 본문의 Evidence Boundary를 따른다.
