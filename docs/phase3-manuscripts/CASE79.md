@@ -36,3 +36,7 @@ Variable-Speed Pumping과 Differential Pressure Reset은 장기 확장방향이�
 
 ## Consultant's Point
 ‘몇 대가 켜져 있는가’보다 **현재 냉방부하에 몇 대가 필요한가**를 관리해야 한다.
+
+## Source Note
+
+저자 보유 프로젝트 자료와 비식별 공개사례를 바탕으로 재구성했다. 수치·성과의 성격은 본문의 Evidence Boundary를 따른다.
