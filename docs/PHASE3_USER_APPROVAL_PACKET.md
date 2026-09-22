@@ -92,6 +92,13 @@ Decision:
 
 Final use remains subject to print-permission/anonymization review.
 
+Figure technical QA:
+- binary asset integrity: **11/11 PASS**
+- caption/unit source QA: **11/11 PASS**
+- permission/use-basis: PENDING
+- visual anonymization: REVIEW
+- final layout readability: PENDING
+
 ## 4. Page target
 
 Current scenarios:
@@ -129,6 +136,10 @@ Current QA:
 - Numeric/Unit preliminary QA: 40/40
 - Evidence preliminary QA: 40/40
 - Measurement Boundary QA: 40/40
+- Final Fidelity PASS: **15/40**
+  - CASE42~49, CASE51, CASE77~82
+- Direct BOOK MASTER Preliminary PASS: **25/40**
+  - CASE52~76
 - claim-strengthening violations identified: 0
 - same-project project-level result double-count: 0 identified
 
