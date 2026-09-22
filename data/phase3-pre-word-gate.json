@@ -53,7 +53,13 @@
     "case50ActiveRows": 0,
     "registerConsistencyQA": "PASS",
     "finalSelection": "USER_CONFIRMATION_PENDING",
-    "printPermission": "BOOK_PRINT_PERMISSION_REVIEW_PENDING"
+    "printPermission": "BOOK_PRINT_PERMISSION_REVIEW_PENDING",
+    "captionUnitSourceQA": "PASS_11_OF_11",
+    "remainingGates": [
+      "USER_FINAL_FIGURE_SELECTION",
+      "BOOK_PRINT_PERMISSION_ANONYMIZATION",
+      "FINAL_LAYOUT_READABILITY"
+    ]
   },
   "nextAllowedWork": [
     "deduplicate chapter text",
