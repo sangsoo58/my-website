@@ -152,3 +152,20 @@ Remaining blockers are unchanged:
 2. CASE77~81 Approval Final TXT direct fidelity comparison
 3. user confirmation of proposed TOC
 4. user confirmation of final Figure selection / print permission
+
+
+## Cross-reference readiness update
+
+Status: **PROPOSED MAP CONSISTENT / NOT YET APPLIED TO CURRENT MASTER**
+
+Completed:
+- Chapter renumbering register restored to USER CONFIRMATION PENDING state
+- proposed +1 mapping for current Chapter 15~28 checked
+- Chapter 23 proposed case list corrected to CASE48,49,51 with CASE50 excluded
+- integrated Chapter 23 draft also excludes CASE50 active content
+
+Pending until user approval / pagination:
+- actual Word Master chapter-number replacement
+- p.xx internal reference regeneration
+- final CASE Index page mapping
+- Expanded Edition Web↔Book page mapping
