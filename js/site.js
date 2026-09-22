@@ -20,11 +20,14 @@
   if(!m || document.querySelector('.knowledge-link-panel')) return;
   const no=Number(m[1]), caseId='CASE'+String(no).padStart(2,'0');
   const main=document.querySelector('main');
-  const host=main&&(main.querySelector('.container')||main.querySelector('.final-lock-content')||main);
+  const host=main;
   if(!host) return;
   const textContent=(main.innerText||'');
+  const focusText=[document.title,document.querySelector('h1')?.innerText||'',...[...document.querySelectorAll('.tag,.detail-tags span')].map(x=>x.innerText||'')].join(' ');
   let insight='../insights/mes-ems-energy-data-analysis.html', insightLabel='에너지 데이터 분석 Insight';
-  if(/AI|머신러닝|예측모델/i.test(textContent)){ insight='../insights/energy-ai-practical-optimization.html'; insightLabel='Energy AI 활용 Insight'; }
+  if(/AI|머신러닝|예측모델/i.test(focusText)){ insight='../insights/energy-ai-practical-optimization.html'; insightLabel='Energy AI 활용 Insight'; }
+  else if(/Baseline|M&V|절감성과/i.test(focusText)){ insight='../insights/baseline-mv-normalization.html'; insightLabel='Baseline & M&V Insight'; }
+  else if(/AI|머신러닝|예측모델/i.test(textContent)){ insight='../insights/energy-ai-practical-optimization.html'; insightLabel='Energy AI 활용 Insight'; }
   else if(/Baseline|M&V|절감성과/i.test(textContent)){ insight='../insights/baseline-mv-normalization.html'; insightLabel='Baseline & M&V Insight'; }
   const render=(bookIncluded)=>{
     const section=document.createElement('section');
@@ -38,7 +41,7 @@
     host.appendChild(section);
     if(!document.getElementById('phase2-knowledge-links-style')){
       const style=document.createElement('style'); style.id='phase2-knowledge-links-style';
-      style.textContent='.knowledge-link-panel{margin:28px 0;padding:28px;border:1px solid #dbe4e8;border-radius:20px;background:#fff}.knowledge-link-panel h2{margin:0 0 18px}.knowledge-link-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.knowledge-link-grid a{display:grid;gap:5px;padding:16px;border:1px solid #dbe4e8;border-radius:14px;background:#f7faf9;text-decoration:none}.knowledge-link-grid strong{color:#0f6b5a}.knowledge-link-grid span{font-size:13px;color:#65717d}@media(max-width:700px){.knowledge-link-grid{grid-template-columns:1fr}.knowledge-link-panel{padding:20px}}';
+      style.textContent='.knowledge-link-panel{width:min(calc(100% - 40px),1120px);margin:32px auto;padding:28px;border:1px solid #dbe4e8;border-radius:20px;background:#fff}.knowledge-link-panel h2{margin:0 0 18px}.knowledge-link-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.knowledge-link-grid a{display:grid;gap:5px;padding:16px;border:1px solid #dbe4e8;border-radius:14px;background:#f7faf9;text-decoration:none}.knowledge-link-grid strong{color:#0f6b5a}.knowledge-link-grid span{font-size:13px;color:#65717d}@media(max-width:700px){.knowledge-link-grid{grid-template-columns:1fr}.knowledge-link-panel{padding:20px}}';
       document.head.appendChild(style);
     }
   };
