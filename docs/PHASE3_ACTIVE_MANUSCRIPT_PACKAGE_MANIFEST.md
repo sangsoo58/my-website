@@ -141,3 +141,18 @@ Current source/manuscript QA summary:
 - CASE77~81 direct Source Master Preliminary Fidelity: 5/5
 - claim strengthening identified across active reviewed set: 0
 - standalone official TXT byte-identity confirmation: pending
+
+
+## 12. Final Pre-Word acceptance
+
+Status: **40/40 PRE-WORD ACCEPT**
+
+See:
+- `docs/PHASE3_FINAL_PRE_WORD_ACCEPTANCE_MATRIX.md`
+- `data/phase3-final-pre-word-acceptance-matrix.json`
+
+Remaining blockers are intentionally compressed to four gates:
+- strict source-byte identity
+- CASE50 source reconciliation
+- user TOC/Figure approval + print permission
+- Word working-copy authorization
