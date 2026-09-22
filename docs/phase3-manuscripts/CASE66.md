@@ -1,4 +1,4 @@
-# CASE 66 | DEEP DIVE 후보 — 보일러 부하율과 연료 원단위 기반 가동대수·용량조합 최적화
+# CASE 66 | DEEP DIVE 후보 — 보일러 부하율과 연료 원단위 상관분석을 통한 가동대수 및 고효율 운전영역 최적화
 
 **편집상태:** PHASE 3 DRAFT / USER REVIEW REQUIRED  
 **편집 배치안 (Expanded Edition Proposal):** PART 4 · Proposed Chapter 15 · 보일러 시스템 운전최적화
