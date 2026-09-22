@@ -1,0 +1,42 @@
+{
+  "status": "EDITORIAL_PLANNING",
+  "baseFullTables": 11,
+  "optionalFullTables": 1,
+  "chapterCounts": {
+    "ch11": {
+      "required": 4,
+      "optional": 1
+    },
+    "ch12": {
+      "required": 0,
+      "optional": 0
+    },
+    "ch14": {
+      "required": 1,
+      "optional": 0
+    },
+    "ch15": {
+      "required": 1,
+      "optional": 0
+    },
+    "ch20": {
+      "required": 2,
+      "optional": 0
+    },
+    "ch23": {
+      "required": 1,
+      "optional": 0
+    },
+    "ch24": {
+      "required": 2,
+      "optional": 0
+    }
+  },
+  "pageControl": [
+    "DROP_CASE78_OPTIONAL_TABLE",
+    "CONVERT_CASE54_TO_BOX",
+    "MERGE_CASE75_76_BACKGROUND",
+    "NO_SEPARATE_CASE50_TABLE",
+    "SHARE_DATA_CENTER_DIAGNOSTIC_BOX"
+  ]
+}
