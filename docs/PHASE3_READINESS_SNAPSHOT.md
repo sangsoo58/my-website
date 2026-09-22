@@ -169,3 +169,23 @@ Pending until user approval / pagination:
 - p.xx internal reference regeneration
 - final CASE Index page mapping
 - Expanded Edition Web↔Book page mapping
+
+
+## Figure / Table register readiness update
+
+Status: **REGISTER PASS / FINAL FIGURE GATE PENDING**
+
+Verified:
+- active Figure/Table register CASE count: 40
+- CASE50 active rows: 0
+- editorialType / evidenceClass mismatches: 0
+- CSV structural errors: 0
+- approved Web PNG assets: 11/11 accounted for
+- print plan: 7 primary + 1 optional + 3 Table/Callout preferred
+
+CASE53-F01, CASE64-F01 and CASE66-F01 remain traceable approved assets but Table/Fact Box presentation is preferred for print.
+
+Still pending:
+- user confirmation of final Figure selection
+- BOOK_PRINT_PERMISSION_REVIEW
+- final caption/unit verification at Word integration
