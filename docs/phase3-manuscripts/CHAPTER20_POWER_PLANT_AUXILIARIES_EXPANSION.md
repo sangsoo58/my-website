@@ -52,7 +52,7 @@ CASE28의 제안목표 2%·4.6억원/년을 CASE75·76의 독립성과로 재사
 
 **BENCHMARK |** Performance Gap 자체는 절감량이 아니다. 같은 발전부하에서 어떤 설비와 운전조건이 Gap을 만드는지를 확인하는 Screening Evidence다.
 
-**EDITORIAL NOTE |** 현재 Web metadata의 sector는 데이터센터로 남아 있지만 실제 CASE 내용은 발전소다. Expanded Edition에서는 발전소 보조기기로 편성한다.
+**BOOK NOTE |** 현재 Web metadata의 sector는 데이터센터로 남아 있지만 실제 CASE 내용은 발전소다. Expanded Edition에서는 발전소 보조기기로 편성한다.
 
 ---
 
