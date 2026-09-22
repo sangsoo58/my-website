@@ -218,6 +218,19 @@
   "finalDecisionBrief": {
     "doc": "docs/PHASE3_FINAL_DECISION_BRIEF.md",
     "data": "data/phase3-final-decision-brief.json",
-    "status": "READY_USER_APPROVAL_PENDING"
+    "status": "APPROVED_EXECUTION_STARTED"
+  },
+  "wordWorkingCopy": {
+    "authorization": "APPROVED_BY_USER",
+    "baselineFile": "01_POD_내지_Editable_Word_Master_v1.7(1).docx",
+    "baselineSha256": "b013dccd773fd813ce187e75e0d01e19beb7965e80d2b4cb38e889fa4848775f",
+    "currentWorkingCopy": "02_Expanded_Edition_Working_Copy_v0.1.docx",
+    "currentWorkingCopySha256": "28c63be1900def2a6c246ba3b1eb1c6936dbcc4c1f11c9e3c8681c9b3e528949",
+    "status": "STRUCTURAL_INTEGRATION_STARTED",
+    "applied": [
+      "NEW_CHAPTER_15_BOILER",
+      "RENUMBER_CURRENT_CHAPTER_15_28_TO_16_29",
+      "WORKING_COPY_MARKER"
+    ]
   }
 }
