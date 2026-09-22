@@ -467,3 +467,35 @@ Status: **PASS**
 
 Reference:
 - `docs/PHASE3_PACKAGE_INTEGRITY_QA.md`
+
+
+## Word working-copy execution update
+
+Status: **STARTED**
+
+Baseline supplied by user:
+- `01_POD_내지_Editable_Word_Master_v1.7(1).docx`
+- baseline SHA-256: `b013dccd773fd813ce187e75e0d01e19beb7965e80d2b4cb38e889fa4848775f`
+
+First isolated working copy:
+- `02_Expanded_Edition_Working_Copy_v0.1.docx`
+- working-copy SHA-256: `28c63be1900def2a6c246ba3b1eb1c6936dbcc4c1f11c9e3c8681c9b3e528949`
+
+Applied in v0.1:
+- title-page working-copy marker
+- new Chapter 15 Boiler inserted
+- existing Chapter 15~28 structural chapter headings renumbered to 16~29
+- Chapter 16 forced to start on a new page
+- current Master remains unchanged
+
+Render QA:
+- Chapter 15 pages visually reviewed
+- Chapter 16 transition visually reviewed
+- title page marker visually reviewed
+- no clipping/overlap found in reviewed modified region
+
+Remaining integration:
+- CASE42~49,51~64,70~82 chapter-companion insertions
+- TOC / CASE INDEX / REFERENCES rebuild
+- final Figure/Table insertion and permission/anonymization review
+- pagination / Word QA / PDF preflight
