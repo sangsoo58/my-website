@@ -1,0 +1,108 @@
+# PHASE 2 IMPROVEMENT QA REPORT
+
+Status: CANDIDATE / DRAFT REVIEW ONLY  
+Production main branch changed: NO  
+Merge: NO  
+Deployment: NO  
+
+## 1. Candidate scope
+
+The Phase 2 candidate improves the site as an independent industrial/building energy-saving knowledge platform while preserving the existing 82 CASE structure.
+
+Core changes:
+- Homepage Hero reframed as a knowledge platform
+- 4 audience entry routes
+- Consultation expanded to professional consultation / research / education / R&D collaboration
+- Web ↔ Book mapping added
+- CASE cross-links to Book / Insight / CASE Library / Consultation
+- Book Reader current/future book status clarified
+- Public company attribution neutralized where found during QA
+
+## 2. Web ↔ Book mapping
+
+- Total CASE mapping: 82
+- Unique CASE ID: 82
+- CASE01~41: ACTIVE_CURRENT_BOOK
+- CASE42~82: FUTURE_BOOK_PENDING
+- CASE41: current book mapping confirmed
+- CASE42: future pending confirmed
+
+## 3. Book Reader QA
+
+- Published book scope: CASE01~41
+- Direct web CASE options: 41
+- CASE37~41 links aligned with the published book C37~C41 sequence:
+  - CASE37: Solar Radiation Simulation / PV installation condition optimization
+  - CASE38: Multi-IDC PUE / cooling data / EC Fan / free cooling
+  - CASE39: Multi-data-center PUE / cooling efficiency / IPOS
+  - CASE40: HDD Baseline district-heating smart operation
+  - CASE41: District-heating supply temperature / pipe loss / pump optimization
+- CASE42~82 shown as web expansion/future book mapping
+- Cover overlay text: 41 cases
+
+## 4. JavaScript static QA
+
+- js/case-detail.js syntax: PASS
+- assets/script.js syntax: PASS
+- js/site.js syntax: PASS
+- web-book-mapping.json parse/count/unique ID: PASS
+
+## 5. Representative SEO protection
+
+Representative checks confirmed canonical / JSON-LD protection for:
+- CASE01
+- CASE41
+- CASE42
+- CASE82
+
+No intended changes to:
+- CASE official URL structure
+- sitemap.xml
+- robots.txt
+- canonical policy
+- existing performance classification
+
+## 6. Independent-platform attribution QA
+
+Public company attribution discovered during Phase 2 QA was neutralized in the Candidate where applicable, while keeping the technical source meaning and quantitative content unchanged.
+
+Affected candidate CASE files:
+CASE01, CASE02, CASE03, CASE04, CASE05, CASE06, CASE08, CASE11, CASE12, CASE38, CASE46.
+
+## 7. Protection rules
+
+The following remain protected:
+- CASE IDs
+- official CASE URLs
+- FACT / numeric / formula / evidence
+- Potential / Actual / Verified classification
+- Measurement Boundary meaning
+- existing Book Print Master / Editable Word source
+
+## 8. Remaining gate before merge
+
+BROWSER QA REQUIRED before merge.
+
+Recommended manual screens:
+1. Homepage desktop
+2. Homepage mobile
+3. CASE01
+4. CASE41
+5. CASE42
+6. CASE82
+7. Book Reader desktop/mobile
+8. Expert Profile
+9. Consultation form
+
+Check:
+- no horizontal page overflow
+- navigation labels fit
+- audience cards layout
+- knowledge-link panel rendering
+- CASE01~41 Book link appears
+- CASE42~82 Book link remains hidden
+- mobile table/form behavior
+- form submission regression
+
+Only after user approval:
+Draft PR → Ready for Review → Merge → GitHub Pages → Production Smoke Test.
