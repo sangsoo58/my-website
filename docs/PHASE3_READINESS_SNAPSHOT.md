@@ -130,3 +130,25 @@ Current book protection remains unchanged:
 - Book Reader unchanged
 - Production Web unchanged
 - CASE42~82 Book links hidden
+
+
+## Integrated chapter style update
+
+Status: **STYLE QA PRELIMINARY PASS**
+
+Completed:
+- Chapter 11/12/14/15/20/23/24 style and terminology review
+- CASE type labels synchronized with the Deep Dive/Application classification register
+- boiler N㎥/ton notation normalized in integrated text
+- selected cost/currency expressions normalized without changing source meaning
+- CASE50 removed from active Chapter 23 integration draft; HOLD remains outside active book content
+
+Preserved intentionally pending source-level verification:
+- source-specific units such as mmAQ and USRT
+- source-specific technical English where changing terminology could alter meaning
+
+Remaining blockers are unchanged:
+1. CASE50 source reconciliation
+2. CASE77~81 Approval Final TXT direct fidelity comparison
+3. user confirmation of proposed TOC
+4. user confirmation of final Figure selection / print permission
