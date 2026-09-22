@@ -43,7 +43,7 @@ Decision:
 
 - Manuscript drafts: 41
 - Active Expanded Edition candidates: **40**
-- CASE50: **Source HOLD / excluded**
+- CASE50: **Source reconciled / separate-body inclusion decision pending**
 - CASE50 placeholder page: **not allowed**
 
 ### Active insertion map
@@ -134,19 +134,22 @@ Current QA:
 
 ## 6. Source fidelity status
 
-### CASE42~76
-- Approved Final Source recovered: 35/35
-- active Preliminary Fidelity: 34/34
-- CASE50: separate HOLD
+### CASE42~51
+- direct standalone Approval Final TXT Final Fidelity PASS: CASE42~49, CASE51 = 9 active CASEs
+- CASE50 content/source fidelity PASS; separate-body inclusion decision pending
+
+### CASE52~76
+- standalone Approved Final files confirmed and Source Recovery PASS
+- Preliminary Fidelity maintained because current Library text reader cannot open some standalone TXT bodies
 
 ### CASE77~81
-- Direct approved Source Master comparison: Preliminary PASS 5/5
+- direct standalone Approval Final TXT Final Fidelity PASS: 5/5
 
 ### CASE82
 - Production locked data + restored QA source basis
 - contract-power Cost Saving Scenario kept separate from Energy Saving
 
-Strict standalone source-byte identity confirmation remains a final fidelity control where required.
+Remaining strict source-text limitation is concentrated in CASE52~76 due current Library reader access, not a known content conflict.
 
 ## 7. CASE50
 
