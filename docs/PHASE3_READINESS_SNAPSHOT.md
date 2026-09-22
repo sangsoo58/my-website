@@ -215,3 +215,20 @@ Verified:
 - CASE50 remains HOLD-only and excluded from active publication content
 
 Internal source identity/fidelity metadata remains separate from public book text.
+
+
+## Direct source recovery update
+
+CASE79:
+- `CASE79_BOOK_MASTER.txt` direct Library content found
+- Preliminary direct-master fidelity QA: PASS
+- Title / Evidence B/C / Actual-vs-Required logic / Pump OFF action / no-independent-final-saving boundary: aligned
+- exact official `case79_approval_final.txt` content identity still pending, so Final Fidelity PASS is not assigned
+
+Remaining direct-content unresolved set is now concentrated on:
+- CASE77
+- CASE78
+- CASE80
+- CASE81
+
+CASE50 remains a separate source-identity HOLD.
