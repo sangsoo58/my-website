@@ -173,3 +173,8 @@ Draft PR → Ready for Review → Merge → GitHub Pages → Production Smoke Te
   - CASE 01~82 library button, web CASE jump, TOC jump, page controls all visible
   - no visible horizontal overflow in reviewed desktop screenshot
   - book title area truncation in top bar is acceptable at this viewport
+
+- Book Reader CASE37~41 jump list: PASS
+  - user confirmed CASE37~41 entries all visible
+  - published C37~C41 order aligns with web CASE37~41
+  - Book Reader browser QA complete
