@@ -1,4 +1,4 @@
-# CASE 60 | DEEP DIVE 후보 — 냉동유 첨가제 적용 전·후 kW/RT 검증과 Null Result
+# CASE 60 | DEEP DIVE 후보 — 냉동유 첨가제 적용 전·후 kW/RT 비교를 통한 냉동기 효율개선 효과 검증
 
 **편집상태:** PHASE 3 DRAFT / USER REVIEW REQUIRED  
 **배치안:** PART 3 · Chapter 11 · 냉동기 Plant 최적화  
