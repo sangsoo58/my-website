@@ -1,6 +1,6 @@
 {
   "edition": "EXPANDED_82_CASE",
-  "status": "ROUND2_READY_FOR_BOOK_STYLE_EDIT",
+  "status": "BOOK_REVISION_CANDIDATE / USER_CONFIRMATION_PENDING",
   "parts": 7,
   "chapters": 29,
   "caseRange": "CASE01-CASE82",
@@ -19,7 +19,7 @@
   "productionPolicy": {
     "currentBookReader": "UNCHANGED",
     "productionWeb": "UNCHANGED",
-    "futureBookLinks": "HIDDEN_UNTIL_FINAL_PAGINATION",
+    "futureBookLinks": "HIDDEN_UNTIL_USER_APPROVAL_AND_FINAL_PAGINATION",
     "stableCaseIds": true
   },
   "chapterCaseMap": {
@@ -78,5 +78,7 @@
       "CASE75",
       "CASE76"
     ]
-  }
+  },
+  "userConfirmationRequired": true,
+  "currentBookBaselineChanged": false
 }
