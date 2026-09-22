@@ -1,7 +1,7 @@
 # CASE 74 | DEEP DIVE 후보 — 다중 데이터센터 IPOS 실시간 성능최적화 플랫폼
 
 **편집상태:** PHASE 3 DRAFT / USER REVIEW REQUIRED  
-**배치안:** PART 5 · Chapter 23 · 데이터센터 PUE와 냉방 최적화  
+**배치안:** PART 5 · Proposed Chapter 24 · 데이터센터 PUE와 냉방 최적화
 **Evidence:** C · Multi-site Platform / Performance Optimization Proposal  
 **Web:** /cases/case74.html
 
