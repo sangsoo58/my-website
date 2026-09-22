@@ -59,7 +59,15 @@
       "USER_FINAL_FIGURE_SELECTION",
       "BOOK_PRINT_PERMISSION_ANONYMIZATION",
       "FINAL_LAYOUT_READABILITY"
-    ]
+    ],
+    "anonymizationEvidence": {
+      "knownDocumentLevelDefects": 0,
+      "lowRiskAssets": 10,
+      "mediumRiskAssets": [
+        "CASE42-F01"
+      ],
+      "pixelReview": "PENDING"
+    }
   },
   "nextAllowedWork": [
     "deduplicate chapter text",
