@@ -119,7 +119,7 @@
     "case42_76": "APPROVED_FINAL_SOURCE_RECOVERED",
     "case77_81": "FINAL_FIDELITY_PASS_5_OF_5_DIRECT_STANDALONE_APPROVED_FINAL_TXT",
     "case77_81Final": "FINAL_PASS",
-    "case82": "PRODUCTION_LOCKED_DATA_QA_SOURCE",
+    "case82": "FINAL_FIDELITY_PASS_LOCKED_DATA_QA_SOURCE",
     "case50": "SOURCE_IDENTITY_RESOLVED_APPROVED_FINAL_OFFICE_WWR_GLAZING_USER_BOOK_DECISION_PENDING"
   },
   "preWordFidelityMatrix": {
@@ -164,8 +164,8 @@
     "status": "READY_NOT_AUTHORIZED"
   },
   "fidelitySummary": {
-    "activeFinalPass": 14,
-    "activePreliminary": 26,
+    "activeFinalPass": 15,
+    "activePreliminary": 25,
     "finalPassCases": [
       "CASE42",
       "CASE43",
@@ -180,15 +180,15 @@
       "CASE78",
       "CASE79",
       "CASE80",
-      "CASE81"
+      "CASE81",
+      "CASE82"
     ],
     "preliminaryReason": {
-      "CASE52-76": "Direct BOOK_MASTER review PASS 25/25; standalone Approval Final direct-text access remains unavailable for some files.",
-      "CASE82": "Separate Production-locked source regime."
+      "CASE52-76": "Direct BOOK_MASTER review PASS 25/25; standalone Approval Final direct-text access remains unavailable for some files."
     },
     "case50": "CONTENT_FIDELITY_PASS_BOOK_INCLUSION_USER_DECISION_PENDING",
     "directBookMasterPreliminaryPass": 25,
-    "separateSourcePreliminary": 1
+    "separateSourcePreliminary": 0
   },
   "resumeCheckpoint": {
     "doc": "docs/PHASE3_PAUSE_RESUME_CHECKPOINT_2026-09-22.md",
