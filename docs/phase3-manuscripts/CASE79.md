@@ -1,4 +1,4 @@
-# CASE 79 | 응용사례 — 데이터센터 냉수펌프 실제·필요 가동대수 비교
+# CASE 79 | 응용사례 — 냉방부하·운전대수 분석을 통한 데이터센터 냉수펌프 과다운전 진단 및 운전 최적화
 
 **편집상태:** PHASE 3 DRAFT / USER REVIEW REQUIRED  
 **배치안:** PART 5 · Proposed Chapter 24 · 데이터센터 PUE와 냉방 최적화
