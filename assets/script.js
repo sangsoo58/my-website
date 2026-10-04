@@ -193,5 +193,5 @@
   fetch('../data/web-book-mapping.json',{cache:'no-store'})
     .then(r=>r.ok?r.json():null)
     .then(rows=>{ const item=Array.isArray(rows)?rows.find(x=>x.caseId===caseId):null; render(Boolean(item&&item.bookIncluded)); })
-    .catch(()=>render(no<=41));
+    .catch(()=>render(no<=82));
 })();
