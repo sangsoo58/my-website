@@ -1,0 +1,1122 @@
+<!DOCTYPE html>
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<link rel="canonical" href="https://www.energy-ai-optimization.com/cases/case83.html"/>
+<link href="../css/site.css" rel="stylesheet"/>
+<link href="../css/cases.css" rel="stylesheet"/>
+
+<title>CASE83 | 자동차부품 압출공정의 에너지절감 M&V: 원단위 정규화와 회귀 Baseline의 이중 검증 | 글로벌 에너지 최적화 연구소</title>
+
+<meta name="description" content="자동차부품 압출공정에서 생산량 정규화 에너지원단위 비교와 GLSAR 회귀 Baseline을 함께 적용하여 제조공정의 에너지절감량을 산출·검증한 비식별 M&V 사례입니다."/>
+
+<meta property="og:type" content="article"/>
+<meta property="og:title" content="CASE83 | 자동차부품 압출공정 에너지절감 M&V - 두 가지 검증방법"/>
+<meta property="og:description" content="생산량 정규화 원단위 비교와 다변수 회귀 Baseline으로 절감효과를 이중 검증한 실제 제조공정 M&V 사례"/>
+<meta property="og:url" content="https://www.energy-ai-optimization.com/cases/case83.html"/>
+<meta property="og:site_name" content="글로벌 에너지 최적화 연구소"/>
+
+<meta name="twitter:card" content="summary"/>
+
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"TechArticle",
+  "headline":"자동차부품 압출공정의 에너지절감 M&V: 원단위 정규화와 회귀 Baseline의 이중 검증",
+  "url":"https://www.energy-ai-optimization.com/cases/case83.html",
+  "publisher":{
+    "@type":"Organization",
+    "name":"글로벌 에너지 최적화 연구소",
+    "url":"https://www.energy-ai-optimization.com/"
+  }
+}
+</script>
+
+<style>
+.case83-shell{
+  max-width:1120px;
+  margin:0 auto;
+  padding:72px 24px 90px
+}
+.case83-breadcrumb{
+  font-size:13px;
+  color:#70808a;
+  margin-bottom:22px
+}
+.case83-breadcrumb a{
+  color:#0f6b5a;
+  font-weight:800
+}
+.case83-hero{
+  padding:36px;
+  border:1px solid #dfe8e7;
+  border-radius:24px;
+  background:linear-gradient(135deg,#fbfdfd,#f2f8f6)
+}
+.case83-kicker{
+  display:flex;
+  gap:8px;
+  flex-wrap:wrap;
+  margin-bottom:16px
+}
+.case83-kicker span{
+  padding:6px 10px;
+  border-radius:999px;
+  background:#e7f3ef;
+  color:#0f6b5a;
+  font-size:12px;
+  font-weight:900
+}
+.case83-hero h1{
+  font-size:clamp(34px,4.4vw,54px);
+  margin:0 0 18px;
+  line-height:1.18
+}
+.case83-lead{
+  font-size:18px;
+  line-height:1.8;
+  color:#52616b
+}
+.case83-highlight{
+  margin-top:24px;
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:12px
+}
+.case83-highlight article{
+  padding:18px;
+  background:#fff;
+  border:1px solid #dfe8e7;
+  border-radius:16px
+}
+.case83-highlight small{
+  display:block;
+  color:#70808a
+}
+.case83-highlight strong{
+  display:block;
+  margin-top:5px;
+  font-size:23px;
+  color:#0b1f33
+}
+.case83-section{
+  margin-top:34px;
+  padding:30px;
+  border:1px solid #dfe8e7;
+  border-radius:22px;
+  background:#fff
+}
+.case83-section h2{
+  font-size:30px;
+  margin:0 0 18px
+}
+.case83-section h3{
+  margin:26px 0 10px;
+  color:#0b1f33
+}
+.case83-section p,
+.case83-section li{
+  line-height:1.8;
+  color:#52616b
+}
+.case83-note{
+  padding:18px 20px;
+  border-left:4px solid #0f6b5a;
+  background:#f2f8f6;
+  border-radius:0 14px 14px 0
+}
+.case83-warning{
+  padding:18px 20px;
+  border-left:4px solid #bd7b16;
+  background:#fff8e8;
+  border-radius:0 14px 14px 0
+}
+.case83-steps{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:12px
+}
+.case83-steps article{
+  padding:18px;
+  border-radius:16px;
+  background:#f7faf9;
+  border:1px solid #dfe8e7
+}
+.case83-steps b{
+  display:inline-grid;
+  place-items:center;
+  width:30px;
+  height:30px;
+  border-radius:50%;
+  background:#0f6b5a;
+  color:#fff;
+  margin-bottom:10px
+}
+.case83-table{
+  width:100%;
+  border-collapse:collapse;
+  margin:18px 0;
+  font-size:14px
+}
+.case83-table th,
+.case83-table td{
+  border:1px solid #d5dfdf;
+  padding:11px 12px;
+  text-align:left;
+  vertical-align:top
+}
+.case83-table th{
+  background:#0f6b5a;
+  color:#fff
+}
+.case83-table td:first-child{
+  background:#f3f8f7;
+  font-weight:800;
+  color:#25323a
+}
+.case83-figure{
+  margin:22px 0
+}
+.case83-figure img{
+  display:block;
+  width:100%;
+  height:auto;
+  border:1px solid #dfe8e7;
+  border-radius:16px;
+  background:#fff
+}
+.case83-figure figcaption{
+  margin-top:8px;
+  color:#70808a;
+  font-size:12px;
+  text-align:center;
+  line-height:1.6
+}
+.case83-formula{
+  margin:20px 0;
+  padding:18px;
+  border-radius:15px;
+  background:#0b1f33;
+  color:#fff;
+  font-size:18px;
+  font-weight:800;
+  text-align:center;
+  overflow-wrap:anywhere
+}
+.case83-method-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:16px
+}
+.case83-method-card{
+  padding:20px;
+  border:1px solid #dfe8e7;
+  border-radius:16px
+}
+.case83-method-card strong{
+  color:#0f6b5a;
+  font-size:18px
+}
+.case83-checklist{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:10px;
+  padding:0;
+  list-style:none
+}
+.case83-checklist li{
+  padding:13px 15px;
+  border:1px solid #dfe8e7;
+  border-radius:12px;
+  background:#fbfdfc
+}
+.case83-checklist li:before{
+  content:"✓";
+  color:#0f6b5a;
+  font-weight:900;
+  margin-right:8px
+}
+.case83-cta{
+  margin-top:34px;
+  padding:30px;
+  border-radius:22px;
+  background:#0b1f33;
+  color:#fff
+}
+.case83-cta h2{
+  color:#fff
+}
+.case83-cta p{
+  color:#b5c5cf
+}
+.case83-cta .button{
+  margin-right:8px;
+  margin-top:8px
+}
+
+@media(max-width:800px){
+  .case83-highlight,
+  .case83-steps,
+  .case83-method-grid,
+  .case83-checklist{
+    grid-template-columns:1fr
+  }
+
+  .case83-hero,
+  .case83-section{
+    padding:22px
+  }
+
+  .case83-shell{
+    padding:40px 16px 70px
+  }
+
+  .case83-table{
+    font-size:12px
+  }
+}
+</style>
+</head>
+
+<body class="case-page detail-page">
+
+<a class="skip-link" href="#main">본문 바로가기</a>
+
+<header class="site-header">
+<div class="header-inner container">
+
+<a aria-label="글로벌 에너지 최적화 연구소 홈"
+   class="brand"
+   href="../">
+
+<span aria-hidden="true" class="brand-mark">EO</span>
+
+<span class="brand-copy">
+<strong>글로벌 에너지 최적화 연구소</strong>
+<small>Global Energy Optimization Lab</small>
+</span>
+
+</a>
+
+<button aria-controls="primary-nav"
+        aria-expanded="false"
+        aria-label="메뉴 열기"
+        class="nav-toggle"
+        type="button">
+
+<span></span>
+<span></span>
+<span></span>
+
+</button>
+
+<nav aria-label="주 메뉴"
+     class="primary-nav"
+     id="primary-nav">
+
+<a href="../#services">전문영역</a>
+<a href="../#mv">Baseline &amp; M&amp;V</a>
+<a href="../cases/">CASE STUDIES</a>
+<a href="../#insight">Insight</a>
+<a href="../book/">저서 온라인 열람</a>
+<a href="../#expert">Expert</a>
+<a class="nav-cta" href="../#contact">전문 상담·협력</a>
+
+</nav>
+</div>
+</header>
+
+<main id="main">
+
+<div class="case83-shell">
+
+<div class="case83-breadcrumb">
+<a href="../">HOME</a>
+›
+<a href="./">CASE STUDIES</a>
+› CASE83
+</div>
+
+
+<section class="case83-hero">
+
+<div class="case83-kicker">
+
+<span>CASE83</span>
+<span>제조공장</span>
+<span>자동차부품 · 압출공정</span>
+<span>Baseline &amp; M&amp;V</span>
+<span>Evidence A/B</span>
+
+</div>
+
+<h1>
+자동차부품 압출공정의 에너지절감 M&amp;V:<br/>
+원단위 정규화와 회귀 Baseline의 이중 검증
+</h1>
+
+<p class="case83-lead">
+생산량과 운전조건이 매번 달라지는 제조공정에서는
+“전력사용량이 줄었다”는 사실만으로 절감성과를 증명하기 어렵습니다.
+
+이 사례는 동일 생산계열의 두 압출 LINE을 대상으로
+<b>생산량 정규화 원단위 비교</b>와
+<b>다변수 회귀 Baseline</b>을 함께 적용하여,
+개선 방향과 절감량을 서로 다른 방법으로 교차 검증한 사례입니다.
+</p>
+
+<div class="case83-highlight">
+
+<article>
+<small>방법 1 · 원단위 정규화</small>
+<strong>13.9% 개선</strong>
+</article>
+
+<article>
+<small>방법 2 · 회귀 Baseline</small>
+<strong>15.65% 절감</strong>
+</article>
+
+<article>
+<small>검증된 절감량</small>
+<strong>683.59 kWh</strong>
+</article>
+
+</div>
+
+</section>
+
+
+<section class="case83-section">
+
+<h2>1. 사례 개요와 M&amp;V 과제</h2>
+
+<p>
+국내 자동차부품 제조 <b>A사</b>의 동일 생산계열 압출공정에서
+<b>기준 LINE A</b>는 기존 운전조건을 유지하고,
+<b>개선 LINE B</b>에는 에너지절감 항목이 적용되었습니다.
+
+고객명, 공장명 및 실제 LINE ID는 공개용 CASE에서 비식별 처리했습니다.
+</p>
+
+<p>
+개선 LINE B의 평균 전기소비량은 기준 LINE A보다 낮았지만,
+평균 생산중량도 함께 낮았습니다.
+
+따라서 절대 전력사용량의 감소분에는
+<b>진짜 효율개선</b>과
+<b>생산량 감소효과</b>가 동시에 포함될 수 있습니다.
+
+제조공정 M&amp;V의 핵심은 이 두 효과를 분리하는 것입니다.
+</p>
+
+<div class="case83-note">
+<b>핵심 질문</b><br/>
+생산량과 가동조건이 달라지는 제조공정에서
+“개선하지 않았다면 얼마를 사용했을 것인가?”를 어떻게 정의하고,
+실제 사용량과의 차이를 어떻게 절감량으로 증명할 것인가?
+</div>
+
+</section>
+
+
+<section class="case83-section">
+
+<h2>2. 제조공정 M&amp;V의 기본 절차</h2>
+
+<div class="case83-steps">
+
+<article>
+<b>1</b>
+<h3>Measurement Boundary</h3>
+<p>비교할 LINE, 공정, 전력계측 범위를 고정합니다.</p>
+</article>
+
+<article>
+<b>2</b>
+<h3>영향인자 선정</h3>
+<p>생산중량, 가동시간, 시간가동율 등 에너지 사용에 영향을 주는 변수를 확인합니다.</p>
+</article>
+
+<article>
+<b>3</b>
+<h3>비교가능성 확보</h3>
+<p>동일 생산범위를 적용하거나 Baseline의 유효 운전범위를 정의합니다.</p>
+</article>
+
+<article>
+<b>4</b>
+<h3>Baseline 구축</h3>
+<p>원단위 또는 회귀모델로 개선 미적용 시 정상사용량을 정의합니다.</p>
+</article>
+
+<article>
+<b>5</b>
+<h3>Adjusted Baseline</h3>
+<p>개선기간의 실제 생산·운전조건을 Baseline에 입력해 조정 기준사용량을 계산합니다.</p>
+</article>
+
+<article>
+<b>6</b>
+<h3>절감성과 검증</h3>
+<p>Adjusted Baseline - Actual로 절감량을 계산하고 적용범위와 모델 품질을 함께 제시합니다.</p>
+</article>
+
+</div>
+
+</section>
+
+
+<section class="case83-section">
+
+<h2>3. 방법 1 - 생산량 정규화 에너지원단위 비교</h2>
+
+<p>
+첫 번째 방법은 가장 이해하기 쉬운 M&amp;V 접근입니다.
+
+기준 LINE A의 데이터를 개선 LINE B의 생산중량 범위와 동일하게 제한한 뒤,
+단위 생산량당 전력사용량인 <b>kWh/kg</b>를 비교합니다.
+
+생산량이 다른 두 기간의 절대 전력사용량을 직접 비교하는 대신,
+생산량으로 정규화해 효율을 비교하는 방법입니다.
+</p>
+
+<figure class="case83-figure">
+
+<img
+src="../assets/cases/case83/method1_operating_conditions.png"
+alt="기준 LINE A와 개선 LINE B의 생산중량, 가동시간, 시간가동율, 전기소비량 비교"/>
+
+<figcaption>
+그림 1. 주요 운전조건 비교.
+생산중량은 약 5% 감소했으나 가동시간과 시간가동율은 유사하여,
+절대 전력량만으로 절감률을 평가하면 생산량 차이의 영향을 포함할 수 있습니다.
+</figcaption>
+
+</figure>
+
+
+<table class="case83-table">
+
+<thead>
+<tr>
+<th>지표</th>
+<th>기준 LINE A</th>
+<th>개선 LINE B</th>
+<th>변화</th>
+</tr>
+</thead>
+
+<tbody>
+
+<tr>
+<td>평균 전기소비량</td>
+<td>147.70 kWh</td>
+<td>119.26 kWh</td>
+<td>-19.3%</td>
+</tr>
+
+<tr>
+<td>평균 생산중량</td>
+<td>627.45 kg</td>
+<td>596.21 kg</td>
+<td>-5.0%</td>
+</tr>
+
+<tr>
+<td>평균 가동시간</td>
+<td>505.5 min</td>
+<td>519.4 min</td>
+<td>+2.7%</td>
+</tr>
+
+<tr>
+<td>평균 시간가동율</td>
+<td>86.79%</td>
+<td>86.94%</td>
+<td>+0.18%</td>
+</tr>
+
+<tr>
+<td>평균 에너지원단위</td>
+<td>0.234932 kWh/kg</td>
+<td>0.202304 kWh/kg</td>
+<td><b>-13.9%</b></td>
+</tr>
+
+</tbody>
+
+</table>
+
+
+<figure class="case83-figure">
+
+<img
+src="../assets/cases/case83/method1_upi.png"
+alt="생산량 정규화 에너지원단위 비교"/>
+
+<figcaption>
+그림 2.
+생산량 정규화 결과.
+평균 에너지원단위는
+0.234932 → 0.202304 kWh/kg로 낮아졌습니다.
+</figcaption>
+
+</figure>
+
+
+<div class="case83-formula">
+절감률 =
+(0.234932 - 0.202304)
+/ 0.234932 × 100
+= 13.9%
+</div>
+
+<p>
+또한 평균 전기소비량 / 평균 생산중량으로 계산한 가중 원단위는
+약 15.0% 개선되어 평균 개별 원단위의 13.9%와 같은 방향을 보였습니다.
+
+이 방법은 현장 담당자가 빠르게 이해하고 설명할 수 있다는 장점이 있습니다.
+</p>
+
+
+<div class="case83-method-grid">
+
+<div class="case83-method-card">
+
+<strong>장점</strong>
+
+<p>
+산식이 단순하고 직관적이며,
+생산량 차이를 빠르게 보정할 수 있습니다.
+
+데이터가 많지 않은 초기 실증이나
+현장 커뮤니케이션에 유용합니다.
+</p>
+
+</div>
+
+
+<div class="case83-method-card">
+
+<strong>한계</strong>
+
+<p>
+생산중량 외의 가동율·제품 Mix·공정조건 등이
+에너지에 미치는 영향을 충분히 분리하기 어렵습니다.
+
+절감량을 kWh로 직접 산정할 때도 추가 가정이 필요합니다.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+<section class="case83-section">
+
+<h2>4. 방법 2 - 다변수 회귀 Baseline 기반 Adjusted M&amp;V</h2>
+
+<p>
+두 번째 방법은 개선 미적용 상태의 기준 LINE A에서
+정상운전 데이터를 선별한 뒤,
+에너지 사용량을 설명하는 Baseline 회귀모델을 구축합니다.
+
+이상치와 영향점을 정제하고
+OLS·WLS·GLSAR를 비교했으며,
+최종 M&amp;V에는 AR(1) 오차구조를 반영한
+GLSAR 모델을 적용했습니다.
+</p>
+
+
+<div class="case83-formula">
+E<sub>baseline</sub>
+=
+-26.2148
++
+0.8283 × 시간가동율(%)
++
+0.1612 × 생산중량(kg)
+</div>
+
+
+<table class="case83-table">
+
+<thead>
+<tr>
+<th>모델 평가항목</th>
+<th>결과</th>
+<th>의미</th>
+</tr>
+</thead>
+
+<tbody>
+
+<tr>
+<td>Adjusted R²</td>
+<td>0.801</td>
+<td>주요 운전변수가 전력사용량 변동을 상당 부분 설명</td>
+</tr>
+
+<tr>
+<td>RMSE</td>
+<td>7.64 kWh</td>
+<td>Baseline의 건별 평균 예측오차 수준</td>
+</tr>
+
+<tr>
+<td>CV(RMSE)</td>
+<td>4.73%</td>
+<td>평균 사용량 대비 예측오차가 낮은 편</td>
+</tr>
+
+<tr>
+<td>VIF</td>
+<td>1.089 / 1.089</td>
+<td>독립변수 간 다중공선성 위험이 낮음</td>
+</tr>
+
+<tr>
+<td>Durbin-Watson</td>
+<td>1.958</td>
+<td>잔차 자기상관이 낮은 수준</td>
+</tr>
+
+</tbody>
+
+</table>
+
+
+<figure class="case83-figure">
+
+<img
+src="../assets/cases/case83/method2_baseline_performance.png"
+alt="기준 LINE A Baseline 모델의 실적 대비 예측과 예측오차"/>
+
+<figcaption>
+그림 3.
+기준 LINE A의 실제 전력사용량과 Baseline 예측량 비교.
+원 보고서의 모델 성능 그래프를 고객·LINE 식별정보가 드러나지 않도록
+편집해 활용했습니다.
+</figcaption>
+
+</figure>
+
+
+<h3>Baseline 적용범위</h3>
+
+<table class="case83-table">
+
+<thead>
+<tr>
+<th>운전변수</th>
+<th>기준 LINE A Baseline 범위</th>
+<th>개선 LINE B 관측 범위</th>
+</tr>
+</thead>
+
+<tbody>
+
+<tr>
+<td>생산중량</td>
+<td>493.95 ~ 881.10 kg</td>
+<td>80.10 ~ 747.60 kg</td>
+</tr>
+
+<tr>
+<td>시간가동율</td>
+<td>80.00 ~ 95.45%</td>
+<td>65.15 ~ 95.83%</td>
+</tr>
+
+<tr>
+<td>전기소비량*</td>
+<td>123.00 ~ 191.00 kWh</td>
+<td>10.00 ~ 141.00 kWh</td>
+</tr>
+
+</tbody>
+
+</table>
+
+
+<p class="case83-warning">
+
+<b>* 실무 적용 시 주의</b><br/>
+
+원 분석코드는 Valid 판정에 실적 전기소비량까지 포함했습니다.
+
+일반적인 M&amp;V에서는 Baseline 적용범위를
+독립변수와 운전조건 중심으로 정의하는 것이 더 논리적이므로,
+다른 현장에 재적용할 때는 Valid 규칙을 사전에 명문화하는 것이 좋습니다.
+
+</p>
+
+
+<figure class="case83-figure">
+
+<img
+src="../assets/cases/case83/method2_saving_analysis.png"
+alt="Baseline 운전범위, Valid 데이터와 전기 절감성과 분석"/>
+
+<figcaption>
+그림 4.
+개선기간의 생산조건이 Baseline 적용범위에 들어오는지 확인한 뒤,
+Valid 관측점에서 Baseline 예측량과 실제 사용량의 차이를 누적하여
+절감량을 산정합니다.
+</figcaption>
+
+</figure>
+
+
+<table class="case83-table">
+
+<thead>
+<tr>
+<th>성과항목</th>
+<th>결과</th>
+</tr>
+</thead>
+
+<tbody>
+
+<tr>
+<td>개선기간 전체 데이터</td>
+<td>50건</td>
+</tr>
+
+<tr>
+<td>Valid 데이터</td>
+<td>28건 (56.0%)</td>
+</tr>
+
+<tr>
+<td>Invalid 데이터</td>
+<td>22건 (44.0%)</td>
+</tr>
+
+<tr>
+<td>Valid Baseline 예측량</td>
+<td>4,366.59 kWh</td>
+</tr>
+
+<tr>
+<td>Valid 실제 사용량</td>
+<td>3,683.00 kWh</td>
+</tr>
+
+<tr>
+<td>총 절감량</td>
+<td><b>683.59 kWh</b></td>
+</tr>
+
+<tr>
+<td>총 절감률</td>
+<td><b>15.65%</b></td>
+</tr>
+
+</tbody>
+
+</table>
+
+
+<div class="case83-formula">
+총 절감량 =
+Σ(Adjusted Baseline - Actual)
+=
+4,366.59 - 3,683.00
+=
+683.59 kWh
+</div>
+
+
+<div class="case83-method-grid">
+
+<div class="case83-method-card">
+
+<strong>장점</strong>
+
+<p>
+생산중량과 시간가동율 등 여러 영향인자를 동시에 보정할 수 있고,
+절감효과를 %뿐 아니라 kWh로 직접 산출할 수 있어
+대외 성과검증에 적합합니다.
+</p>
+
+</div>
+
+
+<div class="case83-method-card">
+
+<strong>한계</strong>
+
+<p>
+Baseline 데이터 품질, 모델구조, 잔차진단, 적용범위가
+결과 신뢰도를 좌우합니다.
+
+개선기간의 상당 부분이 Baseline 범위를 벗어나면
+모델 확대 또는 별도 층화가 필요합니다.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+<section class="case83-section">
+
+<h2>5. 두 가지 방법은 어떻게 다르고, 언제 써야 하나?</h2>
+
+<table class="case83-table">
+
+<thead>
+<tr>
+<th>비교항목</th>
+<th>방법 1 · 원단위 정규화</th>
+<th>방법 2 · 회귀 Baseline</th>
+</tr>
+</thead>
+
+<tbody>
+
+<tr>
+<td>핵심 질문</td>
+<td>단위 생산량당 에너지효율이 좋아졌는가?</td>
+<td>동일 생산·운전조건이라면 얼마를 썼어야 하는가?</td>
+</tr>
+
+<tr>
+<td>필요 데이터</td>
+<td>에너지 + 생산량</td>
+<td>에너지 + 생산량 + 주요 운전변수</td>
+</tr>
+
+<tr>
+<td>난이도</td>
+<td>낮음</td>
+<td>중~높음</td>
+</tr>
+
+<tr>
+<td>산출값</td>
+<td>원단위 개선률</td>
+<td>Adjusted Baseline, 절감량(kWh), 절감률</td>
+</tr>
+
+<tr>
+<td>적합한 용도</td>
+<td>빠른 진단, 1차 검증, 현장 설명</td>
+<td>최종 M&amp;V, 성과보고, 투자효과 검증</td>
+</tr>
+
+<tr>
+<td>이 사례의 결과</td>
+<td>13.9% 개선</td>
+<td>683.59 kWh, 15.65% 절감</td>
+</tr>
+
+</tbody>
+
+</table>
+
+<p>
+두 결과가 완전히 같은 값이 될 필요는 없습니다.
+
+방법 1은 생산량 하나로 정규화하고,
+방법 2는 생산중량과 시간가동율을 동시에 반영하며
+Valid 조건까지 적용하기 때문입니다.
+
+중요한 것은
+<b>두 방법이 모두 “개선”이라는 같은 방향을 지지하고,
+보다 엄격한 방법에서 절감량을 정량화할 수 있다는 점</b>입니다.
+</p>
+
+</section>
+
+
+<section class="case83-section">
+
+<h2>6. 이 사례에서 배울 점</h2>
+
+<ul class="case83-checklist">
+
+<li>절대 전력사용량 감소율을 그대로 절감률로 사용하지 않는다.</li>
+
+<li>생산량 차이는 최소한 원단위로 정규화한다.</li>
+
+<li>가동율·공정조건의 영향이 크면 다변수 Baseline을 사용한다.</li>
+
+<li>Baseline 모델은 R²만 보지 말고 RMSE·CV(RMSE)·VIF·잔차를 함께 본다.</li>
+
+<li>개선기간이 Baseline 범위 밖이면 억지로 외삽하지 않는다.</li>
+
+<li>간편 M&amp;V와 정밀 M&amp;V를 함께 쓰면 결과 설명력이 좋아진다.</li>
+
+<li>절감률(%)뿐 아니라 검증된 절감량(kWh)을 함께 제시한다.</li>
+
+<li>고객·공장·설비 식별정보는 공개 CASE에서 비식별 처리한다.</li>
+
+</ul>
+
+</section>
+
+
+<section class="case83-section">
+
+<h2>7. 다른 제조현장에 적용할 때 고려사항</h2>
+
+<table class="case83-table">
+
+<thead>
+<tr>
+<th>검토항목</th>
+<th>적용 시 확인사항</th>
+</tr>
+</thead>
+
+<tbody>
+
+<tr>
+<td>동일 제품·Mix</td>
+<td>제품 규격과 소재, 금형, 품질조건이 에너지 사용량에 영향을 주는지 확인</td>
+</tr>
+
+<tr>
+<td>생산량 정의</td>
+<td>수량보다 생산중량이 적절한지, 또는 양품수량·LOT·가동시간이 더 적합한지 검토</td>
+</tr>
+
+<tr>
+<td>계측 Boundary</td>
+<td>공정설비만 측정하는지, 부대설비까지 포함하는지 개선 전·후 동일하게 유지</td>
+</tr>
+
+<tr>
+<td>계측기 신뢰성</td>
+<td>전력계·유량계·생산정보의 시간동기와 교정상태 확인</td>
+</tr>
+
+<tr>
+<td>Baseline 기간</td>
+<td>정상운전과 충분한 부하범위를 포함하고 이상정지·시험생산은 분리</td>
+</tr>
+
+<tr>
+<td>모델 선택</td>
+<td>단순 선형, 다중회귀, WLS, GLSAR 등은 잔차·이분산·자기상관 진단에 따라 선택</td>
+</tr>
+
+<tr>
+<td>적용범위</td>
+<td>개선기간 운전조건이 Baseline 범위에 들어오는지 사전 정의</td>
+</tr>
+
+<tr>
+<td>비정례 조정</td>
+<td>설비교체, 제품변경, 작업조 변경 등 구조적 변화가 있으면 별도 조정</td>
+</tr>
+
+</tbody>
+
+</table>
+
+
+<div class="case83-note">
+
+<b>실무 권장순서</b><br/>
+
+원단위로 빠르게 방향 확인
+→ 생산·운전조건과 전력의 관계 탐색
+→ Baseline 후보모델 비교
+→ 적용범위 정의
+→ Adjusted Baseline 계산
+→ 누적 절감량과 불확도 보고.
+
+</div>
+
+</section>
+
+
+<section class="case83-section">
+
+<h2>8. 공개 범위와 해석상의 제한</h2>
+
+<p>
+본 CASE는 실제 M&amp;V 보고서 2종을 기반으로 구성했지만
+고객명, 공장명, 실제 LINE ID는 모두 비식별 처리했습니다.
+
+공개 수치는 두 보고서에서 검증된 분석결과를 유지하되,
+회사 전체 또는 다른 공정 전체의 절감률로 확대 해석해서는 안 됩니다.
+</p>
+
+<p>
+특히 15.65%는
+<b>회귀 Baseline 적용범위 내 Valid 데이터</b>에 대한 결과입니다.
+
+개선기간 전체 50건 중 28건이
+현재 분석코드의 Valid 조건을 만족했으므로,
+다른 현장에서는 Baseline 범위를 더 넓게 확보하거나
+부하구간별 모델을 추가하는 방식으로 평가 커버리지를 높일 수 있습니다.
+</p>
+
+</section>
+
+
+<section class="case83-cta">
+
+<h2>
+제조공정의 절감량을
+“보이는 감소”가 아니라
+“검증 가능한 성과”로 만들기
+</h2>
+
+<p>
+생산데이터와 EMS 전력데이터를 연결하면,
+공정별 Baseline을 구축하고 개선효과를 정량적으로 검증할 수 있습니다.
+
+유사 공정의 Baseline·M&amp;V 설계,
+데이터 분석,
+교육·연구 협력이 필요하면 문의할 수 있습니다.
+</p>
+
+<a class="button button-primary" href="../#contact">
+전문 상담·협력 문의
+</a>
+
+<a class="button button-ghost" href="./">
+CASE STUDIES 전체 보기
+</a>
+
+</section>
+
+</div>
+
+</main>
+
+
+<footer class="site-footer">
+
+<div class="container footer-bottom">
+
+<span>
+© 2026 Global Energy Optimization Lab.
+</span>
+
+<a href="./">
+CASE LIST ↑
+</a>
+
+</div>
+
+</footer>
+
+<script src="../js/site.js"></script>
+
+</body>
+</html>

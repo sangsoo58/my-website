@@ -685,5 +685,14 @@ window.CASE_MASTER_V33 = [
     "publicationStatus": "저서 연계",
     "bookCaseNo": 82,
     "caseLink": "case82.html"
-  }
+  },
+  {
+    "caseNo": 83,
+    "id": "CASE83",
+    "title": "자동차부품 압출공정의 에너지절감 M&V: 원단위 정규화와 회귀 Baseline의 이중 검증",
+    "category": "제조공장",
+    "publicationStatus": "홈페이지 확장",
+    "bookCaseNo": null,
+    "caseLink": "case83.html"
+  }  
 ];
