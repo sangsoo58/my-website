@@ -1,9 +1,1 @@
-BUILDING_SUSTAINABLE_DESIGN_v9
-2026-09-17
-CASE Library navigation font refinement only
-- 공개 사례 heading: 27px
-- count emphasis: 17px
-- description: 16px
-- sector filter buttons: 16px
-- 사례 검색 label: 16px
-All other v8 layout/content preserved.
+SEO-CLEANUP-2026-10-07
