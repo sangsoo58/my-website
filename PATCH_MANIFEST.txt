@@ -1,0 +1,15 @@
+BUILD_VERSION.txt
+CASE84_CONTENT_SUMMARY.md
+CHANGELOG_CASE84_2026-10-08.md
+DEPLOY_CASE84_GITHUB_DESKTOP.md
+analysis/case84_anonymized_analysis.py
+assets/cases/case84/01_energy_intensity_by_test.png
+assets/cases/case84/02_change_rates_vs_test1.png
+assets/cases/case84/03_normalized_index.png
+cases/case84.html
+cases/index.html
+data/case-library-short.js
+data/case-master-v33.js
+data/cases-data.js
+index.html
+sitemap.xml

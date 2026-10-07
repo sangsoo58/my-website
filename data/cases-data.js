@@ -5267,85 +5267,167 @@ window.CASES_DATA = [
       "lockStatus": "LOCKED / PROTECTED"
     }
   },
-{
-  "id": "CASE83",
-  "number": 83,
-  "title": "자동차부품 압출공정의 에너지절감 M&V: 원단위 정규화와 회귀 Baseline의 이중 검증",
-  "classification": {
-    "sector": "제조공장",
-    "system": [
-      "압출공정"
-    ],
-    "technology": [
-      "Baseline",
-      "M&V",
-      "회귀분석",
-      "에너지원단위"
-    ],
-    "storyType": "검증형 M&V",
-    "evidence": "A/B",
-    "ai": null
+  {
+    "id": "CASE83",
+    "number": 83,
+    "title": "자동차부품 압출공정의 에너지절감 M&V: 원단위 정규화와 회귀 Baseline의 이중 검증",
+    "classification": {
+      "sector": "제조공장",
+      "system": [
+        "압출공정"
+      ],
+      "technology": [
+        "Baseline",
+        "M&V",
+        "회귀분석",
+        "에너지원단위"
+      ],
+      "storyType": "검증형 M&V",
+      "evidence": "A/B",
+      "ai": null
+    },
+    "summary": "자동차부품 압출공정의 기준 LINE과 개선 LINE을 비교하여, ① 동일 생산범위에서 에너지원단위를 정규화하는 간편 M&V와 ② 생산중량·시간가동율을 반영한 GLSAR 회귀 Baseline으로 조정 기준사용량을 계산하는 정밀 M&V를 함께 적용했습니다. 단순 원단위는 13.9% 개선, 회귀 Baseline의 적용범위 내 Valid 데이터는 683.59 kWh·15.65% 절감으로 검증되었습니다.",
+    "question": "생산량과 가동조건이 달라지는 제조공정에서 에너지절감 효과를 어떻게 산출하고, 어떤 방법으로 그 결과를 증명할 수 있을까?",
+    "story": {
+      "situation": "국내 자동차부품 제조 A사의 동일 생산계열 압출공정에서 한 LINE은 기존 운전조건을 유지하고, 다른 LINE에는 에너지절감 항목이 적용되었습니다. 공정별 생산중량과 가동조건이 달라 단순 전력사용량 비교만으로는 절감성과를 판단하기 어려웠습니다.",
+      "problem": "개선 LINE의 평균 전기소비량은 기준 LINE보다 낮았지만 생산중량 역시 낮았습니다. 절대 전력 감소량을 그대로 절감량으로 인정하면 생산량 감소효과가 섞일 수 있으므로, 생산량 보정과 운전조건 보정을 적용한 M&V가 필요했습니다.",
+      "data": "건별 생산중량, 총생산수량, 가동시간, 시간가동율, 전기소비량 및 에너지원단위를 사용했습니다. 정밀 M&V에서는 기준 LINE의 정상운전 데이터를 정제해 생산중량과 시간가동율을 독립변수로 하는 Baseline 회귀모델을 구축했습니다.",
+      "analysis": "방법 1은 기준 LINE을 개선 LINE의 생산중량 범위로 제한한 뒤 평균 에너지원단위(kWh/kg)를 비교했습니다. 방법 2는 IQR과 Cook's Distance로 Baseline 이상·영향점을 제거하고 OLS·WLS·GLSAR를 비교한 뒤 GLSAR를 최종모델로 선정해 개선기간의 생산중량·시간가동율을 입력하여 Adjusted Baseline을 계산했습니다.",
+      "finding": "방법 1에서 평균 에너지원단위는 0.234932에서 0.202304 kWh/kg로 낮아져 13.9% 개선되었습니다. 방법 2의 최종 Baseline은 E=-26.2148+0.8283×시간가동율(%)+0.1612×생산중량(kg), Adjusted R² 0.801, CV(RMSE) 4.73%였으며 현재 Valid 정의를 만족한 28/50건에서 Baseline 4,366.59 kWh 대비 실제 3,683.00 kWh로 683.59 kWh, 15.65% 절감이 검증되었습니다.",
+      "alternative": "현장 여건과 데이터 수준에 따라 ① 생산량 정규화 원단위 비교, ② 다변수 회귀 Baseline 기반 Adjusted Baseline M&V를 단계적으로 선택할 수 있습니다. 신속한 현장판정에는 방법 1이 유용하고, 대외 성과검증과 절감량(kWh) 산정에는 방법 2가 더 적합합니다.",
+      "decision": "이 사례에서는 두 방법을 상호 보완적으로 사용합니다. 원단위 비교로 개선 방향과 크기를 빠르게 확인하고, 회귀 Baseline으로 생산량·가동조건을 보정한 절감량과 절감률을 최종 검증합니다.",
+      "result": "생산량 정규화 방법은 13.9% 개선, 회귀 Baseline 방법은 적용범위 내 Valid 데이터 기준 683.59 kWh·15.65% 절감으로 나타났습니다. 두 방법의 결과 방향이 일치해 개선효과의 일관성을 확인할 수 있었습니다."
+    },
+    "evidence": {
+      "grade": [
+        "A",
+        "B"
+      ],
+      "status": "EVIDENCE-VERIFIED",
+      "quantitativeEvidence": [
+        "원단위: 0.234932 → 0.202304 kWh/kg, 13.9% 개선",
+        "GLSAR: Adjusted R² 0.801, CV(RMSE) 4.73%",
+        "Valid 28/50건, 683.59 kWh 절감, 15.65%"
+      ],
+      "boundary": "동일 생산계열 압출공정의 기준 LINE A와 개선 LINE B를 비교했습니다. 방법 1은 개선 LINE의 생산중량 범위와 동일한 구간의 기준 데이터를 비교하고, 방법 2는 기준 LINE A의 Baseline 적용범위 내 Valid 데이터만 절감성과 계산에 사용합니다. 고객명과 실제 LINE ID는 공개자료에서 비식별 처리합니다.",
+      "allowedExpression": "동일 생산계열 압출공정에서 원단위 정규화 13.9% 개선 및 회귀 Baseline의 Valid 데이터 기준 683.59 kWh·15.65% 절감 검증",
+      "prohibitedExpression": "공장 전체 절감률 또는 모든 운전구간에 15.65%가 동일하게 적용된다는 표현",
+      "publicText": "비식별 처리된 실제 제조공정 M&V 자료를 기반으로, 생산량 정규화와 다변수 Baseline 모델을 비교한 사례입니다. 두 방법은 각각 신속한 KPI 검증과 정밀한 Adjusted Baseline 검증에 활용할 수 있습니다."
+    },
+    "source": {
+      "public": "비식별 처리된 실제 자동차부품 압출공정 M&V 보고서 2종",
+      "internalTrace": "CASE83 / M&V dual-method case",
+      "status": "PUBLIC-ANONYMIZED",
+      "publicDisclosure": "고객명·공장명·LINE ID 비식별 공개"
+    },
+    "website": {
+      "status": "HOMEPAGE-STORY-READY",
+      "featured": true,
+      "deepDive": true,
+      "searchKeywords": [
+        "제조공장",
+        "자동차부품",
+        "압출",
+        "Baseline",
+        "M&V",
+        "GLSAR",
+        "에너지원단위",
+        "생산중량",
+        "시간가동율"
+      ],
+      "relatedCases": [
+        "CASE05",
+        "CASE06"
+      ],
+      "url": "cases/case83.html"
+    },
+    "lock": {
+      "storyLocked": false,
+      "titleLocked": false,
+      "evidenceLocked": false,
+      "lockStatus": "NEW CASE83 / 2026-10"
+    }
   },
-  "summary": "자동차부품 압출공정의 기준 LINE과 개선 LINE을 비교하여, ① 동일 생산범위에서 에너지원단위를 정규화하는 간편 M&V와 ② 생산중량·시간가동율을 반영한 GLSAR 회귀 Baseline으로 조정 기준사용량을 계산하는 정밀 M&V를 함께 적용했습니다. 단순 원단위는 13.9% 개선, 회귀 Baseline의 적용범위 내 Valid 데이터는 683.59 kWh·15.65% 절감으로 검증되었습니다.",
-  "question": "생산량과 가동조건이 달라지는 제조공정에서 에너지절감 효과를 어떻게 산출하고, 어떤 방법으로 그 결과를 증명할 수 있을까?",
-  "story": {
-    "situation": "국내 자동차부품 제조 A사의 동일 생산계열 압출공정에서 한 LINE은 기존 운전조건을 유지하고, 다른 LINE에는 에너지절감 항목이 적용되었습니다. 공정별 생산중량과 가동조건이 달라 단순 전력사용량 비교만으로는 절감성과를 판단하기 어려웠습니다.",
-    "problem": "개선 LINE의 평균 전기소비량은 기준 LINE보다 낮았지만 생산중량 역시 낮았습니다. 절대 전력 감소량을 그대로 절감량으로 인정하면 생산량 감소효과가 섞일 수 있으므로, 생산량 보정과 운전조건 보정을 적용한 M&V가 필요했습니다.",
-    "data": "건별 생산중량, 총생산수량, 가동시간, 시간가동율, 전기소비량 및 에너지원단위를 사용했습니다. 정밀 M&V에서는 기준 LINE의 정상운전 데이터를 정제해 생산중량과 시간가동율을 독립변수로 하는 Baseline 회귀모델을 구축했습니다.",
-    "analysis": "방법 1은 기준 LINE을 개선 LINE의 생산중량 범위로 제한한 뒤 평균 에너지원단위(kWh/kg)를 비교했습니다. 방법 2는 IQR과 Cook's Distance로 Baseline 이상·영향점을 제거하고 OLS·WLS·GLSAR를 비교한 뒤 GLSAR를 최종모델로 선정해 개선기간의 생산중량·시간가동율을 입력하여 Adjusted Baseline을 계산했습니다.",
-    "finding": "방법 1에서 평균 에너지원단위는 0.234932에서 0.202304 kWh/kg로 낮아져 13.9% 개선되었습니다. 방법 2의 최종 Baseline은 E=-26.2148+0.8283×시간가동율(%)+0.1612×생산중량(kg), Adjusted R² 0.801, CV(RMSE) 4.73%였으며 현재 Valid 정의를 만족한 28/50건에서 Baseline 4,366.59 kWh 대비 실제 3,683.00 kWh로 683.59 kWh, 15.65% 절감이 검증되었습니다.",
-    "alternative": "현장 여건과 데이터 수준에 따라 ① 생산량 정규화 원단위 비교, ② 다변수 회귀 Baseline 기반 Adjusted Baseline M&V를 단계적으로 선택할 수 있습니다. 신속한 현장판정에는 방법 1이 유용하고, 대외 성과검증과 절감량(kWh) 산정에는 방법 2가 더 적합합니다.",
-    "decision": "이 사례에서는 두 방법을 상호 보완적으로 사용합니다. 원단위 비교로 개선 방향과 크기를 빠르게 확인하고, 회귀 Baseline으로 생산량·가동조건을 보정한 절감량과 절감률을 최종 검증합니다.",
-    "result": "생산량 정규화 방법은 13.9% 개선, 회귀 Baseline 방법은 적용범위 내 Valid 데이터 기준 683.59 kWh·15.65% 절감으로 나타났습니다. 두 방법의 결과 방향이 일치해 개선효과의 일관성을 확인할 수 있었습니다."
-  },
-  "evidence": {
-    "grade": [
-      "A",
-      "B"
-    ],
-    "status": "EVIDENCE-VERIFIED",
-    "quantitativeEvidence": [
-      "원단위: 0.234932 → 0.202304 kWh/kg, 13.9% 개선",
-      "GLSAR: Adjusted R² 0.801, CV(RMSE) 4.73%",
-      "Valid 28/50건, 683.59 kWh 절감, 15.65%"
-    ],
-    "boundary": "동일 생산계열 압출공정의 기준 LINE A와 개선 LINE B를 비교했습니다. 방법 1은 개선 LINE의 생산중량 범위와 동일한 구간의 기준 데이터를 비교하고, 방법 2는 기준 LINE A의 Baseline 적용범위 내 Valid 데이터만 절감성과 계산에 사용합니다. 고객명과 실제 LINE ID는 공개자료에서 비식별 처리합니다.",
-    "allowedExpression": "동일 생산계열 압출공정에서 원단위 정규화 13.9% 개선 및 회귀 Baseline의 Valid 데이터 기준 683.59 kWh·15.65% 절감 검증",
-    "prohibitedExpression": "공장 전체 절감률 또는 모든 운전구간에 15.65%가 동일하게 적용된다는 표현",
-    "publicText": "비식별 처리된 실제 제조공정 M&V 자료를 기반으로, 생산량 정규화와 다변수 Baseline 모델을 비교한 사례입니다. 두 방법은 각각 신속한 KPI 검증과 정밀한 Adjusted Baseline 검증에 활용할 수 있습니다."
-  },
-  "source": {
-    "public": "비식별 처리된 실제 자동차부품 압출공정 M&V 보고서 2종",
-    "internalTrace": "CASE83 / M&V dual-method case",
-    "status": "PUBLIC-ANONYMIZED",
-    "publicDisclosure": "고객명·공장명·LINE ID 비식별 공개"
-  },
-  "website": {
-    "status": "HOMEPAGE-STORY-READY",
-    "featured": true,
-    "deepDive": true,
-    "searchKeywords": [
-      "제조공장",
-      "자동차부품",
-      "압출",
-      "Baseline",
-      "M&V",
-      "GLSAR",
-      "에너지원단위",
-      "생산중량",
-      "시간가동율"
-    ],
-    "relatedCases": [
-      "CASE05",
-      "CASE06"
-    ],
-    "url": "cases/case83.html"
-  },
-  "lock": {
-    "storyLocked": false,
-    "titleLocked": false,
-    "evidenceLocked": false,
-    "lockStatus": "NEW CASE83 / 2026-10"
+  {
+    "id": "CASE84",
+    "number": 84,
+    "title": "자동차부품 압출공정 3회 테스트 운전의 에너지 M&V: 생산조건 변화와 원단위 절감효과 검증",
+    "classification": {
+      "sector": "제조공장",
+      "system": [
+        "압출공정"
+      ],
+      "technology": [
+        "M&V",
+        "Test & Adjust",
+        "에너지원단위",
+        "생산조건 정규화"
+      ],
+      "storyType": "테스트 검증형 M&V",
+      "evidence": "A/B · Partial",
+      "ai": null
+    },
+    "summary": "비식별 처리된 자동차부품 압출공정의 3회 테스트 운전을 비교하여, 생산조건이 동일한 Test에서는 직접 전력·원단위 비교를 수행하고 생산규모가 증가한 Test에서는 생산중량·가동시간·전력 증감률과 kWh/kg를 함께 평가했습니다. Test 2는 동일 생산조건에서 원단위 26.15% 개선, Test 3은 생산중량 +43.33%에도 원단위 18.65% 개선으로 나타났습니다.",
+    "question": "생산량과 가동시간이 매번 달라지는 제조공정에서 에너지 절감효과를 어떻게 계산하고, 과장 없이 증명할 수 있을까?",
+    "story": {
+      "situation": "자동차부품 압출공정의 동일 대상 LINE에서 3회 Test & Adjust를 수행했습니다. 공개 CASE에서는 고객명, 공장명, 실제 LINE ID와 정확한 운전일자를 비식별 처리했습니다.",
+      "problem": "Test마다 생산중량과 가동시간이 달라 총 전력사용량만 비교하면 생산량 변화가 절감효과에 섞일 수 있습니다. 동일 생산조건과 고생산 조건을 구분하고 단위 생산량당 에너지성능을 함께 평가할 필요가 있었습니다.",
+      "data": "가동시간, 전기소비량, 생산수량, 생산중량, 양품수량, 시간가동율, 에너지원단위를 사용했습니다. 공개 표는 Test 1~3으로 비식별 처리했습니다.",
+      "analysis": "Test 1을 기준으로 각 운전의 생산조건·전력·원단위 증감률을 계산했습니다. Test 2는 주요 생산조건이 Test 1과 동일해 직접 비교했고, Test 3은 생산규모가 증가했으므로 생산중량·가동시간의 증가율과 전력 증가율을 비교한 뒤 kWh/kg 원단위로 정규화했습니다.",
+      "finding": "Test 2는 전기소비량 26.12% 감소, 에너지원단위 26.15% 개선이 확인됐습니다. Test 3은 생산중량 +43.33%, 가동시간 +40.91%, 전기소비량 +16.42%로 전력 증가율이 생산 증가율보다 낮았고 에너지원단위는 Test 1 대비 18.65% 개선됐습니다. 다만 Test 3 원단위는 Test 2보다 10.15% 높았습니다.",
+      "alternative": "초기 Test 단계에서는 동일조건 직접비교와 원단위 정규화를 사용하고, 반복 데이터가 축적되면 생산중량·비가동시간·제품 Mix 등의 영향인자를 반영한 회귀 Baseline과 Adjusted Baseline M&V로 확대할 수 있습니다.",
+      "decision": "현재 3회 데이터에서는 장기 Verified Saving을 주장하지 않고 Test & Adjust 수준의 비교 Evidence로 관리합니다. 다음 단계는 Test 2의 저원단위 조건을 Test 3 수준의 고생산 조건에서도 재현하는 반복시험입니다.",
+      "result": "동일 생산조건의 Test 2에서 원단위 26.15% 개선, 고생산 Test 3에서 Test 1 대비 원단위 18.65% 개선이 관찰되었습니다. 두 Test 모두 기준 대비 개선 방향을 보였으나 장기 누적 kWh 절감량은 추가 M&V가 필요합니다."
+    },
+    "evidence": {
+      "grade": [
+        "A",
+        "B"
+      ],
+      "status": "EVIDENCE-PARTIAL",
+      "quantitativeEvidence": [
+        "Test 2: 동일 주요 생산조건, 전기소비량 -26.12%, 원단위 -26.15%",
+        "Test 3: 생산중량 +43.33%, 가동시간 +40.91%, 전기소비량 +16.42%, 원단위 -18.65%",
+        "Test 3 원단위는 Test 2 대비 +10.15%"
+      ],
+      "boundary": "동일 대상 압출 LINE의 3회 Test & Adjust 비교입니다. 고객명·공장명·실제 LINE ID·정확한 운전일자는 공개자료에서 비식별 처리했습니다. 현재 성과는 테스트 수준의 원단위 개선효과이며 연간 Verified Saving 또는 공장 전체 절감률로 확대하지 않습니다.",
+      "allowedExpression": "3회 Test & Adjust에서 동일조건 원단위 26.15% 개선 및 고생산 조건에서 기준 대비 18.65% 원단위 개선 관찰",
+      "prohibitedExpression": "연간 절감률 26.15% 또는 18.65%, 공장 전체 절감성과, 장기 Verified Saving으로 확정하는 표현",
+      "publicText": "비식별 제조공정 테스트 자료를 기반으로 생산조건 변화와 전력 증감률을 함께 보고 에너지 원단위로 정규화하는 M&V 사례입니다."
+    },
+    "source": {
+      "public": "비식별 처리된 자동차부품 압출공정 3회 Test & Adjust 보고서 및 Python 분석코드",
+      "internalTrace": "CASE84 / 3-test extrusion M&V",
+      "status": "PUBLIC-ANONYMIZED",
+      "publicDisclosure": "고객명·공장명·LINE ID·정확한 운전일자 비식별 공개"
+    },
+    "website": {
+      "status": "HOMEPAGE-STORY-READY",
+      "featured": true,
+      "deepDive": true,
+      "searchKeywords": [
+        "제조공장",
+        "자동차부품",
+        "압출",
+        "M&V",
+        "Test & Adjust",
+        "에너지원단위",
+        "생산중량",
+        "증감률",
+        "Python"
+      ],
+      "relatedCases": [
+        "CASE05",
+        "CASE06",
+        "CASE83"
+      ],
+      "url": "cases/case84.html"
+    },
+    "lock": {
+      "storyLocked": false,
+      "titleLocked": false,
+      "evidenceLocked": false,
+      "lockStatus": "NEW CASE84 / 2026-10"
+    }
   }
-}  
 ];

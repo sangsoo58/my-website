@@ -694,5 +694,14 @@ window.CASE_MASTER_V33 = [
     "publicationStatus": "홈페이지 확장",
     "bookCaseNo": null,
     "caseLink": "case83.html"
-  }  
+  },
+  {
+    "caseNo": 84,
+    "id": "CASE84",
+    "title": "자동차부품 압출공정 3회 테스트 운전의 에너지 M&V: 생산조건 변화와 원단위 절감효과 검증",
+    "category": "제조공장",
+    "publicationStatus": "홈페이지 확장",
+    "bookCaseNo": null,
+    "caseLink": "case84.html"
+  }
 ];
