@@ -18,6 +18,10 @@
   });
   const m=location.pathname.match(/\/cases\/case(\d{2})\.html$/i);
   if(!m || document.querySelector('.knowledge-link-panel')) return;
+  // Guard synchronously: fetching web-book-mapping.json is async, so checking
+  // for an existing panel alone cannot stop two copies of this script racing.
+  if(document.documentElement.dataset.knowledgePanelPending === '1') return;
+  document.documentElement.dataset.knowledgePanelPending = '1';
   const no=Number(m[1]), caseId='CASE'+String(no).padStart(2,'0');
   const main=document.querySelector('main');
   const host=main;
@@ -30,12 +34,14 @@
   else if(/AI|머신러닝|예측모델/i.test(textContent)){ insight='../insights/energy-ai-practical-optimization.html'; insightLabel='Energy AI 활용 Insight'; }
   else if(/Baseline|M&V|절감성과/i.test(textContent)){ insight='../insights/baseline-mv-normalization.html'; insightLabel='Baseline & M&V Insight'; }
   const render=(bookIncluded)=>{
+    // Second guard also handles a panel added by another script.
+    if(document.querySelector('.knowledge-link-panel')) return;
     const section=document.createElement('section');
     section.className='knowledge-link-panel';
     section.innerHTML='<p class="eyebrow">KNOWLEDGE CONNECTION</p><h2>이 CASE에서 더 이어서 보기</h2><div class="knowledge-link-grid">'
       +(bookIncluded?'<a href="../book/"><strong>관련 저서</strong><span>'+caseId+' · 현재 출간본 연계</span></a>':'')
       +'<a href="'+insight+'"><strong>관련 Insight</strong><span>'+insightLabel+'</span></a>'
-      +'<a href="../cases/"><strong>CASE Library</strong><span>84개 사례에서 유사 사례 탐색</span></a>'
+      +'<a href="../cases/"><strong>CASE Library</strong><span>88개 사례에서 유사 사례 탐색</span></a>'
       +'<a href="../#contact"><strong>전문 상담·협력</strong><span>자문 · 연구 · 교육 · R&D 협력</span></a>'
       +'</div>';
     host.appendChild(section);
