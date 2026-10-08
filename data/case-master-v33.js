@@ -703,5 +703,41 @@ window.CASE_MASTER_V33 = [
     "publicationStatus": "홈페이지 확장",
     "bookCaseNo": null,
     "caseLink": "case84.html"
+  },
+  {
+    "caseNo": 85,
+    "id": "CASE85",
+    "title": "중앙보일러 시스템의 HDD 기반 가동시간 최적화와 에너지 절감 잠재량 평가",
+    "category": "건물",
+    "publicationStatus": "홈페이지 확장",
+    "bookCaseNo": null,
+    "caseLink": "case85.html"
+  },
+  {
+    "caseNo": 86,
+    "id": "CASE86",
+    "title": "기상예보 기반 냉·난방 Optimal Start: 조기가동시간 최적화와 에너지 절감 잠재량",
+    "category": "건물",
+    "publicationStatus": "홈페이지 확장",
+    "bookCaseNo": null,
+    "caseLink": "case86.html"
+  },
+  {
+    "caseNo": 87,
+    "id": "CASE87",
+    "title": "기상예보 기반 지역난방 아파트 공급온도 최적화: 시간별 난방부하 예측과 외기보상제어 비교",
+    "category": "지역난방·공동주택",
+    "publicationStatus": "홈페이지 확장",
+    "bookCaseNo": null,
+    "caseLink": "case87.html"
+  },
+  {
+    "caseNo": 88,
+    "id": "CASE88",
+    "title": "기상예보 기반 상업용 건물 냉방시스템 통합 운전최적화: Optimal Start·냉수·급기·냉각수 설정온도 제어",
+    "category": "건물",
+    "publicationStatus": "홈페이지 확장",
+    "bookCaseNo": null,
+    "caseLink": "case88.html"
   }
 ];

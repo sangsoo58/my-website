@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.energy-ai-optimization.com/</loc>
@@ -281,5 +281,17 @@
   </url>
   <url>
     <loc>https://www.energy-ai-optimization.com/insights/book-data-driven-energy-optimization.html</loc>
+  </url>
+  <url>
+    <loc>https://www.energy-ai-optimization.com/cases/case85.html</loc>
+  </url>
+  <url>
+    <loc>https://www.energy-ai-optimization.com/cases/case86.html</loc>
+  </url>
+  <url>
+    <loc>https://www.energy-ai-optimization.com/cases/case87.html</loc>
+  </url>
+  <url>
+    <loc>https://www.energy-ai-optimization.com/cases/case88.html</loc>
   </url>
 </urlset>
