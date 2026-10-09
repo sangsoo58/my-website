@@ -58,6 +58,13 @@
 }
 </style>
 
+<style id="kyobo-hero-book-link">
+/* 첫 화면 신간 안내: 기존 HERO 버튼과 함께 반응형으로 줄바꿈 */
+.hero-actions{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+.hero-actions .button-book-kyobo{background:#e6f5ee;color:#075b4b;border:1px solid #a7ddc7;text-decoration:none;font-weight:800;white-space:normal;text-align:center}
+.hero-actions .button-book-kyobo:hover,.hero-actions .button-book-kyobo:focus-visible{background:#ccebdc;color:#064b3f;border-color:#62bd9c}
+@media(max-width:620px){.hero-actions .button-book-kyobo{max-width:100%}}
+</style>
 </head>
 <body>
 <a class="skip-link" href="#main">본문 바로가기</a>
@@ -99,6 +106,7 @@
 <div class="hero-actions">
 <a class="button button-primary" href="cases/">88개 CASE 탐색</a>
 <a class="button button-ghost" href="book/">저서 온라인 열람</a>
+<a class="button button-book-kyobo" href="https://product.kyobobook.co.kr/detail/S000221586865" target="_blank" rel="noopener noreferrer" aria-label="교보문고에서 데이터로 찾는 산업·건물 에너지절감 신간 안내 보기 (새 창)">신간 출간 · 교보문고 도서 보기 ↗</a>
 </div>
 <ul aria-label="핵심 전문 분야" class="hero-tags">
 <li>산업 에너지 효율</li>
