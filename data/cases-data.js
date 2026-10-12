@@ -5429,5 +5429,313 @@ window.CASES_DATA = [
       "evidenceLocked": false,
       "lockStatus": "NEW CASE84 / 2026-10"
     }
+  },
+  {
+    "id": "CASE85",
+    "number": 85,
+    "title": "중앙보일러 시스템의 HDD 기반 가동시간 최적화와 에너지 절감 잠재량 평가",
+    "classification": {
+      "sector": "건물",
+      "system": [
+        "보일러",
+        "중앙난방"
+      ],
+      "technology": [
+        "HDD",
+        "가동시간 최적화",
+        "BEMS"
+      ],
+      "storyType": "기상자료 기반 운전가이드",
+      "evidence": "Simulation / Potential",
+      "ai": null
+    },
+    "summary": "대전 2023년 시간별 기상자료로 중앙보일러의 기존 가동시간 843.84h/년과 HDD 기반 개선 가동시간 528.92h/년을 비교한 결과, 약 314.93h(37.32%)의 가동시간 감소잠재량이 산정되었습니다. 실제 가스 절감률은 아닙니다.",
+    "question": "기상정보를 활용한 운전설정 최적화 가능성과 실제 절감성과를 어떻게 구분하는가?",
+    "story": {
+      "situation": null,
+      "problem": null,
+      "data": null,
+      "analysis": "대전 2023년 시간별 기상자료로 중앙보일러의 기존 가동시간 843.84h/년과 HDD 기반 개선 가동시간 528.92h/년을 비교한 결과, 약 314.93h(37.32%)의 가동시간 감소잠재량이 산정되었습니다. 실제 가스 절감률은 아닙니다.",
+      "finding": null,
+      "alternative": null,
+      "decision": null,
+      "result": null
+    },
+    "evidence": {
+      "grade": [],
+      "status": "SIMULATION / POTENTIAL",
+      "quantitativeEvidence": [
+        "기존 가동시간 약 843.84h/년",
+        "개선 가동시간 약 528.92h/년",
+        "시간 감소잠재량 약 314.93h/년(37.32%)"
+      ],
+      "boundary": "2023년 대전 기상 관측자료 기반 중앙보일러 운전시간 시뮬레이션. 가스소비량 실측 M&V 없음.",
+      "allowedExpression": "과거 기상관측 기반 시뮬레이션 및 운전설정 개선잠재량",
+      "prohibitedExpression": "현장 M&V로 검증된 에너지 절감률·절감량으로 단정",
+      "publicText": "실제 현장 적용에 앞서 Calibration, Test & Adjust, 동일 경계의 M&V가 필요합니다."
+    },
+    "source": {
+      "public": "2023년 기상자료와 Python 가이드 프로그램 기반 분석 사례",
+      "internalTrace": "CASE85 기상기반 가이드",
+      "status": "SIMULATION-BASED",
+      "publicDisclosure": "비식별 공개"
+    },
+    "website": {
+      "status": "HOMEPAGE-STORY-READY",
+      "featured": false,
+      "deepDive": true,
+      "searchKeywords": [
+        "건물",
+        "보일러",
+        "중앙난방",
+        "HDD",
+        "가동시간 최적화",
+        "BEMS"
+      ],
+      "relatedCases": [
+        "CASE86",
+        "CASE87",
+        "CASE40"
+      ],
+      "url": "cases/case85.html"
+    },
+    "lock": {
+      "storyLocked": false,
+      "titleLocked": false,
+      "evidenceLocked": false,
+      "lockStatus": "NEW CASE85 / 2026-10"
+    }
+  },
+  {
+    "id": "CASE86",
+    "number": 86,
+    "title": "기상예보 기반 냉·난방 Optimal Start: 조기가동시간 최적화와 에너지 절감 잠재량",
+    "classification": {
+      "sector": "건물",
+      "system": [
+        "BEMS",
+        "냉난방"
+      ],
+      "technology": [
+        "Optimal Start",
+        "기상예보",
+        "Simulation"
+      ],
+      "storyType": "기상자료 기반 운전가이드",
+      "evidence": "Simulation / Potential",
+      "ai": null
+    },
+    "summary": "2023년 서울 기상관측자료를 이용한 1분 간격 건물 열응답 시뮬레이션에서 08:30 목표조건을 만족하는 가장 늦은 시작시각을 산정했습니다. 평균 조기난방 3.90h/day, 조기냉방 0.95h/day이며 고정 기준시간이 없어 절감률은 산정하지 않았습니다.",
+    "question": "기상정보를 활용한 운전설정 최적화 가능성과 실제 절감성과를 어떻게 구분하는가?",
+    "story": {
+      "situation": null,
+      "problem": null,
+      "data": null,
+      "analysis": "2023년 서울 기상관측자료를 이용한 1분 간격 건물 열응답 시뮬레이션에서 08:30 목표조건을 만족하는 가장 늦은 시작시각을 산정했습니다. 평균 조기난방 3.90h/day, 조기냉방 0.95h/day이며 고정 기준시간이 없어 절감률은 산정하지 않았습니다.",
+      "finding": null,
+      "alternative": null,
+      "decision": null,
+      "result": null
+    },
+    "evidence": {
+      "grade": [],
+      "status": "SIMULATION / POTENTIAL",
+      "quantitativeEvidence": [
+        "동절기 평균 최적 조기난방 3.90h/day",
+        "하절기 평균 최적 조기냉방 0.95h/day",
+        "건물 사용 시작 08:30"
+      ],
+      "boundary": "2023년 서울 시간별 관측 기상자료를 이용한 건물 열응답 Simulation. 고정 조기가동시간 및 실측 절감량 미제공.",
+      "allowedExpression": "과거 기상관측 기반 시뮬레이션 및 운전설정 개선잠재량",
+      "prohibitedExpression": "현장 M&V로 검증된 에너지 절감률·절감량으로 단정",
+      "publicText": "실제 현장 적용에 앞서 Calibration, Test & Adjust, 동일 경계의 M&V가 필요합니다."
+    },
+    "source": {
+      "public": "2023년 기상자료와 Python 가이드 프로그램 기반 분석 사례",
+      "internalTrace": "CASE86 기상기반 가이드",
+      "status": "SIMULATION-BASED",
+      "publicDisclosure": "비식별 공개"
+    },
+    "website": {
+      "status": "HOMEPAGE-STORY-READY",
+      "featured": false,
+      "deepDive": true,
+      "searchKeywords": [
+        "건물",
+        "BEMS",
+        "냉난방",
+        "Optimal Start",
+        "기상예보",
+        "Simulation"
+      ],
+      "relatedCases": [
+        "CASE85",
+        "CASE88"
+      ],
+      "url": "cases/case86.html"
+    },
+    "lock": {
+      "storyLocked": false,
+      "titleLocked": false,
+      "evidenceLocked": false,
+      "lockStatus": "NEW CASE86 / 2026-10"
+    }
+  },
+  {
+    "id": "CASE87",
+    "number": 87,
+    "title": "기상예보 기반 지역난방 아파트 공급온도 최적화: 시간별 난방부하 예측과 외기보상제어 비교",
+    "classification": {
+      "sector": "지역난방·공동주택",
+      "system": [
+        "지역난방",
+        "난방수 공급온도"
+      ],
+      "technology": [
+        "HDH",
+        "외기보상제어",
+        "Simulation"
+      ],
+      "storyType": "기상자료 기반 운전가이드",
+      "evidence": "Simulation / Potential",
+      "ai": null
+    },
+    "summary": "2023년 서울 동절기 3,624시간에서 기상조건·아파트 시간별 부하프로파일 기반 공급온도 권고값(46.034℃)과 기존 외기보상 설정값(46.785℃)을 비교하여 평균 0.751℃의 설정온도 차이를 산정했습니다. 에너지 절감률은 아닙니다.",
+    "question": "기상정보를 활용한 운전설정 최적화 가능성과 실제 절감성과를 어떻게 구분하는가?",
+    "story": {
+      "situation": null,
+      "problem": null,
+      "data": null,
+      "analysis": "2023년 서울 동절기 3,624시간에서 기상조건·아파트 시간별 부하프로파일 기반 공급온도 권고값(46.034℃)과 기존 외기보상 설정값(46.785℃)을 비교하여 평균 0.751℃의 설정온도 차이를 산정했습니다. 에너지 절감률은 아닙니다.",
+      "finding": null,
+      "alternative": null,
+      "decision": null,
+      "result": null
+    },
+    "evidence": {
+      "grade": [],
+      "status": "SIMULATION / POTENTIAL",
+      "quantitativeEvidence": [
+        "동절기 3,624시간",
+        "기존 공급온도 평균 46.785℃",
+        "스마트 권고 평균 46.034℃",
+        "평균 온도차 0.751℃"
+      ],
+      "boundary": "아파트 기계실 2차측 난방공급계통 제안 경계. 2023년 서울 관측자료 기반 계산이며 실측 열량 절감 검증 없음.",
+      "allowedExpression": "과거 기상관측 기반 시뮬레이션 및 운전설정 개선잠재량",
+      "prohibitedExpression": "현장 M&V로 검증된 에너지 절감률·절감량으로 단정",
+      "publicText": "실제 현장 적용에 앞서 Calibration, Test & Adjust, 동일 경계의 M&V가 필요합니다."
+    },
+    "source": {
+      "public": "2023년 기상자료와 Python 가이드 프로그램 기반 분석 사례",
+      "internalTrace": "CASE87 기상기반 가이드",
+      "status": "SIMULATION-BASED",
+      "publicDisclosure": "비식별 공개"
+    },
+    "website": {
+      "status": "HOMEPAGE-STORY-READY",
+      "featured": false,
+      "deepDive": true,
+      "searchKeywords": [
+        "지역난방·공동주택",
+        "지역난방",
+        "난방수 공급온도",
+        "HDH",
+        "외기보상제어",
+        "Simulation"
+      ],
+      "relatedCases": [
+        "CASE40",
+        "CASE41",
+        "CASE85"
+      ],
+      "url": "cases/case87.html"
+    },
+    "lock": {
+      "storyLocked": false,
+      "titleLocked": false,
+      "evidenceLocked": false,
+      "lockStatus": "NEW CASE87 / 2026-10"
+    }
+  },
+  {
+    "id": "CASE88",
+    "number": 88,
+    "title": "기상예보 기반 상업용 건물 냉방시스템 통합 운전최적화: Optimal Start·냉수·급기·냉각수 설정온도 제어",
+    "classification": {
+      "sector": "건물",
+      "system": [
+        "BEMS",
+        "냉동기",
+        "공조기",
+        "냉각탑"
+      ],
+      "technology": [
+        "Optimal Start",
+        "CEH",
+        "Simulation"
+      ],
+      "storyType": "기상자료 기반 운전가이드",
+      "evidence": "Simulation / Potential",
+      "ai": null
+    },
+    "summary": "2023년 서울 기상자료를 이용해 조기냉방 시작시각 및 냉수·급기·냉각수 설정온도를 계산했습니다. 평균 조기냉방 0.95h/day, 원본 전력모델상 차이 41,594kWh(7.83%)이며 실제 검증 절감량이나 조기냉방 전력을 포함한 순절감량은 아닙니다.",
+    "question": "기상정보를 활용한 운전설정 최적화 가능성과 실제 절감성과를 어떻게 구분하는가?",
+    "story": {
+      "situation": null,
+      "problem": null,
+      "data": null,
+      "analysis": "2023년 서울 기상자료를 이용해 조기냉방 시작시각 및 냉수·급기·냉각수 설정온도를 계산했습니다. 평균 조기냉방 0.95h/day, 원본 전력모델상 차이 41,594kWh(7.83%)이며 실제 검증 절감량이나 조기냉방 전력을 포함한 순절감량은 아닙니다.",
+      "finding": null,
+      "alternative": null,
+      "decision": null,
+      "result": null
+    },
+    "evidence": {
+      "grade": [],
+      "status": "SIMULATION / POTENTIAL",
+      "quantitativeEvidence": [
+        "평균 조기냉방 0.95h/day",
+        "평균 냉수 권고 8.80℃",
+        "모델 전력 차이 41,594kWh(7.83%), 실측 아님"
+      ],
+      "boundary": "2023년 서울 관측자료 기반 모형. 냉동기·냉수펌프·냉각수펌프·냉각탑 팬 모형전력에 한정하며 조기냉방 소비전력과 AHU 팬 전력은 미포함.",
+      "allowedExpression": "과거 기상관측 기반 시뮬레이션 및 운전설정 개선잠재량",
+      "prohibitedExpression": "현장 M&V로 검증된 에너지 절감률·절감량으로 단정",
+      "publicText": "실제 현장 적용에 앞서 Calibration, Test & Adjust, 동일 경계의 M&V가 필요합니다."
+    },
+    "source": {
+      "public": "2023년 기상자료와 Python 가이드 프로그램 기반 분석 사례",
+      "internalTrace": "CASE88 기상기반 가이드",
+      "status": "SIMULATION-BASED",
+      "publicDisclosure": "비식별 공개"
+    },
+    "website": {
+      "status": "HOMEPAGE-STORY-READY",
+      "featured": false,
+      "deepDive": true,
+      "searchKeywords": [
+        "건물",
+        "BEMS",
+        "냉동기",
+        "공조기",
+        "냉각탑",
+        "Optimal Start",
+        "CEH",
+        "Simulation"
+      ],
+      "relatedCases": [
+        "CASE86",
+        "CASE53",
+        "CASE62"
+      ],
+      "url": "cases/case88.html"
+    },
+    "lock": {
+      "storyLocked": false,
+      "titleLocked": false,
+      "evidenceLocked": false,
+      "lockStatus": "NEW CASE88 / 2026-10"
+    }
   }
 ];
