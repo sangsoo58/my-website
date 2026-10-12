@@ -29,25 +29,22 @@
       <section id="loading-panel" class="auth-card">
         <p class="admin-eyebrow">ENERGY AI ADMIN</p>
         <h1>상담관리 시스템</h1>
-        <p>Supabase 연결 상태를 확인하고 있습니다.</p>
+        <p>Cloudflare D1 상담 API 연결 상태를 확인하고 있습니다.</p>
       </section>
 
       <section id="config-panel" class="auth-card" hidden>
         <p class="admin-eyebrow">SETUP REQUIRED</p>
-        <h1>Supabase 설정이 필요합니다.</h1>
-        <p><code>assets/supabase-config.js</code>에 Project URL과 Publishable key를 입력한 뒤 다시 접속해 주세요.</p>
+        <h1>Cloudflare D1 API 설정이 필요합니다.</h1>
+        <p><code>assets/contact-api-config.js</code>의 Worker URL을 확인해 주세요.</p>
       </section>
 
       <section id="login-panel" class="auth-card" hidden>
         <p class="admin-eyebrow">ADMIN LOGIN</p>
         <h1>관리자 로그인</h1>
-        <p>Supabase에 등록한 관리자 계정으로 로그인합니다.</p>
+        <p>Cloudflare Worker Secret으로 설정한 관리자 Access Key를 입력합니다. Access Key는 이 탭의 sessionStorage에만 보관됩니다.</p>
         <form id="login-form" class="admin-form">
-          <label>이메일
-            <input type="email" name="email" required autocomplete="username" placeholder="admin@example.com" />
-          </label>
-          <label>비밀번호
-            <input type="password" name="password" required autocomplete="current-password" />
+          <label>관리자 Access Key
+            <input type="password" name="token" required autocomplete="current-password" placeholder="Worker ADMIN_TOKEN" />
           </label>
           <button class="admin-button primary" type="submit">로그인</button>
           <div id="login-message" class="admin-alert" hidden></div>
@@ -56,8 +53,8 @@
 
       <section id="denied-panel" class="auth-card" hidden>
         <p class="admin-eyebrow">ACCESS DENIED</p>
-        <h1>관리자 권한이 없습니다.</h1>
-        <p>로그인은 성공했지만 <code>admin_users</code>에 등록된 관리자 계정이 아닙니다.</p>
+        <h1>관리자 인증에 실패했습니다.</h1>
+        <p>관리자 Access Key를 다시 확인해 주세요.</p>
         <button id="denied-logout-button" class="admin-button secondary" type="button">로그아웃</button>
       </section>
 
@@ -182,9 +179,7 @@
     <div class="admin-container">© 2026 Global Energy Optimization Lab · 관리자 전용</div>
   </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-  <script src="../assets/supabase-config.js"></script>
-  <script src="../assets/supabase-client.js"></script>
+  <script src="../assets/contact-api-config.js"></script>
   <script src="../assets/admin.js" defer></script>
 </body>
 </html>
