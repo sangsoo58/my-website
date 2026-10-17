@@ -1,9 +1,13 @@
 (() => {
   const STATUSES = ['신규', '확인중', '상담중', '완료', '보류'];
+  const TOKEN_KEY = 'energy_d1_admin_token';
+
   let consultations = [];
   let selectedId = null;
+  let adminToken = sessionStorage.getItem(TOKEN_KEY) || '';
 
   const $ = (id) => document.getElementById(id);
+
   const panels = {
     loading: $('loading-panel'),
     config: $('config-panel'),
@@ -12,10 +16,17 @@
     dashboard: $('dashboard-panel')
   };
 
+  const apiBase = () => {
+    const raw = String(window.ENERGY_CONTACT_API?.baseUrl || '').trim();
+    if (!raw || raw.includes('REPLACE-WITH-YOUR-WORKER')) return '';
+    return raw.replace(/\/+$/, '');
+  };
+
   function showPanel(name) {
     Object.entries(panels).forEach(([key, element]) => {
       if (element) element.hidden = key !== name;
     });
+
     const loggedIn = name === 'dashboard';
     $('logout-button').hidden = !loggedIn;
     $('refresh-button').hidden = !loggedIn;
@@ -33,8 +44,13 @@
     if (!value) return '-';
     try {
       return new Intl.DateTimeFormat('ko-KR', {
-        timeZone: 'Asia/Seoul', year: 'numeric', month: '2-digit', day: '2-digit',
-        hour: '2-digit', minute: '2-digit', hour12: false
+        timeZone: 'Asia/Seoul',
+        year: 'numeric',
+        month: '2-digit',
+        day: '2-digit',
+        hour: '2-digit',
+        minute: '2-digit',
+        hour12: false
       }).format(new Date(value));
     } catch (_) {
       return value;
@@ -56,35 +72,72 @@
     return span;
   }
 
+  async function apiFetch(path, options = {}) {
+    const base = apiBase();
+    if (!base) throw new Error('API_NOT_CONFIGURED');
+
+    const headers = new Headers(options.headers || {});
+    headers.set('Accept', 'application/json');
+
+    if (options.body && !headers.has('Content-Type')) {
+      headers.set('Content-Type', 'application/json');
+    }
+
+    if (adminToken) {
+      headers.set('Authorization', `Bearer ${adminToken}`);
+    }
+
+    const response = await fetch(`${base}${path}`, {
+      ...options,
+      mode: 'cors',
+      credentials: 'omit',
+      cache: 'no-store',
+      headers
+    });
+
+    let body = {};
+    try {
+      body = await response.json();
+    } catch (_) {}
+
+    if (!response.ok) {
+      const error = new Error(body?.message || `HTTP ${response.status}`);
+      error.status = response.status;
+      throw error;
+    }
+
+    return body;
+  }
+
   async function ensureAdmin() {
-    const { data: { session }, error: sessionError } = await window.energySupabase.auth.getSession();
-    if (sessionError) throw sessionError;
-    if (!session) {
+    if (!adminToken) {
       showPanel('login');
       return false;
     }
 
-    const { data, error } = await window.energySupabase.rpc('is_admin');
-    if (error) throw error;
-    if (!data) {
-      showPanel('denied');
-      return false;
+    try {
+      await apiFetch('/api/admin/session');
+      $('session-label').textContent = 'Cloudflare D1 관리자 세션으로 로그인되어 있습니다.';
+      showPanel('dashboard');
+      return true;
+    } catch (error) {
+      if (error?.status === 401 || error?.status === 403) {
+        adminToken = '';
+        sessionStorage.removeItem(TOKEN_KEY);
+        showPanel('login');
+        showMessage($('login-message'), '관리자 Access Key가 올바르지 않습니다.', 'error');
+        return false;
+      }
+      throw error;
     }
-
-    $('session-label').textContent = `${session.user.email || '관리자'} 계정으로 로그인되어 있습니다.`;
-    showPanel('dashboard');
-    return true;
   }
 
   async function loadConsultations() {
     showMessage($('dashboard-message'), '상담목록을 불러오는 중입니다.', 'success');
-    const { data, error } = await window.energySupabase
-      .from('consultations')
-      .select('*')
-      .order('created_at', { ascending: false });
 
-    if (error) throw error;
-    consultations = data || [];
+    const body = await apiFetch('/api/admin/consultations');
+    consultations = Array.isArray(body?.data) ? body.data : [];
+
     showMessage($('dashboard-message'), '');
     updateStats();
     renderTable();
@@ -102,12 +155,23 @@
   function filteredRows() {
     const q = ($('search-input').value || '').trim().toLowerCase();
     const status = $('status-filter').value;
+
     return consultations.filter((row) => {
       const statusMatch = status === '전체' || row.status === status;
       if (!statusMatch) return false;
       if (!q) return true;
-      const haystack = [row.company, row.contact_name, row.email, row.phone, row.industry, row.topic, row.message, row.admin_note]
-        .map((v) => String(v || '').toLowerCase()).join(' ');
+
+      const haystack = [
+        row.company,
+        row.contact_name,
+        row.email,
+        row.phone,
+        row.industry,
+        row.topic,
+        row.message,
+        row.admin_note
+      ].map((v) => String(v || '').toLowerCase()).join(' ');
+
       return haystack.includes(q);
     });
   }
@@ -115,6 +179,7 @@
   function renderTable() {
     const tbody = $('consultation-body');
     tbody.replaceChildren();
+
     const rows = filteredRows();
     $('result-count').textContent = `${rows.length}건`;
 
@@ -148,9 +213,11 @@
       tr.appendChild(person);
 
       tr.appendChild(createCell(row.topic || '-'));
+
       const statusCell = document.createElement('td');
       statusCell.appendChild(statusBadge(row.status));
       tr.appendChild(statusCell);
+
       tr.appendChild(createCell(formatDate(row.updated_at), 'nowrap'));
 
       const action = document.createElement('td');
@@ -161,71 +228,85 @@
       button.addEventListener('click', () => openDetail(row.id));
       action.appendChild(button);
       tr.appendChild(action);
+
       tbody.appendChild(tr);
     });
   }
 
   function openDetail(id) {
-    const row = consultations.find((item) => item.id === id);
+    const row = consultations.find((item) => String(item.id) === String(id));
     if (!row) return;
-    selectedId = id;
+
+    selectedId = row.id;
     $('detail-company').textContent = row.company || '상담 상세';
     $('detail-created').textContent = formatDate(row.created_at);
     $('detail-name').textContent = row.contact_name || '-';
+
     $('detail-email').replaceChildren();
     const emailLink = document.createElement('a');
     emailLink.href = `mailto:${row.email || ''}`;
     emailLink.textContent = row.email || '-';
     $('detail-email').appendChild(emailLink);
+
     $('detail-phone').replaceChildren();
     if (row.phone) {
       const phoneLink = document.createElement('a');
-      phoneLink.href = `tel:${row.phone.replace(/[^0-9+]/g, '')}`;
+      phoneLink.href = `tel:${String(row.phone).replace(/[^0-9+]/g, '')}`;
       phoneLink.textContent = row.phone;
       $('detail-phone').appendChild(phoneLink);
     } else {
       $('detail-phone').textContent = '-';
     }
+
     $('detail-industry').textContent = row.industry || '-';
     $('detail-topic').textContent = row.topic || '-';
     $('detail-message').textContent = row.message || '-';
     $('detail-status').value = STATUSES.includes(row.status) ? row.status : '신규';
     $('detail-note').value = row.admin_note || '';
+
     showMessage($('detail-message-box'), '');
     $('detail-dialog').showModal();
   }
 
   async function saveSelected() {
     if (!selectedId) return;
+
     const status = $('detail-status').value;
     const adminNote = $('detail-note').value.trim();
+
     if (!STATUSES.includes(status)) return;
 
     $('save-button').disabled = true;
     showMessage($('detail-message-box'), '저장 중입니다.', 'success');
-    try {
-      const { error } = await window.energySupabase
-        .from('consultations')
-        .update({
-          status,
-          admin_note: adminNote,
-          updated_at: new Date().toISOString()
-        })
-        .eq('id', selectedId);
-      if (error) throw error;
 
-      const row = consultations.find((item) => item.id === selectedId);
+    try {
+      const body = await apiFetch(`/api/admin/consultations/${encodeURIComponent(selectedId)}`, {
+        method: 'PUT',
+        body: JSON.stringify({
+          status,
+          admin_note: adminNote
+        })
+      });
+
+      const row = consultations.find((item) => String(item.id) === String(selectedId));
       if (row) {
         row.status = status;
         row.admin_note = adminNote;
-        row.updated_at = new Date().toISOString();
+        row.updated_at = body?.updated_at || new Date().toISOString();
       }
+
       updateStats();
       renderTable();
       showMessage($('detail-message-box'), '변경사항을 저장했습니다.', 'success');
     } catch (error) {
       console.error(error);
-      showMessage($('detail-message-box'), '저장에 실패했습니다. 권한 및 네트워크 상태를 확인해 주세요.', 'error');
+
+      if (error?.status === 401 || error?.status === 403) {
+        signOut();
+        return;
+      }
+
+      showMessage($('detail-message-box'), '저장에 실패했습니다. 네트워크 상태를 확인해 주세요.', 'error');
     } finally {
       $('save-button').disabled = false;
     }
@@ -233,24 +314,34 @@
 
   async function deleteSelected() {
     if (!selectedId) return;
-    const row = consultations.find((item) => item.id === selectedId);
-    if (!window.confirm(`${row?.company || '이 상담'}의 상담내역을 정말 삭제하시겠습니까? 삭제 후 복구할 수 없습니다.`)) return;
+
+    const row = consultations.find((item) => String(item.id) === String(selectedId));
+    if (!window.confirm(`${row?.company || '이 상담'}의 상담내역을 정말 삭제하시겠습니까? 삭제 후 복구할 수 없습니다.`)) {
+      return;
+    }
 
     $('delete-button').disabled = true;
+
     try {
-      const { error } = await window.energySupabase
-        .from('consultations')
-        .delete()
-        .eq('id', selectedId);
-      if (error) throw error;
-      consultations = consultations.filter((item) => item.id !== selectedId);
+      await apiFetch(`/api/admin/consultations/${encodeURIComponent(selectedId)}`, {
+        method: 'DELETE'
+      });
+
+      consultations = consultations.filter((item) => String(item.id) !== String(selectedId));
       selectedId = null;
       $('detail-dialog').close();
+
       updateStats();
       renderTable();
       showMessage($('dashboard-message'), '상담내역을 삭제했습니다.', 'success');
     } catch (error) {
       console.error(error);
+
+      if (error?.status === 401 || error?.status === 403) {
+        signOut();
+        return;
+      }
+
       showMessage($('detail-message-box'), '삭제에 실패했습니다.', 'error');
     } finally {
       $('delete-button').disabled = false;
@@ -264,33 +355,67 @@
   }
 
   function exportCsv() {
-    const headers = ['접수일', '회사명', '담당자', '이메일', '연락처', '업종/공정', '상담분야', '문의내용', '상태', '관리자메모', '최종수정'];
+    const headers = [
+      '접수일',
+      '회사명',
+      '담당자',
+      '이메일',
+      '연락처',
+      '업종/공정',
+      '상담분야',
+      '문의내용',
+      '상태',
+      '관리자메모',
+      '최종수정'
+    ];
+
     const rows = consultations.map((row) => [
-      formatDate(row.created_at), row.company, row.contact_name, row.email, row.phone,
-      row.industry, row.topic, row.message, row.status, row.admin_note, formatDate(row.updated_at)
+      formatDate(row.created_at),
+      row.company,
+      row.contact_name,
+      row.email,
+      row.phone,
+      row.industry,
+      row.topic,
+      row.message,
+      row.status,
+      row.admin_note,
+      formatDate(row.updated_at)
     ]);
-    const csv = '\uFEFF' + [headers, ...rows].map((row) => row.map(csvSafe).join(',')).join('\r\n');
+
+    const csv = '\uFEFF' + [headers, ...rows]
+      .map((row) => row.map(csvSafe).join(','))
+      .join('\r\n');
+
     const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
-    const date = new Date().toISOString().slice(0, 10);
+
     a.href = url;
-    a.download = `energy-consultations-${date}.csv`;
+    a.download = `energy-consultations-${new Date().toISOString().slice(0, 10)}.csv`;
+
     document.body.appendChild(a);
     a.click();
     a.remove();
     URL.revokeObjectURL(url);
   }
 
-  async function signOut() {
-    if (window.energySupabase) await window.energySupabase.auth.signOut();
+  function signOut() {
+    adminToken = '';
     consultations = [];
+    selectedId = null;
+    sessionStorage.removeItem(TOKEN_KEY);
     showPanel('login');
   }
 
   async function init() {
-    if (!window.energySupabaseReady || !window.energySupabase) {
+    if (!apiBase()) {
       showPanel('config');
+      return;
+    }
+
+    if (!adminToken) {
+      showPanel('login');
       return;
     }
 
@@ -300,31 +425,55 @@
     } catch (error) {
       console.error(error);
       showPanel('login');
-      showMessage($('login-message'), 'Supabase 연결 또는 권한 확인에 실패했습니다. 설정을 확인해 주세요.', 'error');
+      showMessage($('login-message'), 'Cloudflare D1 상담 API 연결을 확인해 주세요.', 'error');
     }
   }
 
   $('login-form').addEventListener('submit', async (event) => {
     event.preventDefault();
-    const formData = new FormData(event.currentTarget);
-    const email = String(formData.get('email') || '').trim();
-    const password = String(formData.get('password') || '');
-    const button = event.currentTarget.querySelector('button[type="submit"]');
+
+    // 중요:
+    // async/await 이후에는 event.currentTarget이 null이 될 수 있으므로
+    // 시작 시점에 form 참조를 별도 변수로 보관합니다.
+    const form = event.currentTarget;
+    const formData = new FormData(form);
+    const token = String(formData.get('token') || '').trim();
+
+    if (!token) {
+      showMessage($('login-message'), '관리자 Access Key를 입력해 주세요.', 'error');
+      return;
+    }
+
+    const button = form.querySelector('button[type="submit"]');
     button.disabled = true;
+
     showMessage($('login-message'), '로그인 중입니다.', 'success');
 
+    adminToken = token;
+
     try {
-      const { error } = await window.energySupabase.auth.signInWithPassword({ email, password });
-      if (error) throw error;
-      const ok = await ensureAdmin();
-      if (ok) {
-        showMessage($('login-message'), '');
-        await loadConsultations();
-      }
+      await apiFetch('/api/admin/session');
+      sessionStorage.setItem(TOKEN_KEY, adminToken);
+
+      showPanel('dashboard');
+      $('session-label').textContent = 'Cloudflare D1 관리자 세션으로 로그인되어 있습니다.';
+      showMessage($('login-message'), '');
+
+      await loadConsultations();
+
+      // event.currentTarget.reset() 대신 저장해 둔 form 참조 사용
+      form.reset();
     } catch (error) {
       console.error(error);
+      adminToken = '';
+      sessionStorage.removeItem(TOKEN_KEY);
       showPanel('login');
-      showMessage($('login-message'), '로그인에 실패했습니다. 이메일과 비밀번호를 확인해 주세요.', 'error');
+
+      if (error?.status === 401 || error?.status === 403) {
+        showMessage($('login-message'), '관리자 Access Key가 올바르지 않습니다.', 'error');
+      } else {
+        showMessage($('login-message'), 'Cloudflare D1 상담 API 연결을 확인해 주세요.', 'error');
+      }
     } finally {
       button.disabled = false;
     }
@@ -332,26 +481,42 @@
 
   $('logout-button').addEventListener('click', signOut);
   $('denied-logout-button').addEventListener('click', signOut);
-  $('refresh-button').addEventListener('click', () => loadConsultations().catch((error) => {
-    console.error(error);
-    showMessage($('dashboard-message'), '상담목록을 새로고침하지 못했습니다.', 'error');
-  }));
+
+  $('refresh-button').addEventListener('click', () => {
+    loadConsultations().catch((error) => {
+      console.error(error);
+      showMessage($('dashboard-message'), '상담목록을 새로고침하지 못했습니다.', 'error');
+    });
+  });
 
   $('search-input').addEventListener('input', renderTable);
+
   $('status-filter').addEventListener('change', () => {
-    document.querySelectorAll('.stat-card').forEach((x) => x.classList.toggle('active', x.dataset.status === $('status-filter').value));
+    document.querySelectorAll('.stat-card').forEach((x) => {
+      x.classList.toggle('active', x.dataset.status === $('status-filter').value);
+    });
     renderTable();
   });
+
   $('filter-reset').addEventListener('click', () => {
     $('search-input').value = '';
     $('status-filter').value = '전체';
-    document.querySelectorAll('.stat-card').forEach((x) => x.classList.toggle('active', x.dataset.status === '전체'));
+
+    document.querySelectorAll('.stat-card').forEach((x) => {
+      x.classList.toggle('active', x.dataset.status === '전체');
+    });
+
     renderTable();
   });
+
   document.querySelectorAll('.stat-card').forEach((button) => {
     button.addEventListener('click', () => {
       $('status-filter').value = button.dataset.status;
-      document.querySelectorAll('.stat-card').forEach((x) => x.classList.toggle('active', x === button));
+
+      document.querySelectorAll('.stat-card').forEach((x) => {
+        x.classList.toggle('active', x === button);
+      });
+
       renderTable();
     });
   });
