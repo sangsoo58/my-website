@@ -56,3 +56,6 @@
     .then(rows=>{ const item=Array.isArray(rows)?rows.find(x=>x.caseId===caseId):null; render(Boolean(item&&item.bookIncluded)); })
     .catch(()=>render(no<=82));
 })();
+
+/* CASE01~88 related consulting services — safe one-time loader */
+(()=>{if(!/^\/(?:en\/)?cases\/case\d{2}\.html$/i.test(location.pathname))return;if(document.getElementById('eo-case-consulting-loader'))return;const s=document.createElement('script');s.id='eo-case-consulting-loader';s.src='/assets/case-consulting-links.js?v=20261019';s.defer=true;document.body.appendChild(s)})();
