@@ -1,1 +1,41 @@
-(()=>{'use strict';const data=window.KO_REVISED_INDEX;if(!data)return;const total=data.total,$=id=>document.getElementById(id),sheet=$('sheet'),pg=$('pg');let page=1,onCover=false;const bounded=n=>Math.max(1,Math.min(total,Number.parseInt(n,10)||1));const byPage=[...data.cases].sort((a,b)=>a.page-b.page);function show(n,push=true){onCover=false;page=bounded(n);const img=new Image();img.alt='한국어판 개정 준비 원고 PDF '+page+'페이지';img.decoding='async';img.draggable=false;img.onerror=()=>{sheet.replaceChildren(Object.assign(document.createElement('div'),{className:'loading',textContent:'페이지 이미지를 불러오지 못했습니다. 업로드 경로를 확인해 주세요.'}))};img.src='pages/p'+String(page).padStart(3,'0')+'.webp';sheet.replaceChildren(img);const mark=document.createElement('div');mark.className='wm';mark.textContent='개정 준비 원고 · www.energy-ai-optimization.com';sheet.append(mark);pg.value=page;$('foot').textContent=page+' / '+total;$('prev').disabled=page===1;$('next').disabled=page===total;const active=byPage.filter(x=>x.page<=page).pop();const nextCh=data.chapters.some(x=>x.page>active?.page&&x.page<=page);const nextCase=byPage.find(x=>x.page>(active?.page||0));const related=$('related');if(active&&(!nextCh)&&page<=(nextCase?.page||total+1)-1&&active.webUrl){$('webcase').href=active.webUrl;$('webcase').textContent='웹 CASE'+String(active.number).padStart(2,'0')+' 보기';related.classList.add('active')}else{related.classList.remove('active')}if(push){const u=new URL(location.href);u.searchParams.set('p',page);history.pushState({},'',u)}window.scrollTo(0,0)}$('prev').onclick=()=>show(onCover?1:page-1);$('next').onclick=()=>show(onCover?1:page+1);pg.onchange=()=>show(pg.value);for(const id of ['parts','chapters','cases']){$(id).onchange=e=>{if(e.target.value)show(e.target.value)}}document.addEventListener('keydown',e=>{if(e.target.closest('input,select,textarea'))return;if(e.key==='ArrowLeft')show(page-1);if(e.key==='ArrowRight')show(page+1)});window.addEventListener('popstate',()=>{const q=new URLSearchParams(location.search);if(q.has('p'))show(q.get('p'),false);else showCover()});function showCover(){onCover=true;page=1;const box=document.createElement('div');box.className='coverstart';const img=document.createElement('img');img.src='cover.webp';img.alt='데이터로 찾는 산업·건물 에너지절감 한국어판 표지';img.width=750;img.height=1014;const btn=document.createElement('a');btn.className='startbtn';btn.href='?p=1';btn.textContent='본문 읽기 시작';btn.addEventListener('click',e=>{e.preventDefault();show(1)});const note=document.createElement('p');note.className='coverhint';note.textContent='표지 다음부터 PDF 1~582쪽을 열람합니다. Chapter·CASE 시작 페이지는 변경되지 않습니다.';box.append(img,btn,note);sheet.replaceChildren(box);pg.value=1;$('foot').textContent='표지 / '+total;$('prev').disabled=true;$('next').disabled=false;$('related').classList.remove('active')}const q=new URLSearchParams(location.search);if(q.has('p'))show(q.get('p'),false);else showCover()})();
+(()=>{
+'use strict';
+const data=window.KO_REVISED_INDEX;
+if(!data||!Array.isArray(data.chapters)||!Array.isArray(data.cases))return;
+const total=Number(data.total)||582;
+const $=id=>document.getElementById(id);
+const sheet=$('sheet'), input=$('page');
+let page=0; // cover is separate; manuscript page references remain 1–582.
+const chapters=data.chapters;
+const cases=data.cases;
+function bounded(value){const n=Number(value);return Number.isFinite(n)?Math.min(total,Math.max(0,Math.trunc(n))):0}
+function show(n,push=true){
+ page=bounded(n);
+ const img=new Image();img.decoding='async';img.draggable=false;
+ img.alt=page===0?'한국어 개정 준비 원고 앞표지':'데이터로 찾는 산업·건물 에너지절감 PDF '+page+'페이지';
+ img.onerror=()=>{const box=document.createElement('div');box.className='loading';box.textContent='페이지 이미지를 불러오지 못했습니다. 연결 상태를 확인해 주세요.';sheet.replaceChildren(box)};
+ img.src=page===0?'cover.webp':'pages/p'+String(page).padStart(3,'0')+'.webp';
+ sheet.replaceChildren(img);
+ input.value=page||'';
+ input.placeholder=page===0?'표지':'1';
+ $('foot').textContent=(page===0?'표지':page)+' / '+total;
+ $('prev').disabled=page===0;$('next').disabled=page===total;
+ const active=[...cases].sort((a,b)=>a.page-b.page).filter(x=>x.page<=page).pop();
+ const following=chapters.some(c=>c.page>(active?.page||0)&&c.page<=page);
+ const link=$('related-case');
+ if(page>0&&active&&!following&&active.webUrl){link.href=active.webUrl;link.textContent='웹 CASE'+String(active.number).padStart(2,'0')+' 보기';}
+ else {link.href='/cases/';link.textContent='웹 CASE Library 보기';}
+ if(push){const url=new URL(location.href);if(page===0)url.searchParams.delete('p');else url.searchParams.set('p',String(page));history.pushState(null,'',url)}
+ window.scrollTo(0,0);
+}
+for(const ch of chapters){$('jump').add(new Option('Chapter '+ch.number+' · '+ch.title,ch.page));}
+for(const c of [...cases].sort((a,b)=>a.number-b.number)){$('case-jump').add(new Option('CASE'+String(c.number).padStart(2,'0')+' · '+c.title,c.page));}
+$('prev').onclick=()=>show(page-1);
+$('next').onclick=()=>show(page+1);
+input.onchange=()=>show(input.value||0);
+$('jump').onchange=e=>{if(e.target.value)show(e.target.value)};
+$('case-jump').onchange=e=>{if(e.target.value)show(e.target.value)};
+document.addEventListener('keydown',e=>{if(e.target.closest('input,select,textarea')||e.ctrlKey||e.metaKey||e.altKey)return;if(e.key==='ArrowLeft'){e.preventDefault();show(page-1)}if(e.key==='ArrowRight'){e.preventDefault();show(page+1)}});
+window.addEventListener('popstate',()=>show(new URLSearchParams(location.search).get('p')||0,false));
+const requested=new URLSearchParams(location.search).get('p');show(requested===null?0:requested,false);
+})();
